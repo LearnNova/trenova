@@ -21,24 +21,6 @@ const ManageSchools = () => {
   const { data, refetch, isLoading, error } = useGetUsersQuery();
   const [deleteUser] = useDeleteUserMutation();
 
-  // Memoize the schoolData array
-  // const schoolData = useMemo(
-  //   () => [
-  //     {
-  //       _id: "65td88746q07e5ehhh34e0xx477d8ee",
-  //       name: "Example School 1",
-  //       username: "example_user1",
-  //       email: "example1@example.com",
-  //       code: "12345",
-  //       point: 100,
-  //       role: "schoolAdmin",
-  //       photo: "school1.jpg",
-  //     },
-  //     // Add more school data here
-  //   ],
-  //   []
-  // );
-  console.log("schoool", data);
   useEffect(() => {
     refetch();
     if (!isLoading && data) {
@@ -52,6 +34,8 @@ const ManageSchools = () => {
           point: school.point,
           role: school.role,
           isActivated: school.isActivated,
+          usedSpace: `${school.usedSpace}MB`,
+          availableSpace: `${school.availableSpace}MB`,
         };
       });
       setRows(updatedRows);
@@ -65,7 +49,9 @@ const ManageSchools = () => {
     { field: "code", headerName: "Code", width: 80 },
     { field: "point", headerName: "Point", width: 80 },
     { field: "role", headerName: "Role", width: 110 },
-    { field: "isActivated", headerName: "isActivated", width: 100 },
+    { field: "isActivated", headerName: "Active", width: 70 },
+    { field: "usedSpace", headerName: "usedSpace", width: 100 },
+    { field: "availableSpace", headerName: "availableSpace", width: 100 },
     {
       field: "Action",
       headerName: "Actions",
@@ -139,7 +125,7 @@ const ManageSchools = () => {
   }, []);
 
   return (
-    <div className="m-auto mt-10 max-w-[1250px] text-xl">
+    <div className="m-auto mt-10 max-w-[1500px] text-xl">
       <button className="rounded-lg bg-gold p-2 text-white">
         + Add School
       </button>
@@ -150,13 +136,22 @@ const ManageSchools = () => {
           {error?.data?.message || error.error}
         </Message>
       ) : (
-        <div className="mt-5" style={{ height: 520, width: "100%" }}>
+        <div className="mt-5 " style={{ height: 520, width: "100%" }}>
           <DataGrid
             rows={rows}
             columns={columns}
             pageSizeOptions={[9, 20]}
             checkboxSelection
             disableRowSelectionOnClick
+            sx={{
+              backgroundColor: "#F5F5F5",
+              boxShadow: 2,
+              border: 2,
+              borderColor: "#d97706",
+              "& .MuiDataGrid-cell:hover": {
+                color: "primary.main",
+              },
+            }}
           />
         </div>
       )}

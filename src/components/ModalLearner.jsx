@@ -20,7 +20,7 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
     formState: { errors, isSubmitting },
     setValue,
   } = useForm();
-  const [updateUser] = useUpdateLearnerMutation();
+  const [updateLearner, { error }] = useUpdateLearnerMutation();
 
   useEffect(() => {
     if (isOpen && learner) {
@@ -39,11 +39,17 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
 
       if (learner && learner.id) {
         // Update existing learner
-        const res = await updateUser({
+        const res = await updateLearner({
           id: learner.id,
           data: data,
-        });
-        toast.success("Learner updated successfully");
+        })
+          .unwrap()
+          .then((payload) => toast.success("Learner updated successfully"))
+          .catch((error) =>
+            error.status == 401
+              ? toast.error("Unauthorized")
+              : toast.error(error?.data?.message || "something went rong")
+          );
       } else {
         const res = await learnersignup(data).unwrap();
 

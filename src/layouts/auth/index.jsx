@@ -25,7 +25,7 @@ export default function Auth() {
           <div className="relative flex">
             <div className="mx-auto flex min-h-full w-full flex-col justify-start pt-12 md:max-w-[75%]  lg:max-w-[1013px] lg:px-8 lg:pt-0  xl:max-w-[1383px] xl:px-0 xl:pl-[70px]">
               <div className="mb-auto flex flex-col pl-5 pr-5 md:pr-0 md:pl-12 lg:max-w-[48%] lg:pl-0 xl:max-w-full">
-                <Link to="/admin" className="mt-0 w-max lg:pt-10">
+                <Link to="/" className="mt-0 w-max lg:pt-10">
                   <div className="mx-auto flex h-fit w-fit items-center hover:cursor-pointer">
                     <svg
                       width="8"
@@ -39,9 +39,7 @@ export default function Auth() {
                         fill="#A3AED0"
                       />
                     </svg>
-                    <p className="text-sm ml-3 text-gray-600">
-                      Back to Dashboard
-                    </p>
+                    <p className="text-sm ml-3 text-gray-600">Back to Home</p>
                   </div>
                 </Link>
                 <Routes>
@@ -53,7 +51,7 @@ export default function Auth() {
                 </Routes>
                 <div className="absolute right-0 hidden h-full min-h-screen md:block lg:w-[49vw] 2xl:w-[44vw]">
                   <div
-                    className="absolute my-[20vh] flex h-full w-full justify-center bg-cover bg-center  lg:h-screen lg:rounded-bl-[120px] xl:h-[100vh] xl:rounded-bl-[200px]"
+                    className="absolute  flex h-full w-full justify-center bg-cover bg-center  lg:h-screen lg:rounded-bl-[120px] xl:h-[100vh] xl:rounded-bl-[200px]"
                     style={{ backgroundImage: `url(${authImg})` }}
                   />
                 </div>

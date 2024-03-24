@@ -3,11 +3,18 @@ import { useCreateCourseMutation } from "../../../redux/api/CoursesApiSlice";
 import { toast } from "react-hot-toast";
 import { useSelector } from "react-redux";
 import { uploadFileToS3 } from "utils/aws";
+import { useGetUserDetailsQuery } from "../../../redux/api/usersApiSlice";
 
 const CourseForm = () => {
+  const { userInfo } = useSelector((state) => state.auth);
+  const { data, isError } = useGetUserDetailsQuery(userInfo._id);
+  const [totalUploadSize, setTotalUploadSize] = useState("");
+  const [uploadProgress, setUploadProgress] = useState(0);
+  const [isUploaded, setIsUploaded] = useState(false);
   const [courseData, setCourseData] = useState({
     name: "",
-    school: "65d8862c07e5e34e0477d8d4",
+    school: userInfo._id,
+    uploadSize: "",
     term: "",
     class: "",
     type: "video",
@@ -40,7 +47,6 @@ const CourseForm = () => {
   ];
 
   const termOptions = ["1", "2", "3"];
-
   const [courseCreate, { isLoading }] = useCreateCourseMutation();
   const handleInputChange = (
     index,
@@ -128,11 +134,18 @@ const CourseForm = () => {
     }));
   };
 
-  const handleRemoveField = (index, field) => {
+  const handleRemoveField = async (index, field) => {
     const newData = [...courseData.content];
-    newData[index][field.split("[")[0]].splice(index, 1);
+    console.log("newData", newData);
+
+    const fieldName = field.split("[")[0]; // Extract the field name (e.g., "lessons")
+    const lessonIndex = parseInt(field.match(/\[(\d+)\]/)[1], 10); // Extract the lesson index
+
+    newData[index][fieldName].splice(lessonIndex, 1); // Remove the specified lesson
+
     setCourseData({ ...courseData, content: newData });
   };
+
   const handleRemoveWeek = (index) => {
     const newData = [...courseData.content];
     newData.splice(index, 1);
@@ -156,55 +169,109 @@ const CourseForm = () => {
     updatedContent[weekIndex].questions[questionIndex].file = file;
     setCourseData({ ...courseData, content: updatedContent });
   };
-  useEffect(() => {
-    console.log("courseData upload", courseData);
-  }, [courseData]);
+  // useEffect(() => {
+  //   console.log("courseData upload", courseData);
+  //   console.log("totalUploadSize", totalUploadSize);
+  // }, [courseData, totalUploadSize]);
   const handleUpload = async () => {
+    const result = handleSizecheck();
+    console.log("upload size", result);
+
     // Upload files before submitting course data
-    const UploadingToast = toast.loading("uploading data");
-    const updatedContent = await Promise.all(
-      courseData.content.map(async (week) => {
-        const updatedLessons = await Promise.all(
-          week.lessons.map(async (lesson) => {
-            if (lesson.content instanceof File) {
-              const fileUrl = await uploadFileToS3(lesson.content);
+    if (
+      data &&
+      data.data.user.usedSpace + result < data.data.user.availableSpace
+    ) {
+      const UploadingToast = toast.loading("uploading data");
+      const updatedContent = await Promise.all(
+        courseData.content.map(async (week) => {
+          const updatedLessons = await Promise.all(
+            week.lessons.map(async (lesson) => {
+              if (lesson.content instanceof File) {
+                const fileUrl = await uploadFileToS3(
+                  lesson.content,
+                  (progress) => {
+                    setUploadProgress((progress.loaded / progress.total) * 100);
+                  }
+                );
 
-              return { ...lesson, content: fileUrl };
-            }
-            return lesson;
-          })
-        );
+                return { ...lesson, content: fileUrl };
+              }
+              return lesson;
+            })
+          );
 
-        const updatedQuestions = await Promise.all(
-          week.questions.map(async (question) => {
-            if (question.isFile && question.text) {
-              const fileUrl = await uploadFileToS3(question.text);
-              return {
-                ...question,
-                text: fileUrl,
-              };
-            }
-            return question;
-          })
-        );
-        toast.dismiss(UploadingToast);
+          const updatedQuestions = await Promise.all(
+            week.questions.map(async (question) => {
+              if (question.isFile && question.text) {
+                const fileUrl = await uploadFileToS3(question.text);
+                return {
+                  ...question,
+                  text: fileUrl,
+                };
+              }
+              return question;
+            })
+          );
+          toast.dismiss(UploadingToast);
+          setIsUploaded(true);
+          return {
+            ...week,
+            lessons: updatedLessons,
+            questions: updatedQuestions,
+          };
+        })
+      );
+      toast.success("uploaded successfully kindly create course");
+      // Update courseData with uploaded file URLs
+      setCourseData({
+        ...courseData,
+        content: updatedContent,
+        uploadSize: result,
+      });
+    } else {
+      toast.error(
+        `Strorage Quota Limit Exceeded. contact trenova admin ${result}MB`
+      );
+    }
+  };
+  const handleSizecheck = () => {
+    let cumulativeSizeMB = 0; // Initialize with zero for size check
 
-        return {
-          ...week,
-          lessons: updatedLessons,
-          questions: updatedQuestions,
-        };
-      })
-    );
-    toast.success("uploaded successfully kindly create course");
-    // Update courseData with uploaded file URLs
-    setCourseData({ ...courseData, content: updatedContent });
+    // Iterate through course data to calculate file sizes
+    courseData.content.forEach((week) => {
+      week.lessons.forEach((lesson) => {
+        if (lesson.content instanceof File) {
+          // Calculate file size in MB and add it to the cumulative size
+          const fileSizeMB = lesson.content.size / (1024 * 1024); // Convert bytes to megabytes
+          cumulativeSizeMB += fileSizeMB;
+        }
+      });
+
+      week.questions.forEach((question) => {
+        if (question.isFile && question.text instanceof File) {
+          // Calculate file size in MB and add it to the cumulative size
+          const fileSizeMB = question.text.size / (1024 * 1024); // Convert bytes to megabytes
+          cumulativeSizeMB += fileSizeMB;
+        }
+      });
+    });
+
+    // Update totalUploadSize state with the cumulative size in MB (optional)
+    setTotalUploadSize(cumulativeSizeMB);
+    // setCourseData({ ...courseData, uploadSize: cumulativeSizeMB });
+
+    // Return the cumulative size in MB
+    return cumulativeSizeMB;
   };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     // Now submit the updated courseData
-
+    if (!isUploaded) {
+      toast.error("Kindy Upload data before submitting");
+      throw new Error("Kindy Upload data before submitting");
+    }
     try {
       const res = await courseCreate(courseData).unwrap();
       toast.success("Course created successfully");
@@ -217,7 +284,7 @@ const CourseForm = () => {
     <div className="rounded-lg border bg-white p-8 shadow-md ">
       <h2 className="mb-4 text-xl font-bold">Create Course</h2>
       <form onSubmit={handleSubmit}>
-        <div className="mb-4 flex gap-3">
+        <div className="mb-4  flex flex-col gap-3 sm:flex-row">
           <div>
             <label
               htmlFor="name"
@@ -228,6 +295,7 @@ const CourseForm = () => {
             <input
               type="text"
               id="name"
+              required
               name="name"
               value={courseData.name}
               onChange={(e) =>
@@ -295,7 +363,7 @@ const CourseForm = () => {
                 {week.lessons.map((lesson, lessonIndex) => (
                   <div key={lessonIndex} className="mb-4">
                     <input
-                      className="mx-2 mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
+                      className="mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500 sm:mx-2"
                       required
                       type="text"
                       placeholder="Lesson number"
@@ -311,7 +379,7 @@ const CourseForm = () => {
                       }
                     />
                     <input
-                      className="mx-2 mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
+                      className="mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500 sm:mx-2"
                       required
                       type="text"
                       placeholder="Lesson title"
@@ -326,7 +394,7 @@ const CourseForm = () => {
                         )
                       }
                     />
-                    <input
+                    {/* <input
                       className="mx-2 mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
                       required
                       type="text"
@@ -341,10 +409,15 @@ const CourseForm = () => {
                           "content"
                         )
                       }
-                    />{" "}
+                    /> */}
                     <input
+                      className="w-full sm:w-auto"
                       type="file"
-                      accept=".pdf,.doc,.docx,.txt,.mp4"
+                      accept={
+                        userInfo.role == "admin"
+                          ? ".pdf,.doc,.docx,.txt,.mp4"
+                          : ".pdf,.doc,.docx,.txt"
+                      }
                       onChange={(e) => {
                         const file = e.target.files[0];
                         // Update the lesson content with the selected file
@@ -377,9 +450,12 @@ const CourseForm = () => {
                 </button>
                 <hr className="my-2 w-full border-solid border-gold" />
                 {week.questions.map((question, questionIndex) => (
-                  <div>
-                    <div key={questionIndex} className="mb-4 flex">
-                      {question.isFile ? (
+                  <div className="mb-2">
+                    <div
+                      key={questionIndex}
+                      className="mb-4 flex flex-col sm:flex-row"
+                    >
+                      {question.isFile && userInfo.role === "admin" ? (
                         <input
                           type="file"
                           accept=".pdf,.doc,.docx,.mp4"
@@ -402,6 +478,7 @@ const CourseForm = () => {
                         />
                       ) : (
                         <textarea
+                          className="rounded-lg border-2 border-gold p-2"
                           placeholder="Enter question text"
                           value={question.text}
                           onChange={(e) =>
@@ -417,15 +494,20 @@ const CourseForm = () => {
                       )}
                       <button
                         type="button"
+                        className=" p-2 text-gold"
                         onClick={() => toggleQuestionType(index, questionIndex)}
                       >
-                        {question.isFile ? "Switch to text" : "Switch to file"}
+                        {userInfo.role === "admin"
+                          ? question.isFile
+                            ? "Text"
+                            : "File"
+                          : null}
                       </button>
                       <div>
                         {question.options.map((option, optionIndex) => (
                           <div key={optionIndex}>
                             <input
-                              className="mx-2 mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
+                              className="mt-1 rounded-md border border-orange-300 p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500 sm:mx-2"
                               required
                               type="text"
                               placeholder={`Option ${optionIndex + 1}`}
@@ -461,24 +543,20 @@ const CourseForm = () => {
                       {/* Other question fields */}
                     </div>
                     <button
+                      className="mb-2 rounded-lg bg-green-300 p-2 text-white"
                       type="button"
                       onClick={() => handleAddOption(index, questionIndex)}
                     >
                       + Add Option
                     </button>
-                    <button
-                      type="button"
-                      onClick={() => handleRemoveQuestion(index, questionIndex)}
-                      className="text-sm  mx-2 text-red-600"
-                    >
-                      Remove Question
-                    </button>
-
+                    <span className="p-2 text-green-700">Correct Option</span>
                     <input
                       max={10}
                       min={1}
                       type="number"
+                      required
                       placeholder="Correct Option"
+                      className="mb-2 min-w-[30px] rounded-lg border-2 border-gold"
                       value={question.correctOption}
                       onChange={(e) =>
                         handleInputChange(
@@ -490,6 +568,17 @@ const CourseForm = () => {
                         )
                       }
                     />
+                    <div>
+                      <button
+                        type="button"
+                        onClick={() =>
+                          handleRemoveQuestion(index, questionIndex)
+                        }
+                        className="text-sm rounded-lg bg-red-500 p-2 text-white"
+                      >
+                        Remove Question
+                      </button>
+                    </div>
                   </div>
                 ))}
                 <button
@@ -523,7 +612,8 @@ const CourseForm = () => {
           onClick={handleUpload}
           className="mr-2 mt-4 rounded bg-cyan-400 py-2 px-4 font-semibold text-white hover:bg-gold"
         >
-          Upload files
+          Upload files{" "}
+          {uploadProgress > 0 && <p>Upload Progress: {uploadProgress}%</p>}
         </button>
         <button
           type="submit"

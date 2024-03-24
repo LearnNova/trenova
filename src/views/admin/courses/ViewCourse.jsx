@@ -56,8 +56,8 @@ const ViewCourse = () => {
                       <embed
                         src={lesson.content}
                         type="application/pdf"
-                        width="250"
-                        height="200"
+                        width="250px"
+                        height="200px"
                       />
                     ) : (
                       <video

@@ -22,6 +22,7 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
       setValue("name", school.name);
       setValue("username", school.username);
       setValue("point", school.point);
+      setValue("availableSpace", school.availableSpace);
       // setValue("isActivated", school.isActivated);
     }
     console.log("school", school);
@@ -111,6 +112,18 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
                         label="name*"
                         placeholder="Trenova"
                         id="name"
+                        required
+                        type="text"
+                        register={register}
+                      />
+                      <InputField
+                        variant="auth"
+                        extra="mb-3"
+                        label="availableSpace
+                        *"
+                        placeholder="available Space
+                        "
+                        id="availableSpace"
                         required
                         type="text"
                         register={register}

@@ -7,8 +7,8 @@ import Upload from "./components/Upload";
 
 const ProfileOverview = () => {
   return (
-    <div className="mx-auto flex w-1/2 flex-col justify-center gap-5 ">
-      <div className=" mt-3 ">
+    <div className="mx-auto flex w-full flex-row justify-center gap-5 ">
+      <div className=" mt-3 w-1/2 ">
         <div className=" lg:!mb-0">
           <Banner />
         </div>
@@ -20,6 +20,9 @@ const ProfileOverview = () => {
         <div className="z-0 col-span-5 lg:!mb-0">
           <Upload />
         </div> */}
+      </div>
+      <div className="col-span-3 lg:!mb-0">
+        <Storage />
       </div>
       {/* all project & ... */}
 

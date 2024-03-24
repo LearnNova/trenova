@@ -23,7 +23,7 @@ const Learners = () => {
   const [editingLearner, setEditingLearner] = useState(null);
   const [createLearner, setCreateLearner] = useState(false);
   const [deleteUser] = useDeleteLearnerMutation();
-  const [updateUser] = useUpdateLearnerMutation();
+  const [updateLearner] = useUpdateLearnerMutation();
   const [id, setId] = useState(null);
   const { data, refetch, isLoading, error } = useGetLearnersQuery(id);
 
@@ -142,12 +142,18 @@ const Learners = () => {
     console.log("toggle");
     try {
       toast("Activating Learner, Please wait!");
-      await updateUser({
+      await updateLearner({
         id: id,
         data: { isActivated: !isActivated },
-      });
+      })
+        .unwrap()
+        .then((payload) => toast.success(toast("Learner Activated!")))
+        .catch((error) =>
+          error.status == 401
+            ? toast.error("Unauthorized")
+            : toast.error(error?.data?.message || "something went rong")
+        );
       refetch();
-      toast("Learner Activated!");
     } catch (err) {
       toast.error(err?.data?.message || err.error);
     }
@@ -157,9 +163,15 @@ const Learners = () => {
     if (window.confirm("Are you sure")) {
       try {
         toast("Deleting Learner, Please wait!");
-        await deleteUser(id);
+        await deleteUser(id)
+          .unwrap()
+          .then((payload) => toast.success(toast("Learner Deleted!")))
+          .catch((error) =>
+            error.status == 401
+              ? toast.error("Unauthorized")
+              : toast.error(error?.data?.message || "something went rong")
+          );
         refetch();
-        toast("Learner Deleted!");
       } catch (err) {
         toast.error(err?.data?.message || err.error);
       }
@@ -167,7 +179,7 @@ const Learners = () => {
   }, []);
 
   return (
-    <div className="m-auto mt-10 max-w-[1350px] text-xl">
+    <div className="max-w-[1350px] m-auto mt-10 text-xl">
       <div className="flex justify-between">
         {/* <button
           className="rounded-lg bg-gold p-2 text-white"
@@ -211,6 +223,15 @@ const Learners = () => {
             pageSizeOptions={[9, 20]}
             checkboxSelection
             disableRowSelectionOnClick
+            sx={{
+              backgroundColor: "#F5F5F5",
+              boxShadow: 2,
+              border: 2,
+              borderColor: "#d97706",
+              "& .MuiDataGrid-cell:hover": {
+                color: "primary.main",
+              },
+            }}
           />
         </div>
       )}

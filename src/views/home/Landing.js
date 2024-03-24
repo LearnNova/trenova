@@ -79,8 +79,8 @@ const Landing = (props) => {
         <span className="font-bold text-gold">Cloud Software.</span>
       </div>
       <div className="text-2xl  max-md:max-w-full mt-4  text-center leading-10 text-gray-500">
-        TOTC is one powerful online software suite that combines all the tools
-        needed to run a successful school or office.
+        TRENOVA is one powerful online software suite that combines all the
+        tools needed to run a successful school or office.
       </div>
       <div className="max-md:mt-10 max-md:max-w-full mt-16 flex w-full max-w-[1470px] px-5">
         <div className="max-md:flex-col max-md:gap-0 flex w-full flex-col gap-5  sm:flex-row">
@@ -136,10 +136,10 @@ const Landing = (props) => {
         </div>
       </div>
       <div className=" mt-10 whitespace-nowrap text-center text-5xl font-semibold  text-teal-500">
-        What is <span className="text-teal-500">TOTC?</span>
+        What is <span className="text-teal-500">TRENOVA?</span>
       </div>
       <div className="text-2xl mt-10 text-center  leading-10 tracking-wide text-gray-500 sm:px-32">
-        TOTC is a platform that allows educators to create online classes
+        TRENOVA is a platform that allows educators to create online classes
         whereby they can store the course materials online; manage assignments,
         quizzes and exams; monitor due dates; grade results and provide students
         with feedback all in one place.
@@ -186,12 +186,12 @@ const Landing = (props) => {
             <div className="  my-auto flex flex-col px-5  text-gray-500">
               <span className=" mt-10  text-center text-5xl font-semibold  text-gold">
                 Everything you can do in a physical classroom, you can do with
-                TOTC
+                TRENOVA
               </span>
               <div className="text-2xl  max-md:max-w-full leading-10 tracking-wide">
-                TOTC’s school management software helps traditional and online
-                schools manage scheduling, attendance, payments and virtual
-                classrooms all in one secure cloud-based system.
+                TRENOVA’s school management software helps traditional and
+                online schools manage scheduling, attendance, payments and
+                virtual classrooms all in one secure cloud-based system.
               </div>
               <div className="text-2xl  mt-2 underline">Trenova</div>
             </div>
@@ -367,7 +367,7 @@ const Landing = (props) => {
           Lastest News and Resources
         </div>
         <div className="text-2xl max-md:mt-10 max-md:max-w-full mt-14 self-center text-center leading-10 text-gray-500">
-          See the developments that have occurred to TOTC in the world
+          See the developments that have occurred to TRENOVA in the world
         </div>
         <div className="max-md:mt-10 max-md:max-w-full mt-28">
           <div className="max-md:gap-0 max-md: flex flex-col gap-5 sm:flex-row">

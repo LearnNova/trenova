@@ -70,11 +70,6 @@ export default function SignUp() {
         <p className="text-base mb-9 ml-1 text-gray-600">
           Enter Credentials to sign up! Code to be gotten from Trenova admin
         </p>
-        <div className="mb-6 flex items-center  gap-3">
-          <div className="h-px w-full bg-gray-200 dark:bg-navy-700" />
-          <p className="text-base text-gray-600 dark:text-white"> </p>
-          <div className="h-px w-full bg-gray-200 dark:bg-navy-700" />
-        </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <InputField
             variant="auth"

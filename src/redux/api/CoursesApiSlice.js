@@ -25,9 +25,10 @@ export const courseApiSlice = apiSlice.injectEndpoints({
       keepUnusedDataFor: 5,
     }),
     deleteCourse: builder.mutation({
-      query: (courseId) => ({
-        url: `${COURSES_URL}/${courseId}`,
+      query: ({ id, data }) => ({
+        url: `${COURSES_URL}/${id}`,
         method: "DELETE",
+        body: data,
       }),
     }),
     getCourseDetails: builder.query({

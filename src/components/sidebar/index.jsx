@@ -2,10 +2,11 @@
 
 import { HiX } from "react-icons/hi";
 import Links from "./components/Links";
-
+import authImg from "assets/img/auth/auth.png";
 import SidebarCard from "components/sidebar/componentsrtl/SidebarCard";
 import { routes, teacherroutes, schoolroutes } from "routes.js";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Sidebar = ({ open, onClose }) => {
   const { userInfo } = useSelector((state) => state.auth);
@@ -24,9 +25,13 @@ const Sidebar = ({ open, onClose }) => {
       </span>
 
       <div className={`mx-[56px] mt-[50px] flex items-center`}>
-        <div className="mt-1 ml-1 h-2.5 font-poppins text-[26px] font-bold uppercase text-navy-700 dark:text-white">
-          Trenova <span className="font-medium"></span>
-        </div>
+        <Link
+          to="/"
+          className="mt-1 ml-1 h-2.5 font-poppins text-[26px] font-bold uppercase text-navy-700 dark:text-white"
+        >
+          Trenova
+          {/* <img alt="TRENOVA" className="h-20 " src={authImg} /> */}
+        </Link>
       </div>
       <div className="mt-[58px] mb-7 h-px bg-gray-300 dark:bg-white/30" />
       {/* Nav item */}

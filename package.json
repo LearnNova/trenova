@@ -9,6 +9,7 @@
     "@chakra-ui/portal": "^2.0.15",
     "@chakra-ui/system": "^2.3.5",
     "@chakra-ui/tooltip": "^2.2.6",
+    "@cyntler/react-doc-viewer": "^1.14.1",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.18",
@@ -62,6 +63,7 @@
     ]
   },
   "devDependencies": {
+    "@types/aria-query": "^5.0.4",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
     "prettier": "^2.8.3",

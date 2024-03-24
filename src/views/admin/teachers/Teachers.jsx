@@ -196,6 +196,15 @@ const Teachers = () => {
             pageSizeOptions={[9, 20]}
             checkboxSelection
             disableRowSelectionOnClick
+            sx={{
+              backgroundColor: "#F5F5F5",
+              boxShadow: 2,
+              border: 2,
+              borderColor: "#d97706",
+              "& .MuiDataGrid-cell:hover": {
+                color: "primary.main",
+              },
+            }}
           />
         </div>
       )}

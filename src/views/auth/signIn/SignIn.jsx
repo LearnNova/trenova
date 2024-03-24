@@ -222,12 +222,12 @@ export default function SignIn() {
                     Keep me logged In
                   </p>
                 </div>
-                <a
-                  className="text-sm font-medium text-brand-500 hover:text-brand-600 dark:text-white"
-                  href=" "
+                <p
+                  className="text-sm cursor-pointer font-medium text-brand-500 hover:text-brand-600 dark:text-white"
+                  onClick={() => toast.success("contact school admin")}
                 >
                   Forgot Password?
-                </a>
+                </p>
               </div>
               <button className="linear text-base mt-2 w-full rounded-xl bg-gold py-[12px] font-medium text-white transition duration-200 hover:bg-brand-600 active:bg-brand-700 dark:bg-brand-400 dark:text-white dark:hover:bg-brand-300 dark:active:bg-brand-200">
                 {isLoading ? "Signing In..." : "Sign In"}

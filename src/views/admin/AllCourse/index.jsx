@@ -169,7 +169,7 @@ const AllCourse = () => {
         </div>
 
         {/* Course card */}
-        <div className="z-20 grid grid-cols-1  gap-5 md:grid-cols-3 xl:grid-cols-5">
+        <div className="z-20 grid grid-cols-1  gap-5 md:grid-cols-3 xl:grid-cols-4">
           {courses.data ? (
             courses.data.map((course, index) => (
               <NftCard
@@ -181,6 +181,8 @@ const AllCourse = () => {
                 image={NFt3}
                 id={course._id}
                 refetch={refetch}
+                school={course.school}
+                course={course}
               />
             ))
           ) : isError ? (

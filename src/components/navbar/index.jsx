@@ -39,15 +39,15 @@ const Navbar = (props) => {
     <nav className="sticky top-4 z-40 flex flex-row flex-wrap items-center justify-between rounded-xl bg-white/10 p-2 backdrop-blur-xl dark:bg-[#0b14374d]">
       <div className="ml-[6px]">
         <div className="h-6 w-[224px] pt-1">
-          <a
+          <Link
             className="text-sm font-normal text-navy-700 hover:underline dark:text-white dark:hover:text-white"
-            href=" "
+            to="/admin"
           >
             Pages
             <span className="text-sm mx-1 text-navy-700 hover:text-navy-700 dark:text-white">
               /
             </span>
-          </a>
+          </Link>
           <Link
             className="text-sm font-normal capitalize text-navy-700 hover:underline dark:text-white dark:hover:text-white"
             to="#"
@@ -158,12 +158,12 @@ const Navbar = (props) => {
               <div className="h-px w-full bg-gray-200 dark:bg-white/20 " />
 
               <div className="flex flex-col p-4">
-                <a
-                  href=" "
+                <Link
+                  to="/admin/profile"
                   className="text-sm text-gray-800 dark:text-white hover:dark:text-white"
                 >
                   Profile Settings
-                </a>
+                </Link>
 
                 <Link
                   className="text-sm mt-3 font-medium text-red-500 transition duration-150 ease-out hover:text-red-500 hover:ease-in"
