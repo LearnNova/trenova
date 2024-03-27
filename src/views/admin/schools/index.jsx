@@ -35,7 +35,7 @@ const ManageSchools = () => {
           role: school.role,
           isActivated: school.isActivated,
           usedSpace: `${school.usedSpace}MB`,
-          availableSpace: `${school.availableSpace}MB`,
+          availableSpace: `${school.availableSpace}`,
         };
       });
       setRows(updatedRows);

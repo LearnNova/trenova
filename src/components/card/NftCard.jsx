@@ -111,7 +111,7 @@ const NftCard = ({
           </div>
 
           <div className=" md:mt-2 lg:mt-0">
-            {(school === "65e3614f928b5ff87f987b44" &&
+            {(school === "6603e6e06e7e286c38da1ea1" &&
               userInfo.role !== "admin") ||
             userInfo.role === "teacher" ? null : (
               <button
@@ -140,7 +140,7 @@ const NftCard = ({
               Term {term}
             </p>
           </div>
-          {(school === "65e3614f928b5ff87f987b44" &&
+          {(school === "6603e6e06e7e286c38da1ea1" &&
             userInfo.role !== "admin") ||
           userInfo.role === "teacher" ? null : (
             <button

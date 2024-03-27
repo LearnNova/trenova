@@ -18,7 +18,7 @@ import { toast } from "react-hot-toast";
 
 const AllCourse = () => {
   const [findClass, setfindClass] = useState("KG 1");
-  const [id, setId] = useState("65e3614f928b5ff87f987b44");
+  const [id, setId] = useState("6603e6e06e7e286c38da1ea1");
   const [term, setTerm] = useState(1);
   const classOptions = [
     "KG 1",
@@ -110,7 +110,7 @@ const AllCourse = () => {
                     onChange={(e) => setId(e.target.value)}
                     className="mt-1 w-full rounded-md border border-gold p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
                   >
-                    <option value="65e3614f928b5ff87f987b44">
+                    <option value="6603e6e06e7e286c38da1ea1">
                       Trenova Owned
                     </option>
                     {users.users.map((option, index) => (
