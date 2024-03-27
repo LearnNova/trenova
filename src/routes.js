@@ -100,13 +100,13 @@ export const routes = [
   //   icon: <MdPerson className="h-6 w-6" />,
   //   component: <ViewCourse />,
   // },
-  {
-    name: "upload",
-    layout: "/admin",
-    path: "upload",
-    icon: <MdPerson className="h-6 w-6" />,
-    component: <Upload />,
-  },
+  // {
+  //   name: "upload",
+  //   layout: "/admin",
+  //   path: "upload",
+  //   icon: <MdPerson className="h-6 w-6" />,
+  //   component: <Upload />,
+  // },
   {
     name: "Profile",
     layout: "/admin",

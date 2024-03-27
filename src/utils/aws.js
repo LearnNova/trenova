@@ -13,13 +13,14 @@ const s3 = new AWS.S3({
 const bucketName = "trenova";
 
 // Function to upload a file to DigitalOcean Spaces and return its location and size in KB
-export const uploadFileToS3 = async (file, onProgress) => {
+export const uploadFileToS3 = async (file, onProgress, UploadingToast) => {
   const fileKey = file.name;
 
   const params = {
     Bucket: bucketName,
     Key: fileKey,
     Body: file,
+    ACL: "public-read",
   };
 
   try {
@@ -34,7 +35,10 @@ export const uploadFileToS3 = async (file, onProgress) => {
 
     return response.Location;
   } catch (error) {
+    toast.error("Error uploading file. Please try again.");
     console.error("Error uploading file:", error);
+    toast.dismiss(UploadingToast);
+
     throw new Error("Error uploading file. Please try again.");
   }
 };

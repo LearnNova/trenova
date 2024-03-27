@@ -192,7 +192,8 @@ const CourseForm = () => {
                   lesson.content,
                   (progress) => {
                     setUploadProgress((progress.loaded / progress.total) * 100);
-                  }
+                  },
+                  UploadingToast
                 );
 
                 return { ...lesson, content: fileUrl };
@@ -204,7 +205,13 @@ const CourseForm = () => {
           const updatedQuestions = await Promise.all(
             week.questions.map(async (question) => {
               if (question.isFile && question.text) {
-                const fileUrl = await uploadFileToS3(question.text);
+                const fileUrl = await uploadFileToS3(
+                  question.text,
+                  (progress) => {
+                    setUploadProgress((progress.loaded / progress.total) * 100);
+                  },
+                  UploadingToast
+                );
                 return {
                   ...question,
                   text: fileUrl,
