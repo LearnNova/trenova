@@ -8,7 +8,7 @@ export function SidebarLinks(props) {
   // Chakra color mode
   let location = useLocation();
 
-  const { routes } = props;
+  const { routes, onClose } = props;
 
   // verifies if routeName is the one active (in browser input)
   const activeRoute = (routeName) => {
@@ -24,7 +24,11 @@ export function SidebarLinks(props) {
         // route.layout === "/rtl"
       ) {
         return (
-          <Link key={index} to={route.layout + "/" + route.path}>
+          <Link
+            onClick={onClose}
+            key={index}
+            to={route.layout + "/" + route.path}
+          >
             <div className="relative mb-3 flex hover:cursor-pointer">
               <li
                 className="my-[3px] flex cursor-pointer items-center px-8"

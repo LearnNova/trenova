@@ -37,11 +37,15 @@ const Sidebar = ({ open, onClose }) => {
       {/* Nav item */}
 
       <ul className="mb-auto pt-1">
-        {userInfo.role === "admin" ? <Links routes={routes} /> : null}
-        {userInfo.role === "schoolAdmin" ? (
-          <Links routes={schoolroutes} />
+        {userInfo.role === "admin" ? (
+          <Links routes={routes} onClose={onClose} />
         ) : null}
-        {userInfo.role === "teacher" ? <Links routes={teacherroutes} /> : null}
+        {userInfo.role === "schoolAdmin" ? (
+          <Links routes={schoolroutes} onClose={onClose} />
+        ) : null}
+        {userInfo.role === "teacher" ? (
+          <Links routes={teacherroutes} onClose={onClose} />
+        ) : null}
       </ul>
 
       {/* Free Horizon Card */}

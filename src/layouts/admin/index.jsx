@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Navbar from "components/navbar";
 import Sidebar from "components/sidebar";
@@ -85,11 +85,13 @@ export default function Admin(props) {
       }
     });
   };
-
+  const handleClose = useCallback(() => {
+    setOpen(false);
+  }, []);
   document.documentElement.dir = "ltr";
   return (
     <div className="flex h-full w-full">
-      <Sidebar open={open} onClose={() => setOpen(false)} />
+      <Sidebar open={open} onClose={handleClose} />
       {/* Navbar & Main Content */}
       <div className="h-full w-full bg-lightPrimary dark:!bg-navy-900">
         {/* Main Content */}
