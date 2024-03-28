@@ -28,6 +28,7 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
       setValue("username", learner.username);
       setValue("age", learner.age);
       setValue("class", learner.class);
+      setValue("maxDevice", learner.maxDevice);
     }
   }, [isOpen, learner, setValue]);
 
@@ -156,6 +157,14 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
                         placeholder="Min. 8 characters"
                         id="password"
                         type="password"
+                        register={register}
+                      />
+                      <InputField
+                        variant="auth"
+                        extra="mb-3"
+                        label="reset Device*"
+                        id="maxDevice"
+                        type="number"
                         register={register}
                       />
                       {/* Add other fields for creating/editing a learner */}

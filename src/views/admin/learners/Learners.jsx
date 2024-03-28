@@ -60,6 +60,7 @@ const Learners = () => {
           age: learner.age,
           role: learner.role,
           isActivated: learner.isActivated,
+          maxDevice: learner.maxDevice,
         };
       });
       setRows(updatedRows);
@@ -79,6 +80,7 @@ const Learners = () => {
     { field: "class", headerName: "Class", width: 120 },
     { field: "role", headerName: "Role", width: 100 },
     { field: "isActivated", headerName: "isActivated", width: 100 },
+    { field: "maxDevice", headerName: "maxDevice", width: 80 },
     {
       field: "Action",
       headerName: "Actions",
@@ -179,7 +181,7 @@ const Learners = () => {
   }, []);
 
   return (
-    <div className="max-w-[1350px] m-auto mt-10 text-xl">
+    <div className="m-auto mt-10 max-w-[1350px] text-xl">
       <div className="flex justify-between">
         {/* <button
           className="rounded-lg bg-gold p-2 text-white"

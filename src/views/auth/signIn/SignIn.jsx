@@ -157,7 +157,7 @@ export default function SignIn() {
 
               {/* Checkbox */}
               <div className="mb-4 flex items-center justify-between px-2">
-                <div className="flex items-center">
+                <div className=" hidden items-center sm:flex">
                   <Checkbox />
                   <p className="text-sm ml-2 font-medium text-navy-700 dark:text-white">
                     Keep me logged In
@@ -216,7 +216,7 @@ export default function SignIn() {
 
               {/* Checkbox */}
               <div className="mb-4 flex items-center justify-between px-2">
-                <div className="flex items-center">
+                <div className=" hidden items-center sm:flex">
                   <Checkbox />
                   <p className="text-sm ml-2 font-medium text-navy-700 dark:text-white">
                     Keep me logged In
