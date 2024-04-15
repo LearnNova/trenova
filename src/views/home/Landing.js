@@ -1,5 +1,8 @@
 import HomeNav from "components/navbar/HomeNav";
 import * as React from "react";
+import { BsWhatsapp } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import authImg from "assets/img/auth/auth.png";
 
 const Landing = (props) => {
   console.log("hjshdh");
@@ -7,7 +10,7 @@ const Landing = (props) => {
     <div className="flex flex-col items-center bg-red-100">
       <HomeNav />
 
-      <div className=" relative flex w-full flex-col items-center  rounded-b-[20.5rem] bg-gold">
+      <div className=" relative flex w-full flex-col items-center  bg-gold lg:rounded-b-[20.5rem]">
         {/* <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/5f7f5e149be377340a4f5206ac8db068dc5197832d8ab6921a98d202557ed051?"
@@ -15,22 +18,23 @@ const Landing = (props) => {
         /> */}
         <div className="z-10 flex flex-col sm:flex-row sm:gap-16">
           <div className="my-auto p-5 sm:p-0">
-            <img alt="" srcset="group2.png" className=" max-h-[70vh] " />
+            <img alt="" srcSet="group2.png" className=" max-h-[70vh] " />
           </div>
           <div>
             {" "}
-            <img alt="" srcset="group1.png" className=" max-h-[90vh] " />
+            <img alt="" srcSet="group1.png" className=" max-h-[90vh] " />
           </div>
         </div>
       </div>
 
-      <div className="text-slate-950 max-md:mt-10 max-md:text-4xl mt-8 whitespace-nowrap text-center text-5xl font-bold leading-[62.4px]">
+      <div className="text-slate-950 max-md:mt-10 max-md:text-4xl mt-8 whitespace-nowrap text-center text-5xl font-bold lg:leading-[62.4px]">
         Our Success
       </div>
-      <div className="text-slate-950  mt-4 justify-center text-center text-lg leading-7 text-opacity-80 sm:px-96">
-        Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae
-        sollicitudin at nec nam et pharetra gravida. Adipiscing a quis ultrices
-        eu ornare tristique vel nisl orci.{" "}
+      <div className="mt-4 justify-center px-4 text-justify text-gray-500 text-opacity-80 lg:px-96 lg:text-center lg:text-lg lg:leading-7">
+        Through innovative teaching methodologies and a dedicated faculty, we've
+        consistently achieved remarkable results. Our students have not only
+        excelled academically but have also emerged as confident, compassionate
+        individuals ready to make a positive impact on the world.
       </div>
       <div className=" mt-8 flex w-full justify-center gap-8 whitespace-nowrap px-5 sm:gap-16">
         <div className="flex  flex-col">
@@ -91,11 +95,11 @@ const Landing = (props) => {
               src="/group-80.svg"
             />
 
-            <div className="max-md:px-5 max-md:mt-10 max-md:max-w-full flex w-full grow flex-col rounded-3xl bg-white px-14 py-12 text-center shadow-2xl">
-              <div className="max-md:mt-10 mt-5 text-3xl font-medium text-indigo-900">
+            <div className="max-md:mt-10 max-md:max-w-full flex h-full w-full grow flex-col rounded-3xl bg-white px-2 py-12  text-center shadow-2xl lg:px-14">
+              <div className="mt-5 font-medium text-indigo-900 lg:text-3xl">
                 Online Billing, Invoicing, & Contracts
               </div>
-              <div className="mt-10 text-xl leading-9 text-gray-500">
+              <div className="mt-5 text-gray-500 lg:text-xl lg:leading-9">
                 Simple and secure control of your organization’s financial and
                 legal transactions. Send customized invoices and contracts
               </div>
@@ -107,11 +111,11 @@ const Landing = (props) => {
               alt=""
               src="/group-81.svg"
             />
-            <div className="max-md:px-5 max-md:mt-10 max-md:max-w-full flex w-full grow flex-col rounded-3xl bg-white px-11 py-12 text-center shadow-2xl">
-              <div className="max-md:mt-10 mt-5 self-center text-3xl font-medium text-indigo-900">
+            <div className="max-md:mt-10 max-md:max-w-full flex h-full w-full grow flex-col rounded-3xl bg-white px-2 py-12  text-center shadow-2xl lg:px-14">
+              <div className=" mt-5 self-center font-medium text-indigo-900 lg:text-3xl">
                 Easy Scheduling & Attendance Tracking
               </div>
-              <div className="mt-10 text-xl leading-9 text-gray-500">
+              <div className="mt-5 text-gray-500 lg:text-xl lg:leading-9">
                 Schedule and reserve classrooms at one campus or multiple
                 campuses. Keep detailed records of student attendance
               </div>
@@ -123,11 +127,11 @@ const Landing = (props) => {
               alt=""
               src="/group-79.svg"
             />
-            <div className="max-md:px-5 max-md:mt-10 max-md:max-w-full flex w-full grow flex-col rounded-3xl bg-white px-20 py-12 text-center shadow-2xl">
-              <div className="max-md:mt-10 mt-5 whitespace-nowrap text-3xl font-medium text-indigo-900">
+            <div className="max-md:mt-10 max-md:max-w-full flex h-full w-full grow flex-col rounded-3xl bg-white px-2 py-12  text-center shadow-2xl lg:px-14">
+              <div className=" mt-5 whitespace-nowrap font-medium text-indigo-900 lg:text-3xl">
                 Customer Tracking
               </div>
-              <div className="max-md:mt-10 mt-14 text-xl leading-9 text-gray-500">
+              <div className="mt-5 text-gray-500 lg:text-xl lg:leading-9">
                 Automate and track emails to individuals or groups. Skilline’s
                 built-in system helps organize your organization{" "}
               </div>
@@ -264,7 +268,7 @@ const Landing = (props) => {
           </div>
         </div>
       </div>
-      <div className="mx-5 flex flex-col sm:mx-16 sm:flex-row">
+      <div className="ju mx-5 flex flex-col sm:mx-16 sm:flex-row">
         <div className="my-auto">
           <div className="text-4xl  max-md:max-w-full relative text-center font-bold leading-[64px] text-indigo-900 sm:mt-20">
             <span className="font-semibold text-teal-500">
@@ -273,8 +277,8 @@ const Landing = (props) => {
           </div>
           <div className="text-2xl z-10  px-1  tracking-wide text-gray-500 sm:ml-12">
             Class has a dynamic set of teaching tools built to be deployed and
-            used during class. Teachers can hand out assignments in real-time
-            for students to complete and submit.
+            used during class. Teachers can <br /> hand out assignments in
+            real-time for students to complete and submit.
           </div>
         </div>
         <div className="max-md:ml-0 max-md:w-full flex flex-col sm:ml-5">
@@ -287,7 +291,6 @@ const Landing = (props) => {
           </div>
         </div>
       </div>
-
       <div className="left-0 mt-20 flex flex-col px-5 md:flex-row">
         <div className="flex flex-col sm:flex-row">
           <div className="ml-28 h-[23px] w-[23px] rounded-full bg-orange-500" />
@@ -306,58 +309,53 @@ const Landing = (props) => {
           </div>
           <div className="text-2xl tracking-wide text-gray-500">
             Easily launch live assignments, quizzes, and tests. Student results
-            are automatically entered in the online gradebook.
+            are automatically <br /> entered in the online gradebook.
           </div>
         </div>
       </div>
-      <div className="w-full px-2 sm:px-20">
-        <div className="max-md:gap-0 max-md: flex flex-col gap-5 md:flex-row">
-          <div className=" max-md:w-full flex  flex-col">
-            <div className="  my-auto flex flex-col px-5  text-gray-500">
-              <div className="max-md:max-w-full mt-5 text-center text-3xl font-bold  text-indigo-900">
-                <span className=" font-semibold text-teal-500">
-                  Class Management
-                </span>{" "}
-                <span className="font-semibold">Tools for Educators</span>
-              </div>
-              <div className="text-2xl  max-md:max-w-full leading-10 tracking-wide">
-                Class provides tools to help run and manage the class such as
-                Class Roster, Attendance, and more. With the Gradebook, teachers
-                can review and grade tests and quizzes in real-time.
-              </div>
-              <div className="text-2xl  mt-2 underline">Trenova</div>
-            </div>
+      <div className="left-0 mt-20 flex flex-col px-5 md:flex-row">
+        <div className="mt-5 flex flex-col px-2 sm:my-auto sm:pl-5">
+          <div className="text-3xl font-bold text-teal-500">
+            <span className=" font-semibold text-teal-500">
+              Class Management
+            </span>{" "}
+            <span className="font-semibold">Tools for Educators</span>{" "}
           </div>
-          <div className=" flex flex-col p-1">
-            <img
-              loading="lazy"
-              srcSet="group124.png"
-              className="max-md:mt-10 max-md:max-w-full aspect-[1.45] w-full grow rounded-lg shadow-2xl"
-            />
+          <div className="text-2xl tracking-wide text-gray-500">
+            Class provides tools to help run and manage the class such as Class
+            Roster, <br />
+            Attendance, and more. With the Gradebook, teachers can review and
+            grade tests and <br /> quizzes in real-time.
+            <span className="text-2xl  mt-2 underline">Trenova</span>
           </div>
         </div>
+        <div className="flex flex-col sm:flex-row">
+          <div className="ml-28 h-[23px] w-[23px] rounded-full bg-orange-500" />
+          <img
+            loading="lazy"
+            srcSet="group124.png"
+            className="w-full rounded-2xl object-contain shadow-2xl sm:w-2/3"
+          />
+        </div>
       </div>
+      <div className="left-0 mt-20 flex flex-col px-5 md:flex-row">
+        <div className="flex flex-col sm:flex-row">
+          <div className="ml-28 h-[23px] w-[23px] rounded-full bg-orange-500" />
+          <img
+            loading="lazy"
+            srcSet="group106.png"
+            className="w-full rounded-2xl object-contain shadow-2xl sm:w-2/3"
+          />
+        </div>
 
-      <div className="w-full px-2 sm:px-20">
-        <div className="max-md:gap-0 max-md: flex flex-col gap-5 md:flex-row">
-          <div className=" flex flex-col p-1">
-            <img
-              loading="lazy"
-              srcSet="group106.png"
-              className="max-md:mt-10 max-md:max-w-full aspect-[1.45] w-full grow rounded-lg shadow-2xl"
-            />
+        <div className="mt-5 flex flex-col px-2 sm:my-auto sm:pl-5">
+          <div className="text-3xl font-bold text-teal-500">
+            <span className="font-semibold"> One-on-One Discussions</span>
           </div>
-          <div className=" max-md:w-full flex  flex-col">
-            <div className="  my-auto flex flex-col px-5  text-gray-500">
-              <div className="text-4xl max-md:max-w-full font-bold  text-indigo-900">
-                One-on-One Discussions
-              </div>
-              <div className="text-2xl  max-md:max-w-full leading-10 tracking-wide">
-                Teachers and teacher assistants can talk with students privately
-                without leaving the Zoom environment. without leaving the Zoom
-                environment.without leaving the Zoom environment.
-              </div>
-            </div>
+          <div className="text-2xl tracking-wide text-gray-500">
+            Teachers and teacher assistants can talk with students privately
+            without leaving the <br /> Zoom environment. without leaving the
+            Zoom environment.without leaving <br /> the Zoom environment.
           </div>
         </div>
       </div>
@@ -487,7 +485,7 @@ const Landing = (props) => {
           <div className="text-2xl flex  max-w-full justify-between gap-5 font-semibold tracking-wider text-white">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/399e2684a4297b4c1a45427d2e3afede74886931a2647933f3d0bd876c48b252?"
+              src={authImg}
               className="aspect-[1.37] w-[114px] max-w-full"
             />
             <div className="h-[83px]  bg-gray-500" />
@@ -498,9 +496,14 @@ const Landing = (props) => {
             <div className="border-slate-500 text-slate-500 rounded-[80px] border  border-solid px-4 py-2 ">
               Want to get in touch??
             </div>
-            <div className="text-2xl  justify-center rounded-[60px] bg-teal-400 px-4 py-2  font-medium text-white">
-              Contact Us
-            </div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/+2348179361381"
+              className="text-2xl  flex items-center justify-center gap-2 rounded-[60px] bg-teal-400 px-4 py-2  font-medium text-white"
+            >
+              <BsWhatsapp color="green" /> Contact Us
+            </a>
           </div>
           <div className="text-2xl text-slate-400 max-md:flex-wrap max-md:mt-10 max-md:mr-2.5 max-md:max-w-full mx-5 mt-5 flex justify-between gap-2 self-stretch text-center tracking-wider">
             <div>Careers</div>
