@@ -281,6 +281,25 @@ const CourseForm = () => {
     }
     try {
       const res = await courseCreate(courseData).unwrap();
+      if (res.status === "success") {
+        setCourseData({
+          name: "",
+          school: userInfo._id,
+          uploadSize: "",
+          term: "",
+          class: "",
+          type: "video",
+
+          content: [
+            {
+              week: 1,
+              lessons: [{ number: "", title: "", content: "" }],
+              questions: [{ text: "", options: ["", ""], correctOption: 0 }],
+            },
+          ],
+        });
+        setUploadProgress(0);
+      }
       toast.success("Course created successfully");
     } catch (err) {
       toast.error(err.message || err?.data?.message);

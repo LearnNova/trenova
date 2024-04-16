@@ -32,8 +32,15 @@ export const uploadFileToS3 = async (file, onProgress, UploadingToast) => {
         }
       })
       .promise();
+    let location = response.Location;
 
-    return response.Location;
+    // Check if the location doesn't start with 'https://'
+    if (!location.startsWith("https://")) {
+      // Prepend 'https://' to the location
+      location = `https://${bucketName}.${spacesEndpoint.hostname}/${fileKey}`;
+    }
+
+    return location;
   } catch (error) {
     toast.error("Error uploading file. Please try again.");
     console.error("Error uploading file:", error);

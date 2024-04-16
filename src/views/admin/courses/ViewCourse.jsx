@@ -27,7 +27,7 @@ const ViewCourse = () => {
   if (isError) {
     return toast.error(isError);
   }
-
+  console.log("courseData", courseData);
   return (
     <div className="container mx-auto rounded-xl border px-4">
       <h1 className="mb-4 pt-4 text-3xl font-bold text-gold">
@@ -77,7 +77,21 @@ const ViewCourse = () => {
                 <ol className="mt-4 flex list-disc gap-8">
                   {week.questions.map((question, questionIndex) => (
                     <li key={question._id} className="mb-2">
-                      <strong className="text-cyan-500">{question.text}</strong>
+                      {question?.text.includes(".mp4") ? (
+                        <video
+                          controls
+                          controlsList="nodownload"
+                          className="h-[200px]  w-[200px] rounded-lg"
+                          preload="metadata"
+                        >
+                          <source src={question.text} type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      ) : (
+                        <strong className="text-cyan-500">
+                          {question.text}
+                        </strong>
+                      )}
                       <ol className="ml-4 list-decimal ">
                         {question.options.map((option, optionIndex) => (
                           <li key={optionIndex}>{option}</li>
