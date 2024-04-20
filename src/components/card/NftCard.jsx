@@ -89,14 +89,18 @@ const NftCard = ({
             className="mb-3 h-full w-full rounded-xl 3xl:h-full 3xl:w-full"
             alt=""
           />
-          <button
-            onClick={() => navigate(`/admin/viewcoursedetails/${id}`)}
-            className="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer"
-          >
-            <div className="flex h-full w-full items-center justify-center rounded-full text-xl hover:bg-gray-50 dark:text-navy-900">
-              View <AiFillEye />
-            </div>
-          </button>
+          {(school === "6603e6e06e7e286c38da1ea1" &&
+            userInfo.role !== "admin") ||
+          userInfo.role === "teacher" ? null : (
+            <button
+              onClick={() => navigate(`/admin/viewcoursedetails/${id}`)}
+              className="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer"
+            >
+              <div className="flex h-full w-full items-center justify-center rounded-full text-xl hover:bg-gray-50 dark:text-navy-900">
+                View <AiFillEye />
+              </div>
+            </button>
+          )}
         </div>
 
         <div className="mb-3 flex items-center justify-between px-1 md:flex-row md:items-start lg:justify-between xl:items-start 3xl:flex-row 3xl:justify-between">

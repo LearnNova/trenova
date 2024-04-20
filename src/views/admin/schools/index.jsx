@@ -71,7 +71,10 @@ const ManageSchools = () => {
               <ActionButton
                 icon={MdDelete}
                 onClick={() => {
-                  handleDelete(params.row.id, params.row.images);
+                  // handleDelete(params.row.id, params.row.images); // removed for futre
+                  toast.success(
+                    "Delete is unavailable at the moment kindly deactivate school"
+                  );
                 }}
               />
             </div>
@@ -99,7 +102,6 @@ const ManageSchools = () => {
       console.log(school); // New value of editingTeacher
       return school; // Update editingTeacher with the new value
     });
-    console.log("teacher", editingSchool);
     setEditModalOpen(true);
   }, []);
 
