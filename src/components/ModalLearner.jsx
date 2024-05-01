@@ -31,34 +31,52 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
       setValue("maxDevice", learner.maxDevice);
     }
   }, [isOpen, learner, setValue]);
-
+  const classOptions = [
+    "KG 1",
+    "KG 2",
+    "Nursery 1",
+    "Nursery 2",
+    "Grade 1",
+    "Grade 2",
+    "Grade 3",
+    "Grade 4",
+    "Grade 5",
+    "Grade 6",
+    "JSS 1",
+    "JSS 2",
+    "JSS 3",
+    "SSS 1",
+    "SSS 2",
+    "SSS 3",
+  ];
   const onSubmit = async (data) => {
+    console.log(data);
     try {
       if (!data) {
         throw new Error("No data provided.");
       }
 
-      if (learner && learner.id) {
-        // Update existing learner
-        const res = await updateLearner({
-          id: learner.id,
-          data: data,
-        })
-          .unwrap()
-          .then((payload) => toast.success("Learner updated successfully"))
-          .catch((error) =>
-            error.status == 401
-              ? toast.error("Unauthorized")
-              : toast.error(error?.data?.message || "something went rong")
-          );
-      } else {
-        const res = await learnersignup(data).unwrap();
+      // if (learner && learner.id) {
+      //   // Update existing learner
+      //   const res = await updateLearner({
+      //     id: learner.id,
+      //     data: data,
+      //   })
+      //     .unwrap()
+      //     .then((payload) => toast.success("Learner updated successfully"))
+      //     .catch((error) =>
+      //       error.status == 401
+      //         ? toast.error("Unauthorized")
+      //         : toast.error(error?.data?.message || "something went rong")
+      //     );
+      // } else {
+      //   const res = await learnersignup(data).unwrap();
 
-        toast.success("Learner created successfully");
-      }
+      //   toast.success("Learner created successfully");
+      // }
 
-      refetch(); // Assuming refetch is a function to refetch the learner data
-      onClose();
+      // refetch(); // Assuming refetch is a function to refetch the learner data
+      // onClose();
     } catch (err) {
       console.error("Error:", err);
       toast.error(err.message || err?.data?.message);
@@ -141,7 +159,30 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
                         type="text"
                         register={register}
                       />
-                      <InputField
+                      <div>
+                        <label
+                          htmlFor="name"
+                          className="text-sm block font-medium text-gray-700"
+                        >
+                          Class*
+                        </label>
+                        <select
+                          id="class"
+                          name="class"
+                          {...register("class", { required: true })}
+                          className="mt-1 w-full rounded-md border p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
+                        >
+                          <option value="" disabled>
+                            Select Option
+                          </option>
+                          {classOptions.map((option, index) => (
+                            <option key={index} value={option}>
+                              {option}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                      {/* <InputField
                         variant="auth"
                         extra="mb-3"
                         label="Class*"
@@ -149,7 +190,7 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
                         id="class"
                         type="text"
                         register={register}
-                      />
+                      /> */}
                       <InputField
                         variant="auth"
                         extra="mb-3"
