@@ -56,27 +56,27 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
         throw new Error("No data provided.");
       }
 
-      // if (learner && learner.id) {
-      //   // Update existing learner
-      //   const res = await updateLearner({
-      //     id: learner.id,
-      //     data: data,
-      //   })
-      //     .unwrap()
-      //     .then((payload) => toast.success("Learner updated successfully"))
-      //     .catch((error) =>
-      //       error.status == 401
-      //         ? toast.error("Unauthorized")
-      //         : toast.error(error?.data?.message || "something went rong")
-      //     );
-      // } else {
-      //   const res = await learnersignup(data).unwrap();
+      if (learner && learner.id) {
+        // Update existing learner
+        const res = await updateLearner({
+          id: learner.id,
+          data: data,
+        })
+          .unwrap()
+          .then((payload) => toast.success("Learner updated successfully"))
+          .catch((error) =>
+            error.status == 401
+              ? toast.error("Unauthorized")
+              : toast.error(error?.data?.message || "something went rong")
+          );
+      } else {
+        const res = await learnersignup(data).unwrap();
 
-      //   toast.success("Learner created successfully");
-      // }
+        toast.success("Learner created successfully");
+      }
 
-      // refetch(); // Assuming refetch is a function to refetch the learner data
-      // onClose();
+      refetch(); // Assuming refetch is a function to refetch the learner data
+      onClose();
     } catch (err) {
       console.error("Error:", err);
       toast.error(err.message || err?.data?.message);
