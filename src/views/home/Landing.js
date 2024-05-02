@@ -175,9 +175,12 @@ const Landing = (props) => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <div className="text-3xl font-semibold">Learners</div>
-                <div className="text-2xl max-md:px-5 mt-8 justify-center rounded-[80px] bg-cyan-400 bg-opacity-90 px-11 py-8 font-medium">
+                <a
+                  href="https://trenova.nyc3.cdn.digitaloceanspaces.com/app-release.apk"
+                  className="text-2xl max-md:px-5 mt-8 justify-center rounded-[80px] bg-cyan-400 bg-opacity-90 px-11 py-8 font-medium no-underline"
+                >
                   Download app
-                </div>
+                </a>
               </div>
             </div>
           </div>

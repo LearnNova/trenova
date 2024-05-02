@@ -10,6 +10,10 @@ const navigation = [
   { name: "Dashboard", href: "/admin", current: true },
   { name: "School Signup", href: "/auth/signup" },
   { name: "Teachers Login", href: "/auth/login" },
+  {
+    name: "download App",
+    href: "https://trenova.nyc3.cdn.digitaloceanspaces.com/app-release.apk",
+  },
 ];
 
 function classNames(...classes) {
