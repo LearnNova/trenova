@@ -25,7 +25,6 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
       setValue("availableSpace", school.availableSpace);
       // setValue("isActivated", school.isActivated);
     }
-    console.log("school", school);
   }, [isOpen, school, setValue]);
 
   const onSubmit = async (data) => {
@@ -133,6 +132,15 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
                         className="mt-1 mb-2 w-full rounded-md border border-gold p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
                         id="isActivated"
                         {...register("isActivated")}
+                      >
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                      </select>
+                      <label htmlFor="">Activate 3rd term</label>
+                      <select
+                        className="mt-1 mb-2 w-full rounded-md border border-gold p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
+                        id="isExtraTerm"
+                        {...register("isExtraTerm")}
                       >
                         <option value="true">True</option>
                         <option value="false">False</option>

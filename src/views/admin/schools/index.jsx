@@ -34,6 +34,7 @@ const ManageSchools = () => {
           point: school.point,
           role: school.role,
           isActivated: school.isActivated,
+          isExtraTerm: school.isExtraTerm,
           usedSpace: `${school.usedSpace}MB`,
           availableSpace: `${school.availableSpace}`,
         };
@@ -50,6 +51,7 @@ const ManageSchools = () => {
     { field: "point", headerName: "Point", width: 80 },
     { field: "role", headerName: "Role", width: 110 },
     { field: "isActivated", headerName: "Active", width: 70 },
+    { field: "isExtraTerm", headerName: "ExtraTerm", width: 70 },
     { field: "usedSpace", headerName: "usedSpace", width: 100 },
     { field: "availableSpace", headerName: "availableSpace", width: 100 },
     {
