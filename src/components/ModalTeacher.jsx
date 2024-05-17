@@ -110,7 +110,7 @@ export default function ModalTeacher({ isOpen, onClose, teacher, refetch }) {
                         variant="auth"
                         extra="mb-3"
                         label="Name*"
-                        placeholder="Trenova"
+                        placeholder="LearnNova"
                         id="name"
                         required
                         type="text"
@@ -120,7 +120,7 @@ export default function ModalTeacher({ isOpen, onClose, teacher, refetch }) {
                         variant="auth"
                         extra="mb-3"
                         label="Username*"
-                        placeholder="Trenova123"
+                        placeholder="LearnNova123"
                         id="username"
                         required
                         type="text"

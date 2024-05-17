@@ -102,7 +102,7 @@ export default function Admin(props) {
           <div className="h-full">
             <Navbar
               onOpenSidenav={() => setOpen(true)}
-              logoText={"Trenova"}
+              logoText={"LearnNova"}
               brandText={currentRoute}
               secondary={getActiveNavbar(routes)}
               {...rest}

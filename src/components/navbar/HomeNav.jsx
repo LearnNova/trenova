@@ -12,7 +12,8 @@ const navigation = [
   { name: "Teachers Login", href: "/auth/login" },
   {
     name: "download App",
-    href: "https://trenova.nyc3.cdn.digitaloceanspaces.com/app-release.apk",
+    href: "https://trenova.nyc3.cdn.digitaloceanspaces.com/1app/app-release.apk",
+    current: true,
   },
 ];
 
@@ -59,11 +60,7 @@ export default function HomeNav() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className=" hidden flex-shrink-0  items-center sm:flex">
-                  <img
-                    className="h-12 w-auto"
-                    src={authImg}
-                    alt="Your Company"
-                  />
+                  <img className="h-10 w-16" src={authImg} alt="Your Company" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -86,14 +83,14 @@ export default function HomeNav() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
+                {/* <button
                   type="button"
                   className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
+                </button> */}
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">

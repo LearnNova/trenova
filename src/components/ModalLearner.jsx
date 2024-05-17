@@ -136,7 +136,7 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
                         variant="auth"
                         extra="mb-3"
                         label="Name*"
-                        placeholder="Trenova"
+                        placeholder="LearnNova"
                         id="name"
                         type="text"
                         register={register}
@@ -145,7 +145,7 @@ export default function ModalLearner({ isOpen, onClose, learner, refetch }) {
                         variant="auth"
                         extra="mb-3"
                         label="Username*"
-                        placeholder="Trenova123"
+                        placeholder="LearnNova123"
                         id="username"
                         type="text"
                         register={register}

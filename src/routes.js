@@ -30,13 +30,13 @@ import Upload from "views/admin/upload/Upload";
 
 // Define your route configuration
 export const routes = [
-  {
-    name: "Main Dashboard",
-    layout: "/admin",
-    path: "default",
-    icon: <MdHome className="h-6 w-6" />,
-    component: <MainDashboard />,
-  },
+  // {
+  //   name: "Main Dashboard",
+  //   layout: "/admin",
+  //   path: "default",
+  //   icon: <MdHome className="h-6 w-6" />,
+  //   component: <MainDashboard />,
+  // },
   {
     name: "Schools",
     layout: "/admin",

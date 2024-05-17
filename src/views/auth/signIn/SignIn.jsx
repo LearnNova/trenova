@@ -139,7 +139,7 @@ export default function SignIn() {
                 variant="auth"
                 extra="mb-3"
                 label="Username*"
-                placeholder="Trenova123"
+                placeholder="LearnNova123"
                 id="username"
                 required
                 type="text"
@@ -205,7 +205,7 @@ export default function SignIn() {
                 variant="auth"
                 extra="mb-3"
                 label="Username*"
-                placeholder="Trenova123"
+                placeholder="LearnNova123"
                 id="username"
                 required
                 type="text"

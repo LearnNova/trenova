@@ -111,7 +111,7 @@ const AllCourse = () => {
                     className="mt-1 w-full rounded-md border border-gold p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
                   >
                     <option value="6603e6e06e7e286c38da1ea1">
-                      Trenova Owned
+                      LearnNova Owned
                     </option>
                     {users.users.map((option, index) => (
                       <option key={index} value={option._id}>

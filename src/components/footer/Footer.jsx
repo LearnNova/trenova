@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="flex w-full flex-col items-center justify-between px-1 pb-8 pt-3 lg:px-8 xl:flex-row">
       <h5 className="text-sm mb-4 text-center font-medium text-gray-600 sm:!mb-0 md:text-lg">
         <p className="text-sm md:text-base mb-4 text-center text-gray-600 sm:!mb-0">
-          ©{1900 + new Date().getYear()} Trenova. All Rights Reserved.
+          ©{1900 + new Date().getYear()} LearnNova. All Rights Reserved.
         </p>
       </h5>
       <div>

@@ -83,7 +83,7 @@ const Landing = (props) => {
         <span className="font-bold text-gold">Cloud Software.</span>
       </div>
       <div className="text-2xl  max-md:max-w-full mt-4  text-center leading-10 text-gray-500">
-        TRENOVA is one powerful online software suite that combines all the
+        LearnNova is one powerful online software suite that combines all the
         tools needed to run a successful school or office.
       </div>
       <div className="max-md:mt-10 max-md:max-w-full mt-16 flex w-full max-w-[1470px] px-5">
@@ -140,10 +140,10 @@ const Landing = (props) => {
         </div>
       </div>
       <div className=" mt-10 whitespace-nowrap text-center text-5xl font-semibold  text-teal-500">
-        What is <span className="text-teal-500">TRENOVA?</span>
+        What is <span className="text-teal-500">LearnNova?</span>
       </div>
       <div className="text-2xl mt-10 text-center  leading-10 tracking-wide text-gray-500 sm:px-32">
-        TRENOVA is a platform that allows educators to create online classes
+        LearnNova is a platform that allows educators to create online classes
         whereby they can store the course materials online; manage assignments,
         quizzes and exams; monitor due dates; grade results and provide students
         with feedback all in one place.
@@ -176,7 +176,7 @@ const Landing = (props) => {
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <div className="text-3xl font-semibold">Learners</div>
                 <a
-                  href="https://trenova.nyc3.cdn.digitaloceanspaces.com/app-release.apk"
+                  href="https://trenova.nyc3.cdn.digitaloceanspaces.com/1app/app-release.apk"
                   className="text-2xl max-md:px-5 mt-8 justify-center rounded-[80px] bg-cyan-400 bg-opacity-90 px-11 py-8 font-medium no-underline"
                 >
                   Download app
@@ -193,14 +193,14 @@ const Landing = (props) => {
             <div className="  my-auto flex flex-col px-5  text-gray-500">
               <span className=" mt-10  text-center text-5xl font-semibold  text-gold">
                 Everything you can do in a physical classroom, you can do with
-                TRENOVA
+                LearnNova
               </span>
               <div className="text-2xl  max-md:max-w-full leading-10 tracking-wide">
-                TRENOVA’s school management software helps traditional and
+                LearnNova’s school management software helps traditional and
                 online schools manage scheduling, attendance, payments and
                 virtual classrooms all in one secure cloud-based system.
               </div>
-              <div className="text-2xl  mt-2 underline">Trenova</div>
+              <div className="text-2xl  mt-2 underline">LearnNova</div>
             </div>
           </div>
           <div className=" flex flex-col p-1">
@@ -329,7 +329,7 @@ const Landing = (props) => {
             Roster, <br />
             Attendance, and more. With the Gradebook, teachers can review and
             grade tests and <br /> quizzes in real-time.
-            <span className="text-2xl  mt-2 underline">Trenova</span>
+            <span className="text-2xl  mt-2 underline">LearnNova</span>
           </div>
         </div>
         <div className="flex flex-col sm:flex-row">
@@ -368,7 +368,7 @@ const Landing = (props) => {
           Lastest News and Resources
         </div>
         <div className="text-2xl max-md:mt-10 max-md:max-w-full mt-14 self-center text-center leading-10 text-gray-500">
-          See the developments that have occurred to TRENOVA in the world
+          See the developments that have occurred to LearnNova in the world
         </div>
         <div className="max-md:mt-10 max-md:max-w-full mt-28">
           <div className="max-md:gap-0 max-md: flex flex-col gap-5 sm:flex-row">

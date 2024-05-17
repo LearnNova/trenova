@@ -319,7 +319,7 @@ const EditCourseForm = () => {
       });
     } else {
       toast.error(
-        `Strorage Quota Limit Exceeded. contact trenova admin ${result}MB`
+        `Strorage Quota Limit Exceeded. contact LearnNova admin ${result}MB`
       );
     }
   };

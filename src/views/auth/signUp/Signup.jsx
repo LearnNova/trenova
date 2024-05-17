@@ -68,14 +68,14 @@ export default function SignUp() {
           Sign Up
         </h4>
         <p className="text-base mb-9 ml-1 text-gray-600">
-          Enter Credentials to sign up! Code to be gotten from Trenova admin
+          Enter Credentials to sign up! Code to be gotten from LearnNova admin
         </p>
         <form onSubmit={handleSubmit(onSubmit)}>
           <InputField
             variant="auth"
             extra="mb-3"
             label="School name*"
-            placeholder="Trenova schools"
+            placeholder="LearnNova schools"
             id="name"
             required
             type="text"
@@ -85,7 +85,7 @@ export default function SignUp() {
             variant="auth"
             extra="mb-3"
             label="Username*"
-            placeholder="Trenova123"
+            placeholder="LearnNova123"
             id="username"
             required
             type="text"
@@ -95,7 +95,7 @@ export default function SignUp() {
             variant="auth"
             extra="mb-3"
             label="Email*"
-            placeholder="Trenova123@trenova.com"
+            placeholder="LearnNova123@LearnNova.com"
             id="email"
             required
             type="email"
