@@ -35,6 +35,7 @@ const ManageSchools = () => {
           role: school.role,
           isActivated: school.isActivated,
           isExtraTerm: school.isExtraTerm,
+          ispreviousTerm: school.ispreviousTerm,
           usedSpace: `${school.usedSpace}MB`,
           availableSpace: `${school.availableSpace}`,
         };
@@ -44,14 +45,15 @@ const ManageSchools = () => {
   }, [data, refetch]);
 
   const columns = [
-    { field: "name", headerName: "Name", width: 280 },
+    { field: "name", headerName: "Name", width: 250 },
     { field: "username", headerName: "Username", width: 120 },
     { field: "email", headerName: "Email", width: 220 },
     { field: "code", headerName: "Code", width: 80 },
-    { field: "point", headerName: "Point", width: 80 },
-    { field: "role", headerName: "Role", width: 110 },
-    { field: "isActivated", headerName: "Active", width: 70 },
-    { field: "isExtraTerm", headerName: "ExtraTerm", width: 70 },
+    { field: "point", headerName: "Point", width: 60 },
+    { field: "role", headerName: "Role", width: 80 },
+    { field: "isActivated", headerName: "Active", width: 60 },
+    { field: "isExtraTerm", headerName: "ExtraTerm", width: 80 },
+    { field: "ispreviousTerm", headerName: "PreviousTerm", width: 100 },
     { field: "usedSpace", headerName: "usedSpace", width: 100 },
     { field: "availableSpace", headerName: "availableSpace", width: 100 },
     {

@@ -11,22 +11,39 @@ const CourseForm = () => {
   const [totalUploadSize, setTotalUploadSize] = useState("");
   const [uploadProgress, setUploadProgress] = useState(0);
   const [isUploaded, setIsUploaded] = useState(false);
-  const [courseData, setCourseData] = useState({
-    name: "",
-    school: userInfo._id,
-    uploadSize: "",
-    term: "",
-    class: "",
-    type: "video",
+  // const [courseData, setCourseData] = useState({
+  //   name: "",
+  //   school: userInfo._id,
+  //   uploadSize: "",
+  //   term: "",
+  //   class: "",
+  //   type: "video",
 
-    content: [
-      {
-        week: 1,
-        lessons: [{ number: "", title: "", content: "" }],
-        questions: [{ text: "", options: ["", ""], correctOption: 0 }],
-      },
-    ],
+  //   content: [
+  //     {
+  //       week: 1,
+  //       lessons: [{ number: "", title: "", content: "" }],
+  //       questions: [{ text: "", options: ["", ""], correctOption: 0 }],
+  //     },
+  //   ],
+  // });
+  const [courseData, setCourseData] = useState({
+    content: [],
   });
+  useEffect(() => {
+    const firstWeekName = prompt("Enter the name for the first week:");
+    if (firstWeekName) {
+      setCourseData({
+        content: [
+          {
+            week: `Week 1: ${firstWeekName}`,
+            lessons: [{ number: "", title: "", content: "" }],
+            questions: [{ text: "", options: ["", ""], correctOption: 0 }],
+          },
+        ],
+      });
+    }
+  }, []);
   const classOptions = [
     "KG 1",
     "KG 2",
@@ -94,19 +111,51 @@ const CourseForm = () => {
     setCourseData({ ...courseData, content: newData });
   };
 
-  const handleAddWeek = () => {
-    setCourseData((prevState) => ({
-      ...prevState,
-      content: [
-        ...prevState.content,
-        {
-          week: prevState.content.length + 1,
+  // const handleAddWeek = () => {
+  //   setCourseData((prevState) => ({
+  //     ...prevState,
+  //     content: [
+  //       ...prevState.content,
+  //       {
+  //         week: prevState.content.length + 1,
 
-          lessons: [{ number: "", title: "", content: "" }],
-          questions: [{ text: "", options: ["", ""], correctOption: 0 }],
-        },
-      ],
-    }));
+  //         lessons: [{ number: "", title: "", content: "" }],
+  //         questions: [{ text: "", options: ["", ""], correctOption: 0 }],
+  //       },
+  //     ],
+  //   }));
+  // };
+
+  const handleAddWeek = () => {
+    const weekNumber = courseData.content.length + 1;
+    const weekName = prompt("Enter the name for the new week:");
+
+    if (weekName) {
+      setCourseData((prevState) => ({
+        ...prevState,
+        content: [
+          ...prevState.content,
+          {
+            week: `${weekNumber}: ${weekName}`,
+            lessons: [{ number: "", title: "", content: "" }],
+            questions: [{ text: "", options: ["", ""], correctOption: 0 }],
+          },
+        ],
+      }));
+    } else {
+      setCourseData((prevState) => ({
+        ...prevState,
+        content: [
+          ...prevState.content,
+          {
+            week: prevState.content.length + 1,
+
+            lessons: [{ number: "", title: "", content: "" }],
+            questions: [{ text: "", options: ["", ""], correctOption: 0 }],
+          },
+        ],
+      }));
+    }
   };
 
   const handleAddLesson = (index) => {

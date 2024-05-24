@@ -145,6 +145,15 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
                         <option value="true">True</option>
                         <option value="false">False</option>
                       </select>
+                      <label htmlFor="">Activate Previous term</label>
+                      <select
+                        className="mt-1 mb-2 w-full rounded-md border border-gold p-2 focus:border-gold focus:outline-none focus:ring focus:ring-yellow-500"
+                        id="ispreviousTerm"
+                        {...register("ispreviousTerm")}
+                      >
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                      </select>
 
                       <InputField
                         variant="auth"
