@@ -18,7 +18,7 @@ const HeroSection = () => {
             </div>
             <div>
                 <span>...Earn while you Learn, </span>
-                <span>a <b>FREE</b> Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS</b> an opportunity to receive up to </span>
+                <span>a <b>FREE</b> Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive up to </span>
                 <span className='highlighter'><b>₦1,000,000.00 </b></span>
                 <span>in Earnings and Start-up Grant upon graduation...</span>
             </div>
