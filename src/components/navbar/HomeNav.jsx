@@ -15,6 +15,10 @@ const navigation = [
     href: "https://trenova.nyc3.cdn.digitaloceanspaces.com/1app/app-release.apk",
     current: true,
   },
+  {
+    name: "MentorNigeria", 
+    href: "/MentorNigeria",
+  },
 ];
 
 function classNames(...classes) {

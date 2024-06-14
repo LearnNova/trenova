@@ -7,11 +7,13 @@ import AuthLayout from "layouts/auth";
 // import Home from "views/home/Home";
 import Landing from "views/home/Landing";
 import PrivateRoute from "components/PrivateRoute";
+import MentorNigeriaPage from "layouts/MentorNigeriaPage";
 const App = () => {
   return (
     <Routes>
       <Route path="auth/*" element={<AuthLayout />} />
       <Route path="/" element={<Landing />} />
+      <Route path="MentorNigeria" element={<MentorNigeriaPage />} />
 
       <Route path="" element={<PrivateRoute />}>
         <Route path="admin/*" element={<AdminLayout />} />
