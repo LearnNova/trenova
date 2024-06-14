@@ -9,8 +9,8 @@ const ModuleSection = () => {
             <div className='module-title'>What you will Learn:</div>
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 1:</span> Professional Selling Skills for a Shy and Introverted Person</h3>
-                    <p>Learning Points: Fifty (50) points</p>
+                    <h3><span className='highlighter'>Module 1:</span> Professional Selling Skills for a Shy and Introverted Person.</h3>
+                    <p>- Learning Points: Fifty (50) points</p>
                     <br />
                     <ul>
                         <li>Using Telephone and Event Management for Success in Selling.</li>
@@ -22,8 +22,8 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 2:</span> School Growth Mentorship and Coaching Skills Development</h3>
-                    <p>Learning Points: Fourty (40) points</p>
+                    <h3><span className='highlighter'>Module 2:</span> School Growth Mentorship and Coaching Skills Development.</h3>
+                    <p>- Learning Points: Fourty (40) points</p>
                     <br />
                     <ul>
                         <li>Training and Summit Management.</li>
@@ -37,8 +37,8 @@ const ModuleSection = () => {
             </div>
             <div className='module-row'>
             <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3:</span> Business Start-up Training</h3>
-                    <p>Learning Points: Fifty (50) points</p>
+                    <h3><span className='highlighter'>Module 3:</span> Business Start-up Training.</h3>
+                    <p>- Learning Points: Fifty (50) points</p>
                     <br />
                     <ul>
                         <li>Idea Generation and Market Research.</li>
@@ -53,8 +53,8 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
-                    <p>Learning Points: Fifty (50) points</p>
+                    <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs.</h3>
+                    <p>- Learning Points: Fifty (50) points</p>
                     <br />
                     <ul>
                         <li>Core Skills for a Successfull Career.</li>
