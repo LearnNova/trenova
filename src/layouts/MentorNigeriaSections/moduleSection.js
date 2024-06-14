@@ -53,7 +53,7 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate through Sponsored Jobs</h3>
+                    <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
                     <p>Learning Points: Fifty (50) points</p>
                     <br />
                     <ul>
