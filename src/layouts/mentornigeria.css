@@ -295,6 +295,16 @@ body {
   background-color: var(--marker-clr);
 }
 
+.form-info-box {
+  background-color: var(--pri-clr);
+  color: var(--marker-clr);
+  font-size: .3em;
+  font-family: var(--font-family-pri);
+  padding: .2em;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
 
 .module-section-wrapper {
   text-align: center;
@@ -328,6 +338,10 @@ body {
   text-align: left;
   background-color: var(--tertiary-clr);
   
+}
+
+.module-info li {
+  list-style: disc;
 }
 
 .module-info:hover {

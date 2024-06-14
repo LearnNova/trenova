@@ -1,5 +1,4 @@
 import React from 'react'
-// import { NavigateForm } from '../utils/navigateForm'
 import { NavigateForm } from 'utils/navigateForm'
 import '../mentornigeria.css'
 
