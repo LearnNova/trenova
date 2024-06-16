@@ -38,9 +38,9 @@ const HeroSection = () => {
                 </span>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
-                        <li><span className='highlighter'>SECURE</span> well-paying employment from companies operating within the Nigerian economy, or</li>
-                        <li><span className='highlighter'>BUILD</span> profitable start-up business, or</li>
-                        <li><span className='highlighter'>OFFER</span> virtual professional services to Organizations operating in Canada, US, Europe.</li>
+                        <li><span className='highlighter'>SECURE</span> well-paying employment from companies operating within the Nigerian economy,</li>
+                        <li><span className='highlighter'>BUILD</span> profitable start-up business,</li>
+                        <li><span className='highlighter'>OFFER</span> virtual professional services to Organizations operating in Canada, US and Europe.</li>
                     </ul>
                 </span>
                 {/* This <span className='highlighter'>Training and Mentorship program</span> is designed for <span className='highlighter'>Young Adults</span> interested in acquiring skills
