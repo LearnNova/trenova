@@ -125,11 +125,25 @@ body {
   font-size: 1.5em;
 }
 
-.hero-sec-info>div:nth-child(4)>span:nth-child(3) {
+.hero-sec-info-list-container {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+ul li {
+  list-style: disc;
+}
+
+.hero-sec-info-list-container .highlighter {
+  font-family: var(--font-family-sec);
+  font-size: 1.7em;
+}
+
+/* .hero-sec-info>div:nth-child(4)>span:nth-child(3) {
   font-family: var(--font-family-sec);
   color: var(--marker-clr);
   font-size: 1.7em;
-}
+} */
 
 .what-you-learn-title {
   margin-top: .5em;
@@ -145,10 +159,17 @@ body {
 }
 
 .what-you-learn-info {
-  text-align: center;
+  text-align: left;
   padding: 0 .5em;
   font-size: .35em;
   color: var(--pri-clr);
+}
+
+.what-you-learn-info-list-container {
+  display: inline-block;
+  width: 100%;
+  padding-left: 1em;
+  padding-top: .5em;
 }
 
 .highlighter {

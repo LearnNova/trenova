@@ -18,18 +18,34 @@ const HeroSection = () => {
             </div>
             <div>
                 <span>...Earn while you Learn, </span>
-                <span>a <b>FREE</b> Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive up to </span>
-                <span className='highlighter'><b>₦1,000,000.00 </b></span>
-                <span>in Earnings and Start-up Grant...</span>
+                <span>a <b>FREE</b> Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive: </span>
+                <span className='hero-sec-info-list-container'>
+                    <ul>
+                        <li>Up to <span className='highlighter'><b>₦2,000,000.00 </b></span> in Earnings while Learning and MentorNigeria Star Award, and</li>
+                        <li>You may also secure a full time employment from LearnNova School Support Centre upon Graduation...</li>
+                    </ul>
+                </span>
+                
             </div>
             <div className='line-breaker'></div>
             <div className='what-you-learn-title'>
                 What is this <span>FREE</span> training and mentorship program all about, and who is it for?
             </div>
             <div className='what-you-learn-info'>
-                This <span className='highlighter'>Training and Mentorship program</span> is designed for <span className='highlighter'>Young Adults</span> interested in acquiring skills
-                 and knowledge required to <span className='highlighter'>BUILD</span> profitable start-up businesses or <span className='highlighter'>OFFER</span> professional services
-                 virtually or on-site to Organizations operating within any modern economy.
+                <span>
+                    This <span className='highlighter'>Training and Mentorship program</span> is designed for <span className='highlighter'>Young Adults</span> interested in acquiring skills
+                    and knowledge required to:
+                </span>
+                <span className='what-you-learn-info-list-container'>
+                    <ul>
+                        <li><span className='highlighter'>SECURE</span> well-paying employment from companies operating within the Nigerian economy, or</li>
+                        <li><span className='highlighter'>BUILD</span> profitable start-up business, or</li>
+                        <li><span className='highlighter'>OFFER</span> virtual professional services to Organizations operating in Canada, US, Europe.</li>
+                    </ul>
+                </span>
+                {/* This <span className='highlighter'>Training and Mentorship program</span> is designed for <span className='highlighter'>Young Adults</span> interested in acquiring skills
+                 and knowledge required to: <span className='highlighter'>BUILD</span> profitable start-up businesses or <span className='highlighter'>OFFER</span> professional services
+                 virtually or on-site to Organizations operating within any modern economy. */}
             </div>
             <div className='apply-now-link-2' onClick={NavigateForm}>Apply Now to Join...</div>
 
