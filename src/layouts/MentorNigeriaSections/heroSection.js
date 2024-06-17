@@ -22,7 +22,7 @@ const HeroSection = () => {
                 <span className='hero-sec-info-list-container'>
                     <ul>
                         <li>Up to <span className='highlighter'><b>₦2,000,000.00 </b></span> in Earnings while Learning and MentorNigeria Star Award, and</li>
-                        <li>You may also secure a full time employment from LearnNova School Support Centre upon Graduation...</li>
+                        <li>You may also secure a full time employment from LearnNova Learning Support Centre upon Graduation...</li>
                     </ul>
                 </span>
                 

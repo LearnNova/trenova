@@ -8,7 +8,7 @@ const FooterSection = () => {
           
             <div className='f-section-col'>
                   
-                  <div className='location'>MentorNigeria and LearnNova Learning Support Centre are members of TreNova Group.</div>
+                  <div className='location'>MentorNigeria Academy and LearnNova Learning Support Centre are members of TreNova Group.</div>
                   <div className='location'>7B, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos.</div>
                   <a href="tel:08179361381"><b>0817 936 1381 (Whatsapp-Only)</b></a>
                   <div style={{color: '#4151E5'}}><a href='https://www.learnnova.ng' target='blank'><b>www.learnnova.ng</b></a></div>
