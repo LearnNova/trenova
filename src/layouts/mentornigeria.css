@@ -177,6 +177,32 @@ ul li {
   font-weight: 600;
 }
 
+/* WHATSAPP CONTAINER  */
+.whatsapp-btn-container {
+  position: fixed;
+  padding: 10px;
+  right: -5px;
+  bottom: 0px;
+  font-size: 4em;
+  z-index: 10;
+  
+}
+
+.whatsapp-btn-container .whatsapp-btn {
+  font-size: .8em;
+  color: #25d366;
+}
+
+.whatsapp-btn-container span {
+  position: absolute;
+  font-size: .25em;
+  top: 15px;
+  left: 4px;
+  color: #25d366;
+}
+
+
+
 .apply-now-link-2 {
   border-radius: 7px;
   border: 1px solid var(--pri-clr);
@@ -201,6 +227,7 @@ ul li {
 
 
 #application-form-section {
+  position: relative;
   text-align: center;
   font-size: 4em;
   background-color: var(--pri-clr);
@@ -208,6 +235,7 @@ ul li {
   border: 1px solid var(--pri-clr);
   font-family: var(--font-family-sec);
   padding: .3em 0;
+  z-index: 1000;
   
 }
 
@@ -446,6 +474,10 @@ ul li {
 
   .form-control-textarea {
     min-width: 100%;
+  }
+
+  .whatsapp-btn-container {
+    font-size: 3em;
   }
 }
 

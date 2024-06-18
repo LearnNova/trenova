@@ -42,13 +42,16 @@ const HeroSection = () => {
                         <li><span className='highlighter'>BUILD</span> profitable start-up business,</li>
                         <li><span className='highlighter'>OFFER</span> virtual professional services to Organizations operating in Canada, US and Europe.</li>
                     </ul>
-                </span>
-                {/* This <span className='highlighter'>Training and Mentorship program</span> is designed for <span className='highlighter'>Young Adults</span> interested in acquiring skills
-                 and knowledge required to: <span className='highlighter'>BUILD</span> profitable start-up businesses or <span className='highlighter'>OFFER</span> professional services
-                 virtually or on-site to Organizations operating within any modern economy. */}
+                </span> 
             </div>
+            
             <div className='apply-now-link-2' onClick={NavigateForm}>Apply Now to Join...</div>
 
+        </div>
+        
+        <div className='whatsapp-btn-container'>
+            <a href='https://wa.me/+2347044086794' className='whatsapp-btn' target='blank'><i className="ri-whatsapp-line"></i></a>
+            <span>Chat Us</span>
         </div>
     </div>
   )
