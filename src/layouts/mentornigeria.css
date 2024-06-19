@@ -188,6 +188,34 @@ html {
   color: #25d366;
 }
 
+.news-bar-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background-color: var(--marker-clr);
+  overflow: hidden;
+  font-size: 4em;
+}
+
+.news-bar-container .news {
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  width: max-content;
+  font-size: .25em;
+  color: var(--secondary-clr);
+  animation: scrolling 24s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {right: -60%;}
+  100% {
+    right: 100%;
+  }
+}
+
 
 
 .apply-now-link-2 {
@@ -429,14 +457,12 @@ html {
     font-size: 3em;
   }
 
-  /* .apply-btn-1 {
-    padding-left: 4rem;
-    width: 100%;
-  } */
-
-  /* #apply-btn {
-    font-size: 1.15em;
-  } */
+  @keyframes scrolling {
+    0% {right: -100%;}
+    100% {
+      right: 100%;
+    }
+  }
 }
 
 @media (max-width: 579px) {
@@ -465,6 +491,13 @@ html {
 
   .whatsapp-btn-container {
     font-size: 3em;
+  }
+
+  @keyframes scrolling {
+    0% {right: -200%;}
+    100% {
+      right: 100%;
+    }
   }
 }
 

@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className='hero-sec-text'>"EARN WHILE YOU LEARN"</div>
         </div>
         <div className='hero-sec-info'>
-            <div><a href='#application-form-section'> <span className='highlighter' style={{fontSize: '2em'}}><button className='submit-btn'>APPLY NOW</button></span> to Book a Seat at the NEXT Opportunity Discovery Day Seminar...</a> </div>
+            <div><a href='#application-form-section'> <span className='highlighter' style={{fontSize: '2em'}}><button className='submit-btn'>APPLY NOW</button></span> to Book a Seat at our NEXT On-site Opportunity Discovery Day Seminar...</a> </div>
             <div className='line-breaker'></div>
             <div>
                 <span>...MENTORNIGERIA... </span>
@@ -18,7 +18,7 @@ const HeroSection = () => {
             </div>
             <div>
                 <span>...Earn while you Learn, </span>
-                <span>a <b>FREE</b> Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive: </span>
+                <span>a <b>FREE</b> On-site Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive: </span>
                 <span className='hero-sec-info-list-container'>
                     <ul>
                         <li>Up to <span className='highlighter'><b>₦2,000,000.00 </b></span> in Earnings while Learning and MentorNigeria Star Award, and</li>
@@ -52,6 +52,10 @@ const HeroSection = () => {
         <div className='whatsapp-btn-container'>
             <a href='https://wa.me/+2347044086794' className='whatsapp-btn' target='blank'><i className="ri-whatsapp-line"></i></a>
             <span>Chat Us</span>
+        </div>
+
+        <div className='news-bar-container'>
+            <p className='news'>Venue: 7b, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos. | Date and Time: To be Communicated upon Applying.</p>
         </div>
     </div>
   )
