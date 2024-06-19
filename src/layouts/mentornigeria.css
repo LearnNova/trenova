@@ -25,12 +25,6 @@ html {
    scroll-behavior: smooth;
 }
 
-body {
-  background-color: var(--secondary-clr);
-  color: var(--pri-clr);
-  font-family: var(--font-family-pri);
-}
-
 .App {
   display: flex;
   flex-direction: column;
@@ -38,6 +32,7 @@ body {
   font-size: 1rem;
   margin: 0 auto;
   background-color: var(--secondary-clr);
+  color: var(--pri-clr);
 }
 
 .hero-sec-wrapper {
