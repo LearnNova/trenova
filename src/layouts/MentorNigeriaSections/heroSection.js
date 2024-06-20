@@ -21,7 +21,7 @@ const HeroSection = () => {
                 <span>a <b>FREE</b> On-site Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive: </span>
                 <span className='hero-sec-info-list-container'>
                     <ul>
-                        <li>Up to <span className='highlighter'><b>₦2,000,000.00 </b></span> in Earnings while Learning and MentorNigeria Star Award, and</li>
+                        <li>Up to <span className='highlighter'><b>₦2,000,000.00 </b></span> in Earnings and Bonuses while Learning, and</li>
                         <li>You may also secure a full time employment from LearnNova Learning Support Centre upon Graduation...</li>
                     </ul>
                 </span>
