@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavigateForm } from 'utils/navigateForm'
-import '../mentornigeria.css'
+import './mentornigeria.css'
 
 const ModuleSection = () => {
   return (

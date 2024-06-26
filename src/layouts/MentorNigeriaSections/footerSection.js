@@ -1,5 +1,5 @@
 import React from 'react'
-import '../mentornigeria.css'
+import './mentornigeria.css'
 
 const FooterSection = () => {
   return (

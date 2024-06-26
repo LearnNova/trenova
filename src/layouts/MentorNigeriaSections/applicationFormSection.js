@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react'
-import '../mentornigeria.css'
+import './mentornigeria.css'
 
 const ApplicationFormSection = () => {
 

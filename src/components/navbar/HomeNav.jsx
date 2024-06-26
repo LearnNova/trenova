@@ -19,6 +19,10 @@ const navigation = [
     name: "MentorNigeria", 
     href: "/MentorNigeria",
   },
+  {
+    name: "Career", 
+    href: "/Career",
+  },
 ];
 
 function classNames(...classes) {
