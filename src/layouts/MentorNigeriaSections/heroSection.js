@@ -13,7 +13,7 @@ const HeroSection = () => {
             <div><a href='#application-form-section'> <span className='highlighter' style={{fontSize: '2em'}}><button className='submit-btn'>APPLY NOW</button></span> to Book a Seat at our NEXT On-site Opportunity Discovery Day Seminar...</a> </div>
             <div className='line-breaker'></div>
             <div>
-                <span>...MENTORNIGERIA... </span>
+                <span>..MENTORNIGERIA.. </span>
                 <span>is offering</span>
             </div>
             <div>
