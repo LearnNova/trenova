@@ -1,5 +1,5 @@
 import React from 'react'
-// import { NavigateForm } from 'utils/navigateForm'
+import { NavigateForm } from 'utils/navigateForm'
 import './career.css'
 
 const CareerHeroSection = () => {
@@ -31,24 +31,23 @@ const CareerHeroSection = () => {
             </div>
             <div className='line-breaker'></div>
             <div className='career-what-you-learn-title' style={{marginLeft: '.5em'}}>
-                <span className='highlighter'>Monthly Renumerations:</span> This is set at
+                <span>Monthly Renumerations:</span> This is set at
             </div>
             <div className='career-what-you-learn-info'>
                 <span>
-                Basic Remuneration of <span className='highlighter'>N150,000 per month</span>, subject to meeting minimum monthly performance 
+                Basic Remuneration of <span className='highlighter-big'><b>₦150,000.00</b></span> <span className='highlighter'>per month</span>, subject to meeting minimum monthly performance 
                 result targets. <span className='highlighter'>PLUS </span> 
-                a Monthly Performance Bonus of <span className='highlighter'>N150,000 </span> 
+                a Monthly Performance Bonus of <span className='highlighter-big'><b>₦150,000.00</b> </span> 
                 payable as follows:
                 </span>
                 <span className='career-what-you-learn-info-list-container'>
-                    <ul>
-                        {/* <li>A Monthly Performance Bonus of <span className='highlighter'>N150,000</span> payable as follows:</li> */}
-                        <li><span className='highlighter'>N40,000</span> when you achieve monthly sales of <span className='highlighter'>600</span> Paying App Users,</li>
+                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
+                        <li><span className='highlighter-big'><b>₦40,000.00</b></span> when you achieve monthly sales of <span className='highlighter'>600</span> Paying App Users,</li>
                         <li>
-                            You will also receive an additional <span className='highlighter'>N50,000</span> when you achieve monthly sales of 
+                            You will also receive an additional <span className='highlighter-big'><b>₦50,000.00</b></span> when you achieve monthly sales of 
                             <span className='highlighter'> 800</span> Paying App Users, and 
                         </li>
-                        <li>Finally, you will be paid a Bonus of <span className='highlighter'>N60,000</span> when you achieve monthly sales of 
+                        <li>Finally, you will be paid a Bonus of <span className='highlighter-big'><b>₦60,000.00</b></span> when you achieve monthly sales of 
                         <span className='highlighter'> 1,000</span> Paying App Users.
                         </li>
                     </ul>
@@ -57,13 +56,13 @@ const CareerHeroSection = () => {
 
             <div className='career-other-hero-section-container'>
                 In addition to the above, you will also be paid <span className='highlighter'>10% Sales Commission</span> on any additional 
-                monthly sales revenue above <span className='highlighter'>N1,999,000</span>.
+                monthly sales revenue above <span className='highlighter-big'><b>₦1,999,000.00</b></span>.
             </div>
             <div className='line-breaker'></div>
             <div className='career-other-hero-section-container'>
                 This offer is probationary for <span className='highlighter'>4 months</span>. During this probationary period, 
                 you will represent us within your locality and its environs, and you will also be expected 
-                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter'>N749,625</span> - (<span className='highlighter'>375</span> units of App sales). 
+                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter-big'><b>₦749,625.00</b></span> - (<span className='highlighter'>375</span> units of App sales). 
             </div>
 
             <div className='line-breaker'></div>
@@ -74,6 +73,10 @@ const CareerHeroSection = () => {
                 The maximum total remuneration payable to you in such a month will be <span className='highlighter'>15%</span> of the total 
                 sales revenue you achieved.
  
+            </div>
+
+            <div className='call-to-action' onClick={NavigateForm}>
+                Kindly Submit your Details below if Interested.
             </div>
 
         </div>

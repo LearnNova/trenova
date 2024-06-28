@@ -140,12 +140,13 @@ html {
 .career-what-you-learn-title>span {
   color: var(--marker-clr);
   font-weight: 800;
+  font-size: 1.2em;
 }
 
 .career-what-you-learn-info {
   text-align: left;
   padding: 0 .5em;
-  font-size: .35em;
+  font-size: .4em;
   color: var(--pri-clr);
 }
 
@@ -156,9 +157,22 @@ html {
   padding-top: .5em;
 }
 
+.career-what-you-learn-info-list-container-inner-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: .3em;
+}
+
 .highlighter {
   color: var(--marker-clr);
   font-weight: 600;
+}
+
+.highlighter-big {
+  font-family: var(--font-family-sec);
+  color: var(--marker-clr);
+  font-weight: 600;
+  font-size: 1.3em;
 }
 
 .career-other-hero-section-container {
@@ -401,6 +415,29 @@ html {
   gap: .5em;
 }
 
+#consent-container {
+  display: none;
+}
+
+#hear-container {
+  display: none;
+}
+
+.call-to-action {
+  align-self: center;
+  font-size: .35em;
+  color: var(--tertiary-clr);
+  font-weight: 600;
+  background-image: linear-gradient(to right, var(--marker-clr), var(--marker-clr-sec));
+  padding: .4em .5em;
+  border-radius: 3px;
+  transition: var(--all-transitions);
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  background-image: linear-gradient(to right, var(--marker-clr) 100%, var(--marker-clr-sec) 0%);
+}
 
 @media (max-width: 796px) {
   .career-hero-sec-wrapper {
