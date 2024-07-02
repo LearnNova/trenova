@@ -30,16 +30,15 @@ const CareerHeroSection = () => {
                 </span>
             </div>
             <div className='line-breaker'></div>
-            <div className='career-what-you-learn-title' style={{marginLeft: '.5em'}}>
-                <span>Monthly Renumerations:</span> This is set at
+            <div className='career-what-you-learn-title'>
+                <span className='highlighter'>Monthly Renumerations:</span> This is set at a basic 
+                remuneration of <span className='highlighter-big'><b>₦150,000.00</b></span> 
+                <span className='highlighter'> per month</span>, subject to meeting minimum monthly performance 
+                result targets, <span className='highlighter'>PLUS </span> a Monthly Performance Bonus of 
+                <span className='highlighter-big'><b> ₦150,000.00</b> </span> payable as follows:
+        
             </div>
             <div className='career-what-you-learn-info'>
-                <span>
-                Basic Remuneration of <span className='highlighter-big'><b>₦150,000.00</b></span> <span className='highlighter'>per month</span>, subject to meeting minimum monthly performance 
-                result targets. <span className='highlighter'>PLUS </span> 
-                a Monthly Performance Bonus of <span className='highlighter-big'><b>₦150,000.00</b> </span> 
-                payable as follows:
-                </span>
                 <span className='career-what-you-learn-info-list-container'>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='highlighter-big'><b>₦40,000.00</b></span> when you achieve monthly sales of <span className='highlighter'>600</span> Paying App Users,</li>
