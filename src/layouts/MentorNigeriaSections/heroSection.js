@@ -54,7 +54,7 @@ const HeroSection = () => {
         </div>
 
         <div className='news-bar-container'>
-            <p className='news'>Venue: 7b, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos. | Date and Time: To be Communicated upon Applying.</p>
+            <p className='news'>Office Address: 7b, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos. | Date and Time: To be Communicated upon Applying.</p>
         </div>
     </div>
   )
