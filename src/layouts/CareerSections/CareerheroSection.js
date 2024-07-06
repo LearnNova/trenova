@@ -64,17 +64,17 @@ const CareerHeroSection = () => {
             <div className='career-other-hero-section-container'>
                 This offer is probationary for <span className='highlighter'>4 months</span>. During this probationary period, 
                 you will represent us within your locality and its environs, and you will also be expected 
-                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter-big'><b>₦749,625.00</b></span> - (<span className='highlighter'>375</span> units of App sales). 
+                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter-big'><b>₦769,615.00</b></span> - (<span className='highlighter'>385</span> units of App sales). 
             </div>
 
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
                 Kindly note that any month you fail to achieve these <span className='highlighter'>minimum expected performance results</span> during this 
-                <span className='highlighter'> probationary period</span>, you will <span className='highlighter'>not be paid the Basic Remuneration</span> stated above. 
-                The maximum total remuneration payable to you in such a month will be <span className='highlighter'>15%</span> of the total 
-                sales revenue you achieved.
- 
+                <span className='highlighter'> probationary period</span>, you will
+                <span className='highlighter'> not be paid the Basic Remuneration or any of the Performance Bonus</span> stated above. 
+                The maximum total remuneration payable to you in such a month will be
+                <span className='highlighter'> 15%</span> of the total sales revenue you achieved in the month.
             </div>
 
             <div className='call-to-action' onClick={NavigateForm}>
