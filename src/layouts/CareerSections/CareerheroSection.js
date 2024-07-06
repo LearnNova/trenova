@@ -53,10 +53,13 @@ const CareerHeroSection = () => {
                 </span> 
             </div>
 
-            <div className='career-other-hero-section-container'>
-                In addition to the above, you will also be paid <span className='highlighter'>10% Sales Commission</span> on any additional 
-                monthly sales revenue above <span className='highlighter-big'><b>₦1,999,000.00</b></span>.
-            </div>
+            {/* <div className='career-other-hero-section-container'>
+                In addition to the above, you will also be paid
+                <span className='highlighter'> a monthly sales commission of 5.625%</span> 
+                on any additional sales revenue you generated from any additional App users you added to the 
+                company in excess of your base target of <span className='highlighter'>3000</span> App Users <span className='highlighter'>OR</span> on monthly sales revenue above
+                <span className='highlighter-big'><b> ₦1,999,000.00</b></span> you acheive in each month.
+            </div> */}
             <div className='line-breaker'></div>
             <div className='career-other-hero-section-container'>
                 This offer is probationary for <span className='highlighter'>4 months</span>. During this probationary period, 
