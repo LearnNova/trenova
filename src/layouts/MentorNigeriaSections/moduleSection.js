@@ -49,12 +49,12 @@ const ModuleSection = () => {
                     <br />
                     <ul>
                         <li>Training and Summit Management.</li>
+                        <li>Survival Skills for the New Trainer and using Activities to Make Training Fun.</li>
                         <li>Business Growth First Aid and Launchpad.</li>
                         <li>Business Growth Blueprint.</li>
                         <li>Talisman Business Growth Acceleration System.</li>
                         <li>Business Growth Mentorship and Coaching System.</li>
-                        <li>Business Growth Consulting System.</li>
-                        <li>Survival Skills for the New Trainer and using Activities to Make Training Fun.</li>
+                        <li>Business Systemization and Consulting System.</li>
                     </ul>
                 </div>
 
