@@ -54,22 +54,23 @@ const CareerHeroSection = () => {
             </div>
 
             <div className='career-other-hero-section-container'>
-                In addition to the above, you will also be paid 
-                <span className='highlighter'>a Monthly Sales Commission of 5.625%</span> on any additional 
+                In addition to the above, you will also be paid a 
+                <span className='highlighter'>Monthly Sales Commission of 5.625%</span> on any additional 
                 sales revenue you generated above <span className='highlighter-big'><b>₦1,999,000.00</b></span> in a month.
             </div>
 
             <div className='line-breaker'></div>
             <div className='career-other-hero-section-container'>
-                This offer is probationary for <span className='highlighter'>4 months</span>. During this probationary period, 
+                This offer is probationary for a period of<span className='highlighter'>4 months</span>. During this probationary period, 
                 you will represent us within your locality and its environs, and you will also be expected 
-                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter-big'><b>₦769,615.00</b></span> - (<span className='highlighter'>385</span> units of App sales). 
+                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter-big'><b>₦769,615.00</b></span> Sales Revenue <span className='highlighter'>OR</span> must have signed up a monthly average of <span className='highlighter'>385</span> App Users. 
             </div>
 
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                Kindly note that any month you fail to achieve these <span className='highlighter'>minimum expected performance results</span> during this 
+                Kindly note that any month you fail to achieve the above stated 
+                <span className='highlighter'>minimum expected performance results</span> during the 
                 <span className='highlighter'> probationary period</span>, you will
                 <span className='highlighter'> not be paid the Basic Remuneration or any of the Performance Bonus</span> stated above. 
                 The maximum total remuneration payable to you in such a month will be
