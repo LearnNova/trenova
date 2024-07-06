@@ -23,25 +23,7 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 2:</span> School Growth Mentorship and Coaching Skills Development.</h3>
-                    <p>- Learning Points: Fifty (50) points</p>
-                    <br />
-                    <ul>
-                        <li>Training and Summit Management.</li>
-                        <li>Private School Growth First Aid and Launchpad.</li>
-                        <li>Private School Growth Blueprint.</li>
-                        <li>Talisman School Growth Acceleration System.</li>
-                        <li>School Growth Mentorship and Coaching System.</li>
-                        <li>School Growth Consulting System.</li>
-                    </ul>
-                </div>
-
-
-            </div>
-
-            <div className='module-row'>
-                <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3:</span> Professional Customer Success and Customer Service Skills.</h3>
+                    <h3><span className='highlighter'>Module 2:</span> Professional Customer Success and Customer Service Skills.</h3>
                     <p>- Learning Points: Fifty (50) points</p>
                     <br />
                     <ul>
@@ -53,6 +35,26 @@ const ModuleSection = () => {
                         <li>The Value Perspective and the Ingredients of Value.</li>
                         <li>Customer Service Process, Competence, Communication, Speed, Responsiveness, Friendliness and Reliability.</li>
                         <li>The Cost of Poor Service and a Personal Action Plan.</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div className='module-row'>
+
+                <div className='module-info'>
+                    <h3><span className='highlighter'>Module 3:</span> Business Growth Mentorship and Coaching Skills Development.</h3>
+                    <p>- Learning Points: Fifty (50) points</p>
+                    <br />
+                    <ul>
+                        <li>Training and Summit Management.</li>
+                        <li>Business Growth First Aid and Launchpad.</li>
+                        <li>Business Growth Blueprint.</li>
+                        <li>Talisman Business Growth Acceleration System.</li>
+                        <li>Business Growth Mentorship and Coaching System.</li>
+                        <li>Business Growth Consulting System.</li>
+                        <li>Survival Skills for the New Trainer and using Activities to Make Training Fun.</li>
                     </ul>
                 </div>
 
