@@ -6,22 +6,22 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text'>"EARN WHILE YOU LEARN"</div>
+            <div className='hero-sec-text'>"EARN WHILE YOU LEARN!"</div>
         </div>
         <div className='hero-sec-info'>
-            <div><a href='#application-form-section'> <span className='highlighter' style={{fontSize: '2em'}}><button className='submit-btn'>APPLY NOW</button></span> to Book a Seat at our NEXT On-site Opportunity Discovery Day Seminar...</a> </div>
+            <div><a href='#application-form-section'> <span className='highlighter' style={{fontSize: '2em'}}><button className='submit-btn'>APPLY NOW</button></span> to Reserve Your Seat at the Next Opportunity Discovery Day Seminar...</a> </div>
             <div className='line-breaker'></div>
             <div>
                 <span>...MENTORNIGERIA...</span>
-                <span>is offering</span>
+                <span>is <b>offering</b></span>
             </div>
             <div>
-                <span>...Earn while you Learn, </span>
-                <span>a <b>FREE</b> Training and Mentorship Program on Entrepreneurship and Career Development... <b>PLUS </b>the opportunity to receive: </span>
+                <span>“Earn While You Learn,”  </span>
+                <span>a <b>FREE</b> training and mentorship program focused on career development and entrepreneurship. Plus, you'll have the opportunity to: </span>
                 <span className='hero-sec-info-list-container'>
                     <ul>
-                        <li>Up to <span className='highlighter'><b>₦2,000,000.00 </b></span> in Earnings and Bonuses while Learning, and</li>
-                        <li>You may also secure a full time employment from LearnNova Learning Support Centre upon Graduation...</li>
+                        <li>Earn up to <span className='highlighter'><b>₦2,000,000.00 </b></span> while learning, and</li>
+                        <li>May have opportunity of securing full-time employment with LearnNova <b>Learning Support Centre</b> during your time at the Academy</li>
                     </ul>
                 </span>
                 
@@ -37,9 +37,9 @@ const HeroSection = () => {
                 </span>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
-                        <li><span className='highlighter'>SECURE</span> well-paying employment from companies operating within the Nigerian economy,</li>
-                        <li><span className='highlighter'>BUILD</span> profitable start-up business,</li>
-                        <li><span className='highlighter'>OFFER</span> virtual professional services to Organizations operating in Canada, US and Europe.</li>
+                        <li><span className='highlighter'>SECURE</span> well-paying employment with companies operating within the Nigerian economy</li>
+                        <li><span className='highlighter'>OFFER</span> virtual professional services to organizations in Canada, the US, and Europe</li>
+                        <li><span className='highlighter'>BUILD</span> a profitable start-up business</li>
                     </ul>
                 </span> 
             </div>

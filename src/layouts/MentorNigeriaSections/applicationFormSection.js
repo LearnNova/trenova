@@ -82,7 +82,7 @@ const ApplicationFormSection = () => {
   return (
     <div>
         <div id='application-form-section'>
-            <div className='application-form-title'>Application Form</div>
+            <div className='application-form-title'>Complete the Application Form Below:</div>
             <div>
                 <form id='application-form' onSubmit={handleSubmit}>
                     <div className='form-row-main'>
