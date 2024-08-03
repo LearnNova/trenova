@@ -11,7 +11,7 @@ const CareerHeroSection = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Sales Representative</span>
+                <span style={{marginLeft: '.3em'}}> Sales Representative/Agent</span>
             </div>
             <div className='line-breaker'></div>
             <div>
