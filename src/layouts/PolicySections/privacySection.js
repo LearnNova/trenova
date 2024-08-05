@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 import './policy.css'
 
 const PrivacySection = () => {
   return (
     <div className='privacy-main-container'>
-      <div><a href='https://www.learnnova.ng/'>Go Back to Main Menu</a></div>
+      <div><Link to="/">Go Back to Main Menu</Link></div>
       <div className='privacy-header-wrapper'>
         <div className='title'>Privacy Policy</div>
         <div className='date'>Last Updated: May 01, 2024</div>
@@ -118,7 +119,7 @@ const PrivacySection = () => {
             <div id='1' className='text-layout'>
               <div className='content-title'>1. WHAT INFORMATION DO WE COLLECT?</div>
 
-              <div className='content-sub-title'>Personal information you disclose to us</div>
+              <div className='content-sub-title'>Personal information you disclose to us.</div>
 
               <div><span className='text-bold'>In Short:</span> We collect personal information that you provide to us</div>
 

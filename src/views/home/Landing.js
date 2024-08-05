@@ -502,18 +502,18 @@ const Landing = (props) => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wa.me/+2348179361381"
+              href="https://wa.me/+2349137819540"
               className="text-2xl  flex items-center justify-center gap-2 rounded-[60px] bg-teal-400 px-4 py-2  font-medium text-white"
             >
               <BsWhatsapp color="green" /> Contact Us
             </a>
           </div>
           <div className="text-2xl text-slate-400 max-md:flex-wrap max-md:mt-10 max-md:mr-2.5 max-md:max-w-full mx-5 mt-5 flex justify-between gap-2 self-stretch text-center tracking-wider">
-            <div>Careers</div>
-            <div className="h-[23px] w-px bg-gray-500" />
-            <div className="flex-auto">Privacy Policy</div>
-            <div className="h-[23px] w-px bg-gray-500" />
-            <div className="grow whitespace-nowrap">Terms & Conditions</div>
+            {/* <div><Link to="/Career">Career</Link></div>
+            <div className="h-[23px] w-px bg-gray-500" /> */}
+            <div className="flex-auto"><Link to="/PrivacyPolicy">Privacy Policy</Link></div>
+            {/* <div className="h-[23px] w-px bg-gray-500" />
+            <div className="grow whitespace-nowrap">Terms & Conditions</div> */}
           </div>
           <div className="text-2xl text-slate-400 mt-8  text-center tracking-wider">
             © {Date()} Code Fussion Sol.{" "}

@@ -10,7 +10,7 @@ export default function Footer() {
         <li className="mr-12">
           <a
             target="blank"
-            href="mailto:hello@simmmple.com"
+            href="mailto:trenovaschools@gmail.com"
             className="text-sm md:text-base text-gray-600 hover:text-gray-600 lg:text-white lg:hover:text-white"
           >
             Support
