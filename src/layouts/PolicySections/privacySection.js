@@ -4,8 +4,8 @@ import './policy.css'
 
 const PrivacySection = () => {
   return (
-    <div>
-      <div>Go Back to Main Menu</div>
+    <div className='privacy-main-container'>
+      <div><a href='https://www.learnnova.ng/'>Go Back to Main Menu</a></div>
       <div className='privacy-header-wrapper'>
         <div className='title'>Privacy Policy</div>
         <div className='date'>Last Updated: May 01, 2024</div>
@@ -19,7 +19,7 @@ const PrivacySection = () => {
             </div>
             <div className='introduction-list'>
               <ul className='text-layout'>
-                <li>Visit our website at <span><a href='http://www.learnnova.ng'>http://www.learnnova.ng</a></span>, or any website of ours that links to this privacy notice</li>
+                <li>Visit our website at <span><a href='https://www.learnnova.ng/'>https://www.learnnova.ng</a></span>, or any website of ours that links to this privacy notice</li>
                 <li>Download and use our mobile application (Learnnova), or any other application of ours that links to this privacy notice</li>
                 <li>Engage with us in other related ways, including any sales, marketing, or events</li>
               </ul>

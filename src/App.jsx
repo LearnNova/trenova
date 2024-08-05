@@ -9,7 +9,7 @@ import Landing from "views/home/Landing";
 import PrivateRoute from "components/PrivateRoute";
 import MentorNigeriaPage from "pages/MentorNigeriaPage";
 import CareerPage from "pages/CareerPage";
-// import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
+import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
 const App = () => {
   return (
@@ -33,14 +33,14 @@ const App = () => {
           </>
         } />
 
-      {/* <Route 
+      <Route 
         path="PrivacyPolicy" 
         element={
           <>
           <PageTitle title="PrivacyPolicy" />
           <PrivacyPolicyPage />
           </>
-        } />  */}
+        } /> 
 
       <Route path="" element={<PrivateRoute />}>
         <Route path="admin/*" element={<AdminLayout />} />
