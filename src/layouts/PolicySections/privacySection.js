@@ -498,11 +498,19 @@ const PrivacySection = () => {
             </div>
 
             <div id='9' className='text-layout'>
-              <div className='content-title'>DO WE MAKE UPDATES TO THIS NOTICE?</div>
+              <div className='content-title'>9. DO WE MAKE UPDATES TO THIS NOTICE?</div>
 
               <div className='text-italic'>
                 <span className='text-bold'>In Short:</span> Yes, we will update this notice as necessary 
                 to stay compliant with relevant laws.
+              </div>
+
+              <div>
+                We may update this privacy notice from time to time. The updated version will be indicated 
+                by an updated "Revised" date at the top of this privacy notice. If we make material 
+                changes to this privacy notice, we may notify you either by prominently posting a notice 
+                of such changes or by directly sending you a notification. We encourage you to review this 
+                privacy notice frequently to be informed of how we are protecting your information.
               </div>
 
             </div>
