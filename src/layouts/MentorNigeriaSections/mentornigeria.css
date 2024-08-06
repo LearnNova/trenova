@@ -90,12 +90,13 @@ html {
   background-color: var(--line-clr);
 }
 
-.hero-sec-info>div:nth-child(3) {
+.hero-sec-info .section-3 {
   align-self: flex-start;
   font-size: .6em;
+  font-weight: 600;
 }
 
-.hero-sec-info>div:nth-child(3)>span:nth-child(1) {
+/* .hero-sec-info>div:nth-child(3)>span:nth-child(1) {
   font-weight: 600;
   font-size: 1.5em;
   font-family: var(--font-family-sec);
@@ -104,7 +105,7 @@ html {
 .hero-sec-info>div:nth-child(3)>span:nth-child(2) {
   font-weight: 300;
   font-size: .6em;
-}
+} */
 
 .hero-sec-info>div:nth-child(4) {
   font-size: .4em;
@@ -116,11 +117,11 @@ html {
 }
 
 
-.hero-sec-info>div:nth-child(4)>span:nth-child(1) {
+/* .hero-sec-info>div:nth-child(4)>span:nth-child(1) {
   font-family: var(--font-family-sec);
   color: var(--marker-clr);
   font-size: 1.5em;
-}
+} */
 
 .hero-sec-info-list-container {
   display: inline-block;
@@ -162,6 +163,10 @@ html {
 .highlighter {
   color: var(--marker-clr);
   font-weight: 600;
+}
+
+.blue-color {
+  color: var(--marker-clr-sec);
 }
 
 /* WHATSAPP CONTAINER  */

@@ -10,7 +10,7 @@ const ModuleSection = () => {
             <div className='module-row'>
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Professional Selling Skills for Shy & Introverted Individuals</h3>
-                    <p>- Learning Points: Sixty (60) points</p>
+                    <p>- Learning Points: Forty-five (45) points</p>
                     <br />
                     <ul>
                         <li>Sales Planning and Event Management for Success in Selling</li>
@@ -27,7 +27,7 @@ const ModuleSection = () => {
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 2:</span> Professional Telemarketing Skills</h3>
-                    <p>- Learning Points: Sixty (60) points</p>
+                    <p>- Learning Points: Forty-five (45) points</p>
                     <br />
                     <ul>
                         <li>Introduction to Telemarketing</li>
@@ -50,7 +50,7 @@ const ModuleSection = () => {
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 3:</span> Professional Customer Service & Relationship Management Skills</h3>
-                    <p>- Learning Points: Sixty (60) points</p>
+                    <p>- Learning Points: Forty-five (45) points</p>
                     <br />
                     <ul>
                         <li>The Basic Principles of Service and What Customers Want</li>
@@ -65,8 +65,55 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4:</span> Business Growth Mentorship and Coaching Skills Development</h3>
-                    <p>- Learning Points: Sixty (60) points</p>
+                        <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
+                        <p>- Learning Points: Forty-five (45) points</p>
+                        <br />
+                        <ul>
+                            <li>Core Skills for a Successful Virtual Assistant Career</li>
+                            <li>Key Responsibilities and Workload Management</li>
+                            <li>How to Search for and Secure a Virtual Assistant Job</li>
+                            <li>Service Processes and Reliability</li>
+                            <li>Obtaining a Canadian Work Permit Visa</li>
+                            <li>Emigrating through Sponsored Jobs</li>
+                        </ul>
+                </div>
+            </div>
+            
+            <div className='module-row'>
+
+                <div className='module-info'>
+                        <h3><span className='highlighter'>Module 5:</span> Prompt Engineering with ChatGPT & Branding </h3>
+                        <p>- Learning Points: Forty-five (45) points</p>
+                        <br />
+                        <ul>
+                            <li>Prompt Engineering Explained </li>
+                            <li>Prompt Framework & Custom Instructions</li>
+                            <li>Prompt Priming & Iteration & 0-1-Few Shot</li>
+                            <li>Output Templates, Step-by-Step & Act As</li>
+                            <li>Perspectives, 4th Grade & Follow-up Questions</li>
+                            <li>Tabular Format, Comparisons, Critique Me & Critique Yourself</li>
+                            <li>Teach Me, Write Like Me, Ask for Advice & Laddering</li>
+                            <li>Advanced Prompt Engineering & Fine Tuning</li>
+                            <li>Branding vs Marketing</li>
+                            <li>Why You Need a Brand Strategy & The Structure of Branding</li>
+                            <li>The Importance of Purpose, Purpose Examples & Your Purpose</li>
+                            <li>The Importance of Vision, Vision Examples & Your Vision</li>
+                            <li>The Importance of Mission, Mission Examples & Your Mission</li>
+                            <li>The Importance of Values, Values Examples & Your Values</li>
+                            <li>Who Are Your Competitors?</li>
+                            <li>What Makes You Different & Differentiator Examples</li>
+                            <li>The Importance of Positioning & Your Positioning Statement</li>
+                            <li>What Is Brand Personality</li>
+                            <li>Define Your Brand Personality & Find Your Brand Voice</li>
+                            <li>The Power of Brand Storytelling & How to Tell Your Brand Story</li>
+                            <li>Name Your Brand & Create Your Tagline</li>
+                            <li>Your Brand Colors, Your Brand Fonts, Brand Logo Types & Your Brand Logo </li>
+                        </ul>
+                </div>
+
+                <div className='module-info'>
+                    <h3><span className='highlighter'>Module 6:</span> Business Growth Mentorship and Coaching Skills Development</h3>
+                    <p>- Learning Points: Forty-five (45) points</p>
                     <br />
                     <ul>
                         <li>Training and Summit Management</li>
@@ -79,26 +126,35 @@ const ModuleSection = () => {
                     </ul>
                 </div>
             </div>
-            
+
             <div className='module-row'>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 5:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
-                        <p>- Learning Points: Sixty (60) points</p>
-                        <br />
-                        <ul>
-                            <li>Core Skills for a Successful Virtual Assistant Career</li>
-                            <li>Key Responsibilities and Workload Management</li>
-                            <li>How to Search for and Secure a Virtual Assistant Job</li>
-                            <li>Service Processes and Reliability</li>
-                            <li>Obtaining a Canadian Work Permit Visa</li>
-                            <li>Emigrating through Sponsored Jobs</li>
-                        </ul>
+                    <h3><span className='highlighter'>Module 7:</span> Freelancing as a Strategy for Income Generation </h3>
+                    <p>- Learning Points: Forty-five (45) points</p>
+                    <br />
+                    <ul>
+                        <li>Freelance on UpWork Introduction</li>
+                        <li>How to Get Approved</li>
+                        <li>Create a Specialized Profile</li>
+                        <li>Importance of Profile Photo</li>
+                        <li>Profile Title Keywords</li>
+                        <li>Choose a Profile Rate</li>
+                        <li>Write Your Profile Overview & Use an Intro Video</li>
+                        <li>Set Availability & Set Languages</li>
+                        <li>Add Education & Work History</li>
+                        <li>Create Your Portfolio & Select Skills & Expertise</li>
+                        <li>Pre-packaged Projects & Testimonials</li>
+                        <li>Certifications & Employment History</li>
+                        <li>How to Find Qualified Jobs</li>
+                        <li>Submit a Proposal & Write a Cover Letter</li>
+                        <li>Proposal From Client's Perspective & Badge Criteria</li>
+                    </ul>
                 </div>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 6:</span> Business Start-up and Entrepreneurship Skills Development</h3>
-                        <p>- Learning Points: Sixty (60) points</p>
+                        <h3><span className='highlighter'>Module 8:</span> Business Start-up and Entrepreneurship Skills Development</h3>
+                        <p>- Learning Points: Forty-five (45) points</p>
                         <br />
                         <ul>
                             <li>Idea Generation and Market Research</li>

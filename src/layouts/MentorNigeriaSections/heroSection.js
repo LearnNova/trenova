@@ -11,17 +11,22 @@ const HeroSection = () => {
         <div className='hero-sec-info'>
             <div><a href='#application-form-section'> <span className='highlighter' style={{fontSize: '2em'}}><button className='submit-btn'>APPLY NOW</button></span> to Reserve Your Seat at the Next Opportunity Discovery Day Seminar...</a> </div>
             <div className='line-breaker'></div>
-            <div>
-                <span>...MENTORNIGERIA...</span>
-                <span>is <b>offering</b></span>
+            <div className='section-3'>
+                <span>“…</span>
+                <span className='highlighter'>Earn While You Learn </span>
+                <span className='blue-color'>@ </span>
+                <span>MentorNigeria…”</span>
             </div>
             <div>
-                <span>“Earn While You Learn,”  </span>
-                <span>a <b>FREE</b> training and mentorship program focused on career development and entrepreneurship. Plus, you'll have the opportunity to: </span>
+                <span>
+                    Introducing the MentorNigeria Earn While You Learn Program. Join our <span className='highlighter'>FREE</span> training and 
+                    mentorship initiative to boost your entrepreneurship and employment skills. 
+                    As a participant you’ll have the opportunity to:
+                </span>
                 <span className='hero-sec-info-list-container'>
                     <ul>
-                        <li>Earn up to <span className='highlighter'><b>₦2,000,000.00 </b></span> while learning, and</li>
-                        <li>May have opportunity of securing full-time employment with LearnNova <b>Learning Support Centre</b> during your time at the Academy</li>
+                        <li>Earn up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>2 Million</b></span> while gaining valuable knowledge, and</li>
+                        <li>Possibly secure full-time employment with <b>Learning Support Centre</b> during your time at the Academy</li>
                     </ul>
                 </span>
                 
