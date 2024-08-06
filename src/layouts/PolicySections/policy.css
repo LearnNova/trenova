@@ -37,6 +37,10 @@
     font-weight: 600;
 }
 
+.text-italic {
+  font-style: italic;
+}
+
 .privacy-header-wrapper {
     font-size: 1em;
 }
