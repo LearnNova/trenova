@@ -88,7 +88,7 @@ const ModuleSection = () => {
                         <ul>
                             <li>Prompt Engineering Explained </li>
                             <li>Prompt Framework & Custom Instructions</li>
-                            <li>Prompt Priming & Iteration & 0-1-Few Shot</li>
+                            <li>Prompt Priming, Iteration & 0-1-Few Shot</li>
                             <li>Output Templates, Step-by-Step & Act As</li>
                             <li>Perspectives, 4th Grade & Follow-up Questions</li>
                             <li>Tabular Format, Comparisons, Critique Me & Critique Yourself</li>
@@ -143,7 +143,7 @@ const ModuleSection = () => {
                         <li>Write Your Profile Overview & Use an Intro Video</li>
                         <li>Set Availability & Set Languages</li>
                         <li>Add Education & Work History</li>
-                        <li>Create Your Portfolio & Select Skills & Expertise</li>
+                        <li>Create Your Portfolio, Select Skills & Expertise</li>
                         <li>Pre-packaged Projects & Testimonials</li>
                         <li>Certifications & Employment History</li>
                         <li>How to Find Qualified Jobs</li>

@@ -25,8 +25,8 @@ const HeroSection = () => {
                 </span>
                 <span className='hero-sec-info-list-container'>
                     <ul>
-                        <li>Earn up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>2 Million</b></span> while gaining valuable knowledge, and</li>
-                        <li>Possibly secure full-time employment with <b>Learning Support Centre</b> during your time at the Academy</li>
+                        <li>Earn up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>₦2 Million</b></span> while gaining valuable knowledge, and</li>
+                        <li>Possibly secure full-time employment with <b>LearnNova Learning Support Centre</b> during your time at the Academy</li>
                     </ul>
                 </span>
                 
