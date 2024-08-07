@@ -96,17 +96,6 @@ html {
   font-size: .4em;
 }
 
-/* .hero-sec-info>div:nth-child(3)>span:nth-child(1) {
-  font-weight: 600;
-  font-size: 1.5em;
-  font-family: var(--font-family-sec);
-}
-
-.hero-sec-info>div:nth-child(3)>span:nth-child(2) {
-  font-weight: 300;
-  font-size: .6em;
-} */
-
 .career-hero-sec-info>div:nth-child(4) {
   font-size: .4em;
   border: 1px outset var(--line-clr);
@@ -143,7 +132,9 @@ html {
   display: flex;
   list-style: decimal;
   flex-direction: column;
-  gap: .2em;
+  gap: .35em;
+  padding-left: 1em;
+  padding-top: .5em;
 }
 
 /* .career-what-you-learn-title>span {
@@ -152,7 +143,7 @@ html {
   font-size: 1.2em;
 } */
 
-.career-what-you-learn-info {
+/* .career-what-you-learn-info {
   text-align: left;
   padding: 0 .5em;
   font-size: .4em;
@@ -164,13 +155,14 @@ html {
   width: 100%;
   padding-left: 1em;
   padding-top: .5em;
-}
+} */
 
 .career-what-you-learn-info-list-container-inner-list-container {
   display: flex;
   flex-direction: column;
   gap: .3em;
   list-style: disc;
+  padding-left: 1em;
 }
 
 .highlighter {
@@ -190,7 +182,8 @@ html {
 }
 
 .spacing {
-  margin-top: 5em;
+  margin-top: .7em;
+  margin-bottom: .7em;
 }
 
 /* WHATSAPP CONTAINER  */
@@ -216,201 +209,6 @@ html {
   left: 4px;
   color: #25d366;
 }
-
-
-/* .apply-now-link-2 {
-  border-radius: 7px;
-  border: 1px solid var(--pri-clr);
-  background-color: var(--marker-clr);
-  font-size: .4em;
-  padding: .3em .4em;
-  color: var(--tertiary-clr);
-  transition: var(--all-transitions);
-  cursor: pointer;
-}
-
-.apply-now-link-2:hover {
-  background-color: var(--marker-clr-sec);
-  color: var(--pri-clr);
-}
-
-.apply-now-link-2>a {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-}
-
-
-#application-form-section {
-  position: relative;
-  text-align: center;
-  font-size: 4em;
-  background-color: var(--pri-clr);
-  color: var(--secondary-clr);
-  border: 1px solid var(--pri-clr);
-  font-family: var(--font-family-sec);
-  padding: .3em 0;
-  z-index: 1000;
-  
-}
-
-.application-form-title {
-  font-size: .6em;
-  font-weight: 800;
-  margin-bottom: .5em;
-}
-
-#application-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: .3em;
-  padding-bottom: .3em;
-  max-width: 800px;
-  border-radius: 7px;
-  width: 90%;
-  background-color: var(--tertiary-clr);
-  margin: 0 auto;
-  color: var(--pri-clr);
-}
-
-.form-row-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1em;
-  width: 100%;
-  font-size: .3em;
-  font-family: var(--font-family-pri);
-  padding: 1em .5em;
-}
-
-.form-row {
-  position: relative;
-  width: 48%;
-}
-
-.form-row-consent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1em;
-}
-
-.consent-text {
-  text-align: left;
-  font-size: .8em;
-  line-height: 1em;
-}
-
-.input-labels {
-  position: absolute;
-  top: -80%;
-  font-size: .8em;
-}
-
-.input-labels-textarea {
-  position: absolute;
-  top: -40%;
-  font-size: .8em;
-  width: 100%;
-  text-align: left;
-}
-
-.form-control {
-  width: 100%;
-  height: 2em;
-  font-size: .8em;
-  font-weight: 400;
-  padding: 0 .3em;
-  color: var(--secondary-clr);
-}
-
-.form-control-textarea {
-  min-width: 208%;
-  min-height: 4em;
-  max-width: 100%;
-  max-height: 4em;
-  font-size: .8em;
-  font-weight: 400;
-  padding: 0 .3em;
-  color: var(--secondary-clr);
-}
-
-.submit-btn {
-  font-size: .35em;
-  background-color: var(--marker-clr);
-  color: var(--pri-clr);
-  border-radius: 5px;
-  border: 1px outset var(--pri-clr);
-  padding: .3em .5em;
-  cursor: pointer;
-}
-
-.apply-btn-container {
-  padding-top: .5em;
-}
-
-#apply-btn {
-  color: var(--pri-clr);
-  font-size: .4em;
-  border-color: inherit;
-  background-color: var(--marker-clr);
-}
-
-.form-info-box {
-  background-color: var(--pri-clr);
-  color: var(--marker-clr);
-  font-size: .3em;
-  font-family: var(--font-family-pri);
-  padding: .2em;
-  border-radius: 3px;
-  font-weight: 600;
-}
-
-
-.module-section-wrapper {
-  text-align: center;
-  margin: 1em auto;
-  width: 90%;
-  font-size: 4em;
-}
-
-.module-title {
-  font-size: .75em;
-  font-family: var(--font-family-sec);
-  font-weight: 600;
-}
-
-.module-row {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: .5em;
-  padding-top: .5em;
-}
-
-.module-info {
-  font-size: .3em;
-  width: 45%;
-  min-width: 323px;
-  padding: 1em 1em 1em 1.5em;
-  border: 1px solid var(--line-clr);
-  border-radius: 7px;
-  text-align: left;
-  background-color: var(--tertiary-clr);
-  
-}
-
-.module-info li {
-  list-style: disc;
-}
-
-.module-info:hover {
-  border-color: var(--marker-clr);
-} */
 
 .career-footer-section-wrapper {
   display: flex;
@@ -465,14 +263,6 @@ html {
     font-size: 3em;
   }
 
-  /* .module-section-wrapper {
-    font-size: 3em;
-  }
-
-  .module-info {
-    width: 90%;
-  } */
-
   .career-footer-section-wrapper {
     font-size: 3em;
   }
@@ -488,19 +278,6 @@ html {
     font-size: 2.5em;
     padding: 1.5rem 4%;
   }
-
-  /* .form-row-main {
-    flex-direction: column;
-    gap: 2em;
-  }
-
-  .form-row {
-    width: 100%;
-  }
-
-  .form-control-textarea {
-    min-width: 100%;
-  } */
 
   .whatsapp-btn-container {
     font-size: 3em;
