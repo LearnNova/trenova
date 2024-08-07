@@ -31,18 +31,12 @@ const CareerHeroSection = () => {
             </div>
             <div className='line-breaker'></div>
             <div className='career-what-you-learn-title'>
-                 The Renumeration is set as follows:
+                 The Renumeration during the probationary period is set as follows:
                 <ul id='career-what-you-learn-title-list'>
                     <li>Basic Remuneration:<span className='highlighter'> ₦150,000.00</span> per month, subject to meeting basic performance targets.</li>
                     <li>Transport Allowance:<span className='highlighter'> ₦30,000.00</span>  per month</li>
                     <li>Performance Bonus:<span className='highlighter'> ₦120,000.00</span> per month, payable as follows:</li>
                 </ul>
-                {/* <b>3. Performance Bonus:</b> ₦120,000.00 per month, payable as follows: */}
-                {/* <span className='highlighter-big'><b>₦150,000.00</b></span> 
-                <span className='highlighter'> per month</span>, subject to meeting minimum monthly performance 
-                result targets, <span className='highlighter'>PLUS </span> a Monthly Performance Bonus of 
-                <span className='highlighter-big'><b> ₦150,000.00</b> </span> payable as follows: */}
-        
             </div>
             <div className='career-what-you-learn-info'>
                 <span className='career-what-you-learn-info-list-container'>
@@ -78,12 +72,12 @@ const CareerHeroSection = () => {
                 Kindly note that any month you fail to achieve the above-stated
                 <span className='highlighter'> minimum expected performance results</span> during the 
                 <span className='highlighter'> probationary period</span>, you will not be paid the
-                <span className='highlighter'> Basic Remuneration nor the Marketing Transport Fare</span> stated above.<br/> 
-                The maximum total remuneration payable to you in such a month will be
+                <span className='highlighter'> Basic Remuneration nor the Marketing Transport Fare</span> stated above.<br/><br/> 
+                <span className='spacing'>The maximum total remuneration payable to you in such a month will be
                 <span className='highlighter'> 15%</span> of the total sales revenue you achieved in the 
-                month. <br/>Also note that upon the completion of the probationary period, if the company has 
+                month.</span> <br/><br/><span>Also note that upon the completion of the probationary period, if the company has 
                 not been able to justify your confirmation, the company may terminate your appointment 
-                upon the provision of 1 working day notice.
+                upon the provision of 3 working days notice.</span>
             </div>
 
             <div className='call-to-action' onClick={NavigateForm}>

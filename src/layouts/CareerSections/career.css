@@ -71,9 +71,9 @@ html {
   font-size: 4em;
 }
 
-.career-hero-sec-info li {
+/* .career-hero-sec-info li {
   list-style: disc;
-}
+} */
 
 .career-hero-sec-info>div:nth-child(1) {
   font-weight: 600;
@@ -140,7 +140,10 @@ html {
 }
 
 #career-what-you-learn-title-list {
+  display: flex;
   list-style: decimal;
+  flex-direction: column;
+  gap: .2em;
 }
 
 /* .career-what-you-learn-title>span {
@@ -167,6 +170,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: .3em;
+  list-style: disc;
 }
 
 .highlighter {
@@ -183,6 +187,10 @@ html {
 
 .career-other-hero-section-container {
   font-size: .4em;
+}
+
+.spacing {
+  margin-top: 5em;
 }
 
 /* WHATSAPP CONTAINER  */
@@ -432,10 +440,11 @@ html {
 .call-to-action {
   align-self: center;
   font-size: .35em;
-  color: var(--tertiary-clr);
+  /* color: var(--tertiary-clr); */
+  color: white;
   font-weight: 600;
-  /* background-image: linear-gradient(to right, var(--marker-clr), var(--marker-clr-sec)); */
-  background-color: white;
+  background-image: linear-gradient(to right, var(--marker-clr), var(--marker-clr-sec));
+  /* background-color: white; */
   padding: .4em .5em;
   border-radius: 3px;
   transition: var(--all-transitions);
