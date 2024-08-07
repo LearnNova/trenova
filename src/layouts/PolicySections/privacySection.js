@@ -510,7 +510,7 @@ const PrivacySection = () => {
                 by an updated "Revised" date at the top of this privacy notice. If we make material 
                 changes to this privacy notice, we may notify you either by prominently posting a notice 
                 of such changes or by directly sending you a notification. We encourage you to review this 
-                privacy notice frequently to be informed of how we are protecting your information.
+                2privacy notice frequently to be informed of how we are protecting your information.
               </div>
 
             </div>
