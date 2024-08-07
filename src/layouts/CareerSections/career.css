@@ -58,6 +58,8 @@ html {
   font-family: var(--font-family-sec);
 }
 
+
+
 .career-hero-sec-info {
   display: flex;
   flex-direction: column;
@@ -136,6 +138,10 @@ html {
   font-size: .4em;
   /* max-width: 90%; */
 }
+
+/* .career-what-you-learn-title-list>li {
+  list-style: decimal;
+} */
 
 /* .career-what-you-learn-title>span {
   color: var(--marker-clr);
