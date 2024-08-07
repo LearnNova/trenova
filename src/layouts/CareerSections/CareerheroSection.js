@@ -38,13 +38,13 @@ const CareerHeroSection = () => {
                     <li><b>Performance Bonus: </b><span className='highlighter-big'><b>₦120,000.00 </b></span> per month, payable as follows:</li>
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><span className='highlighter-big'><b>₦30,000.00</b></span> when you achieve monthly sales revenue of <span className='highlighter'>₦1,199,000.00</span>, <span className='highlighter'>PLUS</span></li>
+                        <li><span className='highlighter-big'><b>₦30,000.00</b></span> when you achieve monthly sales revenue of <span className='highlighter'>₦999,500.00</span>, <span className='highlighter'>PLUS</span></li>
                         <li>
                             An additional <span className='highlighter-big'><b>₦40,000.00</b></span> when you achieve a monthly sales revenue of 
-                            <span className='highlighter'> ₦1,599,000.00</span>, and 
+                            <span className='highlighter'> ₦1,299,000.00</span>, and 
                         </li>
                         <li>A final Performance Bonus of <span className='highlighter-big'><b>₦50,000.00</b></span> will be paid to you when you achieve a monthly sales revenue of 
-                        <span className='highlighter'> ₦1,999,000.00</span> in a month.
+                        <span className='highlighter'> ₦1,599,000.00</span> in a month.
                         </li>
                     </ul>
                 </ol>
@@ -67,7 +67,7 @@ const CareerHeroSection = () => {
             <div className='career-other-hero-section-container'>
                 In addition to the above, you will also be paid a
                 <span className='highlighter'> Monthly Sales Commission of 5.625%</span> on any additional 
-                sales revenue you generate above <span className='highlighter-big'><b>₦1,999,000.00</b></span> in a month.
+                sales revenue you generate above <span className='highlighter-big'><b>₦1,599,000.00</b></span> in a month.
             </div>
 
             <div className='line-breaker'></div>
