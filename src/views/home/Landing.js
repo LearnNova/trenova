@@ -485,14 +485,18 @@ const Landing = (props) => {
       </div> */}
       <div className=" max-md:px-5 max-md:mt-10 max-md:max-w-full mt-10 flex w-full items-center justify-center  bg-gold ">
         <div className="mt-4 flex  max-w-full flex-col items-center">
-          <div className="text-2xl flex  max-w-full justify-between gap-5 font-semibold tracking-wider text-white">
-            <img
-              loading="lazy"
-              src={authImg}
-              className="aspect-[1.37] w-[114px] max-w-full"
-            />
+          <div className="text-2xl flex  max-w-full justify-between gap-1 font-semibold tracking-wider text-white">
+            <div style={{backgroundColor: 'white', borderRadius: '12px'}}>
+              <img
+                loading="lazy"
+                src={authImg}
+                // className="aspect-[1.37] w-[114px] max-w-full"
+                className="w-20"
+              />
+            </div>
+           
             <div className="h-[83px]  bg-gray-500" />
-            <div className="my-auto">Support for Offline Class</div>
+            <div className="my-auto">LearnNova Supports Offline Classes</div>
           </div>
           <div className="text-2xl text-slate-400 max-md:mt-10 max-md:max-w-full mt-2 text-center font-medium tracking-wider"></div>
           <div className=" mt-6 flex items-center gap-2  ">

@@ -66,11 +66,11 @@ export default function HomeNav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className=" hidden flex-shrink-0  items-center sm:flex">
-                  <img className="h-10 w-16" src={authImg} alt="Your Company" />
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start gap-5">
+                <div className=" hidden flex-shrink-0  items-center sm:flex" style={{backgroundColor: 'white', borderRadius: '12px'}}>
+                  <img className="w-16" src={authImg} alt="Logo" style={{objectFit: 'cover'}}/>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden flex-shrink-0  items-center sm:flex">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link
