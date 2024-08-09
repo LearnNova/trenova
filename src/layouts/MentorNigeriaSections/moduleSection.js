@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { NavigateForm } from 'utils/navigateForm'
 import './mentornigeria.css'
 
 const ModuleSection = () => {
+  const [modulecollapse1, setModuleCollapse1] = useState(false);
+  const [modulecollapse2, setModuleCollapse2] = useState(false);
+  const [modulecollapse3, setModuleCollapse3] = useState(false);
+  const [modulecollapse4, setModuleCollapse4] = useState(false);
+  const [modulecollapse5, setModuleCollapse5] = useState(false);
+  const [modulecollapse6, setModuleCollapse6] = useState(false);
+  const [modulecollapse7, setModuleCollapse7] = useState(false);
+  const [modulecollapse8, setModuleCollapse8] = useState(false);
+
   return (
     <div>
         <div className='module-section-wrapper'>
@@ -11,8 +20,9 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Professional Selling Skills for Shy & Introverted Individuals</h3>
                     <p>- Learning Points: Forty-five (45) points</p>
-                    <br />
-                    <ul>
+                    <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse1? "extended": ""}`}>
                         <li>Sales Planning and Event Management for Success in Selling</li>
                         <li>Developing the Characteristics of Sales Professionals</li>
                         <li>Sales Prospecting, Building Credibility, and Rapport with Prospects</li>
@@ -23,13 +33,16 @@ const ModuleSection = () => {
                         <li>Handling Customer Complaints and Overcoming Objections</li>
                         <li>Closing the Sale</li>
                     </ul>
+                    
+                    <button className='read-more-btn' onClick={() => setModuleCollapse1((prev) =>  !prev)}>{`${modulecollapse1? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 2:</span> Professional Telemarketing Skills</h3>
                     <p>- Learning Points: Forty-five (45) points</p>
-                    <br />
-                    <ul>
+                    <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
                         <li>Introduction to Telemarketing</li>
                         <li>Essential Professional Skills for a Successful Tele-sales Career</li>
                         <li>Event Planning and Management for Lead Generation</li>
@@ -41,6 +54,8 @@ const ModuleSection = () => {
                         <li>Follow-up and Relationship Building</li>
                         <li>Personalized Telemarketing Plan (Project)</li>
                     </ul>
+
+                    <button className='read-more-btn' onClick={() => setModuleCollapse2((prev) =>  !prev)}>{`${modulecollapse2? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
 
@@ -51,8 +66,9 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 3:</span> Professional Customer Service & Relationship Management Skills</h3>
                     <p>- Learning Points: Forty-five (45) points</p>
-                    <br />
-                    <ul>
+                    <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
                         <li>The Basic Principles of Service and What Customers Want</li>
                         <li>Understanding Service, the Lifetime Value of a Customer, and the Service Concept</li>
                         <li>Offering Optimal Customer Experience and Managing the Service Outcome</li>
@@ -62,20 +78,25 @@ const ModuleSection = () => {
                         <li>Relationship Management Skills: Effective Communication, Respect and Tact, Positive Attitude, Empathy, Emotional Intelligence, Adaptability and Networking</li>
                         <li>The Cost of Poor Service and Developing a Personal Action Plan</li>
                     </ul>
+
+                    <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
-                        <p>- Learning Points: Forty-five (45) points</p>
-                        <br />
-                        <ul>
-                            <li>Core Skills for a Successful Virtual Assistant Career</li>
-                            <li>Key Responsibilities and Workload Management</li>
-                            <li>How to Search for and Secure a Virtual Assistant Job</li>
-                            <li>Service Processes and Reliability</li>
-                            <li>Obtaining a Canadian Work Permit Visa</li>
-                            <li>Emigrating through Sponsored Jobs</li>
-                        </ul>
+                    <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
+                    <p>- Learning Points: Forty-five (45) points</p>
+                    <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
+                        <li>Core Skills for a Successful Virtual Assistant Career</li>
+                        <li>Key Responsibilities and Workload Management</li>
+                        <li>How to Search for and Secure a Virtual Assistant Job</li>
+                        <li>Service Processes and Reliability</li>
+                        <li>Obtaining a Canadian Work Permit Visa</li>
+                        <li>Emigrating through Sponsored Jobs</li>
+                    </ul>
+
+                    <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
                 </div>
             </div>
             
@@ -84,8 +105,9 @@ const ModuleSection = () => {
                 <div className='module-info'>
                         <h3><span className='highlighter'>Module 5:</span> Prompt Engineering with ChatGPT & Branding </h3>
                         <p>- Learning Points: Forty-five (45) points</p>
-                        <br />
-                        <ul>
+                        <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
+
+                        <ul className={`long-text ${modulecollapse5? "extended": ""}`}>
                             <li>Prompt Engineering Explained </li>
                             <li>Prompt Framework & Custom Instructions</li>
                             <li>Prompt Priming, Iteration & 0-1-Few Shot</li>
@@ -109,13 +131,16 @@ const ModuleSection = () => {
                             <li>Name Your Brand & Create Your Tagline</li>
                             <li>Your Brand Colors, Your Brand Fonts, Brand Logo Types & Your Brand Logo </li>
                         </ul>
+
+                        <button className='read-more-btn' onClick={() => setModuleCollapse5((prev) =>  !prev)}>{`${modulecollapse5? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 6:</span> Business Growth Mentorship and Coaching Skills Development</h3>
                     <p>- Learning Points: Forty-five (45) points</p>
-                    <br />
-                    <ul>
+                    <p className={`three-dot ${modulecollapse6? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse6? "extended": ""}`}>
                         <li>Training and Summit Management</li>
                         <li>Survival Skills for the New Trainer and Using Activities to Make Training Engaging</li>
                         <li>Business Growth First Aid and Launchpad</li>
@@ -124,6 +149,8 @@ const ModuleSection = () => {
                         <li>Business Growth Mentorship and Coaching System</li>
                         <li>Business Systemization and Consulting System</li>
                     </ul>
+
+                    <button className='read-more-btn' onClick={() => setModuleCollapse6((prev) =>  !prev)}>{`${modulecollapse6? 'Read Less': 'Read More...'}`}</button>
                 </div>
             </div>
 
@@ -132,8 +159,9 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 7:</span> Freelancing as a Strategy for Income Generation </h3>
                     <p>- Learning Points: Forty-five (45) points</p>
-                    <br />
-                    <ul>
+                    <p className={`three-dot ${modulecollapse7? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse7? "extended": ""}`}>
                         <li>Freelance on UpWork Introduction</li>
                         <li>How to Get Approved</li>
                         <li>Create a Specialized Profile</li>
@@ -150,22 +178,27 @@ const ModuleSection = () => {
                         <li>Submit a Proposal & Write a Cover Letter</li>
                         <li>Proposal From Client's Perspective & Badge Criteria</li>
                     </ul>
+
+                    <button className='read-more-btn' onClick={() => setModuleCollapse7((prev) =>  !prev)}>{`${modulecollapse7? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 8:</span> Business Start-up and Entrepreneurship Skills Development</h3>
-                        <p>- Learning Points: Forty-five (45) points</p>
-                        <br />
-                        <ul>
-                            <li>Idea Generation and Market Research</li>
-                            <li>Opportunity Identification and Target Audience Selection</li>
-                            <li>Business Model Design and Product Idea Testing</li>
-                            <li>Business Growth and Value Innovation Strategies</li>
-                            <li>Entrepreneurial Finance and Money Management</li>
-                            <li>When and Where to Raise Capital and How to Structure Funding</li>
-                            <li>How Much Money to Raise and Essential Accounting Practices</li>
-                            <li>Business Management and Leadership Skills</li>
-                        </ul>
+                    <h3><span className='highlighter'>Module 8:</span> Business Start-up and Entrepreneurship Skills Development</h3>
+                    <p>- Learning Points: Forty-five (45) points</p>
+                    <p className={`three-dot ${modulecollapse8? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse8? "extended": ""}`}>
+                        <li>Idea Generation and Market Research</li>
+                        <li>Opportunity Identification and Target Audience Selection</li>
+                        <li>Business Model Design and Product Idea Testing</li>
+                        <li>Business Growth and Value Innovation Strategies</li>
+                        <li>Entrepreneurial Finance and Money Management</li>
+                        <li>When and Where to Raise Capital and How to Structure Funding</li>
+                        <li>How Much Money to Raise and Essential Accounting Practices</li>
+                        <li>Business Management and Leadership Skills</li>
+                    </ul>
+
+                    <button className='read-more-btn' onClick={() => setModuleCollapse8((prev) =>  !prev)}>{`${modulecollapse8? 'Read Less': 'Read More...'}`}</button>
                 </div>
             </div>
 
