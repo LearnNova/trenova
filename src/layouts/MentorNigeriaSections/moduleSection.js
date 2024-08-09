@@ -99,7 +99,7 @@ const ModuleSection = () => {
                         <li>Getting Canada Work Permit Without an Agent:</li>
 
                         <ul className='sub-module-list'>
-                            <span style={{marginLeft: '-1em'}}>Method 1: How to Apply for Jobs Online</span>
+                            <span style={{marginLeft: '-1em'}}>Method 1: Applying for Jobs Online</span>
                             <li>Step 1: Documents Required</li>
                             <li>Step 2: Job Websites</li>
                             <li>Step 3: How to Apply for the Jobs through Online Job Platforms</li>

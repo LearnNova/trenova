@@ -435,7 +435,7 @@ html {
 }
 
 .sub-module-list li {
-  padding-left: 1em;
+  /* padding-left: 1em; */
   list-style: circle;
 }
 
