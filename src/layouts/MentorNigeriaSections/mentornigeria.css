@@ -428,6 +428,17 @@ html {
   display: none;
 }
 
+.sub-module-list {
+  display: inline-block;
+  padding-left: 1em;
+  margin-top: .3em;
+}
+
+.sub-module-list li {
+  padding-left: 1em;
+  list-style: circle;
+}
+
 
 .module-info:hover {
   border-color: var(--marker-clr);
@@ -473,6 +484,7 @@ html {
   .module-info {
     width: 90%;
   }
+
 
   .long-text {
     max-height: 0;

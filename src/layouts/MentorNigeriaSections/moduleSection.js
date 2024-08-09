@@ -92,8 +92,27 @@ const ModuleSection = () => {
                         <li>Key Responsibilities and Workload Management</li>
                         <li>How to Search for and Secure a Virtual Assistant Job</li>
                         <li>Service Processes and Reliability</li>
-                        <li>Obtaining a Canadian Work Permit Visa</li>
                         <li>Emigrating through Sponsored Jobs</li>
+                        <li>Type of Jobs in High Demand</li>
+                        <li>Requirements for a Work Permit</li>
+                        <li>Understanding the Work Permit Process</li>
+                        <li>Getting Canada Work Permit Without an Agent:</li>
+
+                        <ul className='sub-module-list'>
+                            <span style={{marginLeft: '-1em'}}>Method 1: How to Apply for Jobs Online</span>
+                            <li>Step 1: Documents Required</li>
+                            <li>Step 2: Job Websites</li>
+                            <li>Step 3: How to Apply for the Jobs through Online Job Platforms</li>
+                        </ul>
+
+                        <ul className='sub-module-list'>
+                            <span style={{marginLeft: '-1em'}}>Method 2: Visiting Canada on a Visitor Visa</span>
+                            <li>Step 1: How to Apply for a Visitor Visa</li>
+                            <li>Step 2: When you Arrived in Canada</li>
+                            <li>Step 3: Steps to Applying for Jobs in Person</li>
+                            <li>Step 4: What to do when Job Offer is Secured</li>
+                        </ul>
+
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
