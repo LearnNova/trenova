@@ -13,8 +13,7 @@ const HeroSection = () => {
             <div className='line-breaker'></div>
             <div className='section-3'>
                 <span>“…</span>
-                <span className='highlighter'>Earn While You Learn </span>
-                <span className='blue-color'>@ </span>
+                <span className='highlighter'>Earn While You Learn @ </span>
                 <span>MentorNigeria…”</span>
             </div>
             <div>

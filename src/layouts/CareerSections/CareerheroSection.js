@@ -15,91 +15,76 @@ const CareerHeroSection = () => {
             </div>
             <div className='line-breaker'></div>
             <div>
-                <span style={{fontWeight: '600'}}>Nature of Work:</span>
+                <span className='highlighter'>Nature of Work:</span>
                 <span style={{marginLeft: '.3em'}}> Hybrid</span>
             </div>
             <div>
                 <span>Job Description:</span>
                 <br/>
                 <span>
-                    We are seeking dynamic and motivated Sales Representatives to join our team. 
-                    The individual in this position will be responsible for selling our innovative Learning 
-                    Support Applications to prospective school owners within their locality and its environs. 
-                    The ideal candidate will have a passion for education technology (EdTech) and a proven track 
-                    record in sales.
+                    We are looking for enthusiastic and driven Sales Representatives to join our team. 
+                    In this role, you will be responsible for selling our innovative and cutting-edge 
+                    Learning Support Applications to private schools in your area and surrounding 
+                    communities. The ideal candidate should have a passion for educational technology 
+                    (EdTech) and a proven history of successful sales.
                 </span>
             </div>
             <div className='line-breaker'></div>
             <div className='career-what-you-learn-title'>
-                 The Renumeration during the probationary period is set as follows:
+                 <span className='paragraph-title'>Compensation During Probation:</span>
                 <ol id='career-what-you-learn-title-list'>
-                    <li><b>Basic Remuneration: </b><span className='highlighter-big'><b>₦150,000.00 </b></span> per month, subject to meeting basic performance targets.</li>
-                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00 </b></span>  per month</li>
+                    <li><b>Basic Remuneration: </b><span className='highlighter-big'><b>₦150,000.00 </b></span> per month, contingent on meeting basic performance targets.</li>
+                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00 </b></span>  per month.</li>
                     <li><b>Performance Bonus: </b><span className='highlighter-big'><b>₦120,000.00 </b></span> per month, payable as follows:</li>
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><span className='highlighter-big'><b>₦30,000.00</b></span> when you achieve monthly sales revenue of <span className='highlighter'>₦999,500.00</span>, <span className='highlighter'>PLUS</span></li>
-                        <li>
-                            An additional <span className='highlighter-big'><b>₦40,000.00</b></span> when you achieve a monthly sales revenue of 
-                            <span className='highlighter'> ₦1,299,000.00</span>, and 
-                        </li>
-                        <li>A final Performance Bonus of <span className='highlighter-big'><b>₦50,000.00</b></span> will be paid to you when you achieve a monthly sales revenue of 
-                        <span className='highlighter'> ₦1,599,000.00</span> in a month.
-                        </li>
+                        <li><span className='highlighter-big'><b>₦30,000.00</b></span> bonus upon achieving <span className='highlighter'>500</span> App Units in monthly sales.</li>
+                        <li>An additional <span className='highlighter-big'><b>₦40,000.00</b></span> bonus for <span className='highlighter'>650</span> App Units in monthly sales.</li>
+                        <li>A final bonus of <span className='highlighter-big'><b>₦50,000.00</b></span> for achieving <span className='highlighter'>800</span> App Units in monthly sales.</li>
                     </ul>
+
+                    <li><b>Sales Commission: </b>A monthly commission of <span className='highlighter'><b>7.5%</b></span> on any additional sales revenue exceeding <span className='highlighter-big'><b>₦1,599,000.00</b></span> per month.</li>
                 </ol>
             </div>
-            {/* <div className='career-what-you-learn-info'>
-                <span className='career-what-you-learn-info-list-container'>
-                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><span className='highlighter-big'><b>₦30,000.00</b></span> when you achieve monthly sales revenue of <span className='highlighter'>₦1,199,000.00</span>, <span className='highlighter'>PLUS</span></li>
-                        <li>
-                            An additional <span className='highlighter-big'><b>₦40,000.00</b></span> when you achieve a monthly sales revenue of 
-                            <span className='highlighter'> ₦1,599,000.00</span>, and 
-                        </li>
-                        <li>A final Performance Bonus of <span className='highlighter-big'><b>₦50,000.00</b></span> will be paid to you when you achieve a monthly sales revenue of 
-                        <span className='highlighter'> ₦1,999,000.00</span> in a month.
-                        </li>
-                    </ul>
-                </span> 
-            </div> */}
-
-            <div className='career-other-hero-section-container'>
-                In addition to the above, you will also be paid a
-                <span className='highlighter'> Monthly Sales Commission of 5.625%</span> on any additional 
-                sales revenue you generate above <span className='highlighter-big'><b>₦1,599,000.00</b></span> in a month.
-            </div>
-
-            <div className='line-breaker'></div>
-            <div className='career-other-hero-section-container'>
-                This offer is probationary for a period of<span className='highlighter'> four (4) months</span> . During this probationary period, 
-                you will represent us within your locality and its environs, and you will also be expected 
-                to achieve a <span className='highlighter'>minimum monthly performance result</span> of <span className='highlighter-big'><b>385</b></span> App Users <span className='highlighter'>OR</span> a monthly sales revenue of <span className='highlighter'>₦769,999.00</span>. 
-            </div>
 
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
+                <span className='paragraph-title'>Probationary Period:</span>
+
                 <div>
-                    Kindly note that any month you fail to achieve the above-stated
-                    <span className='highlighter'> minimum expected performance results</span> during the 
-                    <span className='highlighter'> probationary period</span>, you will not be paid the
-                    <span className='highlighter'> Basic Remuneration nor the Marketing Transport Fare</span> stated above.
-                </div>
-                
-                <div className='spacing'>
-                    The maximum total remuneration payable to you in such a month will be
-                    <span className='highlighter'> 15%</span> of the total sales revenue you achieved in the month.
-                </div>
-                 
-                 <div>
-                    Also note that upon the completion of the probationary period, if the company has 
-                    not been able to justify your confirmation, the company may terminate your appointment 
-                    upon the provision of 3 working days notice.
-                 </div>
-                
+                    The probationary period will last <span className='highlighter'>four (4) months</span>, during which you will work remotely. 
+                    You will sell the App to private schools at a discounted rate of <span className='highlighter-big'><b>₦1,999</b></span> per term per 
+                    pupil/student. A minimum monthly target of <span className='highlighter'>385</span> App Users or sales revenue of 
+                    <span className='highlighter-big'><b> ₦769,615.00</b></span> is expected.
+                </div> 
             </div>
 
+            <div className='line-breaker'></div>
+
+            <div className='career-other-hero-section-container'>
+                <span className='paragraph-title'>Note on Remuneration:</span>
+
+                <div>
+                    If you do not meet the minimum performance targets during any month of the 
+                    probationary period, the <span className='highlighter'>Basic Salary and Transport Allowance</span> will not be paid. 
+                    In such cases, the maximum total remuneration will be <span className='highlighter'>15%</span> of the total sales 
+                    revenue achieved for that month.
+                </div> 
+            </div>
+
+            <div className='line-breaker'></div>
+
+            <div className='career-other-hero-section-container'>
+                <span className='paragraph-title'>Post Probation:</span>
+
+                <div>
+                    Upon successful completion of the probationary period and meeting the monthly 
+                    performance targets, you will be offered a substantive position as a 
+                    <span className='highlighter'>Business Growth Officer</span>.
+                </div> 
+            </div>
+            
             <div className='call-to-action' onClick={NavigateForm}>
                 Kindly Submit your Details below if Interested.
             </div>

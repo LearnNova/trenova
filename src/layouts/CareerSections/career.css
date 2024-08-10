@@ -71,10 +71,6 @@ html {
   font-size: 4em;
 }
 
-/* .career-hero-sec-info li {
-  list-style: disc;
-} */
-
 .career-hero-sec-info>div:nth-child(1) {
   font-weight: 600;
   font-size: .5em;
@@ -123,9 +119,13 @@ html {
 }
 
 .career-what-you-learn-title {
-  margin-top: .25em;
   font-size: .4em;
-  /* max-width: 90%; */
+}
+
+.paragraph-title {
+  font-weight: 600;
+  font-size: 1.2em;
+  text-decoration: underline;
 }
 
 #career-what-you-learn-title-list {
@@ -134,7 +134,7 @@ html {
   flex-direction: column;
   gap: .35em;
   padding-left: 1em;
-  padding-top: .5em;
+  margin-top: .2em;
 }
 
 /* .career-what-you-learn-title>span {
@@ -163,6 +163,8 @@ html {
   gap: .3em;
   list-style: disc;
   padding-left: 1em;
+  margin-top: -0.5em;
+  font-size: .95em;
 }
 
 .highlighter {
@@ -238,11 +240,9 @@ html {
 .call-to-action {
   align-self: center;
   font-size: .35em;
-  /* color: var(--tertiary-clr); */
   color: white;
   font-weight: 600;
   background-image: linear-gradient(to right, var(--marker-clr), var(--marker-clr-sec));
-  /* background-color: white; */
   padding: .4em .5em;
   border-radius: 3px;
   transition: var(--all-transitions);
