@@ -164,6 +164,7 @@ html {
   list-style: disc;
   padding-left: 1em;
   font-size: .95em;
+  margin-bottom: 0.5em;
 }
 
 .highlighter {
