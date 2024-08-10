@@ -55,8 +55,8 @@ const CareerHeroSection = () => {
                 <div>
                     The probationary period will last <span className='highlighter'>four (4) months</span>, during which you will work remotely. 
                     You will sell the App to private schools at a discounted rate of <span className='highlighter-big'><b>₦1,999</b></span> per term per 
-                    pupil/student. A minimum monthly target of <span className='highlighter'>385</span> App Users or sales revenue of 
-                    <span className='highlighter-big'><b> ₦769,615.00</b></span> is expected.
+                    pupil/student. A minimum monthly target of <span className='highlighter'>399</span> App Users or sales revenue of 
+                    <span className='highlighter-big'><b> ₦797,600.00</b></span> is expected.
                 </div> 
             </div>
 
@@ -80,8 +80,7 @@ const CareerHeroSection = () => {
 
                 <div>
                     Upon successful completion of the probationary period and meeting the monthly 
-                    performance targets, you will be offered a substantive position as a 
-                    <span className='highlighter'>Business Growth Officer</span>.
+                    performance targets, you will be offered a substantive position as a <span className='highlighter'>Business Growth Officer</span>.
                 </div> 
             </div>
             
