@@ -43,7 +43,7 @@ const CareerHeroSection = () => {
                         <li>A final bonus of <span className='highlighter-big'><b>₦50,000.00</b></span> for achieving <span className='highlighter'>800</span> App Units in monthly sales.</li>
                     </ul>
 
-                    <li><b>Sales Commission: </b>A monthly commission of <span className='highlighter'><b>7.5%</b></span> on any additional sales revenue exceeding <span className='highlighter-big'><b>₦1,599,000.00</b></span> per month.</li>
+                    <li><b>Sales Commission: </b>A monthly commission of <span className='highlighter'><b>7.5%</b></span> on any additional sales revenue exceeding <span className='highlighter-big'><b>₦1,599,200.00</b></span> per month.</li>
                 </ol>
             </div>
 
