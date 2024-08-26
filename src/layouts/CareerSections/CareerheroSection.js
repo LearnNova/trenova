@@ -75,14 +75,14 @@ const CareerHeroSection = () => {
 
             <div className='line-breaker'></div>
 
-            {/* <div className='career-other-hero-section-container'>
-                <span className='paragraph-title'>Post Probation:</span>
+            <div className='career-other-hero-section-container'>
+                <span className='paragraph-title'>Post Probationary Period:</span>
 
                 <div>
-                    Upon successful completion of the probationary period and meeting the monthly 
-                    performance targets, you will be offered a substantive position as a <span className='highlighter'>Business Growth Officer</span>.
+                    Upon the successful completion of the probationary period, successful candidates will be 
+                    offered a substantive position as <span className='highlighter'>Business Growth Officer</span>.
                 </div> 
-            </div> */}
+            </div>
             
             <div className='call-to-action' onClick={NavigateForm}>
                 Kindly Submit your Details below if Interested.
