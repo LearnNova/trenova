@@ -11,7 +11,7 @@ const navigation = [
   { name: "School Signup", href: "/auth/signup" },
   { name: "Teachers Login", href: "/auth/login" },
   {
-    name: "download App",
+    name: "Download App",
     href: "https://trenova.nyc3.cdn.digitaloceanspaces.com/1app/app-release.apk",
     current: true,
   },
