@@ -58,7 +58,7 @@ const CareerApplicationFormSection = () => {
     
                     else {
                     infoCate.current.textContent = ''
-                    alert (`${firstName} you have successfully Submitted your details for the  Sales Representative Job, we would contact you shortly with further information.`);
+                    alert (`${firstName} you have successfully Submitted your details for the  Territorial Sales Specialist Job, we would contact you shortly with further information.`);
                     resetInput();
                     }
     
