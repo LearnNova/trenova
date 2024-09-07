@@ -161,7 +161,7 @@ const CareerApplicationFormSection = () => {
                                 type='text'
                                 id='location'
                                 name='location'
-                                placeholder='Ibadan'
+                                placeholder='i.e Ibadan'
                                 className='form-control'
                                 value={location}
                                 onChange={(e) => {setLocation(e.target.value)}}
