@@ -11,22 +11,24 @@ const CareerHeroSection = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span className='highlighter'>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Field Sales Representative/Sales Agent</span>
+                <span style={{marginLeft: '.3em'}}> Territory Sales Specialist</span>
             </div>
             <div className='line-breaker'></div>
             <div>
                 <span className='highlighter'>Nature of Work:</span>
-                <span style={{marginLeft: '.3em'}}> Hybrid</span>
+                <span style={{marginLeft: '.3em'}}> Remote</span>
             </div>
             <div>
                 <span>Job Description:</span>
                 <br/>
                 <span>
-                    We are looking for enthusiastic and driven Sales Representatives to join our team. 
-                    In this role, you will be responsible for selling our innovative and cutting-edge 
-                    Learning Support Applications to private schools in your area and surrounding 
-                    communities. The ideal candidate should have a passion for educational technology 
-                    (EdTech) and a proven history of successful sales.
+                    We are seeking an energetic and results-driven Territory Sales Specialist to join our team. 
+                    In this role, you will be responsible for recruiting private school leaders as distributors 
+                    for our innovative learning support application. You will manage sales efforts within your 
+                    assigned territory, ensuring that company sales targets are consistently met. The ideal 
+                    candidate is passionate about educational technology (EdTech) and has a proven track record 
+                    in driving successful sales. If you're excited about revolutionizing education through 
+                    technology and thrive in a fast-paced environment, we want to hear from you.
                 </span>
             </div>
             <div className='line-breaker'></div>
@@ -54,22 +56,22 @@ const CareerHeroSection = () => {
 
                 <div>
                     The probationary period will last <span className='highlighter'>four (4) months</span>, during which you will work remotely. 
-                    You will sell the App to private schools at a discounted rate of <span className='highlighter-big'><b>₦1,999</b></span> per term per 
-                    pupil/student. A minimum monthly target of <span className='highlighter'>399</span> App Users or sales revenue of 
-                    <span className='highlighter-big'><b> ₦797,600.00</b></span> is expected.
+                    Your primary responsibility during this time is to sell our App to private schools at a 
+                    discounted rate of <span className='highlighter-big'><b>₦1,999</b></span> per term per pupil/student. You are expected to achieve a minimum 
+                    monthly average target of <span className='highlighter'>450</span> App Users or generate sales revenue of <span className='highlighter-big'><b>₦899,550.00</b></span>.
                 </div> 
             </div>
 
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='paragraph-title'>Note on Remuneration:</span>
+                <span className='paragraph-title'>Remuneration:</span>
 
                 <div>
-                    If you do not meet the minimum performance target of <span className='highlighter'>399</span> App Users during any month of the 
-                    probationary period, the <span className='highlighter'>Basic Salary and Transport Allowance</span> will not be paid. 
-                    In such cases, the maximum total remuneration will be <span className='highlighter'>15%</span> of the total sales 
-                    revenue achieved for that month.
+                    If you do not meet the monthly average performance target of <span className='highlighter'>450</span> App Users in any month of 
+                    the probationary period, the <span className='highlighter'>Basic Salary and Transport Allowance</span> will not be paid for that 
+                    month. In such cases, your total remuneration will be capped at <span className='highlighter'>15%</span> of the total sales revenue 
+                    you achieved for that month.
                 </div> 
             </div>
 
@@ -79,8 +81,8 @@ const CareerHeroSection = () => {
                 <span className='paragraph-title'>Post Probationary Period:</span>
 
                 <div>
-                    Upon the successful completion of the probationary period, successful candidates will be 
-                    offered a substantive position as <span className='highlighter'>Business Growth Officer</span>.
+                    Upon successful completion of the probationary period, you will be offered a substantive 
+                    position within the company.
                 </div> 
             </div>
             
