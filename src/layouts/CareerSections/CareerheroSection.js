@@ -68,7 +68,7 @@ const CareerHeroSection = () => {
                 <span className='paragraph-title'>Remuneration:</span>
 
                 <div>
-                    If you do not meet the monthly average performance target of <span className='highlighter'>500</span> App Users in any month of 
+                    If you do not meet the monthly performance target of <span className='highlighter'>500</span> App Users in any month of 
                     the probationary period, the <span className='highlighter'>Basic Salary and Transport Allowance</span> will not be paid for that 
                     month. In such cases, your total remuneration will be capped at <span className='highlighter'>15%</span> of the total sales revenue 
                     you achieved for that month.
