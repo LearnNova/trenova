@@ -9,7 +9,7 @@ const CareerApplicationFormSection = () => {
     const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
     const [location, setLocation] = useState('');
-    const [hear, setHear] = useState('DIRECT APPLICANT FROM TRENOVA GROUP');
+    const [hear, setHear] = useState('DIRECT APPLICANT - TERRITORY SALES SPECIALIST');
     const [consent, setConsent] = useState(true);
 
     const infoCate = useRef(null);
