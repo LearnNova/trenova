@@ -36,12 +36,12 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Compensation During Probation:</span>
                 <ol id='career-what-you-learn-title-list'>
                     <li><b>Basic Remuneration: </b><span className='highlighter-big'><b>₦160,000.00 </b></span> per month, subject to meeting basic performance targets.</li>
-                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00 </b></span>  per month.</li>
+                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦40,000.00 </b></span>  per month.</li>
                     <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦200,000.00 </b></span> per month based on meeting the following monthly sales volume:</li>
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='highlighter-big'><b>₦50,000.00</b></span> bonus upon achieving <span className='highlighter'>650</span> App Units in monthly sales.</li>
-                        <li>An additional <span className='highlighter-big'><b>₦60,000.00</b></span> bonus for <span className='highlighter'>850</span> App Units in monthly sales.</li>
+                        <li>An additional <span className='highlighter-big'><b>₦70,000.00</b></span> bonus for <span className='highlighter'>850</span> App Units in monthly sales.</li>
                         <li>A final bonus of <span className='highlighter-big'><b>₦80,000.00</b></span> for achieving <span className='highlighter'>1,000</span> App Units in monthly sales.</li>
                     </ul>
 
