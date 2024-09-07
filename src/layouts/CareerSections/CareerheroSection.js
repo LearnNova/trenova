@@ -58,7 +58,7 @@ const CareerHeroSection = () => {
                     The probationary period will last <span className='highlighter'>four (4) months</span>, during which you will work remotely. 
                     Your primary responsibility during this time is to sell our App to private schools at a 
                     discounted rate of <span className='highlighter-big'><b>₦1,999</b></span> per term per pupil/student. You are expected to achieve a minimum 
-                    monthly average target of <span className='highlighter'>500</span> App Users or generate sales revenue of <span className='highlighter-big'><b>₦999,500.00</b></span>.
+                    monthly sales target of <span className='highlighter'>500</span> App Users or generate sales revenue of <span className='highlighter-big'><b>₦999,500.00</b></span>.
                 </div> 
             </div>
 
