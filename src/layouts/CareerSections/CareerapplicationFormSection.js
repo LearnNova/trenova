@@ -156,12 +156,12 @@ const CareerApplicationFormSection = () => {
                         </div>
                         
                         <div className='form-row'>
-                            <label htmlFor='location' className='input-labels'>Location (L.G.A & State):</label>
+                            <label htmlFor='location' className='input-labels'>Location (Preffered City):</label>
                             <input 
                                 type='text'
                                 id='location'
                                 name='location'
-                                placeholder='Alimosho LGA, Lagos State'
+                                placeholder='Ibadan'
                                 className='form-control'
                                 value={location}
                                 onChange={(e) => {setLocation(e.target.value)}}
