@@ -24,10 +24,10 @@ const CareerHeroSection = () => {
                 <span>
                     We are looking for dynamic and goal-oriented Territory Sales Representatives to join our 
                     team in the following locations: <span className='highlighter'>Abeokuta</span>, 
-                    <span className='highlighter'>Ibadan</span>, <span className='highlighter'>Badagry</span>, 
-                    <span className='highlighter'>Epe</span>, <span className='highlighter'>Ikorodu</span>, 
-                    <span className='highlighter'>Benin City</span>, <span className='highlighter'>Warri</span>, 
-                    <span className='highlighter'>Port Harcourt</span>, <span className='highlighter'>Akure</span>, 
+                    <span className='highlighter'> Ibadan</span>, <span className='highlighter'> Badagry</span>, 
+                    <span className='highlighter'> Epe</span>, <span className='highlighter'> Ikorodu</span>, 
+                    <span className='highlighter'> Benin City</span>, <span className='highlighter'> Warri</span>, 
+                    <span className='highlighter'> Port Harcourt</span>, <span className='highlighter'> Akure</span>, 
                     and <span className='highlighter'>Ado-Ekiti</span>. In this role, you will focus on enrolling 
                     private school owners into our school growth training and mentorship programs, as well as 
                     recruiting private school leaders to act as distributors for our cutting-edge learning 
@@ -66,7 +66,7 @@ const CareerHeroSection = () => {
                     During this time, your primary responsibility is to sell our Learning Support App to private 
                     schools at a discounted price of <span className='highlighter-big'><b>₦1,999</b></span> per term 
                     per pupil/student, along with promoting our discounted training and mentorship programs. You 
-                    are required to achieve a minimum monthly target of <span className='highlighter'>400</span> 
+                    are required to achieve a minimum monthly target of <span className='highlighter'>400 </span> 
                     App Users or generate <span className='highlighter-big'><b>₦799,500.00</b></span> in sales 
                     revenue.
                 </div> 
@@ -79,7 +79,7 @@ const CareerHeroSection = () => {
 
                 <div>
                     If the minimum target of <span className='highlighter'>400</span> App Users is not achieved 
-                    in any given month during probation, the <span className='highlighter'>Basic Salary and Transport Allowance</span> 
+                    in any given month during probation, the <span className='highlighter'>Basic Salary and Transport Allowance </span> 
                     will not be paid. In such cases, your compensation will be limited 
                     to <span className='highlighter'>15%</span> of the total sales revenue generated that month.
                 </div> 
