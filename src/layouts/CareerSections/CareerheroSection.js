@@ -24,8 +24,7 @@ const CareerHeroSection = () => {
                 <span>
                     At LearnNova Learning Support Centre, we believe that our success is driven by high-performing 
                     sales and relationship management teams. We are seeking dynamic Territory Sales Representatives 
-                    to sell our Learning Support Application, Training, and Mentorship Programs in key Nigerian 
-                    cities.<br /><br />
+                    to sell our products and services in key Nigerian cities.<br /><br />
                     In this role, you will focus on enrolling private school owners into our school growth 
                     training, coaching, and mentorship programs while also recruiting them as distributors 
                     for our Learning Support Application. Ideal candidates are passionate about EdTech, 
