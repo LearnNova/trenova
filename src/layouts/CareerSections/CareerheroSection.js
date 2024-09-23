@@ -19,40 +19,45 @@ const CareerHeroSection = () => {
                 <span style={{marginLeft: '.3em'}}> Remote</span>
             </div>
             <div>
-                <span>Job Description:</span>
+                <span>Job Overview:</span>
                 <br/>
                 <span>
-                    We are looking for dynamic and goal-oriented Territory Sales Representatives to join our 
-                    team in the following locations: <span className='highlighter'>Abeokuta</span>, 
-                    <span className='highlighter'> Ibadan</span>, <span className='highlighter'> Badagry</span>, 
-                    <span className='highlighter'> Epe</span>, <span className='highlighter'> Ikorodu</span>, 
-                    <span className='highlighter'> Benin City</span>, <span className='highlighter'> Warri</span>, 
-                    <span className='highlighter'> Port Harcourt</span>, <span className='highlighter'> Akure</span>, 
-                    and <span className='highlighter'>Ado-Ekiti</span>. In this role, you will focus on enrolling 
-                    private school owners into our school growth training and mentorship programs, as well as 
-                    recruiting private school leaders to act as distributors for our cutting-edge learning 
-                    support application. You will be responsible for managing sales efforts within your 
-                    designated territory to ensure consistent achievement of company sales goals. The 
-                    ideal candidate is passionate about EdTech and has a strong background in sales. If you're 
-                    driven by the idea of transforming education with technology and thrive in a high-energy 
-                    environment, we encourage you to apply.
+                    At LearnNova Learning Support Centre, we believe that growth stems from high-performing sales 
+                    & relationship management teams. We are looking for qualified Territory Sales Representatives 
+                    who will be responsible for selling our Learning Support Application, Training, and Mentorship 
+                    Programs in designated cities across Nigeria. In this role, you will focus on enrolling private 
+                    school owners into our school growth training, coaching and mentorship programs, while also 
+                    recruiting private school leaders as distributors for our innovative Learning Support 
+                    Application. The ideal candidate is passionate about EdTech, has a strong sales background, 
+                    and thrives in a high-energy, fast-paced environment. You will manage sales activities within 
+                    your designated territory, ensuring consistent achievement of company sales goals and will 
+                    be responsible for understanding the sales process, building and maintaining long-term 
+                    relationships, multitasking, and effectively engaging prospects. Your efforts will target 
+                    private school leaders to drive revenue growth, customer acquisition, and profitability in 
+                    specific key city among the following: <span className='highlighter'>Ikorodu</span>,
+                    <span className='highlighter'> Badagry</span>,<span className='highlighter'> Epe</span>,
+                    <span className='highlighter'> Abeokuta</span>,<span className='highlighter'> Ibadan</span>,
+                    <span className='highlighter'> Benin City</span>,<span className='highlighter'> Warri</span>,
+                    <span className='highlighter'> Port Harcourt</span>,<span className='highlighter'> Akure</span>, 
+                    and <span className='highlighter'>Ado-Ekiti</span>.  
+
                 </span>
             </div>
             <div className='line-breaker'></div>
             <div className='career-what-you-learn-title'>
                  <span className='paragraph-title'>Compensation During Probation:</span>
                 <ol id='career-what-you-learn-title-list'>
-                    <li><b>Basic Remuneration: </b><span className='highlighter-big'><b>₦140,000.00</b></span> monthly (based on meeting key performance targets).</li>
-                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦35,000.00</b></span>  monthly.</li>
+                    <li><b>Basic Remuneration: </b><span className='highlighter-big'><b>₦200,000.00</b></span> monthly (based on meeting key performance targets).</li>
+                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00</b></span>  monthly.</li>
                     <li><b>Performance Bonus: </b>Up to <span className='highlighter-big'><b>₦200,000.00</b></span> monthly, based on the following sales volume:</li>
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><span className='highlighter-big'><b>₦50,000.00</b></span> bonus for achieving <span className='highlighter'>600</span> App Units or its equivalent in sales revenue.</li>
-                        <li>Additional <span className='highlighter-big'><b>₦70,000.00</b></span> bonus for <span className='highlighter'>800</span> App Units or its equivalent in sales revenue.</li>
-                        <li>Final bonus of <span className='highlighter-big'><b>₦80,000.00</b></span> for <span className='highlighter'>1,200</span> App Units or its equivalent in sales revenue.</li>
+                        <li><span className='highlighter-big'><b>₦50,000.00</b></span> bonus for achieving <span className='highlighter'>700</span> App Units or its equivalent in sales revenue.</li>
+                        <li>Additional <span className='highlighter-big'><b>₦70,000.00</b></span> bonus for <span className='highlighter'>950</span> App Units or its equivalent in sales revenue.</li>
+                        <li>Final bonus of <span className='highlighter-big'><b>₦80,000.00</b></span> for <span className='highlighter'>1,250</span> App Units or its equivalent in sales revenue.</li>
                     </ul>
 
-                    <li><b>Sales Commission: </b><span className='highlighter'><b>7.5%</b></span> commission on any sales exceeding <span className='highlighter'>1,200</span> App Units or its equivalent in sales revenue.</li>
+                    <li><b>Sales Commission: </b><span className='highlighter'><b>7.5%</b></span> commission on any sales exceeding <span className='highlighter'>1,250</span> App Units or its equivalent in sales revenue.</li>
                 </ol>
             </div>
 
@@ -64,10 +69,10 @@ const CareerHeroSection = () => {
                 <div>
                     The period lasts for <span className='highlighter'>four (4) months</span> and is fully remote. 
                     During this time, your primary responsibility is to sell our Learning Support App to private 
-                    schools at a discounted price of <span className='highlighter-big'><b>₦1,999</b></span> per term 
+                    schools at a discounted price of <span className='highlighter-big'><b>₦2,499</b></span> per term 
                     per pupil/student, along with promoting our discounted training and mentorship programs. You 
                     are required to achieve a minimum monthly target of <span className='highlighter'>400 </span> 
-                    App Users or generate <span className='highlighter-big'><b>₦799,500.00</b></span> in sales 
+                    App Users or generate <span className='highlighter-big'><b>₦999,600.00</b></span> in sales 
                     revenue.
                 </div> 
             </div>
