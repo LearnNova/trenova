@@ -25,16 +25,15 @@ const CareerHeroSection = () => {
                     At LearnNova Learning Support Centre, we believe that growth stems from high-performing sales 
                     & relationship management teams. We are looking for qualified Territory Sales Representatives 
                     who will be responsible for selling our Learning Support Application, Training, and Mentorship 
-                    Programs in designated cities across Nigeria. In this role, you will focus on enrolling private 
-                    school owners into our school growth training, coaching and mentorship programs, while also 
-                    recruiting private school leaders as distributors for our innovative Learning Support 
-                    Application. The ideal candidate is passionate about EdTech, has a strong sales background, 
-                    and thrives in a high-energy, fast-paced environment. You will manage sales activities within 
-                    your designated territory, ensuring consistent achievement of company sales goals and will 
-                    be responsible for understanding the sales process, building and maintaining long-term 
-                    relationships, multitasking, and effectively engaging prospects. Your efforts will target 
-                    private school leaders to drive revenue growth, customer acquisition, and profitability in 
-                    specific key city among the following: <span className='highlighter'>Ikorodu</span>,
+                    Programs in designated cities across Nigeria.<br />
+                    In this role, you will focus on enrolling private school owners into our school growth training, 
+                    coaching and mentorship programs, while also recruiting private school leaders as distributors for our innovative Learning Support Application. The ideal candidate is passionate about EdTech, has a strong sales background, 
+                    and thrives in a high-energy, fast-paced environment.<br />
+                    You will manage sales activities within your designated territory, ensuring consistent 
+                    achievement of company sales goals and will be responsible for understanding the sales process, 
+                    building and maintaining long-term relationships, multitasking, and effectively engaging 
+                    prospects. Your efforts will target private school leaders to drive revenue growth, customer 
+                    acquisition, and profitability in specific key city among the following: <span className='highlighter'>Ikorodu</span>,
                     <span className='highlighter'> Badagry</span>,<span className='highlighter'> Epe</span>,
                     <span className='highlighter'> Abeokuta</span>,<span className='highlighter'> Ibadan</span>,
                     <span className='highlighter'> Benin City</span>,<span className='highlighter'> Warri</span>,
