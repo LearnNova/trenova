@@ -22,33 +22,31 @@ const CareerHeroSection = () => {
                 <span>Job Overview:</span>
                 <br/>
                 <span>
-                    At LearnNova Learning Support Centre, we believe that growth stems from high-performing sales 
-                    & relationship management teams. We are looking for qualified Territory Sales Representatives 
-                    who will be responsible for selling our Learning Support Application, Training, and Mentorship 
-                    Programs in designated cities across Nigeria.<br />
-                    In this role, you will focus on enrolling private school owners into our school growth training, 
-                    coaching and mentorship programs, while also recruiting private school leaders as distributors for our innovative Learning Support Application. The ideal candidate is passionate about EdTech, has a strong sales background, 
-                    and thrives in a high-energy, fast-paced environment.<br />
-                    You will manage sales activities within your designated territory, ensuring consistent 
-                    achievement of company sales goals and will be responsible for understanding the sales process, 
-                    building and maintaining long-term relationships, multitasking, and effectively engaging 
-                    prospects. Your efforts will target private school leaders to drive revenue growth, customer 
-                    acquisition, and profitability in specific key city among the following: <span className='highlighter'>Ikorodu</span>,
+                    At LearnNova Learning Support Centre, we believe that our success is driven by high-performing 
+                    sales and relationship management teams. We are seeking dynamic Territory Sales Representatives 
+                    to sell our Learning Support Application, Training, and Mentorship Programs in key Nigerian 
+                    cities.<br /><br />
+                    In this role, you will focus on enrolling private school owners into our school growth 
+                    training, coaching, and mentorship programs while also recruiting them as distributors 
+                    for our Learning Support Application. Ideal candidates are passionate about EdTech, 
+                    have a strong sales background, and thrive in a fast-paced, high-energy environment. 
+                    You will manage sales within your designated territory, working towards company sales goals 
+                    by building long-term relationships, engaging prospects, and multitasking effectively in any 
+                    of the following key cities: <span className='highlighter'>Ikorodu</span>,
                     <span className='highlighter'> Badagry</span>,<span className='highlighter'> Epe</span>,
                     <span className='highlighter'> Abeokuta</span>,<span className='highlighter'> Ibadan</span>,
                     <span className='highlighter'> Benin City</span>,<span className='highlighter'> Warri</span>,
                     <span className='highlighter'> Port Harcourt</span>,<span className='highlighter'> Akure</span>, 
                     and <span className='highlighter'>Ado-Ekiti</span>.  
-
                 </span>
             </div>
             <div className='line-breaker'></div>
             <div className='career-what-you-learn-title'>
                  <span className='paragraph-title'>Compensation During Probation:</span>
                 <ol id='career-what-you-learn-title-list'>
-                    <li><b>Basic Remuneration: </b><span className='highlighter-big'><b>₦200,000.00</b></span> monthly (based on meeting key performance targets).</li>
-                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00</b></span>  monthly.</li>
-                    <li><b>Performance Bonus: </b>Up to <span className='highlighter-big'><b>₦200,000.00</b></span> monthly, based on the following sales volume:</li>
+                    <li><b>Basic Salary: </b><span className='highlighter-big'><b>₦200,000.00</b></span>/month (based on meeting key performance targets).</li>
+                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00</b></span>/month.</li>
+                    <li><b>Performance Bonus: </b>Up to <span className='highlighter-big'><b>₦200,000.00</b></span>/month, based on the following sales volume:</li>
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='highlighter-big'><b>₦50,000.00</b></span> bonus for achieving <span className='highlighter'>700</span> App Units or its equivalent in sales revenue.</li>
@@ -66,13 +64,11 @@ const CareerHeroSection = () => {
                 <span className='paragraph-title'>Probationary Period:</span>
 
                 <div>
-                    The period lasts for <span className='highlighter'>four (4) months</span> and is fully remote. 
-                    During this time, your primary responsibility is to sell our Learning Support App to private 
-                    schools at a discounted price of <span className='highlighter-big'><b>₦2,499</b></span> per term 
-                    per pupil/student, along with promoting our discounted training and mentorship programs. You 
-                    are required to achieve a minimum monthly target of <span className='highlighter'>400 </span> 
-                    App Users or generate <span className='highlighter-big'><b>₦999,600.00</b></span> in sales 
-                    revenue.
+                    The probation period is <span className='highlighter'>four (4) months</span>. During this time, 
+                    your primary responsibility will be selling our discounted school growth training, coaching, 
+                    and mentorship programs while recruiting school owners as distributors for the Learning 
+                    Support App. You are required to achieve a minimum monthly target 
+                    of <span className='highlighter'>450</span> App Users or its equivalent in sales revenue.
                 </div> 
             </div>
 
@@ -82,10 +78,10 @@ const CareerHeroSection = () => {
                 <span className='paragraph-title'>Compensation if Minimum Target is Not Met:</span>
 
                 <div>
-                    If the minimum target of <span className='highlighter'>400</span> App Users is not achieved 
-                    in any given month during probation, the <span className='highlighter'>Basic Salary and Transport Allowance </span> 
-                    will not be paid. In such cases, your compensation will be limited 
-                    to <span className='highlighter'>15%</span> of the total sales revenue generated that month.
+                    If you do not meet the minimum target of <span className='highlighter'>450</span> App Users 
+                    in any given month during probation, the <span className='highlighter'>Base Salary and Transport Allowance</span> will 
+                    not be paid. Instead, your compensation will be limited to <span className='highlighter'>15%</span> of the 
+                    total sales revenue generated in that month.
                 </div> 
             </div>
 
@@ -95,8 +91,8 @@ const CareerHeroSection = () => {
                 <span className='paragraph-title'>Post Probationary Period:</span>
 
                 <div>
-                    After successfully completing the probationary period, you will be offered a permanent position 
-                    within the company.
+                    Upon successfully completing the probation period, you will be offered a 
+                    permanent role with the company.
                 </div> 
             </div>
             
