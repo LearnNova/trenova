@@ -43,8 +43,8 @@ const CareerHeroSection = () => {
             <div className='career-what-you-learn-title'>
                  <span className='paragraph-title'>Compensation During Probation:</span>
                 <ol id='career-what-you-learn-title-list'>
-                    <li><b>Basic Salary: </b><span className='highlighter-big'><b>₦200,000.00</b></span>/month (based on meeting key performance targets).</li>
-                    <li><b>Transport Allowance: </b><span className='highlighter-big'><b>₦30,000.00</b></span>/month.</li>
+                    <li><b>Basic Salary: </b><span className='highlighter-big'><b>₦160,000.00</b></span>/month (based on meeting key performance targets).</li>
+                    <li><b>Marketing Allowance: </b><span className='highlighter-big'><b>₦40,000.00</b></span>/month.</li>
                     <li><b>Performance Bonus: </b>Up to <span className='highlighter-big'><b>₦200,000.00</b></span>/month, based on the following sales volume:</li>
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
