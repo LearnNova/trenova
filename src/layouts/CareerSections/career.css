@@ -92,7 +92,8 @@ html {
   font-size: .4em;
 }
 
-.career-hero-sec-info>div:nth-child(4) {
+.career-hero-sec-info>div:nth-child(4),
+.career-hero-sec-info>div:nth-child(5) {
   font-size: .4em;
   border: 1px outset var(--line-clr);
   border-left: none;
@@ -102,7 +103,8 @@ html {
 }
 
 
-.career-hero-sec-info>div:nth-child(4)>span:nth-child(1) {
+.career-hero-sec-info>div:nth-child(4)>span:nth-child(1),
+.career-hero-sec-info>div:nth-child(5)>span:nth-child(1) {
   color: var(--marker-clr);
   font-size: 1.2em;
   font-weight: 600;
@@ -132,9 +134,9 @@ html {
   display: flex;
   list-style: decimal;
   flex-direction: column;
-  gap: .35em;
   padding-left: 1em;
   margin-top: .2em;
+  gap: .35em;
 }
 
 /* .career-what-you-learn-title>span {
