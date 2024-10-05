@@ -35,7 +35,7 @@ const CareerHeroSection = () => {
                 <span>Role Overview:</span>
                 <br/>
                 <span>
-                    As a Territory Sales Representative, you will focus on enrolling private school owners in our growth 
+                    As a Territory Sales Representative, you will focus on enrolling private school owners in our school growth 
                     training, coaching, and mentorship programs, while also recruiting them as distributors for our 
                     Learning Support App. Ideal candidates will possess a passion for EdTech, a solid sales background, 
                     and the ability to thrive in a dynamic environment. You will manage sales within your assigned 
