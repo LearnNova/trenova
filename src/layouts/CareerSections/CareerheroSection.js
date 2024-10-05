@@ -69,8 +69,7 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    Upon successfully enrolling <span className='highlighter'>60</span> school owners in the training 
-                    program and <span className='highlighter'>3,000</span> students in the Learning Support App, you 
+                    Upon successfully enrolling <span className='highlighter'>60</span> school owners in the training/mentorship program and <span className='highlighter'>3,000</span> students in the Learning Support App, you 
                     will be offered a permanent role with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
