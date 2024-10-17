@@ -9,7 +9,8 @@ const CareerApplicationFormSection = () => {
     const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
     const [location, setLocation] = useState('');
-    const [hear, setHear] = useState('DIRECT APPLICANT - TERRITORY SALES REPRESENTATIVE');
+    const [date, setDate] = useState('');
+    const [hear, setHear] = useState('DIRECT APPLICANT - TERRITORY SALES REPRESENTATIVE CURRENT');
     const [consent, setConsent] = useState(true);
 
     const infoCate = useRef(null);
@@ -22,15 +23,27 @@ const CareerApplicationFormSection = () => {
         setPhone('');
         setEmail('');
         setLocation('');
+        setDate('');
         setHear('');
+    }
+
+    const isValidDate = (inputDate) => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        const input = new Date(inputDate);
+        input.setHours(0, 0, 0, 0);
+
+        // Check if the input date is today or in the future
+        return input >= today;
     }
   
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (firstName && lastName && whatsapp && phone && email && location && hear && consent) {
+        if (firstName && lastName && whatsapp && phone && email && location && date && hear && consent) {
 
-            if (whatsapp.length === 11 && phone.length === 11) {
+            if (isValidDate(date)) {
 
                 const applicantData = {
                     First_Name: firstName,
@@ -39,6 +52,7 @@ const CareerApplicationFormSection = () => {
                     phone: phone,
                     email: email,
                     location: location,
+                    date: date,
                     hear: hear,
                   };
     
@@ -60,6 +74,7 @@ const CareerApplicationFormSection = () => {
                     infoCate.current.textContent = ''
                     alert (`${firstName} you have successfully Submitted your details for the  Territorial Sales Specialist Job, we would contact you shortly with further information.`);
                     resetInput();
+
                     }
     
                 } catch (error) {
@@ -70,7 +85,7 @@ const CareerApplicationFormSection = () => {
             }
 
             else {
-                alert ('Invalid Whatsapp/Phone Number');
+                alert ('Invalid Date, Please pick the current date or a future date.');
             }
             
         }
@@ -93,6 +108,7 @@ const CareerApplicationFormSection = () => {
                                 id='firstName'
                                 name='firstName'
                                 placeholder='Mark'
+                                required
                                 className='form-control'
                                 value={firstName}
                                 onChange={(e) => {setFirstName(e.target.value)}}
@@ -106,6 +122,7 @@ const CareerApplicationFormSection = () => {
                                 id='lastName'
                                 name='lasttName'
                                 placeholder='Joe'
+                                required
                                 className='form-control'
                                 value={lastName}
                                 onChange={(e) => {setLastName(e.target.value)}}
@@ -121,6 +138,9 @@ const CareerApplicationFormSection = () => {
                                 id='whatsappNumber'
                                 name='whatsappNumber'
                                 placeholder='09137819540'
+                                required
+                                maxLength={11}
+                                minLength={11}
                                 className='form-control'
                                 value={whatsapp}
                                 onChange={(e) => {setWhatsapp(e.target.value)}}
@@ -134,6 +154,9 @@ const CareerApplicationFormSection = () => {
                                 id='phoneNumber'
                                 name='phoneNumber'
                                 placeholder='09137819540'
+                                required
+                                maxLength={11}
+                                minLength={11}
                                 className='form-control'
                                 value={phone}
                                 onChange={(e) => {setPhone(e.target.value)}}
@@ -149,6 +172,7 @@ const CareerApplicationFormSection = () => {
                                 id='emailAddress'
                                 name='emailAddress'
                                 placeholder='markjoe@gmail.com'
+                                required
                                 className='form-control'
                                 value={email}
                                 onChange={(e) => {setEmail(e.target.value)}}
@@ -162,9 +186,25 @@ const CareerApplicationFormSection = () => {
                                 id='location'
                                 name='location'
                                 placeholder='i.e Ibadan'
+                                required
                                 className='form-control'
                                 value={location}
                                 onChange={(e) => {setLocation(e.target.value)}}
+                            />
+                        </div>
+                    </div>
+
+                    <div className='form-row-main'>
+                        <div className='form-row' style={{width: '100%'}}>
+                            <label htmlFor='date' className='input-labels'>Preffered Date of Interview:</label>
+                            <input 
+                                type='date'
+                                id='date'
+                                name='date'
+                                required
+                                className='form-control'
+                                value={date}
+                                onChange={(e) => {setDate(e.target.value)}}
                             />
                         </div>
                     </div>
