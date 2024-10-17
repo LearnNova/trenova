@@ -40,7 +40,7 @@ const CareerHeroSection = () => {
                     Learning Support App. Ideal candidates will possess a passion for EdTech, a solid sales background, 
                     and the ability to thrive in a dynamic environment. You will manage sales within your assigned 
                     territory, build lasting relationships, generate leads, engage prospects, and effectively manage 
-                    multiple tasks to meet sales targets. Designated cities include 
+                    multiple tasks to meet sales targets. Designated cities include <span className='highlighter'> Lagos MainLand</span>,<span className='highlighter'> Lagos Island</span>, 
                     <span className='highlighter'> Ikorodu</span>,<span className='highlighter'> Badagry</span>,
                     <span className='highlighter'> Epe</span>,<span className='highlighter'> Abeokuta</span>,
                     <span className='highlighter'> Ibadan</span>,<span className='highlighter'> Benin City</span>,
@@ -56,10 +56,10 @@ const CareerHeroSection = () => {
                 <span className='paragraph-title'>Probationary Period:</span>
 
                 <div>
-                    During the initial <span className='highlighter'>3 to 6 months</span>, your primary responsibilities 
-                    will include selling discounted training and mentorship programs and recruiting school owners as 
-                    distributors for the Learning Support App. Compensation during this period is commission-based, at 
-                    a rate of <span className='highlighter'>20.75%</span> on monthly sales revenue. 
+                    During the initial <span className='highlighter'>3 to 6</span> months, your primary responsibilities 
+                    will be to sell discounted virtual mentorship, coaching, and online training programs to private school 
+                    owners, and to recruit them as distributors for the Learning Support App. Compensation during this 
+                    period is commission-based, at a rate of <span className='highlighter'>20.25%</span> on monthly sales revenue.
                 </div> 
             </div>
 
@@ -69,12 +69,14 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    Upon successfully enrolling <span className='highlighter'>60</span> school owners in the training/mentorship program and <span className='highlighter'>3,000</span> students in the Learning Support App, you 
-                    will be offered a permanent role with the following benefits:
+                    After successfully enrolling <span className='highlighter'>50 school owners</span> in the 
+                    mentorship, coaching, and training program, along with <span classname='highlighter'>3,000 students</span> in 
+                    the Learning Support App, you will be offered a permanent position with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦350,000.00</b></span> monthly.</li>
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦375,000.00</b></span> monthly.</li>
                         <li><b>Sales Commission: </b><span className='highlighter-big'><b>5.2%</b></span> monthly commission on any sales exceeding <span className='highlighter'>3,000</span> App Users.</li>
+                        <li><b>Upon achieving </b><span className='highlighter-big'><b>4,000 App Users</b></span> , you will be <span className='highlighter'>promoted</span> to the position of <span className='highlighter'>Growth Executive</span> and your monthly remuneration will be increased to <span className='highlighter-big'><b>₦500,000.00</b></span>.</li>
                     </ul>
                     
                  </div>
