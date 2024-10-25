@@ -17,8 +17,8 @@ const CareerHeroSection = () => {
             <div className='line-breaker'></div>
 
             <div>
-                <span className='highlighter'>Employment Type:</span>
-                <span style={{marginLeft: '.3em'}}> Remote</span>
+                <span className='highlighter'>Nature of Job:</span>
+                <span style={{ fontWeight: 600, display: 'block' }}>This is a fully remote position. During the probationary period, you will need to demonstrate your ability to perform succesfully in the role.</span>
             </div>
 
             <div>
