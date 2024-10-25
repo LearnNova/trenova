@@ -44,18 +44,18 @@ const CareerHeroSection = () => {
                         <li>Build lasting relationships,</li>
                         <li>Generate leads,</li>
                         <li>Engage prospects, and</li>
-                        <li>Effectively manage multiple tasks to meet sales targets in any of the following designated cities:<br />   
-                            <span className='highlighter'> Lagos MainLand</span>,<span className='highlighter'> Lagos Island</span>, 
-                            <span className='highlighter'> Ikorodu</span>,<span className='highlighter'> Badagry</span>,
-                            <span className='highlighter'> Epe</span>,<span className='highlighter'> Abeokuta</span>,
-                            <span className='highlighter'> Ibadan</span>,<span className='highlighter'> Benin City</span>,
-                            <span className='highlighter'> Warri</span>,<span className='highlighter'> Port Harcourt</span>,
-                            <span className='highlighter'> Akure</span>, <span className='highlighter'>Ado-Ekiti</span>,
-                            <span className='highlighter'> Enugu</span>, <span className='highlighter'> Owerri</span>,
-                            <span className='highlighter'> Abuja</span>, <span className='highlighter'> Kaduna</span>,
-                            <span className='highlighter'> Osogbo</span>, and <span className='highlighter'> Sango-Ota</span>.
-                        </li>
-                    </ul>  
+                        <li>Effectively manage multiple tasks to meet sales targets.</li>
+                    </ul>
+                    The following are the available designated cities:
+                    <span className='highlighter'> Lagos MainLand</span>,<span className='highlighter'> Lagos Island</span>, 
+                    <span className='highlighter'> Ikorodu</span>,<span className='highlighter'> Badagry</span>,
+                    <span className='highlighter'> Epe</span>,<span className='highlighter'> Abeokuta</span>,
+                    <span className='highlighter'> Ibadan</span>,<span className='highlighter'> Benin City</span>,
+                    <span className='highlighter'> Warri</span>,<span className='highlighter'> Port Harcourt</span>,
+                    <span className='highlighter'> Akure</span>, <span className='highlighter'>Ado-Ekiti</span>,
+                    <span className='highlighter'> Enugu</span>, <span className='highlighter'> Owerri</span>,
+                    <span className='highlighter'> Abuja</span>, <span className='highlighter'> Kaduna</span>,
+                    <span className='highlighter'> Osogbo</span>, and <span className='highlighter'> Sango-Ota</span>.
                 </span>
             </div>
 
