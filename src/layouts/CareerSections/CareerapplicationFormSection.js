@@ -180,12 +180,12 @@ const CareerApplicationFormSection = () => {
                         </div>
                         
                         <div className='form-row'>
-                            <label htmlFor='location' className='input-labels'>Location (Preffered City):</label>
+                            <label htmlFor='location' className='input-labels'>State your Preffered City (Location):</label>
                             <input 
                                 type='text'
                                 id='location'
                                 name='location'
-                                placeholder='i.e Ibadan'
+                                placeholder='i.e Lagos MainLand'
                                 required
                                 className='form-control'
                                 value={location}
