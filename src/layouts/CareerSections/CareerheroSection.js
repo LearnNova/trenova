@@ -46,7 +46,7 @@ const CareerHeroSection = () => {
                         <li>Engage prospects, and</li>
                         <li>Effectively manage multiple tasks to meet sales targets.</li>
                     </ul>
-                    The following designated cities are:
+                    The following are the available designated cities:
                     <span className='highlighter'> Lagos MainLand</span>,<span className='highlighter'> Lagos Island</span>, 
                     <span className='highlighter'> Ikorodu</span>,<span className='highlighter'> Badagry</span>,
                     <span className='highlighter'> Epe</span>,<span className='highlighter'> Abeokuta</span>,
