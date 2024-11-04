@@ -81,14 +81,14 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    After successfully enrolling <span className='highlighter'>50 school owners</span> in the 
-                    mentorship, coaching, and training program, along with <span classname='highlighter'>3,000 students</span> in 
-                    the Learning Support App, you will be offered a permanent position with the following benefits:
+                    Upon completing the installation of <span className='highlighter'>25 LearnNova Studios</span> and 
+                    enrolling <span classname='highlighter'>2,500 pupils/students</span> in 
+                    the Learning Support App, you'll be offered a permanent position with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦375,000.00</b></span> monthly.</li>
-                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>5.2%</b></span> monthly commission on any sales exceeding <span className='highlighter'>3,000</span> App Users.</li>
-                        <li><b>Upon achieving </b><span className='highlighter-big'><b>4,800 App Users</b></span> , you will be <span className='highlighter'>promoted</span> to the position of <span className='highlighter'>Growth Executive</span> and your monthly remuneration will be increased to <span className='highlighter-big'><b>₦500,000.00</b></span>.</li>
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦375,000.00</b></span> per month.</li>
+                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>5.2%</b></span> monthly commission on any sales above <span className='highlighter'>2,500</span> App Users.</li>
+                        <li><b>Once you reach </b><span className='highlighter-big'><b>35 studio installations</b></span> and enroll <span className='highlighter-big'><b>3,500 App Users</b></span>, you'll be <span className='highlighter'>promoted</span> to <span className='highlighter'>Growth Executive</span> with an increased monthly salary of <span className='highlighter-big'><b>₦500,000.00</b></span>.</li>
                     </ul>
                     
                  </div>
