@@ -68,10 +68,11 @@ const CareerHeroSection = () => {
                     During the initial <span className='highlighter'>3 to 6</span> months, your primary responsibilities 
                     will be to:
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Sell discounted virtual mentorship, coaching, and online training programs to private school owners, and</li>
-                        <li>Recruit them as distributors for the LearnNova Learning Support Application.</li>
+                        <li>Market and sell the LearnNova Learning Studio to schools,</li>
+                        <li>Onboard private schools into the TreNova online training, mentorship, and coaching program, and</li>
+                        <li>Engage school owners to become distributors for the LearnNova Learning Support Application.</li>
                     </ul> 
-                    Compensation during this period is commission-based, at a rate of <span className='highlighter'>20.25%</span> on monthly sales revenue.
+                    During this period, compensation is commission-based, with a rate of <span className='highlighter'>20.25%</span> on monthly sales revenue.
                 </div> 
             </div>
 
