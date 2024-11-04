@@ -82,13 +82,13 @@ const CareerHeroSection = () => {
 
                  <div>
                     Upon completing the installation of <span className='highlighter'>25 LearnNova Studios</span> and 
-                    enrolling <span classname='highlighter'>2,500 pupils/students</span> in 
+                    enrolling <span className='highlighter'>2,500 pupils/students</span> in 
                     the Learning Support App, you'll be offered a permanent position with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><b>Base Salary: </b><span className='highlighter-big'><b>₦375,000.00</b></span> per month.</li>
-                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>5.2%</b></span> monthly commission on any sales above <span className='highlighter'>2,500</span> App Users.</li>
-                        <li><b>Once you reach </b><span className='highlighter-big'><b>35 studio installations</b></span> and enroll <span className='highlighter-big'><b>3,500 App Users</b></span>, you'll be <span className='highlighter'>promoted</span> to <span className='highlighter'>Growth Executive</span> with an increased monthly salary of <span className='highlighter-big'><b>₦500,000.00</b></span>.</li>
+                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>5.2%</b></span> monthly commission on any sales above <span className='highlighter'>2,500</span> app users.</li>
+                        <li><b>Once you reach </b><span className='highlighter-big'><b>35</b></span> studio installations and enroll <span className='highlighter-big'><b>3,500</b></span> app users, you'll be <span className='highlighter'>promoted</span> to <span className='highlighter'>Growth Executive</span> with an increased monthly salary of <span className='highlighter-big'><b>₦500,000.00</b></span>.</li>
                     </ul>
                     
                  </div>
