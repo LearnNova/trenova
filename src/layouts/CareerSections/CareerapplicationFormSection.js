@@ -196,7 +196,7 @@ const CareerApplicationFormSection = () => {
 
                     <div className='form-row-main'>
                         <div className='form-row' style={{width: '100%'}}>
-                            <label htmlFor='date' className='input-labels'>Preffered Date of Interview:</label>
+                            <label htmlFor='date' className='input-labels'>Preffered Resumption Date:</label>
                             <input 
                                 type='date'
                                 id='date'

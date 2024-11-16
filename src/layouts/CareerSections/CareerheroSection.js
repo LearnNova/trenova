@@ -25,9 +25,10 @@ const CareerHeroSection = () => {
                 <span>About LearnNova Learning Support Centre:</span>
                 <br/>
                 <span>
-                    At LearnNova, our success is driven by the commitment of our sales and relationship management 
-                    teams. We are seeking motivated Territory Sales Representatives to enhance our market presence 
-                    across key Nigerian cities by promoting our innovative products and services.
+                    LearnNova, a proud member of the TreNova Group, is dedicated to driving educational innovation 
+                    through the efforts of our dynamic sales and relationship management teams. We are seeking 
+                    driven <b>Territory Sales Representatives</b> to expand our footprint in key Nigerian cities, 
+                    promoting our cutting-edge products and services.
                 </span>
             </div>
 
@@ -35,18 +36,21 @@ const CareerHeroSection = () => {
                 <span>Role Overview:</span>
                 <br/>
                 <span>
-                    As a Territory Sales Representative, you will focus on enrolling private school owners in our school growth 
-                    training, coaching, and mentorship programs, while also recruiting them as distributors for our 
-                    Learning Support App. Ideal candidates will possess a passion for EdTech, a solid sales background, 
-                    and the ability to thrive in a dynamic environment. You will manage:
+                    As a <b>Territory Sales Representative</b>, you will be instrumental in enrolling private school 
+                    owners into our school growth training, coaching, and mentorship programs. You’ll also recruit 
+                    school owners as distributors for our revolutionary <b>Learning Support App</b>. The ideal 
+                    candidate is passionate about education technology, boasts a proven sales track record, 
+                    and thrives in fast-paced, results-oriented environments. <br /><br /> 
+                    <span className='highlighter'>Key Responsibilities:</span>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Sales within your assigned territory,</li>
-                        <li>Build lasting relationships,</li>
-                        <li>Generate leads,</li>
-                        <li>Engage prospects, and</li>
-                        <li>Effectively manage multiple tasks to meet sales targets.</li>
+                        <li>Driving sales within your assigned territory.</li>
+                        <li>Cultivate and maintain strong relationships with private school owners.</li>
+                        <li>Present and engage prospects with LearnNova’s offerings.</li>
+                        <li>Generate, nurture, and convert leads to customers.</li>
+                        <li>Manage multiple tasks to meet and exceed sales targets consistently.</li>
                     </ul>
-                    The following are the available designated cities:
+                    <br />
+                    <div><b>Available Territories:</b></div>
                     <span className='highlighter'> Lagos MainLand</span>,<span className='highlighter'> Lagos Island</span>, 
                     <span className='highlighter'> Ikorodu</span>,<span className='highlighter'> Badagry</span>,
                     <span className='highlighter'> Epe</span>,<span className='highlighter'> Abeokuta</span>,
@@ -54,25 +58,25 @@ const CareerHeroSection = () => {
                     <span className='highlighter'> Warri</span>,<span className='highlighter'> Port Harcourt</span>,
                     <span className='highlighter'> Akure</span>, <span className='highlighter'>Ado-Ekiti</span>,
                     <span className='highlighter'> Enugu</span>, <span className='highlighter'> Owerri</span>,
-                    <span className='highlighter'> Abuja</span>, <span className='highlighter'> Kaduna</span>,
-                    <span className='highlighter'> Osogbo</span>, and <span className='highlighter'> Sango-Ota</span>.
+                    <span className='highlighter'> Abuja</span>, <span className='highlighter'> Kano</span>,
+                    <span className='highlighter'> Kaduna</span>, <span className='highlighter'> Osogbo</span>, 
+                    and <span className='highlighter'> Sango-Ota</span>.
                 </span>
             </div>
 
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='paragraph-title'>Probationary Period:</span>
+                <span className='paragraph-title'>Probationary Period (2 - 5 months):</span>
 
                 <div>
-                    During the initial <span className='highlighter'>3 to 6</span> months, your primary responsibilities 
-                    will be to:
+                    During probation, your focus will be:
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Market and sell the LearnNova Learning Studio to schools,</li>
-                        <li>Onboard private schools into the TreNova online training, mentorship, and coaching program, and</li>
-                        <li>Engage school owners to become distributors for the LearnNova Learning Support Application.</li>
+                        <li>Marketing and selling the <span className='highlighter'>LearnNova Learning Studio</span> to schools,</li>
+                        <li>Recruiting school owners as distributors for the <span className='highlighter'>LearnNova Learning Support App</span>.</li>
+                        <li>Enrolling private schools into the <span className='highlighter'>TreNova Online Training</span>, <span className='highlighter'>Mentorship</span>, and <span className='highlighter'>Coaching Program</span>.</li>
                     </ul> 
-                    During this period, compensation is commission-based, with a rate of <span className='highlighter'>20.25%</span> on monthly sales revenue.
+                    Compensation during probation is <span className='highlighter'>commission-based</span>, with a generous <span className='highlighter'>25% commission</span> on monthly sales revenue.
                 </div> 
             </div>
 
@@ -82,14 +86,13 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    Upon completing the installation of <span className='highlighter'>25 LearnNova Studios</span> and 
-                    enrolling <span className='highlighter'>2,500 pupils/students</span> in 
-                    the Learning Support App, you'll be offered a permanent position with the following benefits:
+                    Upon acheiving a  monthly revenue of <span className='highlighter-big'><b>₦1,500,000</b></span>, you'll 
+                    transition to a <span className='highlighter'>permanent role</span> with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><b>Base Salary: </b><span className='highlighter-big'><b>₦375,000.00</b></span> per month.</li>
-                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>5.2%</b></span> monthly commission on any sales above <span className='highlighter'>2,500</span> app users.</li>
-                        <li><b>Once you reach </b><span className='highlighter-big'><b>35</b></span> studio installations and enroll <span className='highlighter-big'><b>3,500</b></span> app users, you'll be <span className='highlighter'>promoted</span> to <span className='highlighter'>Growth Executive</span> with an increased monthly salary of <span className='highlighter-big'><b>₦500,000.00</b></span>.</li>
+                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>15%</b></span> commission on revenue exceeding <span className='highlighter-big'><b>₦1,500,000</b></span> monthly.</li>
+                        <li><b>Growth Opportunities: </b>Earn <span className='highlighter-big'><b>₦2,250,000</b></span> in monthly revenue to advance to <span className='highlighter'>Growth Executive</span>, with an increased salary of <span className='highlighter-big'><b>₦500,000</b></span>.</li>
                     </ul>
                     
                  </div>
@@ -113,8 +116,8 @@ const CareerHeroSection = () => {
             <div className='career-other-hero-section-container'>
 
                 <div>
-                    This role presents an exciting opportunity to be part of a growing EdTech company, helping 
-                    schools enhance their services and boost their profitability.
+                    This role is ideal for ambitious professionals looking to make a meaningful impact in the 
+                    <span className='highlighter'> EdTech</span> industry while growing their careers in a performance-oriented environment.
                 </div> 
             </div>
             
