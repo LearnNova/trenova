@@ -86,13 +86,13 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    Upon acheiving a  monthly revenue of <span className='highlighter-big'><b>₦1,500,000</b></span>, you'll 
+                    Upon acheiving a  monthly revenue of <span className='highlighter-big'><b>₦1,250,000</b></span>, you'll 
                     transition to a <span className='highlighter'>permanent role</span> with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦375,000.00</b></span> per month.</li>
-                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>15%</b></span> commission on revenue exceeding <span className='highlighter-big'><b>₦1,500,000</b></span> monthly.</li>
-                        <li><b>Growth Opportunities: </b>Earn <span className='highlighter-big'><b>₦2,250,000</b></span> in monthly revenue to advance to <span className='highlighter'>Growth Executive</span>, with an increased salary of <span className='highlighter-big'><b>₦500,000</b></span>.</li>
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦315,000.00</b></span> per month.</li>
+                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>15%</b></span> commission on revenue exceeding <span className='highlighter-big'><b>₦1,250,000</b></span> monthly.</li>
+                        <li><b>Growth Opportunities: </b>Earn <span className='highlighter-big'><b>₦2,000,000</b></span> in monthly revenue to advance to <span className='highlighter'>Growth Executive</span>, with an increased salary of <span className='highlighter-big'><b>₦450,000</b></span>.</li>
                     </ul>
                     
                  </div>
