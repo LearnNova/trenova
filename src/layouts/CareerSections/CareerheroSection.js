@@ -86,13 +86,13 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    Once you create 50 subscribers or acheive a monthly revenue of <span className='highlighter-big'><b>₦1,300,000</b></span>, you'll 
+                    Once you create 40 subscribers or acheive a monthly revenue of <span className='highlighter-big'><b>₦1,300,000</b></span>, you'll 
                     transition to a <span className='highlighter'>permanent role</span> with these benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><b>Base Salary: </b><span className='highlighter-big'><b>₦325,000.00</b></span> per month.</li>
                         <li><b>Sales Commission: </b><span className='highlighter-big'><b>15%</b></span> on all revenue exceeding <span className='highlighter-big'><b>₦1,300,000</b></span> monthly.</li>
-                        <li><b>Career Advancement: </b>Reach <span className='highlighter-big'><b>₦2,000,000</b></span> in monthly revenue to be promoted to <span className='highlighter'>Growth Executive</span>, which a higher salary of <span className='highlighter-big'><b>₦450,000</b></span> per month.</li>
+                        <li><b>Career Advancement: </b>Reach <span className='highlighter-big'><b>₦1,800,000</b></span> in monthly revenue to be promoted to <span className='highlighter'>Growth Executive</span>, with a higher salary of <span className='highlighter-big'><b>₦450,000</b></span> per month.</li>
                     </ul>
                     
                  </div>
