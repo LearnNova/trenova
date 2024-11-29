@@ -332,6 +332,7 @@ html {
   font-weight: 400;
   padding: 0 .3em;
   color: var(--secondary-clr);
+  border-radius: 3px;
 }
 
 .form-control-textarea {
@@ -343,6 +344,7 @@ html {
   font-weight: 400;
   padding: 0 .3em;
   color: var(--secondary-clr);
+  border-radius: 3px;
 }
 
 .submit-btn {

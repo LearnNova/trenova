@@ -9,7 +9,8 @@ const CareerApplicationFormSection = () => {
     const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
     const [location, setLocation] = useState('');
-    const [date, setDate] = useState('');
+    const [houseAddress, sethouseAddress] = useState('');
+    // const [date, setDate] = useState('');
     const [hear, setHear] = useState('DIRECT APPLICANT - TERRITORY SALES REPRESENTATIVE CURRENT');
     const [consent, setConsent] = useState(true);
 
@@ -23,70 +24,64 @@ const CareerApplicationFormSection = () => {
         setPhone('');
         setEmail('');
         setLocation('');
-        setDate('');
+        sethouseAddress('');
         setHear('');
     }
 
-    const isValidDate = (inputDate) => {
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
+    // const isValidDate = (inputDate) => {
+    //     const today = new Date();
+    //     today.setHours(0, 0, 0, 0);
 
-        const input = new Date(inputDate);
-        input.setHours(0, 0, 0, 0);
+    //     const input = new Date(inputDate);
+    //     input.setHours(0, 0, 0, 0);
 
-        // Check if the input date is today or in the future
-        return input >= today;
-    }
+    //     return input >= today;
+    // }
   
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (firstName && lastName && whatsapp && phone && email && location && date && hear && consent) {
+        if (firstName && lastName && whatsapp && phone && email && location && houseAddress && hear && consent) {
 
-            if (isValidDate(date)) {
+            
 
-                const applicantData = {
-                    First_Name: firstName,
-                    Last_Name: lastName,
-                    whatsapp: whatsapp,
-                    phone: phone,
-                    email: email,
-                    location: location,
-                    date: date,
-                    hear: hear,
-                  };
-    
-                try {
-                    infoCate.current.textContent = 'Processing ... Please wait'
-                    const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:Y1Oqmtn2/applicant', {
-                        method: 'POST',
-                        body: JSON.stringify(applicantData),
-                        headers: { 'Content-Type': 'application/json' },
-                    });
-    
-                    if (!response.ok) {
-                        infoCate.current.textContent = ''
-                        throw new Error (`API request failed with status ${response.status}`);
-                        
-                    }
-    
-                    else {
+            const applicantData = {
+                First_Name: firstName,
+                Last_Name: lastName,
+                whatsapp: whatsapp,
+                phone: phone,
+                email: email,
+                location: location,
+                Residential_Addresss: houseAddress,
+                hear: hear,
+                };
+
+            try {
+                infoCate.current.textContent = 'Processing ... Please wait'
+                const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:Y1Oqmtn2/applicant', {
+                    method: 'POST',
+                    body: JSON.stringify(applicantData),
+                    headers: { 'Content-Type': 'application/json' },
+                });
+
+                if (!response.ok) {
                     infoCate.current.textContent = ''
-                    alert (`${firstName} you have successfully Submitted your details for the  Territorial Sales Specialist Job, we would contact you shortly with further information.`);
-                    resetInput();
+                    throw new Error (`API request failed with status ${response.status}`);
+                    
+                }
 
-                    }
+                else {
+                infoCate.current.textContent = ''
+                alert (`${firstName} you have successfully Submitted your details for the  Territorial Sales Specialist Job, we would contact you shortly with further information.`);
+                resetInput();
+
+                }
     
                 } catch (error) {
                     infoCate.current.textContent = ''
                     alert(error || 'Error in Submitting, Try Again')
                 }
     
-            }
-
-            else {
-                alert ('Invalid Date, Please pick the current date or a future date.');
-            }
             
         }
         else{
@@ -180,12 +175,12 @@ const CareerApplicationFormSection = () => {
                         </div>
                         
                         <div className='form-row'>
-                            <label htmlFor='location' className='input-labels'>State your Preffered City (Location):</label>
+                            <label htmlFor='location' className='input-labels'>Preffered Working Territtory (Location):</label>
                             <input 
                                 type='text'
                                 id='location'
                                 name='location'
-                                placeholder='i.e Lagos MainLand'
+                                placeholder='i.e City, Local Government and State'
                                 required
                                 className='form-control'
                                 value={location}
@@ -195,17 +190,18 @@ const CareerApplicationFormSection = () => {
                     </div>
 
                     <div className='form-row-main'>
-                        <div className='form-row' style={{width: '100%'}}>
-                            <label htmlFor='date' className='input-labels'>Preffered Resumption Date:</label>
-                            <input 
-                                type='date'
-                                id='date'
-                                name='date'
+                        <div className='form-row'>
+                            <label htmlFor='houseAddress' className='input-labels-textarea'>Full Residential Address:</label>
+                            <textarea 
+                                rows='3' 
+                                id='houseAddress' 
+                                name='houseAddress' 
+                                className='form-control-textarea' 
+                                value={houseAddress} 
+                                onChange={(e) => {sethouseAddress(e.target.value)}} 
                                 required
-                                className='form-control'
-                                value={date}
-                                onChange={(e) => {setDate(e.target.value)}}
-                            />
+                                ></textarea>
+                            
                         </div>
                     </div>
 
