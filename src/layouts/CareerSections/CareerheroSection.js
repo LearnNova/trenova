@@ -86,8 +86,7 @@ const CareerHeroSection = () => {
                  <span className='paragraph-title'>Post-Probation Compensation:</span>
 
                  <div>
-                    Once you create 40 subscribers or acheive a monthly revenue of <span className='highlighter-big'><b>₦1,300,000</b></span>, you'll 
-                    transition to a <span className='highlighter'>permanent role</span> with these benefits:
+                    Upon achieving an average monthly revenue of <span className='highlighter-big'><b>₦1,300,000</b></span>, you will transition to a <span className='highlighter'>permanent role</span> with the following benefits:
 
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><b>Base Salary: </b><span className='highlighter-big'><b>₦325,000.00</b></span> per month.</li>
