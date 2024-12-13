@@ -36,11 +36,12 @@ const CareerHeroSection = () => {
                 <span>Role Overview:</span>
                 <br/>
                 <span>
-                    As a <b>Territory Sales Representative</b>, you will be instrumental in enrolling private school 
-                    owners into our school growth training, coaching, and mentorship programs. You’ll also recruit 
-                    school owners as distributors for our revolutionary <b>Learning Support App</b>. The ideal 
-                    candidate is passionate about education technology, boasts a proven sales track record, 
-                    and thrives in fast-paced, results-oriented environments. <br /><br /> 
+                    As a <b>Territory Sales Representative</b>, your primary focus will be introducing private 
+                    schools to <b>LearnNova Learning Support Studio</b> and driving enrollment in our school 
+                    growth <b>training</b>, <b>coaching</b>, and <b>mentorship</b> programs. Additionally, you will 
+                    recruit private school owners as distributors for our innovative <b>Learning Support App</b>. The 
+                    ideal candidate is an enthusiastic advocate for education technology, possesses a strong sales 
+                    background, and excels in dynamic, results-driven settings. <br /><br /> 
                     <span className='highlighter'>Key Responsibilities:</span>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li>Driving sales within your assigned territory.</li>
