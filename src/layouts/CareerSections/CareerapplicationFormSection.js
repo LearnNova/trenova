@@ -1,7 +1,7 @@
 import React, {useState, useRef} from 'react'
 import './career.css'
 
-const CareerApplicationFormSection = () => {
+const CareerApplicationFormSection = ({ role }) => {
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -11,7 +11,7 @@ const CareerApplicationFormSection = () => {
     const [location, setLocation] = useState('');
     const [houseAddress, sethouseAddress] = useState('');
     // const [date, setDate] = useState('');
-    const [hear, setHear] = useState('DIRECT APPLICANT - TERRITORY SALES REPRESENTATIVE CURRENT');
+    const [hear, setHear] = useState(role);
     const [consent, setConsent] = useState(true);
 
     const infoCate = useRef(null);

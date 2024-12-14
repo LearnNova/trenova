@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
-import RtlLayout from "layouts/rtl";
+// import RtlLayout from "layouts/rtl";
 import AdminLayout from "layouts/admin";
 import AuthLayout from "layouts/auth";
 // import Home from "views/home/Home";
 import Landing from "views/home/Landing";
 import PrivateRoute from "components/PrivateRoute";
 import MentorNigeriaPage from "pages/MentorNigeriaPage";
-import CareerPage from "pages/CareerPage";
+import CareerPageTSR from "pages/CareerPageTSR";
+import CareerPageSO from "pages/CareerPageSO";
 import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
 const App = () => {
@@ -25,11 +25,19 @@ const App = () => {
           </>
         }/>
       <Route 
-        path="Career" 
+        path="career/territory_sales_representative" 
         element={
           <>
-          <PageTitle title="Career" />
-          <CareerPage />
+          <PageTitle title="Career - Territory Sales Representative" />
+          <CareerPageTSR />
+          </>
+        } />
+        <Route 
+        path="career/sales_officer" 
+        element={
+          <>
+          <PageTitle title="Career - Sales Officer" />
+          <CareerPageSO />
           </>
         } />
 
