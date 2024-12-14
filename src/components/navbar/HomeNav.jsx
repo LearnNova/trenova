@@ -6,6 +6,8 @@ import authImg from "assets/img/auth/auth.png";
 import { useDispatch, useSelector } from "react-redux";
 import { useLogoutMutation } from "../../redux/api/usersApiSlice";
 import { logout } from "../../redux/features/auth/authSlice";
+import Dropdown from "components/dropdown";
+
 const navigation = [
   { name: "Dashboard", href: "/admin", current: true },
   { name: "School Signup", href: "/auth/signup" },
@@ -21,7 +23,17 @@ const navigation = [
   },
   {
     name: "Career", 
-    href: "/Career",
+    // href: "/career/territory_sales_representative",
+    children: {
+      career1: {
+        name: 'Terittory Sales Representative',
+        href: '/career/territory_sales_representative',
+      },
+      career2: {
+        name: 'Sales Officer',
+        href: '/career/sales_officer',
+      },
+    },
   },
 ];
 
@@ -71,9 +83,51 @@ export default function HomeNav() {
                   <img className="w-16" src={authImg} alt="Logo" style={{objectFit: 'cover'}}/>
                 </div>
                 <div className="hidden flex-shrink-0  items-center sm:flex">
+
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link
+                      item.children? (
+                        <Dropdown
+                          button={
+                            <Link
+                              key={item.name}
+                              className={classNames(
+                                item.current
+                                  ? "bg-gray-900 text-white"
+                                  : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                                "text-sm rounded-md px-3 py-2 font-medium"
+                              )}
+                              aria-current={item.current ? "page" : undefined}
+                            >
+                              {item.name}
+                            </Link>
+                          }
+                          children={
+                            <div className="flex w-56 flex-col justify-start rounded-[5px] bg-white bg-cover bg-no-repeat shadow-xl shadow-shadow-500 dark:!bg-navy-700 dark:text-white dark:shadow-none">
+
+                              <div className="flex flex-col py-2">
+                                <Link
+                                  to={item.children.career1.href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                >
+                                  {item.children.career1.name}
+                                </Link>
+
+                                <div className="h-px w-full my-1 bg-gray-200 dark:bg-white/20 " />
+
+                                <Link
+                                  to={item.children.career2.href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                >
+                                  {item.children.career2.name}
+                                </Link>
+                              </div>
+                            </div>
+                          }
+                          classNames={"py-2 top-8 -left-[180px] w-max"}
+                        />
+                      ):(
+                        <Link
                         key={item.name}
                         to={item.href}
                         className={classNames(
@@ -86,8 +140,11 @@ export default function HomeNav() {
                       >
                         {item.name}
                       </Link>
+                      )
+                      
                     ))}
                   </div>
+
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -163,20 +220,37 @@ export default function HomeNav() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "text-base block rounded-md px-3 py-2 font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
+                item.children ? (
+                  <>
+                    {Object.keys(item.children).map((key) => (
+                      <Disclosure.Button
+                        key={item.children[key].name}
+                        as="a"
+                        href={item.children[key].href}
+                        className={classNames(
+                          item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          "text-base block rounded-md px-3 py-2 font-medium"
+                        )}
+                        aria-current={item.current ? "page" : undefined}
+                      >
+                        {item.children[key].name}
+                      </Disclosure.Button>
+                    ))}
+                  </>
+                ) : (
+                  <Disclosure.Button
+                    key={item.name}
+                    as="a"
+                    href={item.href}
+                    className={classNames(
+                      item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      "text-base block rounded-md px-3 py-2 font-medium"
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                  >
+                    {item.name}
+                  </Disclosure.Button>
+                )
               ))}
             </div>
           </Disclosure.Panel>

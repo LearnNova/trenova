@@ -2,7 +2,7 @@ import React from 'react'
 import { NavigateForm } from 'utils/navigateForm'
 import './career.css'
 
-const CareerHeroSection = () => {
+const CareerHeroSection1 = () => {
   return (
     <div>
         <div className='career-hero-sec-wrapper'>
@@ -135,4 +135,4 @@ const CareerHeroSection = () => {
   )
 }
 
-export default CareerHeroSection
+export default CareerHeroSection1
