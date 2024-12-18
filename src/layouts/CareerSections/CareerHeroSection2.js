@@ -98,7 +98,7 @@ const CareerHeroSection2 = () => {
                     <div>
                         <span className='paragraph-title'>Important Note:</span>
                         <p>
-                            In the event that your monthly sales fall below <span className='highlighter-big'><b>₦790,000</b></span>, the 
+                            In the event that your monthly sales fall below <span className='highlighter-big'><b>8 unit</b></span> or <span className='highlighter-big'><b>₦790,000</b></span>, the 
                             base salary will be temporarily suspended. In this case, total compensation will be 
                             limited at <span className='highlighter-big'><b>15.5%</b></span> of the monthly 
                             sales revenue.
