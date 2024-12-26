@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --font-family-pri: "Poppins", sans-serif;
+  --font-family-sec: "Big Shoulders Display", sans-serif;
+  --pri-clr: #ffffff;
+  --secondary-clr: #1C1C1C;
+  --deep-purple-clr: #253bff;
+  --marker-clr-sec: #4151E5;
+  --marker-clr: #f6fa06;
+  --tertiary-clr: #ff0000;
+  --all-transitions: all linear 0.3s;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.yellow-text {
+  color: var(--marker-clr);
+}
+
+.red-text {
+  color: var(--tertiary-clr);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.break-line {
+  display: block;
+}
+
+.small-text {
+  font-size: 0.85em;
+}
+
+.deep-purple {
+  color: var(--deep-purple-clr);
+}
+
+.school-growth-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--pri-clr);
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+.main-section {
+  flex: 3;
+  height: auto;
+  margin: 3em 3% 0 3%;
+  font-size: 1em;
+}
+
+.title-container {
+  background-color: var(--marker-clr-sec);
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+.title-container h1 {
+  font-size: 2em;
+  color: var(--pri-clr);
+  padding: 0.8em 2%;
+}
+
+.title-logo-body {
+  align-self: stretch;
+  max-width: 80px;
+  background-color: var(--pri-clr);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.text-body-container {
+  padding-top: 1em;
+  font-size: 1em;
+}
+
+.text-body ul {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-size: 1.4em;
+}
+
+.text-body ul > li {
+  line-height: 1.3em;
+  margin-bottom: 0.6em;
+}
+
+.price-body {
+  margin-top: 1.5em;
+  font-size: 1em;
+}
+
+.price-body .title {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 2em;
+}
+
+.price-body .amount {
+  font-size: 2em;
+  margin-left: 0.3em;
+}
+
+.note-body {
+  margin-top: 0.7em;
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+
+.contact-body {
+  margin-top: 0.7em;
+  font-size: 1.4em;
+}
+
+.contact-body a {
+  margin-right: 0.5em;
+}
+
+.secondary-section {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--marker-clr-sec);
+  text-align: center;
+  padding: 1.5em 1%;
+  font-size: 1.9em;
+  color: var(--pri-clr);
+}
+
+.logo-body {
+  width: 100%;
+  max-width: 200px;
+  background-color: var(--pri-clr);
+  border: none;
+  border-radius: 50%;
+  padding: 4%;
+  margin: 0 auto;
+}
+
+.logo-body img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quote-body {
+  margin: 2em 0;
+  font-size: 1em;
+}
+
+.join-body {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.address-body {
+  font-size: 0.8em;
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-section {
+    flex: 4;
+  }
+
+  .secondary-section {
+    flex: 1;
+    font-size: 1.55em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school-growth-section {
+    font-size: 0.95rem;
+  }
+
+  .main-section {
+    margin: 1.5em 2% 0 2%;
+  }
+
+  .secondary-section {
+    font-size: 1.4em;
+  }
+
+  .address-body {
+    font-size: 0.95em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .break-line {
+    display: inline-block;
+  }
+
+  .title-container {
+    font-size: 0.8em;
+  }
+
+  .text-body-container {
+    padding: 0 .5em;
+  }
+
+  .title-container h1 {
+    padding-right: 0;
+  }
+
+  .title-logo-body {
+    display: flex;
+  }
+
+  .main-section {
+    flex: unset;
+    width: 100%;
+    margin: 0;
+  }
+
+  .secondary-section {
+    display: none;
+  }
+
+  .school-growth-section {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .school-growth-section {
+    font-size: 1rem;
+    flex-direction: column;
+  }
+
+  .main-section {
+    margin: 1em 3%;
+  }
+
+  .title-container h1 {
+    font-size: 1.55em;
+  }
+
+  .text-body ul {
+    font-size: 1.2em;
+  }
+
+  .price-body .title {
+    font-size: 1.4em;
+  }
+
+  .price-body .amount {
+    font-size: 1.3em;
+  }
+
+  .note-body {
+    font-size: 1.2em;
+  }
+
+  .contact-body {
+    font-size: 1.2em;
+  }
+
+  .contact-body a {
+    display: block;
+    margin: 0.3em 0;
+  }
+}
