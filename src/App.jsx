@@ -11,6 +11,8 @@ import CareerPageTSR from "pages/CareerPageTSR";
 import CareerPageSO from "pages/CareerPageSO";
 import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
+import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
+
 const App = () => {
   return (
     <Routes>
@@ -48,6 +50,15 @@ const App = () => {
           <PageTitle title="PrivacyPolicy" />
           <PrivacyPolicyPage />
           </>
+        } /> 
+
+        <Route 
+          path="schoolgrowthsystem" 
+          element={
+            <>
+            <PageTitle title="School Growth System" />
+            <SchoolGrowth />
+            </>
         } /> 
 
       <Route path="" element={<PrivateRoute />}>
