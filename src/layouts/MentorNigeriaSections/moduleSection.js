@@ -9,50 +9,43 @@ const ModuleSection = () => {
   const [modulecollapse4, setModuleCollapse4] = useState(false);
   const [modulecollapse5, setModuleCollapse5] = useState(false);
   const [modulecollapse6, setModuleCollapse6] = useState(false);
-  const [modulecollapse7, setModuleCollapse7] = useState(false);
-  const [modulecollapse8, setModuleCollapse8] = useState(false);
+//   const [modulecollapse7, setModuleCollapse7] = useState(false);
+//   const [modulecollapse8, setModuleCollapse8] = useState(false);
 
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='module-title'>What you will Learn:</div>
+            <div className='module-title'>Syallabus:</div>
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 1:</span> Professional Selling Skills for Shy & Introverted Individuals</h3>
-                    <p>- Learning Points: Forty-five (45) points</p>
+                    <h3><span className='highlighter'>Module 1:</span> Life Skills Development</h3>
+                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
                     <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse1? "extended": ""}`}>
-                        <li>Sales Planning and Event Management for Success in Selling</li>
-                        <li>Developing the Characteristics of Sales Professionals</li>
-                        <li>Sales Prospecting, Building Credibility, and Rapport with Prospects</li>
-                        <li>Listening and Questioning Skills</li>
-                        <li>Identifying Needs and Buying Signals</li>
-                        <li>Presentation of Solutions</li>
-                        <li>Sales Negotiation and Closing Techniques</li>
-                        <li>Handling Customer Complaints and Overcoming Objections</li>
-                        <li>Closing the Sale</li>
+                        <li>Effective Communication and Presentation Skills.</li>
+                        <li>Emotional Intelligence and Stress Management.</li>
+                        <li>Time Management and Goal Setting.</li>
+                        <li>Teamwork and Leadership.</li>
                     </ul>
                     
                     <button className='read-more-btn' onClick={() => setModuleCollapse1((prev) =>  !prev)}>{`${modulecollapse1? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 2:</span> Professional Telemarketing Skills</h3>
-                    <p>- Learning Points: Forty-five (45) points</p>
+                    <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills</h3>
+                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
                     <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
-                        <li>Introduction to Telemarketing</li>
-                        <li>Essential Professional Skills for a Successful Tele-sales Career</li>
-                        <li>Event Planning and Management for Lead Generation</li>
-                        <li>Mastering Telephone Engagement with Prospects</li>
-                        <li>Developing Telemarketing Scripts and Presentations</li>
-                        <li>Highlighting the Features and Benefits of Products and Services</li>
-                        <li>Leads Conversion into Successful Sales with Persuasive Skills</li>
-                        <li>Handling Objections and Closing the Sale</li>
-                        <li>Follow-up and Relationship Building</li>
-                        <li>Personalized Telemarketing Plan (Project)</li>
+                        <li>Basics of Telemarketing and Sales Psychology.</li>
+                        <li>Customer Service and Relationship Management Skills.</li>
+                        <li> The CRM Tools.</li>
+                        <li>Branding and Product Positioning.</li>
+                        <li>Sales Pitches and Negotiation Skills.</li>
+                        <li>Handling Customer Objections.</li>
+                        <li>Closing the Deal and Gaining Commitment.</li>
+                        <li>Grant Award Project Commencement.</li>
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse2((prev) =>  !prev)}>{`${modulecollapse2? 'Read Less': 'Read More...'}`}</button>
@@ -64,55 +57,39 @@ const ModuleSection = () => {
             <div className='module-row'>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3:</span> Professional Customer Service & Relationship Management Skills</h3>
-                    <p>- Learning Points: Forty-five (45) points</p>
+                    <h3><span className='highlighter'>Module 3:</span> Digital Marketing</h3>
+                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
                     <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
-                        <li>The Basic Principles of Service and What Customers Want</li>
-                        <li>Understanding Service, the Lifetime Value of a Customer, and the Service Concept</li>
-                        <li>Offering Optimal Customer Experience and Managing the Service Outcome</li>
-                        <li>Building Service Standards and Ensuring Customer Loyalty</li>
-                        <li>What to Do When Things Go Wrong</li>
-                        <li>The Value Perspective and the Ingredients of Value</li>
-                        <li>Relationship Management Skills: Effective Communication, Respect and Tact, Positive Attitude, Empathy, Emotional Intelligence, Adaptability and Networking</li>
-                        <li>The Cost of Poor Service and Developing a Personal Action Plan</li>
+                        <li>Introduction to Digital Marketing.</li>
+                        <li>Social Media Marketing (Facebook, Instagram, LinkedIn).</li>
+                        <li>Search Engine Optimization (SEO).</li>
+                        <li>Content Marketing and Blogging.</li>
+                        <li>Email Marketing Strategies.</li>
+                        <li>Analytics and Performance Tracking.</li>
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4:</span> Virtual Assistant Skills, Tools and How to Emigrate from Nigeria to Canada through Sponsored Jobs</h3>
-                    <p>- Learning Points: Forty-five (45) points</p>
+                    <h3><span className='highlighter'>Module 4:</span> Web & App Development</h3>
+                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
                     <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
-                        <li>Core Skills for a Successful Virtual Assistant Career</li>
-                        <li>Key Responsibilities and Workload Management</li>
-                        <li>How to Search for and Secure a Virtual Assistant Job</li>
-                        <li>Service Processes and Reliability</li>
-                        <li>Emigrating through Sponsored Jobs</li>
-                        <li>Type of Jobs in High Demand</li>
-                        <li>Requirements for a Work Permit</li>
-                        <li>Understanding the Work Permit Process</li>
-                        <li>Getting Canada Work Permit Without an Agent:</li>
-
-                        <ul className='sub-module-list'>
+                        <li>HTML, CSS, and JavaScript Basics.</li>
+                        <li>Building Responsive Websites & App.</li>
+                        <li>Introduction to WordPress and Content Management Systems.</li>
+                        <li>Basic E-commerce Development.</li>
+                        <li>Hosting, Domains, and Website Deployment.</li>
+                        {/* <ul className='sub-module-list'>
                             <span style={{marginLeft: '-1em'}}>Method 1: Applying for Jobs Online</span>
                             <li>Step 1: Documents Required</li>
                             <li>Step 2: Job Websites</li>
                             <li>Step 3: How to Apply for Jobs through Online Job Platforms</li>
-                        </ul>
-
-                        <ul className='sub-module-list'>
-                            <span style={{marginLeft: '-1em'}}>Method 2: Visiting Canada on a Visitor Visa</span>
-                            <li>Step 1: How to Apply for a Visitor Visa</li>
-                            <li>Step 2: When you Arrived in Canada</li>
-                            <li>Step 3: Steps to Applying for Jobs in Person</li>
-                            <li>Step 4: What to do when Job Offer is Secured</li>
-                        </ul>
-
+                        </ul> */}
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
@@ -122,58 +99,39 @@ const ModuleSection = () => {
             <div className='module-row'>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 5:</span> Prompt Engineering with ChatGPT & Branding </h3>
-                        <p>- Learning Points: Forty-five (45) points</p>
+                        <h3><span className='highlighter'>Module 5:</span> Entrepreneurship and Business Skills</h3>
+                        {/* <p>- Learning Points: Forty-five (45) points</p> */}
                         <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
 
                         <ul className={`long-text ${modulecollapse5? "extended": ""}`}>
-                            <li>Prompt Engineering Explained </li>
-                            <li>Prompt Framework & Custom Instructions</li>
-                            <li>Prompt Priming, Iteration & 0-1-Few Shot</li>
-                            <li>Output Templates, Step-by-Step & Act As</li>
-                            <li>Perspectives, 4th Grade & Follow-up Questions</li>
-                            <li>Tabular Format, Comparisons, Critique Me & Critique Yourself</li>
-                            <li>Teach Me, Write Like Me, Ask for Advice & Laddering</li>
-                            <li>Advanced Prompt Engineering & Fine Tuning</li>
-                            <li>Branding vs Marketing</li>
-                            <li>Why You Need a Brand Strategy & The Structure of Branding</li>
-                            <li>The Importance of Purpose, Purpose Examples & Your Purpose</li>
-                            <li>The Importance of Vision, Vision Examples & Your Vision</li>
-                            <li>The Importance of Mission, Mission Examples & Your Mission</li>
-                            <li>The Importance of Values, Values Examples & Your Values</li>
-                            <li>Who Are Your Competitors?</li>
-                            <li>What Makes You Different & Differentiator Examples</li>
-                            <li>The Importance of Positioning & Your Positioning Statement</li>
-                            <li>What Is Brand Personality</li>
-                            <li>Define Your Brand Personality & Find Your Brand Voice</li>
-                            <li>The Power of Brand Storytelling & How to Tell Your Brand Story</li>
-                            <li>Name Your Brand & Create Your Tagline</li>
-                            <li>Your Brand Colors, Your Brand Fonts, Brand Logo Types & Your Brand Logo </li>
+                            <li>Ideation, Business Model Design and Business Planning.</li>
+                            <li>Financial Literacy and Budgeting.</li>
+                            <li>Market Research and Competitor Analysis.</li>
+                            <li>Business Registration and Legal Compliance.</li>
+                            <li>Fundraising and Pitching to Investors.</li>
                         </ul>
 
                         <button className='read-more-btn' onClick={() => setModuleCollapse5((prev) =>  !prev)}>{`${modulecollapse5? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 6:</span> Business Growth Mentorship and Coaching Skills Development</h3>
-                    <p>- Learning Points: Forty-five (45) points</p>
+                    <h3><span className='highlighter'>Module 6:</span> Virtual Assistant Skills and Tools</h3>
+                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
                     <p className={`three-dot ${modulecollapse6? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse6? "extended": ""}`}>
-                        <li>Training and Summit Management</li>
-                        <li>Survival Skills for the New Trainer and Using Activities to Make Training Engaging</li>
-                        <li>Business Growth First Aid and Launchpad</li>
-                        <li>Business Growth Blueprint</li>
-                        <li>Talisman Business Growth Acceleration System</li>
-                        <li>Business Growth Mentorship and Coaching System</li>
-                        <li>Business Systemization and Consulting System</li>
+                        <li>Core Skills for a Successful Virtual Assistant Career</li>
+                        <li>Key Responsibilities and Workload Management</li>
+                        <li>How to Search for and Secure a Virtual Assistant Job</li>
+                        <li>Service Processes and Reliability</li>
+                        <li>Type of Jobs in High Demand</li>
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse6((prev) =>  !prev)}>{`${modulecollapse6? 'Read Less': 'Read More...'}`}</button>
                 </div>
             </div>
 
-            <div className='module-row'>
+            {/* <div className='module-row'>
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 7:</span> Freelancing as a Strategy for Income Generation </h3>
@@ -219,11 +177,101 @@ const ModuleSection = () => {
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse8((prev) =>  !prev)}>{`${modulecollapse8? 'Read Less': 'Read More...'}`}</button>
                 </div>
-            </div>
+            </div> */}
 
             <div id='apply-btn-1'>
-            <div><button className='submit-btn' id='apply-btn' onClick={NavigateForm}>Apply Now</button></div>
-          </div>
+                <div><button className='submit-btn' id='apply-btn' onClick={NavigateForm}>Apply Now</button></div>
+            </div>
+            
+            <div className='line-breaker'></div>
+            
+            <div className='module-text-box'>
+                <h1 className='highlighter'>Program Duration:</h1>
+                <p><span className='highlighter'>4 - 6 Months</span> (Flexible schedule with 2 sessions per week).</p>
+            </div>
+            
+            <div className='module-text-box'>
+                <h1 className='highlighter'>Assessment and Certification:</h1>
+                <ul className='module-text-box__list-box'>
+                    <li>
+                        <b>Participants will be assessed through:</b>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            <li>Quizzes and assignments.</li>
+                            <li>Practical project evaluations.</li>
+                            <li>Final presentation of a business or project idea.</li>
+                        </ul>
+                    </li>
+                    <li style={{listStyleType: 'none'}}>Certification will be provided upon successful completion of the program.</li>
+                </ul>
+            </div>
+
+            <div className='module-text-box'>
+                <h1 className='highlighter'>Implementation Framework:</h1>
+                <ul className='module-text-box__list-box'>
+                    <li>
+                        <b>Partnerships</b>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            <li>Collaborate with industry experts, NGOs, and government agencies.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Delivery Format</b>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            <li>Hybrid learning: Online and Real-life Virtual sessions.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Monitoring and Evaluation</b>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            <li>Regular feedback from participants.</li>
+                            <li>Quarterly review of program impact.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Sustainability</b>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            <li>Establish an alumni network to support continuous learning and networking.</li>
+                        </ul>
+                    </li>
+                    <li style={{listStyleType: 'none'}}>This framework ensures the program provides Nigerian youths with the tools, knowledge, and resources needed for lasting success.</li>
+                </ul>
+            </div>
+
+            <div className='module-text-box'>
+                <h1 className='highlighter'>Strategies for Raising Funds to Ensure Program Sustainability: </h1>
+                <ul className='module-text-box__list-box'>
+                    <li>
+                        <b>Leveraging Profits from LearnNova</b> Learning Support and School Growth Services and affiliated businesses to sustain and grow programs.
+                    </li>
+                    <li>
+                        <b>Offer Local Services:</b> Partner with local businesses by providing specialized services to generate income.
+                    </li>
+                    <li>
+                        <b>Expand Through Outsourcing:</b> Utilize Business Process Outsourcing (BPO) services, such as virtual assistance, bookkeeping, web, and app development, to tap into foreign markets and boost revenue.
+                    </li>
+                    <li>
+                        <b>Pursue Grants:</b> Seeking funding opportunities from local and international organizations to support programs.
+                    </li>
+                </ul>
+            </div>
+
+            <div className='module-text-box'>
+                <h1 className='highlighter'>Business Grant Award:</h1>
+                <p>To qualify for the award draw, a participant must achieve a minimum sales revenue of <span className='highlighter'>₦2 million</span> and have a scalable business model.</p>
+                <p style={{marginTop: '0.5em'}}>The grant will be awarded as follows:</p>
+                <ul className='module-text-box__list-box'>
+                    <li>Gold Award: <span className='highlighter'>₦2 million</span></li>
+                    <li>Silver Award: <span className='highlighter'>₦1.5 million</span></li>
+                    <li>Bronze Award: <span className='highlighter'>₦1 million</span></li>
+                    <li>Consolation Prizes: <span className='highlighter'>₦500k X 7</span></li>
+                    <li>Employment Offer: to extremely successful participants.</li>
+                </ul>
+            </div>
+
+            <div className='module-text-box'>
+                <h1 className='highlighter'>How to Enter the Business Grant Award Draw:</h1>
+                <p>For every <span className='highlighter'>2 sales</span> you make, you'll earn one ticket for the draw. The more tickets you accumulate, the higher your chances of winning the business grant!</p>
+            </div>
         </div>
     </div>
   )

@@ -11,13 +11,13 @@
     
   }
   
-  .application-form-title {
+  .interest-application-form-title {
     font-size: .4em;
     font-weight: 800;
     margin-bottom: .5em;
   }
   
-  #application-form {
+  #interest-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@
     border-radius: 3px;
   }
   
-  .submit-btn {
+  .interest-submit-btn {
     font-size: .35em;
     background-color: var(--secondary-clr);
     color: var(--pri-clr);
@@ -117,7 +117,7 @@
     background-color: var(--marker-clr);
   }
   
-  .form-info-box {
+  .interest-form-info-box {
     background-color: var(--pri-clr);
     color: var(--secondary-clr);
     font-size: .3em;
@@ -128,8 +128,8 @@
   }
   
   @media (max-width: 730px) {
-    .application-form-title {
-        font-size: .3em;
+    .interest-application-form-title {
+        font-size: .35em;
     }
   
     .form-row-main {

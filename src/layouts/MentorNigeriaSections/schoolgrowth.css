@@ -3,20 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  --font-family-pri: "Poppins", sans-serif;
-  --font-family-sec: "Big Shoulders Display", sans-serif;
-  --font-family-tertiary: "Satisfy", serif;
-  --pri-clr: #ffffff;
-  --secondary-clr: #1C1C1C;
-  --deep-purple-clr: #253bff;
-  --marker-clr-sec: #4151E5;
-  --marker-clr: #f6fa06;
-  --tertiary-clr: #ff0000;
-  --all-transitions: all linear 0.3s;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-family-pri: "Poppins", sans-serif;
+    --font-family-sec: "Big Shoulders Display", sans-serif;
+    --font-family-tertiary: "Satisfy", serif;
+    --pri-clr: #ffffff;
+    --secondary-clr: #1C1C1C;
+    --deep-purple-clr: #253bff;
+    --line-clr: #8B8B8B;
+    --marker-clr-sec: #4151E5;
+    --marker-clr: #FA8806;
+    --marker-clr-second: #f6fa06;
+    --tertiary-clr: #25242A;
+    --tertiary-clr-second: #ff0000;
+    --all-transitions: all linear .3s;
+  }
 
 html, body {
   margin: 0;
@@ -27,11 +30,11 @@ html, body {
 }
 
 .yellow-text {
-  color: var(--marker-clr);
+  color: var(--marker-clr-second);
 }
 
 .red-text {
-  color: var(--tertiary-clr);
+  color: var(--tertiary-clr-second);
 }
 
 .bold {
@@ -215,6 +218,10 @@ html, body {
         max-width: 100vw;
     }
 
+    .title-container h1 {
+        padding: 0.8em 0.5em;
+    }
+
     .text-body-container {
         padding: 1em 3%;
     }
@@ -258,11 +265,13 @@ html, body {
 
     .price-body {
         font-size: 2.1em;
+        margin-left: 0.15em;
     }
 
     .price-body .amount {
         display: block;
         margin-top: 0.15em;
+        margin-left: 0;
     }
 }
 
