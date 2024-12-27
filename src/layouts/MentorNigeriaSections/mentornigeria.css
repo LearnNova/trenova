@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
   margin: 0;
@@ -7,12 +8,16 @@
   box-sizing: border-box;
   --font-family-pri: "Poppins", sans-serif;
   --font-family-sec: "Big Shoulders Display", sans-serif;
-  --pri-clr: #FEFEFE;
+  --font-family-tertiary: "Satisfy", serif;
+  --pri-clr: #ffffff;
   --secondary-clr: #1C1C1C;
+  --deep-purple-clr: #253bff;
   --line-clr: #8B8B8B;
   --marker-clr-sec: #4151E5;
   --marker-clr: #FA8806;
+  --marker-clr-second: #f6fa06;
   --tertiary-clr: #25242A;
+  --tertiary-clr-second: #ff0000;
   --all-transitions: all linear .3s;
 }
 
@@ -107,7 +112,7 @@ html {
   font-size: .6em;
 } */
 
-.hero-sec-info>div:nth-child(4) {
+.hero-sec-info>.section-4 {
   font-size: .4em;
   border: 1px outset var(--line-clr);
   border-left: none;
@@ -156,8 +161,7 @@ html {
 .what-you-learn-info-list-container {
   display: inline-block;
   width: 100%;
-  padding-left: 1em;
-  padding-top: .5em;
+  padding: .5em 0 .7em 1em;
 }
 
 .highlighter {
@@ -381,15 +385,48 @@ html {
 
 .module-section-wrapper {
   text-align: center;
-  margin: 1em auto;
+  margin: .5em auto;
   width: 90%;
   font-size: 4em;
 }
 
+.program-section-wrapper {
+  text-align: center;
+}
+
 .module-title {
-  font-size: .75em;
-  font-family: var(--font-family-sec);
+  font-size: .5em;
+  /* font-family: var(--font-family-sec); */
   font-weight: 600;
+}
+
+.module-text-box {
+  font-size: .5em;
+  text-align: left;
+  margin-top: .5em;
+}
+
+.module-text-box h1 {
+  font-size: .7em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.module-text-box p {
+  font-size: .65em;
+}
+
+.module-text-box__list-box {
+  list-style-type: decimal;
+  font-size: .65em;
+  padding-left: .7em;
+}
+
+.module-text-box__list-box-inner-box {
+  list-style-type: disc;
+  font-size: 1em;
+  padding-left: .7em;
+  margin-bottom: .5em;
 }
 
 .module-row {
@@ -479,6 +516,10 @@ html {
     font-size: 3em;
   }
 
+  .application-form-title {
+    font-size: 0.35em;
+  }
+
   .module-section-wrapper {
     font-size: 3em;
   }
@@ -520,6 +561,7 @@ html {
 
   .footer-section-wrapper {
     font-size: 3em;
+
   }
 
   @keyframes scrolling {

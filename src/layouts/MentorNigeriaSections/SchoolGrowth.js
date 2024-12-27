@@ -38,7 +38,7 @@ const SchoolGrowth = () => {
                     </div>
                     <div className='contact-body big-screen-contact'>
                         <h3 className='deep-purple bold'>For more inquiries, call:</h3>
-                        <p className='bold'><a href='tel:07030148694'>07030148694;</a><a href='tel:07044086794'>07044086794;</a><a href='tel:09137819540'>09137819540</a></p>
+                        <p className='bold'><a href='tel:07030148694'>07030148694;</a><a href='tel:09137819540'>09137819540</a></p>
                     </div>
 
                     <div className='interest-form-body'>

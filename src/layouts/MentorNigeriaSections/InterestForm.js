@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './interestForm.css'
+import './interestForm.css';
 
 const InterestForm = ({ name }) => {
     
@@ -76,9 +76,9 @@ const InterestForm = ({ name }) => {
     return (
       <div>
           <div id='application-form-section'>
-              <div className='application-form-title'>Complete the Interest Form Below:</div>
+              <div className='interest-application-form-title'>Complete the Interest Form Below:</div>
               <div>
-                  <form id='application-form' onSubmit={handleSubmit}>
+                  <form id='interest-form' onSubmit={handleSubmit}>
                       <div className='form-row-main'>
                           <div className='form-row'>
                               <label htmlFor='fullName' className='input-labels'>Full Name:</label>
@@ -157,11 +157,11 @@ const InterestForm = ({ name }) => {
                       {/* <div className='form-info-box' ref={infoCate}> */}
 
                       {loading && (
-                        <div className='form-info-box'>Processing ... Please wait</div>
+                        <div className='interest-form-info-box'>Processing ... Please wait</div>
                       )}
                          
                       <div>
-                          <button type='submit' className='submit-btn'>Submit</button>
+                          <button type='submit' className='interest-submit-btn'>Submit</button>
                       </div>
   
                   </form>
