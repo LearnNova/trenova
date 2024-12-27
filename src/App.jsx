@@ -53,7 +53,7 @@ const App = () => {
         } /> 
 
         <Route 
-          path="schoolgrowthsystem" 
+          path="schoolgrowthsystem/:name" 
           element={
             <>
             <PageTitle title="School Growth System" />
