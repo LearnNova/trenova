@@ -15,8 +15,6 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='apply-now-get-started'><a href='' onClick={NavigateForm}> <span className='highlighter'>Apply Now</span> to Enroll!</a> </div>
-            
             <div className='module-title'>Syallabus:</div>
             <div className='module-row'>
                 <div className='module-info'>
@@ -202,7 +200,7 @@ const ModuleSection = () => {
                 <p>Hybrid Learning: Online and Real-life Virtual sessions.</p>
             </div>
 
-            <div className='apply-now-get-started'><a href='' onClick={NavigateForm}> <span className='highlighter'>Apply Now</span> to Enroll!</a> </div>
+            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Enroll!</a> </div>
 
         </div>
     </div>
