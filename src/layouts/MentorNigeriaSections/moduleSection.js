@@ -183,7 +183,7 @@ const ModuleSection = () => {
             <div className='module-text-box'>
                 <h1 className='highlighter'>Assessment and Certification:</h1>
                 <ul className='module-text-box__list-box'>
-                    <li>
+                    <li style={{listStyleType: 'none'}}>
                         <b>Participants will be assessed through:</b>
                         <ul className='module-text-box__list-box-inner-box'>
                             <li>Quizzes and assignments.</li>
@@ -200,7 +200,7 @@ const ModuleSection = () => {
                 <p>Hybrid Learning: Online and Real-life Virtual sessions.</p>
             </div>
 
-            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Enroll!</a> </div>
+            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
 
         </div>
     </div>

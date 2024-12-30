@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className='hero-sec-text'>EARN WHILE YOU LEARN!</div>
         </div>
         <div className='hero-sec-info'>
-            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Enroll!</a> </div>
+            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
             {/* <div className='line-breaker'></div> */}
             {/* <div className='section-3'>
                 <span>“…</span>
@@ -53,7 +53,7 @@ const HeroSection = () => {
                 </span>
             </div>
             
-            <div className='apply-now-link-2' onClick={NavigateForm}>Apply Now to get started!</div>
+            <div className='apply-now-link-2' onClick={NavigateForm}>Apply Now to Get Started!</div>
 
         </div>
         

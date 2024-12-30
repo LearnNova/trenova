@@ -486,20 +486,30 @@ html {
 }
 
 .footer-section-wrapper {
-  display: flex;
-  justify-content: space-between;
   background-color: var(--marker-clr);
   color: var(--secondary-clr);
   padding: 1.2rem 8%;
   font-size: 4em;
-  gap: .2em;
 }
+
+.footer-section-wrapper>div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  gap: .2em;
+  font-size: .3em;
+}
+
+.footer-section-wrapper>div:nth-child(2) {
+  font-size: .3em;
+}
+
 
 .f-section-col {
   display: flex;
   flex-direction: column;
-  font-size: .3em;
+  font-size: 1em;
   gap: .5em;
+  max-width: 500px;
 }
 
 .phone {
