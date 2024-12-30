@@ -70,6 +70,8 @@ const programSection = () => {
                 </li>
             </ul>
         </div>
+
+        <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Enroll!</a> </div>
         <div className='line-breaker'></div>
     </div>
   )
