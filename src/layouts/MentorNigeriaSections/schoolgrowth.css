@@ -88,6 +88,10 @@ html, body {
   padding: 0.8em 2%;
 }
 
+.title-container .second-text {
+  display: inline-block;
+}
+
 .title-logo-body {
   align-self: stretch;
   max-width: 80px;
@@ -264,6 +268,7 @@ html, body {
     }
 
     .title-container .second-text {
+      display: block;
       text-align: center;
     }
 
