@@ -263,6 +263,10 @@ html, body {
         font-size: .9em;
     }
 
+    .title-container .second-text {
+      text-align: center;
+    }
+
     .price-body {
         font-size: 2.1em;
         margin-left: 0.15em;
@@ -274,108 +278,3 @@ html, body {
         margin-left: 0;
     }
 }
-
-/* @media screen and (max-width: 1000px) {
-  .main-section {
-    flex: 4;
-  }
-
-  .secondary-section {
-    flex: 1;
-    font-size: 1.55em;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .school-growth-section {
-    font-size: 0.95rem;
-  }
-
-  .main-section {
-    margin: 1.5em 2% 0 2%;
-  }
-
-  .secondary-section {
-    font-size: 1.4em;
-  }
-
-  .address-body {
-    font-size: 0.95em;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .break-line {
-    display: inline-block;
-  }
-
-  .title-container {
-    font-size: 0.8em;
-  }
-
-  .text-body-container {
-    padding: 0 .5em;
-  }
-
-  .title-container h1 {
-    padding-right: 0;
-  }
-
-  .title-logo-body {
-    display: flex;
-  }
-
-  .main-section {
-    flex: unset;
-    width: 100%;
-    margin: 0;
-  }
-
-  .secondary-section {
-    display: none;
-  }
-
-  .school-growth-section {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .school-growth-section {
-    font-size: 1rem;
-    flex-direction: column;
-  }
-
-  .main-section {
-    margin: 1em 3%;
-  }
-
-  .title-container h1 {
-    font-size: 1.55em;
-  }
-
-  .text-body ul {
-    font-size: 1.2em;
-  }
-
-  .price-body .title {
-    font-size: 1.4em;
-  }
-
-  .price-body .amount {
-    font-size: 1.3em;
-  }
-
-  .note-body {
-    font-size: 1.2em;
-  }
-
-  .contact-body {
-    font-size: 1.2em;
-  }
-
-  .contact-body a {
-    display: block;
-    margin: 0.3em 0;
-  }
-} */
