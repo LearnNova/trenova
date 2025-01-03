@@ -85,11 +85,11 @@ const CareerHeroSection2 = () => {
 
                  <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦130,000</b></span> per month.</li>
-                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦135,000</b></span> monthly by hitting key sales milestones:
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦145,000</b></span> per month.</li>
+                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦120,000</b></span> monthly by hitting key sales milestones:
                         <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                            <li><span className='highlighter-big'><b>₦50,000</b></span> for achieving <span className='highlighter-big'><b>11 sales</b></span> in a month.</li>
-                            <li><span className='highlighter-big'><b>₦45,000</b></span> for enrolling <span className='highlighter-big'><b>14 customers</b></span> in a month.</li>
+                            <li><span className='highlighter-big'><b>₦40,000</b></span> for achieving <span className='highlighter-big'><b>12 sales</b></span> in a month.</li>
+                            <li><span className='highlighter-big'><b>₦40,000</b></span> for enrolling <span className='highlighter-big'><b>14 customers</b></span> in a month.</li>
                             <li><span className='highlighter-big'><b>₦40,000</b></span> for reaching <span className='highlighter-big'><b>17 customer</b></span> sales in a month.</li>
                         </ul>
                         </li>
@@ -98,7 +98,7 @@ const CareerHeroSection2 = () => {
                     <div>
                         <span className='paragraph-title'>Important Note:</span>
                         <p>
-                            In the event that your monthly sales fall below <span className='highlighter-big'><b>8 unit</b></span> or <span className='highlighter-big'><b>₦790,000</b></span>, the 
+                            In the event that your monthly sales fall below <span className='highlighter-big'><b>9 unit</b></span> or <span className='highlighter-big'><b>₦890,000</b></span>, the 
                             base salary will be temporarily suspended. In this case, total compensation will be 
                             limited at <span className='highlighter-big'><b>15.5%</b></span> of the monthly 
                             sales revenue.

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { NavigateForm } from 'utils/navigateForm'
+// import { NavigateForm } from 'utils/navigateForm'
 import './mentornigeria.css'
 
 const ModuleSection = () => {
@@ -169,9 +169,10 @@ const ModuleSection = () => {
                 </div> */}
             </div>
 
-            <div id='apply-btn-1'>
+            {/* <div id='apply-btn-1'>
                 <div><button className='submit-btn' id='apply-btn' onClick={NavigateForm}>Apply Now</button></div>
-            </div>
+            </div> */}
+            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
             
             <div className='line-breaker'></div>
             
