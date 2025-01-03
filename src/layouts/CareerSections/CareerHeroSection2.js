@@ -85,11 +85,11 @@ const CareerHeroSection2 = () => {
 
                  <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦145,000</b></span> per month.</li>
-                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦120,000</b></span> monthly by hitting key sales milestones:
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦150,000</b></span> per month.</li>
+                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦135,000</b></span> monthly by hitting key sales milestones:
                         <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                            <li><span className='highlighter-big'><b>₦40,000</b></span> for achieving <span className='highlighter-big'><b>12 sales</b></span> in a month.</li>
-                            <li><span className='highlighter-big'><b>₦40,000</b></span> for enrolling <span className='highlighter-big'><b>14 customers</b></span> in a month.</li>
+                            <li><span className='highlighter-big'><b>₦50,000</b></span> for achieving <span className='highlighter-big'><b>12 sales</b></span> in a month.</li>
+                            <li><span className='highlighter-big'><b>₦45,000</b></span> for enrolling <span className='highlighter-big'><b>14 customers</b></span> in a month.</li>
                             <li><span className='highlighter-big'><b>₦40,000</b></span> for reaching <span className='highlighter-big'><b>17 customer</b></span> sales in a month.</li>
                         </ul>
                         </li>
