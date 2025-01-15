@@ -64,35 +64,34 @@ const ModuleSection = () => {
                     <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
                         <li>Be a Freelance Ad Creative.</li>
                         <li>Offer Freelance Event Planning Services.</li>
-                        <li>ChatGPT-Powered App.</li>
-                        <li>Development.</li>
+                        <li>ChatGPT-Powered App Development.</li>
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4A:</span> Digital Marketing</h3>
-                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
-                    <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
+                        <h3><span className='highlighter'>Module 4:</span> Entrepreneurship and Business Skills</h3>
+                        {/* <p>- Learning Points: Forty-five (45) points</p> */}
+                        <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
 
-                    <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
-                        <li>Introduction to Digital Marketing.</li>
-                        <li>Social Media Marketing (Facebook, Instagram, LinkedIn).</li>
-                        <li>Search Engine Optimization (SEO).</li>
-                        <li>Content Marketing and Blogging.</li>
-                        <li>Email Marketing Strategies.</li>
-                        <li>Analytics and Performance Tracking.</li>
-                    </ul>
+                        <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
+                            <li>Ideation, Business Model Design and Business Planning.</li>
+                            <li>Financial Literacy and Budgeting.</li>
+                            <li>Market Research and Competitor Analysis.</li>
+                            <li>Business Registration and Legal Compliance.</li>
+                            <li>Fundraising and Pitching to Investors.</li>
+                        </ul>
 
-                    <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
+                        <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
                 </div>
+
             </div>
             
             <div className='module-row'>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4B:</span> Web & App Development</h3>
+                    <h3><span className='highlighter'>Module 5A:</span> Web & App Development</h3>
                     {/* <p>- Learning Points: Forty-five (45) points</p> */}
                     <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
 
@@ -114,19 +113,20 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 5:</span> Entrepreneurship and Business Skills</h3>
-                        {/* <p>- Learning Points: Forty-five (45) points</p> */}
-                        <p className={`three-dot ${modulecollapse6? "three-dot-gone":""}`}>...</p>
+                    <h3><span className='highlighter'>Module 5B:</span> Digital Marketing</h3>
+                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
+                    <p className={`three-dot ${modulecollapse6? "three-dot-gone":""}`}>...</p>
 
-                        <ul className={`long-text ${modulecollapse6? "extended": ""}`}>
-                            <li>Ideation, Business Model Design and Business Planning.</li>
-                            <li>Financial Literacy and Budgeting.</li>
-                            <li>Market Research and Competitor Analysis.</li>
-                            <li>Business Registration and Legal Compliance.</li>
-                            <li>Fundraising and Pitching to Investors.</li>
-                        </ul>
+                    <ul className={`long-text ${modulecollapse6? "extended": ""}`}>
+                        <li>Introduction to Digital Marketing.</li>
+                        <li>Social Media Marketing (Facebook, Instagram, LinkedIn).</li>
+                        <li>Search Engine Optimization (SEO).</li>
+                        <li>Content Marketing and Blogging.</li>
+                        <li>Email Marketing Strategies.</li>
+                        <li>Analytics and Performance Tracking.</li>
+                    </ul>
 
-                        <button className='read-more-btn' onClick={() => setModuleCollapse6((prev) =>  !prev)}>{`${modulecollapse6? 'Read Less': 'Read More...'}`}</button>
+                    <button className='read-more-btn' onClick={() => setModuleCollapse6((prev) =>  !prev)}>{`${modulecollapse6? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
             </div>
