@@ -3,10 +3,13 @@ import { useGetCourseDetailsQuery } from "../../../redux/api/CoursesApiSlice";
 import { toast } from "react-hot-toast";
 import Loader from "components/Loader";
 import { useParams } from "react-router-dom";
-
+import { Document, Page } from "react-pdf";
+import "react-pdf/dist/Page/TextLayer.css";
 const ViewCourse = () => {
   const params = useParams();
   const [expandedWeeks, setExpandedWeeks] = useState([]);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
   const {
     data: courseData,
     isLoading,
@@ -21,6 +24,15 @@ const ViewCourse = () => {
     }
   };
 
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
+
+  const goToPrevPage = () =>
+    setPageNumber(pageNumber - 1 <= 1 ? 1 : pageNumber - 1);
+
+  const goToNextPage = () =>
+    setPageNumber(pageNumber + 1 >= numPages ? numPages : pageNumber + 1);
   if (isLoading) {
     return <Loader />;
   }
@@ -39,7 +51,7 @@ const ViewCourse = () => {
             className="mb-2 cursor-pointer text-xl font-semibold"
             onClick={() => toggleWeek(week._id)}
           >
-            Week {week.week}
+            {week.week}
           </h2>
           {expandedWeeks.includes(week._id) && (
             <>
@@ -53,12 +65,45 @@ const ViewCourse = () => {
                       {lesson.number}: {lesson.title}
                     </h3>
                     {lesson.content.endsWith(".pdf") ? (
-                      <embed
-                        src={lesson.content}
-                        type="application/pdf"
-                        width="250px"
-                        height="200px"
-                      />
+                      // <embed
+                      //   src={lesson.content}
+                      //   type="application/pdf"
+                      //   width="250px"
+                      //   height="200px"
+                      // />
+                      <div>
+                        {/* <PDFViewer
+                          document={{
+                            url: lesson.content,
+                          }}
+                        /> */}
+                        <div className="h-[200px] w-[250px]">
+                          <nav>
+                            <button
+                              onClick={goToPrevPage}
+                              className="mr-4 text-mediumspringgreen-100"
+                            >
+                              Prev
+                            </button>
+                            <button
+                              onClick={goToNextPage}
+                              className="text-mediumspringgreen-100"
+                            >
+                              Next
+                            </button>
+                            <p>
+                              Page {pageNumber} of {numPages}
+                            </p>
+                          </nav>
+
+                          <Document
+                            file={lesson.content}
+                            onLoadSuccess={onDocumentLoadSuccess}
+                          >
+                            <Page pageNumber={pageNumber} />
+                          </Document>
+                        </div>
+                      </div>
                     ) : (
                       <video
                         controls

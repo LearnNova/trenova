@@ -31,12 +31,12 @@ const CourseForm = () => {
     content: [],
   });
   useEffect(() => {
-    const firstWeekName = prompt("Enter the name for the first week:");
+    const firstWeekName = prompt("Enter the Topic");
     if (firstWeekName) {
       setCourseData({
         content: [
           {
-            week: `Week 1: ${firstWeekName}`,
+            week: `${firstWeekName}`,
             lessons: [{ number: "", title: "", content: "" }],
             questions: [{ text: "", options: ["", ""], correctOption: 0 }],
           },
@@ -63,7 +63,7 @@ const CourseForm = () => {
     "SSS 3",
   ];
 
-  const termOptions = ["1", "2", "3"];
+  const termOptions = ["1", "2", "3", "4", "5"];
   const [courseCreate, { isLoading }] = useCreateCourseMutation();
   const handleInputChange = (
     index,
@@ -111,24 +111,9 @@ const CourseForm = () => {
     setCourseData({ ...courseData, content: newData });
   };
 
-  // const handleAddWeek = () => {
-  //   setCourseData((prevState) => ({
-  //     ...prevState,
-  //     content: [
-  //       ...prevState.content,
-  //       {
-  //         week: prevState.content.length + 1,
-
-  //         lessons: [{ number: "", title: "", content: "" }],
-  //         questions: [{ text: "", options: ["", ""], correctOption: 0 }],
-  //       },
-  //     ],
-  //   }));
-  // };
-
   const handleAddWeek = () => {
     const weekNumber = courseData.content.length + 1;
-    const weekName = prompt("Enter the name for the new week:");
+    const weekName = prompt("Enter the new Topic:");
 
     if (weekName) {
       setCourseData((prevState) => ({
@@ -136,7 +121,7 @@ const CourseForm = () => {
         content: [
           ...prevState.content,
           {
-            week: `${weekNumber}: ${weekName}`,
+            week: ` ${weekName}`,
             lessons: [{ number: "", title: "", content: "" }],
             questions: [{ text: "", options: ["", ""], correctOption: 0 }],
           },
@@ -430,7 +415,7 @@ const CourseForm = () => {
               className="mb-2 cursor-pointer text-lg font-bold"
               onClick={() => handleToggleWeek(index)}
             >
-              Week {week.week}
+              {week.week}
             </h3>
             {expandedWeeks[index] && (
               <>
@@ -671,7 +656,7 @@ const CourseForm = () => {
               onClick={() => handleRemoveWeek(index)}
               className="text-sm text-red-600"
             >
-              Remove Week
+              Remove Topic
             </button>
           </div>
         ))}
@@ -680,7 +665,7 @@ const CourseForm = () => {
           onClick={handleAddWeek}
           className="mt-4 mr-2 rounded bg-gold py-2 px-4 font-semibold text-white hover:bg-gold"
         >
-          Add Week
+          Add Topic
         </button>{" "}
         <button
           type="button"

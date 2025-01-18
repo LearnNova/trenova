@@ -1,13 +1,14 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
-import RtlLayout from "layouts/rtl";
 import AdminLayout from "layouts/admin";
 import AuthLayout from "layouts/auth";
 // import Home from "views/home/Home";
 import Landing from "views/home/Landing";
 import PrivateRoute from "components/PrivateRoute";
 import MentorNigeriaPage from "layouts/MentorNigeriaPage";
+import { pdfjs } from "react-pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 const App = () => {
   return (
     <Routes>

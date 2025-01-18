@@ -12,12 +12,14 @@ function InputField(props) {
     variant,
     state,
     disabled,
-
+    valueAsDate,
     register, // Add register prop
   } = props;
 
   // Conditionally register the input field if the register prop is available
-  const inputProps = register ? { ...register(id) } : {};
+  const inputProps = register
+    ? { ...register(id, valueAsDate ? { valueAsDate: true } : "") }
+    : {};
 
   return (
     <div className={`${extra}`}>
