@@ -25,9 +25,9 @@ const HeroSection = () => {
                 </span>
                 <span className='hero-sec-info-list-container'>
                     <ul>
-                        <li>A chance to win up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>₦2 Million</b></span> in grants</li>
                         <li>Valuable knowledge and mentorship to fast-track your success</li>
                         <li>Opportunities to secure full-time employment with one of our partners during your time at the Academy</li>
+                        <li>A chance to win up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>₦2 Million</b></span> in grants</li>
                     </ul>
                 </span>
                 
