@@ -9,6 +9,7 @@ import PrivateRoute from "components/PrivateRoute";
 import MentorNigeriaPage from "pages/MentorNigeriaPage";
 import CareerPageTSR from "pages/CareerPageTSR";
 import CareerPageSO from "pages/CareerPageSO";
+import CareerPageSM from "pages/CareerPageSM";
 import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
 import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
@@ -40,6 +41,14 @@ const App = () => {
           <>
           <PageTitle title="Career - Sales Officer" />
           <CareerPageSO />
+          </>
+        } />
+        <Route 
+        path="career/sales_media_marketer" 
+        element={
+          <>
+          <PageTitle title="Career - Social Media Marketer" />
+          <CareerPageSM />
           </>
         } />
 
