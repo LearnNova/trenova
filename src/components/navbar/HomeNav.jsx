@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useNavigate } from "react-router-dom";
@@ -37,6 +37,10 @@ const navigation = [
         name: 'Sales Officer',
         href: '/career/sales_officer',
       },
+      career3: {
+        name: 'Social Media Marketer',
+        href: '/career/sales_media_marketer',
+      },
     },
   },
 ];
@@ -50,6 +54,7 @@ export default function HomeNav() {
   const navigate = useNavigate();
   const [logOutApi] = useLogoutMutation();
   const { userInfo } = useSelector((state) => state.auth);
+  const [showDropDown, setShowDropDown] = useState(false);
 
   const logoutHandler = () => {
     try {
@@ -103,14 +108,39 @@ export default function HomeNav() {
                               )}
                               aria-current={item.current ? "page" : undefined}
                             >
-                              {item.name}
+                              {item.name}▾
                             </Link>
                           }
                           children={
                             <div className="flex w-56 flex-col justify-start rounded-[5px] bg-white bg-cover bg-no-repeat shadow-xl shadow-shadow-500 dark:!bg-navy-700 dark:text-white dark:shadow-none">
 
                               <div className="flex flex-col py-2">
-                                <Link
+                              {Object.keys(item.children).map((key) => (
+                                <>
+                                  <Link
+                                  key={item.children[key].name}
+                                  to={item.children[key].href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                  >
+                                    {item.children[key].name}
+                                  </Link>
+
+                                  <div className="h-px w-full my-1 bg-gray-200 dark:bg-white/20 " />
+                                </>
+                                // <Disclosure.Button
+                                //   key={item.children[key].name}
+                                //   as="a"
+                                //   href={item.children[key].href}
+                                //   className={classNames(
+                                //     item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                                //     "text-base block rounded-md px-3 py-2 font-medium"
+                                //   )}
+                                //   aria-current={item.current ? "page" : undefined}
+                                // >
+                                //   {item.children[key].name}
+                                // </Disclosure.Button>
+                              ))}
+                                {/* <Link
                                   to={item.children.career1.href}
                                   className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
                                 >
@@ -125,6 +155,13 @@ export default function HomeNav() {
                                 >
                                   {item.children.career2.name}
                                 </Link>
+
+                                <Link
+                                  to={item.children.career3.href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                >
+                                  {item.children.career3.name}
+                                </Link> */}
                               </div>
                             </div>
                           }
@@ -226,34 +263,50 @@ export default function HomeNav() {
               {navigation.map((item) => (
                 item.children ? (
                   <>
-                    {Object.keys(item.children).map((key) => (
-                      <Disclosure.Button
-                        key={item.children[key].name}
-                        as="a"
-                        href={item.children[key].href}
-                        className={classNames(
-                          item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "text-base block rounded-md px-3 py-2 font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.children[key].name}
-                      </Disclosure.Button>
-                    ))}
+                    <div
+                      key={item.name}
+                      className={classNames(
+                        item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "text-base block rounded-md px-3 py-2 font-medium"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                      onClick={()=> {setShowDropDown(!showDropDown)}}
+                    >
+                      {item.name}▾
+                    </div>
+
+                    {showDropDown && (
+                      Object.keys(item.children).map((key) => (
+                        <Disclosure.Button
+                          key={item.children[key].name}
+                          as="a"
+                          href={item.children[key].href}
+                          className={classNames(
+                            item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            "text-base block rounded-md px-3 py-2 font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.children[key].name}
+                        </Disclosure.Button>
+                      ))
+                    )}
+                    
+                    
                   </>
                 ) : (
-                  <Disclosure.Button
-                    key={item.name}
-                    as="a"
-                    href={item.href}
-                    className={classNames(
-                      item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "text-base block rounded-md px-3 py-2 font-medium"
-                    )}
-                    aria-current={item.current ? "page" : undefined}
-                  >
-                    {item.name}
-                  </Disclosure.Button>
+                    <Disclosure.Button
+                      key={item.name}
+                      as="a"
+                      href={item.href}
+                      className={classNames(
+                        item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "text-base block rounded-md px-3 py-2 font-medium"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                    >
+                      {item.name}
+                    </Disclosure.Button>
                 )
               ))}
             </div>

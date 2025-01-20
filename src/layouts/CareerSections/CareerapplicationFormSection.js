@@ -1,7 +1,10 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import './career.css'
 
 const CareerApplicationFormSection = ({ role }) => {
+
+    const locationInput = useRef(null);
+    const infoCate = useRef(null);
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -14,7 +17,14 @@ const CareerApplicationFormSection = ({ role }) => {
     const [hear, setHear] = useState(role);
     const [consent, setConsent] = useState(true);
 
-    const infoCate = useRef(null);
+    useEffect(() =>{
+        if (role === 'DIRECT APPLICANT - SOCIAL MEDIA MARKETER') {
+            setLocation('Nigeria');
+            locationInput.current.disabled = true;
+
+        }
+    }, []);
+
 
 
     const resetInput = () => {
@@ -180,6 +190,7 @@ const CareerApplicationFormSection = ({ role }) => {
                                 type='text'
                                 id='location'
                                 name='location'
+                                ref={locationInput || null}
                                 placeholder='i.e City, Local Government and State'
                                 required
                                 className='form-control'
