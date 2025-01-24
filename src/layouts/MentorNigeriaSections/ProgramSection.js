@@ -59,8 +59,8 @@ const programSection = () => {
                     <div>To qualify for the Business Grant Award and the consolation prize draw, participants must:</div>
                     <ul className='module-text-box__list-box-inner-box' style={{listStyleType: 'decimal'}}>
                         <li>Refer a minimum of ten customers to LearnNova Learning Support Service.</li>
-                        <li>Demonstrate a scalable and sustainable business model.</li>
-
+                        <li style={{paddingLeft: '0.1em'}}>Demonstrate a scalable and sustainable business model.</li>
+                        <br />
                         <div><b>The Grant Awards:</b></div>
                         <ul className='module-text-box__list-box-inner-box'>
                             <li><b>Gold Award:</b> ₦500,000 - ₦1,000,000</li>
