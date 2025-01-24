@@ -27,7 +27,7 @@ const HeroSection = () => {
                     <ul>
                         <li>Valuable knowledge and mentorship to fast-track your success</li>
                         <li>Opportunities to secure full-time employment with one of our partners during your time at the Academy</li>
-                        <li>A chance to win up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>₦2 Million</b></span> in grants</li>
+                        <li>A chance to win up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>₦1 Million</b></span> in grants</li>
                     </ul>
                 </span>
                 
@@ -43,9 +43,9 @@ const HeroSection = () => {
                 </span>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
+                        <li><span className='highlighter'>BUILD</span> a profitable startup business from the ground up</li>
                         <li><span className='highlighter'>SECURE</span> high-paying jobs in Nigeria’s thriving economy</li>
                         <li><span className='highlighter'>OFFER</span> virtual professional services to organizations in Canada, the US, and Europe</li>
-                        <li><span className='highlighter'>BUILD</span> a profitable startup business from the ground up</li>
                     </ul>
                 </span> 
                 <span>

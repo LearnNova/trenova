@@ -8,7 +8,7 @@ const programSection = () => {
 
         <div className='module-text-box'>
             <h1 className='highlighter'>Program Overview:</h1>
-            <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to earn stipends during training and access grants for business takeoff.</p>
+            <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to access grants for business takeoff.</p>
         </div>
         <div className='line-breaker'></div>
         <div className='module-text-box'>
@@ -16,7 +16,7 @@ const programSection = () => {
             <ul className='module-text-box__list-box'>
                 <li>Equip participants with life skills, financial literacy and technical knowledge in high-demand fields.</li>
                 <li>Provide mentorship and coaching to foster professional and entrepreneurial growth.</li>
-                <li>Offer financial support through stipends and business takeoff grants.</li>
+                <li>Offer financial support through business takeoff grant award.</li>
                 <li>Empower youths to create sustainable income streams and businesses.</li>
             </ul>
         </div>
@@ -36,8 +36,8 @@ const programSection = () => {
                     <b>Training Modules</b>
                     <ul className='module-text-box__list-box-inner-box'>
                         <li>Life Skills Development (e.g., communication, teamwork and problem-solving).</li>
-                        <li>Technical Skills Training (e.g., digital marketing, web & app development, sales & telemarketing).</li>
                         <li>Entrepreneurship, Business Startup Development and Financial Literacy Skills.</li>
+                        <li>Technical Skills Training (e.g. Virtual Assistance Skills, AI Money-Making Ideas , Sales & Telemarketing Skills).</li>
                     </ul>
                 </li>
                 <li>
@@ -51,14 +51,24 @@ const programSection = () => {
                     <b>Earn-While-You-Learn Activities</b>
                     <ul className='module-text-box__list-box-inner-box'>
                         <li>Opportunities to apply skills in real-world projects.</li>
-                        <li>Stipends for completed tasks/projects.</li>
+                        <li>Business take-off grant award.</li>
                     </ul>
                 </li>
                 <li>
-                    <b>Business Takeoff Support</b>
-                    <ul className='module-text-box__list-box-inner-box'>
-                        <li>Guidance on business registration and legal compliance.</li>
-                        <li>Access to business takeoff grants.</li>
+                    <b>Business Grant Award</b>
+                    <div>To qualify for the Business Grant Award and the consolation prize draw, participants must:</div>
+                    <ul className='module-text-box__list-box-inner-box' style={{listStyleType: 'decimal'}}>
+                        <li>Refer a minimum of ten customers to LearnNova Learning Support Service.</li>
+                        <li>Demonstrate a scalable and sustainable business model.</li>
+
+                        <div><b>The Grant Awards:</b></div>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            <li><b>Gold Award:</b> ₦500,000 - ₦1,000,000</li>
+                            <li><b>Silver Award:</b> ₦250,000 - ₦500,000</li>
+                            <li><b>Bronze Award:</b> ₦100,000 - ₦250,000</li>
+                            <li><b>Consolation Prizes:</b> ₦50,000</li>
+                            <li><b>Employment Opportunity:</b> Exceptional participants may receive an employment offer based on their performance.</li>
+                        </ul>
                     </ul>
                 </li>
                 <li>
