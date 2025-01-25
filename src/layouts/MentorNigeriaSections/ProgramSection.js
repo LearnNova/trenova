@@ -55,12 +55,14 @@ const programSection = () => {
                     </ul>
                 </li>
                 <li>
-                    <b>Business Grant Award</b>
-                    <div>To qualify for the Business Grant Award and the consolation prize draw, participants must:</div>
-                    <ul className='module-text-box__list-box-inner-box' style={{listStyleType: 'decimal'}}>
-                        <li>Refer a minimum of ten customers to LearnNova Learning Support Service.</li>
-                        <li style={{marginLeft: '0.2em'}}>Demonstrate a scalable and sustainable business model.</li>
-                        <br />
+                    <b>Business Grant Award Eligibility</b>
+                    <div>To be eligible for the Business Grant Award Prize Draw, participants must:</div>
+                    <ul className='module-text-box__list-box-inner-box'>
+                        <li>Refer the required number of customers to the LearnNova Learning Support Service for successful training completion.</li>
+                        <li>Exhibit outstanding performance throughout the training program and the Grant Award Project.</li>
+                        <li>Develop and present a scalable and sustainable business model.</li>
+                        {/* <li style={{marginLeft: '0.2em'}}>Demonstrate a scalable and sustainable business model.</li> */}
+                        {/* <br />
                         <div><b>The Grant Awards:</b></div>
                         <ul className='module-text-box__list-box-inner-box'>
                             <li><b>Gold Award:</b> ₦500,000 - ₦1,000,000</li>
@@ -68,7 +70,7 @@ const programSection = () => {
                             <li><b>Bronze Award:</b> ₦100,000 - ₦250,000</li>
                             <li><b>Consolation Prizes:</b> ₦50,000</li>
                             <li><b>Employment Opportunity:</b> Exceptional participants may receive an employment offer based on their performance.</li>
-                        </ul>
+                        </ul> */}
                     </ul>
                 </li>
                 <li>
