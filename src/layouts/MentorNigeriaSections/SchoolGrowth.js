@@ -69,17 +69,18 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        <div className='contact-section' style={{textAlign: 'center'}}>
+        <div className='contact-section'>
+            
+            <div className='contact-body'>
+                <h3 className='deep-purple bold'>For more inquiries, call:</h3>
+                <p className='bold'><a href='tel:07044086794'>0704 408 6794</a><a href='tel:09137819540'>0913 781 9540</a><a href='tel:08179361381'>Whatsapp (0704 408 6794)</a></p>
+            </div>
+
             <div className='contact-body' id='account-details'>
                 <h3 className='deep-purple bold'>Account Details:</h3>
                 <p>Account Name: <span className='bold'>Trenova Ltd</span></p>
                 <p>Account Number: <span className='bold'>1015524196</span></p>
                 <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
-            </div>
-
-            <div className='contact-body'>
-                <h3 className='deep-purple bold'>For more inquiries, call:</h3>
-                <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (07044086794)</a></p>
             </div>
 
         </div>
