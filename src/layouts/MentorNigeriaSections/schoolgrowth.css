@@ -154,10 +154,16 @@ html, body {
     border-radius: 3px;
 }
 
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .8em;
+}
+
 .contact-body {
   margin-top: 1em;
   font-size: 1.4em;
-  display: inline-block;
 }
 
 .contact-body a {
@@ -246,13 +252,13 @@ html, body {
         padding: .5em 0;
     }
 
-    .contact-body {
-      display: block;
+    .contact-section {
+      flex-direction: column;
     }
 
     .contact-body a {
         margin: 0;
-        display: block;
+        /* display: block; */
     }
 
     .big-screen-contact {
