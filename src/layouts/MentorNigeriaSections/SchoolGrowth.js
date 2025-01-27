@@ -34,21 +34,14 @@ const SchoolGrowth = () => {
                         Schools that subscribe & pay before the end of <span className='deep-purple'>PROMO</span> will get it for <span className='deep-purple'>₦99,999 per term</span> - save 33.33% !
                     </div>
                     <div className='note-body'>
-                        Schools making a payment now will receive access to <span className='bold'>45 mobile apps</span> immediately, with the desktop app becoming available in <span className='bold'>early March 2025</span>.
+                        Schools that make a payment now will gain immediate access to <span className='bold'>45 mobile apps</span>, with the desktop app becoming available by the end of <span className='bold'>February 2025</span>.
                     </div>
                     <div className='interest-body'>
                         <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
                     </div>
-                    {/* <div className='contact-body big-screen-contact'>
-                        <h3 className='deep-purple bold'>Account Details:</h3>
-                        <p>Account Name: <span className='bold'>Trenova LTD</span></p>
-                        <p>Account Number: <span className='bold'>1015524196</span></p>
-                        <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
+                    <div className='interest-body' style={{marginTop: '0.2em'}}>
+                        <a className='bold' href='#account-details' style={{color: '#ff0000'}}>Ready to make payment? Get our Account Details below</a>
                     </div>
-                    <div className='contact-body big-screen-contact'>
-                        <h3 className='deep-purple bold'>For more inquiries, call:</h3>
-                        <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (08179361381)</a></p>
-                    </div> */}
 
                     <div className='interest-form-body'>
 
@@ -76,16 +69,16 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        <div className='contact-body' style={{paddingLeft: '.8em'}}>
+        <div className='contact-body' style={{paddingLeft: '.8em'}} id='account-details'>
             <h3 className='deep-purple bold'>Account Details:</h3>
-            <p>Account Name: <span className='bold'>Trenova LTD</span></p>
+            <p>Account Name: <span className='bold'>Trenova Ltd</span></p>
             <p>Account Number: <span className='bold'>1015524196</span></p>
             <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
         </div>
 
         <div className='contact-body' style={{paddingLeft: '.8em'}}>
             <h3 className='deep-purple bold'>For more inquiries, call:</h3>
-            <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (08179361381)</a></p>
+            <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (07044086794)</a></p>
         </div>
     </section>
     
