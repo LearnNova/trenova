@@ -158,7 +158,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 .8em;
+  padding: 0 1em;
 }
 
 .contact-body {
@@ -254,6 +254,7 @@ html, body {
 
     .contact-section {
       flex-direction: column;
+      padding: 0 .6em;
     }
 
     .contact-body a {
