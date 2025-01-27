@@ -30,8 +30,8 @@ const SchoolGrowth = () => {
                         <span className='title'>Subscription Fee:</span>
                         <span className='amount bold deep-purple'>₦149,999 per term</span>
                     </div>
-                    <div className='note-body red-text bold'>
-                        Schools that subscribe & pay before the end of <span className='deep-purple'>PROMO</span> will get it for <span className='deep-purple'>₦99,999 per term</span> - save 33.33% !
+                    <div className='note-body red-text bold' style={{marginBottom: '1em'}}>
+                        <em>Schools that subscribe & pay before the end of <span className='deep-purple'>PROMO</span> will get it for <span className='deep-purple'>₦99,999 per term</span> - save 33.33% !</em>
                     </div>
                     <div className='note-body'>
                         Schools that make a payment now will gain immediate access to <span className='bold'>45 mobile apps</span>, with the desktop app becoming available by the end of <span className='bold'>February 2025</span>.
@@ -69,17 +69,22 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        <div className='contact-body' style={{paddingLeft: '.8em'}} id='account-details'>
-            <h3 className='deep-purple bold'>Account Details:</h3>
-            <p>Account Name: <span className='bold'>Trenova Ltd</span></p>
-            <p>Account Number: <span className='bold'>1015524196</span></p>
-            <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
+        <div className='contact-section' style={{textAlign: 'center'}}>
+            <div className='contact-body' style={{paddingLeft: '.8em'}} id='account-details'>
+                <h3 className='deep-purple bold'>Account Details:</h3>
+                <p>Account Name: <span className='bold'>Trenova Ltd</span></p>
+                <p>Account Number: <span className='bold'>1015524196</span></p>
+                <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
+            </div>
+
+            <div className='contact-body' style={{paddingLeft: '.8em'}}>
+                <h3 className='deep-purple bold'>For more inquiries, call:</h3>
+                <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (07044086794)</a></p>
+            </div>
+
         </div>
 
-        <div className='contact-body' style={{paddingLeft: '.8em'}}>
-            <h3 className='deep-purple bold'>For more inquiries, call:</h3>
-            <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (07044086794)</a></p>
-        </div>
+        
     </section>
     
   )
