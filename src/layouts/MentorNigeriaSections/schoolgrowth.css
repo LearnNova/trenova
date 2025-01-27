@@ -165,7 +165,7 @@ html, body {
 }
 
 .small-screen-contact {
-    display: none;
+    display: block;
 }
 
 .secondary-section {
@@ -254,9 +254,9 @@ html, body {
         display: none;
     }
 
-    .small-screen-contact {
+    /* .small-screen-contact {
         display: block;
-    }
+    } */
 }
 
 @media screen and (max-width: 480px) {

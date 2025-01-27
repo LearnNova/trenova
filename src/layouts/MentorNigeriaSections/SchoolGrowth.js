@@ -39,7 +39,7 @@ const SchoolGrowth = () => {
                     <div className='interest-body'>
                         <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
                     </div>
-                    <div className='contact-body big-screen-contact'>
+                    {/* <div className='contact-body big-screen-contact'>
                         <h3 className='deep-purple bold'>Account Details:</h3>
                         <p>Account Name: <span className='bold'>Trenova LTD</span></p>
                         <p>Account Number: <span className='bold'>1015524196</span></p>
@@ -48,7 +48,7 @@ const SchoolGrowth = () => {
                     <div className='contact-body big-screen-contact'>
                         <h3 className='deep-purple bold'>For more inquiries, call:</h3>
                         <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (08179361381)</a></p>
-                    </div>
+                    </div> */}
 
                     <div className='interest-form-body'>
 
@@ -76,7 +76,14 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        <div className='contact-body small-screen-contact' style={{paddingLeft: '.8em'}}>
+        <div className='contact-body' style={{paddingLeft: '.8em'}}>
+            <h3 className='deep-purple bold'>Account Details:</h3>
+            <p>Account Name: <span className='bold'>Trenova LTD</span></p>
+            <p>Account Number: <span className='bold'>1015524196</span></p>
+            <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
+        </div>
+
+        <div className='contact-body' style={{paddingLeft: '.8em'}}>
             <h3 className='deep-purple bold'>For more inquiries, call:</h3>
             <p className='bold'><a href='tel:07044086794'>07044086794</a><a href='tel:09137819540'>09137819540</a><a href='tel:08179361381'>Whatsapp (08179361381)</a></p>
         </div>
