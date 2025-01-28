@@ -58,7 +58,7 @@ const programSection = () => {
                     <b>Business Grant Award Eligibility</b>
                     <div>To be eligible for the Business Grant Award Prize Draw, participants must:</div>
                     <ul className='module-text-box__list-box-inner-box'>
-                        <li>Refer the required number of customers to the LearnNova Learning Support Service for successful training completion.</li>
+                        <li>Complete the training program successfully and refer the specified number of customers to the LearnNova Learning Support Service.</li>
                         <li>Exhibit outstanding performance throughout the training program and the Grant Award Project.</li>
                         <li>Develop and present a scalable and sustainable business model.</li>
                         {/* <li style={{marginLeft: '0.2em'}}>Demonstrate a scalable and sustainable business model.</li> */}
