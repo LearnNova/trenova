@@ -15,11 +15,12 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='module-title'>Syallabus:</div>
+            <div className='module-title'>Syallabus: <span style={{display: 'block', fontSize: '0.7em'}} className='highlighter'>You are to pick  your desired choice out of the Elective Modules</span></div>
+
             <div className='module-row'>
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Life Skills Development</h3>
-                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
+                    <p>Module Type: Compulsory</p>
                     <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse1? "extended": ""}`}>
@@ -33,51 +34,11 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 2:</span> Business Start-up and Entrepreneurship Skills Development</h3>
-                        {/* <p>- Learning Points: Forty-five (45) points</p> */}
-                        <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
+                    <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills</h3>
+                    <p>Module Type: Compulsory</p>
+                    <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
 
-                        <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
-                            <li>Idea Generation and Product Idea Testing.</li>
-                            <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
-                            <li>Target Audience Selection and Business Model Design.</li>
-                            <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
-                            <li>Fundraising and Pitching to Investors</li>
-                            <li>Business Management and Leadership Skills</li>
-                            <li>School Growth Mastery and Training System</li>
-                        </ul>
-
-                        <button className='read-more-btn' onClick={() => setModuleCollapse2((prev) =>  !prev)}>{`${modulecollapse2? 'Read Less': 'Read More...'}`}</button>
-                </div>
-
-            </div>
-
-            <div className='module-row'>
-
-                <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3:</span> Prompt Engineering & Money-Making Ideas Through AI</h3>
-                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
-                    <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
-
-                    <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
-                        <li>Prompt Engineering Explained.</li>
-                        <li>Advanced Prompt Engineering & Fine Tuning.</li>
-                        <li>Prompt Framework & Custom Instructions.</li>
-                        <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
-                        <li>Be a Freelance Ad Creative.</li>
-                        <li>Offer Freelance Event Planning Services.</li>
-                        <li>ChatGPT – Powered App Development.</li>
-                    </ul>
-
-                    <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
-                </div>
-
-                <div className='module-info'>
-                    <h3><span className='highlighter'>Module 4:</span> Professional Sales and Telemarketing Skills</h3>
-                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
-                    <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
-
-                    <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
+                    <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
                         <li>Basics of Telemarketing and Sales Psychology.</li>
                         <li>Customer Service and Relationship Management Skills.</li>
                         <li>Developing Telemarketing Scripts & Mastering Prospects Engagement.</li>
@@ -88,6 +49,47 @@ const ModuleSection = () => {
                         <li>Grant Award Project Commencement.</li>
                     </ul>
 
+                    <button className='read-more-btn' onClick={() => setModuleCollapse2((prev) =>  !prev)}>{`${modulecollapse2? 'Read Less': 'Read More...'}`}</button>
+                </div>
+
+            </div>
+
+            <div className='module-row'>
+
+
+                <div className='module-info'>
+                        <h3><span className='highlighter'>Module 3A:</span> Business Start-up and Entrepreneurship Skills Development</h3>
+                        <p>Module Type: Elective</p>
+                        <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
+
+                        <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
+                            <li>Idea Generation and Product Idea Testing.</li>
+                            <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
+                            <li>Target Audience Selection and Business Model Design.</li>
+                            <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
+                            <li>Fundraising and Pitching to Investors</li>
+                            <li>Business Management and Leadership Skills</li>
+                            <li>School Growth Mastery and Training System</li>
+                        </ul>
+
+                        <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
+                </div>
+
+                <div className='module-info'>
+                    <h3><span className='highlighter'>Module 3B:</span> Prompt Engineering & Money-Making Ideas Through AI</h3>
+                    <p>Module Type: Elective</p>
+                    <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
+
+                    <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
+                        <li>Prompt Engineering Explained.</li>
+                        <li>Advanced Prompt Engineering & Fine Tuning.</li>
+                        <li>Prompt Framework & Custom Instructions.</li>
+                        <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
+                        <li>Be a Freelance Ad Creative.</li>
+                        <li>Offer Freelance Event Planning Services.</li>
+                        <li>ChatGPT – Powered App Development.</li>
+                    </ul>
+
                     <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
@@ -96,8 +98,8 @@ const ModuleSection = () => {
             <div className='module-row'>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 5:</span> Virtual Assistant Skills and Tools</h3>
-                    {/* <p>- Learning Points: Forty-five (45) points</p> */}
+                    <h3><span className='highlighter'>Module 3C:</span> Virtual Assistant Skills and Tools</h3>
+                    <p>Module Type: Elective</p>
                     <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse5? "extended": ""}`}>
