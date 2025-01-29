@@ -161,14 +161,7 @@ const ModuleSection = () => {
 
             <div className='module-text-box'>
                 <h1 className='highlighter'>Certification:</h1>
-                <ul className='module-text-box__list-box'>
-                <li>Upon successful completion of two compulsory modules and one elective, participants will receive certification and qualify for the Business Grant Award Draw.</li>
-                    {/* <li style={{listStyleType: 'none'}}>
-                        <ul className='module-text-box__list-box-inner-box'>
-                            
-                        </ul>
-                    </li> */}
-                </ul>
+                <p>Upon successful completion of two compulsory modules and one elective, participants will receive certification and qualify for the Business Grant Award Draw.</p>
             </div>
 
             <div className='module-text-box'>
