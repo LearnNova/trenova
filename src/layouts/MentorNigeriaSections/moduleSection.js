@@ -15,12 +15,12 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='module-title'>Syallabus: <span style={{display: 'block', fontSize: '0.7em'}} className='highlighter'>You are to pick  your desired choice out of the Elective Modules</span></div>
+            <div className='module-title'>Syallabus:</div>
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 1:</span> Life Skills Development</h3>
-                    <p>Module Type: Compulsory</p>
+                    <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
+                    {/* <p className='highlighter'>(Compulsory)</p> */}
                     <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse1? "extended": ""}`}>
@@ -34,8 +34,8 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills</h3>
-                    <p>Module Type: Compulsory</p>
+                    <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills - <span className='highlighter'>(Compulsory)</span></h3>
+                    {/* <p className='highlighter'>(Compulsory)</p> */}
                     <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
@@ -58,8 +58,8 @@ const ModuleSection = () => {
 
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 3A:</span> Business Start-up and Entrepreneurship Skills Development</h3>
-                        <p>Module Type: Elective</p>
+                        <h3><span className='highlighter'>Module 3A:</span> Business Start-up and Entrepreneurship Skills Development - <span className='highlighter'>(Elective)</span></h3>
+                        {/* <p className='highlighter'>(Elective)</p> */}
                         <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
 
                         <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
@@ -69,15 +69,15 @@ const ModuleSection = () => {
                             <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
                             <li>Fundraising and Pitching to Investors</li>
                             <li>Business Management and Leadership Skills</li>
-                            <li>School Growth Mastery and Training System</li>
+                            <li>Business Growth Mastery and Training System</li>
                         </ul>
 
                         <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3B:</span> Prompt Engineering & Money-Making Ideas Through AI</h3>
-                    <p>Module Type: Elective</p>
+                    <h3><span className='highlighter'>Module 3B:</span> Prompt Engineering & Money-Making Ideas Through AI - <span className='highlighter'>(Elective)</span></h3>
+                    {/* <p className='highlighter'>(Elective)</p> */}
                     <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
@@ -98,8 +98,8 @@ const ModuleSection = () => {
             <div className='module-row'>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3C:</span> Virtual Assistant Skills and Tools</h3>
-                    <p>Module Type: Elective</p>
+                    <h3><span className='highlighter'>Module 3C:</span> Virtual Assistant Skills and Tools - <span className='highlighter'>(Elective)</span></h3>
+                    {/* <p className='highlighter'>(Elective)</p> */}
                     <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse5? "extended": ""}`}>
@@ -142,11 +142,11 @@ const ModuleSection = () => {
             
             <div className='module-text-box'>
                 <h1 className='highlighter'>Program Duration:</h1>
-                <p><span className='highlighter'>4 - 6 Months</span> (Flexible schedule with 2 sessions per week).</p>
+                <p><span className='highlighter'>3 - 4 Months</span> (Flexible schedule with 1 - 2 sessions per week).</p>
             </div>
             
             <div className='module-text-box'>
-                <h1 className='highlighter'>Assessment and Certification:</h1>
+                <h1 className='highlighter'>Assessment:</h1>
                 <ul className='module-text-box__list-box'>
                     <li style={{listStyleType: 'none'}}>
                         <b>Participants will be assessed through:</b>
@@ -156,7 +156,18 @@ const ModuleSection = () => {
                             <li>Final presentation of a business or project idea.</li>
                         </ul>
                     </li>
-                    <li style={{listStyleType: 'none'}}>Certification will be provided upon successful completion of the program.</li>
+                </ul>
+            </div>
+
+            <div className='module-text-box'>
+                <h1 className='highlighter'>Certification:</h1>
+                <ul className='module-text-box__list-box'>
+                <li>Upon successful completion of two compulsory modules and one elective, participants will receive certification and qualify for the Business Grant Award Draw.</li>
+                    {/* <li style={{listStyleType: 'none'}}>
+                        <ul className='module-text-box__list-box-inner-box'>
+                            
+                        </ul>
+                    </li> */}
                 </ul>
             </div>
 
