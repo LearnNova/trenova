@@ -157,7 +157,7 @@ const ModuleSection = () => {
                             <li>Final presentation of a business or project idea.</li>
                         </ul>
                     </li>
-                    <li>
+                    <li style={{marginBottom: '0.5em'}}>
                         <b>Training Completion:</b> To gain full access to all training sessions, participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service.
                     </li>
                     <li>
