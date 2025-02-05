@@ -146,15 +146,18 @@ const ModuleSection = () => {
             </div>
             
             <div className='module-text-box'>
-                <h1 className='highlighter'>Assessment:</h1>
+                <h1 className='highlighter'>Assessment and Qualification Criteria:</h1>
                 <ul className='module-text-box__list-box'>
-                    <li style={{listStyleType: 'none'}}>
-                        <b>Participants will be assessed through:</b>
+                    <li>
+                        <b>Evaluation Methods:</b>
                         <ul className='module-text-box__list-box-inner-box'>
                             <li>Quizzes and assignments.</li>
-                            <li>Practical project evaluations.</li>
+                            <li>Practical project assessments.</li>
                             <li>Final presentation of a business or project idea.</li>
                         </ul>
+                    </li>
+                    <li>
+                        <b>Training Completion:</b> Participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service to qualify for training completion.
                     </li>
                 </ul>
             </div>
