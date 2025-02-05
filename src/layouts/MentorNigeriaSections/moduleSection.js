@@ -167,7 +167,7 @@ const ModuleSection = () => {
 
             <div className='module-text-box'>
                 <h1 className='highlighter'>Certification:</h1>
-                <p>Upon successful completion of two compulsory modules and one elective, participants will receive certification and qualify for the Business Grant Award Draw.</p>
+                <p>Upon successful completion of two compulsory modules and one elective, participants will receive certification and may qualify for the Business Grant Award Draw.</p>
             </div>
 
             <div className='module-text-box'>
