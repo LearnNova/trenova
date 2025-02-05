@@ -159,6 +159,9 @@ const ModuleSection = () => {
                     <li>
                         <b>Training Completion:</b> Participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service to qualify for training completion.
                     </li>
+                    <li>
+                        <b>Eligibility for Grant Award Draw:</b> Participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
+                    </li>
                 </ul>
             </div>
 
