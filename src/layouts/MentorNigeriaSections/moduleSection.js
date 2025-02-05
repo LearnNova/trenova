@@ -69,18 +69,19 @@ const ModuleSection = () => {
                             <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
                             <li>Fundraising and Pitching to Investors</li>
                             <li>Business Management and Leadership Skills</li>
-                            <li>Business Growth Mastery and Training System</li>
                         </ul>
 
                         <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3B:</span> Prompt Engineering & Money-Making Ideas Through AI - <span className='highlighter'>(Elective)</span></h3>
+                    <h3><span className='highlighter'>Module 3B:</span> Private School Growth Mentorship Service, Training, Prompt Engineering & Money-Making Ideas Through AI - <span className='highlighter'>(Elective)</span></h3>
                     {/* <p className='highlighter'>(Elective)</p> */}
                     <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
+                        <li>Training & Coaching System</li>
+                        <li>Private School Growth Mentorship Service</li>
                         <li>Prompt Engineering Explained.</li>
                         <li>Advanced Prompt Engineering & Fine Tuning.</li>
                         <li>Prompt Framework & Custom Instructions.</li>
