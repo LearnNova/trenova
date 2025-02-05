@@ -158,17 +158,17 @@ const ModuleSection = () => {
                         </ul>
                     </li>
                     <li>
-                        <b>Training Completion:</b> Participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service to qualify for training completion.
+                        <b>Training Completion:</b> To gain full access to all training sessions, participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service.
                     </li>
                     <li>
-                        <b>Eligibility for Grant Award Draw:</b> Participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
+                        <b>Eligibility for Grant Award Draw:</b> To qualify for the Grant Award Draw, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
                     </li>
                 </ul>
             </div>
 
             <div className='module-text-box'>
                 <h1 className='highlighter'>Certification:</h1>
-                <p>After successfully completing two required modules and one elective, participants will earn a certification and may be eligible for the Business Grant Award Draw.</p>
+                <p>Participants who successfully complete <b>two core modules and one elective</b> will receive a certification. Additionally, they may become eligible for the <b>Business Grant Award Draw</b> and potential <b>full-time employment opportunities</b> with one of our partner organizations.</p>
             </div>
 
             <div className='module-text-box'>
