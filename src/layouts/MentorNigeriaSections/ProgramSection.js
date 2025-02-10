@@ -16,8 +16,9 @@ const programSection = () => {
             <ul className='module-text-box__list-box'>
                 <li>Equip participants with life skills, financial literacy and technical knowledge in high-demand fields.</li>
                 <li>Provide mentorship and coaching to foster professional and entrepreneurial growth.</li>
-                <li>Offer financial support through business takeoff grant award.</li>
-                <li>Empower youths to create sustainable income streams and businesses.</li>
+                <li>Gain hands-on experience through real-world projects.</li>
+                <li>Offers financial support through a referral rewards program and the Business Takeoff Grant Award Draw.</li>
+                <li>Empowering young adults to gain employment, create sustainable income streams, and build successful businesses.</li>
             </ul>
         </div>
         <div className='line-breaker'></div>
@@ -50,8 +51,8 @@ const programSection = () => {
                 <li>
                     <b>Earn-While-You-Learn Activities</b>
                     <ul className='module-text-box__list-box-inner-box'>
-                        <li>Opportunities to apply skills in real-world projects.</li>
-                        <li>Business take-off grant award.</li>
+                        <li>Earn referral cash rewards through real-world projects.</li>
+                        <li>Opportunity to qualify for the Business Takeoff Grant Award Draw.</li>
                     </ul>
                 </li>
                 <li>
