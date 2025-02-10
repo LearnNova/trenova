@@ -13,6 +13,7 @@ import CareerPageSM from "pages/CareerPageSM";
 import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
 import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
+import ReferralPage from "pages/ReferralPage";
 
 const App = () => {
   return (
@@ -67,6 +68,15 @@ const App = () => {
             <>
             <PageTitle title="School Growth System" />
             <SchoolGrowth />
+            </>
+        } /> 
+
+        <Route 
+          path="referral" 
+          element={
+            <>
+            <PageTitle title="Referral Program" />
+            <ReferralPage />
             </>
         } /> 
 
