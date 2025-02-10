@@ -21,6 +21,10 @@
   --all-transitions: all linear .3s;
 }
 
+.poppins {
+  font-family: var(--font-family-pri);
+}
+
 a {
   text-decoration: none;
   color: inherit;

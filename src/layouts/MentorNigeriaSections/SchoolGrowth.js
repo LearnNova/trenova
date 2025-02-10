@@ -20,7 +20,7 @@ const SchoolGrowth = () => {
                             <li>Enrollment for <span className='bold'>50 pupils/students</span> on our Home Learning App - <span className='red-text bold small-text'>(Valued at ₦250,000 per term)</span></li>
                             <li>Installation of Creative & Vocational Skills Development Studio on your school computer desktop - <span className='red-text bold small-text'>(Valued at ₦249,000 per term)</span></li>
                             <li>Installation of Diction and Phonetics Studio for Elementary School <span className='red-text bold'>or</span> Mathematics Studio for Senior Secondary School on your school computer desktop - <span className='red-text bold small-text'>(Valued at ₦250,000 per term)</span></li>
-                            <li>Refer <span className='bold'>1 school</span> to LearnNova and <span className='bold'>Enjoy Free</span> enrollment for <span className='bold'>20</span> additional pupils/students on the Home Learning App or purchase extra unit at a discounted rate - <span className='red-text bold small-text'>(Valued at ₦100,000)</span></li> 
+                            <li>Refer <span className='bold'>1 school</span> to LearnNova and <span className='bold'>Enjoy Free</span> enrollment for <span className='bold'>20</span> additional pupils/students on the Home Learning App - <span className='red-text bold small-text'>(Valued at ₦100,000)</span></li> 
                             <li>Free Access to TreNova virtual consulting & coaching sessions - <span className='red-text bold small-text'>(Valued at ₦150,000 per term)</span></li>
                             <li>Complimentary access to TreNova Academy online training platform - <span className='red-text bold small-text'>(Valued at ₦100,000 per term)</span></li>
                             <li>Opportunity to suggest new creative & vocational skill for LearnNova to develop.</li>
@@ -33,8 +33,8 @@ const SchoolGrowth = () => {
                     <div className='note-body red-text bold' style={{marginBottom: '1em'}}>
                         <em>Schools that subscribe & pay before the end of <span className='deep-purple'>PROMO</span> to get it for <span className='deep-purple'>₦124,999 per term</span> - save 30.56% !</em>
                     </div>
-                    <div className='note-body'>
-                        <em>Children can learn from home using our Android, iOS, or Desktop App.</em>
+                    <div className='note-body bold'>
+                        Children can learn from home using our Android, iOS, or Desktop App.
                     </div>
                     <div className='interest-body'>
                         <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
