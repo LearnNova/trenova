@@ -35,11 +35,7 @@ const ReferralForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [infoBox, setInfoBox] = useState('');
   const [showReferralBox, setShowReferralBox] = useState(false);
-  const [referralBoxMsg, setReferralBoxMsg] = useState({
-    firstName: 'Ajayi',
-        lastName: 'Adeoluwa',
-        referralLink: 'https://www/learnnova.ng/schoolgrowthsystem/Ajayi_Adeoluwa',
-  });
+  const [referralBoxMsg, setReferralBoxMsg] = useState({});
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -178,7 +174,7 @@ const ReferralForm = () => {
 
             {infoBox && <div className="form-info-box">{infoBox}</div>}
 
-            {showReferralBox || (
+            {showReferralBox && (
                 <div className="mt-4 bg-white text-black text-left p-3 mx-2 rounded-sm" style={{ maxWidth: '100%' }}>
                     <h1 className="font-bold text-orange-500 text-center mb-3" style={{ fontSize: '20px' }}>
                     Below are your Information as a Sales Referral Agent
