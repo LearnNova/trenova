@@ -31,18 +31,19 @@ const ReferralProgram = () => {
   return (
     <>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text'>LearnNova Referral Program
-                <span style={{display: 'block', fontSize: '0.35em', fontWeight: 'normal'}} className='poppins'>Invite fellow educators to try LearnNova and get free months or discounts on your plan.</span>
-            </div>
+            <div className='hero-sec-text'>Earn Rewards by Sharing LearnNova with Other Schools!</div>
+        </div>
+        <div>
+          <h1></h1>
         </div>
         {/* <div className='hero-sec-info'>
             <div className='apply-now-get-started'><a href='#hello'><span className='highlighter'>Start</span> Referring Now</a></div>
         </div> */}
         <div className="flex justify-center my-6">
-  <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl">
-    Start Referring Now
-  </button>
-</div>
+          <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl">
+            Start Referring Now
+          </button>
+      </div>
         <div className='line-breaker'></div>
 
         <div className='faq px-2'>
