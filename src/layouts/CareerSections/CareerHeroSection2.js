@@ -22,12 +22,17 @@ const CareerHeroSection2 = () => {
                 <br /><br />
                 <div><b>Available Cities:</b></div>
                 <span>We are actively hiring across all major cities in Nigeria, with a special focus on the following locations:</span>
-                <span className='highlighter'> Oshogbo</span>,<span className='highlighter'> Akure</span>, 
-                <span className='highlighter'> Ado-Ekiti</span>,<span className='highlighter'> Benin City</span>,
-                <span className='highlighter'> Warri</span>,<span className='highlighter'> Oweri</span>,
-                <span className='highlighter'> Epe</span>,<span className='highlighter'> Agbara</span>,
-                <span className='highlighter'> Kaduna</span>,<span className='highlighter'> Kano</span>,
-                <span className='highlighter'> Jos</span>, and <span className='highlighter'> Ilorin</span>.
+                <span className='highlighter'> Lagos MainLand</span>,<span className='highlighter'> Lagos Island</span>, 
+                <span className='highlighter'> Ikorodu</span>,<span className='highlighter'> Badagry</span>,
+                <span className='highlighter'> Epe</span>,<span className='highlighter'> Abeokuta</span>,
+                <span className='highlighter'> Ibadan</span>,<span className='highlighter'> Benin City</span>,
+                <span className='highlighter'> Warri</span>,<span className='highlighter'> Port Harcourt</span>,
+                <span className='highlighter'> Akure</span>, <span className='highlighter'>Ado-Ekiti</span>,
+                <span className='highlighter'> Enugu</span>, <span className='highlighter'> Owerri</span>,
+                <span className='highlighter'> Abuja</span>, <span className='highlighter'> Kano</span>,
+                <span className='highlighter'> Kaduna</span>, <span className='highlighter'> Osogbo</span>,
+                <span className='highlighter'> Ilorin</span>, <span className='highlighter'> Jos</span>, 
+                and <span className='highlighter'> Sango-Ota</span>.
             </div>
 
             <div>
