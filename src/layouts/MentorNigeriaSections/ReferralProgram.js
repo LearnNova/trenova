@@ -93,26 +93,34 @@ const ReferralProgram = () => {
             <div className='hero-sec-text' style={{fontSize: '.8em'}}>Earn Rewards by Sharing LearnNova with Other Schools!</div>
         </div>
         <div className='mt-3 px-6'>
-          <h1 className='font-bold text-9xl'>Invite fellow school owners to try LearnNova and get:</h1>
-          <ul className="list-decimal ml-5 mt-2 text-5xl">
-            <li> 
-              <span className='font-bold'>For Exsisting LeanNova Customers:</span> 
-              <ul className='ml-1 my-2'>
-                <li><span className='bg-green-500 px-2 text-white'>✔</span> Get 10% off your termly subscription fee for each successful referral</li>
-                <li><span className='bg-green-500 px-2 text-white'>✔</span> Your referral enjoys a 10% discount on their first payment.</li>
+          <h1 className='font-bold text-7xl'>
+            Invite fellow school owners to try LearnNova and get:
+          </h1>
+
+          <ul className="ml-2 mt-4 text-4xl">
+            <li className="text-3xl"> {/* Explicitly set text size */}
+              <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
+              For Existing LearnNova Customers:
+              <ul className='list-disc ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
+                <li>Get 10% off your termly subscription for each successful referral.</li>
+                <li>Your referral also gets a 10% discount on their first payment.</li>
               </ul>
             </li>
-            <li className='mt-5'> 
-              <span className='font-bold'>For LearnNova Non-Customers:</span> 
-              <ul className='ml-1 my-2'>
-                <li><span className='bg-green-500 px-2 text-white'>✔</span> Earn a ₦20,000 one-time referral bonus for every new customer you bring in.</li>
+            <li className='mt-5 text-3xl'> {/* Explicitly set text size */}
+              <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
+              For Non-Customers:
+              <ul className='list-disc ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
+                <li>Earn a ₦20,000 referral bonus for every new school you bring on board.</li>
               </ul>
             </li>
           </ul>
-          {/* <a href='#faq' className='hover:underline text:orange-500'>You have questions? Check out our FAQs below.</a> */}
+          <p className="text-3xl mt-6"> {/* Set size for paragraph */}
+            Start referring today and enjoy the benefits!
+          </p>
 
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
+
 
         <div className="flex justify-center my-3">
           <a href="#referral-form-id" className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl inline-block">
