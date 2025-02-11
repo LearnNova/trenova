@@ -7,23 +7,22 @@ const faqs = [
     question: "What is the LearnNova Referral Program?",
     answer: (
       <>
-        The LearnNova Referral Program allows you to refer other schools, educators, or institutions to LearnNova Learning Support System. 
+        The LearnNova Referral Program allows you to refer other school owners or schools to LearnNova Learning Support System. 
         When they sign up using your unique referral link, both you and the referred school receive exclusive rewards.
       </>
     ),
   },
   {
     question: "Who can participate in the referral program?",
-    answer: "Any existing LearnNova user—whether on a free trial or a paid plan—can participate and refer new schools to the platform.",
+    answer: "Any existing LearnNova Learning Support Customer or young adult — whether on a free trial, a paid plan or a referral agent—can participate and refer new schools to the platform.",
   },
   {
     question: "What rewards do I get for referring others?",
     answer: (
       <>
-        <p>For every successful referral:</p>
         <ul className="list-disc ml-5 mt-2">
-          <li>You receive 1 month free or <strong>10%</strong> off your next invoice.</li>
-          <li>Your referral gets a discount on their first payment.</li>
+          <li>For every successful referral: You get 10% off your termly subscription fee for each successful referral, while your referral enjoys a 10% discount on their first payment.</li>
+          <li>For LearnNova Non-Customers: You earn a ₦20,000 one-time referral bonus for every new customer you bring in.</li>
         </ul>
       </>
     ),
@@ -34,8 +33,8 @@ const faqs = [
       <>
         <p>It’s simple!</p>
         <ul className="list-decimal ml-5 mt-2">
-          <li>Go to your LearnNova dashboard and locate your unique referral link.</li>
-          <li>Share the link with schools, teachers, or administrators.</li>
+          <li>Enroll as a Referral Agent below, get your referral link and save it.</li>
+          <li>Share the link with owners of schools, leaders or administrators.</li>
           <li>When they sign up and complete onboarding, your reward is activated!</li>
         </ul>
       </>
@@ -45,13 +44,13 @@ const faqs = [
     question: "Is there a limit to how many schools I can refer?",
     answer: "No! You can refer as many schools as you want and earn rewards for each successful sign-up.",
   },
-  {
-    question: "How will I know if my referral was successful?",
-    answer: "You’ll receive an email confirmation when your referral signs up and meets the onboarding requirements. You can also track your referrals inside your LearnNova dashboard.",
-  },
+  // {
+  //   question: "How will I know if my referral was successful?",
+  //   answer: "You’ll receive an email confirmation when your referral signs up and meets the onboarding requirements. You can also track your referrals inside your LearnNova dashboard.",
+  // },
   {
     question: "How do I redeem my rewards?",
-    answer: "Your rewards are automatically applied to your next LearnNova invoice. If you qualify for a free month, it will be reflected in your billing cycle. If you choose a discount, it will be applied at checkout.",
+    answer: "Your rewards are automatically applied to your next LearnNova invoice. If you qualify for a referral bonus, it will be automatically forwarded to you by learnNova administrator.",
   },
   {
     question: "Can I refer a school that is already using LearnNova?",
@@ -63,7 +62,7 @@ const faqs = [
   },
   {
     question: "How long does it take to receive my reward?",
-    answer: "Rewards are applied within 7 days after your referral successfully completes onboarding and becomes an active LearnNova user.",
+    answer: "Rewards are applied within 14 days after your referral successfully completes onboarding and becomes an active LearnNova user.",
   },
   {
     question: "Can I combine referral rewards with other promotions?",
@@ -73,7 +72,7 @@ const faqs = [
     question: "What if I have more questions?",
     answer: (
       <>
-        Our support team is happy to help! Contact us at <a href="mailto:trenovaschools@gmail.com" className="font-bold text-orange-500 hover:underline">trenovaschools@gmail.com</a> or visit our Help Center for more details.
+        Our support team is happy to help! Contact us on <a href="tel:08023781682" className="font-bold text-orange-500 hover:underline">0802 378 1682</a>, or WhatsApp us on <a href="tel:07044086794" className="font-bold text-orange-500 hover:underline">0704 408 6794</a> or <a href="tel:09137819540" className="font-bold text-orange-500 hover:underline">0913 781 9540</a> for more details.
       </>
     ),
   },
@@ -97,14 +96,14 @@ const ReferralProgram = () => {
           <h1 className='font-bold text-9xl'>Invite fellow school owners to try LearnNova and get:</h1>
           <ul className="list-decimal ml-5 mt-2 text-5xl">
             <li> 
-              <span className='font-bold'>For Exsisting Customers:</span> 
+              <span className='font-bold'>For Exsisting LeanNova Customers:</span> 
               <ul className='ml-1 my-2'>
                 <li><span className='bg-green-500 px-2 text-white'>✔</span> Get 10% off your termly subscription fee for each successful referral</li>
                 <li><span className='bg-green-500 px-2 text-white'>✔</span> Your referral enjoys a 10% discount on their first payment.</li>
               </ul>
             </li>
             <li className='mt-5'> 
-              <span className='font-bold'>For Exsisting Non-Customers:</span> 
+              <span className='font-bold'>For LearnNova Non-Customers:</span> 
               <ul className='ml-1 my-2'>
                 <li><span className='bg-green-500 px-2 text-white'>✔</span> Earn a ₦20,000 one-time referral bonus for every new customer you bring in.</li>
               </ul>
