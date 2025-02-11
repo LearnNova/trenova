@@ -114,10 +114,11 @@ const ReferralProgram = () => {
 
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
+
         <div className="flex justify-center my-3">
-          <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl">
+          <a href="#referral-form-id" className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl inline-block">
             Get your Referral Link
-          </button>
+          </a>
       </div>
         <div className='line-breaker'></div>
 
@@ -158,9 +159,9 @@ const ReferralProgram = () => {
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
         <div className="flex justify-center my-3">
-          <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl">
-            Start Referring Now
-          </button>
+        <a href="#referral-form-id" className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl inline-block">
+          Start Referring Now
+        </a>
         </div>
 
         <div className='line-breaker'></div>
