@@ -7,7 +7,8 @@ const FooterSection = () => {
       <div className='footer-section-wrapper'>
         <div>
           <div className='f-section-col'>
-              <div className='location'><b>TreNova Limited.</b></div>
+              <div className='location'><b>LearnNova Learning Support Center,</b></div>
+              <div className='location'><b>A unit of TreNova Group.</b></div>
               <div className='location'>7B, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos.</div>
           </div>
           <div className='f-section-col phone'>

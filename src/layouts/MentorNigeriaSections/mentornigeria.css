@@ -513,7 +513,7 @@ html {
   display: flex;
   flex-direction: column;
   font-size: 1em;
-  gap: .5em;
+  gap: .2em;
   max-width: 500px;
 }
 

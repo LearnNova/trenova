@@ -16,7 +16,6 @@ const Input = ({ label, type, id, name, placeholder, value, onChange, required, 
       onChange={onChange}
       aria-describedby={id + "-error"}
     />
-    {/* {error && <div id={id + "-error"} className="error-message">{error}</div>} */}
   </div>
 );
 
@@ -36,41 +35,12 @@ const ReferralForm = () => {
   const [infoBox, setInfoBox] = useState('');
   const [showReferralBox, setShowReferralBox] = useState(false);
   const [referralBoxMsg, setReferralBoxMsg] = useState({});
-  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setReferralFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const validateForm = () => {
-    const newErrors = {};
-    const { whatsapp, phone, email, firstName, lastName } = referralFormData;
-
-    // Phone number validation
-    if (!/^\d{11}$/.test(whatsapp)) {
-      newErrors.whatsapp = "Whatsapp number must be exactly 11 digits.";
-    }
-    if (!/^\d{11}$/.test(phone)) {
-      newErrors.phone = "Phone number must be exactly 11 digits.";
-    }
-
-    // Email validation
-    if (email && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
-      newErrors.email = "Please enter a valid email address.";
-    }
-
-    // Name validation
-    if (!firstName) {
-      newErrors.firstName = "First name is required.";
-    }
-    if (!lastName) {
-      newErrors.lastName = "Last name is required.";
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
 
   const createReferralLink = (firstName, lastName) => {
     setReferralFormData((prevData)=> ({...prevData, referralLink: `https://www.learnnova.ng/schoolgrowthsystem/${firstName}_${lastName}`}))
@@ -79,38 +49,44 @@ const ReferralForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    if (!validateForm()) {
-      return;
-    }
-
-    let { firstName, lastName, whatsapp, phone, email, school, address, referralLink } = referralFormData;
-    if (!school) school = "Not Applicable";
-    
-    setIsSubmitting(true);
-    referralLink = createReferralLink(firstName, lastName);
-
-    const applicantData = { firstName, lastName, whatsapp, phone, email, school, address, referralLink };
-
+  
     try {
+      let { firstName, lastName, whatsapp, phone, email, school, address, referralLink } = referralFormData;
+  
+      // Phone number validation
+      if (!/^\d{11}$/.test(whatsapp)) {
+        throw new Error("Whatsapp number must be exactly 11 digits.");
+      }
+      if (!/^\d{11}$/.test(phone)) {
+        throw new Error("Phone number must be exactly 11 digits.");
+      }
+  
+      // Email validation
+      if (email && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
+        throw new Error("Please enter a valid email address.");
+      }
+  
+      if (!school) school = "Not Applicable";
+      
+      setIsSubmitting(true);
+      referralLink = createReferralLink(firstName, lastName);
+  
+      const applicantData = { firstName, lastName, whatsapp, phone, email, school, address, referralLink };
+  
       setInfoBox("Processing ... Please wait");
-
+  
       const response = await fetch("https://x8ki-letl-twmt.n7.xano.io/api:b5QTW44Q/sales_referral_agent", {
         method: "POST",
         body: JSON.stringify(applicantData),
         headers: { "Content-Type": "application/json" },
       });
-
+  
       if (!response.ok) {
         throw new Error(`API request failed with status ${response.status}`);
       }
-
+  
       alert(`Congratulations 🎉 ${firstName}, you have successfully enrolled as a Sales Referral Agent for LearnNova!`);
-      setReferralBoxMsg({
-        firstName,
-        lastName,
-        referralLink,
-      });
+      setReferralBoxMsg({ firstName, lastName, referralLink });
       setReferralFormData({
         firstName: "",
         lastName: "",
@@ -123,11 +99,7 @@ const ReferralForm = () => {
       });
       setInfoBox("");
       setShowReferralBox(true);
-
-      console.log(referralFormData.firstName);
-      console.log(referralFormData.lastName);
-      console.log(referralFormData.referralLink);
-
+  
     } catch (error) {
       setInfoBox("");
       alert(error.message || "Error in Submitting, Try Again");
@@ -135,25 +107,26 @@ const ReferralForm = () => {
       setIsSubmitting(false);
     }
   };
+  
 
   return (
     <div>
       <div className="relative text-center text-[4em] bg-white text-black font-[var(--font-family-sec)] py-[0.3em] z-[1000]" id="referral-form-id">
-        <h1 className="text-9xl text-center font-bold mb-3">Enroll as a Referrer Below:</h1>
+        <h1 className="text-9xl text-center font-bold mb-3 px-2">Enroll as a Referrer Below:</h1>
         <div>
           <form id="application-form" onSubmit={handleSubmit}>
             <div className="form-row-main">
-              <Input label="First Name" type="text" id="firstName" name="firstName" placeholder="Mark" value={referralFormData.firstName} onChange={handleChange} required error={errors.firstName} />
-              <Input label="Last Name" type="text" id="lastName" name="lastName" placeholder="Joe" value={referralFormData.lastName} onChange={handleChange} required error={errors.lastName} />
+              <Input label="First Name" type="text" id="firstName" name="firstName" placeholder="Mark" value={referralFormData.firstName} onChange={handleChange} required />
+              <Input label="Last Name" type="text" id="lastName" name="lastName" placeholder="Joe" value={referralFormData.lastName} onChange={handleChange} required  />
             </div>
 
             <div className="form-row-main">
-              <Input label="Whatsapp Number" type="text" id="whatsapp" name="whatsapp" placeholder="09137819540" value={referralFormData.whatsapp} onChange={handleChange} required error={errors.whatsapp} />
-              <Input label="Phone Number" type="text" id="phone" name="phone" placeholder="09137819540" value={referralFormData.phone} onChange={handleChange} required error={errors.phone} />
+              <Input label="Whatsapp Number" type="text" id="whatsapp" name="whatsapp" placeholder="09137819540" value={referralFormData.whatsapp} onChange={handleChange} required  />
+              <Input label="Phone Number" type="text" id="phone" name="phone" placeholder="09137819540" value={referralFormData.phone} onChange={handleChange} required  />
             </div>
 
             <div className="form-row-main">
-              <Input label="Email Address" type="email" id="email" name="email" placeholder="markjoe@gmail.com" value={referralFormData.email} onChange={handleChange} error={errors.email} />
+              <Input label="Email Address" type="email" id="email" name="email" placeholder="markjoe@gmail.com" value={referralFormData.email} onChange={handleChange}  />
               <Input label="School Name (If Applicable)" type="text" id="school" name="school" placeholder="ABC Nursery & Primary School" value={referralFormData.school} onChange={handleChange} />
             </div>
 
