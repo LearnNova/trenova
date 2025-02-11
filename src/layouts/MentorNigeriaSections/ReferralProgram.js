@@ -93,8 +93,8 @@ const ReferralProgram = () => {
             <div className='hero-sec-text' style={{fontSize: '.8em'}}>Earn Rewards by Sharing LearnNova with Other Schools!</div>
         </div>
         <div className='mt-3 px-6'>
-          <h1 className='font-bold text-7xl'>
-            Invite fellow school owners to try LearnNova and get:
+          <h1 className='font-bold text-7xl' style={{color: '#f6fa06'}}>
+            Invite fellow school owners to experience LearnNova and enjoy exclusive rewards!
           </h1>
 
           <ul className="ml-2 mt-4 text-4xl">
