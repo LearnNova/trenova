@@ -9,7 +9,7 @@ function CareerPageSO() {
   return (
     <div className="App">
       <CareerHeroSection2 />
-      <CareerApplicationFormSection role='DIRECT APPLICANT - SALES OFFICER'/>
+      <CareerApplicationFormSection role='DIRECT APPLICANT - SALES REFERRAL AGENT'/>
       <CareerFooterSection />
     </div>
   );
