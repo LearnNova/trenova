@@ -7,7 +7,7 @@ const FooterSection = () => {
       <div className='footer-section-wrapper'>
         <div>
           <div className='f-section-col'>
-              <div className='location'>MentorNigeria Academy and LearnNova Learning Support Centre are members of TreNova Group.</div>
+              <div className='location'><b>TreNova Limited.</b></div>
               <div className='location'>7B, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos.</div>
           </div>
           <div className='f-section-col phone'>

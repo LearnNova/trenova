@@ -2,23 +2,82 @@ import React, { useState } from 'react';
 import './mentornigeria.css';
 
 const faqs = [
-    {
-      question: "What is your return policy?",
-      answer: (
-        <>
-          You can return any item within <strong>30 days</strong> for a full refund.
-        </>
-      ),
-    },
-    {
-      question: "Do you offer international shipping?",
-      answer: "Yes, we ship to most countries worldwide.",
-    },
-    {
-      question: "How can I track my order?",
-      answer: "You'll receive a tracking link once your order ships.",
-    },
-  ];
+  {
+    question: "What is the LearnNova Referral Program?",
+    answer: (
+      <>
+        The LearnNova Referral Program allows you to refer other schools, educators, or institutions to LearnNova Learning Support System. 
+        When they sign up using your unique referral link, both you and the referred school receive exclusive rewards.
+      </>
+    ),
+  },
+  {
+    question: "Who can participate in the referral program?",
+    answer: "Any existing LearnNova user—whether on a free trial or a paid plan—can participate and refer new schools to the platform.",
+  },
+  {
+    question: "What rewards do I get for referring others?",
+    answer: (
+      <>
+        <p>For every successful referral:</p>
+        <ul className="list-disc ml-5 mt-2">
+          <li>You receive 1 month free or <strong>10%</strong> off your next invoice.</li>
+          <li>Your referral gets a discount on their first payment.</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    question: "How do I refer someone?",
+    answer: (
+      <>
+        <p>It’s simple!</p>
+        <ul className="list-decimal ml-5 mt-2">
+          <li>Go to your LearnNova dashboard and locate your unique referral link.</li>
+          <li>Share the link with schools, teachers, or administrators.</li>
+          <li>When they sign up and complete onboarding, your reward is activated!</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    question: "Is there a limit to how many schools I can refer?",
+    answer: "No! You can refer as many schools as you want and earn rewards for each successful sign-up.",
+  },
+  {
+    question: "How will I know if my referral was successful?",
+    answer: "You’ll receive an email confirmation when your referral signs up and meets the onboarding requirements. You can also track your referrals inside your LearnNova dashboard.",
+  },
+  {
+    question: "How do I redeem my rewards?",
+    answer: "Your rewards are automatically applied to your next LearnNova invoice. If you qualify for a free month, it will be reflected in your billing cycle. If you choose a discount, it will be applied at checkout.",
+  },
+  {
+    question: "Can I refer a school that is already using LearnNova?",
+    answer: "No, the referral program is only for new schools that have not signed up for LearnNova before.",
+  },
+  {
+    question: "What happens if my referral cancels before completing onboarding?",
+    answer: "Only referrals that complete the full onboarding process and remain active qualify for rewards. If a referred school cancels before completing onboarding, the reward will not be applied.",
+  },
+  {
+    question: "How long does it take to receive my reward?",
+    answer: "Rewards are applied within 7 days after your referral successfully completes onboarding and becomes an active LearnNova user.",
+  },
+  {
+    question: "Can I combine referral rewards with other promotions?",
+    answer: "Referral rewards cannot be combined with other discount promotions unless explicitly stated.",
+  },
+  {
+    question: "What if I have more questions?",
+    answer: (
+      <>
+        Our support team is happy to help! Contact us at <a href="mailto:trenovaschools@gmail.com" className="font-bold text-orange-500 hover:underline">trenovaschools@gmail.com</a> or visit our Help Center for more details.
+      </>
+    ),
+  },
+];
+
 
 
 const ReferralProgram = () => {
@@ -31,23 +90,43 @@ const ReferralProgram = () => {
   return (
     <>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text'>Earn Rewards by Sharing LearnNova with Other Schools!</div>
+            <div className='hero-sec-text' style={{fontSize: '.8em'}}>Earn Rewards by Sharing LearnNova with Other Schools!</div>
         </div>
-        <div>
-          <h1></h1>
+        <div className='text-5xl mt-3 px-6'>
+          <h1 className='font-bold'>Invite fellow school owners to try LearnNova and get:</h1>
+          <ul className="list-decimal ml-5 mt-2 text-3xl">
+            <li> 
+              <span className='font-bold'>For Exsisting Customers:</span> 
+              <ul className='ml-2 my-2'>
+                <li><span className='bg-green-500 px-2'>✔</span> Get <b>7.5% off</b> your termly subscription fee for each successful referral</li>
+                <li><span className='bg-green-500 px-2'>✔</span> Your referral enjoys a 5% discount on their first payment.</li>
+              </ul>
+            </li>
+            <li> 
+              <span className='font-bold'>For Exsisting Non-Customers:</span> 
+              <ul className='ml-2 my-2'>
+                <li><span className='bg-green-500 px-2'>✔</span> Earn a <b>₦25,000 one-time referral bonus</b> for every new customer you bring in.</li>
+              </ul>
+            </li>
+            
+          </ul>
+          <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
-        {/* <div className='hero-sec-info'>
-            <div className='apply-now-get-started'><a href='#hello'><span className='highlighter'>Start</span> Referring Now</a></div>
-        </div> */}
-        <div className="flex justify-center my-6">
+        <div className="flex justify-center my-3">
           <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl">
-            Start Referring Now
+            Get your Referral Link
           </button>
       </div>
         <div className='line-breaker'></div>
 
-        <div className='faq px-2'>
-          <h1 className="text-9xl font-bold text-center mt-3 mb-3">FAQ</h1>
+        <div>
+          <h1 className="text-9xl font-bold text-center">Refferal Link</h1>
+        </div>
+
+        <div className='line-breaker'></div>
+
+        <div className='faq px-2 my-3'>
+          <h1 className="text-9xl font-bold text-center">FAQ</h1>
           <p className='text-center text-2xl font-light'>Frequently asked question, get Knowledge before hand</p>
           <div className="w-full max-w-[1000px] mx-auto mt-8 space-y-4">
             {faqs.map((faq, index) => (
@@ -58,7 +137,7 @@ const ReferralProgram = () => {
                   } hover:bg-orange-500 transition`}
                   onClick={() => toggleFAQ(index)}
                 >
-                  {faq.question}
+                  {index + 1}. {faq.question}
                   <span>{openIndex === index ? "−" : "+"}</span>
                 </button>
                 {openIndex === index && (
@@ -67,6 +146,25 @@ const ReferralProgram = () => {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className='line-breaker'></div>
+
+        <div>
+          <h1 className='text-5xl text-center mt-3 italic'>Start Referring and Earning Rewards Today!</h1>
+          <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
+        </div>
+        <div className="flex justify-center my-3">
+          <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl">
+            Start Referring Now
+          </button>
+        </div>
+
+        <div className='line-breaker'></div>
+
+        <div className='contact px-2 mt-3 text-black' style={{backgroundColor: '#FA8806'}}>
+          <h1 className="text-7xl font-bold text-center">Contact</h1>
+          <p className='text-center text-2xl font-light'>Still Have Questions?</p>
         </div>
         
     </>
