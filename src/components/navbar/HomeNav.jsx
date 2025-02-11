@@ -43,6 +43,10 @@ const navigation = [
       },
     },
   },
+  {
+    name: "Referral",
+    href: "/referral",
+  },
 ];
 
 function classNames(...classes) {
