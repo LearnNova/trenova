@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './mentornigeria.css';
+import ReferralForm from './ReferralForm';
 
 const faqs = [
   {
@@ -92,24 +93,25 @@ const ReferralProgram = () => {
         <div className='hero-sec-wrapper'>
             <div className='hero-sec-text' style={{fontSize: '.8em'}}>Earn Rewards by Sharing LearnNova with Other Schools!</div>
         </div>
-        <div className='text-5xl mt-3 px-6'>
-          <h1 className='font-bold'>Invite fellow school owners to try LearnNova and get:</h1>
-          <ul className="list-decimal ml-5 mt-2 text-3xl">
+        <div className='mt-3 px-6'>
+          <h1 className='font-bold text-9xl'>Invite fellow school owners to try LearnNova and get:</h1>
+          <ul className="list-decimal ml-5 mt-2 text-5xl">
             <li> 
               <span className='font-bold'>For Exsisting Customers:</span> 
-              <ul className='ml-2 my-2'>
-                <li><span className='bg-green-500 px-2'>✔</span> Get <b>7.5% off</b> your termly subscription fee for each successful referral</li>
-                <li><span className='bg-green-500 px-2'>✔</span> Your referral enjoys a 5% discount on their first payment.</li>
+              <ul className='ml-1 my-2'>
+                <li><span className='bg-green-500 px-2 text-white'>✔</span> Get 10% off your termly subscription fee for each successful referral</li>
+                <li><span className='bg-green-500 px-2 text-white'>✔</span> Your referral enjoys a 10% discount on their first payment.</li>
               </ul>
             </li>
-            <li> 
+            <li className='mt-5'> 
               <span className='font-bold'>For Exsisting Non-Customers:</span> 
-              <ul className='ml-2 my-2'>
-                <li><span className='bg-green-500 px-2'>✔</span> Earn a <b>₦25,000 one-time referral bonus</b> for every new customer you bring in.</li>
+              <ul className='ml-1 my-2'>
+                <li><span className='bg-green-500 px-2 text-white'>✔</span> Earn a ₦20,000 one-time referral bonus for every new customer you bring in.</li>
               </ul>
             </li>
-            
           </ul>
+          {/* <a href='#faq' className='hover:underline text:orange-500'>You have questions? Check out our FAQs below.</a> */}
+
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
         <div className="flex justify-center my-3">
@@ -120,12 +122,13 @@ const ReferralProgram = () => {
         <div className='line-breaker'></div>
 
         <div>
-          <h1 className="text-9xl font-bold text-center">Refferal Link</h1>
+          <ReferralForm />
+          {/* <h1 className="text-9xl font-bold text-center">Enroll as a Referrer</h1> */}
         </div>
 
         <div className='line-breaker'></div>
 
-        <div className='faq px-2 my-3'>
+        <div className='faq px-2 my-3' id='faq'>
           <h1 className="text-9xl font-bold text-center">FAQ</h1>
           <p className='text-center text-2xl font-light'>Frequently asked question, get Knowledge before hand</p>
           <div className="w-full max-w-[1000px] mx-auto mt-8 space-y-4">
