@@ -34,7 +34,7 @@ const navigation = [
         href: '/career/territory_sales_representative',
       },
       career2: {
-        name: 'Sales Officer',
+        name: 'Sales Referral Agent',
         href: '/career/sales_officer',
       },
       career3: {

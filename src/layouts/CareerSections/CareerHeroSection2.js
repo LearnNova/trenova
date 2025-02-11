@@ -11,16 +11,17 @@ const CareerHeroSection2 = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span className='highlighter'>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Sales Officer</span>
+                <span style={{marginLeft: '.3em'}}> Sales Referral Agent</span>
             </div>
 
             <div className='line-breaker'></div>
 
             <div>
-                <span className='highlighter' style={{ textDecoration:'underline' }}>Nature of Job:</span>
-                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}>Remote</span>
+                <span className='highlighter' style={{ textDecoration:'underline' }}>Job Type:</span>
+                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}>Part-Time/Contract/Full Time</span>
                 <br /><br />
                 <div><b>Available Cities:</b></div>
+                <span>We are actively hiring across all major cities in Nigeria, with a special focus on the following locations:</span>
                 <span className='highlighter'> Oshogbo</span>,<span className='highlighter'> Akure</span>, 
                 <span className='highlighter'> Ado-Ekiti</span>,<span className='highlighter'> Benin City</span>,
                 <span className='highlighter'> Warri</span>,<span className='highlighter'> Oweri</span>,
@@ -30,13 +31,13 @@ const CareerHeroSection2 = () => {
             </div>
 
             <div>
-                <span>About LearnNova Learning Support Centre:</span>
+                <span>About Us:</span>
                 <br/>
                 <span>
-                    LearnNova, a proud member of the TreNova Group, is dedicated to driving educational innovation 
-                    through the efforts of our dynamic sales and relationship management teams. We are seeking 
-                    driven <b>Sales Officer</b> to expand our footprint in key Nigerian cities, 
-                    promoting our cutting-edge products and services.
+                    We are a forward-thinking learning support and training business dedicated to helping 
+                    private elementary and secondary schools and learning institutions thrive. As we 
+                    continue to grow, we are seeking a talented and results-oriented Sales Referral Agent 
+                    to expand our footprint in key Nigeria Cities, promoting our cutting edge learning support products and services.
                 </span>
             </div>
 
@@ -44,7 +45,7 @@ const CareerHeroSection2 = () => {
                 <span className='highlighter'>Job Description:</span>
                 <br/>
                 <span>
-                    We are seeking a motivated and results-driven <b>Sales Officer</b> to join our team. In this role, 
+                    We are seeking a motivated and results-driven <b>Sales Referral Agent</b> to join our team. In this role, 
                     you will play a key role in driving business growth by identifying new opportunities, 
                     nurturing client relationships, and consistently meeting sales targets.<br/>
                     Success in this role requires exceptional communication skills, a proactive approach to sales, and the 
@@ -81,29 +82,35 @@ const CareerHeroSection2 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-what-you-learn-title'>
-                 <span className='paragraph-title'>Probationary Period Compensation:</span>
+                 <span className='paragraph-title'>Compensation Details:</span>
 
                  <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦150,000</b></span> per month.</li>
-                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦135,000</b></span> monthly by hitting key sales milestones:
+                        <li><b>Base Remuneration: </b><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
+                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦150,000</b></span> monthly by hitting key sales milestones:
                         <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                            <li><span className='highlighter-big'><b>₦50,000</b></span> for achieving <span className='highlighter-big'><b>12 sales</b></span> in a month.</li>
-                            <li><span className='highlighter-big'><b>₦45,000</b></span> for enrolling <span className='highlighter-big'><b>15 customers</b></span> in a month.</li>
-                            <li><span className='highlighter-big'><b>₦40,000</b></span> for reaching <span className='highlighter-big'><b>17 customer</b></span> sales in a month.</li>
+                            <li><span className='highlighter-big'><b>₦40,000</b></span> for achieving <span className='highlighter-big'><b>10 sales units</b></span> in a month,</li>
+                            <li><span className='highlighter-big'><b>₦50,000</b></span> for enrolling <span className='highlighter-big'><b>12 customers</b></span> in a month, and</li>
+                            <li><span className='highlighter-big'><b>₦60,000</b></span> for reaching <span className='highlighter-big'><b>15 customer</b></span> sales units in a month.</li>
                         </ul>
                         </li>
                     </ul>
                     <br />
                     <div>
-                        <span className='paragraph-title'>Important Note:</span>
+                        <span className='paragraph-title'>Probationary Period Policy:</span>
                         <p>
-                            In the event that your monthly sales fall below <span className='highlighter-big'><b>9 unit</b></span> or <span className='highlighter-big'><b>₦890,000</b></span>, the 
-                            base salary will be temporarily suspended. In this case, total compensation will be 
-                            limited at <span className='highlighter-big'><b>15.5%</b></span> of the monthly 
-                            sales revenue.
+                            In the event that your monthly sales fall below 8 units, the base salary will 
+                            be temporarily suspended. In this case, total compensation will be limited 
+                            to <span className='highlighter-big'>18.5%</span> of the monthly sales revenue.
                         </p>
-                        </div>
+                    </div>
+                    <br />
+                    <div>
+                        <span className='paragraph-title'>How to Apply:</span>
+                        <p>
+                            If you’re excited to make a difference and grow with us, submit your application below.
+                        </p>
+                    </div>
 
                     
                  </div>
