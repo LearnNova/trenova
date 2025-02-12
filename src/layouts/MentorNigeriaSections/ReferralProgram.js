@@ -124,7 +124,7 @@ const ReferralProgram = () => {
 
         <div className="flex justify-center my-3">
           <a href="#referral-form-id" className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl inline-block">
-            Get your Referral Link
+            Get your referral link
           </a>
       </div>
         <div className='line-breaker'></div>
