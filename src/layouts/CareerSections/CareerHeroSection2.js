@@ -94,9 +94,9 @@ const CareerHeroSection2 = () => {
                         <li><b>Base Remuneration: </b><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
                         <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦150,000</b></span> monthly by hitting key sales milestones:
                         <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                            <li><span className='highlighter-big'><b>₦40,000</b></span> for achieving <span className='highlighter-big'><b>10 sales units</b></span> in a month,</li>
-                            <li><span className='highlighter-big'><b>₦50,000</b></span> for enrolling <span className='highlighter-big'><b>12 customers</b></span> in a month, and</li>
-                            <li><span className='highlighter-big'><b>₦60,000</b></span> for reaching <span className='highlighter-big'><b>15 customer</b></span> sales units in a month.</li>
+                            <li><span className='highlighter-big'><b>₦40,000</b></span> for achieving <span className='highlighter-big'><b>11 sales units</b></span> in a month,</li>
+                            <li><span className='highlighter-big'><b>₦50,000</b></span> for enrolling <span className='highlighter-big'><b>13 customers</b></span> in a month, and</li>
+                            <li><span className='highlighter-big'><b>₦60,000</b></span> for reaching <span className='highlighter-big'><b>16 customer</b></span> sales units in a month.</li>
                         </ul>
                         </li>
                     </ul>
@@ -104,9 +104,9 @@ const CareerHeroSection2 = () => {
                     <div>
                         <span className='paragraph-title'>Probationary Period Policy:</span>
                         <p>
-                            In the event that your monthly sales fall below 8 units, the base salary will 
-                            be temporarily suspended. In this case, total compensation will be limited 
-                            to <span className='highlighter-big'>18.5%</span> of the monthly sales revenue.
+                            If you sell fewer than 9 units in a month, your base salary will be temporarily 
+                            suspended. Instead, your total compensation for that month will be limited 
+                            to <span className='highlighter-big'>17.5%</span> of your sales revenue.
                         </p>
                     </div>
                     <br />
