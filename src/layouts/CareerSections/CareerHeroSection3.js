@@ -135,7 +135,7 @@ const CareerHeroSection3 = () => {
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><b>Base Salary: </b><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
                         <li><b>Marketing Reimbursable: </b><span className='highlighter-big'><b>₦40,000</b></span> per month.</li>
-                        <li><b>Performance Bonus: </b>Earn an extra <span className='highlighter-big'><b>₦20,000</b></span> for each sale made beyond <b>10 units</b>.</li>
+                        <li><b>Performance Bonus: </b>Earn an extra <span className='highlighter-big'><b>17.5%</b></span> on each sale made beyond <b>10 units</b>.</li>
                     </ul>
                 </div>
             </div>
@@ -145,7 +145,7 @@ const CareerHeroSection3 = () => {
             <div className='career-other-hero-section-container'>
                 <span className='highlighter'><b>Probationary Period Policy:</b></span>
                 <div>
-                    If you sell fewer than 9 units in a month, your base salary will be temporarily 
+                    If you sell fewer than 10 units in a month, your base salary will be temporarily 
                     suspended. Instead, your total compensation for that month will be limited 
                     to <span className='highlighter-big'>17.5%</span> of your sales revenue.
                 </div> 

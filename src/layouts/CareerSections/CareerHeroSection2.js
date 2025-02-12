@@ -104,7 +104,7 @@ const CareerHeroSection2 = () => {
                     <div>
                         <span className='paragraph-title'>Probationary Period Policy:</span>
                         <p>
-                            If you sell fewer than 9 units in a month, your base salary will be temporarily 
+                            If you sell fewer than 10 units in a month, your base salary will be temporarily 
                             suspended. Instead, your total compensation for that month will be limited 
                             to <span className='highlighter-big'>17.5%</span> of your sales revenue.
                         </p>
