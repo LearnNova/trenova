@@ -6,10 +6,10 @@ const ModuleSection = () => {
   const [modulecollapse1, setModuleCollapse1] = useState(false);
   const [modulecollapse2, setModuleCollapse2] = useState(false);
   const [modulecollapse3, setModuleCollapse3] = useState(false);
-  const [modulecollapse4, setModuleCollapse4] = useState(false);
-  const [modulecollapse5, setModuleCollapse5] = useState(false);
-  const [modulecollapse6, setModuleCollapse6] = useState(false);
-  const [modulecollapse7, setModuleCollapse7] = useState(false);
+//   const [modulecollapse4, setModuleCollapse4] = useState(false);
+//   const [modulecollapse5, setModuleCollapse5] = useState(false);
+//   const [modulecollapse6, setModuleCollapse6] = useState(false);
+//   const [modulecollapse7, setModuleCollapse7] = useState(false);
 //   const [modulecollapse8, setModuleCollapse8] = useState(false);
 
   return (
@@ -58,29 +58,44 @@ const ModuleSection = () => {
 
 
                 <div className='module-info'>
-                        <h3 className='text-center'><span className='highlighter'>Module 3:</span> Choose One Elective Course</h3>
+                        <h3 className='text-center'><span className='highlighter'>Module 3:</span> <b>Choose One Elective Course</b></h3>
                         {/* <p className='highlighter'>(Elective)</p> */}
                         <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
 
 
                         <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
-                            <li style={{listStyleType: 'decimal'}}><b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.</li>
-                            <ul className='ml-3'>
-                                <li>Idea Generation and Product Idea Testing.</li>
-                                <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
-                                <li>Target Audience Selection and Business Model Design.</li>
-                                <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
-                                <li>Fundraising and Pitching to Investors</li>
-                                <li>Business Management and Leadership Skills</li>
-                            </ul> 
+                            <li style={{listStyleType: 'decimal'}}>
+                                <b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.
+                                <ul className='ml-3'>
+                                    <li>Idea Generation and Product Idea Testing.</li>
+                                    <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
+                                    <li>Target Audience Selection and Business Model Design.</li>
+                                    <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
+                                    <li>Fundraising and Pitching to Investors.</li>
+                                    <li>Business Management and Leadership Skills.</li>
+                                </ul>
+                            </li>
+
+                            <li style={{listStyleType: 'decimal'}}>
+                                <b>Private School Growth Mentorship & Training  –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive.
+                                <ul className='ml-3'>
+                                    <li>Training & Coaching System.</li>
+                                    <li>Strategies for Enhancing School Enrolment, Revenue and Profitability.</li>
+                                    <li>School Branding Ideas and Team Development.</li>
+                                    <li>School Marketing System.</li>
+                                    <li>Private School Growth Mentorship Services.</li>
+                                    <li>School Systemization System.</li>
+                                </ul>
+                            </li>
+
                         </ul>
 
                         <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
-                <div className='module-info'>
-                    <h3><span className='highlighter'>2.</span><b> Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span></h3>
-                    {/* <p className='highlighter'>(Elective)</p> */}
+                {/* <div className='module-info'>
+                    <h3><span className='highlighter'>2. </span><b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span></h3>
+                    <p className='highlighter'>(Elective)</p>
                     <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
@@ -90,25 +105,18 @@ const ModuleSection = () => {
                         <li>School Marketing System</li>
                         <li>Private School Growth Mentorship Service</li>
                         <li>School Systemization System</li>
-                        {/* <li>Prompt Engineering Explained.</li>
-                        <li>Advanced Prompt Engineering & Fine Tuning.</li>
-                        <li>Prompt Framework & Custom Instructions.</li>
-                        <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
-                        <li>Be a Freelance Ad Creative.</li>
-                        <li>Offer Freelance Event Planning Services.</li>
-                        <li>ChatGPT – Powered App Development.</li> */}
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
-                </div>
+                </div> */}
 
             </div>
 
-            <div className='module-row'>
+            {/* <div className='module-row'>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3C:</span> Virtual Assistant Skills and Tools - <span className='highlighter'>(Elective)</span></h3>
-                    {/* <p className='highlighter'>(Elective)</p> */}
+                <h3><span className='highlighter'>2. </span><b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span></h3>
+                    <p className='highlighter'>(Elective)</p>
                     <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse5? "extended": ""}`}>
@@ -122,7 +130,7 @@ const ModuleSection = () => {
                     <button className='read-more-btn' onClick={() => setModuleCollapse5((prev) =>  !prev)}>{`${modulecollapse5? 'Read Less': 'Read More...'}`}</button>
                 </div>
 
-                {/* <div className='module-info'>
+                <div className='module-info'>
                     <h3><span className='highlighter'>Module 8:</span> Business Start-up and Entrepreneurship Skills Development</h3>
                     <p>- Learning Points: Forty-five (45) points</p>
                     <p className={`three-dot ${modulecollapse8? "three-dot-gone":""}`}>...</p>
@@ -139,8 +147,8 @@ const ModuleSection = () => {
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse8((prev) =>  !prev)}>{`${modulecollapse8? 'Read Less': 'Read More...'}`}</button>
-                </div> */}
-            </div>
+                </div>
+            </div> */}
 
             {/* <div id='apply-btn-1'>
                 <div><button className='submit-btn' id='apply-btn' onClick={NavigateForm}>Apply Now</button></div>
