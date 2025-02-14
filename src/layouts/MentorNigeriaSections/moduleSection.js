@@ -58,13 +58,14 @@ const ModuleSection = () => {
 
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 3:</span> Choose One Elective Course</h3>
+                        <h3 className='text-center'><span className='highlighter'>Module 3:</span> Choose One Elective Course</h3>
                         {/* <p className='highlighter'>(Elective)</p> */}
                         <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
 
+
                         <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
-                            <li className='list-decimal'><b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.</li>
-                            <ul className='ml-2'>
+                            <li style={{listStyleType: 'decimal'}}><b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.</li>
+                            <ul className='ml-3'>
                                 <li>Idea Generation and Product Idea Testing.</li>
                                 <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
                                 <li>Target Audience Selection and Business Model Design.</li>
@@ -78,20 +79,24 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 3B:</span> Private School Growth Mentorship Service, Training, Prompt Engineering & Money-Making Ideas Through Creative Economy & AI - <span className='highlighter'>(Elective)</span></h3>
+                    <h3><span className='highlighter'>2.</span><b> Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span></h3>
                     {/* <p className='highlighter'>(Elective)</p> */}
                     <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
                         <li>Training & Coaching System</li>
+                        <li>Strategies for Enhancing School Enrolment, Revenue and Profitability</li>
+                        <li>School Branding Ideas and Team Development</li>
+                        <li>School Marketing System</li>
                         <li>Private School Growth Mentorship Service</li>
-                        <li>Prompt Engineering Explained.</li>
+                        <li>School Systemization System</li>
+                        {/* <li>Prompt Engineering Explained.</li>
                         <li>Advanced Prompt Engineering & Fine Tuning.</li>
                         <li>Prompt Framework & Custom Instructions.</li>
                         <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
                         <li>Be a Freelance Ad Creative.</li>
                         <li>Offer Freelance Event Planning Services.</li>
-                        <li>ChatGPT – Powered App Development.</li>
+                        <li>ChatGPT – Powered App Development.</li> */}
                     </ul>
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
