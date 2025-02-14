@@ -58,17 +58,20 @@ const ModuleSection = () => {
 
 
                 <div className='module-info'>
-                        <h3><span className='highlighter'>Module 3A:</span> Business Start-up and Entrepreneurship Skills Development - <span className='highlighter'>(Elective)</span></h3>
+                        <h3><span className='highlighter'>Module 3:</span> Choose One Elective Course</h3>
                         {/* <p className='highlighter'>(Elective)</p> */}
                         <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
 
                         <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
-                            <li>Idea Generation and Product Idea Testing.</li>
-                            <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
-                            <li>Target Audience Selection and Business Model Design.</li>
-                            <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
-                            <li>Fundraising and Pitching to Investors</li>
-                            <li>Business Management and Leadership Skills</li>
+                            <li className='list-decimal'><b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.</li>
+                            <ul className='ml-2'>
+                                <li>Idea Generation and Product Idea Testing.</li>
+                                <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
+                                <li>Target Audience Selection and Business Model Design.</li>
+                                <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
+                                <li>Fundraising and Pitching to Investors</li>
+                                <li>Business Management and Leadership Skills</li>
+                            </ul> 
                         </ul>
 
                         <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
@@ -158,10 +161,10 @@ const ModuleSection = () => {
                         </ul>
                     </li>
                     <li style={{marginBottom: '0.5em'}}>
-                        <b>Training Completion:</b> To gain full access to all training sessions, participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service.
+                        <b>Training Completion:</b> To gain full access to all training sessions, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
                     </li>
                     <li>
-                        <b>Eligibility for Grant Award Draw:</b> To qualify for the Grant Award Draw, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
+                        <b>Eligibility for Grant Award Draw:</b> To qualify for the Grant Award Draw, participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service.
                     </li>
                 </ul>
             </div>
