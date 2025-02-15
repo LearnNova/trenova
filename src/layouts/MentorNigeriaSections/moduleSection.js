@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import './mentornigeria.css'
 
 const ModuleSection = () => {
-  const [modulecollapse, setModuleCollapse] = useState(null);
+  const [modulecollapse, setModuleCollapse] = useState(0);
   const [modulecollapse2, setModuleCollapse2] = useState(false);
   const [modulecollapse3, setModuleCollapse3] = useState(false);
 //   const [modulecollapse4, setModuleCollapse4] = useState(false);
@@ -21,7 +21,7 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
                     {/* <p className='highlighter'>(Compulsory)</p> */}
-                    {modulecollapse === 1 && 
+                    {modulecollapse !== 1 && 
                         <p className="three-dot">...</p>
                     }
                     {/* <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p> */}
@@ -34,34 +34,42 @@ const ModuleSection = () => {
                        <li>Teamwork and Leadership.</li>
                     </ul> }
                     
-                    
-                    <button className='read-more-btn' onClick={() => setModuleCollapse(1)}>
+                    {modulecollapse === 1 ? 
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
+                            Read Less
+                        </button> :
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(1)}>
+                            Read Less
+                        </button>
+                    }
+                    {/* <button className='read-more-btn' onClick={() => setModuleCollapse(1)}>
                         {modulecollapse === 1 ? 
                          'Read More' : 
                          'Read Less'
                          }
-                        {/* {`${modulecollapse === 0 ? 'Read Less': 'Read More...'}`} */}
-                    </button>
+                    </button> */}
                 </div>
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills - <span className='highlighter'>(Compulsory)</span></h3>
                     {/* <p className='highlighter'>(Compulsory)</p> */}
-                    {/* {modulecollapse === 2 && 
+                    {modulecollapse === 2 && 
                         <p className="three-dot">...</p>
-                    } */}
-                    <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
+                    }
+                    {/* <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p> */}
 
-                    <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
-                        <li>Basics of Telemarketing and Sales Psychology.</li>
-                        <li>Customer Service and Relationship Management Skills.</li>
-                        <li>Developing Telemarketing Scripts & Mastering Prospects Engagement.</li>
-                        <li>Branding and Product Positioning.</li>
-                        <li>Sales Pitches and Negotiation Skills.</li>
-                        <li>Handling Customer Objections.</li>
-                        <li>Closing the Deal and Gaining Commitment.</li>
-                        <li>Grant Award Project Commencement.</li>
-                    </ul>
+                    {modulecollapse === 2 &&
+                        <ul className="long-text">
+                            <li>Basics of Telemarketing and Sales Psychology.</li>
+                            <li>Customer Service and Relationship Management Skills.</li>
+                            <li>Developing Telemarketing Scripts & Mastering Prospects Engagement.</li>
+                            <li>Branding and Product Positioning.</li>
+                            <li>Sales Pitches and Negotiation Skills.</li>
+                            <li>Handling Customer Objections.</li>
+                            <li>Closing the Deal and Gaining Commitment.</li>
+                            <li>Grant Award Project Commencement.</li>
+                        </ul> 
+                    }
 
                     <button className='read-more-btn' onClick={() => setModuleCollapse2((prev) =>  !prev)}>{`${modulecollapse2? 'Read Less': 'Read More...'}`}</button>
                 </div>
