@@ -27,7 +27,7 @@ const ModuleSection = () => {
                     {/* <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p> */}
                     
                     {modulecollapse === 1 &&
-                    <ul className="long-text ml-1">
+                    <ul className="long-text pl-5">
                        <li>Effective Communication and Presentation Skills.</li>
                        <li>Emotional Intelligence and Stress Management.</li>
                        <li>Time Management and Goal Setting.</li>
@@ -59,7 +59,7 @@ const ModuleSection = () => {
                     {/* <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p> */}
 
                     {modulecollapse === 2 &&
-                        <ul className="long-text ml-1">
+                        <ul className="long-text pl-5">
                             <li>Basics of Telemarketing and Sales Psychology.</li>
                             <li>Customer Service and Relationship Management Skills.</li>
                             <li>Developing Telemarketing Scripts & Mastering Prospects Engagement.</li>
@@ -91,74 +91,87 @@ const ModuleSection = () => {
                 <div className='module-info'>
                         <h3 className='text-center'><span className='highlighter'>Module 3:</span> <b>Choose One Elective Course</b></h3>
                         {/* <p className='highlighter'>(Elective)</p> */}
-                        <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p>
+                        {modulecollapse !== 3 && 
+                        <p className="three-dot">...</p>
+                        }
+                        {/* <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p> */}
 
 
-                        <ul className={`long-text ${modulecollapse3? "extended": ""}`}>
-                            <li style={{listStyleType: 'decimal'}}>
-                                <b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.
-                                <ul className='ml-3 mt-1'>
-                                    <li>Idea Generation and Product Idea Testing.</li>
-                                    <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
-                                    <li>Target Audience Selection and Business Model Design.</li>
-                                    <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
-                                    <li>Fundraising and Pitching to Investors.</li>
-                                    <li>Business Management and Leadership Skills.</li>
-                                </ul>
-                            </li>
+                        {modulecollapse === 3 &&
+                            <ul className="long-text pl-5">
+                                <li style={{listStyleType: 'decimal'}}>
+                                    <b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.
+                                    <ul className='ml-3 mt-1'>
+                                        <li>Idea Generation and Product Idea Testing.</li>
+                                        <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
+                                        <li>Target Audience Selection and Business Model Design.</li>
+                                        <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
+                                        <li>Fundraising and Pitching to Investors.</li>
+                                        <li>Business Management and Leadership Skills.</li>
+                                    </ul>
+                                </li>
 
-                            <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                <b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive.
-                                <ul className='ml-3 mt-1'>
-                                    <li>Training & Coaching System.</li>
-                                    <li>Strategies for Enhancing School Enrolment, Revenue and Profitability.</li>
-                                    <li>School Branding Ideas and Team Development.</li>
-                                    <li>School Marketing System.</li>
-                                    <li>Private School Growth Mentorship Services.</li>
-                                    <li>School Systemization System.</li>
-                                </ul>
-                            </li>
+                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
+                                    <b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive.
+                                    <ul className='ml-3 mt-1'>
+                                        <li>Training & Coaching System.</li>
+                                        <li>Strategies for Enhancing School Enrolment, Revenue and Profitability.</li>
+                                        <li>School Branding Ideas and Team Development.</li>
+                                        <li>School Marketing System.</li>
+                                        <li>Private School Growth Mentorship Services.</li>
+                                        <li>School Systemization System.</li>
+                                    </ul>
+                                </li>
 
-                            <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                <b>Profitable Moringa Farming & Processing –</b> Explore strategies for establishing a successful Moringa-based agribusiness.
-                                <ul className='ml-3 mt-1'>
-                                    <li>Market Research & Legal Requirements.</li>
-                                    <li>Business Model - Decide whether to focus on selling fresh leaves, dried powder, seeds, oil, or value-added products.</li>
-                                    <li>Land Preparation, Cultivation and Planting Methods.</li>
-                                    <li>Harvesting & Post-Harvest Processing - Leaf Harvesting, Seed Harvesting, Drying, and Powder Processing.</li>
-                                    <li>Product Development, Branding & Marketing.</li>
-                                    <li>Scaling & Profitability Methodologies.</li>
-                                </ul>
-                            </li>
+                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
+                                    <b>Profitable Moringa Farming & Processing –</b> Explore strategies for establishing a successful Moringa-based agribusiness.
+                                    <ul className='ml-3 mt-1'>
+                                        <li>Market Research & Legal Requirements.</li>
+                                        <li>Business Model - Decide whether to focus on selling fresh leaves, dried powder, seeds, oil, or value-added products.</li>
+                                        <li>Land Preparation, Cultivation and Planting Methods.</li>
+                                        <li>Harvesting & Post-Harvest Processing - Leaf Harvesting, Seed Harvesting, Drying, and Powder Processing.</li>
+                                        <li>Product Development, Branding & Marketing.</li>
+                                        <li>Scaling & Profitability Methodologies.</li>
+                                    </ul>
+                                </li>
 
-                            <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                <b>Virtual Assistant Success & High-Paying Job Strategies –</b> Master core skills to build a rewarding virtual assistant career.
-                                <ul className='ml-3 mt-1'>
-                                    <li>Core Skills for a Successful Virtual Assistant Career.</li>
-                                    <li>Key Responsibilities and Workload Management.</li>
-                                    <li>How to Search for and Secure a Virtual Assistant Job.</li>
-                                    <li>Service Processes and Reliability.</li>
-                                    <li>Type of Jobs in High Demand.</li>
-                                </ul>
-                            </li>
+                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
+                                    <b>Virtual Assistant Success & High-Paying Job Strategies –</b> Master core skills to build a rewarding virtual assistant career.
+                                    <ul className='ml-3 mt-1'>
+                                        <li>Core Skills for a Successful Virtual Assistant Career.</li>
+                                        <li>Key Responsibilities and Workload Management.</li>
+                                        <li>How to Search for and Secure a Virtual Assistant Job.</li>
+                                        <li>Service Processes and Reliability.</li>
+                                        <li>Type of Jobs in High Demand.</li>
+                                    </ul>
+                                </li>
 
-                            <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                <b>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</b> Discover innovative ways to leverage AI for financial success.
-                                <ul className='ml-3 mt-1'>
-                                    <li>Prompt Engineering Explained.</li>
-                                    <li>Advanced Prompt Engineering & Fine Tuning.</li>
-                                    <li>Prompt Framework & Custom Instructions.</li>
-                                    <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
-                                    <li>Be a Freelance Ad Creative.</li>
-                                    <li>Offer Freelance Event Planning Services.</li>
-                                    <li>Be a Freelance Ad Creative.</li>
-                                    <li>ChatGPT – Powered App Development.</li>
-                                </ul>
-                            </li>
+                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
+                                    <b>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</b> Discover innovative ways to leverage AI for financial success.
+                                    <ul className='ml-3 mt-1'>
+                                        <li>Prompt Engineering Explained.</li>
+                                        <li>Advanced Prompt Engineering & Fine Tuning.</li>
+                                        <li>Prompt Framework & Custom Instructions.</li>
+                                        <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
+                                        <li>Be a Freelance Ad Creative.</li>
+                                        <li>Offer Freelance Event Planning Services.</li>
+                                        <li>Be a Freelance Ad Creative.</li>
+                                        <li>ChatGPT – Powered App Development.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        }
 
-                        </ul>
+                        {modulecollapse === 3 ? 
+                            <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
+                                Read Less
+                            </button> :
+                            <button className='read-more-btn' onClick={() => setModuleCollapse(3)}>
+                                Read More
+                            </button>
+                        }
 
-                        <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button>
+                        {/* <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button> */}
                 </div>
 
                 {/* <div className='module-info'>
