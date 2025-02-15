@@ -29,10 +29,10 @@ const App = () => {
           </>
         }/>
       <Route 
-        path="career/territory_sales_representative" 
+        path="career/territory_sales_manager" 
         element={
           <>
-          <PageTitle title="Career - Territory Sales Representative" />
+          <PageTitle title="Career - Territory Sales Manager" />
           <CareerPageTSR />
           </>
         } />

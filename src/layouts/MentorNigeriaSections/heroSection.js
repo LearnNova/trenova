@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text'>EARN WHILE YOU LEARN!</div>
+            <div className='hero-sec-text'>"EARN WHILE YOU LEARN!"</div>
         </div>
         <div className='hero-sec-info'>
         <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                     <ul>
                         <li>Valuable knowledge and mentorship to fast-track your success</li>
                         <li>Opportunities to secure full-time employment with one of our partners during your time at the Academy</li>
-                        <li>A chance to win up to <span className='highlighter'><b style={{textDecoration: 'underline'}}>₦500K</b></span> in grants</li>
+                        <li>You also have a chance to secure a Business Takeoff Grant Award.</li>
                     </ul>
                 </span>
                 

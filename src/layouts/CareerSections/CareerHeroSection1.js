@@ -11,14 +11,14 @@ const CareerHeroSection1 = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span className='highlighter'>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Territory Sales Representative</span>
+                <span style={{marginLeft: '.3em'}}> Territory Sales Manager</span>
             </div>
 
             <div className='line-breaker'></div>
 
             <div>
-                <span className='highlighter' style={{ textDecoration:'underline' }}>Nature of Job:</span>
-                <span style={{ fontWeight: 600, display: 'block' }}>This is a fully remote position. During the probationary period, you will need to demonstrate your ability to perform succesfully in the role.</span>
+                <span className='highlighter' style={{ textDecoration:'underline' }}>Job Nature:</span>
+                <span style={{ fontWeight: 600, display: 'block' }}>This hybrid role requires a proven ability to perform successfully in the position.</span>
             </div>
 
             <div>
@@ -36,12 +36,11 @@ const CareerHeroSection1 = () => {
                 <span>Role Overview:</span>
                 <br/>
                 <span>
-                    As a <b>Territory Sales Representative</b>, your primary focus will be introducing private 
-                    schools to <b>LearnNova Learning Support Studio</b> and driving enrollment in our school 
-                    growth <b>training</b>, <b>coaching</b>, and <b>mentorship</b> programs. Additionally, you will 
-                    recruit private school owners as distributors for our innovative <b>Learning Support App</b>. The 
-                    ideal candidate is an enthusiastic advocate for education technology, possesses a strong sales 
-                    background, and excels in dynamic, results-driven settings. <br /><br /> 
+                    As a <b>Territory Sales Manager</b>, you will oversee <b>LearnNova Learning Support 
+                    Centers</b> within your assigned region, driving enrollment in our school learning support 
+                    services, <b>growth training</b>, <b>coaching</b>, and <b>mentorship</b> programs. The 
+                    ideal candidate is a passionate education technology advocate with a strong sales 
+                    background and a proven ability to thrive in a results-oriented environment. <br /><br /> 
                     <span className='highlighter'>Key Responsibilities:</span>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li>Driving sales within your assigned territory.</li>
@@ -67,7 +66,7 @@ const CareerHeroSection1 = () => {
 
             <div className='line-breaker'></div>
 
-            <div className='career-other-hero-section-container'>
+            {/* <div className='career-other-hero-section-container'>
                 <span className='paragraph-title'>Probationary Period (2 - 5 months):</span>
 
                 <div>
@@ -81,18 +80,16 @@ const CareerHeroSection1 = () => {
                 </div> 
             </div>
 
-            <div className='line-breaker'></div>
+            <div className='line-breaker'></div> */}
 
             <div className='career-what-you-learn-title'>
-                 <span className='paragraph-title'>Post-Probation Compensation:</span>
+                 <span className='paragraph-title'>Compensation Details:</span>
 
                  <div>
-                    Upon achieving an average monthly revenue of <span className='highlighter-big'><b>₦1,300,000</b></span>, you will transition to a <span className='highlighter'>permanent role</span> with the following benefits:
-
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦325,000.00</b></span> per month.</li>
-                        <li><b>Sales Commission: </b><span className='highlighter-big'><b>15%</b></span> on all revenue exceeding <span className='highlighter-big'><b>₦1,300,000</b></span> monthly.</li>
-                        <li><b>Career Advancement: </b>Reach <span className='highlighter-big'><b>₦1,800,000</b></span> in monthly revenue to be promoted to <span className='highlighter'>Growth Executive</span>, with a higher salary of <span className='highlighter-big'><b>₦450,000</b></span> per month.</li>
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦340,000.00</b></span> per month.</li>
+                        <li><b>Marketing Reimbursement: </b><span className='highlighter-big'><b>₦30,000.00</b></span> per month.</li>
+                        <li><b>Performance Bonus: </b>Earn an additional <span className='highlighter-big'><b>18.5%</b></span> commission on every sale beyond a customer base of<b>65 units</b>.</li>
                     </ul>
                     
                  </div>

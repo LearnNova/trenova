@@ -9,7 +9,7 @@ function CareerPageTSR() {
   return (
     <div className="App">
       <CareerHeroSection1 />
-      <CareerApplicationFormSection role='DIRECT APPLICANT - TERRITORY SALES REPRESENTATIVE CURRENT'/>
+      <CareerApplicationFormSection role='DIRECT APPLICANT - TERRITORY SALES MANAGER'/>
       <CareerFooterSection />
     </div>
   );

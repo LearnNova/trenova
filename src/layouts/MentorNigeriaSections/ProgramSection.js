@@ -8,7 +8,7 @@ const programSection = () => {
 
         <div className='module-text-box'>
             <h1 className='highlighter'>Program Overview:</h1>
-            <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to access grants for business takeoff.</p>
+            <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to gain full-time employment or access grants for business takeoff.</p>
         </div>
         <div className='line-breaker'></div>
         <div className='module-text-box'>
@@ -38,7 +38,7 @@ const programSection = () => {
                     <ul className='module-text-box__list-box-inner-box'>
                         <li>Life Skills Development (e.g., communication, teamwork and problem-solving).</li>
                         <li>Entrepreneurship, Business Startup Development and Financial Literacy Skills.</li>
-                        <li>Technical Skills Training (e.g. Virtual Assistance Skills, AI Money-Making Ideas , Sales & Telemarketing Skills).</li>
+                        <li>Technical Skills Training (e.g. Virtual Assistance Skills, Private School Growth Mentorship & Training, Profitable Agro-Based Business, AI Money-Making Ideas , Sales & Telemarketing Skills).</li>
                     </ul>
                 </li>
                 <li>

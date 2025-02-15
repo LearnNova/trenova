@@ -19,11 +19,9 @@ const ModuleSection = () => {
             <div className='module-row'>
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
-                    {/* <p className='highlighter'>(Compulsory)</p> */}
                     {modulecollapse !== 1 && 
                         <p className="three-dot">...</p>
                     }
-                    {/* <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p> */}
                     
                     {modulecollapse === 1 &&
                     <ul className="long-text pl-5">
@@ -41,21 +39,13 @@ const ModuleSection = () => {
                             Read More
                         </button>
                     }
-                    {/* <button className='read-more-btn' onClick={() => setModuleCollapse(1)}>
-                        {modulecollapse === 1 ? 
-                         'Read More' : 
-                         'Read Less'
-                         }
-                    </button> */}
                 </div>
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills - <span className='highlighter'>(Compulsory)</span></h3>
-                    {/* <p className='highlighter'>(Compulsory)</p> */}
                     {modulecollapse !== 2 && 
                         <p className="three-dot">...</p>
                     }
-                    {/* <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p> */}
 
                     {modulecollapse === 2 &&
                         <ul className="long-text pl-5">
@@ -78,23 +68,18 @@ const ModuleSection = () => {
                             Read More
                         </button>
                     }
-
-                    {/* <button className='read-more-btn' onClick={() => setModuleCollapse2((prev) =>  !prev)}>{`${modulecollapse2? 'Read Less': 'Read More...'}`}</button> */}
                 </div>
 
             </div>
 
             <div className='module-row'>
 
-
                 <div className='module-info'>
                         <h3 className='text-center'><span className='highlighter'>Module 3:</span> <b>Choose One Elective Course</b></h3>
-                        {/* <p className='highlighter'>(Elective)</p> */}
+
                         {modulecollapse !== 3 && 
                         <p className="three-dot">...</p>
                         }
-                        {/* <p className={`three-dot ${modulecollapse3? "three-dot-gone":""}`}>...</p> */}
-
 
                         {modulecollapse === 3 &&
                             <ul className="long-text pl-5">
@@ -190,70 +175,10 @@ const ModuleSection = () => {
                                 Read More
                             </button>
                         }
-
-                        {/* <button className='read-more-btn' onClick={() => setModuleCollapse3((prev) =>  !prev)}>{`${modulecollapse3? 'Read Less': 'Read More...'}`}</button> */}
                 </div>
-
-                {/* <div className='module-info'>
-                    <h3><span className='highlighter'>2. </span><b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span></h3>
-                    <p className='highlighter'>(Elective)</p>
-                    <p className={`three-dot ${modulecollapse4? "three-dot-gone":""}`}>...</p>
-
-                    <ul className={`long-text ${modulecollapse4? "extended": ""}`}>
-                        <li>Training & Coaching System</li>
-                        <li>Strategies for Enhancing School Enrolment, Revenue and Profitability</li>
-                        <li>School Branding Ideas and Team Development</li>
-                        <li>School Marketing System</li>
-                        <li>Private School Growth Mentorship Service</li>
-                        <li>School Systemization System</li>
-                    </ul>
-
-                    <button className='read-more-btn' onClick={() => setModuleCollapse4((prev) =>  !prev)}>{`${modulecollapse4? 'Read Less': 'Read More...'}`}</button>
-                </div> */}
 
             </div>
 
-            {/* <div className='module-row'>
-
-                <div className='module-info'>
-                <h3><span className='highlighter'>2. </span><b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span></h3>
-                    <p className='highlighter'>(Elective)</p>
-                    <p className={`three-dot ${modulecollapse5? "three-dot-gone":""}`}>...</p>
-
-                    <ul className={`long-text ${modulecollapse5? "extended": ""}`}>
-                        <li>Core Skills for a Successful Virtual Assistant Career</li>
-                        <li>Key Responsibilities and Workload Management</li>
-                        <li>How to Search for and Secure a Virtual Assistant Job</li>
-                        <li>Service Processes and Reliability</li>
-                        <li>Type of Jobs in High Demand</li>
-                    </ul>
-
-                    <button className='read-more-btn' onClick={() => setModuleCollapse5((prev) =>  !prev)}>{`${modulecollapse5? 'Read Less': 'Read More...'}`}</button>
-                </div>
-
-                <div className='module-info'>
-                    <h3><span className='highlighter'>Module 8:</span> Business Start-up and Entrepreneurship Skills Development</h3>
-                    <p>- Learning Points: Forty-five (45) points</p>
-                    <p className={`three-dot ${modulecollapse8? "three-dot-gone":""}`}>...</p>
-
-                    <ul className={`long-text ${modulecollapse8? "extended": ""}`}>
-                        <li>Idea Generation and Market Research</li>
-                        <li>Opportunity Identification and Target Audience Selection</li>
-                        <li>Business Model Design and Product Idea Testing</li>
-                        <li>Business Growth and Value Innovation Strategies</li>
-                        <li>Entrepreneurial Finance and Money Management</li>
-                        <li>When and Where to Raise Capital and How to Structure Funding</li>
-                        <li>How Much Money to Raise and Essential Accounting Practices</li>
-                        <li>Business Management and Leadership Skills</li>
-                    </ul>
-
-                    <button className='read-more-btn' onClick={() => setModuleCollapse8((prev) =>  !prev)}>{`${modulecollapse8? 'Read Less': 'Read More...'}`}</button>
-                </div>
-            </div> */}
-
-            {/* <div id='apply-btn-1'>
-                <div><button className='submit-btn' id='apply-btn' onClick={NavigateForm}>Apply Now</button></div>
-            </div> */}
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
             
             <div className='line-breaker'></div>
@@ -275,10 +200,10 @@ const ModuleSection = () => {
                         </ul>
                     </li>
                     <li style={{marginBottom: '0.5em'}}>
-                        <b>Training Completion:</b> To gain full access to all training sessions, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
+                        <b>Training Completion:</b> To gain full access to the two mandatory and one elective training sessions, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
                     </li>
                     <li>
-                        <b>Eligibility for Grant Award Draw:</b> To qualify for the Grant Award Draw, participants must refer <b>two (2) schools</b> to the LearnNova Learning Support Service.
+                        <b>Grant Award Draw Eligibility:</b> To qualify, participants must refer a total of <b>six (6) schools</b> to the LearnNova Learning Support Service — <b>three (3) additional schools</b> beyond the initial requirement for training program.
                     </li>
                 </ul>
             </div>

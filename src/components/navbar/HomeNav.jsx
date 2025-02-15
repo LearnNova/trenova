@@ -30,8 +30,8 @@ const navigation = [
     // href: "/career/territory_sales_representative",
     children: {
       career1: {
-        name: 'Terittory Sales Representative',
-        href: '/career/territory_sales_representative',
+        name: 'Terittory Sales Manager',
+        href: '/career/territory_sales_manager',
       },
       career2: {
         name: 'Sales Referral Agent',
