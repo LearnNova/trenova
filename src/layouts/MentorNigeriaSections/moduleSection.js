@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import './mentornigeria.css'
 
 const ModuleSection = () => {
-  const [modulecollapse1, setModuleCollapse1] = useState(false);
+  const [modulecollapse, setModuleCollapse] = useState(null);
   const [modulecollapse2, setModuleCollapse2] = useState(false);
   const [modulecollapse3, setModuleCollapse3] = useState(false);
 //   const [modulecollapse4, setModuleCollapse4] = useState(false);
@@ -21,16 +21,27 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
                     {/* <p className='highlighter'>(Compulsory)</p> */}
-                    <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p>
-
-                    <ul className={`long-text ${modulecollapse1? "extended": ""}`}>
-                        <li>Effective Communication and Presentation Skills.</li>
-                        <li>Emotional Intelligence and Stress Management.</li>
-                        <li>Time Management and Goal Setting.</li>
-                        <li>Teamwork and Leadership.</li>
-                    </ul>
+                    {modulecollapse === 0 && 
+                        <p className="three-dot">...</p>
+                    }
+                    {/* <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p> */}
                     
-                    <button className='read-more-btn' onClick={() => setModuleCollapse1((prev) =>  !prev)}>{`${modulecollapse1? 'Read Less': 'Read More...'}`}</button>
+                    {modulecollapse === 1 &&
+                    <ul className="long-text">
+                       <li>Effective Communication and Presentation Skills.</li>
+                       <li>Emotional Intelligence and Stress Management.</li>
+                       <li>Time Management and Goal Setting.</li>
+                       <li>Teamwork and Leadership.</li>
+                    </ul> }
+                    
+                    
+                    <button className='read-more-btn' onClick={() => setModuleCollapse(1)}>
+                        {modulecollapse === 0 ? 
+                         'Read More' : 
+                         'Read Less'
+                         }
+                        {/* {`${modulecollapse === 0 ? 'Read Less': 'Read More...'}`} */}
+                    </button>
                 </div>
 
                 <div className='module-info'>
