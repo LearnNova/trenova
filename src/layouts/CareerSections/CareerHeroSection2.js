@@ -92,11 +92,12 @@ const CareerHeroSection2 = () => {
                  <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><b>Base Remuneration: </b><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
-                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦150,000</b></span> monthly by hitting key sales milestones:
+                        <li><b>Marketing Reimbursement: </b><span className='highlighter-big'>₦40,000</span> per month, paid in weekly installments of <span className='highlighter-big'>₦10,000</span>. Payment is contingent on achieving a minimum of <span className='highlighter'>two (2)</span> sales units per week.</li>
+                        <li><b>Performance Bonus: </b>Earn up to <span className='highlighter-big'><b>₦110,000</b></span> monthly by hitting key sales milestones:
                         <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                            <li><span className='highlighter-big'><b>₦40,000</b></span> for achieving <span className='highlighter-big'><b>11 sales units</b></span> in a month,</li>
-                            <li><span className='highlighter-big'><b>₦50,000</b></span> for enrolling <span className='highlighter-big'><b>13 customers</b></span> in a month, and</li>
-                            <li><span className='highlighter-big'><b>₦60,000</b></span> for reaching <span className='highlighter-big'><b>16 customer</b></span> sales units in a month.</li>
+                            <li><span className='highlighter-big'><b>₦30,000</b></span> for achieving <span className='highlighter-big'><b>11 sales units</b></span> in a month,</li>
+                            <li><span className='highlighter-big'><b>₦35,000</b></span> for enrolling <span className='highlighter-big'><b>13 customers</b></span> in a month, and</li>
+                            <li><span className='highlighter-big'><b>₦45,000</b></span> for reaching <span className='highlighter-big'><b>16 customer</b></span> sales units in a month.</li>
                         </ul>
                         </li>
                     </ul>
