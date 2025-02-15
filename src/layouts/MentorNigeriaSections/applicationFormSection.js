@@ -176,7 +176,7 @@ const ApplicationFormSection = () => {
                                 className='form-control-textarea'
                                 id='hear'
                                 name='hear'
-                                placeholder='1, 2, 3, 4, 5'
+                                placeholder='Type a number between Elective Number 1 to 5'
                                 value={hear}
                                 onChange={(e) => {setHear(e.target.value)}}
                             ></textarea>
