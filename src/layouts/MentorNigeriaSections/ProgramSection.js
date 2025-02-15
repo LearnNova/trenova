@@ -8,7 +8,7 @@ const programSection = () => {
 
         <div className='module-text-box'>
             <h1 className='highlighter'>Program Overview:</h1>
-            <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to access grants for business takeoff.</p>
+            <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to gain full-time employment or access grants for business takeoff.</p>
         </div>
         <div className='line-breaker'></div>
         <div className='module-text-box'>
