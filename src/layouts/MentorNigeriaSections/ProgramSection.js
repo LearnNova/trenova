@@ -38,7 +38,7 @@ const programSection = () => {
                     <ul className='module-text-box__list-box-inner-box'>
                         <li>Life Skills Development (e.g., communication, teamwork and problem-solving).</li>
                         <li>Entrepreneurship, Business Startup Development and Financial Literacy Skills.</li>
-                        <li>Technical Skills Training (e.g. Virtual Assistance Skills, AI Money-Making Ideas , Sales & Telemarketing Skills).</li>
+                        <li>Technical Skills Training (e.g. Virtual Assistance Skills, Private School Growth Mentorship & Training, Profitable Agro-Based Business, AI Money-Making Ideas , Sales & Telemarketing Skills).</li>
                     </ul>
                 </li>
                 <li>
