@@ -438,7 +438,7 @@ html {
 
 .module-row {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
   gap: .5em;
@@ -540,7 +540,7 @@ html {
 }
 
 .three-dot {
-  display: inline-block;
+  display: block;
   font-size: 1.5em;
   line-height: .3em;
   font-weight: 600;
