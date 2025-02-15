@@ -21,7 +21,7 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
                     {/* <p className='highlighter'>(Compulsory)</p> */}
-                    {modulecollapse === 0 && 
+                    {modulecollapse === 1 && 
                         <p className="three-dot">...</p>
                     }
                     {/* <p className={`three-dot ${modulecollapse1? "three-dot-gone":""}`}>...</p> */}
@@ -36,7 +36,7 @@ const ModuleSection = () => {
                     
                     
                     <button className='read-more-btn' onClick={() => setModuleCollapse(1)}>
-                        {modulecollapse === 0 ? 
+                        {modulecollapse === 1 ? 
                          'Read More' : 
                          'Read Less'
                          }
@@ -47,6 +47,9 @@ const ModuleSection = () => {
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills - <span className='highlighter'>(Compulsory)</span></h3>
                     {/* <p className='highlighter'>(Compulsory)</p> */}
+                    {/* {modulecollapse === 2 && 
+                        <p className="three-dot">...</p>
+                    } */}
                     <p className={`three-dot ${modulecollapse2? "three-dot-gone":""}`}>...</p>
 
                     <ul className={`long-text ${modulecollapse2? "extended": ""}`}>
