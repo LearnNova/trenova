@@ -1,17 +1,15 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 // import { NavigateForm } from 'utils/navigateForm'
 import './mentornigeria.css'
 
 const ModuleSection = () => {
   const [modulecollapse, setModuleCollapse] = useState(0);
   const [subModuleCollapse, setSubModuleCollapse] = useState(0);
-//   const [modulecollapse2, setModuleCollapse2] = useState(false);
-//   const [modulecollapse3, setModuleCollapse3] = useState(false);
-//   const [modulecollapse4, setModuleCollapse4] = useState(false);
-//   const [modulecollapse5, setModuleCollapse5] = useState(false);
-//   const [modulecollapse6, setModuleCollapse6] = useState(false);
-//   const [modulecollapse7, setModuleCollapse7] = useState(false);
-//   const [modulecollapse8, setModuleCollapse8] = useState(false);
+
+  useEffect(()=> {
+    setSubModuleCollapse(0);
+  }, [modulecollapse]);
+
 
   return (
     <div>
@@ -113,7 +111,7 @@ const ModuleSection = () => {
                                 </li>
 
                                 <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                    <b><span className='highlighter'>Private School Growth Mentorship & Training</span> –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span>.
+                                    <span className='highlighter'>Private School Growth Mentorship & Training</span> – Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span>.
                                     <ul className='ml-3 mt-1'>
                                         <li>Training & Coaching System.</li>
                                         <li>Strategies for Enhancing School Enrolment, Revenue and Profitability.</li>
@@ -125,7 +123,7 @@ const ModuleSection = () => {
                                 </li>
 
                                 <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                    <b>Profitable Moringa Farming & Processing –</b> Explore strategies for establishing a successful Moringa-based agribusiness.
+                                    <span className='highlighter'>Profitable Moringa Farming & Processing</span> - Explore strategies for establishing a successful Moringa-based agribusiness - <span className='highlighter'>(Elective)</span>.
                                     <ul className='ml-3 mt-1'>
                                         <li>Market Research & Legal Requirements.</li>
                                         <li>Business Model - Decide whether to focus on selling fresh leaves, dried powder, seeds, oil, or value-added products.</li>
@@ -137,13 +135,13 @@ const ModuleSection = () => {
                                 </li>
 
                                 {subModuleCollapse !== 3 && 
-                                    <p className="three-dot">...</p>
+                                    <p className="three-dot mt-3">...</p>
                                 }
 
                                 {subModuleCollapse === 3 && 
                                 <>
                                     <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                        <b>Virtual Assistant Success & High-Paying Job Strategies –</b> Master core skills to build a rewarding virtual assistant career.
+                                        <span className='highlighter'>Virtual Assistant Success & High-Paying Job Strategies</span> - Master core skills to build a rewarding virtual assistant career - <span className='highlighter'>(Elective)</span>.
                                         <ul className='ml-3 mt-1'>
                                             <li>Core Skills for a Successful Virtual Assistant Career.</li>
                                             <li>Key Responsibilities and Workload Management.</li>
@@ -154,7 +152,7 @@ const ModuleSection = () => {
                                     </li>
 
                                     <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                        <b>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</b> Discover innovative ways to leverage AI for financial success.
+                                        <span className='highlighter'>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</span> Discover innovative ways to leverage AI for financial success - <span className='highlighter'>(Elective)</span>.
                                         <ul className='ml-3 mt-1'>
                                             <li>Prompt Engineering Explained.</li>
                                             <li>Advanced Prompt Engineering & Fine Tuning.</li>
@@ -170,7 +168,7 @@ const ModuleSection = () => {
 
 
                                 {subModuleCollapse !== 3 &&
-                                    <button className='read-more-btn' onClick={() => setSubModuleCollapse(3)}>
+                                    <button className='read-more-btn mb-3' onClick={() => setSubModuleCollapse(3)}>
                                         Continue
                                     </button>
                                 }
@@ -179,10 +177,16 @@ const ModuleSection = () => {
                         }
 
                         {modulecollapse === 3 ? 
-                            <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
+                            <button 
+                            className='read-more-btn' 
+                            onClick={() => setModuleCollapse(0)}
+                            >
                                 Read Less
                             </button> :
-                            <button className='read-more-btn' onClick={() => setModuleCollapse(3)}>
+                            <button 
+                            className='read-more-btn' 
+                            onClick={() => setModuleCollapse(3)}
+                            >
                                 Read More
                             </button>
                         }

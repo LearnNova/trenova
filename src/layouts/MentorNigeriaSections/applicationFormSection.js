@@ -176,7 +176,7 @@ const ApplicationFormSection = () => {
                                 className='form-control-textarea'
                                 id='hear'
                                 name='hear'
-                                placeholder='1'
+                                placeholder='1, 2, 3, 4, 5'
                                 value={hear}
                                 onChange={(e) => {setHear(e.target.value)}}
                             ></textarea>
