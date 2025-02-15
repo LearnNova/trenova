@@ -120,7 +120,7 @@ const ModuleSection = () => {
                                 </li>
 
                                 {subModuleCollapse !== 3 && 
-                                    <p className="three-dot mt-3">...</p>
+                                    <p className="three-dot mt-3 text-center">...</p>
                                 }
 
                                 {subModuleCollapse === 3 && 
@@ -163,13 +163,13 @@ const ModuleSection = () => {
 
                         {modulecollapse === 3 ? 
                             <button 
-                            className='read-more-btn' 
+                            className='read-more-btn mx-auto' 
                             onClick={() => setModuleCollapse(0)}
                             >
                                 Read Less
                             </button> :
                             <button 
-                            className='read-more-btn' 
+                            className='read-more-btn mx-auto' 
                             onClick={() => setModuleCollapse(3)}
                             >
                                 Read More
