@@ -526,6 +526,14 @@ html {
   min-width: 108px;
 }
 
+.long-text {
+  /* max-height: 0; */
+  overflow: hidden;
+  transition: var(--all-transitions);
+  /* padding-left: 1.15em;
+  margin-top: 1em; */
+}
+
 
 @media (max-width: 796px) {
   .hero-sec-wrapper {
@@ -549,19 +557,10 @@ html {
     width: 90%;
   }
 
-
-  .long-text {
-    max-height: 0;
-    overflow: hidden;
-    transition: var(--all-transitions);
-    /* padding-left: 1.15em;
-    margin-top: 1em; */
-  }
-
-  .extended {
+  /* .extended {
     max-height: 50rem;
     margin-bottom: .8em;
-  }
+  } */
 
   .read-more-btn {
     display: inline-block;
