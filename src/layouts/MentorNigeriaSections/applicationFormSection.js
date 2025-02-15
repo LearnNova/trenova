@@ -171,12 +171,12 @@ const ApplicationFormSection = () => {
 
                     <div className='form-row-main'>
                         <div className='form-row'>
-                            <label htmlFor='hear' className='input-labels-textarea'>Where did you hear of us from?</label>
+                            <label htmlFor='hear' className='input-labels-textarea'>Type in your Preferred Elective Number</label>
                             <textarea 
                                 className='form-control-textarea'
                                 id='hear'
                                 name='hear'
-                                placeholder='i.e Instagram'
+                                placeholder='1'
                                 value={hear}
                                 onChange={(e) => {setHear(e.target.value)}}
                             ></textarea>

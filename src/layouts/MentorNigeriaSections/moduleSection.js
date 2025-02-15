@@ -4,8 +4,9 @@ import './mentornigeria.css'
 
 const ModuleSection = () => {
   const [modulecollapse, setModuleCollapse] = useState(0);
-  const [modulecollapse2, setModuleCollapse2] = useState(false);
-  const [modulecollapse3, setModuleCollapse3] = useState(false);
+  const [subModuleCollapse, setSubModuleCollapse] = useState(0);
+//   const [modulecollapse2, setModuleCollapse2] = useState(false);
+//   const [modulecollapse3, setModuleCollapse3] = useState(false);
 //   const [modulecollapse4, setModuleCollapse4] = useState(false);
 //   const [modulecollapse5, setModuleCollapse5] = useState(false);
 //   const [modulecollapse6, setModuleCollapse6] = useState(false);
@@ -100,7 +101,7 @@ const ModuleSection = () => {
                         {modulecollapse === 3 &&
                             <ul className="long-text pl-5">
                                 <li style={{listStyleType: 'decimal'}}>
-                                    <b>Business Start-Up & Entrepreneurship –</b> Learn essential skills to successfully launch and grow a business.
+                                    <span className='highlighter'>Business Start-Up & Entrepreneurship</span> - Learn essential skills to successfully launch and grow a business - <span className='highlighter'>(Elective)</span>.
                                     <ul className='ml-3 mt-1'>
                                         <li>Idea Generation and Product Idea Testing.</li>
                                         <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
@@ -111,8 +112,8 @@ const ModuleSection = () => {
                                     </ul>
                                 </li>
 
-                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                    <b>Private School Growth Mentorship & Training –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive.
+                                <li style={{listStyleType: 'decimal'}} className='mt-3'>
+                                    <b><span className='highlighter'>Private School Growth Mentorship & Training</span> –</b> Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span>.
                                     <ul className='ml-3 mt-1'>
                                         <li>Training & Coaching System.</li>
                                         <li>Strategies for Enhancing School Enrolment, Revenue and Profitability.</li>
@@ -123,7 +124,7 @@ const ModuleSection = () => {
                                     </ul>
                                 </li>
 
-                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
+                                <li style={{listStyleType: 'decimal'}} className='mt-3'>
                                     <b>Profitable Moringa Farming & Processing –</b> Explore strategies for establishing a successful Moringa-based agribusiness.
                                     <ul className='ml-3 mt-1'>
                                         <li>Market Research & Legal Requirements.</li>
@@ -135,30 +136,45 @@ const ModuleSection = () => {
                                     </ul>
                                 </li>
 
-                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                    <b>Virtual Assistant Success & High-Paying Job Strategies –</b> Master core skills to build a rewarding virtual assistant career.
-                                    <ul className='ml-3 mt-1'>
-                                        <li>Core Skills for a Successful Virtual Assistant Career.</li>
-                                        <li>Key Responsibilities and Workload Management.</li>
-                                        <li>How to Search for and Secure a Virtual Assistant Job.</li>
-                                        <li>Service Processes and Reliability.</li>
-                                        <li>Type of Jobs in High Demand.</li>
-                                    </ul>
-                                </li>
+                                {subModuleCollapse !== 3 && 
+                                    <p className="three-dot">...</p>
+                                }
 
-                                <li style={{listStyleType: 'decimal'}} className='mt-2'>
-                                    <b>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</b> Discover innovative ways to leverage AI for financial success.
-                                    <ul className='ml-3 mt-1'>
-                                        <li>Prompt Engineering Explained.</li>
-                                        <li>Advanced Prompt Engineering & Fine Tuning.</li>
-                                        <li>Prompt Framework & Custom Instructions.</li>
-                                        <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
-                                        <li>Be a Freelance Ad Creative.</li>
-                                        <li>Offer Freelance Event Planning Services.</li>
-                                        <li>Be a Freelance Ad Creative.</li>
-                                        <li>ChatGPT – Powered App Development.</li>
-                                    </ul>
-                                </li>
+                                {subModuleCollapse === 3 && 
+                                <>
+                                    <li style={{listStyleType: 'decimal'}} className='mt-3'>
+                                        <b>Virtual Assistant Success & High-Paying Job Strategies –</b> Master core skills to build a rewarding virtual assistant career.
+                                        <ul className='ml-3 mt-1'>
+                                            <li>Core Skills for a Successful Virtual Assistant Career.</li>
+                                            <li>Key Responsibilities and Workload Management.</li>
+                                            <li>How to Search for and Secure a Virtual Assistant Job.</li>
+                                            <li>Service Processes and Reliability.</li>
+                                            <li>Type of Jobs in High Demand.</li>
+                                        </ul>
+                                    </li>
+
+                                    <li style={{listStyleType: 'decimal'}} className='mt-3'>
+                                        <b>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</b> Discover innovative ways to leverage AI for financial success.
+                                        <ul className='ml-3 mt-1'>
+                                            <li>Prompt Engineering Explained.</li>
+                                            <li>Advanced Prompt Engineering & Fine Tuning.</li>
+                                            <li>Prompt Framework & Custom Instructions.</li>
+                                            <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
+                                            <li>Be a Freelance Ad Creative.</li>
+                                            <li>Offer Freelance Event Planning Services.</li>
+                                            <li>Be a Freelance Ad Creative.</li>
+                                            <li>ChatGPT – Powered App Development.</li>
+                                        </ul>
+                                    </li>
+                                </>}
+
+
+                                {subModuleCollapse !== 3 &&
+                                    <button className='read-more-btn' onClick={() => setSubModuleCollapse(3)}>
+                                        Continue
+                                    </button>
+                                }
+                                
                             </ul>
                         }
 
