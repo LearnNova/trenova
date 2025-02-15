@@ -534,6 +534,19 @@ html {
   margin-top: 1em; */
 }
 
+.read-more-btn {
+  display: inline-block;
+  color: var(--marker-clr);
+}
+
+.three-dot {
+  display: inline-block;
+  font-size: 1.5em;
+  line-height: .3em;
+  font-weight: 600;
+  letter-spacing: .15em;
+}
+
 
 @media (max-width: 796px) {
   .hero-sec-wrapper {
@@ -557,27 +570,9 @@ html {
     width: 90%;
   }
 
-  /* .extended {
-    max-height: 50rem;
-    margin-bottom: .8em;
-  } */
-
-  .read-more-btn {
-    display: inline-block;
-    color: var(--marker-clr);
-  }
-
-  .three-dot {
-    display: inline-block;
-    font-size: 1.5em;
-    line-height: .3em;
-    font-weight: 600;
-    letter-spacing: .15em;
-  }
-
-  .three-dot-gone {
+  /* .three-dot-gone {
     display: none;
-  }
+  } */
 
   .footer-section-wrapper {
     font-size: 3em;
