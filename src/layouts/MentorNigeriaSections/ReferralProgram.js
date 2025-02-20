@@ -8,21 +8,22 @@ const faqs = [
     answer: (
       <>
         The LearnNova Referral Program allows you to refer other school owners or schools to LearnNova Learning Support System. 
-        When they sign up using your unique referral link, both you and the referred school receive exclusive rewards.
+        When they sign up using your unique referral link, you receive exclusive rewards.
       </>
     ),
   },
   {
     question: "Who can participate in the referral program?",
-    answer: "Any existing LearnNova Learning Support Customer or young adult — whether on a free trial, a paid plan or a referral agent—can participate and refer new schools to the platform.",
+    answer: "Any existing LearnNova Learning Support Customer — can participate and refer new schools to the platform.",
   },
   {
     question: "What rewards do I get for referring others?",
     answer: (
       <>
         <ul className="list-disc ml-5 mt-2">
-          <li>For every successful referral: You get 10% off your termly subscription fee for each successful referral, while your referral enjoys a 10% discount on their first payment.</li>
-          <li>For LearnNova Non-Customers: You earn a ₦20,000 one-time referral bonus for every new customer you bring in.</li>
+          <li>For every successful referral: You get 17.5% off your subsequent subscription fee.</li>
+          <li>Access to Exclusive Training and Mentorship Program to enhance your school’s performance.</li>
+          <li>Enter the draw for a chance to win the ₦400,000 TreNova Annual School Growth Grant</li>
         </ul>
       </>
     ),
@@ -33,7 +34,7 @@ const faqs = [
       <>
         <p>It’s simple!</p>
         <ul className="list-decimal ml-5 mt-2">
-          <li>Enroll as a Referral Agent below, get your referral link and save it.</li>
+          <li>Enroll as a Referral Agent above, get your referral link and save it.</li>
           <li>Share the link with owners of schools, leaders or administrators.</li>
           <li>When they sign up and complete onboarding, your reward is activated!</li>
         </ul>
@@ -44,13 +45,9 @@ const faqs = [
     question: "Is there a limit to how many schools I can refer?",
     answer: "No! You can refer as many schools as you want and earn rewards for each successful sign-up.",
   },
-  // {
-  //   question: "How will I know if my referral was successful?",
-  //   answer: "You’ll receive an email confirmation when your referral signs up and meets the onboarding requirements. You can also track your referrals inside your LearnNova dashboard.",
-  // },
   {
     question: "How do I redeem my rewards?",
-    answer: "Your rewards are automatically applied to your next LearnNova invoice. If you qualify for a referral bonus, it will be automatically forwarded to you by learnNova administrator.",
+    answer: "Your rewards are automatically applied to your next LearnNova invoice and if you choose to receive a referral cash bonus, it will be automatically forwarded to you by learnNova administrator.",
   },
   {
     question: "Can I refer a school that is already using LearnNova?",
@@ -93,7 +90,7 @@ const ReferralProgram = () => {
             <div className='hero-sec-text' style={{fontSize: '.8em'}}>Join the LearnNova Referral Program & Win Big with TreNova!</div>
         </div>
         <div className='mt-3 px-6'>
-          <h1 className='font-bold text-7xl' style={{color: '#f6fa06'}}>
+          <h1 className='font-bold text-7xl poppins' style={{color: '#f6fa06'}}>
             Grow Your School, Save on Fees, and Stand a Chance to Win ₦500,000!
           </h1>
 
@@ -153,7 +150,7 @@ const ReferralProgram = () => {
               </ul>
             </li>
           </ul>
-          <p className="text-3xl mt-6"> {/* Set size for paragraph */}
+          <p className="text-3xl mt-6 poppins"> {/* Set size for paragraph */}
             Contact us today and take the first step towards growth and rewards!
           </p>
 
@@ -201,7 +198,7 @@ const ReferralProgram = () => {
         <div className='line-breaker'></div>
 
         <div>
-          <h1 className='text-5xl text-center mt-3 italic'>Start Referring and Earning Rewards Today!</h1>
+          <h1 className='text-5xl text-center mt-3 italic poppins'>Start Referring and Earning Rewards Today!</h1>
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
         <div className="flex justify-center my-3">
