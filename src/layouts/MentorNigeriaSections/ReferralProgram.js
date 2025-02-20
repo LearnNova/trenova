@@ -97,7 +97,7 @@ const ReferralProgram = () => {
             Grow Your School, Save on Fees, and Stand a Chance to Win ₦500,000!
           </h1>
 
-          <ul className="ml-2 mt-4 text-4xl w-full">
+          <ul className="ml-2 mt-4 text-4xl w-full poppins">
             <h1 className='text-3xl underline font-bold mb-2'>How It Works:</h1>
             <li className="text-3xl">
               <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
@@ -137,18 +137,18 @@ const ReferralProgram = () => {
               </ul>
             </li>
             <li className='mt-5 text-3xl'>
-              <b>Why Participate?</b>
+              <b style={{color: '#f6fa06'}}>Why Participate?</b>
               <ul className='list-disc ml-6 my-2 text-2xl'>
                 <li><b>Grow Your School</b> with LearnNova’s innovative Learning Support System.</li>
                 <li><b>Save on Subscription Fees</b> and <b>Earn Cash Dividends</b>.</li>
-                <li><b>Access Exclusive Training</b> to enhance your school’s performance.</li>
+                <li><b>Access Exclusive Training and Mentorship</b> to enhance your school’s performance.</li>
                 <li><b>Win ₦400,000</b> and boost your school’s growth even further!</li>
               </ul>
             </li>
             <li className='mt-5 text-3xl'>
               <b>Ready to Get Started?</b>
               <ul className='list-disc ml-6 my-2 text-2xl'>
-                <li>Install LearnNova on your school computer and students’ devices.</li>
+                <li>Install LearnNova on your school computer and on 40 students’ devices.</li>
                 <li>Start referring schools and watch your rewards multiply!</li>
               </ul>
             </li>
