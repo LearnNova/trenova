@@ -132,7 +132,7 @@ const ReferralForm = () => {
 
             <div className="form-row-main">
               <div className="form-row">
-                <label htmlFor="address" className="input-labels-textarea">Residential Address:</label>
+                <label htmlFor="address" className="input-labels-textarea">School Address:</label>
                 <textarea
                   className="form-control-textarea"
                   id="address"
