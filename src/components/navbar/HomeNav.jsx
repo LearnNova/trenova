@@ -44,7 +44,7 @@ const navigation = [
     },
   },
   {
-    name: "Referral",
+    name: "Referral Program",
     href: "/referral",
   },
 ];
