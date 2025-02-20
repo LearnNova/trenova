@@ -90,32 +90,71 @@ const ReferralProgram = () => {
   return (
     <>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text' style={{fontSize: '.8em'}}>Earn Rewards by Sharing LearnNova with Other Schools!</div>
+            <div className='hero-sec-text' style={{fontSize: '.8em'}}>Join the LearnNova Referral Program & Win Big with TreNova!</div>
         </div>
         <div className='mt-3 px-6'>
           <h1 className='font-bold text-7xl' style={{color: '#f6fa06'}}>
-            Invite fellow school owners to experience LearnNova and enjoy exclusive rewards!
+            Grow Your School, Save on Fees, and Stand a Chance to Win ₦500,000!
           </h1>
 
-          <ul className="ml-2 mt-4 text-4xl">
-            <li className="text-3xl"> {/* Explicitly set text size */}
+          <ul className="ml-2 mt-4 text-4xl w-full">
+            <h1 className='text-3xl underline font-bold mb-2'>How It Works:</h1>
+            <li className="text-3xl">
               <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
-              For Existing LearnNova Customers:
+              Get Started:
               <ul className='list-disc ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
-                <li>Get 10% off your termly subscription for each successful referral.</li>
-                <li>Your referral also gets a 10% discount on their first payment.</li>
+                <li>Install the LearnNova Learning Support System on your school computer and on 40 students’ devices.</li>
+                <li>Subscribe at just ₦125,000 per term.</li>
               </ul>
             </li>
             <li className='mt-5 text-3xl'> {/* Explicitly set text size */}
               <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
-              For Non-Customers:
-              <ul className='list-disc ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
-                <li>Earn a ₦20,000 referral bonus for every new school you bring on board.</li>
+              Refer and Earn:
+              <ul className='list-decimal ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
+                <li>
+                  <b>For Every School You Refer:</b>
+                  <ul className='list-disc ml-3 my-1 text-2xl'>
+                    <li>Get <b>17.5% off</b> your next term’s subscription fee.</li>
+                  </ul>
+                </li>
+
+                <li>
+                  <b>After Referring 6 Schools:</b>
+                  <ul className='list-disc ml-3 my-1 text-2xl'>
+                    <li>Achieve <b>TreNova Prestige Partner</b> status.</li>
+                    <li>Earn <b>two free school growth virtual training & mentorship seats.</b></li>
+                    <li>Enjoy continuous rewards—one referral’s termly payment will be ceded to you <b>every term</b> as long as your 6 referrals remain active. Choose to use it for your own subscription or receive it as <b>cash dividends</b>.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li className='mt-5 text-3xl'>
+              <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
+              Qualify for the TreNova Annual School Growth Grant:
+              <ul className='list-disc ml-6 my-2 text-2xl'>
+                <li>Maintain at least <b>7 active referrals</b> through the end of an academic year.</li>
+                <li><b>Enter the draw</b> for a chance to win the <b>₦400,000 TreNova Annual School Growth Grant!</b></li>
+              </ul>
+            </li>
+            <li className='mt-5 text-3xl'>
+              <b>Why Participate?</b>
+              <ul className='list-disc ml-6 my-2 text-2xl'>
+                <li><b>Grow Your School</b> with LearnNova’s innovative Learning Support System.</li>
+                <li><b>Save on Subscription Fees</b> and <b>Earn Cash Dividends</b>.</li>
+                <li><b>Access Exclusive Training</b> to enhance your school’s performance.</li>
+                <li><b>Win ₦400,000</b> and boost your school’s growth even further!</li>
+              </ul>
+            </li>
+            <li className='mt-5 text-3xl'>
+              <b>Ready to Get Started?</b>
+              <ul className='list-disc ml-6 my-2 text-2xl'>
+                <li>Install LearnNova on your school computer and students’ devices.</li>
+                <li>Start referring schools and watch your rewards multiply!</li>
               </ul>
             </li>
           </ul>
           <p className="text-3xl mt-6"> {/* Set size for paragraph */}
-            Start referring today and enjoy the benefits!
+            Contact us today and take the first step towards growth and rewards!
           </p>
 
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
