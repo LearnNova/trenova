@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './mentornigeria.css';
 import ReferralForm from './ReferralForm';
 
 const faqs = [
@@ -87,71 +86,68 @@ const ReferralProgram = () => {
   return (
     <>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text' style={{fontSize: '.8em'}}>Join the LearnNova Referral Program & Win Big with TreNova!</div>
+            <div className='hero-sec-text' style={{fontSize: '.8em'}}>Join the LearnNova Referral Program & Win Big  with TreNova!</div>
         </div>
-        <div className='mt-3 px-6'>
-          <h1 className='font-bold text-7xl poppins' style={{color: '#f6fa06'}}>
-            Grow Your School, Save on Fees, and Stand a Chance to Win ₦500,000!
+        <div className='mt-3 px-2 sm:px-6'>
+          <h1 className='text-lg sm:text-11xl italic text-center' style={{color: '#f6fa06', fontWeight: 600}}>
+            Grow Your School, Save on Fees, and Stand a Chance to Win ₦375,000!
           </h1>
 
-          <ul className="ml-2 mt-4 text-4xl w-full poppins">
-            <h1 className='text-3xl underline font-bold mb-2'>How It Works:</h1>
-            <li className="text-3xl">
-              <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
+          <ul className="list-decimal mt-4 px-1 sm:px-2 text-4xl w-full border rounded-lg" style={{background: '#25242a', fontWeight: 600}}>
+            <h1 className='text-lg sm:text-5xl underline mb-2'>How It Works:</h1>
+            <li className="text-lg sm:text-3xl ml-4">
               Get Started:
-              <ul className='list-disc ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
+              <ul className='list-disc ml-3 my-2 font-normal'> {/* Reduce size for nested lists */}
                 <li>Install the LearnNova Learning Support System on your school computer and on 40 students’ devices.</li>
-                <li>Subscribe at just ₦125,000 per term.</li>
+                <li>Subscribe for just ₦125,000 per term.</li>
               </ul>
             </li>
-            <li className='mt-5 text-3xl'> {/* Explicitly set text size */}
-              <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
+            <li className='mt-5 text-lg sm:text-3xl ml-4'> {/* Explicitly set text size */}
               Refer and Earn:
-              <ul className='list-decimal ml-6 my-2 text-2xl'> {/* Reduce size for nested lists */}
+              <ul className='list-disc ml-3 my-2 font-normal'> {/* Reduce size for nested lists */}
                 <li>
-                  <b>For Every School You Refer:</b>
-                  <ul className='list-disc ml-3 my-1 text-2xl'>
-                    <li>Get <b>17.5% off</b> your next term’s subscription fee.</li>
+                  For Every School You Refer:
+                  <ul className='my-1'>
+                    <li><span className='text-green-400'>✔</span> Get <span style={{fontWeight: 600}}>16.5% off</span> your next term’s subscription fee.</li>
                   </ul>
                 </li>
 
-                <li>
-                  <b>After Referring 6 Schools:</b>
-                  <ul className='list-disc ml-3 my-1 text-2xl'>
-                    <li>Achieve <b>TreNova Prestige Partner</b> status.</li>
-                    <li>Earn <b>two free school growth virtual training & mentorship seats.</b></li>
-                    <li>Enjoy continuous rewards—one referral’s termly payment will be ceded to you <b>every term</b> as long as your 6 referrals remain active. Choose to use it for your own subscription or receive it as <b>cash dividends</b>.</li>
+                <li className='mt-2'>
+                  Refer 6 Schools to Unlock More Rewards:  
+                  <ul className='my-1'>
+                    <li><span className='text-green-400'>✔</span> Become a <span style={{fontWeight: 600}}>TreNova Prestige Partner</span>.</li>
+                    <li><span className='text-green-400'>✔</span> Receive <span style={{fontWeight: 600}}>two free seats for our School Growth Virtual Training & Mentorship Program</span>.</li>
+                    <li><span className='text-green-400'>✔</span> Enjoy ongoing rewards! One referral’s termly payment will be ceded to you <span style={{fontWeight: 600}}>every term</span> as long as your 6 referrals stay active. You can either use this to cover your subscription or receive it as <span style={{fontWeight: 600}}>cash dividends</span>.</li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li className='mt-5 text-3xl'>
-              <span className='bg-green-500 px-2 text-white mr-1'>✔</span>
-              Qualify for the TreNova Annual School Growth Grant:
-              <ul className='list-disc ml-6 my-2 text-2xl'>
-                <li>Maintain at least <b>7 active referrals</b> through the end of an academic year.</li>
-                <li><b>Enter the draw</b> for a chance to win the <b>₦400,000 TreNova Annual School Growth Grant!</b></li>
+            <li className='mt-5 text-lg sm:text-3xl ml-4'>
+              Qualify for the Annual School Growth Grant Draw:
+              <ul className='list-disc ml-3 my-2 font-normal'>
+                <li>Keep at least <span style={{fontWeight: 600}}>7 active referrals</span> through the end of an academic year.</li>
+                <li><span style={{fontWeight: 600}}>Enter the draw</span> for a chance to win the <span style={{fontWeight: 600}}>₦375,000</span> TreNova Annual School Growth Grant!</li>
               </ul>
             </li>
-            <li className='mt-5 text-3xl'>
-              <b style={{color: '#f6fa06'}}>Why Participate?</b>
-              <ul className='list-disc ml-6 my-2 text-2xl'>
-                <li><b>Grow Your School</b> with LearnNova’s innovative Learning Support System.</li>
-                <li><b>Save on Subscription Fees</b> and <b>Earn Cash Dividends</b>.</li>
-                <li><b>Access Exclusive Training and Mentorship</b> to enhance your school’s performance.</li>
-                <li><b>Win ₦400,000</b> and boost your school’s growth even further!</li>
+            <li className='mt-5 text-lg sm:text-3xl list-none'>
+              <span style={{fontWeight: 600, color: '#f6fa06'}}>Why Should You Join?</span>
+              <ul className='list-disc ml-7 my-2 font-normal'>
+                <li><span style={{fontWeight: 600}}>Boost Your School’s Growth</span> with LearnNova’s innovative Learning Support System.</li>
+                <li><span style={{fontWeight: 600}}>Save on Subscription Fees</span> and <span style={{fontWeight: 600}}>earn Cash Dividends</span>.</li>
+                <li>Gain <span style={{fontWeight: 600}}>Exclusive Access to Training and Mentorship</span> to enhance your school’s performance.</li>
+                <li>Win <span style={{fontWeight: 600}}>₦375,000</span> to accelerate your school’s growth!</li>
               </ul>
             </li>
-            <li className='mt-5 text-3xl'>
-              <b>Ready to Get Started?</b>
-              <ul className='list-disc ml-6 my-2 text-2xl'>
+            <li className='mt-5 text-lg sm:text-3xl list-none'>
+              <span style={{fontWeight: 600}}>Ready to Get Started?</span>
+              <ul className='list-disc ml-7 my-2 font-normal'>
                 <li>Install LearnNova on your school computer and on 40 students’ devices.</li>
                 <li>Start referring schools and watch your rewards multiply!</li>
               </ul>
             </li>
           </ul>
-          <p className="text-3xl mt-6 poppins"> {/* Set size for paragraph */}
-            Contact us today and take the first step towards growth and rewards!
+          <p className="text-lg sm:text-3xl mt-6 italic text-center" style={{fontWeight: 600}}>
+            Contact us today and take the first step towards growth and rewards!
           </p>
 
           <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
@@ -167,7 +163,6 @@ const ReferralProgram = () => {
 
         <div>
           <ReferralForm />
-          {/* <h1 className="text-9xl font-bold text-center">Enroll as a Referrer</h1> */}
         </div>
 
         <div className='line-breaker'></div>
@@ -197,9 +192,9 @@ const ReferralProgram = () => {
 
         <div className='line-breaker'></div>
 
-        <div>
-          <h1 className='text-5xl text-center mt-3 italic poppins'>Start Referring and Earning Rewards Today!</h1>
-          <h1 className='text-5xl text-center font-bold mb-1'>↓ ↓ ↓ ↓</h1>
+        <div className='text-center'>
+          <h1 className='text-lg sm:text-3xl mt-6 italic px-2 sm:px-6' style={{fontWeight: 600}}>Start Referring and Earning Rewards Today!</h1>
+          <h1 className='text-5xl font-bold mb-1'>↓ ↓ ↓ ↓</h1>
         </div>
         <div className="flex justify-center my-3">
         <a href="#referral-form-id" className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-500 transition text-2xl inline-block">

@@ -22,7 +22,7 @@
 }
 
 .poppins {
-  font-family: var(--font-family-pri);
+  font-family: var(--font-family-pri) !important;
 }
 
 a {
