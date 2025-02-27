@@ -6,20 +6,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --font-family-pri: "Poppins", sans-serif;
-    --font-family-sec: "Big Shoulders Display", sans-serif;
-    --font-family-tertiary: "Satisfy", serif;
-    --pri-clr: #ffffff;
-    --secondary-clr: #1C1C1C;
-    --deep-purple-clr: #253bff;
-    --line-clr: #8B8B8B;
-    --marker-clr-sec: #4151E5;
-    --marker-clr: #FA8806;
-    --marker-clr-second: #f6fa06;
-    --tertiary-clr: #25242A;
-    --tertiary-clr-second: #ff0000;
-    --all-transitions: all linear .3s;
   }
+
+:root {
+  --font-family-pri: "Poppins", sans-serif;
+  --font-family-sec: "Big Shoulders Display", sans-serif;
+  --font-family-tertiary: "Satisfy", serif;
+  --pri-clr: #ffffff;
+  --secondary-clr: #1C1C1C;
+  --deep-purple-clr: #253bff;
+  --line-clr: #8B8B8B;
+  --marker-clr-sec: #4151E5;
+  --marker-clr: #FA8806;
+  --marker-clr-second: #f6fa06;
+  --tertiary-clr: #25242A;
+  --tertiary-clr-second: #ff0000;
+  --all-transitions: all linear .3s;
+}
 
 html, body {
   margin: 0;

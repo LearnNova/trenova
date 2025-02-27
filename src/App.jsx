@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // import RtlLayout from "layouts/rtl";
 import AdminLayout from "layouts/admin";
 import AuthLayout from "layouts/auth";
@@ -14,6 +14,7 @@ import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
 import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
 import ReferralPage from "pages/ReferralPage";
+import SchoolCarePage from "pages/SchoolCarePage";
 
 const App = () => {
   return (
@@ -77,6 +78,15 @@ const App = () => {
             <>
             <PageTitle title="Referral Program" />
             <ReferralPage />
+            </>
+        } /> 
+
+        <Route 
+          path="schoolsupportpartner" 
+          element={
+            <>
+            <PageTitle title="School Support Partner" />
+            <SchoolCarePage />
             </>
         } /> 
 

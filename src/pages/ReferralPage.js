@@ -4,7 +4,7 @@ import FooterSection from '../layouts/MentorNigeriaSections/footerSection';
 
 const ReferralPage = () => {
   return (
-    <div className='App'>
+    <div className='main-container'>
         <ReferralProgram />
         <FooterSection />
     </div>

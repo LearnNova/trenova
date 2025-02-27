@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useNavigate } from "react-router-dom";
 import authImg from "assets/img/auth/auth.png";
 import { useDispatch, useSelector } from "react-redux";
@@ -22,8 +22,8 @@ const navigation = [
     href: "/MentorNigeria",
   },
   {
-    name: "School Growth System",
-    href: "/schoolgrowthsystem/trenova",
+    name: "School Support Partner",
+    href: "/schoolsupportpartner",
   },
   {
     name: "Career", 
@@ -73,7 +73,7 @@ export default function HomeNav() {
   return (
     <Disclosure
       as="nav"
-      className=" sticky top-0 z-50 w-full bg-gold   shadow-xl"
+      className="sticky top-0 z-50 w-full bg-gold shadow-xl"
     >
       {({ open }) => (
         <>
