@@ -11,10 +11,10 @@ const SchoolCareHeroSection = () => {
                 className="w-full h-full object-cover"
             />
             <div className="absolute top-[70%] sm:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full p-2">
-                <h1 className='text-29xl lg:text-77xl font-extrabold text-orange-600' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
+                <h1 className='text-29xl lg:text-77xl font-extrabold text-orange-500' style={{fontFamily: 'Big Shoulders Display, sans-serif', textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)"}}>
                     School Support Partners
                 </h1>
-                <p className='text-9xl md:text-13xl lg:text-21xl text-black font-medium' style={{fontFamily: 'Satisfy, serif'}}>
+                <p className='text-9xl md:text-13xl lg:text-21xl font-medium' style={{fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(0, 0, 0, 0.6)", color: '#FFD700'}}>
                     Your Partner in Wealth Creation
                 </p>
             </div>
