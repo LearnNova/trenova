@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
   --font-family-pri: "Poppins", sans-serif;
   --font-family-sec: "Big Shoulders Display", sans-serif;
   --font-family-tertiary: "Satisfy", serif;
@@ -34,7 +37,7 @@ html {
    scroll-behavior: smooth;
 }
 
-.App {
+.main-container {
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-pri);
