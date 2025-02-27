@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import successfultraitpartnerpdf from './Downloadable -Highly Successsful School Support Partners.pdf';
+import successfultraitpartnerpdf from './Top 10 Traits of Highly Successful School Support Business Owners.pdf';
 
 const SchoolCareNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

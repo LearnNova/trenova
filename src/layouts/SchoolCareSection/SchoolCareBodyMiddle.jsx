@@ -46,7 +46,7 @@ const SchoolCareBodyMiddle = () => {
                 The app features a comprehensive E-Library for regular reading for age 3 to 17 children, Diction and Phonetics lessons for Elementary School, Creative and Vocational courses for all grade levels, and Mathematics tutorials specifically for Senior Secondary School students.
               </li>
               <li>
-                It grants full resale rights, enabling you to reach an unlimited number of learners and retain 40% of the termly subscription fee.
+                It grants full resale rights, enabling you to reach an unlimited number of learners and retain <span className="font-bold">40%</span> of the termly subscription fee.
               </li>
             </ul>
           </li>
