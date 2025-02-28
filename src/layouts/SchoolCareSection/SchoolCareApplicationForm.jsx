@@ -1,5 +1,6 @@
 import { useState } from "react";
 import availableTerritories from "./availableTerritories";
+import { useNavigate } from "react-router-dom";
 
 const Input = ({ label, type, required, name, placeholder, value, minLength, onChange }) => (
   <div>
@@ -19,6 +20,7 @@ const Input = ({ label, type, required, name, placeholder, value, minLength, onC
 );
 
 const SchoolCareApplicationForm = ({ header, text, id }) => {
+  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -56,7 +58,7 @@ const SchoolCareApplicationForm = ({ header, text, id }) => {
         throw new Error(`API request failed with status ${response.status}`);
       }
 
-      alert(`Thank you 🎉 ${formData.firstName}, we would contact you for any necessary information needed`);
+      alert(`Thank you 🎉 ${formData.firstName}, click ok to be redirected to the final page`);
 
       setFormData({
         firstName: "",
@@ -67,6 +69,8 @@ const SchoolCareApplicationForm = ({ header, text, id }) => {
         hear: "",
         consent: false,
       });
+
+      navigate('congratulations');
 
     } catch (error) {
       alert(error.message || "Error in Submitting, Try Again");
@@ -143,7 +147,7 @@ const SchoolCareApplicationForm = ({ header, text, id }) => {
           {
             isSubmitting ? (
               <button type="submit" className="bg-orange-500 text-white p-3 rounded-md font-semibold hover:bg-blue-700 transition" disabled>
-                Please wait, loading ...
+                Please wait, Redirecting...
               </button>
             ) : (
               <button type="submit" className="bg-orange-500 text-white p-3 rounded-md font-semibold hover:bg-blue-700 transition">

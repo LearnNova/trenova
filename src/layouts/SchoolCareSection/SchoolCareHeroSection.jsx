@@ -14,7 +14,7 @@ const SchoolCareHeroSection = () => {
                 <h1 className='text-29xl lg:text-77xl font-extrabold text-orange-500' style={{fontFamily: 'Big Shoulders Display, sans-serif', textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)"}}>
                     School Support Partners
                 </h1>
-                <p className='text-9xl md:text-13xl lg:text-21xl font-medium' style={{fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(0, 0, 0, 0.6)", color: 'rgb(0, 11, 114)'}}>
+                <p className='text-9xl md:text-13xl lg:text-21xl font-medium bg-black' style={{ fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(27, 9, 9, 0.6)", color: 'rgb(251, 255, 0)', backgroundColor: "rgba(0, 0, 0, 0.25)"}}>
                     Your Partner in Wealth Creation
                 </p>
             </div>

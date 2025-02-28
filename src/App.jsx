@@ -87,9 +87,16 @@ const App = () => {
           element={
             <>
             <PageTitle title="School Support Partner" />
-            <SchoolCarePage>
-              <SchoolCareCongratulationsPage />
-            </SchoolCarePage>
+            <SchoolCarePage />
+            </>
+        } />
+
+        <Route 
+          path="schoolsupportpartner/congratulations" 
+          element={
+            <>
+            <PageTitle title="Congratulations" />
+            <SchoolCareCongratulationsPage />
             </>
         } /> 
 

@@ -19,7 +19,7 @@ const FooterSection = () => {
         </div>
 
         <div>
-          <a href="tel:07044086794"><b>Whatsapp: 0704 408 6794</b></a>
+          <a href="tel:08023781682"><b>Whatsapp: 0802 378 1682</b></a>
           <div style={{color: '#4151E5', marginBottom: '10px', textAlign: 'center', marginTop: '10px', fontSize: '1.35em'}}><a href='https://www.learnnova.ng' target='blank'><b>www.learnnova.ng</b></a></div>
         </div>
         
