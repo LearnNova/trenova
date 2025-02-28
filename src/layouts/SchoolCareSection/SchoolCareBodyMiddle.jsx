@@ -131,22 +131,22 @@ const SchoolCareBodyMiddle = () => {
 
       <div className='px-2 py-4'>
         <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold underline' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-          Required <span className="text-orange-500">Investment</span>
+          Start-Up <span className="text-orange-500">Investment</span> & <span className="text-orange-500">Maintenance:</span>
         </h1>
 
         <table className="mt-2 table-auto border-collapse border border-gray-400 w-full">
           <tbody className="text-lg md:text-xl lg:text-3xl">
               <tr className="bg-gray-100 text-black">
                 <td className="border border-gray-400 px-4 py-2">Registration Fee:</td>
-                <td className="border border-gray-400 px-4 py-2 font-bold">₦50,000</td>
+                <td className="border border-gray-400 px-4 py-2 font-semibold">₦75,000</td>
               </tr>
               <tr>
-                <td className="border border-gray-400 px-4 py-2">License Renewal Fee:<span className="block font-bold">(Due in Jan, April & Sept)</span></td>
-                <td className="border border-gray-400 px-4 py-2 font-bold">₦49,999 <span className="font-normal">Per Term</span></td>
+                <td className="border border-gray-400 px-4 py-2">License Renewal Requirement:</td>
+                <td className="border border-gray-400 px-4 py-2">A minimum of <span className="font-semibold">10 active</span> customers per year</td>
               </tr>
               <tr className="bg-gray-100 text-black">
                 <td className="border border-gray-400 px-4 py-2">Working Capital:</td>
-                <td className="border border-gray-400 px-4 py-2 font-bold text-orange-500">4 months <span className="font-normal text-black">of operational cost in liquid asset</span></td>
+                <td className="border border-gray-400 px-4 py-2">Sufficient liquid assets to cover <span className="font-semibold text-orange-500">4 months</span> of operational costs.</td>
               </tr>
           </tbody>
         </table>

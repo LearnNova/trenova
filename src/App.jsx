@@ -15,6 +15,7 @@ import PageTitle from "utils/PageTitle";
 import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
 import ReferralPage from "pages/ReferralPage";
 import SchoolCarePage from "pages/SchoolCarePage";
+import SchoolCareCongratulationsPage from "layouts/SchoolCareSection/SchoolCareCongratulationsPage";
 
 const App = () => {
   return (
@@ -86,7 +87,9 @@ const App = () => {
           element={
             <>
             <PageTitle title="School Support Partner" />
-            <SchoolCarePage />
+            <SchoolCarePage>
+              <SchoolCareCongratulationsPage />
+            </SchoolCarePage>
             </>
         } /> 
 
