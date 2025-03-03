@@ -19,7 +19,7 @@ const Input = ({ label, type, required, name, placeholder, value, minLength, onC
   </div>
 );
 
-const SchoolCareApplicationForm = ({ header, text, id }) => {
+const SchoolCareApplicationForm = ({ id }) => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
@@ -33,6 +33,7 @@ const SchoolCareApplicationForm = ({ header, text, id }) => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showForm, setShowForm] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -80,85 +81,97 @@ const SchoolCareApplicationForm = ({ header, text, id }) => {
   };
 
   return (
-    <section className="mx-2 border rounded-md pt-2 text-black" style={{ background: "#F0FBF9" }} id={id}>
+    <section className="mx-2 border rounded-md pt-2 pb-3 text-black" style={{ background: "#F0FBF9" }} id={id}>
       <div className="px-2 pt-4">
         <h1 className="text-13xl md:text-17xl lg:text-21xl font-extrabold" style={{ fontFamily: "Big Shoulders Display, sans-serif" }}>
-          {header}
-          {/* Get in <span className="text-orange-500">Touch</span> */}
+          Get Started <span className="text-orange-500">Today!</span>
         </h1>
         <p className="mb-4 text-lg md:text-xl lg:text-3xl">
-          {text}
+          Register your interest, and if opportunities are available in your preferred territory, we’ll contact you through your chosen method.
+        </p>
+
+        <p 
+          className='text-lg md:text-xl lg:text-3xl font-semibold text-orange-500 hover:underline hover:text-black' 
+          style={{fontFamily: 'Big Shoulders Display, sans-serif'}}
+          onClick={()=>setShowForm(true)}
+          >
+          Enrol Now
         </p>
       </div>
 
-      <form className="w-full mx-auto p-3 rounded-lg shadow-md" onSubmit={handleSubmit}>
-        <h1 className="text-xl md:text-3xl lg:text-5xl font-bold mb-3">
-          Complete the Form Below:
-        </h1>
+      {
+        showForm && (
+          <form className="w-full mx-auto px-3 pt-3 rounded-lg shadow-md" onSubmit={handleSubmit}>
+            <h1 className="text-xl md:text-3xl lg:text-5xl font-bold mb-3">
+              Complete the Form Below:
+            </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* First Name */}
-          <Input label="First Name" type="text" name="firstName" required value={formData.firstName} onChange={handleChange} />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* First Name */}
+              <Input label="First Name" type="text" name="firstName" required value={formData.firstName} onChange={handleChange} />
 
-          {/* Last Name */}
-          <Input label="Last Name" type="text" name="lastName" required value={formData.lastName} onChange={handleChange} />
+              {/* Last Name */}
+              <Input label="Last Name" type="text" name="lastName" required value={formData.lastName} onChange={handleChange} />
 
-          {/* Phone Number */}
-          <Input label="Phone Number" type="tel" name="phoneNumber" placeholder="09137819540" minLength={11} required value={formData.phoneNumber} onChange={handleChange} />
+              {/* Phone Number */}
+              <Input label="Phone Number" type="tel" name="phoneNumber" placeholder="09137819540" minLength={11} required value={formData.phoneNumber} onChange={handleChange} />
 
-          {/* Email Address */}
-          <Input label="Email Address" type="email" name="email" required value={formData.email} onChange={handleChange} />
+              {/* Email Address */}
+              <Input label="Email Address" type="email" name="email" required value={formData.email} onChange={handleChange} />
 
-          {/* Preferred Territory */}
-          <div>
-            <label className="block text-gold font-semibold">Preferred Territory</label>
-            <select
-              name="preferredTerritory"
-              value={formData.preferredTerritory}
-              onChange={handleChange}
-              className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
-              required
-            >
-              <option value='' disabled>Select a Territory</option>
-              {availableTerritories.map((territory) => (
-                <option key={territory.value} value={territory.name}>
-                  {territory.name}
-                </option>
-              ))}
-            </select>
-          </div>
+              {/* Preferred Territory */}
+              <div>
+                <label className="block text-gold font-semibold">Preferred Territory</label>
+                <select
+                  name="preferredTerritory"
+                  value={formData.preferredTerritory}
+                  onChange={handleChange}
+                  className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  required
+                >
+                  <option value='' disabled>Select a Territory</option>
+                  {availableTerritories.map((territory) => (
+                    <option key={territory.value} value={territory.name}>
+                      {territory.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
 
-          {/* How did you hear about us? */}
-          <Input label="How Did You Hear About Us?" type="text" name="hear" placeholder='How did you hear about us?' required value={formData.hear} onChange={handleChange} />
-        </div>
+              {/* How did you hear about us? */}
+              <Input label="How Did You Hear About Us?" type="text" name="hear" placeholder='How did you hear about us?' required value={formData.hear} onChange={handleChange} />
+            </div>
 
-        {/* Consent Checkbox */}
-        <div className="mt-4">
-          <label className="flex items-center">
-            <input type="checkbox" name="consent" checked={formData.consent} onChange={handleChange} className="mr-2" required />
-            <span className="text-gray-800 text-lg">
-              I consent to receive communications from School Support Partners regarding business opportunities, industry updates, and related content. I understand I can unsubscribe at any time.
-            </span>
-          </label>
-        </div>
+            {/* Consent Checkbox */}
+            <div className="mt-4">
+              <label className="flex items-center">
+                <input type="checkbox" name="consent" checked={formData.consent} onChange={handleChange} className="mr-2" required />
+                <span className="text-gray-800 text-lg">
+                  I consent to receive communications from School Support Partners regarding business opportunities, industry updates, and related content. I understand I can unsubscribe at any time.
+                </span>
+              </label>
+            </div>
 
-        {/* Submit Button */}
-        <div className="mt-6 flex justify-around">
-          {
-            isSubmitting ? (
-              <button type="submit" className="bg-orange-500 text-white p-3 rounded-md font-semibold hover:bg-blue-700 transition" disabled>
-                Please wait, Redirecting...
-              </button>
-            ) : (
-              <button type="submit" className="bg-orange-500 text-white p-3 rounded-md font-semibold hover:bg-blue-700 transition">
-                Submit
-              </button>
-            )
-          }
-          
-        </div>
+            {/* Submit Button */}
+            <div className="mt-6 flex justify-around">
+              {
+                isSubmitting ? (
+                  <button type="submit" className="bg-orange-500 text-white p-3 rounded-md font-semibold hover:bg-blue-700 transition" disabled>
+                    Please wait, Redirecting...
+                  </button>
+                ) : (
+                  <button type="submit" className="bg-orange-500 text-white p-3 rounded-md font-semibold hover:bg-blue-700 transition">
+                    Submit
+                  </button>
+                )
+              }
+              
+            </div>
         
-      </form>
+          </form>
+        )
+      }
+      
     </section>
   );
 };
