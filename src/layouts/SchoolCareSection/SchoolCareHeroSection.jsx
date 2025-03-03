@@ -18,7 +18,11 @@ const SchoolCareHeroSection = () => {
                     Your Partner in Wealth Creation
                 </p>
 
-                <a className='text-lg md:text-xl lg:text-3xl font-bold bg-orange-500 rounded-md text-white hover:bg-gray-800 shadow-md p-2 mt-3' style={{display: 'inline-block'}}>
+                <a 
+                className='text-lg md:text-xl lg:text-3xl font-semibold bg-orange-500 rounded-md text-white hover:bg-gray-800 shadow-md py-2 px-3 mt-3 cursor-pointer' 
+                style={{display: 'inline-block'}}
+                href='#getintouch1'
+                >
                     Enrol Now
                 </a>
             </div>
