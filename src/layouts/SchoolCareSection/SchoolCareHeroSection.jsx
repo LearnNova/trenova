@@ -17,6 +17,10 @@ const SchoolCareHeroSection = () => {
                 <p className='text-9xl md:text-13xl lg:text-21xl font-medium bg-black' style={{ fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(27, 9, 9, 0.6)", color: 'rgb(251, 255, 0)', backgroundColor: "rgba(0, 0, 0, 0.25)"}}>
                     Your Partner in Wealth Creation
                 </p>
+
+                <a className='text-lg md:text-xl lg:text-3xl font-bold bg-orange-500 rounded-md text-white hover:bg-gray-800 shadow-md p-2 mt-3' style={{display: 'inline-block'}}>
+                    Enrol Now
+                </a>
             </div>
         </div>
 
