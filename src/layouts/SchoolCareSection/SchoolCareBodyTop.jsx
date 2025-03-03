@@ -9,20 +9,20 @@ const SchoolCareBodyTop = () => {
                 TERRITORIES, WHAT YOU GET & INVESTMENT
             </h1>
             <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-                School Support Partners has room to grow in many markets. Check out what territories in Nigeria are open for investment.
+                LearnNova School Support Business is expanding across multiple markets.
             </p>
 
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold capitalize text-orange-500 hover:underline hover:text-white' href='#territories' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-                View Open Territories
+                Check out what territories in Nigeria are open for investment.
             </a>
         </div>
 
         <div className="px-2 py-10 border flex flex-col items-center text-center">
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold uppercase' style={{fontFamily: 'Big Shoulders Display, sans-serif'}} id="schoolbusinessopportunity">
-                IS A SCHOOL SURPORT PARTNERS BUSINESS OPPORTUNITY RIGHT FOR YOU?
+                IS A SCHOOL SUPPORT BUSINESS RIGHT FOR YOU?
             </h1>
             <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-                As a School <a className='font-extrabold text-orange-500 hover:underline hover:text-white' href="#quiz">Support Owner-Operator Business Partner</a>, you’ll have the independence of running your own business while benefiting from the credibility and resources of a nationally recognized brand in the private school sector. Enjoy the freedom of entrepreneurship with the backing you need to thrive.
+                As a <a className='font-extrabold text-orange-500 hover:underline hover:text-white' href="#quiz">LearnNova School Support Business Owner</a>, you’ll have the independence to run your own business while leveraging the credibility and resources of a nationally recognized brand in the private school sector. Enjoy the flexibility of entrepreneurship with the support you need to succeed.
             </p>
 
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold capitalize text-orange-500 hover:underline hover:text-white' href='#quiz' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
@@ -34,10 +34,10 @@ const SchoolCareBodyTop = () => {
 
         <div className='px-2 py-4'>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold text-center' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-                The School Support Partners <span className='text-orange-500'>Advantage</span>
+                The LearnNova School Support Business <span className='text-orange-500'>Advantage</span>
             </h1>
             <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-                What sets us apart? We lead the industry in nearly every category, giving our partners a significant competitive edge.
+                What makes us stand out? We excel across the industry, providing our partners with a powerful competitive edge.
             </p>
 
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold text-orange-500 hover:underline hover:text-white' href='#schoolsupportadvantage' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
@@ -47,10 +47,10 @@ const SchoolCareBodyTop = () => {
 
         <div className="px-2 py-10 border flex flex-col items-center text-center">
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-                What Makes a Great School Support Partners Operator?
+                What Defines a Successful School Support Business Operator?
             </h1>
             <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-                Our operators come from diverse backgrounds, but they share a common goal—being proactive, dynamic leaders who leverage a proven business system to build their legacy.
+                Our operators come from diverse backgrounds but share a common drive - proactive leadership, adaptability, and a commitment to leveraging a proven business system to create lasting impact.
             </p>
 
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold capitalize text-orange-500 hover:underline hover:text-white' href='#greatschoolsupportoperator' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
@@ -75,26 +75,26 @@ const SchoolCareBodyTop = () => {
 
         <div className='px-2 py-4'>
             <p className='mb-4 text-3xl md:text-5xl lg:text-7xl'>
-                Learn more about the financial, personal benefits, and geographic requirements <span className='font-semibold text-orange-500 hover:text-white'>below</span>.
+                Explore the Financial Benefits, Personal Rewards, and Geographic Requirements Below <span className='font-semibold text-orange-500 hover:text-white'>Below</span>
             </p>
 
             <table className="table-auto border-collapse border border-gray-400 w-full">
                 <tbody className="text-lg md:text-xl lg:text-3xl">
                     <tr>
-                        <td className="border border-gray-400 px-4 py-2">Termly Subscription Fee Per School</td>
-                        <td className="border border-gray-400 px-4 py-2 font-bold">₦124,999</td>
+                        <td className="border border-gray-400 px-4 py-2">Typical Subscription Fee per School (Per Term):</td>
+                        <td className="border border-gray-400 px-4 py-2 font-bold">₦125,000</td>
                     </tr>
                     <tr className="bg-gray-100">
-                        <td className="text-black border border-gray-400 px-4 py-2">School <span className="font-bold text-orange-500">Support Partners</span> Net Revenue Per School (60%)</td>
-                        <td className="text-black border border-gray-400 px-4 py-2 font-bold">₦75,000</td>
+                        <td className="text-black border border-gray-400 px-4 py-2">School <span className="font-bold text-orange-500">Support Business Owner's</span> Revenue:</td>
+                        <td className="text-black border border-gray-400 px-4 py-2 font-bold">60% (<span className="text-orange-500">₦75,000</span> per school)</td>
                     </tr>
                     <tr>
-                        <td className="border border-gray-400 px-4 py-2">One Week Set-up Training & e-Flier for Marketing</td>
+                        <td className="border border-gray-400 px-4 py-2">One-Week Setup Training, Continuous Capability Development Training, & Marketing E-Flier:</td>
                         <td className="border border-gray-400 px-4 py-2 font-bold underline text-orange-500">FREE</td>
                     </tr>
                     <tr className="bg-gray-100">
-                        <td className="text-black border border-gray-400 px-4 py-2">Intending School Support Business Owner must live in an open geographic market</td>
-                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><a className="text-orange-500 hover:underline hover:text-black" href="#a">See Available Territories Below</a></td>
+                        <td className="text-black border border-gray-400 px-4 py-2">Available Territories:</td>
+                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><a className="text-orange-500 hover:underline hover:text-black" href="#a">(See list below)</a> – Applicants must reside in an open geographic territory.</td>
                     </tr>
                 </tbody>
             </table>

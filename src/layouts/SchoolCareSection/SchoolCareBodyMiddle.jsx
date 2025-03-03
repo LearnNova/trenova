@@ -8,32 +8,31 @@ const SchoolCareBodyMiddle = () => {
         </h1>
 
         <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-          As a School Support Partners Business Owner, you gain access to powerful tools, training, and resources to help you build a thriving business. Here's what you get:
+          As a <span className='font-semibold text-orange-500'>LearnNova School Support Business Owner</span>, you gain access to industry-leading tools, training, and resources designed to help you build a thriving and profitable business. Here’s what’s included:
         </p>
 
         <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
           <li>
-            School Learning Support System:
+            School Learning Support System
+            <p className="mb-3">A <span className="font-semibold">comprehensive desktop-based platform</span> that enhances student learning across various age groups:</p>
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                A comprehensive desktop-based platform designed to enhance learning for students across various age groups:
+                <span className="font-semibold">Mathematics:</span> 2,400 lessons and 8,000+ exam questions & answers for Senior Secondary School students.
               </li>
               <li>
-                <span className="font-bold">Mathematics:</span> Tailored for Senior Secondary School students, featuring 2,400 lessons and over 8,000 exam questions and answers.
+                <span className="font-semibold">Diction & Phonetics:</span> 540 lessons and 500+ exercises for Elementary School pupils.
               </li>
               <li>
-                <span className="font-bold">Diction and Phonetics:</span> Targeted at Elementary School pupils, offering 540 lessons with about 500 questions and answers.
+                <span className="font-semibold">E-Library:</span> 650–950 curated books for ages 3–17, encouraging students to read 12–20 books per academic term.
               </li>
               <li>
-                <span className="font-bold">E-Library:</span> Curated for children aged 3 to 17, providing 650 to 950 books to encourage reading of 12 to 20 books per academic term.
+                <span className="font-semibold">Creative & Vocational Lessons:</span> Engaging courses for all age groups to foster creativity and practical skills.
               </li>
-              <li>
-                <span className="font-bold">Creative and Vocational Lessons:</span> Suitable for all age groups, promoting creativity and practical skills.
-              </li>
-              <li>
+              {/* <li>
                 The system includes full resale rights, allowing you to sell to an unlimited number of schools and retain <span className="font-bold">60%</span> of the termly subscription fee.
-              </li>
+              </li> */}
             </ul>
+            <p className="mt-3"><span className="semi-bold">Full Resale Rights</span> – Sell to unlimited schools and keep <span className="semibold">60% of the termly subscription fee</span>.</p>
           </li>
 
           <li>
