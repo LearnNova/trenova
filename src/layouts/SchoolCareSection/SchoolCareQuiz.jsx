@@ -4,22 +4,22 @@ const SchoolCareQuiz = () => {
         {
             name: 'question_1',
             question: 'Are you currently employed?',
-            text: <>School Support Partners businesses are designed to be <span className="font-semibold">manager-run</span>, meaning you don’t have to be present every day. However, it’s <span className="font-semibold">not an absentee business</span> - our most successful owners often start while keeping their jobs and transition to full-time ownership over time.</>
+            text: <>School Support Network businesses are designed to be <span className="font-semibold">manager-run</span>, meaning you don’t have to be present every day. However, it’s <span className="font-semibold">not an absentee business</span> - our most successful owners often start while keeping their jobs and transition to full-time ownership over time.</>
         },
         {
             name: 'question_2',
             question: 'Are you willing to follow a proven system?',
-            text: <>Success in business often comes from <span className="font-semibold">following a well-structured system</span>. With over <span className="font-semibold">15 years of refinement</span>, the School Support Partners model is designed to eliminate guesswork so you can hit the ground running.</>
+            text: <>Success in business often comes from <span className="font-semibold">following a well-structured system</span>. With over <span className="font-semibold">15 years of refinement</span>, the School Support Network model is designed to eliminate guesswork so you can hit the ground running.</>
         },
         {
             name: 'question_3',
             question: 'Do you want to work for yourself?',
-            text: <>Tired of the corporate grind? School Support Partners offers a <span className="font-semibold">clear path to entrepreneurship</span>, giving you the freedom to transition from working "for the man" to <span className="font-semibold">being in charge of your own success</span>!</>
+            text: <>Tired of the corporate grind? School Support Network offers a <span className="font-semibold">clear path to entrepreneurship</span>, giving you the freedom to transition from working "for the man" to <span className="font-semibold">being in charge of your own success</span>!</>
         },
         {
             name: 'question_4',
             question: 'Do you have experience managing people?',
-            text: <>Great! School Support Partners is a <span className="font-semibold">people-focused business</span>, and strong leadership skills will help you succeed. If you've managed teams and understand <span className="font-semibold">recruiting, training, and retention</span>, you're already ahead of the game.</>
+            text: <>Great! School Support Network is a <span className="font-semibold">people-focused business</span>, and strong leadership skills will help you succeed. If you've managed teams and understand <span className="font-semibold">recruiting, training, and retention</span>, you're already ahead of the game.</>
         },
         {
             name: 'question_5',
