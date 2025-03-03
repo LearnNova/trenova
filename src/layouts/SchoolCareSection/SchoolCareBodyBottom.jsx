@@ -25,7 +25,7 @@ const SchoolCareBodyBottom = () => {
 
         <div className='px-2 py-4'>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-                <span className="text-orange-500">Still Exploring?</span> Learn More About School Support Partners
+                <span className="text-orange-500">Still Exploring?</span> Learn More About the School Support Network
             </h1>
             <p className='mb-1 text-lg md:text-xl lg:text-3xl'>
                 Not sure if this opportunity is right for you? Explore these key pages:
@@ -46,10 +46,10 @@ const SchoolCareBodyBottom = () => {
 
         <div className='mx-2 mt-3 mb-8 p-2 border rounded-md border-gray-600 flex flex-col' style={{background: '#25242a'}}>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-              The School Support Partners Advantage <span className="block">A Powerful Brand with a Proven Track Record</span>
+              The LearnNova School Support Business Advantage <span className="block">A Powerful Brand with a Proven Track Record</span>
             </h1>
             <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-              For over <span className="font-bold">15 years</span>, School Support Partners has built a <span className="font-bold">trusted name</span> in private school growth and development.
+              For over <span className="font-bold">15 years</span>, School Support Network has built a <span className="font-bold">trusted name</span> in private school growth and development.
             </p>
         </div>
 
@@ -58,11 +58,11 @@ const SchoolCareBodyBottom = () => {
 
         <div className='px-2 py-4'>
           <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}} id="whychooseschoolpartner">
-            Why Choose <span className="text-orange-500">School Support Partners?</span> The Numbers Speak for Themselves
+            Why Choose <span className="text-orange-500">School Support Network?</span> The Numbers Speak for Themselves
           </h1>
   
           {/* <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-            As a School Support Partners Business Owner, you gain access to powerful tools, training, and resources to help you build a thriving business. Here's what you get:
+            As a School Support Network Business Owner, you gain access to powerful tools, training, and resources to help you build a thriving business. Here's what you get:
           </p> */}
   
           <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
@@ -70,7 +70,7 @@ const SchoolCareBodyBottom = () => {
               Unmatched Brand Presence
               <ul className="list-disc mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
                 <li>
-                  TreNova, the parent company of School Support Partners, is <span className="font-bold">Nigeria’s largest and fastest-growing private school training academy</span>, with over <span className="font-bold">15,000 schools trained</span>—outpacing competitors by over <span className="font-bold">40%</span>.
+                  TreNova, the parent company of School Support Network, is <span className="font-bold">Nigeria’s largest and fastest-growing private school training academy</span>, with over <span className="font-bold">15,000 schools trained</span>—outpacing competitors by over <span className="font-bold">40%</span>.
                 </li>
               </ul>
             </li>
@@ -127,11 +127,11 @@ const SchoolCareBodyBottom = () => {
 
         <div className='px-2 py-4'>
           <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}} id="greatschoolsupportoperator">
-            What Makes a Great <span className="text-orange-500">School Support Partners</span> Business Owner?
+            What Makes a Great <span className="text-orange-500">School Support Network</span> Business Owner?
           </h1>
           <p className='mb-4 mt-3 text-lg md:text-xl lg:text-3xl'>
             <span className="block font-bold">Key Responsibilities of a Business Owner</span>
-            While School Support Partners owners come from diverse backgrounds, their core responsibilities remain the same—leading with engagement and ambition while leveraging our proven system.
+            While School Support Network Business owners come from diverse backgrounds, their core responsibilities remain the same—leading with engagement and ambition while leveraging our proven system.
           </p>
         </div>
 
@@ -153,7 +153,7 @@ const SchoolCareBodyBottom = () => {
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Embrace Growth Opportunities</span> – Work with the School Support Partners team to identify and seize expansion opportunities in your market.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Embrace Growth Opportunities</span> – Work with the School Support Network team to identify and seize expansion opportunities in your market.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
@@ -189,7 +189,7 @@ const SchoolCareBodyBottom = () => {
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Community & People Focused</span> – Great owners <span className="font-bold">support their employees, customers, and fellow franchisees</span>, making School Support Partners a force for positive change in private education.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Community & People Focused</span> – Great owners <span className="font-bold">support their employees, customers, and fellow franchisees</span>, making School Support Network a force for positive change in private education.
             </p>
         </div>
 
