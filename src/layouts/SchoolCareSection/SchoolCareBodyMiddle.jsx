@@ -14,7 +14,7 @@ const SchoolCareBodyMiddle = () => {
         <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
           <li>
             School Learning Support System
-            <p className="mb-3">A <span className="font-semibold">comprehensive desktop-based platform</span> that enhances student learning across various age groups:</p>
+            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white">A <span className="font-semibold">comprehensive desktop-based platform</span> that enhances student learning across various age groups:</p>
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
                 <span className="font-semibold">Mathematics:</span> 2,400 lessons and 8,000+ exam questions & answers for Senior Secondary School students.
@@ -28,11 +28,8 @@ const SchoolCareBodyMiddle = () => {
               <li>
                 <span className="font-semibold">Creative & Vocational Lessons:</span> Engaging courses for all age groups to foster creativity and practical skills.
               </li>
-              {/* <li>
-                The system includes full resale rights, allowing you to sell to an unlimited number of schools and retain <span className="font-bold">60%</span> of the termly subscription fee.
-              </li> */}
             </ul>
-            <p className="mt-3"><span className="semi-bold">Full Resale Rights</span> – Sell to unlimited schools and keep <span className="semibold">60% of the termly subscription fee</span>.</p>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white"><span className="mr-1">✅</span><span className="semi-bold">Full Resale Rights</span> – Sell to unlimited schools and keep <span className="semibold">60% of the termly subscription fee</span>.</p>
           </li>
 
           <li>
