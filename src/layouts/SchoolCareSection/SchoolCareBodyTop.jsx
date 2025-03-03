@@ -75,7 +75,7 @@ const SchoolCareBodyTop = () => {
 
         <div className='px-2 py-4'>
             <p className='mb-4 text-3xl md:text-5xl lg:text-7xl'>
-                Explore the Financial Benefits, Personal Rewards, and Geographic Requirements Below <span className='font-semibold text-orange-500 hover:text-white'>Below</span>
+                Explore the Financial Benefits, Personal Rewards, and Geographic Requirements <span className='font-semibold text-orange-500 hover:text-white'>Below:</span>
             </p>
 
             <table className="table-auto border-collapse border border-gray-400 w-full">
@@ -86,7 +86,7 @@ const SchoolCareBodyTop = () => {
                     </tr>
                     <tr className="bg-gray-100">
                         <td className="text-black border border-gray-400 px-4 py-2">School <span className="font-bold text-orange-500">Support Business Owner's</span> Revenue:</td>
-                        <td className="text-black border border-gray-400 px-4 py-2 font-bold">60% (<span className="text-orange-500">₦75,000</span> per school)</td>
+                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><span className="text-orange-500">25%</span> per sale to school</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-400 px-4 py-2">One-Week Setup Training, Continuous Capability Development Training, & Marketing E-Flier:</td>
