@@ -29,7 +29,7 @@ const SchoolCareBodyMiddle = () => {
                 <span className="font-semibold">Creative & Vocational Lessons:</span> Engaging courses for all age groups to foster creativity and practical skills.
               </li>
             </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Sell to unlimited schools and keep <span className="semibold">52%</span> of the termly subscription fee.</p>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Sell to unlimited schools and keep <span className="font-semibold">52%</span> of the termly subscription fee.</p>
           </li>
 
           <li>
@@ -141,7 +141,7 @@ const SchoolCareBodyMiddle = () => {
           </tbody>
         </table>
 
-        <a className='text-lg md:text-xl lg:text-3xl font-semibold text-orange-500 hover:underline hover:text-white' href="#getintouch2">
+        <a className='text-lg md:text-xl lg:text-3xl font-semibold text-orange-500 hover:underline hover:text-white mt-2' href="#getintouch2">
           Enrol Now
         </a>
       </div>

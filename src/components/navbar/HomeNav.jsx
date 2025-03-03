@@ -22,7 +22,7 @@ const navigation = [
     href: "/MentorNigeria",
   },
   {
-    name: "School Support Partner",
+    name: "School Support Network",
     href: "/schoolsupportpartner",
   },
   {
