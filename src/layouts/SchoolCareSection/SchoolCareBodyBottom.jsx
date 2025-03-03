@@ -141,27 +141,27 @@ const SchoolCareBodyBottom = () => {
             </h1>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Be Actively Involved</span> – No one will care about your success like you do!
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Be Actively Involved</span> – No one will care about your success like you do!
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Participate in Your Local Network</span> – Collaborate with other School Support business operators to strengthen the brand and business.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Participate in Your Local Network</span> – Collaborate with other School Support business operators to strengthen the brand and business.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Build Strong Relationships with Your Team</span> – A positive workplace culture improves staff retention and reduces recruitment needs.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Build Strong Relationships with Your Team</span> – A positive workplace culture improves staff retention and reduces recruitment needs.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Embrace Growth Opportunities</span> – Work with the School Support Partners team to identify and seize expansion opportunities in your market.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Embrace Growth Opportunities</span> – Work with the School Support Partners team to identify and seize expansion opportunities in your market.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Market Your Business</span> – Use our marketing support to promote your services and attract customers.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Market Your Business</span> – Use our marketing support to promote your services and attract customers.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Follow the System</span> – Success is built on consistency. Our <span className="font-bold">15+ year proven system</span> ensures you don’t have to start from scratch.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Follow the System</span> – Success is built on consistency. Our <span className="font-bold">15+ year proven system</span> ensures you don’t have to start from scratch.
             </p>
         </div>
 
@@ -173,23 +173,23 @@ const SchoolCareBodyBottom = () => {
             </h1>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Ability to Follow a System</span> – Success comes from leveraging a <span className="font-bold">well-tested, 15-year business model</span>.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Ability to Follow a System</span> – Success comes from leveraging a <span className="font-bold">well-tested, 15-year business model</span>.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Entrepreneurial & Leadership Skills</span> – Owners should have a <span className="font-bold">business mindset</span>, a passion for leadership, and a commitment to growing their team.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Entrepreneurial & Leadership Skills</span> – Owners should have a <span className="font-bold">business mindset</span>, a passion for leadership, and a commitment to growing their team.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Hands-On Business Engagement</span> – While this isn’t an absentee business, you don’t need to be present daily. However, staying involved in <span className="font-bold">operations, marketing, and community outreach</span> is key.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Hands-On Business Engagement</span> – While this isn’t an absentee business, you don’t need to be present daily. However, staying involved in <span className="font-bold">operations, marketing, and community outreach</span> is key.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Growth-Oriented Mindset</span> – Many of our top owners expand to <span className="font-bold">multiple locations</span> for increased profitability.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Growth-Oriented Mindset</span> – Many of our top owners expand to <span className="font-bold">multiple locations</span> for increased profitability.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="text-white mr-1 text-orange-500">✔</span><span className="font-bold text-orange-500">Community & People Focused</span> – Great owners <span className="font-bold">support their employees, customers, and fellow franchisees</span>, making School Support Partners a force for positive change in private education.
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Community & People Focused</span> – Great owners <span className="font-bold">support their employees, customers, and fellow franchisees</span>, making School Support Partners a force for positive change in private education.
             </p>
         </div>
 
