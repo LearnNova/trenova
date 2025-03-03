@@ -128,7 +128,7 @@ const SchoolCareBodyMiddle = () => {
           <tbody className="text-lg md:text-xl lg:text-3xl">
               <tr className="bg-gray-100 text-black">
                 <td className="border border-gray-400 px-4 py-2">Registration Fee:</td>
-                <td className="border border-gray-400 px-4 py-2 font-semibold">₦75,000</td>
+                <td className="border border-gray-400 px-4 py-2 font-semibold">₦50,000</td>
               </tr>
               <tr>
                 <td className="border border-gray-400 px-4 py-2">License Renewal Requirement:</td>
