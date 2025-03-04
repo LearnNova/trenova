@@ -7,7 +7,7 @@ const SchoolCareCongratulationsPage = () => {
                 Congratulations!!
             </h1>
             <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-                Below is the account details to send the registration fee of <span style={{color: "rgb(233, 0, 0)", fontWeight: 600}}>₦75,000</span> to, 
+                Below is the account details to send the registration fee of <span style={{color: "rgb(233, 0, 0)", fontWeight: 600}}>₦50,000</span> to, 
                 after sending the money, send a message on <span style={{color: "rgb(0, 194, 10)", fontWeight: 600}}>whatsapp</span> to 
                 any of the following <span className="font-semibold">whatsapp numbers</span>:
                 <a href="tel:08023781682" style={{color: "rgb(0, 194, 10)", fontWeight: 600}} className="hover:underline"> 0802 378 1682</a>, 
