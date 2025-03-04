@@ -66,6 +66,10 @@ const SchoolCareBodyMiddle = () => {
                   <li>Staff capability development</li>
                   <li>Revenue & profitability growth strategies</li>
                   <li>Leadership & management training</li>
+                  <li>Customer Service, Customer Experience and Relationship Management</li>
+                  <li>Conflict and Crisis Management</li>
+                  <li>Budgeting and Money Management</li>
+                  <li>Performance Management</li>
                 </ul>
               </li>
             </ul>
