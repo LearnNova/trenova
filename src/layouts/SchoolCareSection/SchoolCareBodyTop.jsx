@@ -85,8 +85,8 @@ const SchoolCareBodyTop = () => {
                         <td className="border border-gray-400 px-4 py-2 font-bold">₦125,000</td>
                     </tr>
                     <tr className="bg-gray-100">
-                        <td className="text-black border border-gray-400 px-4 py-2">School <span className="font-bold text-orange-500">Support Business Owner's</span> Revenue:</td>
-                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><span className="text-orange-500">25%</span> per sale to school</td>
+                        <td className="text-black border border-gray-400 px-4 py-2">Average Financial Gain Per Customer for a <span className="font-bold text-orange-500">School Support Business Owner</span>:</td>
+                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><span className="text-orange-500">25%</span> of the termly subscription fee.</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-400 px-4 py-2">One-Week Setup Training, Continuous Capability Development Training, & Marketing E-Flier:</td>
