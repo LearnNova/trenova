@@ -29,7 +29,7 @@ const SchoolCareBodyMiddle = () => {
                 <span className="font-semibold">Creative & Vocational Lessons:</span> Engaging courses for all age groups to foster creativity and practical skills.
               </li>
             </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Buy from LearnNova at <span className='font-semibold'>75%</span> of the standard price per unit and resell to unlimited schools at your chosen price.</p>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Buy from LearnNova at <span className='font-semibold'>76.7%</span> of the standard price per unit and resell to unlimited schools at your chosen price.</p>
           </li>
 
           <li>
@@ -40,7 +40,7 @@ const SchoolCareBodyMiddle = () => {
                 Includes E-Library for ages 3 to 17, Diction & Phonetics for Elementary School Pupils, Creative & Vocational Courses for all grade levels, and Mathematics tutorials for Senior Secondary School Students.
               </li>
             </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Gain full resale rights and empower unlimited learners across multiple schools. Each enrolled school receives <span className="font-semibold">35 free</span> learner sign-ups. Need more? Purchase additional units from LearnNova at <span className="font-semibold">75% of</span> the standard price and set your own resale price.</p>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Gain full resale rights and empower unlimited learners across multiple schools. Each enrolled school receives <span className="font-semibold">35 free</span> learner sign-ups. Need more? Purchase additional units from LearnNova at <span className="font-semibold">76.7% of</span> the standard price and set your own resale price.</p>
           </li>
 
           <li>
@@ -66,6 +66,10 @@ const SchoolCareBodyMiddle = () => {
                   <li>Staff capability development</li>
                   <li>Revenue & profitability growth strategies</li>
                   <li>Leadership & management training</li>
+                  <li>Customer Service, Customer Experience and Relationship Management</li>
+                  <li>Conflict and Crisis Management</li>
+                  <li>Budgeting and Money Management</li>
+                  <li>Performance Management</li>
                 </ul>
               </li>
             </ul>
