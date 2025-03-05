@@ -29,7 +29,7 @@ const SchoolCareQuiz = () => {
         {
             name: 'question_6',
             question: 'Do you have the initial investment of ₦75,000 plus working capital?',
-            text: <>Fantastic! The minimum initial investment for most markets is <span className="font-semibold">₦75,000</span>, along with <span className="font-semibold">liquid assets</span> for working capital. Learn more on the <span className="font-semibold">Investment Page</span>.</>
+            text: <>Fantastic! The minimum initial investment for most markets is <span className="font-semibold">₦75,000</span>, along with <span className="font-semibold">liquid assets</span> for working capital.</>
         },
     ];
 
