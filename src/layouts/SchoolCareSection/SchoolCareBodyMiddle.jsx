@@ -49,10 +49,8 @@ const SchoolCareBodyMiddle = () => {
               <li>
                 5 copies of this <span className="font-semibold">essential guidebook</span> on private school business growth.
               </li>
-              <li className="font-semibold">
-                <span className="mr-1">✅</span>Give it away or Sell at any price and keep 100% of the revenue.
-              </li>
             </ul>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span>Give it away or Sell at any price and keep 100% of the revenue.</p>
           </li>
 
           <li>
@@ -70,10 +68,8 @@ const SchoolCareBodyMiddle = () => {
                   <li>Conflict and Crisis Management</li>
                   <li>Budgeting and Money Management</li>
                   <li>Performance Management</li>
-                  <li>
-                    <span className="mr-1">✅</span><span className="font-semibold">Earn Training Revenue:</span> Utilize the training slides and materials to deliver paid sessions for your customers and retain 100% of the earnings.
-                  </li>
                 </ul>
+                <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Earn Training Revenue:</span> Utilize the training slides and materials to deliver paid sessions for your customers and retain 100% of the earnings.</p>
               </li>
             </ul>
           </li>
@@ -87,10 +83,8 @@ const SchoolCareBodyMiddle = () => {
               <li>
                 Members of the LearnNova School Support Network can enroll their clients in expert mentorship and coaching sessions for school growth.
               </li>
-              <li>
-                <span className="mr-1">✅</span><span className="font-semibold">Monetize Mentorship and Coaching:</span> Enroll your customers in TreNova mentorship and coaching sessions, set your own fees, and keep 100% of the revenue.
-              </li>
             </ul>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Monetize Mentorship and Coaching:</span> Enroll your customers in TreNova mentorship and coaching sessions, set your own fees, and keep 100% of the revenue.</p>
           </li>
 
           <li>
