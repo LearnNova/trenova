@@ -70,6 +70,9 @@ const SchoolCareBodyMiddle = () => {
                   <li>Conflict and Crisis Management</li>
                   <li>Budgeting and Money Management</li>
                   <li>Performance Management</li>
+                  <li>
+                    <span className="mr-1">✅</span><span className="font-semibold">Earn Training Revenue:</span> Utilize the training slides and materials to deliver paid sessions for your customers and retain 100% of the earnings.
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -82,7 +85,10 @@ const SchoolCareBodyMiddle = () => {
                 <span className="font-semibold">Exclusive access</span> to the <span className="font-semibold">TreNova Virtual Mentorship Program</span> (held twice a year).
               </li>
               <li>
-                LearnNova School Support Network members can enroll their customers for expert coaching sessions.
+                Members of the LearnNova School Support Network can enroll their clients in expert mentorship and coaching sessions for school growth.
+              </li>
+              <li>
+                <span className="mr-1">✅</span><span className="font-semibold">Monetize Mentorship and Coaching:</span> Enroll your customers in TreNova mentorship and coaching sessions, set your own fees, and keep 100% of the revenue.
               </li>
             </ul>
           </li>
@@ -132,7 +138,7 @@ const SchoolCareBodyMiddle = () => {
           <tbody className="text-lg md:text-xl lg:text-3xl">
               <tr className="bg-gray-100 text-black">
                 <td className="border border-gray-400 px-4 py-2">Registration Fee:</td>
-                <td className="border border-gray-400 px-4 py-2 font-semibold">₦50,000</td>
+                <td className="border border-gray-400 px-4 py-2 font-semibold">₦75,000</td>
               </tr>
               <tr>
                 <td className="border border-gray-400 px-4 py-2">License Renewal Requirement:</td>

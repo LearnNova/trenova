@@ -82,19 +82,19 @@ const SchoolCareBodyTop = () => {
                 <tbody className="text-lg md:text-xl lg:text-3xl">
                     <tr>
                         <td className="border border-gray-400 px-4 py-2">Typical Subscription Fee per School (Per Term):</td>
-                        <td className="border border-gray-400 px-4 py-2 font-bold">₦125,000</td>
+                        <td className="border border-gray-400 px-4 py-2 font-semibold">₦125,000</td>
                     </tr>
                     <tr className="bg-gray-100">
-                        <td className="text-black border border-gray-400 px-4 py-2">Average Financial Gain Per Customer for a <span className="font-bold text-orange-500">School Support Business Owner</span>:</td>
-                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><span className="text-orange-500">23.3%</span> of the termly subscription fee (₦400k income per month on 55 customers).</td>
+                        <td className="text-black border border-gray-400 px-4 py-2">Average Financial Gain Per Customer for a <span className="font-semibold text-orange-500">School Support Business Owner</span>:</td>
+                        <td className="text-black border border-gray-400 px-4 py-2"><span className="text-orange-500 font-semibold">23.3%</span> of the termly subscription fee (<span className="font-semibold">₦400k</span> income per month on <span className="font-semibold">55</span> customers).</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-400 px-4 py-2">One-Week Setup Training, Continuous Capability Development Training, & Marketing E-Flier:</td>
-                        <td className="border border-gray-400 px-4 py-2 font-bold underline text-orange-500">FREE</td>
+                        <td className="border border-gray-400 px-4 py-2 font-semibold underline text-orange-500 text-center">FREE</td>
                     </tr>
                     <tr className="bg-gray-100">
                         <td className="text-black border border-gray-400 px-4 py-2">Available Territories:</td>
-                        <td className="text-black border border-gray-400 px-4 py-2 font-bold"><a className="text-orange-500 hover:underline hover:text-black" href="#a">(See list below)</a> – Applicants must reside in an open geographic territory.</td>
+                        <td className="text-black border border-gray-400 px-4 py-2 font-semibold"><a className="text-orange-500 hover:underline hover:text-black" href="#territories">(See list below)</a> – Applicants must reside in an open geographic territory.</td>
                     </tr>
                 </tbody>
             </table>
