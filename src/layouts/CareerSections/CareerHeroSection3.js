@@ -133,9 +133,9 @@ const CareerHeroSection3 = () => {
                  <span className='paragraph-title'>Compensation Details:</span>
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
-                        <li><b>Marketing Fund: </b><span className='highlighter-big'><b>₦60,000</b></span> allocated per month.</li>
-                        <li><b>Performance Bonus: </b>Earn an extra <span className='highlighter-big'><b>17.5%</b></span> on each sale made beyond <b>14 units</b>.</li>
+                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦200,000</b></span> per month</li>
+                        <li><b>Marketing Fund: </b><span className='highlighter-big'><b>₦80,000</b></span> allocated per month.</li>
+                        <li><b>Performance Bonus: </b>Earn an additional <span className='highlighter-big'><b>17.5%</b></span> on each sale made beyond <b>15 units</b>.</li>
                     </ul>
                 </div>
             </div>
@@ -145,9 +145,7 @@ const CareerHeroSection3 = () => {
             <div className='career-other-hero-section-container'>
                 <span className='highlighter'><b>Probationary Period Policy:</b></span>
                 <div>
-                    If you sell fewer than <b>14 units</b> in a month, your base salary will be temporarily 
-                    suspended. Instead, your total compensation for that month will be limited 
-                    to <span className='highlighter-big'><b>17.5%</b></span> of your sales revenue.
+                    This role includes a <span className='font-semibold'>6-month</span> probationary period. During this time, if you sell fewer than <span className='font-semibold'>15 units</span> in a month, your base salary will be temporarily suspended, and your earnings for that month will be limited to <span className='highlighter-big'>17.5%</span> of your sales revenue.
                 </div> 
             </div>
 
