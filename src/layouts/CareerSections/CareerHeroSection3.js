@@ -145,7 +145,7 @@ const CareerHeroSection3 = () => {
             <div className='career-other-hero-section-container'>
                 <span className='highlighter'><b>Probationary Period Policy:</b></span>
                 <div>
-                    This role includes a <span className='font-semibold'>6-month</span> probationary period. During this time, if you sell fewer than <span className='font-semibold'>15 units</span> in a month, your base salary will be temporarily suspended, and your earnings for that month will be limited to <span className='highlighter-big'>17.5%</span> of your sales revenue.
+                    This role includes a <span className='font-semibold'>6-month</span> probationary period. During this time, if you sell fewer than <span className='font-semibold'>15 units</span> in a month, your base salary will be temporarily suspended, and your earnings for that month will be limited to <span className='highlighter-big font-semibold'>17.5%</span> of your sales revenue.
                 </div> 
             </div>
 
