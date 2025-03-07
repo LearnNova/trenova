@@ -91,7 +91,7 @@ const SchoolCareApplicationForm = ({ id }) => {
         </p>
 
         <p 
-          className='text-lg md:text-xl lg:text-3xl font-bold text-orange-500 hover:underline hover:text-black cursor-pointer'
+          className='text-lg md:text-xl lg:text-3xl font-bold text-orange-500 hover:text-black cursor-pointer'
           onClick={()=>setShowForm((prev)=> !prev)}
           >
           📌 Sign Up Now →

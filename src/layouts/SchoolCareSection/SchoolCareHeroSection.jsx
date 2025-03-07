@@ -21,7 +21,7 @@ const SchoolCareHeroSection = () => {
                 <a 
                 className='text-lg md:text-xl lg:text-3xl font-semibold bg-orange-500 rounded-md text-white hover:bg-gray-800 shadow-md py-2 px-3 mt-3 cursor-pointer' 
                 style={{display: 'inline-block'}}
-                href='#getintouch1'
+                href='#getintouch3'
                 >
                     Enrol Now
                 </a>
@@ -50,9 +50,9 @@ const SchoolCareHeroSection = () => {
                 Join a powerful network dedicated to enhancing education and empowering schools across Nigeria while unlocking new revenue opportunities for yourself.
             </p>
 
-            <a className='text-lg md:text-xl lg:text-3xl font-extrabold uppercase text-orange-500 hover:underline hover:text-white' href='#schoolbusinessopportunity' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
+            {/* <a className='text-lg md:text-xl lg:text-3xl font-extrabold uppercase text-orange-500 hover:underline hover:text-white' href='#schoolbusinessopportunity' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 learn more
-            </a>
+            </a> */}
         </div>
     </section>
     
