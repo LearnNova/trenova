@@ -3,10 +3,10 @@ import './mentornigeria.css'
 
 const FooterSection = () => {
   return (
-    <section className='text-black px-2 sm:px-6' style={{background: '#FA8806'}}>
-      <div className='flex flex-col md:flex-row  justify-between py-3'>
+    <section className='text-black px-2 sm:px-4 md:px-6' style={{background: '#FA8806'}}>
+      <div className='flex flex-col md:flex-row  justify-between py-3 gap-2'>
         <div>
-          <h3 className='text-xl md:text-3xl lg:text-5xl font-bold mb-2 leading-tight'>
+          <h3 className='text-xl md:text-3xl lg:text-5xl font-bold leading-tight'>
             LearnNova Learning Support Center,
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
@@ -18,7 +18,7 @@ const FooterSection = () => {
         </div>
 
         <div>
-          <h3 className='text-xl md:text-3xl lg:text-5xl font-bold mb-2'>
+          <h3 className='text-xl md:text-3xl lg:text-5xl font-bold'>
             Email
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
@@ -27,7 +27,7 @@ const FooterSection = () => {
         </div>
 
         <div>
-          <h3 className='text-xl md:text-3xl lg:text-5xl font-bold mb-2'>
+          <h3 className='text-xl md:text-3xl lg:text-5xl font-bold'>
             <a href="tel:07044086794">Contact</a>
           </h3>
           <ul className='list-none mx-0 px-0 font-semibold text-lg md:text-xl lg:text-3xl'>
