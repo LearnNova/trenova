@@ -84,17 +84,17 @@ const SchoolCareApplicationForm = ({ id }) => {
     <section className="mx-2 border rounded-md pt-2 pb-3 text-black" style={{ background: "#F0FBF9" }} id={id}>
       <div className="px-2 pt-4">
         <h1 className="text-13xl md:text-17xl lg:text-21xl font-extrabold" style={{ fontFamily: "Big Shoulders Display, sans-serif" }}>
-          Get Started <span className="text-orange-500">Today!</span>
+          Take the Next Step <span className="text-orange-500">Today!</span>
         </h1>
         <p className="mb-4 text-lg md:text-xl lg:text-3xl">
-          Register your interest, and if opportunities are available in your preferred territory, we’ll contact you through your chosen method.
+          Be part of the future of education while growing a profitable business.
         </p>
 
         <p 
           className='text-lg md:text-xl lg:text-3xl font-bold text-orange-500 hover:underline hover:text-black cursor-pointer'
           onClick={()=>setShowForm((prev)=> !prev)}
           >
-          Enrol Now
+          📌 Sign Up Now →
         </p>
       </div>
 
