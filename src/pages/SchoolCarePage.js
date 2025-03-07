@@ -13,15 +13,15 @@ const SchoolCarePage = () => {
         <SchoolCareNavbar />
         <SchoolCareHeroSection />
         <SchoolCareBodyTop />
-        <SchoolCareApplicationForm 
+        {/* <SchoolCareApplicationForm 
           id='getintouch1'
-        />
-        <SchoolCareBodyMiddle />
+        /> */}
         <SchoolCareQuiz />
-        <SchoolCareApplicationForm 
+        <SchoolCareBodyMiddle />
+        {/* <SchoolCareApplicationForm 
           id='getintouch2'
-      />
-      <SchoolCareBodyBottom />
+        /> */}
+      {/* <SchoolCareBodyBottom /> */}
       <SchoolCareApplicationForm 
           id='getintouch3'
       />

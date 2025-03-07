@@ -4,7 +4,36 @@ const SchoolCareBodyTop = () => {
 
   return (
     <section className="py-2">
-        <div className="mx-2 p-2 border rounded-md border-gray-600 flex flex-col items-center text-center" style={{background: '#25242a'}}>
+        <div className='mx-2 mb-7 p-2 border rounded-md border-gray-600 flex flex-col' style={{background: '#25242a'}}>
+            <h1 className='mb-3 text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
+                Why Partner with <span className="text-orange-500">LearnNova</span>?
+            </h1>
+
+            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Exclusive Access to Premium Educational Resources</span> – Get top-tier learning tools and services to support schools and students in your community.
+            </p>
+
+            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Lucrative Revenue Opportunities</span> – Set your own prices, sell to schools, and maximize your earnings while making a meaningful impact.
+            </p>
+
+            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Full Resale Rights</span> – Purchase at <span className="font-semibold">76.7%</span> of the standard price and resell to unlimited schools at your chosen rates.
+            </p>
+
+            {/* <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Embrace Growth Opportunities</span> – Work with the School Support Network team to identify and seize expansion opportunities in your market.
+            </p>
+
+            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Market Your Business</span> – Use our marketing support to promote your services and attract customers.
+            </p>
+
+            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Follow the System</span> – Success is built on consistency. Our <span className="font-bold">15+ year proven system</span> ensures you don’t have to start from scratch.
+            </p> */}
+        </div>
+        {/* <div className="mx-2 p-2 border rounded-md border-gray-600 flex flex-col items-center text-center" style={{background: '#25242a'}}>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold uppercase' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 TERRITORIES, WHAT YOU GET & INVESTMENT
             </h1>
@@ -15,9 +44,9 @@ const SchoolCareBodyTop = () => {
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold capitalize text-orange-500 hover:underline hover:text-white' href='#territories' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 Check out what territories in Nigeria are open for investment.
             </a>
-        </div>
+        </div> */}
 
-        <div className="px-2 py-10 border flex flex-col items-center text-center">
+        {/* <div className="px-2 py-10 border flex flex-col items-center text-center">
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold uppercase' style={{fontFamily: 'Big Shoulders Display, sans-serif'}} id="schoolbusinessopportunity">
                 IS A SCHOOL SUPPORT BUSINESS RIGHT FOR YOU?
             </h1>
@@ -28,11 +57,11 @@ const SchoolCareBodyTop = () => {
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold capitalize text-orange-500 hover:underline hover:text-white' href='#quiz' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 Find Out More
             </a>
-        </div>
+        </div> */}
 
-        <div className="border-b border-gray-600"/>
+        {/* <div className="border-b border-gray-600"/> */}
 
-        <div className='px-2 py-4'>
+        {/* <div className='px-2 py-4'>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold text-center' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 The LearnNova School Support Business <span className='text-orange-500'>Advantage</span>
             </h1>
@@ -43,9 +72,9 @@ const SchoolCareBodyTop = () => {
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold text-orange-500 hover:underline hover:text-white' href='#schoolsupportadvantage' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 [See the Advantages]
             </a>
-        </div>
+        </div> */}
 
-        <div className="px-2 py-10 border flex flex-col items-center text-center">
+        {/* <div className="px-2 py-10 border flex flex-col items-center text-center">
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 What Defines a Successful School Support Business Operator?
             </h1>
@@ -56,7 +85,7 @@ const SchoolCareBodyTop = () => {
             <a className='text-lg md:text-xl lg:text-3xl font-extrabold capitalize text-orange-500 hover:underline hover:text-white' href='#greatschoolsupportoperator' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 [Learn More]
             </a>
-        </div>
+        </div> */}
 
         {/* <div className='px-2 py-4'>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold text-center text-orange-500' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
@@ -71,9 +100,9 @@ const SchoolCareBodyTop = () => {
             </a>
         </div> */}
 
-        <div className="border-b border-gray-600"/>
+        {/* <div className="border-b border-gray-600"/> */}
 
-        <div className='px-2 py-4'>
+        {/* <div className='px-2 py-4'>
             <p className='mb-4 text-3xl md:text-5xl lg:text-7xl'>
                 Explore the Financial Benefits, Personal Rewards, and Geographic Requirements <span className='font-semibold text-orange-500 hover:text-white'>Below:</span>
             </p>
@@ -98,9 +127,9 @@ const SchoolCareBodyTop = () => {
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div> */}
 
-        <div className='my-10 mx-2 p-2 border rounded-md border-gray-600' style={{background: '#25242a'}} id="territories">
+        {/* <div className='my-10 mx-2 p-2 border rounded-md border-gray-600' style={{background: '#25242a'}} id="territories">
             <h1 className='text-7xl md:text-9xl lg:text-13xl uppercase font-extrabold text-orange-500 underline' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 AVAILABLE TERRITORIES
             </h1>
@@ -115,7 +144,7 @@ const SchoolCareBodyTop = () => {
                     })
                 }
             </ul>
-        </div>
+        </div> */}
 
     </section>
   );

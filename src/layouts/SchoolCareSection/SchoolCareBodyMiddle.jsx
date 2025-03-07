@@ -4,97 +4,96 @@ const SchoolCareBodyMiddle = () => {
     <section className="py-2">
       <div className='px-2 py-4'>
         <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold underline' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
-          What You’re <span className="text-orange-500">Investing</span> In
+          Your Partnership <span className="text-orange-500">Benefits</span>
         </h1>
 
-        <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
+        {/* <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
           As a <span className='font-semibold text-orange-500'>LearnNova School Support Business Owner</span>, you gain access to industry-leading tools, training, and resources designed to help you build a thriving and profitable business. Here’s what’s included:
-        </p>
+        </p> */}
 
         <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
           <li>
-            School Learning Support System
-            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">A <span className="font-semibold">comprehensive desktop-based platform</span> that enhances student learning across various age groups:</p>
+            Expand Learning Opportunities:
+            {/* <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">A <span className="font-semibold">comprehensive desktop-based platform</span> that enhances student learning across various age groups:</p> */}
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                <span className="font-semibold">Mathematics:</span> 2,400 lessons and 8,000+ exam questions & answers for Senior Secondary School students.
+                <span className="font-semibold">Enroll 35 learners per school in our Home Learning App</span> (Android, iOS, Desktop) – free for every enrolled school.
+                {/* <span className="font-semibold">Mathematics:</span> 2,400 lessons and 8,000+ exam questions & answers for Senior Secondary School students. */}
               </li>
               <li>
-                <span className="font-semibold">Diction & Phonetics:</span> 540 lessons and 500+ exercises for Elementary School pupils.
+                Give schools access to an <span className="font-semibold">interactive, structured learning platform</span> for students to study after school, during weekends, and holidays
+                {/* <span className="font-semibold">Diction & Phonetics:</span> 540 lessons and 500+ exercises for Elementary School pupils. */}
               </li>
-              <li>
+              {/* <li>
                 <span className="font-semibold">E-Library:</span> 650–950 curated books for ages 3–17, encouraging students to read 12–20 books per academic term.
               </li>
               <li>
                 <span className="font-semibold">Creative & Vocational Lessons:</span> Engaging courses for all age groups to foster creativity and practical skills.
-              </li>
+              </li> */}
             </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Buy from LearnNova at <span className='font-semibold'>76.7%</span> of the standard price per unit and resell to unlimited schools at your chosen price.</p>
+            {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Buy from LearnNova at <span className='font-semibold'>76.7%</span> of the standard price per unit and resell to unlimited schools at your chosen price.</p> */}
           </li>
 
           <li>
-            Home Learning Application:
-            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">A <span className="font-semibold">multi-platform learning app</span> (Android, iOS, and desktop) for students to learn at home during weekends, holidays, and after school:</p>
+            Gain Expert Training & Mentorship:
+            {/* <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">A <span className="font-semibold">multi-platform learning app</span> (Android, iOS, and desktop) for students to learn at home during weekends, holidays, and after school:</p> */}
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                Includes E-Library for ages 3 to 17, Diction & Phonetics for Elementary School Pupils, Creative & Vocational Courses for all grade levels, and Mathematics tutorials for Senior Secondary School Students.
+                <span className="fot-semibold">Access our School Growth Training Platform</span> to conduct <span className="fot-semibold">paid training sessions</span> for school owners and educators.
+                {/* Includes E-Library for ages 3 to 17, Diction & Phonetics for Elementary School Pupils, Creative & Vocational Courses for all grade levels, and Mathematics tutorials for Senior Secondary School Students. */}
+              </li>
+              <li>
+                Enroll your clients in our <span className="font-semibold">Annual Virtual Mentorship & Coaching Sessions</span> led by seasoned professionals.
+              </li>
+              <li>
+                Receive <span className="font-semibold">free copies of our Private School Growth Guidebook</span> to distribute to school owners.
               </li>
             </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Gain full resale rights and empower unlimited learners across multiple schools. Each enrolled school receives <span className="font-semibold">35 free</span> learner sign-ups. Need more? Purchase additional units from LearnNova at <span className="font-semibold">76.7% of</span> the standard price and set your own resale price.</p>
+            {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Gain full resale rights and empower unlimited learners across multiple schools. Each enrolled school receives <span className="font-semibold">35 free</span> learner sign-ups. Need more? Purchase additional units from LearnNova at <span className="font-semibold">76.7% of</span> the standard price and set your own resale price.</p> */}
           </li>
 
           <li>
-            The Private School Growth Guide
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+            Get Industry-Leading Educational and Private School Growth Products:
+            <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'upper-alpha'}}>
               <li>
-                5 copies of this <span className="font-semibold">essential guidebook</span> on private school business growth.
-              </li>
-            </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span>Give it away or Sell at any price and keep 100% of the revenue.</p>
-          </li>
-
-          <li>
-            Free Access to TreNova School Growth Training Resources Platform
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
-              <li>
-                Comprehensive training slides and materials covering:
-                <ul className="list-disc mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
-                  <li>Private school marketing strategies</li>
-                  <li>Debt recovery techniques</li>
-                  <li>Staff capability development</li>
-                  <li>Revenue & profitability growth strategies</li>
-                  <li>Leadership & management training</li>
-                  <li>Customer Service, Customer Experience and Relationship Management</li>
-                  <li>Conflict and Crisis Management</li>
-                  <li>Budgeting and Money Management</li>
-                  <li>Performance Management</li>
+                School Learning Support System:
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
+                  <p>A <span className="font-semibold">comprehensive desktop-based platform</span> with:</p>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Mathematics</span> – 2,400 lessons + 8,000+ exam questions for Senior Secondary students.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Diction & Phonetics</span> – 540 lessons + 500+ exercises for Elementary pupils.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">E-Library</span> – 650–950 books for ages 3–17, promoting a habit of reading 12–20 books per term.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Creative & Vocational Courses</span> – Engaging courses to enhance creativity and practical skills.</li>
                 </ul>
-                <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Earn Training Revenue:</span> Utilize the training slides and materials to deliver paid sessions for your customers and retain 100% of the earnings.</p>
+                {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Earn Training Revenue:</span> Utilize the training slides and materials to deliver paid sessions for your customers and retain 100% of the earnings.</p> */}
               </li>
-            </ul>
+
+              <li>
+                Home Learning  Application:
+                <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+                  {/* <p>A <span className="font-semibold">comprehensive desktop-based platform</span> with:</p> */}
+                  <li>A <span className="font-semibold">multi-platform learning app</span> for students at home, covering <span className="font-semibold">Mathematics, Phonetics, Creative Courses, and an extensive E-Library</span>.</li>
+                  <li><span className="font-semibold">Resale Rights:</span> Empower schools by reselling unlimited learner licenses at your preferred pricing.</li>
+                </ul>
+                {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Earn Training Revenue:</span> Utilize the training slides and materials to deliver paid sessions for your customers and retain 100% of the earnings.</p> */}
+              </li>
+            </ol>
           </li>
 
           <li>
-            Annual School Growth Mentorship & Coaching
+            Continuous Training & Business Support:
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                <span className="font-semibold">Exclusive access</span> to the <span className="font-semibold">TreNova Virtual Mentorship Program</span> (held twice a year).
-              </li>
-              <li>
-                Members of the LearnNova School Support Network can enroll their clients in expert mentorship and coaching sessions for school growth.
+                <span className="font-semibold">5-day Virtual Training</span> (6 hours per day) to help you hit the ground running.
               </li>
             </ul>
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Monetize Mentorship and Coaching:</span> Enroll your customers in TreNova mentorship and coaching sessions, set your own fees, and keep 100% of the revenue.</p>
+            {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Monetize Mentorship and Coaching:</span> Enroll your customers in TreNova mentorship and coaching sessions, set your own fees, and keep 100% of the revenue.</p> */}
           </li>
 
           <li>
-            Comprehensive Training & Ongoing Support
+            Ongoing Business Growth Sessions:
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                <span className="font-semibold">Initial 5-day virtual training</span> (6 hours per day).
-              </li>
-              <li className="font-semibold">
-                Ongoing continuous improvement training sessions.
+                Designed to keep you ahead in the education sector.
               </li>
             </ul>
           </li>
@@ -103,27 +102,21 @@ const SchoolCareBodyMiddle = () => {
             Brand & PR Support
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                Leverage a <span className="font-semibold">trusted, nationally recognized brand</span> with 15+ years of experience.
-              </li>
-              <li>
-                Potential <span className="font-semibold">online marketing support</span>.
-              </li>
-              <li>
-                Assistance in <span className="font-semibold">connecting with private school owner associations</span> in your community.
+                Leverage LearnNova’s <span className="font-semibold">15+ years of industry leadership</span>, plus marketing and networking support to connect with private school associations.
               </li>
             </ul>
           </li>
         </ul>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
-          <p className="font-semibold">Your Investment, Your Growth</p>
-          <p>This opportunity provides the <span className="font-semibold">resources, tools, training, and industry-leading support</span> you need to build a <span className="font-semibold">profitable, long-term business</span> in the private school sector.</p>
+          <p className="font-semibold">Invest in Your Success</p>
+          <p>Ttart your journey as a <span className="font-semibold">LearnNova School Support Partner</span> for just <span className="font-semibold">₦75,000</span> and unlock all these benefits instantly.</p>
         </div>
       </div>
 
       <div className="border-b border-gray-600"/>
 
-      <div className='px-2 py-4'>
+      {/* <div className='px-2 py-4'>
         <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold underline' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
           Start-Up <span className="text-orange-500">Investment</span> & <span className="text-orange-500">Maintenance:</span>
         </h1>
@@ -148,7 +141,7 @@ const SchoolCareBodyMiddle = () => {
         <a className='text-lg md:text-xl lg:text-3xl font-semibold text-orange-500 hover:underline hover:text-white mt-2' href="#getintouch2">
           Enrol Now
         </a>
-      </div>
+      </div> */}
 
       <div className="border-b border-gray-600 mt-4"/>
     </section>

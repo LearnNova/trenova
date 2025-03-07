@@ -5,7 +5,7 @@ const SchoolCareBodyBottom = () => {
     return (
       <section className="py-2">
 
-        <div className="mx-2 mb-10 p-2 border rounded-md border-gray-600 flex flex-col items-center text-center" style={{background: '#25242a'}}>
+        {/* <div className="mx-2 mb-10 p-2 border rounded-md border-gray-600 flex flex-col items-center text-center" style={{background: '#25242a'}}>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
               Top 10 Traits of Highly Successful School Support Business Owners
             </h1>
@@ -21,9 +21,9 @@ const SchoolCareBodyBottom = () => {
             <a className='text-lg md:text-xl lg:text-3xl font-normal capitalize text-white hover:underline hover:text-orange-500 mr-auto' href='#getintouch3'>
               Next Steps
             </a>
-        </div>
+        </div> */}
 
-        <div className='px-2 py-4'>
+        {/* <div className='px-2 py-4'>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 <span className="text-orange-500">Still Exploring?</span> Learn More About the School Support Network
             </h1>
@@ -42,7 +42,7 @@ const SchoolCareBodyBottom = () => {
                 [learn more]
               </a>
             </ul>
-        </div>
+        </div> */}
 
         <div className='mx-2 mt-3 mb-8 p-2 border rounded-md border-gray-600 flex flex-col' style={{background: '#25242a'}}>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
@@ -61,9 +61,9 @@ const SchoolCareBodyBottom = () => {
             Why Choose <span className="text-orange-500">School Support Network?</span> The Numbers Speak for Themselves
           </h1>
   
-          {/* <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
+          <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
             As a School Support Network Business Owner, you gain access to powerful tools, training, and resources to help you build a thriving business. Here's what you get:
-          </p> */}
+          </p>
   
           <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
             <li>
