@@ -4,9 +4,9 @@ import './mentornigeria.css'
 const FooterSection = () => {
   return (
     <section className='text-black px-2 sm:px-4' style={{background: '#FA8806'}}>
-      <div className='flex md:flex-col flex-row justify-between py-3'>
-        <div className='space-y-3'>
-          <h3 className='text-7xl md:text-9xl lg:text-13xl font-bold'>
+      <div className='flex flex-col md:flex-row  justify-between py-3'>
+        <div className='space-y-1'>
+          <h3 className='text-5xl md:text-7xl lg:text-9xl font-bold'>
             LearnNova Learning Support Center,
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
@@ -17,8 +17,8 @@ const FooterSection = () => {
           </p>
         </div>
 
-        <div className='space-y-3'>
-          <h3 className='text-7xl md:text-9xl lg:text-13xl font-bold'>
+        <div className='space-y-1'>
+          <h3 className='text-5xl md:text-7xl lg:text-9xl font-bold'>
             Email
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
@@ -26,8 +26,8 @@ const FooterSection = () => {
           </p>
         </div>
 
-        <div className='space-y-3'>
-          <h3 className='text-7xl md:text-9xl lg:text-13xl font-bold'>
+        <div className='space-y-1'>
+          <h3 className='text-5xl md:text-7xl lg:text-9xl font-bold'>
             <a href="tel:07044086794">Contact</a>
           </h3>
           <ul className='list-none mx-0 px-0 font-semibold'>
@@ -38,8 +38,8 @@ const FooterSection = () => {
         </div>
       </div>
 
-      <div className='py-3 text-center text-lg md:text-xl lg:text-3xl font-semibold'>
-        <a className='hover:text-white hover:underline' href='https://www.learnnova.ng' target='blank' style={{color: '#4151E5'}}>
+      <div className='py-3 text-center text-lg md:text-xl lg:text-3xl font-bold'>
+        <a className='text-gray-800 hover:text-white hover:underline' href='https://www.learnnova.ng' target='blank'>
           www.learnnova.ng
         </a>
       </div>
