@@ -26,6 +26,11 @@ const SchoolCarePage = () => {
           id='getintouch3'
       />
       <div className='mb-10' />
+      <div className='text-center font-extrabold pt-2 text-black' style={{background: '#FA8806'}}>
+        <h1 className='text-3xl md:text-5xl lg:text-7xl'>
+          📩 Need Help?
+        </h1>
+      </div>
       <FooterSection />
     </div>
   )
