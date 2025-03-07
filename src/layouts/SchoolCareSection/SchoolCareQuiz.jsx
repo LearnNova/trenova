@@ -35,7 +35,7 @@ const SchoolCareQuiz = () => {
 
     return (
       <section className="py-3" id="quiz">
-        <div className='px-2 pb-4'>
+        <div className='px-2'>
               <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold underline text-orange-500' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                   Quick Quiz:
               </h1>
@@ -78,8 +78,8 @@ const SchoolCareQuiz = () => {
                 }
               </ul>
 
-            <p className='my-6 text-lg md:text-xl lg:text-3xl'>
-                If you answered <span className="font-semibold">YES</span> to most of these questions, you may be an excellent fit for a School Support Business Opportunity! <a className='font-semibold text-orange-500 hover:text-white' href='#getintouch2'>Find out more today.</a>
+            <p className='mt-6 text-lg md:text-xl lg:text-3xl'>
+                If you answered <span className="font-semibold">YES</span> to most of these questions, you may be an excellent fit for a School Support Business Opportunity! <a className='font-semibold text-orange-500 hover:text-white' href='#getintouch3'>Find out more today.</a>
             </p>
         </div>
       </section>
