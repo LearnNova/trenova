@@ -1,4 +1,4 @@
-import availableTerritories from "./availableTerritories";
+// import availableTerritories from "./availableTerritories";
 
 const SchoolCareBodyTop = () => {
 

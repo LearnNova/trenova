@@ -1,4 +1,4 @@
-import successfultraitpartnerpdf from './Top 10 Traits of Highly Successful School Support Business Owners.pdf';
+// import successfultraitpartnerpdf from './Top 10 Traits of Highly Successful School Support Business Owners.pdf';
 
 const SchoolCareBodyBottom = () => {
 
