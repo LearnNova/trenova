@@ -4,7 +4,7 @@ import './mentornigeria.css'
 const FooterSection = () => {
   return (
     <section className='text-black px-2 sm:px-4 md:px-6' style={{background: '#FA8806'}}>
-      <div className='flex flex-col md:flex-row  justify-between py-3 gap-2'>
+      <div className='flex flex-col md:flex-row justify-between py-3 gap-4'>
         <div>
           <h3 className='text-xl md:text-3xl lg:text-5xl font-bold leading-tight'>
             LearnNova Learning Support Center,
