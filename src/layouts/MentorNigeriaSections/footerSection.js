@@ -22,7 +22,7 @@ const FooterSection = () => {
             Email
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
-            <a  className='hover:text-white hover:underline' href='mailto:info@learnnova.ng'>info@learnnova.ng</a>
+            <a  className='hover:text-white underline' href='mailto:info@learnnova.ng'>info@learnnova.ng</a>
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const FooterSection = () => {
       </div>
 
       <div className='py-3 text-center text-lg md:text-xl lg:text-3xl font-bold'>
-        <a className='text-gray-800 hover:text-white hover:underline' href='https://www.learnnova.ng' target='blank'>
+        <a className='text-gray-800 hover:text-white underline' href='https://www.learnnova.ng' target='blank'>
           www.learnnova.ng
         </a>
       </div>
