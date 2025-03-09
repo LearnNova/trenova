@@ -14,9 +14,9 @@ const SchoolCareHeroSection = () => {
                 <h1 className='text-29xl lg:text-77xl font-extrabold text-orange-500 leading-tight' style={{fontFamily: 'Big Shoulders Display, sans-serif', textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)"}}>
                     Join LearnNova: Transform Education & Build a Profitable Future.
                 </h1>
-                <p className='text-9xl md:text-13xl lg:text-21xl font-medium bg-black' style={{ fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(27, 9, 9, 0.6)", color: 'rgb(251, 255, 0)', backgroundColor: "rgba(0, 0, 0, 0.25)"}}>
+                {/* <p className='text-9xl md:text-13xl lg:text-21xl font-medium bg-black' style={{ fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(27, 9, 9, 0.6)", color: 'rgb(251, 255, 0)', backgroundColor: "rgba(0, 0, 0, 0.25)"}}>
                     Become a LearnNova School Support Partner
-                </p>
+                </p> */}
 
                 <a 
                 className='text-lg md:text-xl lg:text-3xl font-semibold bg-orange-500 rounded-md text-white hover:bg-gray-800 shadow-md py-2 px-3 mt-3 cursor-pointer' 
