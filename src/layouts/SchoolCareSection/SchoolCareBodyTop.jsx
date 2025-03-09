@@ -18,7 +18,7 @@ const SchoolCareBodyTop = () => {
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Full Resale Rights</span> – Purchase at <span className="font-semibold">76.7%</span> of the standard price and resell to unlimited schools at your chosen rates.
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Full Resale Rights</span> – Buy at LearnNova's discounted price and resell to unlimited schools at any rate you choose.
             </p>
 
             {/* <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
