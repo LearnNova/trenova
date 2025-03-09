@@ -10,9 +10,9 @@ const SchoolCareHeroSection = () => {
                 alt="Hero Section" 
                 className="w-full h-full object-cover"
             />
-            <div className="absolute top-[60%] sm:top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full p-2">
+            <div className="absolute top-[70%] sm:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full p-2">
                 <h1 className='text-29xl lg:text-77xl font-extrabold text-orange-500 leading-tight' style={{fontFamily: 'Big Shoulders Display, sans-serif', textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)"}}>
-                    Unlock a Profitable Business Opportunity: Partner with LearnNova as a School Support Partner and Transform Education While Earning a Steady Income.
+                    Partner with LearnNova: Transform Education & Earn Steady Income.
                 </h1>
                 <p className='text-9xl md:text-13xl lg:text-21xl font-medium bg-black' style={{ fontFamily: 'Satisfy, serif', textShadow: "3px 3px 6px rgba(27, 9, 9, 0.6)", color: 'rgb(251, 255, 0)', backgroundColor: "rgba(0, 0, 0, 0.25)"}}>
                     Become a LearnNova School Support Partner
