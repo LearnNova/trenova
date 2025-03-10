@@ -7,7 +7,7 @@ const FooterSection = () => {
       <div className='flex flex-col md:flex-row justify-between py-3 gap-4'>
         <div>
           <h3 className='text-xl md:text-3xl lg:text-5xl font-bold leading-tight'>
-            LearnNova Learning Support Center,
+            LearnNova Learning Support Centre,
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
             A unit of TreNova Group.
