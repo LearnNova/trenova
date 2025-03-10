@@ -43,10 +43,15 @@ const SchoolCareNavbar = () => {
           </a>
         </li> */}
         <li>
+          <Link to="/referral" className="text-navy-700 hover:text-white block py-2">
+            Referral Program
+          </Link>
+        </li>
+        {/* <li>
           <Link to="/schoolgrowthsystem/trenova" className="text-navy-700 hover:text-white block py-2">
             School Growth System
           </Link>
-        </li>
+        </li> */}
         <li>
           <a href="#getintouch3" className="text-navy-700 hover:text-white block py-2">
             Get In Touch

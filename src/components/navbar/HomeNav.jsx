@@ -44,8 +44,8 @@ const navigation = [
     },
   },
   {
-    name: "Referral Program",
-    href: "/referral",
+    name: "School Growth System",
+    href: "/schoolgrowthsystem/trenova",
   },
 ];
 
