@@ -26,6 +26,10 @@ const navigation = [
     href: "/schoolsupportpartner",
   },
   {
+    name: "School Growth System",
+    href: "/schoolgrowthsystem/trenova",
+  },
+  {
     name: "Career", 
     // href: "/career/territory_sales_representative",
     children: {
@@ -42,10 +46,6 @@ const navigation = [
         href: '/career/sales_media_marketer',
       },
     },
-  },
-  {
-    name: "School Growth System",
-    href: "/schoolgrowthsystem/trenova",
   },
 ];
 
