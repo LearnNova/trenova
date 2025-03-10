@@ -32,7 +32,7 @@ const SchoolCareBodyMiddle = () => {
 
               <li>
                 Home Learning  Application:
-                <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
                   <li><span className="mr-1">✅</span>A versatile multi-platform home learning app available on <span className="font-semibold">Android, iOS, and Desktop</span>, designed for learners to study at home. It features <span className="font-semibold">Mathematics, Phonetics, Creative Courses</span>, and a vast <span className="font-semibold">E-Library</span> with over <span className="font-semibold">600</span> books.</li>
                   <li><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Purchase at LearnNova’s discounted rate of <span className="font-semibold">₦1,295</span> per learner per term and resell to unlimited schools at your preferred price or LearnNova's standard rate of <span className="font-semibold">₦1,800</span> per learner per term.</li>
                 </ul>
