@@ -17,7 +17,7 @@ const SchoolCareBodyMiddle = () => {
         <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
         <li>
             Get Industry-Leading Educational and Private School Growth Products:
-            <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold" style={{listStyleType: 'upper-alpha'}}>
+            <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
                 School Learning Support System:
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
@@ -26,27 +26,28 @@ const SchoolCareBodyMiddle = () => {
                   <li><span className="mr-1">✅</span><span className="font-semibold">Diction & Phonetics</span> – 540 lessons + 500+ exercises for Elementary pupils.</li>
                   <li><span className="mr-1">✅</span><span className="font-semibold">E-Library</span> – 650–950 books for ages 3–17, promoting a habit of reading 12–20 books per term.</li>
                   <li><span className="mr-1">✅</span><span className="font-semibold">Creative & Vocational Courses</span> – Engaging courses to enhance creativity and practical skills.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Pay a discounted usage fee of <span className="font-semibold">₦95,875</span> per unit per term to LearnNova, then set your own resale price or offer it at LearnNova’s standard rate of <span className="font-semibold">₦125,000</span> per unit per term.</li>
                 </ul>
               </li>
 
               <li>
                 Home Learning  Application:
                 <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
-                  <li>A <span className="font-semibold">multi-platform learning app</span> for students at home, covering <span className="font-semibold">Mathematics, Phonetics, Creative Courses, and an extensive E-Library</span>.</li>
-                  <li><span className="font-semibold">Resale Rights:</span> Empower schools by reselling unlimited learner licenses at your preferred pricing.</li>
+                  <li><span className="mr-1">✅</span>A versatile multi-platform home learning app available on <span className="font-semibold">Android, iOS, and Desktop</span>, designed for learners to study at home. It features <span className="font-semibold">Mathematics, Phonetics, Creative Courses</span>, and a vast <span className="font-semibold">E-Library</span> with over <span className="font-semibold">600</span> books.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Purchase at LearnNova’s discounted rate of <span className="font-semibold">₦1,295</span> per learner per term and resell to unlimited schools at your preferred price or LearnNova's standard rate of <span className="font-semibold">₦1,800</span> per learner per term.</li>
                 </ul>
               </li>
             </ol>
           </li>
 
           <li>
-            Expand Learning Opportunities:
+            Provide Free Learning Opportunities:
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                <span className="font-semibold">Enroll 35 learners per school in our Home Learning App</span> (Android, iOS, Desktop) – free for every enrolled school.
+                Give every school enrolled in the LearnNova Desktop Application <span className="font-semibold">35 free</span> learner accounts on our Home Learning App (available on Android, iOS, and Desktop).
               </li>
               <li>
-                Give schools access to an <span className="font-semibold">interactive, structured learning platform</span> for students to study after school, during weekends, and holidays.
+                Equip schools with a structured, interactive platform that supports continuous learning beyond the classroom—after school, on weekends, and during holidays.
               </li>
             </ul>
             {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Buy from LearnNova at <span className='font-semibold'>76.7%</span> of the standard price per unit and resell to unlimited schools at your chosen price.</p> */}

@@ -10,7 +10,7 @@ const SchoolCareBodyTop = () => {
             </h1>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Exclusive Access to Premium Educational Resources</span> – Get top-tier learning tools and services to support schools and students in your community.
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Exclusive Access to Premium Educational Resources</span> – Get top-tier learning tools and services to support schools and pupils/students in your community.
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
