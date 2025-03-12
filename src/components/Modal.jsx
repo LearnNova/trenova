@@ -26,6 +26,7 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
     "DICTION/PHONETICS",
     "MATHEMATICS",
     "CREATIVE/VOCATIONAL",
+    "CREATIVE LIFE SKILLS",
   ];
   console.log(school, "school");
   useEffect(() => {
@@ -37,7 +38,12 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
       setValue("isActivated", school.isActivated);
       setValue("isExtraTerm", school.isExtraTerm);
       setValue("ispreviousTerm", school.ispreviousTerm);
-      setValue("expirationDate", school.expirationDate || "");
+      setValue(
+        "expirationDate",
+        school.expirationDate
+          ? new Date(school.expirationDate).toISOString().split("T")[0]
+          : ""
+      );
       setValue("maximumDevices", school.maximumDevices || 1);
       setValue("numOfDevices", school.numOfDevices || 0);
 
@@ -72,14 +78,17 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
         subjectAccess: selectedSubjects,
       };
       console.log(payload, "payload");
-      await updateUser({
+      const res = await updateUser({
         id: school.id,
         data: payload,
       });
-
-      toast.success("Updated successfully!");
-      refetch();
-      onClose();
+      if (res) {
+        toast.success("Updated successfully!");
+        refetch();
+        onClose();
+      } else {
+        toast.error("Something happened");
+      }
     } catch (err) {
       console.log("Error:", err);
       toast.error(err?.data?.message || err.message);
@@ -218,6 +227,7 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
                       label="Expiration Date*"
                       id="expirationDate"
                       required
+                      valueAsDate={true}
                       type="date"
                       register={register}
                     />
@@ -226,7 +236,6 @@ export default function Modal({ isOpen, onClose, school, refetch }) {
                       id="maximumDevices"
                       required
                       type="number"
-                      valueAsDate={true}
                       register={register}
                     />
                     <InputField

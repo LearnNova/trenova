@@ -210,6 +210,12 @@ const Learners = () => {
               </div>
             ))}
         </div>
+        <button
+          onClick={() => navigate(`/admin/learner/add`)}
+          className="linear text-base flex items-center gap-1 rounded-[20px] bg-gold px-4 py-2 font-medium text-white transition duration-200 hover:bg-brand-800 active:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:active:opacity-90"
+        >
+          Add Learner
+        </button>
       </div>
       {isLoading ? (
         <Loader />
