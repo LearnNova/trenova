@@ -1,7 +1,10 @@
-import React, {useState, useRef} from 'react'
-import './mentornigeria.css'
+import React, {useState, useRef, useEffect} from 'react'
+import './career.css'
 
-const ApplicationFormSection = () => {
+const CareerApplicationFormSection = ({ role }) => {
+
+    const locationInput = useRef(null);
+    const infoCate = useRef(null);
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -9,10 +12,19 @@ const ApplicationFormSection = () => {
     const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
     const [location, setLocation] = useState('');
-    const [hear, setHear] = useState('');
-    const [consent, setConsent] = useState(false);
+    const [houseAddress, sethouseAddress] = useState('');
+    // const [date, setDate] = useState('');
+    const [hear, setHear] = useState(role);
+    const [consent, setConsent] = useState(true);
 
-    const infoCate = useRef(null);
+    useEffect(() =>{
+        if (role === 'DIRECT APPLICANT - SOCIAL MEDIA MARKETER') {
+            setLocation('Nigeria');
+            locationInput.current.disabled = true;
+
+        }
+    }, [role]);
+
 
 
     const resetInput = () => {
@@ -22,56 +34,64 @@ const ApplicationFormSection = () => {
         setPhone('');
         setEmail('');
         setLocation('');
+        sethouseAddress('');
         setHear('');
     }
+
+    // const isValidDate = (inputDate) => {
+    //     const today = new Date();
+    //     today.setHours(0, 0, 0, 0);
+
+    //     const input = new Date(inputDate);
+    //     input.setHours(0, 0, 0, 0);
+
+    //     return input >= today;
+    // }
   
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (firstName && lastName && whatsapp && phone && email && location && hear && consent) {
+        if (firstName && lastName && whatsapp && phone && email && location && houseAddress && hear && consent) {
 
-            if (whatsapp.length === 11 && phone.length === 11) {
+            
 
-                const applicantData = {
-                    First_Name: firstName,
-                    Last_Name: lastName,
-                    whatsapp: whatsapp,
-                    phone: phone,
-                    email: email,
-                    location: location,
-                    hear: hear,
-                  };
-    
-                try {
-                    infoCate.current.textContent = 'Processing ... Please wait'
-                    const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:Y1Oqmtn2/applicant', {
-                        method: 'POST',
-                        body: JSON.stringify(applicantData),
-                        headers: { 'Content-Type': 'application/json' },
-                    });
-    
-                    if (!response.ok) {
-                        infoCate.current.textContent = ''
-                        throw new Error (`API request failed with status ${response.status}`);
-                        
-                    }
-    
-                    else {
+            const applicantData = {
+                First_Name: firstName,
+                Last_Name: lastName,
+                whatsapp: whatsapp,
+                phone: phone,
+                email: email,
+                location: location,
+                Residential_Addresss: houseAddress,
+                hear: hear,
+                };
+
+            try {
+                infoCate.current.textContent = 'Processing ... Please wait'
+                const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:Y1Oqmtn2/applicant', {
+                    method: 'POST',
+                    body: JSON.stringify(applicantData),
+                    headers: { 'Content-Type': 'application/json' },
+                });
+
+                if (!response.ok) {
                     infoCate.current.textContent = ''
-                    alert (`Congratulations 🎉🎉 on Booking a Seat ${firstName}, we would contact you shortly with all the neccessary information needed.`);
-                    resetInput();
-                    }
+                    throw new Error (`API request failed with status ${response.status}`);
+                    
+                }
+
+                else {
+                infoCate.current.textContent = ''
+                alert (`${firstName} you have successfully Submitted your details for the Applied Job, we would contact you shortly with further information.`);
+                resetInput();
+
+                }
     
                 } catch (error) {
                     infoCate.current.textContent = ''
                     alert(error || 'Error in Submitting, Try Again')
                 }
     
-            }
-
-            else {
-                alert ('Invalid Whatsapp/Phone Number');
-            }
             
         }
         else{
@@ -82,7 +102,7 @@ const ApplicationFormSection = () => {
   return (
     <div>
         <div id='application-form-section'>
-        <div className='application-form-title'>Complete the Application Form Below:</div>
+            <div className='application-form-title'>Application Form</div>
             <div>
                 <form id='application-form' onSubmit={handleSubmit}>
                     <div className='form-row-main'>
@@ -93,6 +113,7 @@ const ApplicationFormSection = () => {
                                 id='firstName'
                                 name='firstName'
                                 placeholder='Mark'
+                                required
                                 className='form-control'
                                 value={firstName}
                                 onChange={(e) => {setFirstName(e.target.value)}}
@@ -106,6 +127,7 @@ const ApplicationFormSection = () => {
                                 id='lastName'
                                 name='lasttName'
                                 placeholder='Joe'
+                                required
                                 className='form-control'
                                 value={lastName}
                                 onChange={(e) => {setLastName(e.target.value)}}
@@ -121,6 +143,9 @@ const ApplicationFormSection = () => {
                                 id='whatsappNumber'
                                 name='whatsappNumber'
                                 placeholder='09137819540'
+                                required
+                                maxLength={11}
+                                minLength={11}
                                 className='form-control'
                                 value={whatsapp}
                                 onChange={(e) => {setWhatsapp(e.target.value)}}
@@ -134,6 +159,9 @@ const ApplicationFormSection = () => {
                                 id='phoneNumber'
                                 name='phoneNumber'
                                 placeholder='09137819540'
+                                required
+                                maxLength={11}
+                                minLength={11}
                                 className='form-control'
                                 value={phone}
                                 onChange={(e) => {setPhone(e.target.value)}}
@@ -149,6 +177,7 @@ const ApplicationFormSection = () => {
                                 id='emailAddress'
                                 name='emailAddress'
                                 placeholder='markjoe@gmail.com'
+                                required
                                 className='form-control'
                                 value={email}
                                 onChange={(e) => {setEmail(e.target.value)}}
@@ -156,12 +185,14 @@ const ApplicationFormSection = () => {
                         </div>
                         
                         <div className='form-row'>
-                            <label htmlFor='location' className='input-labels'>Location:</label>
+                            <label htmlFor='location' className='input-labels'>Preffered Working Territtory (Location):</label>
                             <input 
                                 type='text'
                                 id='location'
                                 name='location'
-                                placeholder='Alimosho, Lagos'
+                                ref={locationInput || null}
+                                placeholder='i.e City, Local Government and State'
+                                required
                                 className='form-control'
                                 value={location}
                                 onChange={(e) => {setLocation(e.target.value)}}
@@ -171,12 +202,28 @@ const ApplicationFormSection = () => {
 
                     <div className='form-row-main'>
                         <div className='form-row'>
-                        <label htmlFor='hear' className='input-labels-textarea'>Type in your Preferred Elective Course Number</label>
+                            <label htmlFor='houseAddress' className='input-labels-textarea'>Full Residential Address:</label>
+                            <textarea 
+                                rows='3' 
+                                id='houseAddress' 
+                                name='houseAddress' 
+                                className='form-control-textarea' 
+                                value={houseAddress} 
+                                onChange={(e) => {sethouseAddress(e.target.value)}} 
+                                required
+                                ></textarea>
+                            
+                        </div>
+                    </div>
+
+                    <div className='form-row-main' id='hear-container'>
+                        <div className='form-row'>
+                            <label htmlFor='hear' className='input-labels-textarea'>Where did you hear of us from?</label>
                             <textarea 
                                 className='form-control-textarea'
                                 id='hear'
                                 name='hear'
-                                placeholder='Type a Number between Elective Number 1 to 5'
+                                placeholder='i.e Instagram'
                                 value={hear}
                                 onChange={(e) => {setHear(e.target.value)}}
                             ></textarea>
@@ -184,7 +231,7 @@ const ApplicationFormSection = () => {
             
                     </div>
 
-                    <div className='form-row-main'>
+                    <div className='form-row-main' id='consent-container'>
                         <div className='form-row-consent'>
                             <input 
                                 type='checkbox'
@@ -201,7 +248,7 @@ const ApplicationFormSection = () => {
                        
                     </div>
                     <div>
-                        <button type='submit' className='submit-btn'>Apply Now</button>
+                        <button type='submit' className='submit-btn'>Submit</button>
                     </div>
 
                 </form>
@@ -211,4 +258,4 @@ const ApplicationFormSection = () => {
   )
 }
 
-export default ApplicationFormSection
+export default CareerApplicationFormSection

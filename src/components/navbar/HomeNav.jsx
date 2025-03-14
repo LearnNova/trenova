@@ -1,23 +1,51 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useNavigate } from "react-router-dom";
 import authImg from "assets/img/auth/auth.png";
 import { useDispatch, useSelector } from "react-redux";
 import { useLogoutMutation } from "../../redux/api/usersApiSlice";
 import { logout } from "../../redux/features/auth/authSlice";
+import Dropdown from "components/dropdown";
+
 const navigation = [
   { name: "Dashboard", href: "/admin", current: true },
   { name: "School Signup", href: "/auth/signup" },
   { name: "Teachers Login", href: "/auth/login" },
   {
-    name: "download App",
+    name: "Download App",
     href: "https://trenova.nyc3.cdn.digitaloceanspaces.com/1app/app-release.apk",
     current: true,
   },
   {
     name: "MentorNigeria", 
     href: "/MentorNigeria",
+  },
+  {
+    name: "School Support Network",
+    href: "/schoolsupportpartner",
+  },
+  {
+    name: "School Growth System",
+    href: "/schoolgrowthsystem/trenova",
+  },
+  {
+    name: "Career", 
+    // href: "/career/territory_sales_representative",
+    children: {
+      career1: {
+        name: 'Terittory Sales Manager',
+        href: '/career/territory_sales_manager',
+      },
+      career2: {
+        name: 'Sales Referral Agent',
+        href: '/career/sales_officer',
+      },
+      career3: {
+        name: 'Social Media Marketer',
+        href: '/career/sales_media_marketer',
+      },
+    },
   },
 ];
 
@@ -30,6 +58,7 @@ export default function HomeNav() {
   const navigate = useNavigate();
   const [logOutApi] = useLogoutMutation();
   const { userInfo } = useSelector((state) => state.auth);
+  const [showDropDown, setShowDropDown] = useState(false);
 
   const logoutHandler = () => {
     try {
@@ -44,7 +73,7 @@ export default function HomeNav() {
   return (
     <Disclosure
       as="nav"
-      className=" sticky top-0 z-50 w-full bg-gold   shadow-xl"
+      className="sticky top-0 z-50 w-full bg-gold shadow-xl"
     >
       {({ open }) => (
         <>
@@ -62,14 +91,87 @@ export default function HomeNav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className=" hidden flex-shrink-0  items-center sm:flex">
-                  <img className="h-10 w-16" src={authImg} alt="Your Company" />
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start gap-5">
+                <div className=" hidden flex-shrink-0  items-center sm:flex" style={{backgroundColor: 'white', borderRadius: '12px'}}>
+                  <img className="w-16" src={authImg} alt="Logo" style={{objectFit: 'cover'}}/>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden flex-shrink-0  items-center sm:flex">
+
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link
+                      item.children? (
+                        <Dropdown
+                        key={item.name}
+                          button={
+                            <Link
+                              className={classNames(
+                              item.current
+                                ? "bg-gray-900 text-white"
+                                : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                              "text-sm rounded-md px-3 py-2 font-medium"
+                              )}
+                              aria-current={item.current ? "page" : undefined}
+                            >
+                              {item.name}▾
+                            </Link>
+                          }
+                          children={
+                            <div className="flex w-56 flex-col justify-start rounded-[5px] bg-white bg-cover bg-no-repeat shadow-xl shadow-shadow-500 dark:!bg-navy-700 dark:text-white dark:shadow-none">
+
+                              <div className="flex flex-col py-2">
+                              {Object.keys(item.children).map((key) => (
+                                <Fragment key={key}>
+                                  <Link
+                                  to={item.children[key].href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                  >
+                                    {item.children[key].name}
+                                  </Link>
+
+                                  <div className="h-px w-full my-1 bg-gray-200 dark:bg-white/20 " />
+                                </Fragment>
+                                // <Disclosure.Button
+                                //   key={item.children[key].name}
+                                //   as="a"
+                                //   href={item.children[key].href}
+                                //   className={classNames(
+                                //     item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                                //     "text-base block rounded-md px-3 py-2 font-medium"
+                                //   )}
+                                //   aria-current={item.current ? "page" : undefined}
+                                // >
+                                //   {item.children[key].name}
+                                // </Disclosure.Button>
+                              ))}
+                                {/* <Link
+                                  to={item.children.career1.href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                >
+                                  {item.children.career1.name}
+                                </Link>
+
+                                <div className="h-px w-full my-1 bg-gray-200 dark:bg-white/20 " />
+
+                                <Link
+                                  to={item.children.career2.href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                >
+                                  {item.children.career2.name}
+                                </Link>
+
+                                <Link
+                                  to={item.children.career3.href}
+                                  className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
+                                >
+                                  {item.children.career3.name}
+                                </Link> */}
+                              </div>
+                            </div>
+                          }
+                          classNames={"py-2 top-8 -left-[180px] w-max"}
+                        />
+                      ):(
+                        <Link
                         key={item.name}
                         to={item.href}
                         className={classNames(
@@ -82,8 +184,11 @@ export default function HomeNav() {
                       >
                         {item.name}
                       </Link>
+                      )
+                      
                     ))}
                   </div>
+
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -98,7 +203,7 @@ export default function HomeNav() {
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
-                  <div>
+                  {/* <div>
                     <Menu.Button className="text-sm relative flex rounded-full bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
@@ -108,7 +213,7 @@ export default function HomeNav() {
                         alt=""
                       />
                     </Menu.Button>
-                  </div>
+                  </div> */}
 
                   {userInfo ? (
                     <Transition
@@ -159,20 +264,53 @@ export default function HomeNav() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "text-base block rounded-md px-3 py-2 font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
+                item.children ? (
+                  <>
+                    <div
+                      key={item.name}
+                      className={classNames(
+                        item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "text-base block rounded-md px-3 py-2 font-medium"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                      onClick={()=> {setShowDropDown(!showDropDown)}}
+                    >
+                      {item.name}▾
+                    </div>
+
+                    {showDropDown && (
+                      Object.keys(item.children).map((key) => (
+                        <Disclosure.Button
+                          key={key}
+                          as="a"
+                          href={item.children[key].href}
+                          className={classNames(
+                            item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            "text-base block rounded-md px-3 py-2 font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.children[key].name}
+                        </Disclosure.Button>
+                      ))
+                    )}
+                    
+                    
+                  </>
+                ) : (
+                    <Disclosure.Button
+                      key={item.name}
+                      as="a"
+                      href={item.href}
+                      className={classNames(
+                        item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "text-base block rounded-md px-3 py-2 font-medium"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                    >
+                      {item.name}
+                    </Disclosure.Button>
+                )
               ))}
             </div>
           </Disclosure.Panel>

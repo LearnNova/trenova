@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --font-family-pri: "Poppins", sans-serif;
+  --font-family-sec: "Big Shoulders Display", sans-serif;
+  --pri-clr: #FEFEFE;
+  --secondary-clr: #1C1C1C;
+  --line-clr: #555555;
+  --marker-clr-sec: #4151E5;
+  --marker-clr: #FA8806;
+  --tertiary-clr: #25242A;
+  --all-transitions: all linear .3s;
+}
+
+.privacy-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-pri);
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: .7em 3%;
+  background-color: var(--pri-clr);
+  color: var(--line-clr);
+}
+
+.privacy-main-container a {
+  text-decoration: none;
+  color: blue;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.privacy-header-wrapper {
+    font-size: 1em;
+}
+
+.privacy-header-wrapper .title {
+    font-size: 2.3em;
+    font-weight: 700;
+    padding-top: .5em;
+    padding-bottom: .2em;
+    color: var(--secondary-clr);
+}
+
+.privacy-header-wrapper .date {
+    font-weight: 600;
+    color: var(--line-clr);
+}
+
+.privacy-body-wrapper {
+    font-size: 1em;
+    padding-top: 2.5em;
+}
+
+.text-layout {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+
+/* .introduction {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+} */
+
+.introduction-list,
+.table-list,
+.text-list {
+    padding-left: 3em;
+}
+
+
+
+.introduction-list>ul,
+.text-list>ul {
+    list-style-type: disc;
+}
+
+.summary .title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--secondary-clr);
+  padding: 1.5em 0 0 0;
+}
+
+.table .title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--secondary-clr);
+  padding: 1.5em 0 1em 0;
+}
+
+.content-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--secondary-clr);
+  padding: 1.5em 0 0 0;
+}
+
+.content-sub-title {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: var(--secondary-clr);
+}
+
+.table-list>ul {
+  list-style-type: decimal;
+}

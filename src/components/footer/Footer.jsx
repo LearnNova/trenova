@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wa.me/+2348179361381"
+              href="https://wa.me/+2349137819540"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
               Support

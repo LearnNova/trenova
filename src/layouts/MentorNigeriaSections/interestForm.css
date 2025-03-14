@@ -1,0 +1,147 @@
+#application-form-section {
+    position: relative;
+    text-align: center;
+    font-size: 4em;
+    background-color: var(--pri-clr);
+    color: var(--secondary-clr);
+    border: 1px solid var(--pri-clr);
+    font-family: var(--font-family-pri);
+    padding: .3em 0;
+    z-index: 1000;
+    
+  }
+  
+  .interest-application-form-title {
+    font-size: .4em;
+    font-weight: 800;
+    margin-bottom: .5em;
+  }
+  
+  #interest-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    max-width: 800px;
+    border-radius: 7px;
+    width: 90%;
+    background-color: var(--marker-clr-sec);
+    margin: 0 auto;
+    color: var(--pri-clr);
+  }
+  
+  .form-row-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    width: 100%;
+    font-size: .3em;
+    padding: 1em .5em;
+  }
+  
+  .form-row {
+    position: relative;
+    width: 48%;
+  }
+  
+  .form-row-consent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .consent-text {
+    text-align: left;
+    font-size: .8em;
+    line-height: 1em;
+  }
+  
+  .input-labels {
+    position: absolute;
+    top: -80%;
+    font-size: .8em;
+  }
+  
+  .input-labels-textarea {
+    position: absolute;
+    top: -40%;
+    font-size: .8em;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 2em;
+    font-size: .8em;
+    font-weight: 400;
+    padding: 0 .3em;
+    color: var(--secondary-clr);
+    border-radius: 3px;
+  }
+  
+  .form-control-textarea {
+    min-width: 208%;
+    min-height: 4em;
+    max-width: 100%;
+    max-height: 4em;
+    font-size: .8em;
+    font-weight: 400;
+    padding: 0 .3em;
+    color: var(--secondary-clr);
+    border-radius: 3px;
+  }
+  
+  .interest-submit-btn {
+    font-size: .35em;
+    background-color: var(--secondary-clr);
+    color: var(--pri-clr);
+    border-radius: 5px;
+    border: 1px outset var(--pri-clr);
+    padding: .3em .5em;
+    cursor: pointer;
+  }
+  
+  .apply-btn-container {
+    padding-top: .5em;
+  }
+  
+  #apply-btn {
+    color: var(--pri-clr);
+    font-size: .4em;
+    border-color: inherit;
+    background-color: var(--marker-clr);
+  }
+  
+  .interest-form-info-box {
+    background-color: var(--pri-clr);
+    color: var(--secondary-clr);
+    font-size: .3em;
+    font-family: var(--font-family-pri);
+    padding: .2em;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 730px) {
+    .interest-application-form-title {
+        font-size: .35em;
+    }
+  
+    .form-row-main {
+      flex-direction: column;
+      gap: 2em;
+    }
+  
+    .form-row {
+      width: 100%;
+    }
+  
+    .form-control-textarea {
+      min-width: 100%;
+    }
+  }

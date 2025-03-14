@@ -485,14 +485,17 @@ const Landing = (props) => {
       </div> */}
       <div className=" max-md:px-5 max-md:mt-10 max-md:max-w-full mt-10 flex w-full items-center justify-center  bg-gold ">
         <div className="mt-4 flex  max-w-full flex-col items-center">
-          <div className="text-2xl flex  max-w-full justify-between gap-5 font-semibold tracking-wider text-white">
-            <img
-              loading="lazy"
-              src={authImg}
-              className="aspect-[1.37] w-[114px] max-w-full"
-            />
+        <div className="text-2xl flex  max-w-full justify-between gap-1 font-semibold tracking-wider text-white">
+            <div style={{backgroundColor: 'white', borderRadius: '12px'}}>
+              <img
+                loading="lazy"
+                src={authImg}
+                // className="aspect-[1.37] w-[114px] max-w-full"
+                className="w-20"
+              />
+            </div>
             <div className="h-[83px]  bg-gray-500" />
-            <div className="my-auto">Support for Offline Class</div>
+            <div className="my-auto">LearnNova Supports Offline Classes</div>
           </div>
           <div className="text-2xl text-slate-400 max-md:mt-10 max-md:max-w-full mt-2 text-center font-medium tracking-wider"></div>
           <div className=" mt-6 flex items-center gap-2  ">
@@ -502,18 +505,18 @@ const Landing = (props) => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wa.me/+2348179361381"
+              href="https://wa.me/+2349137819540"
               className="text-2xl  flex items-center justify-center gap-2 rounded-[60px] bg-teal-400 px-4 py-2  font-medium text-white"
             >
               <BsWhatsapp color="green" /> Contact Us
             </a>
           </div>
           <div className="text-2xl text-slate-400 max-md:flex-wrap max-md:mt-10 max-md:mr-2.5 max-md:max-w-full mx-5 mt-5 flex justify-between gap-2 self-stretch text-center tracking-wider">
-            <div>Careers</div>
-            <div className="h-[23px] w-px bg-gray-500" />
-            <div className="flex-auto">Privacy Policy</div>
-            <div className="h-[23px] w-px bg-gray-500" />
-            <div className="grow whitespace-nowrap">Terms & Conditions</div>
+            {/* <div><Link to="/Career">Career</Link></div>
+            <div className="h-[23px] w-px bg-gray-500" /> */}
+            <div className="flex-auto"><Link to="/PrivacyPolicy">Privacy Policy</Link></div>
+            {/* <div className="h-[23px] w-px bg-gray-500" />
+            <div className="grow whitespace-nowrap">Terms & Conditions</div> */}
           </div>
           <div className="text-2xl text-slate-400 mt-8  text-center tracking-wider">
             © {Date()} Code Fussion Sol.{" "}
