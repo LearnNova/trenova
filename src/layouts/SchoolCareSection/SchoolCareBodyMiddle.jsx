@@ -15,42 +15,25 @@ const SchoolCareBodyMiddle = () => {
         </p> */}
 
         <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
-        <li>
-            Get Industry-Leading Educational and Private School Growth Products:
-            <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
-              <li>
-                School Learning Support System:
-                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
-                  <p>A <span className="font-semibold">comprehensive desktop-based platform</span> with:</p>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Mathematics</span> – 2,400 lessons + 8,000+ exam questions for Senior Secondary students.</li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Diction & Phonetics</span> – 540 lessons + 500+ exercises for Elementary pupils.</li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">E-Library</span> – 650–950 books for ages 3–17, promoting a habit of reading 12–20 books per term.</li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Creative & Vocational Courses</span> – Engaging courses to enhance creativity and practical skills.</li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Pay a discounted usage fee of <span className="font-semibold">₦95,875</span> per unit per term to LearnNova, then set your own resale price or offer it at LearnNova’s standard rate of <span className="font-semibold">₦125,000</span> per unit per term.</li>
-                </ul>
-              </li>
-
-              <li>
-                Home Learning  Application:
-                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
-                  <li><span className="mr-1">✅</span>A versatile multi-platform home learning app available on <span className="font-semibold">Android, iOS, and Desktop</span>, designed for learners to study at home. It features <span className="font-semibold">Mathematics, Phonetics, Creative Courses</span>, and a vast <span className="font-semibold">E-Library</span> with over <span className="font-semibold">600</span> books.</li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Purchase at LearnNova’s discounted rate of <span className="font-semibold">₦1,295</span> per learner per term and resell to unlimited schools at your preferred price or LearnNova's standard rate of <span className="font-semibold">₦1,800</span> per learner per term.</li>
-                </ul>
-              </li>
-            </ol>
-          </li>
-
           <li>
-            Provide Free Learning Opportunities:
+            Onboarding Training & Continuous Growth Program:
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                Give every school enrolled in the LearnNova Desktop Application <span className="font-semibold">35 free</span> learner accounts on our Home Learning App (available on Android, iOS, and Desktop).
+                <span className="font-semibold">5-Day Intensive Virtual Training</span> (6 hours per day) to equip you with the skills and strategies needed to get started quickly.
               </li>
               <li>
-                Equip schools with a structured, interactive platform that supports continuous learning beyond the classroom—after school, on weekends, and during holidays.
+                <span className="font-semibold">Continuous Sales & Business Growth Training Sessions</span> to keep you ahead in the education support industry with cutting-edge insights.
+              </li>
+              <li>
+                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Free upon reaching 55 customers.)</span>
+              </li>
+              <li>
+                <span className="font-semibold">Entrepreneurial Skills Development for Business Start-Up</span> – Gain essential knowledge to successfully launch and scale a business. <span className="font-semibold">(Free upon reaching 75 customers.)</span>
+              </li>
+              <li>
+                Critical Skills and Proven Strategies for Building and Running a Successful Business Consulting Practice. <span className="font-semibold">(Free upon achieving 100 customers)</span>
               </li>
             </ul>
-            {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal"><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Buy from LearnNova at <span className='font-semibold'>76.7%</span> of the standard price per unit and resell to unlimited schools at your chosen price.</p> */}
           </li>
 
           <li>
@@ -73,25 +56,36 @@ const SchoolCareBodyMiddle = () => {
           </li>
 
           <li>
-            Onboarding Training & Continuous Growth Program:
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+            Get Industry-Leading Educational and Private School Growth Solutions:
+            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Available as a <span className="font-semibold">desktop application</span> for schools and on <span className="font-semibold">Android, iOS, and desktop</span> for home learning.</p>
+
+            <ol className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3">
               <li>
-                <span className="font-semibold">5-Day Intensive Virtual Training</span> (6 hours per day) to equip you with the skills and strategies needed to get started quickly.
+                Key Features:
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
+                  {/* <p>A <span className="font-semibold">comprehensive desktop-based platform</span> with:</p> */}
+                  <li className="font-semibold"><span className="mr-1">✅</span>Mathematics for Senior Secondary School – 2,400 lessons + 8,000+ exam questions.</li>
+                  <li className="font-semibold"><span className="mr-1">✅</span>Diction and Phonetics (KG to Grade 6) – 540 lessons + 500+ exercises.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">E-Library for Elementary & Secondary Schools</span> – <span className="font-semibold">650–950 books</span>, fostering a strong reading culture.</li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Creative & Vocational Learning</span> – Engaging courses that enhance creativity and practical skills for all age groups.</li>
+                  {/* <li><span className="mr-1">✅</span><span className="font-semibold">Full Resale Rights</span> – Pay a discounted usage fee of <span className="font-semibold">₦95,875</span> per unit per term to LearnNova, then set your own resale price or offer it at LearnNova’s standard rate of <span className="font-semibold">₦125,000</span> per unit per term.</li> */}
+                </ul>
               </li>
+
               <li>
-                <span className="font-semibold">Continuous Sales & Business Growth Training Sessions</span> to keep you ahead in the education support industry with cutting-edge insights.
+                Pricing & Enrollment Packages:
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 34 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,999 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦125,000 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 100 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦165,000 per term</span></li>
+                </ul>
               </li>
-              <li>
-                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Free upon reaching 55 customers.)</span>
-              </li>
-              <li>
-                <span className="font-semibold">Entrepreneurial Skills Development for Business Start-Up</span> – Gain essential knowledge to successfully launch and scale a business. <span className="font-semibold">(Free upon reaching 75 customers.)</span>
-              </li>
-              <li>
-                Critical Skills and Proven Strategies for Building and Running a Successful Business Consulting Practice. <span className="font-semibold">(Free upon achieving 100 customers)</span>
-              </li>
-            </ul>
-          </li>
+
+              <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Distributor Benefit:</span> 23.5% per school, per term.</p>
+            </ol>
+
+            <p className="text-lg md:text-xl lg:text-3xl text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p>
+          </li>    
 
           <li>
             Brand & Ongoing Support:
