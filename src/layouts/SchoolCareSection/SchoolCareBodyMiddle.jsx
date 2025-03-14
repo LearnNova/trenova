@@ -59,7 +59,7 @@ const SchoolCareBodyMiddle = () => {
             Get Industry-Leading Educational and Private School Growth Solutions:
             <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Available as a <span className="font-semibold">desktop application</span> for schools and on <span className="font-semibold">Android, iOS, and desktop</span> for home learning.</p>
 
-            <ol className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3">
+            <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
                 Key Features:
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
@@ -84,7 +84,7 @@ const SchoolCareBodyMiddle = () => {
               <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Distributor Benefit:</span> 23.5% per school, per term.</p>
             </ol>
 
-            <p className="text-lg md:text-xl lg:text-3xl text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p>
+            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p>
           </li>    
 
           <li>
