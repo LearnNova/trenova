@@ -475,7 +475,7 @@ const EditCourseForm = () => {
               className="mb-2 cursor-pointer text-lg font-bold"
               onClick={() => handleToggleWeek(index)}
             >
-              Week {week.week}
+              {week.week}
             </h3>
             {expandedWeeks[index] && (
               <>
@@ -724,7 +724,7 @@ const EditCourseForm = () => {
               onClick={() => handleRemoveWeek(index)}
               className="text-sm text-red-600"
             >
-              Remove Week
+              Remove Topic
             </button>
           </div>
         ))}
@@ -733,7 +733,7 @@ const EditCourseForm = () => {
           onClick={handleAddWeek}
           className="mt-4 mr-2 rounded bg-gold py-2 px-4 font-semibold text-white hover:bg-gold"
         >
-          Add Week
+          Add Topic
         </button>{" "}
         <button
           type="button"

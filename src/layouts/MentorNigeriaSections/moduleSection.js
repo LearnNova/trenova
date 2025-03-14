@@ -10,19 +10,17 @@ const ModuleSection = () => {
     setSubModuleCollapse(0);
   }, [modulecollapse]);
 
-
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='module-title'>Syallabus:</div>
-
+        <div className='module-title'>Syallabus:</div>
             <div className='module-row'>
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
                     {modulecollapse !== 1 && 
                         <p className="three-dot">...</p>
                     }
-                    
+
                     {modulecollapse === 1 &&
                     <ul className="long-text pl-5">
                        <li>Effective Communication and Presentation Skills.</li>
@@ -30,7 +28,7 @@ const ModuleSection = () => {
                        <li>Time Management and Goal Setting.</li>
                        <li>Teamwork and Leadership.</li>
                     </ul> }
-                    
+
                     {modulecollapse === 1 ? 
                         <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
                             Read Less
@@ -43,15 +41,15 @@ const ModuleSection = () => {
 
                 <div className='module-info'>
                     <h3><span className='highlighter'>Module 2:</span> Professional Sales and Telemarketing Skills - <span className='highlighter'>(Compulsory)</span></h3>
-                    {modulecollapse !== 2 && 
-                        <p className="three-dot">...</p>
+                   {modulecollapse !== 2 && 
+                    <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 2 &&
                         <ul className="long-text pl-5">
                             <li>Basics of Telemarketing and Sales Psychology.</li>
                             <li>Customer Service and Relationship Management Skills.</li>
-                            <li>Developing Telemarketing Scripts & Mastering Prospects Engagement.</li>
+                            <li>Developing Telemarketing Scripts & Mastering Prospects Engagement.</li>
                             <li>Branding and Product Positioning.</li>
                             <li>Sales Pitches and Negotiation Skills.</li>
                             <li>Handling Customer Objections.</li>
@@ -70,12 +68,12 @@ const ModuleSection = () => {
                     }
                 </div>
 
+
             </div>
 
             <div className='module-row'>
-
                 <div className='module-info'>
-                        <h3 className='text-center'><span className='highlighter'>Module 3:</span> <b>Choose One Elective Course</b></h3>
+                <h3 className='text-center'><span className='highlighter'>Module 3:</span> <b>Choose One Elective Course</b></h3>
 
                         {modulecollapse !== 3 && 
                         <p className="three-dot">...</p>
@@ -157,7 +155,7 @@ const ModuleSection = () => {
                                         Continue
                                     </button>
                                 }
-                                
+
                             </ul>
                         }
 
@@ -177,17 +175,17 @@ const ModuleSection = () => {
                         }
                 </div>
 
-            </div>
+                </div>
 
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
-            
+
             <div className='line-breaker'></div>
-            
+
             <div className='module-text-box'>
                 <h1 className='highlighter'>Program Duration:</h1>
                 <p><span className='highlighter'>3 - 4 Months</span> (Flexible schedule with 1 - 2 sessions per week).</p>
             </div>
-            
+
             <div className='module-text-box'>
                 <h1 className='highlighter'>Assessment and Qualification Criteria:</h1>
                 <ul className='module-text-box__list-box'>
@@ -200,26 +198,25 @@ const ModuleSection = () => {
                         </ul>
                     </li>
                     <li style={{marginBottom: '0.5em'}}>
-                        <b>Training Completion:</b> To gain full access to the two mandatory and one elective training sessions, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
+                        <b>Training Completion:</b> To gain full access to the two mandatory and one elective training sessions, participants must refer <b>three (3) schools</b> to the LearnNova Learning Support Service.
                     </li>
                     <li>
-                        <b>Grant Award Draw Eligibility:</b> To qualify, participants must refer a total of <b>six (6) schools</b> to the LearnNova Learning Support Service — <b>three (3) additional schools</b> beyond the initial requirement for training program.
+                        <b>Grant Award Draw Eligibility:</b> To qualify, participants must refer a total of <b>six (6) schools</b> to the LearnNova Learning Support Service — <b>three (3) additional schools</b> beyond the initial requirement for training program.
                     </li>
                 </ul>
             </div>
 
             <div className='module-text-box'>
                 <h1 className='highlighter'>Certification:</h1>
-                <p>Participants who successfully complete <b>two core modules and one elective</b> will receive a certification. Additionally, they may become eligible for the <b>Business Grant Award Draw</b> and potential <b>full-time employment opportunities</b> with one of our partner organizations.</p>
+                <p>Participants who successfully complete <b>two core modules and one elective</b> will receive a certification. Additionally, they may become eligible for the <b>Business Grant Award Draw</b> and potential <b>full-time employment opportunities</b> with one of our partner organizations.</p>
             </div>
-
+            
             <div className='module-text-box'>
-                <h1 className='highlighter'>Delivery Format:</h1>
-                <p>Hybrid Learning: Online and Real-life Virtual sessions.</p>
+               <h1 className='highlighter'>Delivery Format:</h1>
+                <p>Hybrid Learning: Online and Real-life Virtual sessions.</p> 
             </div>
 
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
-
         </div>
     </div>
   )

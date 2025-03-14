@@ -485,7 +485,7 @@ const Landing = (props) => {
       </div> */}
       <div className=" max-md:px-5 max-md:mt-10 max-md:max-w-full mt-10 flex w-full items-center justify-center  bg-gold ">
         <div className="mt-4 flex  max-w-full flex-col items-center">
-          <div className="text-2xl flex  max-w-full justify-between gap-1 font-semibold tracking-wider text-white">
+        <div className="text-2xl flex  max-w-full justify-between gap-1 font-semibold tracking-wider text-white">
             <div style={{backgroundColor: 'white', borderRadius: '12px'}}>
               <img
                 loading="lazy"
@@ -494,7 +494,6 @@ const Landing = (props) => {
                 className="w-20"
               />
             </div>
-           
             <div className="h-[83px]  bg-gray-500" />
             <div className="my-auto">LearnNova Supports Offline Classes</div>
           </div>

@@ -8,6 +8,7 @@ import ManageSchools from "views/admin/schools";
 import ViewCourse from "views/admin/courses/ViewCourse";
 import EditCourseForm from "views/admin/courses/EditCourse";
 import { useSelector } from "react-redux";
+import AddLearner from "views/admin/learners/AddLearner";
 
 export default function Admin(props) {
   const { ...rest } = props;
@@ -117,6 +118,8 @@ export default function Admin(props) {
 
                 <Route path="/viewcoursedetails/:id" element={<ViewCourse />} />
                 <Route path="/edit-course/:id" element={<EditCourseForm />} />
+                <Route path="/edit-course/:id" element={<EditCourseForm />} />
+                <Route path="/learner/add" element={<AddLearner />} />
 
                 <Route
                   path="/"

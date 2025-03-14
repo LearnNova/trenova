@@ -1,6 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-// import RtlLayout from "layouts/rtl";
+import { Routes, Route, Navigate } from "react-router-dom";
 import AdminLayout from "layouts/admin";
 import AuthLayout from "layouts/auth";
 // import Home from "views/home/Home";
@@ -16,7 +15,10 @@ import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
 import ReferralPage from "pages/ReferralPage";
 import SchoolCarePage from "pages/SchoolCarePage";
 import SchoolCareCongratulationsPage from "layouts/SchoolCareSection/SchoolCareCongratulationsPage";
+// import MentorNigeriaPage from "layouts/MentorNigeriaPage";
+import { pdfjs } from "react-pdf";
 
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 const App = () => {
   return (
     <Routes>
@@ -83,11 +85,11 @@ const App = () => {
         } /> 
 
         <Route 
-          path="schoolsupportpartner" 
+         path="schoolsupportpartner" 
           element={
             <>
             <PageTitle title="School Support Partner" />
-            <SchoolCarePage />
+           <SchoolCarePage />
             </>
         } />
 
@@ -99,6 +101,7 @@ const App = () => {
             <SchoolCareCongratulationsPage />
             </>
         } /> 
+      {/* <Route path="MentorNigeria" element={<MentorNigeriaPage />} /> */}
 
       <Route path="" element={<PrivateRoute />}>
         <Route path="admin/*" element={<AdminLayout />} />

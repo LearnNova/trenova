@@ -101,14 +101,14 @@ export default function HomeNav() {
                     {navigation.map((item) => (
                       item.children? (
                         <Dropdown
+                        key={item.name}
                           button={
                             <Link
-                              key={item.name}
                               className={classNames(
-                                item.current
-                                  ? "bg-gray-900 text-white"
-                                  : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                                "text-sm rounded-md px-3 py-2 font-medium"
+                              item.current
+                                ? "bg-gray-900 text-white"
+                                : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                              "text-sm rounded-md px-3 py-2 font-medium"
                               )}
                               aria-current={item.current ? "page" : undefined}
                             >
@@ -120,9 +120,8 @@ export default function HomeNav() {
 
                               <div className="flex flex-col py-2">
                               {Object.keys(item.children).map((key) => (
-                                <>
+                                <Fragment key={key}>
                                   <Link
-                                  key={item.children[key].name}
                                   to={item.children[key].href}
                                   className="text-sm px-2 py-1 text-gray-800 dark:text-white hover:dark:text-white"
                                   >
@@ -130,7 +129,7 @@ export default function HomeNav() {
                                   </Link>
 
                                   <div className="h-px w-full my-1 bg-gray-200 dark:bg-white/20 " />
-                                </>
+                                </Fragment>
                                 // <Disclosure.Button
                                 //   key={item.children[key].name}
                                 //   as="a"
@@ -282,7 +281,7 @@ export default function HomeNav() {
                     {showDropDown && (
                       Object.keys(item.children).map((key) => (
                         <Disclosure.Button
-                          key={item.children[key].name}
+                          key={key}
                           as="a"
                           href={item.children[key].href}
                           className={classNames(

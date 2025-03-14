@@ -15,8 +15,8 @@ const FooterSection = () => {
           <p className='text-lg md:text-xl lg:text-3xl'>
             7B, Ogunsiji Close, Off Allen Avenue, Ikeja, Lagos.
           </p>
+            
         </div>
-
         <div>
           <h3 className='text-xl md:text-3xl lg:text-5xl font-bold'>
             Email
@@ -38,7 +38,7 @@ const FooterSection = () => {
         </div>
       </div>
 
-      <div className='py-3 text-center text-lg md:text-xl lg:text-3xl font-bold'>
+      <div className='pt-3 pb-5 text-center text-lg md:text-xl lg:text-3xl font-bold'>
         <a className='text-gray-800 hover:text-white underline' href='https://www.learnnova.ng' target='blank'>
           www.learnnova.ng
         </a>

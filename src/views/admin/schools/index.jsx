@@ -23,6 +23,7 @@ const ManageSchools = () => {
 
   useEffect(() => {
     refetch();
+    console.log(data?.users, "users");
     if (!isLoading && data) {
       const updatedRows = data.users.map((school) => {
         return {
@@ -38,6 +39,11 @@ const ManageSchools = () => {
           ispreviousTerm: school.ispreviousTerm,
           usedSpace: `${school.usedSpace}MB`,
           availableSpace: `${school.availableSpace}`,
+          termAccess: school.termAccess || "None",
+          subjectAccess: school.subjectAccess || "None",
+          expirationDate: new Date(school.expirationDate) || "N/A", // New field
+          maximumDevices: school.maximumDevices || "N/A", // New field
+          numOfDevices: school.numOfDevices || "N/A", // New field
         };
       });
       setRows(updatedRows);
@@ -56,6 +62,11 @@ const ManageSchools = () => {
     { field: "ispreviousTerm", headerName: "PreviousTerm", width: 100 },
     { field: "usedSpace", headerName: "usedSpace", width: 100 },
     { field: "availableSpace", headerName: "availableSpace", width: 100 },
+    { field: "termAccess", headerName: "Term Access", width: 150 },
+    { field: "subjectAccess", headerName: "Subject Access", width: 200 },
+    { field: "expirationDate", headerName: "Expiration Date", width: 150 }, // New column
+    { field: "maximumDevices", headerName: "Max Devices", width: 120 }, // New column
+    { field: "numOfDevices", headerName: "Number of Devices", width: 150 }, // New column
     {
       field: "Action",
       headerName: "Actions",

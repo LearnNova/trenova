@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-            <div className='hero-sec-text'>"EARN WHILE YOU LEARN!"</div>
+        <div className='hero-sec-text'>"EARN WHILE YOU LEARN!"</div>
         </div>
         <div className='hero-sec-info'>
         <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
@@ -19,7 +19,7 @@ const HeroSection = () => {
             <div className='section-4'>
                 <span>
                     Introducing the MentorNigeria Earn-While-You-Learn Program - a <span className='highlighter'>FREE</span> training and 
-                    mentorship initiative designed to empower young adults with the skills needed to excel in employment and entrepreneurship.
+                    mentorship initiative designed to empower young adults with the skills needed to excel in employment and entrepreneurship.       
                     <br /><br />
                     As a participant you’ll enjoy:
                 </span>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                     <ul>
                         <li>Valuable knowledge and mentorship to fast-track your success</li>
                         <li>Opportunities to secure full-time employment with one of our partners during your time at the Academy</li>
-                        <li>You also have a chance to secure a Business Takeoff Grant Award.</li>
+                        <li>You also have a chance to secure a Business Takeoff Grant Award.</li>
                     </ul>
                 </span>
                 
@@ -35,7 +35,6 @@ const HeroSection = () => {
             <div className='line-breaker'></div>
             <div className='what-you-learn-title'>
                 <b>Who is this program for?</b>
-                
             </div>
             <div className='what-you-learn-info'>
                 <span>
@@ -49,7 +48,7 @@ const HeroSection = () => {
                     </ul>
                 </span> 
                 <span>
-                Don’t miss this opportunity to transform your future.
+                   Don’t miss this opportunity to transform your future.
                 </span>
             </div>
             
