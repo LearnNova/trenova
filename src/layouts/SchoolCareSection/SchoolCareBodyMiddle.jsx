@@ -62,7 +62,7 @@ const SchoolCareBodyMiddle = () => {
             <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
                 Key Features:
-                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
                   {/* <p>A <span className="font-semibold">comprehensive desktop-based platform</span> with:</p> */}
                   <li className="font-semibold"><span className="mr-1">✅</span>Mathematics for Senior Secondary School – 2,400 lessons + 8,000+ exam questions.</li>
                   <li className="font-semibold"><span className="mr-1">✅</span>Diction and Phonetics (KG to Grade 6) – 540 lessons + 500+ exercises.</li>
@@ -74,14 +74,14 @@ const SchoolCareBodyMiddle = () => {
 
               <li>
                 Pricing & Enrollment Packages:
-                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white">
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 34 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,999 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦125,000 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 100 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦165,000 per term</span></li>
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 35 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦79,500 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,500 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 100 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦129,500 per term</span></li>
                 </ul>
               </li>
 
-              <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Distributor Benefit:</span> 23.5% per school, per term.</p>
+              <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price or LearnNova’s recommended standard rate.</p>
             </ol>
 
             <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p>
