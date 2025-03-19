@@ -34,14 +34,18 @@ const navigation = [
     // href: "/career/territory_sales_representative",
     children: {
       career1: {
+        name: 'E-Learning Sales Executive',
+        href: '/career/elearning_sales_executive',
+      },
+      career2: {
         name: 'Terittory Sales Manager',
         href: '/career/territory_sales_manager',
       },
-      career2: {
+      career3: {
         name: 'Sales Referral Agent',
         href: '/career/sales_officer',
       },
-      career3: {
+      career4: {
         name: 'Social Media Marketer',
         href: '/career/sales_media_marketer',
       },

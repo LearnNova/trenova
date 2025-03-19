@@ -9,6 +9,7 @@ import MentorNigeriaPage from "pages/MentorNigeriaPage";
 import CareerPageTSR from "pages/CareerPageTSR";
 import CareerPageSO from "pages/CareerPageSO";
 import CareerPageSM from "pages/CareerPageSM";
+import CareerPageSE from "pages/CareerPageSE";
 import PrivacyPolicyPage from "pages/PrivacyPolicyPage";
 import PageTitle from "utils/PageTitle";
 import SchoolGrowth from "layouts/MentorNigeriaSections/SchoolGrowth";
@@ -32,6 +33,14 @@ const App = () => {
             <MentorNigeriaPage />
           </>
         }/>
+        <Route 
+        path="career/elearning_sales_executive" 
+        element={
+          <>
+          <PageTitle title="E-Learning Sales Executive" />
+          <CareerPageSE />
+          </>
+        } />
       <Route 
         path="career/territory_sales_manager" 
         element={
