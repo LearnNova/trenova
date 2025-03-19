@@ -127,7 +127,7 @@ const CareerHeroSection4 = () => {
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='font-semibold'>Base Remuneration: </span><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
-                        <li><span className='font-semibold'>Marketing Reimbursement: </span>₦60,000 per month, disbursed in weekly installments of <span className='font-semibold'>₦15,000</span>. Payment is subject to a minimum of <span className='font-semibold'>two (2) sales units</span> per week.</li>
+                        <li><span className='font-semibold'>Marketing Reimbursement: </span><span className='highlighter-big'>₦60,000</span> per month, disbursed in weekly installments of <span className='font-semibold'>₦15,000</span>. Payment is subject to a minimum of <span className='font-semibold'>two (2) sales units</span> per week.</li>
                         <li><span className='font-semibold'>Performance Bonus: </span>Earn an additional <span className='font-semibold'>17.5%</span> on each sale made beyond <span className='font-semibold'>10 units</span>.</li>
                     </ul>
                 </div>
