@@ -173,13 +173,6 @@ const CareerHeroSection4 = () => {
                 Kindly Submit your Details below if Interested.
             </div>
 
-            <div className='career-other-hero-section-container'>
-                <div className='text-center w-full'>
-                    <p className='mb-3'>TreNova Group is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.</p>
-                    <p className='font-semibold'>Join us in revolutionizing education through technology!</p>
-                </div> 
-            </div>
-
         </div>
         
         <div className='whatsapp-btn-container'>
