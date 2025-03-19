@@ -156,12 +156,18 @@ const CareerHeroSection4 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
+                <p className='mb-3'>TreNova Group is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.</p>
+                <p className='font-semibold'>Join us in revolutionizing education through technology!</p>
+            </div>
+
+            <div className='line-breaker'></div>
+
+            <div className='career-other-hero-section-container'>
                 <span className='highlighter'><b>How to Apply:</b></span>
                 <div>
                     Interested candidates should fill out and submit their details using the application form below.
                 </div> 
             </div>
-
             
             <div className='call-to-action' onClick={NavigateForm}>
                 Kindly Submit your Details below if Interested.
