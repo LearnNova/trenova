@@ -68,7 +68,7 @@ const CareerHeroSection4 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='paragraph-title'>Qualifications & Skills:</span>
+                <span className='highlighter paragraph-title'>Qualifications & Skills:</span>
 
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
@@ -127,7 +127,7 @@ const CareerHeroSection4 = () => {
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='font-semibold'>Base Remuneration: </span><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
-                        <li><span className='font-semibold'>Marketing Reimbursement: </span>₦60,000 per month, disbursed in weekly installments of <span className='font-semibold'>₦15,000</span>. Payment is subject to a minimum of <span className='font-semibold'>two (2) sales units</span> per week.</li>
+                        <li><span className='font-semibold'>Marketing Reimbursement: </span><span className='highlighter-big'>₦60,000</span> per month, disbursed in weekly installments of <span className='font-semibold'>₦15,000</span>. Payment is subject to a minimum of <span className='font-semibold'>two (2) sales units</span> per week.</li>
                         <li><span className='font-semibold'>Performance Bonus: </span>Earn an additional <span className='font-semibold'>17.5%</span> on each sale made beyond <span className='font-semibold'>10 units</span>.</li>
                     </ul>
                 </div>
@@ -171,13 +171,6 @@ const CareerHeroSection4 = () => {
             
             <div className='call-to-action' onClick={NavigateForm}>
                 Kindly Submit your Details below if Interested.
-            </div>
-
-            <div className='career-other-hero-section-container'>
-                <div className='text-center w-full'>
-                    <p className='mb-3'>TreNova Group is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.</p>
-                    <p className='font-semibold'>Join us in revolutionizing education through technology!</p>
-                </div> 
             </div>
 
         </div>

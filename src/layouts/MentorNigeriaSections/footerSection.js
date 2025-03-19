@@ -19,7 +19,7 @@ const FooterSection = () => {
         </div>
         <div>
           <h3 className='text-xl md:text-3xl lg:text-5xl font-bold'>
-            Email
+            Email:
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
             <a  className='hover:text-white underline' href='mailto:info@learnnova.ng'>info@learnnova.ng</a>
@@ -28,7 +28,7 @@ const FooterSection = () => {
 
         <div>
           <h3 className='text-xl md:text-3xl lg:text-5xl font-bold'>
-            <a href="tel:07044086794">Contact</a>
+            <a href="tel:07044086794">Contact:</a>
           </h3>
           <ul className='list-none mx-0 px-0 font-semibold text-lg md:text-xl lg:text-3xl'>
             <li><a className='hover:text-white hover:underline' href="tel:07044086794">0704 408 6794</a></li>
