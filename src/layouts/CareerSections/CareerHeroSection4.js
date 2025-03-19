@@ -68,7 +68,7 @@ const CareerHeroSection4 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='paragraph-title'>Qualifications & Skills:</span>
+                <span className='highlighter paragraph-title'>Qualifications & Skills:</span>
 
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
