@@ -41,7 +41,9 @@ const ManageSchools = () => {
           availableSpace: `${school.availableSpace}`,
           termAccess: school.termAccess || "None",
           subjectAccess: school.subjectAccess || "None",
-          expirationDate: new Date(school.expirationDate) || "N/A", // New field
+          expirationDate: school.expirationDate
+            ? new Date(school.expirationDate)
+            : "1991-01-01T00:00:00.000Z", // New field
           maximumDevices: school.maximumDevices || "N/A", // New field
           numOfDevices: school.numOfDevices || "N/A", // New field
         };
