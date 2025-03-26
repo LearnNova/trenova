@@ -98,7 +98,7 @@ const SchoolCareBodyMiddle = () => {
         </ul>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
-          <p className="font-semibold">Invest in Your Success</p>
+          <p className="font-semibold text-orange-500">Invest in Your Success</p>
           <p>Start your journey as a <span className="font-semibold">LearnNova School Support Partner</span> for just <span className="font-semibold">₦75,000</span> and unlock all these benefits instantly.</p>
         </div>
       </div>
