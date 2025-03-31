@@ -75,9 +75,9 @@ const SchoolCareBodyMiddle = () => {
               <li>
                 Pricing & Enrollment Packages:
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 35 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦79,500 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,500 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 80 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦129,500 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold" style={{color: '#ff0000'}}>Bronze Package: </span><span className="font-semibold">Classroom Desktop Application + 35 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦79,500 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold" style={{color: '#ff0000'}}>Silver Package: </span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,500 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold" style={{color: '#ff0000'}}>Gold Package: </span><span className="font-semibold">Classroom Desktop Application + 80 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦129,500 per term</span></li>
                 </ul>
               </li>
 
