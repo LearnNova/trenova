@@ -44,7 +44,7 @@ const SchoolCareBodyMiddle = () => {
                 Leverage our <span className="font-semibold">School Growth Training Platform</span> to host paid training sessions for school owners and educators. Set your own pricing and retain 100% of the revenue.
               </li>
               <li>
-                Enroll your clients in our <span className="font-semibold">Annual Virtual Mentorship & Coaching Program</span>, led by industry experts. You have full control over pricing and keep all earnings.
+                Enroll your clients in our <span className="font-semibold">Regular School Growth Virtual Mentorship & Coaching Program</span>, led by industry experts. You have full control over pricing and keep all earnings.
               </li>
               <li>
                 Participate in <span className="font-semibold">Ongoing Business Growth Sessions</span> to stay ahead in the education sector with the latest strategies and insights.
