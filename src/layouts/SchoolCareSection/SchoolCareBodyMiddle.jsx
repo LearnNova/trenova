@@ -16,8 +16,8 @@ const SchoolCareBodyMiddle = () => {
 
         <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
           <li>
-            Onboarding Training & Continuous Growth Program:
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+            Seamless Onboarding Program & Continuous Learning Initiative
+            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
               <li>
                 <span className="font-semibold">5-Day Intensive Virtual Training</span> (6 hours per day) to equip you with the skills and strategies needed to get started quickly.
               </li>
@@ -39,7 +39,7 @@ const SchoolCareBodyMiddle = () => {
           <li>
             Expert Training & Mentorship Opportunities:
             {/* <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">A <span className="font-semibold">multi-platform learning app</span> (Android, iOS, and desktop) for students to learn at home during weekends, holidays, and after school:</p> */}
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
               <li>
                 Leverage our <span className="font-semibold">School Growth Training Platform</span> to host paid training sessions for school owners and educators. Set your own pricing and retain 100% of the revenue.
               </li>
@@ -77,7 +77,7 @@ const SchoolCareBodyMiddle = () => {
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
                   <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 35 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦79,500 per term</span></li>
                   <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,500 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 100 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦129,500 per term</span></li>
+                  <li><span className="mr-1">✅</span><span className="font-semibold">Classroom Desktop Application + 80 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦129,500 per term</span></li>
                 </ul>
               </li>
 
