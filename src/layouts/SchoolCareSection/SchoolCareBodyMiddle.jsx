@@ -57,7 +57,7 @@ const SchoolCareBodyMiddle = () => {
 
           <li>
             Get Industry-Leading Educational and Private School Growth Solutions:
-            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Available as a <span className="font-semibold">desktop application</span> for schools and on <span className="font-semibold">Android, iOS, and desktop</span> for home learning.</p>
+            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Accessible as a <span className="font-semibold">desktop application</span> for schools and a mobile app for home learning—compatible with <span className="font-semibold">Android</span>, <span className="font-semibold">iOS</span>, and <span className="font-semibold">desktop</span> devices.</p>
 
             <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
@@ -75,13 +75,56 @@ const SchoolCareBodyMiddle = () => {
               <li>
                 Pricing & Enrollment Packages:
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
-                  <li><span className="mr-1">✅</span><span className="font-semibold text-orange-500">Bronze Package: </span><span className="font-semibold">Classroom Desktop Application + 35 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦79,500 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package: </span><span className="font-semibold">Classroom Desktop Application + 50 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦99,500 per term</span></li>
-                  <li><span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package: </span><span className="font-semibold">Classroom Desktop Application + 80 learners</span> enrolled in the Home Learning App – <span className="font-semibold">₦129,500 per term</span></li>
+
+                  <li>
+                    <div>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Bronze Package:</span>
+                    </div>
+                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                      <li>
+                        <span className="font-semibold">-Includes: </span><span>LearnNova Learning Support Software installed on the school’s desktop system for classroom use</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">-Price: </span><span>₦69,999 per term</span>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
+                    </div>
+                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                      <li>
+                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">35 learners</span> on the Home Learning App</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">-Price: </span><span>₦99,999 per term</span>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
+                    </div>
+                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                      <li>
+                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">75 learners</span> on the Home Learning App</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">-Price: </span><span>₦129,999 per term</span>
+                      </li>
+                    </ul>
+                  </li>
+                  
                 </ul>
               </li>
 
-              <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price or LearnNova’s recommended standard rate that guarantee a minimum of <span className="font-semibold">66%</span> profit on purchase price.</p>
+              <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price.</p>
             </ol>
 
             <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p>
