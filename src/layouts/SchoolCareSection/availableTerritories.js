@@ -1,7 +1,23 @@
 const availableTerritories = [
     {
-        name: 'LAGOS',
-        value: 'lagos'
+        name: 'IKORODU',
+        value: 'ikorodu'
+    },
+    {
+        name: 'EPE',
+        value: 'epe'
+    },
+    {
+        name: 'BADAGRY',
+        value: 'badagry'
+    },
+    {
+        name: 'OTHER PARTS OF LAGOS MAINLAND',
+        value: 'lagos_mainland'
+    },
+    {
+        name: 'OTHER PARTS OF LAGOS ISLAND',
+        value: 'lagos_island'
     },
     {
         name: 'ABUJA',
@@ -40,8 +56,8 @@ const availableTerritories = [
         value: 'warri'
     },
     {
-        name: 'OWWERI, IMO STATE',
-        value: 'owweri'
+        name: 'OWERRI, IMO STATE',
+        value: 'owerri'
     },
     {
         name: 'KADUNA, NORTH WEST',
