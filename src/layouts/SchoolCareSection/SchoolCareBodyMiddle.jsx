@@ -141,8 +141,13 @@ const SchoolCareBodyMiddle = () => {
         </ul>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
+          <p className="font-semibold text-orange-500">Partners Registration Fee: ₦100,000</p>
+          <p>To become a LearnNova partner, a non-refundable registration fee of <span className='font-semibold'>₦100,000</span> is required. However, if you successfully place LearnNova Learning Support Products in <span className='font-semibold'>60 or more schools</span>, or generate <span className='font-semibold'>₦5 million</span> in sales within your first year, we’ll <span className='font-semibold'>fully refund</span> your registration fee.</p>
+        </div>
+
+        <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">Invest in Your Success</p>
-          <p>Start your journey as a <span className="font-semibold">LearnNova School Support Partner</span> for just <span className="font-semibold">₦75,000</span> and unlock all these benefits instantly.</p>
+          <p>Start your journey as a <span className="font-semibold">LearnNova School Support Partner</span> and unlock all these benefits instantly.</p>
         </div>
       </div>
 
