@@ -138,7 +138,7 @@ const CareerHeroSection3 = () => {
 
                         <li>
                             <b>Other Benefits: </b>
-                            Earn additional <span className='highlighter-big'><b>17.5%</b></span> commission on sales revenue exceeding <span className='highlighter-big'><b>₦1,250,000</b></span> per month.
+                            Earn additional <span className='highlighter-big'><b>17.5%</b></span> commission on monthly sales revenue exceeding <span className='highlighter-big'><b>₦1,250,000</b></span> per month.
                         </li>
                     </ul>
                 </div>
