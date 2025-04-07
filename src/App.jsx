@@ -41,6 +41,16 @@ const App = () => {
           <CareerPageSE />
           </>
         } />
+      
+      <Route 
+        path="career/digital_marketer" 
+        element={
+          <>
+          <PageTitle title="Career - Digital Marketer" />
+          <CareerPageSM />
+          </>
+        } />
+        
       <Route 
         path="career/territory_sales_manager" 
         element={
@@ -55,14 +65,6 @@ const App = () => {
           <>
           <PageTitle title="Career - Sales Officer" />
           <CareerPageSO />
-          </>
-        } />
-        <Route 
-        path="career/sales_media_marketer" 
-        element={
-          <>
-          <PageTitle title="Career - Social Media Marketer" />
-          <CareerPageSM />
           </>
         } />
 

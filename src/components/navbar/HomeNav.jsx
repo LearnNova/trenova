@@ -38,16 +38,16 @@ const navigation = [
         href: '/career/elearning_sales_executive',
       },
       career2: {
+        name: 'Digital Marketer',
+        href: '/career/digital_marketer',
+      },
+      career3: {
         name: 'Terittory Sales Manager',
         href: '/career/territory_sales_manager',
       },
-      career3: {
+      career4: {
         name: 'Sales Referral Agent',
         href: '/career/sales_officer',
-      },
-      career4: {
-        name: 'Social Media Marketer',
-        href: '/career/sales_media_marketer',
       },
     },
   },
