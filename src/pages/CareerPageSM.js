@@ -8,7 +8,7 @@ function CareerPageSM() {
   return (
     <div className="App">
       <CareerHeroSection3 />
-      <CareerApplicationFormSection role='DIRECT APPLICANT - SOCIAL MEDIA MARKETER'/>
+      <CareerApplicationFormSection role='DIRECT APPLICANT - DIGITAL MARKETER'/>
       <CareerFooterSection />
     </div>
   );

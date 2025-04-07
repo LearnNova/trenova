@@ -11,7 +11,7 @@ const CareerHeroSection3 = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span className='highlighter'>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Social Media Marketer</span>
+                <span style={{marginLeft: '.3em'}}> Digital Marketer (E-Learning Products)</span>
 
                 {/* <div className='line-breaker'></div>
 
@@ -40,34 +40,27 @@ const CareerHeroSection3 = () => {
             </div>
 
             <div>
-                <span>About Us:</span>
+                <span>Company Overview:</span>
                 <br/>
                 <span>
-                    We are a forward-thinking learning support and training business dedicated to helping 
-                    private elementary and secondary schools and learning institutions thrive. As we 
-                    continue to grow, we are seeking a talented and results-oriented Social Media Marketer 
-                    to enhance our online presence, drive engagement and improve sales in our niche market. 
-                </span>
+                Are you a digital marketing professional passionate about education and technology? Join our dynamic team as a Digital Marketer and help us revolutionize learning through powerful digital campaigns and strategic sales growth! LearnNova Learning Support Centre, a unit of TreNova Group is a leading provider of innovative e-learning solutions, dedicated to transforming education through technology. We specialize in delivering engaging and effective digital learning experiences to private elementary and secondary schools across Nigeria. Our mission is to empower learners and educators by providing accessible, high-quality e-learning products.</span>
             </div>
 
             <div>
-                <span className='highlighter'>Role Overview:</span>
+                <span className='highlighter'>About the Role:</span>
                 <br/>
                 <span>
-                    We’re looking for a creative Social Media Marketer to develop and execute strategies 
-                    that elevate brand awareness, foster engagement, generate quality leads, and drive 
-                    sales. If you have a passion for crafting impactful digital campaigns and creating 
-                    content that resonates, we’d love to have you on board.
+                    We’re seeking a goal-driven Digital Marketer to promote and sell our digital learning products. In this role, you’ll not only develop and execute marketing campaigns across digital channels, but you’ll also play a key part in driving sales and recruiting sales partners to expand our reach.
                     <br /><br /> 
                     <span className='highlighter'>Key Responsibilities:</span>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Design and implement social media strategies that align with company goals.</li>
-                        <li>Create and manage engaging content for platforms including Facebook, Instagram, LinkedIn, and Twitter.</li>
-                        <li>Plan and manage social media campaigns to drive lead generation and conversions.</li>
-                        <li>Analyze campaign performance and optimize strategies for improved ROI.</li>
-                        <li>Build and nurture audience relationships by promptly responding to comments and messages.</li>
-                        <li>Stay updated on the latest trends, tools, and best practices in social media and digital marketing.</li>
-                        <li>Collaborate with the team to align social media efforts with overall marketing campaigns.</li>
+                        <li>Develop and implement digital marketing strategies to promote our e-learning products.</li>
+                        <li>Manage campaigns across social media, email, SEO/SEM, and content platforms.</li>
+                        <li>Drive online traffic, lead generation, and conversions through paid and organic efforts.</li>
+                        <li>Create compelling content that communicates the value of our e-learning solutions.</li>
+                        <li>Recruit, onboard, and support a network of sales partners.</li>
+                        <li>Analyze campaign performance and optimize based on data insights.</li>
+                        <li>Stay up to date on digital marketing trends, tools, and best practices.</li>
                     </ul>
                 </span>
             </div>
@@ -75,24 +68,24 @@ const CareerHeroSection3 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='paragraph-title'>Qualifications:</span>
+                <span className='paragraph-title'>Requirements:</span>
 
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Proven experience in social media marketing, ideally within the education or training sector.</li>
-                        <li>Strong understanding of social media platforms, analytics tools, and advertising techniques.</li>
-                        <li>Exceptional communication skills with the ability to convert leads into paying customers..</li>
-                        <li>Creative flair for designing visually appealing graphics and multimedia content.</li>
-                        <li>Hands-on experience with advertising platforms like Facebook Ads Manager.</li>
-                        <li>Excellent multitasking and time management skills in a fast-paced environment. </li>
-                        <li>Bonus: Knowledge of SEO and content marketing strategies.</li>
+                        <li>Minimum of 2 years of experience in digital marketing, preferably in the edtech or e-learning space.</li>
+                        <li>Proven experience in product marketing and sales generation.</li>
+                        <li>Strong skills in social media marketing, email campaigns, SEO/SEM, and content creation.</li>
+                        <li>Ability to recruit and manage a group of sales partners.</li>
+                        <li>Familiarity with tools like Google Analytics, Facebook Ads Manager, and email marketing platforms.</li>
+                        <li>Excellent communication, analytical, and organizational skills.</li>
+                        <li>Degree or certification in Marketing, Communications, or a related field is an advantage.</li>
                     </ul>
                 </div> 
             </div>
 
-            <div className='line-breaker'></div>
+            {/* <div className='line-breaker'></div> */}
 
-            <div className='career-what-you-learn-title'>
+            {/* <div className='career-what-you-learn-title'>
                  <span className='paragraph-title'>What we Offer:</span>
 
                 <div>
@@ -102,7 +95,7 @@ const CareerHeroSection3 = () => {
                         <li>Opportunities to work with a supportive and innovative team.</li>
                         <li>Professional growth in a thriving niche industry.</li>
                     </ul>
-                    {/* <div>
+                    <div>
                         <span className='paragraph-title'>Important Note:</span>
                         <p>
                             In the event that your monthly sales fall below <span className='highlighter-big'><b>9 unit</b></span> or <span className='highlighter-big'><b>₦890,000</b></span>, the 
@@ -110,9 +103,9 @@ const CareerHeroSection3 = () => {
                             limited at <span className='highlighter-big'><b>15.5%</b></span> of the monthly 
                             sales revenue.
                         </p>
-                    </div> */}
+                    </div>
                 </div>
-                {/* <ol id='career-what-you-learn-title-list'>
+                <ol id='career-what-you-learn-title-list'>
                     <li><b>Basic Salary: </b><span className='highlighter-big'><b>₦160,000.00</b></span>/month (based on meeting key performance targets).</li>
                     <li><b>Marketing Allowance: </b><span className='highlighter-big'><b>₦40,000.00</b></span>/month.</li>
                     <li><b>Performance Bonus: </b>Up to <span className='highlighter-big'><b>₦200,000.00</b></span>/month, based on the following sales volume:</li>
@@ -124,8 +117,8 @@ const CareerHeroSection3 = () => {
                     </ul>
 
                     <li><b>Sales Commission: </b><span className='highlighter'><b>7.5%</b></span> commission on any sales exceeding <span className='highlighter'>1,250</span> App Units or its equivalent in sales revenue.</li>
-                </ol> */}
-            </div>
+                </ol>
+            </div> */}
 
             <div className='line-breaker'></div>
 
@@ -133,9 +126,20 @@ const CareerHeroSection3 = () => {
                  <span className='paragraph-title'>Compensation Details:</span>
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><b>Base Salary: </b><span className='highlighter-big'><b>₦200,000</b></span> per month</li>
-                        <li><b>Marketing Fund: </b><span className='highlighter-big'><b>₦80,000</b></span> allocated per month.</li>
-                        <li><b>Performance Bonus: </b>Earn an additional <span className='highlighter-big'><b>17.5%</b></span> on each sale made beyond <b>15 units</b>.</li>
+                        <li>
+                            <b>Base Remuneration: </b>
+                            <span className='highlighter-big'><b>₦200,000</b></span> per month.
+                        </li>
+
+                        <li>
+                            <b>Marketing Reimbursement: </b>
+                            Up to <span className='highlighter-big'><b>₦60,000</b></span> per month, subject to achieving a minimum of <span className='highlighter-big'><b>₦375,000</b></span> in monthly sales revenue.
+                        </li>
+
+                        <li>
+                            <b>Other Benefits: </b>
+                            Earn additional <span className='highlighter-big'><b>17.5%</b></span> commission on sales revenue exceeding <span className='highlighter-big'><b>₦1,250,000</b></span> per month.
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -143,9 +147,9 @@ const CareerHeroSection3 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='highlighter'><b>Probationary Period Policy:</b></span>
+                <span className='highlighter'><b>Probationary Period Terms:</b></span>
                 <div>
-                    This role includes a <span className='font-semibold'>6-month</span> probationary period. During this time, if you sell fewer than <span className='font-semibold'>15 units</span> in a month, your base salary will be temporarily suspended, and your earnings for that month will be limited to <span className='highlighter-big font-semibold'>17.5%</span> of your sales revenue.
+                    This position includes a <span className='font-semibold'>six-month</span> probationary period. During this period, if your monthly sales revenue is below <span className='highlighter-big font-semibold'>₦1,250,000</span>, your base salary will be temporarily suspended. Instead, you will earn <span className='font-semibold'>15.5% of your total sales revenue</span> for that month.
                 </div> 
             </div>
 
@@ -165,7 +169,7 @@ const CareerHeroSection3 = () => {
 
             <div className='career-other-hero-section-container' style={{alignSelf: 'center'}}>
                 <div>
-                    <i>We can’t wait to welcome you to our team!</i>
+                    <i>Join us in shaping the future of education—one learner at a time!</i>
                 </div> 
             </div>
 
