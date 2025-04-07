@@ -128,18 +128,7 @@ const CareerHeroSection4 = () => {
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='font-semibold'>Base Remuneration: </span><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
                         <li><span className='font-semibold'>Marketing Reimbursement: </span>Up to <span className='highlighter-big'>₦60,000</span> per month, subject to achieving a minimum of <span className='font-semibold'>₦375,000</span> in monthly sales revenue.</li>
-                        <li><span className='font-semibold'>Other Benefits: </span>Earn an additional <span className='font-semibold'>17.5%</span> commission on monthly sales revenue exceeding <span className='font-semibold'>₦1,250,000</span>.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div className='line-breaker'></div>
-
-            <div className='career-what-you-learn-title'>
-                 <span className='paragraph-title'>Other Benefits:</span>
-                <div>
-                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><span className='font-semibold'>Professional Development: </span>Regular training opportunities for skill enhancement and continuous career advancement within a dynamic and growing company.</li>
+                        <li><span className='font-semibold'>Other Benefits: </span>Receive a <span className='font-semibold'></span>17.5% bonus commission on monthly sales revenue above <span className='font-semibold'></span>₦1,250,000, along with regular training sessions to enhance your skills and support ongoing career growth within a dynamic, fast-growing organization.</li>
                     </ul>
                 </div>
             </div>
@@ -147,9 +136,9 @@ const CareerHeroSection4 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='highlighter font-semibold'>Probationary Period Policy:</span>
+                <span className='highlighter font-semibold'>Probationary Period Terms:</span>
                 <div>
-                    This role includes a <span className='font-semibold'>6-month</span> probationary period. During this time, if you sell fewer than <span className='font-semibold'>10 units</span> in a month, your base salary will be temporarily suspended, and your earnings for that month will be limited to <span className='font-semibold'>17.5%</span> of your sales revenue.
+                    This position includes a <span className='font-semibold'>six-month</span> probationary period. During this period, if your monthly sales revenue is below <span className='highlighter-big font-semibold'>₦1,250,000</span>, your base salary will be temporarily suspended. Instead, you will earn <span className='font-semibold'>15.5% of your total sales revenue</span> for that month.
                 </div> 
             </div>
 
