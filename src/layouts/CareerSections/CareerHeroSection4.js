@@ -128,7 +128,7 @@ const CareerHeroSection4 = () => {
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li><span className='font-semibold'>Base Remuneration: </span><span className='highlighter-big'><b>₦200,000</b></span> per month.</li>
                         <li><span className='font-semibold'>Marketing Reimbursement: </span>Up to <span className='highlighter-big'>₦60,000</span> per month, subject to achieving a minimum of <span className='font-semibold'>₦375,000</span> in monthly sales revenue.</li>
-                        <li><span className='font-semibold'>Other Benefits: </span>Receive a <span className='font-semibold'></span>17.5% bonus commission on monthly sales revenue above <span className='font-semibold'></span>₦1,250,000, along with regular training sessions to enhance your skills and support ongoing career growth within a dynamic, fast-growing organization.</li>
+                        <li><span className='font-semibold'>Additional Benefits: </span>Receive a <span className='font-semibold'></span>17.5% bonus commission on monthly sales revenue above <span className='font-semibold'></span>₦1,250,000, along with regular training sessions to enhance your skills and support ongoing career growth within a dynamic, fast-growing organization.</li>
                     </ul>
                 </div>
             </div>
