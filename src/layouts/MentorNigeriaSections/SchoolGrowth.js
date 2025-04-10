@@ -17,13 +17,54 @@ const SchoolGrowth = () => {
                 <div className='text-body-container'>
                     <div className='text-body'>
                         <ul>
-                            <li><span className='bold'>Diction & Phonetics Studio or Mathematics Studio Installation</span> – Get the <span className='font-semibold'>Diction and Phonetics Studio</span> for elementary schools or the <span className='font-semibold'>Mathematics Studio</span> for senior secondary schools installed on your school computer desktop. <span className='red-text bold small-text'>(Value: ₦250,000 per term)</span></li>
-                            <li><span className='bold'>Free Home Learning App Enrollment</span> – Get <span className='font-semibold'>free access for 35 pupils/students</span> on our multi-platform <span className='font-semibold'>Home Learning App</span>, available on <span className='font-semibold'>Android, iOS, and Desktop</span>. Designed to enhance learning beyond the classroom with engaging and interactive content. <span className='red-text font-semibold small-text'>(Value: ₦175,000 per term)</span></li>
-                            <li><span className='bold'>Creative & Vocational Skills Development Studio Installation</span> – Equip your school with the <span className='font-semibold'>Creative & Vocational Skills Development Studio</span>, installed directly on your school computer desktop. <span className='red-text bold small-text'>(Value: ₦249,000 per term)</span></li>
-                            <li><span className='bold'>Referral Rewards</span> – Refer <span className='font-semibold'>one school</span> to LearnNova and receive <span className='font-semibold'>free enrollment for 20 additional pupils/students</span> on the Home Learning App. <span className='red-text bold small-text'>(Value: ₦100,000)</span></li> 
-                            <li><span className='bold'>Exclusive Access to Virtual Mentorship & Coaching</span> – Gain <span className='font-semibold'>free access</span> to TreNova’s <span className='font-semibold'>virtual school growth mentorship & coaching sessions</span> to support your school’s development. <span className='red-text bold small-text'>(Value: ₦150,000 per term)</span></li>
-                            <li><span className='bold'>TreNova Academy Online Training Access</span> – Enjoy <span className='font-semibold'>complimentary access</span> to TreNova Academy’s <span className='font-semibold'>online training platform</span>, packed with valuable resources for educators and school leaders. <span className='red-text bold small-text'>(Value: ₦100,000 per term)</span></li>
-                            <li><span className='bold'>Shape the Future of LearnNova</span> – Get the <span className='font-semibold'>opportunity to suggest new creative and vocational skills</span> for LearnNova to develop, helping tailor solutions to your school’s needs.</li>
+                            <li>
+                                <p className='font-bold'>Install the LearnNova Desktop Learning Support Studio on Your School Computer</p>
+                                <p>Empower your learners with a robust desktop-based solution tailored to boost academic achievement and drive school growth. LearnNova Studio offers:</p>
+                                <ul className='list-none mx-3 space-y-2'>
+                                    <li>- <span className='font-semibold'>Diction & Phonetics for Elementary Schools</span> – 540 interactive lessons + 500 practice exercises</li>
+                                    <li>- <span className='font-semibold'>Mathematics</span> for Senior Secondary Schools – 2,400 detailed lessons + 8,000 Q&As</li>
+                                    <li>- <span className='font-semibold'>Creative & Vocational Courses</span> (Ages 3–17) – Designed to inspire creativity and develop practical life skills</li>
+                                </ul>
+                                <p className='mt-3'>Provide your students with structured, engaging content that promotes success - while increasing your school’s revenue and profitability.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦850,000 per term)</p>
+                            </li>
+
+                            <li>
+                                <p className='font-bold'>E-Library for Elementary & Secondary Schools</p>
+                                <p>Give <span className='font-semibold'>35</span> of your pupils/students <span className='font-semibold'>free access</span> to our interactive Home Learning App—available on <span className='font-semibold'>Android, iOS, and Desktop</span>. Designed to extend learning beyond the classroom with fun, engaging, and educational content.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦500,000 per term)</p>
+                            </li>
+
+                            <li>
+                                <p className='font-bold'>Free Enrollment on the LearnNova Home Learning App</p>
+                                <p>Give your students access to a rich digital library with over <span className='font-semibold'>850 carefully selected books</span> to foster a strong reading culture and improve literacy across all levels.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦175,000 per term)</p>
+                            </li>
+
+                            <li>
+                                <p className='font-bold'>Exclusive Access to Virtual Mentorship & Coaching</p>
+                                <p>Get <span className='font-semibold'>free access</span> to TreNova’s expert-led virtual mentorship and coaching sessions - designed to guide your school’s growth, performance, and long-term success.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦150,000 per term)</p>
+                            </li>
+
+                            <li>
+                                <p className='font-bold'>TreNova Academy Online Training Access</p>
+                                <p>Enjoy <span className='font-semibold'>free access</span> to TreNova Academy’s online training platform—featuring expert resources, tools, and courses tailored for educators and school leaders.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦100,000 per term)</p>
+                            </li>
+
+                            <li>
+                                <p className='font-bold'> Referral Rewards</p>
+                                <p>Refer a school to LearnNova and receive free enrollment for 20 additional pupils/students on the Home Learning App.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦100,000)</p>
+                            </li>
+
+                            <li>
+                                <p className='font-bold'>Shape the Future of LearnNova</p>
+                                <p>Gain the exclusive opportunity to propose new creative and vocational skills for LearnNova to develop, ensuring our solutions are tailored to meet your school’s unique needs.</p>
+                                {/* <p className='red-text font-semibold small-text'>(Valued at ₦500,000 per term)</p> */}
+                            </li>
+        
                         </ul>
                     </div>
                     <div className='price-body'>
