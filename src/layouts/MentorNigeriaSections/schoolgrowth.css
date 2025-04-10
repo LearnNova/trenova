@@ -118,7 +118,7 @@ html, body {
 
 .text-body ul > li {
   line-height: 1.3em;
-  margin-bottom: 0.6em;
+  /* margin-bottom: 0.6em; */
 }
 
 .price-body {

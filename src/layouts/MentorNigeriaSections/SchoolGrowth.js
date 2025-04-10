@@ -16,11 +16,11 @@ const SchoolGrowth = () => {
                 </div>
                 <div className='text-body-container'>
                     <div className='text-body'>
-                        <ul>
+                        <ul className='space-y-3'>
                             <li>
                                 <p className='font-bold'>Install the LearnNova Desktop Learning Support Studio on Your School Computer</p>
                                 <p>Empower your learners with a robust desktop-based solution tailored to boost academic achievement and drive school growth. LearnNova Studio offers:</p>
-                                <ul className='mx-3 space-y-1' style={{fontSize: '1rem', listStyleType: 'none'}}>
+                                <ul className='mx-3' style={{fontSize: '1em', listStyleType: 'none'}}>
                                     <li>- <span className='font-semibold'>Diction & Phonetics for Elementary Schools</span> – 540 interactive lessons + 500 practice exercises</li>
                                     <li>- <span className='font-semibold'>Mathematics</span> for Senior Secondary Schools – 2,400 detailed lessons + 8,000 Q&As</li>
                                     <li>- <span className='font-semibold'>Creative & Vocational Courses</span> (Ages 3–17) – Designed to inspire creativity and develop practical life skills</li>
