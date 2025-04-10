@@ -74,8 +74,8 @@ const SchoolGrowth = () => {
                     <div className='note-body red-text bold' style={{marginBottom: '1em'}}>
                         <em>Schools that subscribe & pay before the end of <span className='deep-purple'>PROMO</span> to get it for <span className='deep-purple'>₦129,999 per term</span> - save 27.78% !</em>
                     </div>
-                    <div className='note-body bold'>
-                        Children can learn from home using our Android, iOS, or Desktop App.
+                    <div className='note-body font-bold italic text-center'>
+                        Unlock and Connect Knowledge to Success with Engaging Lessons, Anytime, Anywhere on LearnNova—Available on Android, iOS, and Desktop!
                     </div>
                     <div className='interest-body'>
                         <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
