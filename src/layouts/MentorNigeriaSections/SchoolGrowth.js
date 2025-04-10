@@ -31,13 +31,13 @@ const SchoolGrowth = () => {
 
                             <li>
                                 <p className='font-bold'>E-Library for Elementary & Secondary Schools</p>
-                                <p>Give <span className='font-semibold'>35</span> of your pupils/students <span className='font-semibold'>free access</span> to our interactive Home Learning App—available on <span className='font-semibold'>Android, iOS, and Desktop</span>. Designed to extend learning beyond the classroom with fun, engaging, and educational content.</p>
+                                <p>Give your pupils/students access to a rich digital library with over <span className='font-semibold'>850 carefully selected books</span> to foster a strong reading culture and improve literacy across all levels.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦500,000 per term)</p>
                             </li>
 
                             <li>
                                 <p className='font-bold'>Free Enrollment on the LearnNova Home Learning App</p>
-                                <p>Give your students access to a rich digital library with over <span className='font-semibold'>850 carefully selected books</span> to foster a strong reading culture and improve literacy across all levels.</p>
+                                <p>Give <span className='font-semibold'>35</span> of your pupils/students <span className='font-semibold'>free access</span> to our interactive Home Learning App—available on <span className='font-semibold'>Android, iOS, and Desktop</span>. Designed to extend learning beyond the classroom with fun, engaging, and educational content.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦175,000 per term)</p>
                             </li>
 
