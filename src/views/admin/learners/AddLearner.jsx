@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import { useLearnersignupMutation } from "./../../../redux/api/learnersApiSlice";
 import InputField from "components/fields/InputField";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const AddLearner = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
+    resetField,
+    reset,
   } = useForm();
   const [learnersignup, { isLoading }] = useLearnersignupMutation();
+  const [showPassword, setShowPassword] = useState(false);
 
   const classOptions = [
     { label: "Select a class", value: "" },
@@ -45,6 +49,7 @@ const AddLearner = () => {
     try {
       const res = await learnersignup(data).unwrap();
       // dispatch(setCredentials({ ...res }));
+      reset();
       toast.success("Learner added up successfully");
     } catch (err) {
       console.log(err);
@@ -133,27 +138,45 @@ const AddLearner = () => {
               required
             />
 
-            <InputField
-              variant="auth"
-              extra="mb-3"
-              label="Password*"
-              placeholder="**********"
-              id="password"
-              type="password"
-              register={register}
-              required
-            />
+            <div className="relative">
+              <InputField
+                variant="auth"
+                extra="mb-3"
+                label="Password*"
+                placeholder="**********"
+                id="password"
+                type={showPassword ? "text" : "password"}
+                register={register}
+                required
+              />
+              <button
+                type="button"
+                className="absolute right-3 top-[68%] -translate-y-1/2 transform text-gray-500 hover:text-gray-900"
+                onClick={() => setShowPassword((prev) => !prev)}
+              >
+                {showPassword ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
+              </button>
+            </div>
 
-            <InputField
-              variant="auth"
-              extra="mb-3"
-              label="Confirm Password*"
-              placeholder="**********"
-              id="passwordConfirm"
-              type="password"
-              register={register}
-              required
-            />
+            <div className="relative">
+              <InputField
+                variant="auth"
+                extra="mb-3"
+                label="Confirm Password*"
+                placeholder="**********"
+                id="passwordConfirm"
+                type={showPassword ? "text" : "password"}
+                register={register}
+                required
+              />
+              <button
+                type="button"
+                className="absolute right-3 top-[68%] -translate-y-1/2 transform text-gray-500 hover:text-gray-900"
+                onClick={() => setShowPassword((prev) => !prev)}
+              >
+                {showPassword ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
+              </button>
+            </div>
           </div>
         </div>
 

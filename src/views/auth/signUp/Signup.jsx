@@ -9,10 +9,12 @@ import { toast } from "react-hot-toast";
 import { useForm } from "react-hook-form";
 import { useSignupMutation } from "../../../redux/api/usersApiSlice";
 import { setCredentials } from "../../../redux/features/auth/authSlice";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 export default function SignUp() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   const {
     register,
@@ -111,26 +113,45 @@ export default function SignUp() {
             type="text"
             register={register}
           />
-          <InputField
-            variant="auth"
-            extra="mb-3"
-            label="Password*"
-            required
-            placeholder="Min. 8 characters"
-            id="password"
-            type="password"
-            register={register}
-          />
-          <InputField
-            variant="auth"
-            extra="mb-3"
-            label="Confirm password*"
-            required
-            placeholder="Min. 8 characters"
-            id="passwordConfirm"
-            type="password"
-            register={register}
-          />
+          <div className="relative">
+            <InputField
+              variant="auth"
+              extra="mb-3"
+              label="Password*"
+              placeholder="**********"
+              id="password"
+              type={showPassword ? "text" : "password"}
+              register={register}
+              required
+            />
+            <button
+              type="button"
+              className="absolute right-3 top-[68%] -translate-y-1/2 transform text-gray-500 hover:text-gray-900"
+              onClick={() => setShowPassword((prev) => !prev)}
+            >
+              {showPassword ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
+            </button>
+          </div>
+
+          <div className="relative">
+            <InputField
+              variant="auth"
+              extra="mb-3"
+              label="Confirm Password*"
+              placeholder="**********"
+              id="passwordConfirm"
+              type={showPassword ? "text" : "password"}
+              register={register}
+              required
+            />
+            <button
+              type="button"
+              className="absolute right-3 top-[68%] -translate-y-1/2 transform text-gray-500 hover:text-gray-900"
+              onClick={() => setShowPassword((prev) => !prev)}
+            >
+              {showPassword ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
+            </button>
+          </div>
 
           <button
             type="submit"

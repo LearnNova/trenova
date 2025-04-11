@@ -19,6 +19,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { useTeacherloginMutation } from "./../../../redux/api/teachersApiSlice";
 import ForgetPassowrd from "components/ForgetPassowrd";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -63,6 +64,7 @@ export default function SignIn() {
   const [teacherlogin, { isLoading: teacherloading }] =
     useTeacherloginMutation();
   const { userInfo } = useSelector((state) => state.auth);
+  const [showPassword, setShowPassword] = useState(false);
 
   const [value, setValue] = React.useState(0);
 
@@ -148,16 +150,30 @@ export default function SignIn() {
               />
 
               {/* Password */}
-              <InputField
-                variant="auth"
-                extra="mb-3"
-                label="Password*"
-                placeholder="Min. 8 characters"
-                id="password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
+              <div className="relative">
+                <InputField
+                  variant="auth"
+                  extra="mb-3"
+                  label="Password*"
+                  placeholder="Min. 8 characters"
+                  id="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  type={showPassword ? "text" : "password"}
+                  required
+                />
+                <button
+                  type="button"
+                  className="absolute right-3 top-[68%] -translate-y-1/2 transform text-gray-500 hover:text-gray-900"
+                  onClick={() => setShowPassword((prev) => !prev)}
+                >
+                  {showPassword ? (
+                    <FaEyeSlash size={20} />
+                  ) : (
+                    <FaEye size={20} />
+                  )}
+                </button>
+              </div>
 
               {/* Checkbox */}
               <div className="mb-4 flex items-center justify-between px-2">
@@ -214,16 +230,31 @@ export default function SignIn() {
               />
 
               {/* Password */}
-              <InputField
-                variant="auth"
-                extra="mb-3"
-                label="Password*"
-                placeholder="Min. 8 characters"
-                id="password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
+
+              <div className="relative">
+                <InputField
+                  variant="auth"
+                  extra="mb-3"
+                  label="Password*"
+                  placeholder="Min. 8 characters"
+                  id="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  type={showPassword ? "text" : "password"}
+                  required
+                />
+                <button
+                  type="button"
+                  className="absolute right-3 top-[68%] -translate-y-1/2 transform text-gray-500 hover:text-gray-900"
+                  onClick={() => setShowPassword((prev) => !prev)}
+                >
+                  {showPassword ? (
+                    <FaEyeSlash size={20} />
+                  ) : (
+                    <FaEye size={20} />
+                  )}
+                </button>
+              </div>
 
               {/* Checkbox */}
               <div className="mb-4 flex items-center justify-between px-2">
