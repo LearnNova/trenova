@@ -45,53 +45,6 @@ const EditCourseForm = () => {
   );
   const [updateCourse] = useUpdateCourseMutation();
   const [videoUrl, setVideoUrl] = useState(null);
-  const sampleData = {
-    name: "Sample Course",
-    school: "Sample School",
-    term: "1",
-    class: "Grade 1",
-    content: [
-      {
-        week: 1,
-        type: "video",
-        lessons: [
-          {
-            number: "1",
-            title: "Introduction",
-            content: "Introduction to the course",
-          },
-          { number: "2", title: "Lesson 1", content: "Content of lesson 1" },
-        ],
-        questions: [
-          {
-            text: "Question 1",
-            options: ["Option 1", "Option 2"],
-            correctOption: 0,
-          },
-          {
-            text: "Question 2",
-            options: ["Option A", "Option B", "Option C"],
-            correctOption: 1,
-          },
-        ],
-      },
-      {
-        week: 2,
-        type: "text",
-        lessons: [
-          { number: "1", title: "Lesson 2", content: "Content of lesson 2" },
-          { number: "2", title: "Lesson 3", content: "Content of lesson 3" },
-        ],
-        questions: [
-          {
-            text: "Question 3",
-            options: ["Option X", "Option Y"],
-            correctOption: 0,
-          },
-        ],
-      },
-    ],
-  };
 
   const classOptions = [
     "KG 1",
@@ -112,7 +65,7 @@ const EditCourseForm = () => {
     "SSS 3",
   ];
 
-  const termOptions = ["1", "2", "3"];
+  const termOptions = ["1", "2", "3", "4", "5"];
   useEffect(() => {
     // Check if data exists and is not empty
     if (data) {

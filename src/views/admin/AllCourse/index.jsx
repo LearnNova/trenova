@@ -39,7 +39,7 @@ const AllCourse = () => {
     "SSS 3",
   ];
 
-  const termOptions = ["1", "2", "3"];
+  const termOptions = ["1", "2", "3", "4", "5"];
   const { userInfo } = useSelector((state) => state.auth);
   console.log("userInfouserInfo", userInfo);
   const {
