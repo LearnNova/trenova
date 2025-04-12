@@ -48,9 +48,17 @@ const AddLearner = () => {
     }
     try {
       const res = await learnersignup(data).unwrap();
-      // dispatch(setCredentials({ ...res }));
-      reset();
-      toast.success("Learner added up successfully");
+
+       // dispatch(setCredentials({ ...res }));
+
+      if (res.success) { 
+        reset();
+        toast.success("Learner added successfully");
+      } else {
+        toast.error("An error occurred: " + (res.message || "Please try again"));
+      }
+      // reset();
+      // toast.success("Learner added up successfully");
     } catch (err) {
       console.log(err);
       toast.error(err?.data?.message || "try again");
@@ -188,14 +196,14 @@ const AddLearner = () => {
           {isLoading ? "Adding Learner..." : "Add Learner"}
         </button>
 
-        <div className="mt-4 text-center">
+        {/* <div className="mt-4 text-center">
           <p className="text-sm">
             Already have an account?{" "}
             <Link to="/auth/login" className="text-gold hover:underline">
               Sign In
             </Link>
           </p>
-        </div>
+        </div> */}
       </form>
     </div>
   );
