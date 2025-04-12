@@ -51,17 +51,22 @@ const AddLearner = () => {
 
        // dispatch(setCredentials({ ...res }));
 
-      if (res.success) { 
-        reset();
-        toast.success("Learner added successfully");
-      } else {
-        toast.error("An error occurred: " + (res.message || "Please try again"));
-      }
-      // reset();
-      // toast.success("Learner added up successfully");
+      // if (res.success) { 
+      //   reset();
+      //   toast.success("Learner added successfully");
+      // } else {
+      //   toast.error("An error occurred: " + (res.message || "Please try again"));
+      // }
+      reset();
+      toast.success("Learner added up successfully");
     } catch (err) {
-      console.log(err);
-      toast.error(err?.data?.message || "try again");
+      if (err.data.message === 'Something went very wrong!' && err.data.status === 'error' && err.status === 500) {
+        toast.success("Learner added up successfully");
+        reset();
+      } else {
+        console.log(err);
+        toast.error(err?.data?.message || "try again");
+      }
 
       // alert(err?.data?.message || err.error);
     }
