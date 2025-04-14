@@ -9,7 +9,7 @@ const PrivacySection = () => {
       <div><Link to="/">Go Back to Main Menu</Link></div>
       <div className='privacy-header-wrapper'>
         <div className='title'>Privacy Policy</div>
-        <div className='date'>Last Updated: May 01, 2024</div>
+        <div className='date'>Last Updated: April 01, 2025</div>
       </div>
       <div className='privacy-body-wrapper'>
           <div className='text-layout introduction'>
