@@ -47,6 +47,9 @@ const SchoolCareBodyMiddle = () => {
                 Enroll your clients in our <span className="font-semibold">Regular School Growth Virtual Mentorship & Coaching Program</span>, led by industry experts. You have full control over pricing and keep all earnings.
               </li>
               <li>
+                <span className='font-semibold'>Turn Your Network Into Income!</span> Refer your clients to the LearnNova <span className='font-semibold'>Annual School Growth Summit</span> and pocket <span className='font-semibold'>31.5%</span> on each successful enrollment. A rewarding opportunity to support school growth while increasing your income.
+              </li>
+              <li>
                 Participate in <span className="font-semibold">Ongoing Business Growth Sessions</span> to stay ahead in the education sector with the latest strategies and insights.
               </li>
               <li>
