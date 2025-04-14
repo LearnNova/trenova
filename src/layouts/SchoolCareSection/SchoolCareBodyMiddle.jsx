@@ -89,7 +89,7 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span>₦69,999 per term</span>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦69,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -100,11 +100,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">35 learners</span> on the Home Learning App</span>
+                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">30 learners</span> on the Home Learning App</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span>₦99,999 per term</span>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦99,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -115,11 +115,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">75 learners</span> on the Home Learning App</span>
+                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">60 learners</span> on the Home Learning App</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span>₦129,999 per term</span>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦129,999 per term</span>
                       </li>
                     </ul>
                   </li>
