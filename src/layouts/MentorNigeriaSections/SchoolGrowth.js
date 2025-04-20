@@ -3,6 +3,7 @@ import './schoolgrowth.css';
 import trenova_logo from '../../assets/img/mentornigeria/trenova-logo.png';
 import InterestForm from './InterestForm';
 import { useParams } from 'react-router-dom';
+import PricingSection from './PricingSection';
 
 
 const SchoolGrowth = () => {
@@ -67,7 +68,7 @@ const SchoolGrowth = () => {
         
                         </ul>
                     </div>
-                    <div className='price-body'>
+                    {/* <div className='price-body'>
                         <span className='title'>Subscription Fee:</span>
                         <span className='amount bold deep-purple'>₦179,999 per term</span>
                     </div>
@@ -76,17 +77,14 @@ const SchoolGrowth = () => {
                     </div>
                     <div className='note-body font-bold italic text-center'>
                         Unlock and Connect Knowledge to Success with Engaging Lessons, Anytime, Anywhere on LearnNova—Available on Android, iOS, and Desktop!
-                    </div>
+                    </div> */}
                     <div className='interest-body'>
                         <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
                     </div>
-                    {/* <div className='interest-body'>
-                        <a className='bold' href='#account-details' style={{backgroundColor: '#ff0000'}}>Ready to make payment? Get our Account Details below</a>
+
+                    {/* <div className='interest-form-body'>
+
                     </div> */}
-
-                    <div className='interest-form-body'>
-
-                    </div>
                 </div>
             </div>
             <div className='secondary-section'>
@@ -105,6 +103,10 @@ const SchoolGrowth = () => {
                 </div>
             </div>
         </div>
+
+        <div className='divider' />
+
+        <PricingSection />
 
         <div className='divider' />
 
