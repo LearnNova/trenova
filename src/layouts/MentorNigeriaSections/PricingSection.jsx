@@ -99,8 +99,7 @@ const PricingSection = () => {
             return (
               <div
                 key={index}
-                onClick={() => toggleCard(index)}
-                className="cursor-pointer border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
+                className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
                 {plan.title === "Growth Connect" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
@@ -131,38 +130,25 @@ const PricingSection = () => {
                       ))}
                     </ul>
                     <a
-                      href='#application-form-section'
-                      className="mt-6 text-white text-lg px-5 py-3 rounded-md"
+                      href="#application-form-section"
+                      className="mt-6 text-white text-lg px-5 py-3 rounded-md inline-block"
                       style={{ backgroundColor: "#253bff" }}
                     >
                       Get Started
                     </a>
                   </>
                 )}
+
+                <button
+                  onClick={() => toggleCard(index)}
+                  className="mt-4 text-blue-600 underline text-lg"
+                >
+                  {isExpanded ? "Read Less" : "Read More"}
+                </button>
               </div>
             );
           })}
         </div>
-
-        {/* <div className="mt-16 bg-blue-50 rounded-2xl p-8 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-blue-800 mb-4">
-            Let’s Help You Scale Learning and Boost School Profitability
-          </h3>
-          <p className="text-gray-700 mb-6">
-            LearnNova Learning Support System – Where Innovation Meets Education.
-          </p>
-          <p className="text-gray-800 font-semibold mb-2">Contact Us to Get Started Today!</p>
-          <div className="text-gray-700 space-y-1">
-            <p><strong>Phone/WhatsApp:</strong></p>
-            <ul>
-              <li>- 0802 378 2682</li>
-              <li>- 0704 408 6794</li>
-              <li>- 0913 781 9540</li>
-            </ul>
-            <p><strong>Email:</strong> info@learnnova.ng</p>
-            <p><strong>Website:</strong> <a href="https://www.learnnova.ng" className="text-blue-600 underline">www.learnnova.ng</a></p>
-          </div>
-        </div> */}
       </div>
     </section>
   );
