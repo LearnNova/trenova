@@ -82,9 +82,9 @@ const SchoolGrowth = () => {
                         <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
                     </div>
 
-                    {/* <div className='interest-form-body'>
+                    <div className='interest-form-body'>
 
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <div className='secondary-section'>

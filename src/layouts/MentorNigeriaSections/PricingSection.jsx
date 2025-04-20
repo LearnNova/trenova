@@ -86,7 +86,7 @@ const PricingSection = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-5xl md:text-7xl lg:text-9xl font-bold text-gray-800 mb-4">
+        <h2 className="text-7xl md:text-9xl lg:text-13xl font-bold text-gray-800 mb-4">
           Choose the Plan That Fits Your School’s Needs – Per Term Pricing
         </h2>
         <p className="text-xl lg:text-3xl max-w-6xl mx-auto mb-10">
@@ -113,10 +113,10 @@ const PricingSection = () => {
                 <p className="text-xl md:text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
                   {plan.price}
                 </p>
+                <p className="italic text-lg md:text-xl lg:text-3xl mb-3">{plan.bestFor}</p>
 
                 {isExpanded && (
                   <>
-                    <p className="italic text-lg md:text-xl lg:text-3xl mb-3">{plan.bestFor}</p>
                     <ul className="text-lg md:text-xl lg:text-3xl text-left mb-4 red-text font-semibold space-y-2">
                       {plan.includes.map((item, i) => (
                         <li key={i}>✔️ {item}</li>
@@ -130,12 +130,13 @@ const PricingSection = () => {
                         <li key={i}>• {feature}</li>
                       ))}
                     </ul>
-                    <button
+                    <a
+                      href='#application-form-section'
                       className="mt-6 text-white text-lg px-5 py-3 rounded-md"
                       style={{ backgroundColor: "#253bff" }}
                     >
                       Get Started
-                    </button>
+                    </a>
                   </>
                 )}
               </div>
