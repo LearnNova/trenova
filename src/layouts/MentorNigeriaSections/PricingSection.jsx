@@ -86,7 +86,7 @@ const PricingSection = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-5xl md:text-7xl lg:text-9xl font-bold text-gray-800 mb-4">
+        <h2 className="text-7xl md:text-9xl lg:text-13xl font-bold text-gray-800 mb-4">
           Choose the Plan That Fits Your School’s Needs – Per Term Pricing
         </h2>
         <p className="text-xl lg:text-3xl max-w-6xl mx-auto mb-10">
@@ -99,8 +99,7 @@ const PricingSection = () => {
             return (
               <div
                 key={index}
-                onClick={() => toggleCard(index)}
-                className="cursor-pointer border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
+                className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
                 {plan.title === "Growth Connect" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
@@ -113,10 +112,10 @@ const PricingSection = () => {
                 <p className="text-xl md:text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
                   {plan.price}
                 </p>
+                <p className="italic text-lg md:text-xl lg:text-3xl mb-3">{plan.bestFor}</p>
 
                 {isExpanded && (
                   <>
-                    <p className="italic text-lg md:text-xl lg:text-3xl mb-3">{plan.bestFor}</p>
                     <ul className="text-lg md:text-xl lg:text-3xl text-left mb-4 red-text font-semibold space-y-2">
                       {plan.includes.map((item, i) => (
                         <li key={i}>✔️ {item}</li>
@@ -130,38 +129,26 @@ const PricingSection = () => {
                         <li key={i}>• {feature}</li>
                       ))}
                     </ul>
-                    <button
-                      className="mt-6 text-white text-lg px-5 py-3 rounded-md"
+                    <a
+                      href="#application-form-section"
+                      className="mt-6 text-white text-lg px-5 py-3 rounded-md inline-block"
                       style={{ backgroundColor: "#253bff" }}
                     >
                       Get Started
-                    </button>
+                    </a>
                   </>
                 )}
+
+                <button
+                  onClick={() => toggleCard(index)}
+                  className="mt-4 text-blue-600 underline text-lg"
+                >
+                  {isExpanded ? "Read Less" : "Read More"}
+                </button>
               </div>
             );
           })}
         </div>
-
-        {/* <div className="mt-16 bg-blue-50 rounded-2xl p-8 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-blue-800 mb-4">
-            Let’s Help You Scale Learning and Boost School Profitability
-          </h3>
-          <p className="text-gray-700 mb-6">
-            LearnNova Learning Support System – Where Innovation Meets Education.
-          </p>
-          <p className="text-gray-800 font-semibold mb-2">Contact Us to Get Started Today!</p>
-          <div className="text-gray-700 space-y-1">
-            <p><strong>Phone/WhatsApp:</strong></p>
-            <ul>
-              <li>- 0802 378 2682</li>
-              <li>- 0704 408 6794</li>
-              <li>- 0913 781 9540</li>
-            </ul>
-            <p><strong>Email:</strong> info@learnnova.ng</p>
-            <p><strong>Website:</strong> <a href="https://www.learnnova.ng" className="text-blue-600 underline">www.learnnova.ng</a></p>
-          </div>
-        </div> */}
       </div>
     </section>
   );
