@@ -90,7 +90,7 @@ const PricingSection = () => {
           Choose the Plan That Fits Your School’s Needs – Per Term Pricing
         </h2>
         <p className="text-xl lg:text-3xl max-w-6xl mx-auto mb-10">
-          All plans include access to the LearnNova School Learning Support Studio, built to enhance teaching and improve learning outcomes. Plans with mobile licenses also extend learning to the home with powerful, pupil-friendly LearnNova Home Learning Apps.
+          All plans include full access to the LearnNova School Learning Support Studio, purpose-built to enhance teaching quality and drive better learning outcomes. Plans that include mobile licenses also support home-based learning through our intuitive, child-friendly LearnNova Home Learning Apps, available on Android, iOS, and Desktop.
         </p>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 items-start">
@@ -101,7 +101,7 @@ const PricingSection = () => {
                 key={index}
                 className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
-                {plan.title === "Growth Connect" && (
+                {plan.title === "Expansion Connect" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
                     Most Popular
                   </span>
