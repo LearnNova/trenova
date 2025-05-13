@@ -134,20 +134,20 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        <div className='contact-section'>
-            <h1 className='mx-auto deep-purple font-bold mb-3'>📞 Contact Us to Get Started Today</h1>
+        <h1 className='mx-auto deep-purple font-bold mb-3'>📞 Contact Us to Get Started Today</h1>
 
+        <div className='contact-section'>
             <div className='contact-body'>
                 <h3 className='font-semibold'>Phone/WhatsApp:</h3>
                 <p className='font-normal'><a href='tel:08023781682'>0802 378 1682</a><a href='tel:07044086794'>0704 408 6794</a><a href='tel:09137819540'>0913 781 9540</a></p>
             </div>
 
-            <div className='contact-body'>
+            {/* <div className='contact-body'>
                 <h3 className='font-semibold'>📧 Email:</h3>
                 <p className='mb-3'><a href='mailto:info@learnnova.ng'>info@learnnova.ng</a></p>
                 <h3 className='font-semibold'>🌐 Website:</h3>
                 <p><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>www.learnnova.ng/schoolgrowthsystem/trenova</a></p>
-            </div>
+            </div> */}
 
             <div className='contact-body' id='account-details'>
                 <h3 className='font-semibold'>Account Details:</h3>
