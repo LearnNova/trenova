@@ -27,7 +27,7 @@ const HeroSection = () => {
                 <p className='font-bold'>Become a Certified Private School Business Consultant</p>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
-                <p className='highlighter'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
+                <p className='font-semibold'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
                 
                 {/* <span className='hero-sec-info-list-container'>
                     <ul>
@@ -57,11 +57,11 @@ const HeroSection = () => {
             <div className='line-breaker'></div>
             <div className='what-you-learn-title font-bold'>Who is this program for?</div>
             <div className='what-you-learn-info'>
-                <span>
+                <p className='mb-3'>
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
-                </span>
+                </p>
                 <span className='what-you-learn-info-list-container'>
-                    <ul className='w-full'>
+                    <ul>
                         <li>Educators ready to transition into consulting</li>
                         <li>School owners and edu-preneurs seeking new income streams</li>
                         <li>Independent consultants expanding into the education sector</li>
@@ -78,18 +78,19 @@ const HeroSection = () => {
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </span> */}
                 <span className='what-you-learn-info-list-container'>
-                    <ul className='font-semibold list-none w-full' style={{listStyleType: 'none'}}>
-                        <li>✅ 6 Expert Training Modules</li>
-                        <li>✅ 20+ Done-for-You Templates & Checklists</li>
-                        <li>✅ Weekly Virtual Live Mentorship Sessions</li>
-                        <li>✅ Lifetime Access to TreNova Academy Resources</li>
-                        <li>✅ Continuous Improvement Program + Verified Consultant Directory Listing</li>
+                    <ul className='font-semibold'>
+                        <li style={{listStyle: 'none'}}>✅ 6 Expert Training Modules</li>
+                        <li style={{listStyle: 'none'}}>✅ 20+ Done-for-You Templates & Checklists</li>
+                        <li style={{listStyle: 'none'}}>✅ Weekly Virtual Live Mentorship Sessions</li>
+                        <li style={{listStyle: 'none'}}>✅ Lifetime Access to TreNova Academy Resources</li>
+                        <li style={{listStyle: 'none'}}>✅ Continuous Improvement Program + Verified Consultant Directory Listing</li>
                     </ul>
                 </span> 
             </div>
             
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
-
+            
+            <div className='line-breaker'></div>
         </div>
         
         <div className='whatsapp-btn-container'>

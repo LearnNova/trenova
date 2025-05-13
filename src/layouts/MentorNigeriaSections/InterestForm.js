@@ -1,6 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import './interestForm.css';
 
+const pricingPlans = [
+    {
+        name: 'Plan 1: School Learning Essentials',
+        value: 'Plan 1: School Learning Essentials',
+    },
+    {
+        name: 'Plan 2: Starter Connect',
+        value: 'Plan 2: Starter Connect',
+    },
+    {
+        name: 'Plan 3: Growth Connect',
+        value: 'Plan 3: Growth Connect',
+    },
+    {
+        name: 'Plan 4: Expansion Connect',
+        value: 'Plan 4: Expansion Connect',
+    },
+    {
+        name: 'Plan 5: Premium Impact',
+        value: 'Plan 5: Premium Impact',
+    },
+
+]
+
 const InterestForm = ({ name }) => {
     
       const [interestData, setInterestData] = useState({
@@ -9,6 +33,7 @@ const InterestForm = ({ name }) => {
         whatsapp: '',
         agentName: '',
         schoolAddress: '',
+        schoolPlan: '',
       });
 
       useEffect(() => {
@@ -39,6 +64,7 @@ const InterestForm = ({ name }) => {
             whatsapp: '',
             agentName: interestData.agentName,
             schoolAddress: '',
+            schoolPlan: '',
           });
       }
     
@@ -139,6 +165,26 @@ const InterestForm = ({ name }) => {
                                   required
                               />
                           </div>
+                      </div>
+
+                      <div className='form-row-main'>
+                        <div className='form-row'>
+                            <label htmlFor='schoolPlan' className='input-labels'>Preferred School Plan</label>
+                            <select
+                                name="schoolPlan"
+                                value={interestData.schoolPlan}
+                                onChange={handleChange}
+                                className="form-control"
+                                required
+                            >
+                                <option value='' disabled>Select a School Pricing Plan</option>
+                                {pricingPlans.map((plan) => (
+                                <option key={plan.value} value={plan.name}>
+                                    {plan.name}
+                                </option>
+                                ))}
+                            </select>
+                        </div>
                       </div>
   
                       <div className='form-row-main'>

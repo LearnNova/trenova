@@ -89,15 +89,15 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: .6em;
+  gap: .2em;
   margin: 0 auto;
   padding: 3rem 4%;
   font-size: 4em;
 }
 
-/* .hero-sec-info li {
+.hero-sec-info li {
   list-style: disc;
-} */
+}
 
 .apply-now-get-started {
   font-weight: 600;
@@ -161,7 +161,7 @@ html {
 }
 
 .what-you-learn-title {
-  margin-top: .25em;
+  margin-top: .1em;
   text-align: center;
   font-size: .6em;
   max-width: 90%;
@@ -178,10 +178,11 @@ html {
   padding: 0 .25em;
   font-size: .35em;
   color: var(--pri-clr);
+  width: 100%;
 }
 
 .what-you-learn-info-list-container {
-  display: block;
+  display: inline-block;
   width: 100%;
   padding: 0 0 .5em 1em;
 }
@@ -441,9 +442,9 @@ html {
 }
 
 .module-text-box__list-box {
-  list-style-type: decimal;
+  /* list-style-type: decimal; */
   font-size: .65em;
-  padding-left: .7em;
+  padding-left: .3em;
 }
 
 .module-text-box__list-box-inner-box {
