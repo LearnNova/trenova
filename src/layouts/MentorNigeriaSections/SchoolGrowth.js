@@ -13,7 +13,7 @@ const SchoolGrowth = () => {
         <div className='school-growth-section'>
             <div className='main-section'>
                 <div className='title-container'>
-                    <div><h1 className='bold'>Subscribe to the LearnNova <div className='second-text'>Learning Support <br className='break-line'/>System and Unlock These Exclusive <span className='bold yellow-text'>Benefits:</span></div></h1></div>
+                    <div><h1 className='bold'>Subscribe to the LearnNova Learning Support System and Unlock These Exclusive <span className='bold yellow-text'>Benefits:</span></h1></div>
                 </div>
                 <div className='text-body-container'>
                     <div className='text-body'>
