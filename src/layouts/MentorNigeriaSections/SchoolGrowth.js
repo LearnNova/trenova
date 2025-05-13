@@ -137,7 +137,7 @@ const SchoolGrowth = () => {
         <div className='contact-section'>
             
             <div className='contact-body'>
-                <h3 className='deep-purple bold'>For more inquiries, call:</h3>
+                <h3 className='deep-purple bold'>📞 Contact Us to Get Started Today</h3>
                 <p className='bold'><a href='tel:08023781682'>0802 378 1682</a><a href='tel:07044086794'>0704 408 6794</a><a href='tel:09137819540'>0913 781 9540</a></p>
             </div>
 

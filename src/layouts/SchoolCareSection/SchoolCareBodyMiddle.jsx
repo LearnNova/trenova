@@ -85,11 +85,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>LearnNova Learning Support Software installed on the school’s desktop system for classroom use</span>
+                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 20 Home Learning Apps for pupils/students</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦69,999 per term</span>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦79,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -100,11 +100,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">30 learners</span> on the Home Learning App</span>
+                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 60 Home Learning Apps for pupils/students</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦99,999 per term</span>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦119,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -115,11 +115,41 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>Classroom Desktop Application <span className="font-semibold">plus</span> access for <span className="font-semibold">60 learners</span> on the Home Learning App</span>
+                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 100 Home Learning Apps for pupils/students</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦129,999 per term</span>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦159,999 per term</span>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Platinum Package:</span>
+                    </div>
+                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                      <li>
+                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 200 Home Learning Apps for pupils/students</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦219,999 per term</span>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Diamond Package:</span>
+                    </div>
+                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                      <li>
+                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 500 Home Learning Apps for pupils/students</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦379,999 per term</span>
                       </li>
                     </ul>
                   </li>
