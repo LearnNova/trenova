@@ -6,16 +6,16 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-        <div className='hero-sec-text'>"Welcome To MentorNigeria!"</div>
+        <div className='hero-sec-text-1'>TreNova School Growth Consultant Training & Mentorship Program</div>
         </div>
         <div className='hero-sec-info'>
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a></div>
             <div className='line-breaker'></div>
-            <div className='section-3'>
-                {/* <span>“…</span> */}
+            {/* <div className='section-3'>
+                <span>“…</span>
                 <span className='highlighter'>TreNova School Growth Consultant Training & Mentorship Program</span>
-                {/* <span>MentorNigeria…”</span> */}
-            </div>
+                <span>MentorNigeria…”</span>
+            </div> */}
 
             {/* <div className='w-100'>
                 <h1>TreNova School Growth Consultant Training & Mentorship Program</h1>
