@@ -27,7 +27,8 @@ const HeroSection = () => {
                 <p className='font-bold'>Become a Certified Private School Business Consultant</p>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <p className='highlighter'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
-                <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>👉 [Enroll Now]</span></a></div>
+                <p className='highlighter'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
+                {/* <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'></span></a></div> */}
                 
                 {/* <span className='hero-sec-info-list-container'>
                     <ul>
