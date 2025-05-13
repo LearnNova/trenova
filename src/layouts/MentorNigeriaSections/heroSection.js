@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-        <div className='hero-sec-text'>"EARN WHILE YOU LEARN!"</div>
+        <div className='hero-sec-text'>"Welcome To MentorNigeria"</div>
         </div>
         <div className='hero-sec-info'>
         <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
