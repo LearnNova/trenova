@@ -12,8 +12,8 @@ function MentorNigeriaPage() {
     <div className="App">
       {/* <PageTitle title="MentorNigeria"/> */}
       <HeroSection />
-      <ApplicationFormSection />
       <ProgramSection />
+      <ApplicationFormSection />
       <ModuleSection />
       <FooterSection />
     </div>
