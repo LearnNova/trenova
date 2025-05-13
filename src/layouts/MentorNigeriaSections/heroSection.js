@@ -6,16 +6,19 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-        <div className='hero-sec-text'>"Welcome To MentorNigeria"</div>
+        <div className='hero-sec-text'>"Welcome To MentorNigeria!"</div>
         </div>
         <div className='hero-sec-info'>
-        <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
+        <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a></div>
             {/* <div className='line-breaker'></div> */}
             {/* <div className='section-3'>
                 <span>“…</span>
                 <span className='highlighter'>Earn While You Learn @ </span>
                 <span>MentorNigeria…”</span>
             </div> */}
+            <div className='w-100'>
+            <h1>TreNova School Growth Consultant Training & Mentorship Program</h1>
+            </div>
             <div className='section-4'>
                 <span>
                     Introducing the MentorNigeria Earn-While-You-Learn Program - a <span className='highlighter'>FREE</span> training and 
