@@ -87,12 +87,28 @@ const PricingSection = () => {
     <section className="bg-white py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-7xl md:text-9xl lg:text-13xl font-bold text-gray-800 mb-4">
-          Choose the Plan That Fits Your School’s Needs – Per Term Pricing
+          🎉 Introducing the LearnNova Learning Support System
         </h2>
-        <p className="text-xl lg:text-3xl max-w-6xl mx-auto mb-10">
-          All plans include full access to the LearnNova School Learning Support Studio, purpose-built to enhance teaching quality and drive better learning outcomes. Plans that include mobile licenses also support home-based learning through our intuitive, child-friendly LearnNova Home Learning Apps, available on Android, iOS, and Desktop.
-        </p>
 
+        <div className="text-xl lg:text-3xl w-100 text-center">
+          <p className="italic mb-4">
+            Your Smart, Scalable Solution for Impact-Driven Learning!
+          </p>
+
+          <p className="font-bold mb-4">
+            Affordable. Flexible. Purpose-built to boost learning outcomes and school profitability.
+          </p>
+
+          <p>🎯 Choose a Plan That Works for Your School</p>
+          <p>✓ Per Term Pricing |</p>
+          <p className="mb-4">✓ All-Inclusive Packages</p>
+
+          <p className="max-w-6xl mb-10">
+            All plans come with access to the powerful LearnNova School Learning Support Studio—your all-in-one hub for enhancing teaching and boosting pupils/students achievement. You’ll also receive <span className="font-semibold">25 to 500</span> LearnNova Home Learning licenses, enabling learners to continue learning beyond the classroom using our easy-to-use app on Desktop, Laptop, and Android devices.
+          </p>
+
+        </div>
+        
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 items-start">
           {pricingPlans.map((plan, index) => {
             const isExpanded = expandedIndex === index;
