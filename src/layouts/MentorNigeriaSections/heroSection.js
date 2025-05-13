@@ -78,7 +78,7 @@ const HeroSection = () => {
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </span> */}
                 <span className='what-you-learn-info-list-container'>
-                    <ul style={{listStyleType: 'none'}} className='font-semibold'>
+                    <ul className='font-semibold'>
                         <li>✅ 6 Expert Training Modules</li>
                         <li>✅ 20+ Done-for-You Templates & Checklists</li>
                         <li>✅ Weekly Virtual Live Mentorship Sessions</li>
