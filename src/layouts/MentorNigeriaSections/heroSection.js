@@ -16,23 +16,26 @@ const HeroSection = () => {
                 <span className='highlighter'>Earn While You Learn @ </span>
                 <span>MentorNigeria…”</span>
             </div> */}
+
             <div className='w-100'>
-            <h1>TreNova School Growth Consultant Training & Mentorship Program</h1>
+                <h1>TreNova School Growth Consultant Training & Mentorship Program</h1>
+                <h1>Build a High-Impact Consulting Business That Transforms Schools and Changes Lives</h1>
+                <p>Step confidently into a meaningful profession where you help launch, grow, and elevate private schools—while building a credible, profitable consulting brand you’re proud of.</p>
             </div>
+
             <div className='section-4'>
-                <span>
-                    Introducing the MentorNigeria Earn-While-You-Learn Program - a <span className='highlighter'>FREE</span> training and 
-                    mentorship initiative designed to empower young adults with the skills needed to excel in employment and entrepreneurship.       
-                    <br /><br />
-                    As a participant you’ll enjoy:
-                </span>
-                <span className='hero-sec-info-list-container'>
+                <p className='font-bold'>Become a Certified Private School Business Consultant</p>
+                <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
+                <p className='highlighter'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
+                <p className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>👉 [Enroll Now]</span></a></p>
+                
+                {/* <span className='hero-sec-info-list-container'>
                     <ul>
                         <li>Valuable knowledge and mentorship to fast-track your success</li>
                         <li>Opportunities to secure full-time employment with one of our partners during your time at the Academy</li>
                         <li>You also have a chance to secure a Business Takeoff Grant Award.</li>
                     </ul>
-                </span>
+                </span> */}
                 
             </div>
             <div className='line-breaker'></div>
@@ -41,18 +44,20 @@ const HeroSection = () => {
             </div>
             <div className='what-you-learn-info'>
                 <span>
-                    This comprehensive <span className='highlighter'>FREE</span> training and mentorship program is tailored for young adults eager to:
+                    This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </span>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
-                        <li><span className='highlighter'>BUILD</span> a profitable startup business from the ground up</li>
-                        <li><span className='highlighter'>SECURE</span> high-paying jobs in Nigeria’s thriving economy</li>
-                        <li><span className='highlighter'>OFFER</span> virtual professional services to organizations in Canada, the US, and Europe</li>
+                        <li>Educators ready to transition into consulting</li>
+                        <li>School owners and edu-preneurs seeking new income streams</li>
+                        <li>Independent consultants expanding into the education sector</li>
+                        <li>Retired professionals looking to make a lasting difference</li>
+                        <li>Ambitious young professionals seeking a career with impact</li>
                     </ul>
                 </span> 
-                <span>
+                {/* <span>
                    Don’t miss this opportunity to transform your future.
-                </span>
+                </span> */}
             </div>
             
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
