@@ -26,9 +26,8 @@ const HeroSection = () => {
             <div className='section-4'>
                 <p className='font-bold'>Become a Certified Private School Business Consultant</p>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
-                <p className='highlighter'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
+                <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
                 <p className='highlighter'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
-                {/* <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'></span></a></div> */}
                 
                 {/* <span className='hero-sec-info-list-container'>
                     <ul>
@@ -41,32 +40,22 @@ const HeroSection = () => {
             </div>
 
             <div className='line-breaker'></div>
-            <div className='what-you-learn-title'>
-                <b>What You'll Be Equipped to Do</b>
-            </div>
+            <div className='what-you-learn-title font-bold'>What You'll Be Equipped to Do</div>
             <div className='what-you-learn-info'>
-                <span>
-                    This program is ideal for purpose-driven individuals who want to build a career around educational impact:
-                </span>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
-                        <li>Educators ready to transition into consulting</li>
-                        <li>School owners and edu-preneurs seeking new income streams</li>
-                        <li>Independent consultants expanding into the education sector</li>
-                        <li>Retired professionals looking to make a lasting difference</li>
-                        <li>Ambitious young professionals seeking a career with impact</li>
+                        <li>Guide aspiring school owners from idea to launch</li>
+                        <li>Optimize school operations and improve leadership performance</li>
+                        <li>Design and deliver impactful training for school teams</li>
+                        <li>Boost enrollment, maximize revenue, improve profitability and drive school growth</li>
+                        <li>Build, position, and scale your own education consulting brand</li>
                     </ul>
                 </span> 
-                {/* <span>
-                   Don’t miss this opportunity to transform your future.
-                </span> */}
             </div>
 
 
             <div className='line-breaker'></div>
-            <div className='what-you-learn-title'>
-                <b>Who is this program for?</b>
-            </div>
+            <div className='what-you-learn-title font-bold'>Who is this program for?</div>
             <div className='what-you-learn-info'>
                 <span>
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
@@ -80,9 +69,23 @@ const HeroSection = () => {
                         <li>Ambitious young professionals seeking a career with impact</li>
                     </ul>
                 </span> 
+            </div>
+
+            <div className='line-breaker'></div>
+            <div className='what-you-learn-title font-bold'>What’s Included in the Program</div>
+            <div className='what-you-learn-info'>
                 {/* <span>
-                   Don’t miss this opportunity to transform your future.
+                    This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </span> */}
+                <span className='what-you-learn-info-list-container'>
+                    <ul style={{listStyleType: 'none'}} className='font-semibold'>
+                        <li>✅ 6 Expert Training Modules</li>
+                        <li>✅ 20+ Done-for-You Templates & Checklists</li>
+                        <li>✅ Weekly Virtual Live Mentorship Sessions</li>
+                        <li>✅ Lifetime Access to TreNova Academy Resources</li>
+                        <li>✅ Continuous Improvement Program + Verified Consultant Directory Listing</li>
+                    </ul>
+                </span> 
             </div>
             
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>

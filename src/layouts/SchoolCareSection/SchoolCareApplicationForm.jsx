@@ -146,7 +146,7 @@ const SchoolCareApplicationForm = ({ id }) => {
               <label className="flex items-center">
                 <input type="checkbox" name="consent" checked={formData.consent} onChange={handleChange} className="mr-2" required />
                 <span className="text-gray-800 text-lg">
-                  I understand and accept that this payment is non-refundable. I also agree to receive updates from LearnNova School Support Network, including business opportunities, industry insights, and related content. I may unsubscribe from these communications at any time.
+                  I understand and accept that this registration fee is non-refundable. I also agree to receive updates from LearnNova School Support Network, including business opportunities, industry insights, and related content. I may unsubscribe from these communications at any time.
                 </span>
               </label>
             </div>
