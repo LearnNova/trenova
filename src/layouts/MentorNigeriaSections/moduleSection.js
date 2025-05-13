@@ -13,10 +13,10 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-        <div className='module-title'>Syallabus:</div>
+        <div className='module-title'>Curriculum Overview</div>
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3><span className='highlighter'>Module 1:</span> Life Skills Development - <span className='highlighter'>(Compulsory)</span></h3>
+                    <h3><span className='highlighter'>🔹 Module 1:</span> Foundations of Private School Consulting - <span className='highlighter'>(Compulsory)</span></h3>
                     {modulecollapse !== 1 && 
                         <p className="three-dot">...</p>
                     }
