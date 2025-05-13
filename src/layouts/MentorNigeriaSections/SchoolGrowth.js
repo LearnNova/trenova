@@ -13,58 +13,80 @@ const SchoolGrowth = () => {
         <div className='school-growth-section'>
             <div className='main-section'>
                 <div className='title-container'>
-                    <div><h1 className='bold'>Subscribe to LearnNova <div className='second-text'>Learning Support <br className='break-line'/>System & Enjoy the Following <span className='bold yellow-text'>Benefits!</span></div></h1></div>
+                    <div><h1 className='bold'>Subscribe to the LearnNova <div className='second-text'>Learning Support <br className='break-line'/>System and Unlock These Exclusive <span className='bold yellow-text'>Benefits:</span></div></h1></div>
                 </div>
                 <div className='text-body-container'>
                     <div className='text-body'>
                         <ul className='space-y-4'>
                             <li>
-                                <p className='font-bold'>Install the LearnNova Desktop Learning Support Studio on Your School Computer</p>
-                                <p>Empower your learners with a robust desktop-based solution tailored to boost academic achievement and drive school growth. LearnNova Studio offers:</p>
-                                <ul className='mx-3 space-y-2' style={{fontSize: '1em', listStyleType: 'disc'}}>
-                                    <li><span className='font-semibold'>Diction & Phonetics for Elementary Schools</span> – 540 interactive lessons + 500 practice exercises.</li>
-                                    <li><span className='font-semibold'>Mathematics</span> for Senior Secondary Schools – 2,400 detailed lessons + 8,000 Q&As</li>
-                                    <li><span className='font-semibold'>Creative & Vocational Courses</span> (Ages 3–17) – Designed to inspire creativity and develop practical life skills</li>
+                                <p className='font-bold'>Install LearnNova’s Desktop Learning Support Studio</p>
+
+                                <p>Equip your school computers with a powerful desktop solution designed to:</p>
+                                <ul className='mx-3 space-y-2 list-none' style={{ fontSize: '1em' }}>
+                                    <li><span className='mr-1'>✔</span> Boost academic performance</li>
+                                    <li><span className='mr-1'>✔</span> Improve revenue</li>
+                                    <li><span className='mr-1'>✔</span> Drive long-term school growth</li>
                                 </ul>
-                                <p className='mt-3'>Provide your pupils/students with structured, engaging content that promotes success - while increasing your school’s revenue and profitability.</p>
-                                <p className='red-text font-semibold small-text'>(Valued at ₦850,000 per term)</p>
+
+                                <p className='font-semibold my-4'>What’s included:</p>
+                                <ul className='mx-3 space-y-2' style={{fontSize: '1em', listStyleType: 'disc'}}>
+                                    <li>
+                                        <p className='font-semibold'>Diction & Phonetics for Elementary Schools</p>
+                                        <p>540 interactive lessons + 500 practice exercises</p>
+                                    </li>
+                                    <li>
+                                        <p className='font-semibold'>Senior Secondary Mathematics</p>
+                                        <p>2,400 comprehensive lessons + 8,000 Q&A practice questions</p>
+                                    </li>
+                                    <li>
+                                        <p className='font-semibold'>Digital E-Library (Primary & Secondary)</p>
+                                        <p>Access 850+ curated books to build a strong reading culture and improve literacy across all levels</p>
+                                    </li>
+                                    <li>
+                                        <p className='font-semibold'>Creative & Vocational Courses (Ages 3–17)</p>
+                                        <p>Hands-on, skills-based content to nurture creativity and life skills—while boosting your school’s revenue</p>
+                                    </li>
+                                </ul>
+                                {/* <p className='mt-3'>Provide your pupils/students with structured, engaging content that promotes success - while increasing your school’s revenue and profitability.</p> */}
+                                <p className='red-text font-semibold small-text'>(Valued at ₦2,500,000 per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>E-Library for Elementary & Secondary Schools</p>
-                                <p>Give your pupils/students access to a rich digital library with over <span className='font-semibold'>850 carefully selected books</span> to foster a strong reading culture and improve literacy across all levels.</p>
-                                <p className='red-text font-semibold small-text'>(Valued at ₦500,000 per term)</p>
+                                <p className='font-bold'>Home Learning Access for 25–500 Pupils/Students</p>
+                                <p>Enroll your learners on the LearnNova Home Learning App—available on <span className='font-semibold'>Android, laptops, and desktops</span>.</p>
+                                <p>Perfect for extending learning beyond the classroom with engaging, curriculum-based content.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦5,000 – ₦15,000 per learner per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>Free Enrollment on the LearnNova Home Learning App</p>
-                                <p>Give <span className='font-semibold'>35</span> of your pupils/students <span className='font-semibold'>free access</span> to our interactive Home Learning App—available on <span className='font-semibold'>Android, iOS, and Desktop</span>. Designed to extend learning beyond the classroom with fun, engaging, and educational content.</p>
-                                <p className='red-text font-semibold small-text'>(Valued at ₦175,000 per term)</p>
+                                <p className='font-bold'>Free Virtual Mentorship & Coaching</p>
+                                <p>Gain access to expert-led sessions from TreNova, designed to support school leadership, growth, and performance.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦150,000 per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>Exclusive Access to Virtual Mentorship & Coaching</p>
-                                <p>Get <span className='font-semibold'>free access</span> to TreNova’s expert-led virtual mentorship and coaching sessions - designed to guide your school’s growth, performance, and long-term success.</p>
-                                <p className='red-text font-semibold small-text'>(Valued at ₦150,000 per term)</p>
+                                <p className='font-bold'>Access to TreNova Academy Online Training</p>
+                                <p>Enjoy complimentary entry to a rich library of educator-focused courses, tools, and professional resources.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦100,000 per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>TreNova Academy Online Training Access</p>
-                                <p>Enjoy <span className='font-semibold'>free access</span> to TreNova Academy’s online training platform—featuring expert resources, tools, and courses tailored for educators and school leaders.</p>
-                                <p className='red-text font-semibold small-text'>(Valued at ₦100,000 per term)</p>
+                                <p className='font-bold'>Referral Reward Program</p>
+                                <p>Refer another school to LearnNova and get free enrollment for 20 additional pupils/students on the Home Learning App.</p>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦100,000)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'> Referral Rewards</p>
-                                <p>Refer a school to LearnNova and receive free enrollment for 20 additional pupils/students on the Home Learning App.</p>
-                                <p className='red-text font-semibold small-text'>(Valued at ₦100,000)</p>
+                                <p className='font-bold'>Influence the Future of LearnNova</p>
+                                <p>Join our partner network and propose new creative or vocational skills you'd love to see added—tailored to your school's needs.</p>
+                                {/* <p className='red-text font-semibold small-text'>(Valued at ₦100,000)</p> */}
                             </li>
 
-                            <li>
+                            {/* <li>
                                 <p className='font-bold'>Shape the Future of LearnNova</p>
                                 <p>Gain the exclusive opportunity to propose new creative and vocational skills for LearnNova to develop, ensuring our solutions are tailored to meet your school’s unique needs.</p>
-                                {/* <p className='red-text font-semibold small-text'>(Valued at ₦500,000 per term)</p> */}
-                            </li>
+                                <p className='red-text font-semibold small-text'>(Valued at ₦500,000 per term)</p>
+                            </li> */}
         
                         </ul>
                     </div>
