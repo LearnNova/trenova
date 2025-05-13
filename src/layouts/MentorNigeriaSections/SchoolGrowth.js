@@ -135,17 +135,25 @@ const SchoolGrowth = () => {
         <InterestForm name={name} />
 
         <div className='contact-section'>
-            
+            <h1 className='mx-auto deep-purple font-bold mb-3'>📞 Contact Us to Get Started Today</h1>
+
             <div className='contact-body'>
-                <h3 className='deep-purple bold'>📞 Contact Us to Get Started Today</h3>
-                <p className='bold'><a href='tel:08023781682'>0802 378 1682</a><a href='tel:07044086794'>0704 408 6794</a><a href='tel:09137819540'>0913 781 9540</a></p>
+                <h3 className='font-semibold'>Phone/WhatsApp:</h3>
+                <p className='font-normal'><a href='tel:08023781682'>0802 378 1682</a><a href='tel:07044086794'>0704 408 6794</a><a href='tel:09137819540'>0913 781 9540</a></p>
+            </div>
+
+            <div className='contact-body'>
+                <h3 className='font-semibold'>📧 Email:</h3>
+                <p className='mb-3'><a href='mailto:info@learnnova.ng'>info@learnnova.ng</a></p>
+                <h3 className='font-semibold'>🌐 Website:</h3>
+                <p><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>www.learnnova.ng/schoolgrowthsystem/trenova</a></p>
             </div>
 
             <div className='contact-body' id='account-details'>
-                <h3 className='deep-purple bold'>Account Details:</h3>
-                <p>Account Name: <span className='bold'>Trenova Ltd</span></p>
-                <p>Account Number: <span className='bold'>1015524196</span></p>
-                <p>Bank Name: <span className='bold'>Zenith Bank</span></p>
+                <h3 className='font-semibold'>Account Details:</h3>
+                <p>Account Name: <span className='font-semibold'>Trenova Ltd</span></p>
+                <p>Account Number: <span className='font-semibold'>1015524196</span></p>
+                <p>Bank Name: <span className='font-semibold'>Zenith Bank</span></p>
             </div>
 
         </div>
