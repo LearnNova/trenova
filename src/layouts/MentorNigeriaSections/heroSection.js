@@ -43,7 +43,7 @@ const HeroSection = () => {
             <div className='what-you-learn-title font-bold'>What You'll Be Equipped to Do</div>
             <div className='what-you-learn-info'>
                 <span className='what-you-learn-info-list-container'>
-                    <ul>
+                    <ul className='w-full'>
                         <li>Guide aspiring school owners from idea to launch</li>
                         <li>Optimize school operations and improve leadership performance</li>
                         <li>Design and deliver impactful training for school teams</li>
@@ -61,7 +61,7 @@ const HeroSection = () => {
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </span>
                 <span className='what-you-learn-info-list-container'>
-                    <ul>
+                    <ul className='w-full'>
                         <li>Educators ready to transition into consulting</li>
                         <li>School owners and edu-preneurs seeking new income streams</li>
                         <li>Independent consultants expanding into the education sector</li>
@@ -78,7 +78,7 @@ const HeroSection = () => {
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </span> */}
                 <span className='what-you-learn-info-list-container'>
-                    <ul className='font-semibold'>
+                    <ul className='font-semibold list-none w-full' style={{listStyleType: 'none'}}>
                         <li>✅ 6 Expert Training Modules</li>
                         <li>✅ 20+ Done-for-You Templates & Checklists</li>
                         <li>✅ Weekly Virtual Live Mentorship Sessions</li>
