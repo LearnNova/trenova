@@ -95,9 +95,9 @@ html {
   font-size: 4em;
 }
 
-.hero-sec-info li {
+/* .hero-sec-info li {
   list-style: disc;
-}
+} */
 
 .apply-now-get-started {
   font-weight: 600;
@@ -183,7 +183,7 @@ html {
 .what-you-learn-info-list-container {
   display: block;
   width: 100%;
-  padding: .5em 0 .7em 1em;
+  padding: 0 0 .5em 1em;
 }
 
 .highlighter {
