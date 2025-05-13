@@ -19,17 +19,17 @@ const SchoolCareBodyMiddle = () => {
             Seamless Onboarding Program & Continuous Learning Initiative
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
               <li>
-                <span className="font-semibold">5-Day Intensive Virtual Training</span> (6 hours per day) to equip you with the skills and strategies needed to get started quickly.
+                <span className="font-semibold">20 hour Intensive Virtual Training</span> to equip you with the skills and strategies needed to get started quickly.
               </li>
               <li>
                 <span className="font-semibold">Continuous Sales & Business Growth Training Sessions</span> to keep you ahead in the education support industry with cutting-edge insights.
               </li>
               <li>
-                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Free upon reaching 55 customers.)</span>
+                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Free upon reaching 50 customers.)</span>
               </li>
-              <li>
+              {/* <li>
                 <span className="font-semibold">Entrepreneurial Skills Development for Business Start-Up</span> – Gain essential knowledge to successfully launch and scale a business. <span className="font-semibold">(Free upon reaching 75 customers.)</span>
-              </li>
+              </li> */}
               <li>
                 Critical Skills and Proven Strategies for Building and Running a Successful Business Consulting Practice. <span className="font-semibold">(Free upon achieving 100 customers)</span>
               </li>
@@ -47,13 +47,13 @@ const SchoolCareBodyMiddle = () => {
                 Enroll your clients in our <span className="font-semibold">Regular School Growth Virtual Mentorship & Coaching Program</span>, led by industry experts. You have full control over pricing and keep all earnings.
               </li>
               <li>
-                <span className='font-semibold'>Turn Your Network Into Income!</span> Refer your clients to the LearnNova <span className='font-semibold'>Annual School Growth Summit</span> and pocket <span className='font-semibold'>31.5%</span> on each successful enrollment. A rewarding opportunity to support school growth while increasing your income.
+                <span className='font-semibold'>Turn Your Network Into Income!</span> Refer your clients to the LearnNova <span className='font-semibold'>Annual School Growth Summit</span> and pocket <span className='font-semibold'>25%</span> on each successful enrollment. A rewarding opportunity to support school growth while increasing your income.
               </li>
               <li>
                 Participate in <span className="font-semibold">Ongoing Business Growth Sessions</span> to stay ahead in the education sector with the latest strategies and insights.
               </li>
               <li>
-                Get <span className="font-semibold">free copies of our Private School Growth Guidebook</span> to share with school owners, providing them with valuable business growth strategies.
+                Get <span className="font-semibold">copies of our Private School Growth Guidebook</span> at steep discount to offer to school owners, providing them with valuable business growth strategies.
               </li>
             </ul>
           </li>

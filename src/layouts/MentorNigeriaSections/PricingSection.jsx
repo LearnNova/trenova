@@ -87,7 +87,7 @@ const PricingSection = () => {
     <section className="bg-white py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-7xl md:text-9xl lg:text-13xl font-bold text-gray-800 mb-5">
-          🎉 Introducing the LearnNova Learning Support System
+          🎉 Introducing the LearnNova Learning Support System Pricing Plan
         </h2>
 
         <div className="text-xl lg:text-3xl w-100 text-center">
@@ -117,7 +117,7 @@ const PricingSection = () => {
                 key={index}
                 className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
-                {plan.title === "📙 Plan 4: Expansion Connect" && (
+                {plan.title === "📘 Plan 3: Growth Connect" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
                     Most Popular
                   </span>

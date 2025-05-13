@@ -101,7 +101,7 @@ const SchoolGrowth = () => {
                         Unlock and Connect Knowledge to Success with Engaging Lessons, Anytime, Anywhere on LearnNova—Available on Android, iOS, and Desktop!
                     </div> */}
                     <div className='interest-body'>
-                        <a className='bold' href='#application-form-section'>Are you interested? Fill the form below</a>
+                        <a className='bold' href='#application-form-section'>Are you interested? Pick a Plan and fill the form below</a>
                     </div>
 
                     <div className='interest-form-body'>
@@ -134,7 +134,7 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        <h1 className='mx-auto deep-purple font-bold mb-3'>📞 Contact Us to Get Started Today</h1>
+        {/* <h1 className='mx-auto deep-purple font-bold mb-3'>📞 Contact Us to Get Started Today</h1> */}
 
         <div className='contact-section'>
             <div className='contact-body'>
