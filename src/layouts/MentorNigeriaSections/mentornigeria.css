@@ -432,7 +432,7 @@ html {
 }
 
 .module-text-box h1 {
-  font-size: .9em;
+  font-size: 1em;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -448,7 +448,7 @@ html {
 }
 
 .module-text-box__list-box h2 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .module-text-box__list-box-inner-box {
