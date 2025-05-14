@@ -20,8 +20,8 @@ const programSection = () => {
                         <li className='font-semibold'>Get started with a one-time registration fee of ₦100,000.</li>
                         <li>Then unlock <span className='font-semibold'>each training module</span> as you <span className='font-semibold'>earn up to ₦47,549</span> through our <span className='font-semibold'>15.85% referral commission</span> on LearnNova products—helping you <span className='font-semibold'>learn, earn, and grow your consulting career all at once</span>.</li>
                         <li className='font-semibold'>Earn your qualifications for Modules 1–5 in just three months and unlock Module 6 for free!</li>
-                        <li style={{listStyle: 'none'}}>🔗 Here Are the Products That Let You Earn While You Learn: <span className='highlighter'><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>www.learnnova.ng/schoolgrowthsystem/trenova</a></span></li>
                     </ul>
+                    <p>🔗 Here Are the Products That Let You Earn While You Learn: <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter'>www.learnnova.ng/schoolgrowthsystem/trenova</a></p>
                 </li>
 
                 <li className='my-3'>
@@ -40,7 +40,7 @@ const programSection = () => {
             <ul className='list-disc ml-3 module-text-box__list-box'>
                 <li><span className='font-semibold'>Duration:</span> 14 Weeks</li>
                 <li><span className='font-semibold'>Format:</span> Self-paced detailed lesson notes with videos</li>
-                <li><span className='font-semibold'>Live Support:</span> Virtual mentorship, coaching + project reviews</li>
+                <li><span className='font-semibold'>Live Training:</span> Virtual mentorship, coaching + project reviews</li>
                 <li><span className='font-semibold'>Certification:</span> Certified School Business Consultant (upon full completion)</li>
             </ul>
         </div>
