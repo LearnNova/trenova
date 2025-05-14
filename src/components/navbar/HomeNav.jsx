@@ -19,7 +19,7 @@ const navigation = [
   },
   {
     name: "MentorNigeria", 
-    href: "/MentorNigeria",
+    href: "/MentorNigeria/trenova",
   },
   {
     name: "School Support Network",

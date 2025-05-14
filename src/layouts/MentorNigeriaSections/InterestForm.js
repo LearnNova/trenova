@@ -168,7 +168,7 @@ const InterestForm = ({ name }) => {
                       </div>
 
                       <div className='form-row-main'>
-                        <div className='form-row'>
+                        <div style={{minWidth: '100%'}} className='form-row'>
                             <label htmlFor='schoolPlan' className='input-labels'>Preferred School Plan</label>
                             <select
                                 name="schoolPlan"

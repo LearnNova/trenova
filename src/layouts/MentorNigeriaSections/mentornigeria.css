@@ -432,7 +432,7 @@ html {
 }
 
 .module-text-box h1 {
-  font-size: .7em;
+  font-size: .8em;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -445,6 +445,10 @@ html {
   /* list-style-type: decimal; */
   font-size: .65em;
   padding-left: .3em;
+}
+
+.module-text-box__list-box h2 {
+  font-size: .7em;
 }
 
 .module-text-box__list-box-inner-box {

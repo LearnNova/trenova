@@ -6,16 +6,19 @@ import FooterSection from '../layouts/MentorNigeriaSections/footerSection';
 // import PageTitle from 'utils/PageTitle';
 
 import '../layouts/MentorNigeriaSections/mentornigeria.css'
+import { useParams } from 'react-router-dom';
 
 function MentorNigeriaPage() {
+  const { name } = useParams();
+
   return (
     <div className="App">
       {/* <PageTitle title="MentorNigeria"/> */}
       <HeroSection />
       <ProgramSection />
-      <ApplicationFormSection />
+      <ApplicationFormSection name={name} />
       <ModuleSection />
-      <FooterSection />
+      <FooterSection firstText={'MentorNigeria'} account={true} link={'https://www.learnnova.ng/MentorNigeria/trenova'} />
     </div>
   );
 }
