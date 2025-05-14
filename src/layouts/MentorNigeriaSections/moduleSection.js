@@ -302,7 +302,7 @@ const ModuleSection = () => {
                 {/* <p><span className='highlighter'>3 - 4 Months</span> (Flexible schedule with 1 - 2 sessions per week).</p> */}
                 <ul className='list-none module-text-box__list-box'>
                     <li>🎁 <span className='font-semibold'>Lifetime Access</span> to our Consultant Resource Library</li>
-                    <li>🎁 <span className='font-semibold'>Weekly Office Hours</span> and Live Q\&A Sessions</li>
+                    <li>🎁 <span className='font-semibold'>Weekly Office Hours</span> and Live Q&A Sessions</li>
                     <li>🎁 <span className='font-semibold'>Peer Support Forum</span> and Professional Community</li>
                     <li>🎁 <span className='font-semibold'>Certification Badge</span> for LinkedIn and your resume</li>
                 </ul>

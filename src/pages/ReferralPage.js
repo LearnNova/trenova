@@ -6,7 +6,7 @@ const ReferralPage = () => {
   return (
     <div className='main-container'>
         <ReferralProgram />
-        <FooterSection />
+        <FooterSection firstText={'LearnNova Learning Support System'} account={false} link={'https://www.learnnova.ng/'} />
     </div>
   )
 }

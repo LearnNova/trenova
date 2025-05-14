@@ -24,7 +24,7 @@ const HeroSection = () => {
             </div> */}
 
             <div className='section-4'>
-                <p className='font-bold'>Become a Certified Private School Business Consultant</p>
+                <div className='what-you-learn-title font-bold mb-2'>Become a Certified Private School Business Consultant</div>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
                 <p className='font-semibold'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
@@ -66,7 +66,7 @@ const HeroSection = () => {
                         <li>School owners and edu-preneurs seeking new income streams</li>
                         <li>Independent consultants expanding into the education sector</li>
                         <li>Retired professionals looking to make a lasting difference</li>
-                        <li>Ambitious young professionals seeking a career with impact</li>
+                        <li>Ambitious young adults seeking a career with impact</li>
                     </ul>
                 </span> 
             </div>
@@ -80,7 +80,7 @@ const HeroSection = () => {
                 <span className='what-you-learn-info-list-container'>
                     <ul className='font-semibold'>
                         <li style={{listStyle: 'none'}}>✅ 6 Expert Training Modules</li>
-                        <li style={{listStyle: 'none'}}>✅ 20+ Done-for-You Templates & Checklists</li>
+                        <li style={{listStyle: 'none'}}>✅ 20+ Done-for-You Manuals, Templates & Checklists</li>
                         <li style={{listStyle: 'none'}}>✅ Weekly Virtual Live Mentorship Sessions</li>
                         <li style={{listStyle: 'none'}}>✅ Lifetime Access to TreNova Academy Resources</li>
                         <li style={{listStyle: 'none'}}>✅ Continuous Improvement Program + Verified Consultant Directory Listing</li>

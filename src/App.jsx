@@ -26,7 +26,7 @@ const App = () => {
       <Route path="auth/*" element={<AuthLayout />} />
       <Route path="/" element={<Landing />} />
       <Route 
-        path="MentorNigeria" 
+        path="MentorNigeria/:name" 
         element={
           <>
             <PageTitle title="MentorNigeria"/>

@@ -1,7 +1,7 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import './mentornigeria.css'
 
-const ApplicationFormSection = () => {
+const ApplicationFormSection = ({ name }) => {
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -10,10 +10,23 @@ const ApplicationFormSection = () => {
     const [email, setEmail] = useState('');
     const [location, setLocation] = useState('');
     const [hear, setHear] = useState('');
+    const [agentName, setAgentName] = useState('');
     const [consent, setConsent] = useState(false);
 
     const infoCate = useRef(null);
 
+    useEffect(() => {
+        const formattedName = formatName(name);
+        setAgentName(formattedName)
+    }, [name]);
+
+    const formatName = () => {
+        if (name.includes("_")) {
+            return name.replace(/_/g, " ").replace(/\b\w/g, match => match.toUpperCase());
+          } else {
+            return name.replace(/\b\w/g, match => match.toUpperCase());
+          }
+      }
 
     const resetInput = () => {
         setFirstName('');
@@ -23,6 +36,7 @@ const ApplicationFormSection = () => {
         setEmail('');
         setLocation('');
         setHear('');
+        setAgentName(agentName);
     }
   
 
@@ -40,6 +54,7 @@ const ApplicationFormSection = () => {
                     email: email,
                     location: location,
                     hear: hear,
+                    Agent_Name: agentName
                   };
     
                 try {
@@ -169,7 +184,7 @@ const ApplicationFormSection = () => {
                         </div>
                     </div>
 
-                    <div className='form-row-main'>
+                    {/* <div className='form-row-main'>
                         <div className='form-row'>
                         <label htmlFor='hear' className='input-labels-textarea'>Type in your Preferred Payment Option</label>
                             <textarea 
@@ -181,8 +196,38 @@ const ApplicationFormSection = () => {
                                 onChange={(e) => {setHear(e.target.value)}}
                             ></textarea>
                         </div>
-            
-                    </div>
+                    </div> */}
+
+                    <div className='form-row-main'>
+                        <div className='form-row'>
+                            <label htmlFor='hear' className='input-labels'>Pick your Preferred Payment Option</label>
+                            <select
+                                name="hear"
+                                value={hear}
+                                onChange={(e) => {setHear(e.target.value)}}
+                                className="form-control"
+                                required
+                            >
+                                <option value='' disabled>Select a School Pricing Plan</option>
+                                <option value='Option 1'>Option 1</option>
+                                <option value='Option 2'>Option 2</option>
+                            </select>
+                        </div>
+
+                        <div className='form-row'>
+                            <label htmlFor='agentName' className='input-labels'>Name of Agent/Officer:</label>
+                            <input 
+                                type='text'
+                                id='phoneNumber'
+                                name='agentName'
+                                className='form-control'
+                                value={agentName}
+                                onChange={(e) => {setAgentName(e.target.value)}}
+                                disabled
+                                required
+                            />
+                          </div>
+                      </div>
 
                     <div className='form-row-main'>
                         <div className='form-row-consent'>
