@@ -21,7 +21,7 @@ const programSection = () => {
                         <li>Then unlock <span className='font-semibold'>each training module</span> as you <span className='font-semibold'>earn up to ₦47,549</span> through our <span className='font-semibold'>15.85% referral commission</span> on LearnNova products—helping you <span className='font-semibold'>learn, earn, and grow your consulting career all at once</span>.</li>
                         <li className='font-semibold'>Earn your qualifications for Modules 1–5 in just three months and unlock Module 6 for free!</li>
                     </ul>
-                    <p>🔗 Here Are the Products That Let You Earn While You Learn: <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter'>www.learnnova.ng/schoolgrowthsystem/trenova</a></p>
+                    <p style={{fontSize: '1em'}}>🔗 <span className='font-semibold'>Here Are the Products That Let You Earn While You Learn:</span> <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
                 </li>
 
                 <li className='my-3'>
