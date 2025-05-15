@@ -15,20 +15,21 @@ const programSection = () => {
             <h1 className='highlighter'>Flexible Enrollment Options</h1>
             <ul className='module-text-box__list-box'>
                 <li className='my-3'>
-                    <h2 className='font-semibold' style={{color: '#ff0000'}}>Option 1: Earn While You Learn</h2>
+                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 1:</span> Earn While You Learn</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li className='font-semibold'>Get started with a one-time registration fee of ₦100,000.</li>
                         <li>Then unlock <span className='font-semibold'>each training module</span> as you <span className='font-semibold'>earn up to ₦47,549</span> through our <span className='font-semibold'>15.85% referral commission</span> on LearnNova products—helping you <span className='font-semibold'>learn, earn, and grow your consulting career all at once</span>.</li>
-                        <li className='font-semibold'>Earn your qualifications for Modules 1–5 in just three months and unlock Module 6 for free!</li>
+                        <li><span className='font-semibold'>Refer. Earn. Unlock!</span> Achieve enough commission in 3 months to access all 5 modules-and get <span className='font-semibold'>Module 6 FREE!</span></li>
                     </ul>
                     <p style={{fontSize: '1em'}}>🔗 <span className='font-semibold'>Here Are the Products That Let You Earn While You Learn:</span> <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
                 </li>
 
                 <li className='my-3'>
-                    <h2 className='font-semibold' style={{color: '#ff0000'}}>Option 2: Direct Payment</h2>
-                    <ul className='module-text-box__list-box-inner-box'>
+                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 2:</span> Direct Payment</h2>
+                    <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li>Learn at your own pace by enrolling in individual modules — <span className='font-semibold'>only ₦164,999 per module</span>.</li>
                     </ul>
+                    <p style={{fontSize: '1em'}}><span className='font-semibold'>Ready to go all in?</span> Enroll in Modules 1-5 with a one-time payment and get <span className='font-semibold'>FREE access</span> to <span className='font-semibold'>Module 6</span> - Where Everything Comes Together for Real Results</p>
                 </li>
             </ul>
         </div>
