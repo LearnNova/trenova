@@ -28,8 +28,8 @@ const programSection = () => {
                     <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 2:</span> Direct Payment</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li>Learn at your own pace by enrolling in individual modules — <span className='font-semibold'>only ₦164,999 per module</span>.</li>
+                        <li><span className='font-semibold'>Ready to go all in?</span> Enroll in Modules 1-5 with a one-time payment and get <span className='font-semibold'>FREE access</span> to <span className='font-semibold'>Module 6</span> - Where Everything Comes Together for Real Results</li>
                     </ul>
-                    <p style={{fontSize: '1em'}}><span className='font-semibold'>Ready to go all in?</span> Enroll in Modules 1-5 with a one-time payment and get <span className='font-semibold'>FREE access</span> to <span className='font-semibold'>Module 6</span> - Where Everything Comes Together for Real Results</p>
                 </li>
             </ul>
         </div>
