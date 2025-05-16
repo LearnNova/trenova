@@ -15,7 +15,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>Includes the <span className='font-semibold'>School Learning Support Studio License</span> with engaging, multimedia lessons across core subjects.</>,
+      <>✔️ Includes the School Learning Support Studio License with engaging, multimedia lessons across core subjects.</>,
     ],
     bestFor: <>Ideal for schools beginning their digital learning journey.</>,
     featuresTitle: 'Extra Features & Exclusive Benefits',
@@ -27,7 +27,7 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📗 Plan 2: Starter Connect",
+    title: "📗 Plan 2: Home Learning Connect",
     price: null,
     pricInfo: {
       title: '✅ Subjects Included:',
@@ -38,7 +38,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>Includes full access to the LearnNova Home Learning App, available on Android smartphones, laptop and desktop</>,
+      <>✔️ Includes full access to the LearnNova Home Learning App, available on Android smartphones, laptop and desktop</>,
     ],
     bestFor: <>Extend learning to the home with flexible Home Learning Licenses</>,
     featuresTitle: 'Extra Benefits',
@@ -49,16 +49,16 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📕 Plan 3: Growth Connect",
-    price: "₦474,999",
+    title: "📕 Plan 3: Premium Impact",
+    price: "₦474,999 per term",
     priceInfo: null,
     includes: [
-      <>1 School Learning Studio License with access to</>,
-      <>Senior Secondary Mathematics,</>,
-      <>Diction & Phonetics for Elementary School</>,
-      <>E-Library (ages 3–17) and</>,
-      <>Creative & Vocational Subjects (ages 3–17)</>,
-      <><span className="font-semibold">500</span> Home Learning App Licenses for pupils and students</>,
+      <span style={{color: '#000000'}}>▪ 1 School Learning Studio License with access to</span>,
+      <>- Senior Secondary Mathematics,</>,
+      <>- Diction & Phonetics for Elementary School</>,
+      <>- E-Library (ages 3–17) and</>,
+      <>- Creative & Vocational Subjects (ages 3–17)</>,
+      <span style={{color: '#000000'}}>▪ 500 Home Learning App Licenses for pupils and students</span>,
     ],
     bestFor: <>Ideal for large or multi-campus schools seeking full digital learning integration</>,
     featuresTitle: 'Exclusive Bonuses',
@@ -116,7 +116,7 @@ const PricingSection = () => {
                 key={index}
                 className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
-                {plan.title === "📗 Plan 2: Starter Connect" && (
+                {plan.title === "📕 Plan 3: Premium Impact" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
                     Most Popular
                   </span>
@@ -129,16 +129,16 @@ const PricingSection = () => {
                     {plan.price}
                   </p>
                 )}
-                <p className="italic text-lg md:text-xl lg:text-3xl mb-6">{plan.bestFor}</p>
+                <p className="italic text-lg md:text-xl lg:text-3xl">{plan.bestFor}</p>
 
                 {isExpanded && (
                   <>
-                    <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
+                    <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mt-8 mb-2">
                       ✅ What You Get:
                     </h4>
                     <ul className="text-lg md:text-xl lg:text-3xl text-left mb-8 red-text font-semibold space-y-2">
                       {plan.includes.map((item, i) => (
-                        <li key={i}>✔️ {item}</li>
+                        <li key={i}>{item}</li>
                       ))}
                     </ul>
                     {plan.pricInfo && (
