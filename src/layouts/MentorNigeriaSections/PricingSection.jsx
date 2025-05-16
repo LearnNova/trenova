@@ -5,7 +5,7 @@ const pricingPlans = [
   {
     title: "📘 Plan 1: School Learning Essentials",
     price: null,
-    pricInfoPri: {
+    priceInfoPri: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
         <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
@@ -172,7 +172,7 @@ const PricingSection = () => {
                           {plan.priceInfoSec.title}
                         </h4>
 
-                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-disc mb-8">
+                        <ul className="text-lg md:text-xl lg:text-3xl text-left text-gray-900 space-y-2 list-disc mb-8 ml-3">
                           {plan.priceInfoSec.lists.map((list, i) => (
                             <li key={i}>{list}</li>
                           ))}
