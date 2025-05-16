@@ -5,25 +5,25 @@ const pricingPlans = [
     title: "📘 Plan 1: School Learning Essentials",
     price: "₦99,999",
     includes: [
-      "1 School Learning Support Studio License",
-      "20 Home Learning Device Licenses for pupils/students",
+      <>✅ Includes the <span className='font-semibold'>School Learning Support Studio License</span> with engaging, multimedia lessons across core subjects.</>,
     ],
-    bestFor: "Ideal for schools just getting started with digital learning.",
+    bestFor: "Ideal for schools beginning their digital learning journey.",
+    featuresTitle: 'Additional Features',
     features: [
-      "Engaging multimedia lessons: Diction & Phonics for Elementary School, Senior Secondary School Mathematics, Creative/Vocational Subjects, and a rich E-Library of reading books for ages 3–17",
-      "Learners/Teacher-friendly interface",
-      "Offline Learning - (No internet needed after setup)",
-      "Free onboarding & installation guide",
+      "Simple, teacher and learner-friendly interface",
+      "Offline access after initial installation",
+      "Complimentary onboarding and installation support",
     ],
   },
   {
     title: "📗 Plan 2: Starter Connect",
     price: "₦149,999",
     includes: [
-      "1 School Learning Support Studio License",
-      "60 Home Learning Device Licenses",
+      <>1 School Learning Support Studio License</>,
+      <>60 Home Learning Device Licenses</>,
     ],
     bestFor: "Perfect for small to mid-sized schools ready to bridge school and home learning.",
+    featuresTitle: 'Extra Benefits',
     features: [
       "All features in Essentials",
       "Basic admin usage reports",
@@ -34,10 +34,11 @@ const pricingPlans = [
     title: "📘 Plan 3: Growth Connect",
     price: "₦199,999",
     includes: [
-      "1 School Learning Support Studio License",
-      "100 Home Learning App Licenses for pupils/students",
+      <>1 School Learning Support Studio License</>,
+      <>100 Home Learning App Licenses for pupils/students</>,
     ],
     bestFor: "Designed for growing schools seeking broader impact.",
+    featuresTitle: 'Exclusive Bonuses',
     features: [
       "All Starter Connect benefits",
       "Priority tech support",
@@ -45,35 +46,35 @@ const pricingPlans = [
       "Free access to TreNova Academy Online Training",
     ],
   },
-  {
-    title: "📙 Plan 4: Expansion Connect",
-    price: "₦274,999",
-    includes: [
-      "Best suited for schools with multiple units setups.",
-      "200 Home Learning App Licenses for pupils/students",
-    ],
-    bestFor: "Multi-class setups or multi-campus schools",
-    features: [
-      "All Growth Connect benefits",
-      "Monthly student progress snapshots",
-      "Custom usage reports for school admins",
-      "Virtual school growth mentorship & coaching access",
-    ],
-  },
-  {
-    title: "📕 Plan 5: Premium Impact",
-    price: "₦474,999",
-    includes: [
-      "1 School Learning Support Studio License",
-      "500 Home Learning App Licenses for pupils/students",
-    ],
-    bestFor: "Ideal for large or multi-campus schools aiming for full-scale digital learning integration.",
-    features: [
-      "All Expansion Connect benefits",
-      "Dedicated support manager",
-      "Gain the exclusive opportunity to propose new creative and vocational skills for LearnNova to develop",
-    ],
-  },
+  // {
+  //   title: "📙 Plan 4: Expansion Connect",
+  //   price: "₦274,999",
+  //   includes: [
+  //     "Best suited for schools with multiple units setups.",
+  //     "200 Home Learning App Licenses for pupils/students",
+  //   ],
+  //   bestFor: "Multi-class setups or multi-campus schools",
+  //   features: [
+  //     "All Growth Connect benefits",
+  //     "Monthly student progress snapshots",
+  //     "Custom usage reports for school admins",
+  //     "Virtual school growth mentorship & coaching access",
+  //   ],
+  // },
+  // {
+  //   title: "📕 Plan 5: Premium Impact",
+  //   price: "₦474,999",
+  //   includes: [
+  //     "1 School Learning Support Studio License",
+  //     "500 Home Learning App Licenses for pupils/students",
+  //   ],
+  //   bestFor: "Ideal for large or multi-campus schools aiming for full-scale digital learning integration.",
+  //   features: [
+  //     "All Expansion Connect benefits",
+  //     "Dedicated support manager",
+  //     "Gain the exclusive opportunity to propose new creative and vocational skills for LearnNova to develop",
+  //   ],
+  // },
 ];
 
 const PricingSection = () => {
@@ -87,25 +88,28 @@ const PricingSection = () => {
     <section className="bg-white py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-7xl md:text-9xl lg:text-13xl font-bold text-gray-800 mb-5">
-          🎉 Introducing the LearnNova Learning Support System Pricing Plan
+          🎉 Introducing the LearnNova Learning Support System
         </h2>
 
         <div className="text-xl lg:text-3xl w-100 text-center">
           <p className="italic mb-5">
-            Your Smart, Scalable Solution for Impact-Driven Learning!
+            Your Smart, Scalable Solution for Impact-Driven Learning
           </p>
 
           <p className="font-bold mb-5">
-            Affordable. Flexible. Purpose-built to boost learning outcomes and school profitability.
+            Affordable. Flexible. Built to Improve Learning Outcomes and Boost School Profitability.
           </p>
 
-          <p>🎯 Choose a Plan That Works for Your School</p>
-          <p>✓ Per Term Pricing |</p>
-          <p className="mb-5">✓ All-Inclusive Packages</p>
+          <p>🎯 Choose the Right Plan for Your School</p>
+          <p>✓ Easy per-term pricing</p>
+          <p className="mb-5">✓ All-inclusive, value-packed solutions</p>
 
-          <p className="max-w-6xl mb-5">
-            All plans come with access to the powerful LearnNova School Learning Support Studio—your all-in-one hub for enhancing teaching and boosting pupils/students achievement. You’ll also receive <span className="font-semibold">25 to 500</span> LearnNova Home Learning licenses, enabling learners to continue learning beyond the classroom using our easy-to-use app on Desktop, Laptop, and Android devices.
-          </p>
+          <div className="max-w-6xl">
+            <p className="mb-5 font-bold">Transform Learning with the LearnNova Learning Support System</p>
+            <p className="mb-5 italic">Give your school the tools it needs to succeed in today’s digital-first environment.</p>
+            <p className="mb-5">The <span className="font-semibold">School Essential Plan</span> features the powerful <span className="font-semibold">LearnNova School Learning Support Studio</span>—a complete platform designed to enhance classroom instruction, boost learner performance, and support school revenue growth.</p>
+            <p className="mb-5">Ready to expand learning beyond the school walls? The <span className="font-semibold">Growth Connect Plan</span> include the <span className="font-semibold">LearnNova Home Learning Licenses</span>, allowing pupils/students to continue learning at their convenience—after school, on weekends, or during holidays—using our easy-to-use app available on desktops, laptops, and Android devices.</p>
+          </div>
 
         </div>
         
@@ -138,7 +142,7 @@ const PricingSection = () => {
                       ))}
                     </ul>
                     <h4 className="text-lg md:text-xl lg:text-3xl font-semibold deep-purple mb-2">
-                      Features:
+                      {plan.featuresTitle}
                     </h4>
                     <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2">
                       {plan.features.map((feature, i) => (
