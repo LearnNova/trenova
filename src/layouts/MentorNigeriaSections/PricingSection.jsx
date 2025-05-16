@@ -5,7 +5,7 @@ const pricingPlans = [
   {
     title: "📘 Plan 1: School Learning Essentials",
     price: null,
-    pricInfo: {
+    pricInfoPri: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
         <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
@@ -29,12 +29,22 @@ const pricingPlans = [
   {
     title: "📗 Plan 2: Home Learning Connect",
     price: null,
-    pricInfo: {
+    priceInfoPri: {
       title: '✅ Subjects Included:',
       lists: [
         <>Senior Secondary Mathematics - (2,400+ comprehensive video lessons plus 8,000 questions & answers)</>,
         <>Diction & Phonetics for Elementary School pupils - (540 interactive lessons with 500 practice exercises)</>,
         <>E-Library of reading books for Elementary and Secondary School - (850+ carefully curated reading books for ages 3 to 17)</>,
+      ]
+    },
+    priceInfoSec: {
+      title: 'Per-Term Pricing:',
+      lists: [
+        '30 Learners – ₦50,000',
+        '60 Learners – ₦90,000',
+        '100 Learners – ₦125,000',
+        '200 Learners – ₦199,999',
+        '400 Learners – ₦300,000',
       ]
     },
     includes: [
@@ -53,11 +63,11 @@ const pricingPlans = [
     price: "₦474,999 per term",
     priceInfo: null,
     includes: [
-      <span style={{color: '#000000'}}>▪ 1 School Learning Studio License with access to</span>,
-      <>- Senior Secondary Mathematics,</>,
-      <>- Diction & Phonetics for Elementary School</>,
-      <>- E-Library (ages 3–17) and</>,
-      <>- Creative & Vocational Subjects (ages 3–17)</>,
+      <span style={{color: '#000000'}}>▪ 1 School Learning Studio License with access to:</span>,
+      <>✔️ Senior Secondary Mathematics,</>,
+      <>✔️ Diction & Phonetics for Elementary School</>,
+      <>✔️ E-Library (ages 3–17), and</>,
+      <>✔️ Creative & Vocational Subjects (ages 3–17)</>,
       <span style={{color: '#000000'}}>▪ 500 Home Learning App Licenses for pupils and students</span>,
     ],
     bestFor: <>Ideal for large or multi-campus schools seeking full digital learning integration</>,
@@ -141,20 +151,36 @@ const PricingSection = () => {
                         <li key={i}>{item}</li>
                       ))}
                     </ul>
-                    {plan.pricInfo && (
+                    {plan.priceInfoPri && (
                       <>
                         <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
-                          {plan.pricInfo.title}
+                          {plan.priceInfoPri.title}
                         </h4>
 
                         <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-decimal mb-8">
-                          {plan.pricInfo.lists.map((list, i) => (
+                          {plan.priceInfoPri.lists.map((list, i) => (
                             <li key={i}>{list}</li>
                           ))}
                         </ul>
                       </>
                       
                     )}
+
+                    {plan.priceInfoSec && (
+                      <>
+                        <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
+                          {plan.priceInfoSec.title}
+                        </h4>
+
+                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-disc mb-8">
+                          {plan.priceInfoSec.lists.map((list, i) => (
+                            <li key={i}>{list}</li>
+                          ))}
+                        </ul>
+                      </>
+                      
+                    )}
+
                     <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
                       {plan.featuresTitle}:
                     </h4>
