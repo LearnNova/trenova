@@ -1,29 +1,37 @@
+import { list } from "postcss";
 import React, { useState } from "react";
 
 const pricingPlans = [
   {
     title: "📘 Plan 1: School Learning Essentials",
     price: null,
-    pricInfo: [],
+    pricInfo: {
+      title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
+      lists: [
+        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="d-block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
+        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="d-block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
+      ]
+    },
     includes: [
-      <>✅ Includes the <span className='font-semibold'>School Learning Support Studio License</span> with engaging, multimedia lessons across core subjects.</>,
+      <>Includes the <span className='font-semibold'>School Learning Support Studio License</span> with engaging, multimedia lessons across core subjects.</>,
     ],
     bestFor: <>Ideal for schools beginning their digital learning journey.</>,
-    featuresTitle: 'Additional Features',
+    featuresTitle: 'Extra Features & Exclusive Benefits',
     features: [
-      <>Simple, teacher and learner-friendly interface</>,
-      <>Offline access after initial installation</>,
-      <>Complimentary onboarding and installation support</>,
+      <>Enroll in 2 courses and receive <span className="font-semibold">1 additional course free</span></>,
+      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
+      <>Designed with a <span className="font-semibold">simple, user-friendly interface</span> for both teachers and learners</>,
+      <>Includes <span className="font-semibold">free onboarding and installation support</span></>,
     ],
   },
   {
     title: "📗 Plan 2: Starter Connect",
     price: null,
-    priceInfo: [],
+    priceInfo: null,
     includes: [
       <>Includes full access to the LearnNova Home Learning App, available on Android smartphones, laptop and desktop</>,
     ],
-    bestFor: <span className="font-semibold">Extend learning to the home with flexible Home Learning Licenses</span>,
+    bestFor: <>Extend learning to the home with flexible Home Learning Licenses</>,
     featuresTitle: 'Extra Benefits',
     features: [
       <>Priority tech support</>,
@@ -32,18 +40,18 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📘 Plan 3: Growth Connect",
+    title: "📕 Plan 3: Growth Connect",
     price: "₦474,999",
     priceInfo: null,
     includes: [
-      <>▪ 1 School Learning Studio License with access to</>,
-      <>▪ Senior Secondary Mathematics,</>,
-      <>▪ Diction & Phonetics for Elementary School</>,
-      <>▪ E-Library (ages 3–17) and</>,
-      <>▪ Creative & Vocational Subjects (ages 3–17)</>,
-      <>▪ <span className="font-semibold">500</span> Home Learning App Licenses for pupils and students</>,
+      <>1 School Learning Studio License with access to</>,
+      <>Senior Secondary Mathematics,</>,
+      <>Diction & Phonetics for Elementary School</>,
+      <>E-Library (ages 3–17) and</>,
+      <>Creative & Vocational Subjects (ages 3–17)</>,
+      <><span className="font-semibold">500</span> Home Learning App Licenses for pupils and students</>,
     ],
-    bestFor: <span className="font-semibold">Ideal for large or multi-campus schools seeking full digital learning integration</span>,
+    bestFor: <>Ideal for large or multi-campus schools seeking full digital learning integration</>,
     featuresTitle: 'Exclusive Bonuses',
     features: [
       <>Free access to <span className="font-semibold">TreNova Academy Online Training</span></>,
@@ -53,35 +61,6 @@ const pricingPlans = [
       <><span className="font-semibold">VIP Access:</span> Got ideas? Suggest new creative or vocational skills you'd love to see added to LearnNova!</>,
     ],
   },
-  // {
-  //   title: "📙 Plan 4: Expansion Connect",
-  //   price: "₦274,999",
-  //   includes: [
-  //     "Best suited for schools with multiple units setups.",
-  //     "200 Home Learning App Licenses for pupils/students",
-  //   ],
-  //   bestFor: "Multi-class setups or multi-campus schools",
-  //   features: [
-  //     "All Growth Connect benefits",
-  //     "Monthly student progress snapshots",
-  //     "Custom usage reports for school admins",
-  //     "Virtual school growth mentorship & coaching access",
-  //   ],
-  // },
-  // {
-  //   title: "📕 Plan 5: Premium Impact",
-  //   price: "₦474,999",
-  //   includes: [
-  //     "1 School Learning Support Studio License",
-  //     "500 Home Learning App Licenses for pupils/students",
-  //   ],
-  //   bestFor: "Ideal for large or multi-campus schools aiming for full-scale digital learning integration.",
-  //   features: [
-  //     "All Expansion Connect benefits",
-  //     "Dedicated support manager",
-  //     "Gain the exclusive opportunity to propose new creative and vocational skills for LearnNova to develop",
-  //   ],
-  // },
 ];
 
 const PricingSection = () => {
@@ -153,6 +132,20 @@ const PricingSection = () => {
                         <li key={i}>✔️ {item}</li>
                       ))}
                     </ul>
+                    {plan.pricInfo && (
+                      <>
+                        <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
+                          {plan.pricInfo.title}
+                        </h4>
+
+                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-decimal">
+                          {plan.pricInfo.lists.map((list, i) => (
+                            <li key={i}>{list}</li>
+                          ))}
+                        </ul>
+                      </>
+                      
+                    )}
                     <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
                       {plan.featuresTitle}:
                     </h4>
@@ -161,7 +154,7 @@ const PricingSection = () => {
                         <li key={i}>• {feature}</li>
                       ))}
                     </ul>
-                    <p className="font-semibold italic text-lg md:text-xl lg:text-3xl">🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
+                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl mt-5">🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
                     <a
                       href="#application-form-section"
                       className="mt-6 text-white text-lg px-5 py-3 rounded-md inline-block"
