@@ -8,8 +8,10 @@ const pricingPlans = [
     pricInfo: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
-        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="d-block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
-        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="d-block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
+        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
+        <><span className="font-semibold">Diction & Phonics for Elementary – ₦49,999 per term</span><span className="block ml-2">540 interactive lessons with 500 practice exercises</span></>,
+        <><span className="font-semibold">E-Library (Ages 3–17) – ₦49,999 per term</span><span className="block ml-2">Access to 850+ carefully curated reading books from KG1 to SSS3</span></>,
+        <><span className="font-semibold">Creative & Vocational Subjects – ₦49,999 per term</span><span className="block ml-2">Hands-on, practical topics designed for learners aged 3–17</span></>,
       ]
     },
     includes: [
@@ -27,7 +29,14 @@ const pricingPlans = [
   {
     title: "📗 Plan 2: Starter Connect",
     price: null,
-    priceInfo: null,
+    pricInfo: {
+      title: '✅ Subjects Included:',
+      lists: [
+        <>Senior Secondary Mathematics - (2,400+ comprehensive video lessons plus 8,000 questions & answers)</>,
+        <>Diction & Phonetics for Elementary School pupils - (540 interactive lessons with 500 practice exercises)</>,
+        <>E-Library of reading books for Elementary and Secondary School - (850+ carefully curated reading books for ages 3 to 17)</>,
+      ]
+    },
     includes: [
       <>Includes full access to the LearnNova Home Learning App, available on Android smartphones, laptop and desktop</>,
     ],
@@ -138,7 +147,7 @@ const PricingSection = () => {
                           {plan.pricInfo.title}
                         </h4>
 
-                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-decimal">
+                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-decimal mb-5">
                           {plan.pricInfo.lists.map((list, i) => (
                             <li key={i}>{list}</li>
                           ))}
@@ -154,7 +163,7 @@ const PricingSection = () => {
                         <li key={i}>• {feature}</li>
                       ))}
                     </ul>
-                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl mt-5">🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
+                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl mt-5" style={{color: '#5a5959'}}>🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
                     <a
                       href="#application-form-section"
                       className="mt-6 text-white text-lg px-5 py-3 rounded-md inline-block"
