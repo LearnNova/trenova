@@ -116,7 +116,7 @@ const PricingSection = () => {
                 key={index}
                 className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
-                {plan.title === "📘 Plan 3: Growth Connect" && (
+                {plan.title === "📗 Plan 2: Starter Connect" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
                     Most Popular
                   </span>
@@ -129,14 +129,14 @@ const PricingSection = () => {
                     {plan.price}
                   </p>
                 )}
-                <p className="italic text-lg md:text-xl lg:text-3xl mb-3">{plan.bestFor}</p>
+                <p className="italic text-lg md:text-xl lg:text-3xl mb-6">{plan.bestFor}</p>
 
                 {isExpanded && (
                   <>
                     <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
                       ✅ What You Get:
                     </h4>
-                    <ul className="text-lg md:text-xl lg:text-3xl text-left mb-4 red-text font-semibold space-y-2">
+                    <ul className="text-lg md:text-xl lg:text-3xl text-left mb-8 red-text font-semibold space-y-2">
                       {plan.includes.map((item, i) => (
                         <li key={i}>✔️ {item}</li>
                       ))}
@@ -147,7 +147,7 @@ const PricingSection = () => {
                           {plan.pricInfo.title}
                         </h4>
 
-                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-decimal mb-5">
+                        <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 list-decimal mb-8">
                           {plan.pricInfo.lists.map((list, i) => (
                             <li key={i}>{list}</li>
                           ))}
@@ -158,12 +158,12 @@ const PricingSection = () => {
                     <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mb-2">
                       {plan.featuresTitle}:
                     </h4>
-                    <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2">
+                    <ul className="text-lg md:text-xl lg:text-3xl text-left space-y-2 mb-8">
                       {plan.features.map((feature, i) => (
                         <li key={i}>• {feature}</li>
                       ))}
                     </ul>
-                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl mt-5" style={{color: '#5a5959'}}>🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
+                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl" style={{color: '#5a5959'}}>🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
                     <a
                       href="#application-form-section"
                       className="mt-6 text-white text-lg px-5 py-3 rounded-md inline-block"
