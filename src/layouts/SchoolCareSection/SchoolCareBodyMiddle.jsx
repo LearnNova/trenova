@@ -76,20 +76,21 @@ const SchoolCareBodyMiddle = () => {
               </li>
 
               <li>
-                Pricing & Enrollment Packages:
+                Partner Distributorship Packages & Pricing
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
 
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Bronze Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
                     </div>
-                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 20 Home Learning Apps for pupils/students</span>
+                        <span>Access to <span className="font-semibold">10 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦79,999 per term</span>
+                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦399,999 per term</span></span>
                       </li>
                     </ul>
                   </li>
@@ -97,14 +98,15 @@ const SchoolCareBodyMiddle = () => {
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 60 Home Learning Apps for pupils/students</span>
+                        <span>Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦119,999 per term</span>
+                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦1,250</span> per child, per term <span className="block font-semibold">Partner Price: ₦499,999 per term</span></span>
                       </li>
                     </ul>
                   </li>
@@ -112,14 +114,23 @@ const SchoolCareBodyMiddle = () => {
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 100 Home Learning Apps for pupils/students</span>
+                        <span>Access to <span className="font-semibold">12 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦159,999 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
+                      </li>
+
+                      <li>
+                        Access to <span className="font-semibold">220 Home Learning Apps</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦699,768 per term</span></span>
                       </li>
                     </ul>
                   </li>
@@ -127,29 +138,23 @@ const SchoolCareBodyMiddle = () => {
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Platinum Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
                     </div>
                     <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 200 Home Learning Apps for pupils/students</span>
+                        Access to <span className="font-semibold">18 School Learning Support Subjects</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦219,999 per term</span>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Diamond Package:</span>
-                    </div>
-                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
-                      <li>
-                        <span className="font-semibold">-Includes: </span><span>School Learning Support Studio+ 500 Home Learning Apps for pupils/students</span>
+                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
                       </li>
 
                       <li>
-                        <span className="font-semibold">-Price: </span><span className='font-semibold'>₦379,999 per term</span>
+                        Access to <span className="font-semibold">350 Home Learning Apps</span>
+                      </li>
+
+                      <li>
+                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦799</span> per child, per term <span className="block font-semibold">Partner Price: ₦999,600 per term</span></span>
                       </li>
                     </ul>
                   </li>
@@ -157,10 +162,14 @@ const SchoolCareBodyMiddle = () => {
                 </ul>
               </li>
 
-              <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price.</p>
+              <div className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal">
+                <p className="font-semibold">Partner Registration Fee: ₦100,000</p>
+                <p>Join the LearnNova Partner Network with a one-time, non-refundable fee of <span className="font-semibold">₦100,000</span>. This grants you access to 2 subjects on our School Learning App and enrollment for up to 20 learners on the Home Learning App — everything you need to launch your mission of transforming education in your community.</p>
+              </div>
+              {/* <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price.</p> */}
             </ol>
 
-            <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p>
+            {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p> */}
           </li>    
 
           <li>
