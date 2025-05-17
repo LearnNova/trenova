@@ -25,13 +25,13 @@ const SchoolCareBodyMiddle = () => {
                 <span className="font-semibold">Continuous Sales & Business Growth Training Sessions</span> to keep you ahead in the education support industry with cutting-edge insights.
               </li>
               <li>
-                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Free upon reaching 50 customers.)</span>
+                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Attendance upon Invitation)</span>
               </li>
               {/* <li>
                 <span className="font-semibold">Entrepreneurial Skills Development for Business Start-Up</span> – Gain essential knowledge to successfully launch and scale a business. <span className="font-semibold">(Free upon reaching 75 customers.)</span>
               </li> */}
               <li>
-                Critical Skills and Proven Strategies for Building and Running a Successful Business Consulting Practice. <span className="font-semibold">(Free upon achieving 100 customers)</span>
+                Critical Skills and Proven Strategies for Building and Running a Successful Business Consulting Practice. <span className="font-semibold">(Attendance upon Invitation)</span>
               </li>
             </ul>
           </li>
@@ -161,10 +161,10 @@ const SchoolCareBodyMiddle = () => {
                 </ul>
               </li>
 
-              <div className="text-lg md:text-xl lg:text-3xl mt-5 mb-3 text-white font-normal">
+              {/* <div className="text-lg md:text-xl lg:text-3xl mt-5 mb-3 text-white font-normal">
                 <p className="font-semibold text-orange-500">Partner Registration Fee: ₦100,000</p>
-                <p>Join the LearnNova Partner Network with a one-time, non-refundable fee of <span className="font-semibold">₦100,000</span>. This grants you access to 2 subjects on our School Learning App and enrollment for up to 20 learners on the Home Learning App — everything you need to launch your mission of transforming education in your community.</p>
-              </div>
+                <p>Become a LearnNova Network Partner with a one-time, non-refundable registration fee of <span className="font-semibold">₦100,000</span>. This includes access to 2 subjects on our School Learning App and enrollment for up to 20 learners on the Home Learning App — everything you need to begin transforming education in your community.</p>
+              </div> */}
               {/* <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price.</p> */}
             </ol>
 
@@ -183,7 +183,7 @@ const SchoolCareBodyMiddle = () => {
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">Partners Registration Fee: ₦100,000</p>
-          <p>To register as a LearnNova partner, a non-refundable registration fee of <span className="font-semibold">₦100,000</span> is required. This covers one <span className="font-semibold">(1) Classroom Desktop Application</span> and access for <span className="font-semibold">30 learners</span> on the Home Learning App - everything you need to start transforming education in your community.</p>
+          <p>Become a LearnNova Network Partner with a one-time, non-refundable registration fee of <span className="font-semibold">₦100,000</span>. This includes access to 2 subjects on our School Learning App and enrollment for up to 20 learners on the Home Learning App — everything you need to begin transforming education in your community.</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
