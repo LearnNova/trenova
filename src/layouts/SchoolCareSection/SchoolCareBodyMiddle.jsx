@@ -14,7 +14,7 @@ const SchoolCareBodyMiddle = () => {
           As a <span className='font-semibold text-orange-500'>LearnNova School Support Business Owner</span>, you gain access to industry-leading tools, training, and resources designed to help you build a thriving and profitable business. Here’s what’s included:
         </p> */}
 
-        <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-4">
+        <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-5">
           <li>
             Seamless Onboarding Program & Continuous Learning Initiative
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
@@ -77,20 +77,19 @@ const SchoolCareBodyMiddle = () => {
 
               <li>
                 Partner Distributorship Packages & Pricing
-                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
-
+                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-4">
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Bronze Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-disc mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
                         <span>Access to <span className="font-semibold">10 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦399,999 per term</span></span>
+                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦399,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -98,15 +97,15 @@ const SchoolCareBodyMiddle = () => {
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
                         <span>Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students</span>
                       </li>
 
                       <li>
-                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦1,250</span> per child, per term <span className="block font-semibold">Partner Price: ₦499,999 per term</span></span>
+                        Discounted Rate: <span className="font-semibold">₦1,250</span> per child, per term <span className="block font-semibold">Partner Price: ₦499,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -114,9 +113,9 @@ const SchoolCareBodyMiddle = () => {
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
                         <span>Access to <span className="font-semibold">12 School Learning Support Subjects</span></span>
                       </li>
@@ -130,7 +129,7 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦699,768 per term</span></span>
+                        Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦699,768 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -138,9 +137,9 @@ const SchoolCareBodyMiddle = () => {
                   <li>
                     <div>
                       <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Platinum Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3'>Includes:</p>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-none mx-3 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
                         Access to <span className="font-semibold">18 School Learning Support Subjects</span>
                       </li>
@@ -154,7 +153,7 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        <span className="font-semibold">Discounted Rate: <span className="font-semibold">₦799</span> per child, per term <span className="block font-semibold">Partner Price: ₦999,600 per term</span></span>
+                        Discounted Rate: <span className="font-semibold">₦799</span> per child, per term <span className="block font-semibold">Partner Price: ₦999,600 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -162,8 +161,8 @@ const SchoolCareBodyMiddle = () => {
                 </ul>
               </li>
 
-              <div className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal">
-                <p className="font-semibold">Partner Registration Fee: ₦100,000</p>
+              <div className="text-lg md:text-xl lg:text-3xl mt-5 mb-3 text-white font-normal">
+                <p className="font-semibold text-orange-500">Partner Registration Fee: ₦100,000</p>
                 <p>Join the LearnNova Partner Network with a one-time, non-refundable fee of <span className="font-semibold">₦100,000</span>. This grants you access to 2 subjects on our School Learning App and enrollment for up to 20 learners on the Home Learning App — everything you need to launch your mission of transforming education in your community.</p>
               </div>
               {/* <p className="text-lg md:text-xl lg:text-3xl my-3 text-white font-normal"><span className="font-semibold">Full Resale Rights:</span> Purchase at LearnNova’s discounted rate (as stated above) and resell to schools at your preferred price.</p> */}
