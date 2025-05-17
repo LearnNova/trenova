@@ -22,10 +22,10 @@ const programSection = () => {
                         <li><span className='font-semibold'>Refer. Earn. Unlock!</span> Achieve enough commission in 3 months to access all 5 modules-and get <span className='font-semibold'>Module 6 FREE!</span></li>
                     </ul>
 
-                    <div className='font-semibold'>
+                    <div className='font-semibold mt-3'>
                         <p style={{fontSize: '1em'}}>🔗 Here Are the Products That Let You Earn While You Learn:</p>
-                        <p className='ml-4' style={{fontSize: '1em'}}>Product 1: <a href='https://www.learnnova.ng/schoolsupportpartner' className='highlighter text-underline'>Click here</a></p>
-                        <p className='ml-4' style={{fontSize: '1em'}}>Product 2: <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Product 1: <a href='https://www.learnnova.ng/schoolsupportpartner' className='highlighter text-underline'>Click here</a></p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Product 2: <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
                     </div>
                 </li>
 
