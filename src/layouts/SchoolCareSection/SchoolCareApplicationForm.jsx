@@ -36,7 +36,10 @@ const SchoolCareApplicationForm = ({ id, agentName }) => {
 
   useEffect(() => {
       const formattedName = formatName(agentName);
-      setFormData(...formData, {agentName: formattedName});
+      setFormData(prev => ({
+        ...prev,
+        agentName: formattedName
+      }));
   }, [agentName]);
   
   const formatName = () => {
