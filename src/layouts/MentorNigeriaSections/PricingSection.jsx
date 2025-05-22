@@ -55,12 +55,31 @@ const pricingPlans = [
     features: [
       <>Priority tech support</>,
       <>Access to School Growth forms + printable guides</>,
-      <><span className="font-semibold">Referral Bonus:</span> Get 20 extra learners licenses for every school you refer to LearnNova</>,
+      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
+      <>Includes <span className="font-semibold">free onboarding and installation support</span></>,
     ],
   },
   {
-    title: "📕 Plan 3: Premium Impact",
-    price: "₦474,999 per term",
+    title: "📘 Plan 3: School + Home Learning Support Combo",
+    price: "₦149,999 per Term",
+    priceInfo: null,
+    includes: [
+      <><span style={{color: '#000000'}}>▪ School Learning Support Studio License</span><span className="block">Get interactive, multimedia-rich lessons in any <span className="font-semibold">3</span> of the following subjects: <span className="font-semibold">Senior Secondary Mathematics, Elementary Diction & Phonetics, an extensive E-Library for ages 3–17, and Creative & Vocational Studies for all class levels</span>—all designed to keep learners engaged and inspired.</span></>,
+      <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses</span><span className="block">Give your pupils and students access to the <span className="font-semibold">LearnNova Home Learning App</span> on Android smartphones, laptops, and desktops—for continued learning beyond the classroom.</span></>,
+    ],
+    bestFor: <>Perfect for schools looking to boost learning outcomes, increase revenue, and grow sustainably.</>,
+    featuresTitle: 'Exclusive Extras:',
+    features: [
+      <>Priority access to technical support</>,
+      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
+      <>Ready-to-use <span className="font-semibold">School Growth forms</span> and <span className="font-semibold">printable planning guides</span></>,
+      <>Includes free onboarding and installation support</>,
+      <><span className="font-semibold">Referral Reward:</span> Refer another school to LearnNova and receive <span className="font-semibold">20 bonus learner licenses</span> per successful referral.</>,
+    ],
+  },
+  {
+    title: "📕 Plan 4: Premium Impact",
+    price: "₦474,999 per Term",
     priceInfo: null,
     includes: [
       <span style={{color: '#000000'}}>▪ 1 School Learning Studio License with access to:</span>,
@@ -73,6 +92,7 @@ const pricingPlans = [
     bestFor: <>Ideal for large or multi-campus schools seeking full digital learning integration</>,
     featuresTitle: 'Exclusive Bonuses',
     features: [
+      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
       <>Free access to <span className="font-semibold">TreNova Academy Online Training</span></>,
       <>Invitation to <span className="font-semibold">Virtual Mentorship & School Growth Coaching Sessions</span></>,
       <>Dedicated support manager for your school</>,
@@ -126,7 +146,7 @@ const PricingSection = () => {
                 key={index}
                 className="border border-gray-200 shadow-md rounded-2xl p-6 flex flex-col hover:shadow-xl transition-shadow duration-300"
               >
-                {plan.title === "📕 Plan 3: Premium Impact" && (
+                {plan.title === "📘 Plan 3: School + Home Learning Support Combo" && (
                   <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-3 py-1 rounded-full mb-3">
                     Most Popular
                   </span>

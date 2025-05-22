@@ -19,7 +19,7 @@ const programSection = () => {
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li className='font-semibold'>Get started with a one-time registration fee of ₦100,000.</li>
                         <li>Then unlock <span className='font-semibold'>each training module</span> as you <span className='font-semibold'>earn up to ₦63,399</span> through our <span className='font-semibold'>15.85% referral commission</span> on LearnNova products—helping you <span className='font-semibold'>learn, earn, and grow your consulting career all at once</span>.</li>
-                        <li><span className='font-semibold'>Refer. Earn. Unlock!</span> Achieve enough commission in 3 months to access all 5 modules-and get <span className='font-semibold'>Module 6 FREE!</span></li>
+                        <li><span className='font-semibold'>Refer, Earn, and Unlock Rewards!</span> Earn enough commission for Modules 1 to 3 in under 3 months — and get <span className='font-semibold'>Modules 4 to 6 absolutely FREE!</span></li>
                     </ul>
 
                     <div className='font-semibold mt-3'>
