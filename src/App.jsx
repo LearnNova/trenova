@@ -96,7 +96,7 @@ const App = () => {
         } /> 
 
         <Route 
-         path="schoolsupportpartner" 
+         path="schoolsupportpartner/:name" 
           element={
             <>
             <PageTitle title="School Support Partner" />

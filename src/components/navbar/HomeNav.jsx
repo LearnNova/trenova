@@ -23,7 +23,7 @@ const navigation = [
   },
   {
     name: "School Support Network",
-    href: "/schoolsupportpartner",
+    href: "/schoolsupportpartner/trenova",
   },
   {
     name: "School Growth System",
