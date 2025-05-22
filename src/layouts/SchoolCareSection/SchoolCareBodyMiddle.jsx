@@ -85,6 +85,22 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
+                        <span>Access to <span className="font-semibold">5 School Learning Support Subjects</span></span>
+                      </li>
+
+                      <li>
+                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦199,995 per term</span>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
+                    </div>
+                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                      <li>
                         <span>Access to <span className="font-semibold">10 School Learning Support Subjects</span></span>
                       </li>
 
@@ -96,7 +112,7 @@ const SchoolCareBodyMiddle = () => {
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
@@ -112,7 +128,7 @@ const SchoolCareBodyMiddle = () => {
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Platinum Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
@@ -136,7 +152,7 @@ const SchoolCareBodyMiddle = () => {
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Platinum Package:</span>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Diamond Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
