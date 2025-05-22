@@ -105,7 +105,7 @@ const App = () => {
         } />
 
         <Route 
-          path="schoolsupportpartner/congratulations" 
+          path="schoolsupportpartner/:name/congratulations" 
           element={
             <>
             <PageTitle title="Congratulations" />
