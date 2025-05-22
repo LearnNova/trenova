@@ -6,8 +6,11 @@ import SchoolCareBodyMiddle from 'layouts/SchoolCareSection/SchoolCareBodyMiddle
 // import SchoolCareQuiz from 'layouts/SchoolCareSection/SchoolCareQuiz';
 import SchoolCareApplicationForm from 'layouts/SchoolCareSection/SchoolCareApplicationForm';
 import FooterSection from 'layouts/MentorNigeriaSections/footerSection';
+import { useParams } from 'react-router-dom';
 
 const SchoolCarePage = () => {
+  const { name } = useParams();
+
   return (
     <div style={{background: '#1C1C1C', color: '#ffffff', fontFamily: 'Poppins, sans-serif'}}>
         <SchoolCareNavbar />
@@ -24,6 +27,7 @@ const SchoolCarePage = () => {
       {/* <SchoolCareBodyBottom /> */}
       <SchoolCareApplicationForm 
           id='getintouch3'
+          agentName={name}
       />
       <div className='mb-10' />
       <div className='text-center font-extrabold py-2 text-black border-t border-gray-400' style={{background: '#FA8806'}}>

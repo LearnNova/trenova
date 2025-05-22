@@ -1,14 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import availableTerritories from "./availableTerritories";
 import { useNavigate } from "react-router-dom";
 
-const Input = ({ label, type, required, name, placeholder, value, minLength, onChange }) => (
+const Input = ({ label, type, required, name, placeholder, value, minLength, disabled, onChange }) => (
   <div>
     <label className="block text-gold font-semibold">{label}</label>
     <input
       type={type || "text"}
       name={name}
       value={value}
+      disabled={disabled}
       placeholder={placeholder || `Enter your ${label} here`}
       className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 placeholder-gray-500"
       required={required}
@@ -19,7 +20,7 @@ const Input = ({ label, type, required, name, placeholder, value, minLength, onC
   </div>
 );
 
-const SchoolCareApplicationForm = ({ id }) => {
+const SchoolCareApplicationForm = ({ id, agentName }) => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
@@ -29,8 +30,22 @@ const SchoolCareApplicationForm = ({ id }) => {
     email: "",
     preferredTerritory: "",
     hear: "",
+    agentName: '',
     consent: false,
   });
+
+  useEffect(() => {
+      const formattedName = formatName(agentName);
+      setFormData(...formData, {agentName: formattedName});
+  }, [agentName]);
+  
+  const formatName = () => {
+    if (agentName.includes("_")) {
+        return agentName.replace(/_/g, " ").replace(/\b\w/g, match => match.toUpperCase());
+      } else {
+        return agentName.replace(/\b\w/g, match => match.toUpperCase());
+      }
+  }
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showForm, setShowForm] = useState(false);
@@ -68,6 +83,7 @@ const SchoolCareApplicationForm = ({ id }) => {
         email: "",
         preferredTerritory: "",
         hear: "",
+        agentName: formData.agentName,
         consent: false,
       });
 
@@ -139,6 +155,9 @@ const SchoolCareApplicationForm = ({ id }) => {
 
               {/* How did you hear about us? */}
               <Input label="How Did You Hear About Us?" type="text" name="hear" placeholder='How did you hear about us?' required value={formData.hear} onChange={handleChange} />
+
+              {/* Agent Name */}
+              <Input label="Agent Name" type="text" name="agentName" value={formData.agentName} disabled={true} onChange={handleChange} />
             </div>
 
             {/* Consent Checkbox */}
