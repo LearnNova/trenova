@@ -34,8 +34,8 @@ const programSection = () => {
 
                     <div className='font-semibold mt-3'>
                         <p style={{fontSize: '1em'}}>🔗  Here Are the LearnNova Products That Let You Earn While You Learn:</p>
-                        <p className='mb-2' style={{fontSize: '1em'}}>Product 1 - <a href='https://www.learnnova.ng/schoolsupportpartner' className='highlighter text-underline'>Click here</a></p>
-                        <p className='mb-2' style={{fontSize: '1em'}}>Product 2 - <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Product 1 - <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Product 2 - <a href='https://www.learnnova.ng/schoolsupportpartner/trenova' className='highlighter text-underline'>Click here</a></p>
                     </div>
 
                     <div className='mt-4'>
