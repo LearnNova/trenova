@@ -85,11 +85,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">5 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">6 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦199,995 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦43,332.50</span> per subject, per term <span className="block font-semibold">Partner Price: ₦259,995 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -198,8 +198,8 @@ const SchoolCareBodyMiddle = () => {
         </ul>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
-          <p className="font-semibold text-orange-500">Partners Registration Fee: ₦100,000</p>
-          <p>Become a LearnNova Network Partner with a one-time, non-refundable registration fee of <span className="font-semibold">₦100,000</span>. This includes access to 2 subjects on our School Learning App and enrollment for up to 20 learners on the Home Learning App — everything you need to begin transforming education in your community.</p>
+          <p className="font-semibold text-orange-500">Partners Registration:</p>
+          <p>Take the first step toward impact and income—become a LearnNova Network Partner today for as low as <span className="font-semibold">₦259,995!</span> With our <span className="font-semibold">Bronze Package</span>, you’ll gain access to <span className="font-semibold">6 high-impact courses</span> for one full term. Join a partnership built to fuel growth, empower learners, and elevate your success!</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>

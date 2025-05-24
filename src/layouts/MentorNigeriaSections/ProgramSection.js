@@ -14,27 +14,34 @@ const programSection = () => {
         <div className='module-text-box'>
             <h1 className='highlighter'>Flexible Enrollment Options</h1>
             <ul className='module-text-box__list-box'>
-                <li className='my-3'>
-                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 1:</span> Earn While You Learn</h2>
-                    <ul className='space-y-2 module-text-box__list-box-inner-box'>
-                        <li className='font-semibold'>Get started with a one-time registration fee of ₦100,000.</li>
-                        <li>Then unlock <span className='font-semibold'>each training module</span> as you <span className='font-semibold'>earn up to ₦63,399</span> through our <span className='font-semibold'>15.85% referral commission</span> on LearnNova products—helping you <span className='font-semibold'>learn, earn, and grow your consulting career all at once</span>.</li>
-                        <li><span className='font-semibold'>Refer, Earn, and Unlock Rewards!</span> Earn enough commission for Modules 1 to 3 in under 3 months — and get <span className='font-semibold'>Modules 4 to 6 absolutely FREE!</span></li>
-                    </ul>
 
-                    <div className='font-semibold mt-3'>
-                        <p style={{fontSize: '1em'}}>🔗 Here Are the Products That Let You Earn While You Learn:</p>
-                        <p className='mb-2' style={{fontSize: '1em'}}>Product 1: <a href='https://www.learnnova.ng/schoolsupportpartner' className='highlighter text-underline'>Click here</a></p>
-                        <p className='mb-2' style={{fontSize: '1em'}}>Product 2: <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
-                    </div>
+                <li className='my-3'>
+                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 1:</span> Direct Payment</h2>
+                    <ul className='space-y-2 module-text-box__list-box-inner-box'>
+                        <li>Learn at your own pace by enrolling in individual modules — only <span className='font-semibold'>₦139,999</span> per module.</li>
+                        <li><span className='font-semibold'>Ready to go all in?</span> Enroll in Modules <span className='font-semibold'>1-5</span> with a <span className='font-semibold'>one-time</span> payment and get <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>Module 6</span> - Where Everything Comes Together for Real Results</li>
+                    </ul>
                 </li>
 
                 <li className='my-3'>
-                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 2:</span> Direct Payment</h2>
+                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 2:</span> Earn While You Learn</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
-                        <li>Learn at your own pace by enrolling in individual modules — <span className='font-semibold'>only ₦164,999 per module</span>.</li>
-                        <li><span className='font-semibold'>Ready to go all in?</span> Enroll in Modules 1-5 with a one-time payment and get <span className='font-semibold'>FREE access</span> to <span className='font-semibold'>Module 6</span> - Where Everything Comes Together for Real Results</li>
+                        <li className='font-semibold'>Begin with a one-time, non-refundable registration fee of <span className='font-semibold'>₦100,000</span>.</li>
+                        <li>Introduce LearnNova products to private elementary and secondary school owners—and earn <span className='font-semibold'>15.85%</span> commission on each successful sale.</li>
+                        <li>As your total commission grows to <span className='font-semibold'>₦63,399</span>, you'll automatically unlock access to each training module.</li>
+                        <li>Unlock access to <span className='font-semibold'>Modules 1 to 3 within 3 months</span>, and you’ll receive <span className='font-semibold'>Modules 4 to 6 absolutely FREE!</span></li>
                     </ul>
+
+                    <div className='font-semibold mt-3'>
+                        <p style={{fontSize: '1em'}}>🔗  Here Are the LearnNova Products That Let You Earn While You Learn:</p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Product 1 - <a href='https://www.learnnova.ng/schoolsupportpartner' className='highlighter text-underline'>Click here</a></p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Product 2 - <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter text-underline'>Click here</a></p>
+                    </div>
+
+                    <div className='mt-4'>
+                        <p style={{fontSize: '1em'}} className='font-semibold'>Earn. Learn. Grow.</p>
+                        <p className='mb-2' style={{fontSize: '1em'}}>Power your training and launch your consulting career with the Earn While You Learn model from LearnNova.</p>
+                    </div>
                 </li>
             </ul>
         </div>
