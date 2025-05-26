@@ -20,7 +20,7 @@ const pricingPlans = [
     bestFor: <>Ideal for schools beginning their digital learning journey.</>,
     featuresTitle: 'Extra Features & Exclusive Benefits',
     features: [
-      <>Enroll in 2 courses and receive <span className="font-semibold">1 additional course free</span></>,
+      <>Enroll in any 2 courses and get a <span className="font-semibold">FREE</span> invitation to TreNova Academy's School Growth Virtual Training!</>,
       <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
       <>Designed with a <span className="font-semibold">simple, user-friendly interface</span> for both teachers and learners</>,
       <>Includes <span className="font-semibold">free onboarding and installation support</span></>,
@@ -71,6 +71,7 @@ const pricingPlans = [
     featuresTitle: 'Exclusive Extras:',
     features: [
       <>Priority access to technical support</>,
+      <><span className="font-semibold">FREE</span> invitation to TreNova Academy's School Growth Virtual Training!</>,
       <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
       <>Ready-to-use <span className="font-semibold">School Growth forms</span> and <span className="font-semibold">printable planning guides</span></>,
       <>Includes free onboarding and installation support</>,
