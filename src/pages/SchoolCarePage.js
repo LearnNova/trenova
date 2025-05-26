@@ -35,7 +35,7 @@ const SchoolCarePage = () => {
           📩 Need Help?
         </h1>
       </div>
-      <FooterSection />
+      <FooterSection firstText={'School Support Partner'} account={false} link={'https://www.learnnova.ng/schoolsupportpartner/trenova'} />
     </div>
   )
 }
