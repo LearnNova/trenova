@@ -58,7 +58,7 @@ const FooterSection = ({ firstText, account, link }) => {
 
       <div className='pt-3 pb-5 text-center text-lg md:text-xl lg:text-3xl font-bold'>
         <a className='text-gray-800 hover:text-white underline' href={link} target='blank'>
-          {link}
+          👉 [{firstText}]
         </a>
       </div>
 
