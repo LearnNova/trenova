@@ -7,7 +7,7 @@ const FooterSection = ({ firstText, account, link }) => {
       <div className='flex flex-col md:flex-row justify-between py-3 gap-4'>
         <div>
           <h3 className='text-xl md:text-3xl lg:text-5xl font-bold leading-tight'>
-            MentorNigeria,
+            {firstText === 'MentorNigeria' ? firstText : 'LearnNova'}
           </h3>
           <p className='text-lg md:text-xl lg:text-3xl font-semibold'>
             A unit of TreNova Group.
@@ -56,8 +56,8 @@ const FooterSection = ({ firstText, account, link }) => {
         </div>
       </div>
 
-      <div className='pt-3 pb-5 text-center text-lg md:text-xl lg:text-3xl font-bold'>
-        <a className='text-gray-800 hover:text-white underline' href={link} target='blank'>
+      <div className='mt-3 mb-8 text-center text-lg md:text-xl lg:text-3xl font-bold'>
+        <a className='text-gray-800 hover:text-white' href={link} target='blank'>
           👉 [{firstText}]
         </a>
       </div>
