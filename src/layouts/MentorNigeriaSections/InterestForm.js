@@ -3,24 +3,24 @@ import './interestForm.css';
 
 const pricingPlans = [
     {
-        name: 'Plan 1: School Learning Essentials',
-        value: 'Plan 1: School Learning Essentials',
+        name: 'Plan 1',
+        value: 'Plan 1',
     },
     {
-        name: 'Plan 2: Starter Connect',
-        value: 'Plan 2: Starter Connect',
+        name: 'Plan 2',
+        value: 'Plan 2',
     },
     {
-        name: 'Plan 3: Growth Connect',
-        value: 'Plan 3: Growth Connect',
+        name: 'Plan 3',
+        value: 'Plan 3',
     },
     {
-        name: 'Plan 4: Expansion Connect',
-        value: 'Plan 4: Expansion Connect',
+        name: 'Plan 4',
+        value: 'Plan 4',
     },
     {
-        name: 'Plan 5: Premium Impact',
-        value: 'Plan 5: Premium Impact',
+        name: 'Plan 5',
+        value: 'Plan 5',
     },
 
 ]

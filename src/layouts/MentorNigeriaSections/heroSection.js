@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-        <div className='hero-sec-text-1'>TreNova School Growth Consultant Training & Mentorship Program</div>
+        <div className='hero-sec-text-1'>MentorNigeria Business Consulting Academy</div>
         </div>
         <div className='hero-sec-info'>
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a></div>
@@ -88,7 +88,7 @@ const HeroSection = () => {
                 </span> 
             </div>
             
-            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
+            <div className='apply-now-get-started'><a href='#application-form-section'>👉 <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
             
             <div className='line-breaker'></div>
         </div>
