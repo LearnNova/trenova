@@ -81,9 +81,9 @@ const HeroSection = () => {
                     <ul className='font-semibold'>
                         <li style={{listStyle: 'none'}}>✅ 6 Expert Training Modules</li>
                         <li style={{listStyle: 'none'}}>✅ 20+ Done-for-You Manuals, Templates & Checklists</li>
-                        <li style={{listStyle: 'none'}}>✅ Weekly Virtual Live Mentorship Sessions</li>
-                        <li style={{listStyle: 'none'}}>✅ Lifetime Access to TreNova Academy Resources</li>
-                        <li style={{listStyle: 'none'}}>✅ Continuous Improvement Program + Verified Consultant Directory Listing</li>
+                        <li style={{listStyle: 'none'}}>✅ Virtual Live Training and Mentorship Sessions</li>
+                        <li style={{listStyle: 'none'}}>✅ Access to TreNova Academy Resources</li>
+                        <li style={{listStyle: 'none'}}>✅ Ongoing Professional Development + Opportunity to Serve as a TreNova School Support Consultant + Usage of TreNova School Consulting Brand Logo + Verified Listing in the TreNova School Consultant Directory</li>
                     </ul>
                 </span> 
             </div>

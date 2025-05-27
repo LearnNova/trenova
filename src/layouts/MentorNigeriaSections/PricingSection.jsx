@@ -101,6 +101,54 @@ const pricingPlans = [
       <><span className="font-semibold">VIP Access:</span> Got ideas? Suggest new creative or vocational skills you'd love to see added to LearnNova!</>,
     ],
   },
+  {
+    title: "📙 Plan 5: Lifetime Access",
+    price: "₦499,990 One-Time Payment per subject",
+    priceInfoPri: {
+      title: '✅ Choose the Subject(s) That Best Fit Your School’s Needs',
+      lists: [
+        <>
+          <span style={{color: '#000000'}} className="block mt-2 font-semibold">Senior Secondary Mathematics</span>
+          <span className="block mt-2 font-medium">What's Included:</span>
+          <ul className="list-disc ml-2 space-y-1">
+            <li>2,400+ comprehensive video lessons</li>
+            <li>8,000+ practice questions with answers</li>
+          </ul>
+        </>,
+        <>
+          <span style={{color: '#000000'}} className="block mt-2 font-semibold">Senior Secondary Mathematics</span>
+          <span className="block mt-2 font-medium">What's Included:</span>
+          <ul className="list-disc ml-2 space-y-1">
+            <li>2,400+ comprehensive video lessons</li>
+            <li>8,000+ practice questions with answers</li>
+          </ul>
+        </>,
+        <>E-Library of reading books for Elementary and Secondary School - (850+ carefully curated reading books for ages 3 to 17)</>,
+      ]
+    },
+    // priceInfoSec: {
+    //   title: 'Per-Term Pricing:',
+    //   lists: [
+    //     '30 Learners – ₦50,000',
+    //     '60 Learners – ₦90,000',
+    //     '100 Learners – ₦125,000',
+    //     '200 Learners – ₦199,999',
+    //     '400 Learners – ₦300,000',
+    //   ]
+    // },
+    includes: [
+      <>✔️ Get Lifetime License to the School Learning Support Studio, with engaging multimedia lessons in any of the subjects listed below:</>,
+    ],
+    bestFor: <>Perfect for schools that prefer a one-time payment for unlimited, lifelong use.</>,
+    featuresTitle: 'Extra Features & Exclusive Benefits',
+    features: [
+      <><span className="font-semibold">Special Offer:</span> Enroll in Lifetime Access to any 2 subjects and get additional subjects FREE!</>,
+      <><span className="font-semibold">BONUS:</span> Free access to <span className="font-semibold">TreNova Academy’s School Growth Virtual Training</span> when you purchase 2 courses</>,
+      <>Offline access available after setup</>,
+      <>Simple, intuitive interface for teachers and students</>,
+      <>Free onboarding and installation support included</>,
+    ],
+  },
 ];
 
 const PricingSection = () => {
@@ -210,7 +258,7 @@ const PricingSection = () => {
                         <li key={i}>• {feature}</li>
                       ))}
                     </ul>
-                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl" style={{color: '#5a5959'}}>🚀 Ready to Scale Learning, Increase Revenue, and Achieve Greater Impact?</p>
+                    <p className="font-semibold italic text-base-8 md:text-lg lg:text-xl" style={{color: '#5a5959'}}>🚀 Ready to Scale Learning, Boost Revenue, and Make a Lasting Impact?</p>
                     <a
                       href="#application-form-section"
                       className="mt-6 text-white text-lg px-5 py-3 rounded-md inline-block"
