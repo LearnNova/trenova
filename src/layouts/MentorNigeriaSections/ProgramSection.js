@@ -19,7 +19,7 @@ const programSection = () => {
                     <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 1:</span> Direct Payment</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li>Learn at your own pace by enrolling in individual modules — only <span className='font-semibold'>₦139,999</span> per module.</li>
-                        <li><span className='font-semibold'>Ready to go all in?</span> Enroll in Modules <span className='font-semibold'>1-5</span> with a <span className='font-semibold'>one-time</span> payment and get <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>Module 6</span> - Where Everything Comes Together for Real Results</li>
+                        <li><span className='font-semibold'>Ready to go all in?</span> Make a one-time payment to unlock <span className='font-semibold'>Modules 1–4</span> — and get exclusive <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>Modules 5 to 7</span>, where it all comes together for lasting impact!</li>
                     </ul>
                 </li>
 
