@@ -344,7 +344,7 @@ const ModuleSection = () => {
                 </div>
             </div>
 
-            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
+            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>👉 Apply Now</span> to Get Started!</a> </div>
 
             <div className='line-breaker'></div>
 
@@ -366,7 +366,7 @@ const ModuleSection = () => {
             
             <div className='module-text-box'>
                {/* <h1 className='highlighter'>Delivery Format:</h1> */}
-                <p><span className='highlighter'><a href='#application-form-section'>Enroll today</a></span> and gain the certification, mentorship, and resources to build a consulting business that uplifts schools—and changes your future.</p> 
+                <p><span className='highlighter'><a href='#application-form-section'>👉 Enroll today</a></span> and gain the certification, mentorship, and resources to build a consulting business that uplifts schools—and changes your future.</p> 
             </div>
 
             <div className='apply-now-get-started'><a href='#application-form-section'> 👉 [Enroll Now]</a></div>
