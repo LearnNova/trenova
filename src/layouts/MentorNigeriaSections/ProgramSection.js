@@ -19,7 +19,7 @@ const programSection = () => {
                     <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 1:</span> Direct Payment</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li>Learn at your own pace by enrolling in individual modules — only <span className='font-semibold'>₦139,999</span> per module.</li>
-                        <li><span className='font-semibold'>Ready to go all in?</span> Make a one-time payment to unlock <span className='font-semibold'>Modules 1–4</span> — and get exclusive <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>Modules 5 to 7</span>, where it all comes together for lasting impact!</li>
+                        <li><span className='font-semibold'>Ready to go all in?</span> Make a one-time payment to unlock <span className='font-semibold'>Modules 1–4</span> — and get exclusive <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>Modules 5 to 7</span>, where it all comes together for lasting impact!</li>
                     </ul>
                 </li>
 
@@ -29,7 +29,7 @@ const programSection = () => {
                         <li className='font-semibold'>Begin with a one-time, non-refundable registration fee of <span className='font-semibold'>₦100,000</span>.</li>
                         <li>Introduce LearnNova products to private elementary and secondary school owners—and earn <span className='font-semibold'>15.85%</span> commission on each successful sale.</li>
                         <li>Once your referral sales commission reaches <span className='font-semibold'>₦63,399</span>, you'll automatically gain access to one (1) training module.</li>
-                        <li>Unlock access to <span className='font-semibold'>Modules 1 to 3 within 3 months</span>, and you’ll receive <span className='font-semibold'>Modules 4 to 6 absolutely FREE!</span></li>
+                        <li>Unlock access to <span className='font-semibold'>Modules 1 to 4 within 3 months</span>, and you’ll receive <span className='font-semibold'>Modules 5 to 7 absolutely FREE!</span></li>
                     </ul>
 
                     <div className='font-semibold mt-3'>
@@ -51,7 +51,7 @@ const programSection = () => {
         <div className='module-text-box'>
             <h1 className='highlighter'>Program Snapshot</h1>
             <ul className='list-disc ml-3 module-text-box__list-box'>
-                <li><span className='font-semibold'>Duration:</span> 14 Weeks</li>
+                <li><span className='font-semibold'>Duration:</span> 15 Weeks</li>
                 <li><span className='font-semibold'>Format:</span> Self-paced detailed lesson notes with videos</li>
                 <li><span className='font-semibold'>Live Training:</span> Virtual mentorship, coaching + project reviews</li>
                 <li><span className='font-semibold'>Certification:</span> Certified School Business Consultant (upon full completion)</li>

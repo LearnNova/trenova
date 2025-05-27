@@ -109,21 +109,36 @@ const pricingPlans = [
       lists: [
         <>
           <span style={{color: '#000000'}} className="block mt-2 font-semibold">Senior Secondary Mathematics</span>
-          <span className="block mt-2 font-medium">What's Included:</span>
-          <ul className="list-disc ml-2 space-y-1">
+          <span className="block mt-1 font-medium">What's Included:</span>
+          <ul className="list-disc ml-4 space-y-1 mb-2">
             <li>2,400+ comprehensive video lessons</li>
             <li>8,000+ practice questions with answers</li>
           </ul>
         </>,
         <>
-          <span style={{color: '#000000'}} className="block mt-2 font-semibold">Senior Secondary Mathematics</span>
-          <span className="block mt-2 font-medium">What's Included:</span>
-          <ul className="list-disc ml-2 space-y-1">
-            <li>2,400+ comprehensive video lessons</li>
-            <li>8,000+ practice questions with answers</li>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Diction & Phonics (Elementary Level)</span>
+          <span className="block mt-1 font-medium">What's Included:</span>
+          <ul className="list-disc ml-4 space-y-1 mb-2">
+            <li>540 engaging lessons</li>
+            <li>500 practice exercises with answers</li>
           </ul>
         </>,
-        <>E-Library of reading books for Elementary and Secondary School - (850+ carefully curated reading books for ages 3 to 17)</>,
+        <>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Comprehensive E-Library of Age-Appropriate Reading Books (Ages 3–17)</span>
+          <span className="block mt-1 font-medium">What's Included:</span>
+          <ul className="list-disc ml-4 space-y-1 mb-2">
+            <li>850+ age-appropriate, curated reading books</li>
+            <li>Covers KG1 to SSS3</li>
+          </ul>
+        </>,
+        <>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Creative & Vocational Subjects</span>
+          <span className="block mt-1 font-medium">What's Included:</span>
+          <ul className="list-disc ml-4 space-y-1 mb-2">
+            <li>Practical, hands-on lessons tailored for learners aged 3–17</li>
+            <li>Covers diverse creative and technical areas</li>
+          </ul>
+        </>,
       ]
     },
     // priceInfoSec: {
