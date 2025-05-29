@@ -47,22 +47,23 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 2: Starting a Private School</h3>
-                   {modulecollapse !== 2 && 
-                    <p className="three-dot">...</p>
+                    <h3 className='highlighter'>🔹 Module 2: School  Makeover and Decoration Advisory Service</h3>
+                    {modulecollapse !== 2 && 
+                        <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 2 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Master the fundamentals of launching a new school.</p>
-                            <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
+                            <p className='mb-4'>Master the fundamentals of making schools beautiful, clean and attractive.</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
                             <ul className="pl-5">
-                                <li>Curriculum Design</li>
-                                <li>Assessment Systems</li>
-                                <li>Teacher Recruitment & Training</li>
-                                <li>Business Plan Template</li>
-                                <li>Curriculum Mapping Tool</li>
-                                <li>Staffing & Facilities Checklist</li>
+                                <li>General Materials to Procure</li>
+                                <li>School-wide Decorations and Ambience</li>
+                                <li>Classrooms Decoration Items</li>
+                                <li>Reception and Office Area Makeover</li>
+                                <li>Play and Activity Areas</li>
+                                <li>Toilets and Hygiene Areas</li>
+                                <li>Outdoor Environment</li>
                             </ul> 
                         </div>
                     }
@@ -76,30 +77,26 @@ const ModuleSection = () => {
                         </button>
                     }
                 </div>
-
-
             </div>
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 3: Effective School Management</h3>
+                    <h3 className='highlighter'>🔹 Module 3: Starting a Private School</h3>
                    {modulecollapse !== 3 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 3 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Establish efficient systems and operations for success.</p>
+                            <p className='mb-4'>Master the fundamentals of launching a new school.</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
-                                <li>Brand Positioning</li>
-                                <li>Enrollment Campaigns</li>
-                                <li>Parent Engagement</li>
-                                <li>Policy Development</li>
-                                <li>School Management Systems</li>
-                                <li>Financial Planning Toolkit</li>
-                                <li>Academic Calendar Generator</li>
-                                <li>School Policy Templates</li>
+                                <li>Curriculum Design</li>
+                                <li>Assessment Systems</li>
+                                <li>Teacher Recruitment & Training</li>
+                                <li>Business Plan Template</li>
+                                <li>Curriculum Mapping Tool</li>
+                                <li>Staffing & Facilities Checklist</li>
                             </ul> 
                         </div>
                     }
@@ -115,24 +112,24 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 4: School Growth & Sustainability</h3>
+                    <h3 className='highlighter'>🔹 Module 4: Effective School Management</h3>
                    {modulecollapse !== 4 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 4 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Accelerate enrollment, revenue and scale school impact.</p>
+                            <p className='mb-4'>Establish efficient systems and operations for success.</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
-                                <li>Risk Management</li>
-                                <li>Fee Structure & Discount Policies</li>
-                                <li>Revenue Diversification</li>
-                                <li>Strategic Planning</li>
-                                <li>Performance Evaluation</li>
-                                <li>Marketing Calendar</li>
-                                <li>School Growth Plan Template</li>
-                                <li>Competitor Analysis Tools</li>
+                                <li>Brand Positioning</li>
+                                <li>Enrollment Campaigns</li>
+                                <li>Parent Engagement</li>
+                                <li>Policy Development</li>
+                                <li>School Management Systems</li>
+                                <li>Financial Planning Toolkit</li>
+                                <li>Academic Calendar Generator</li>
+                                <li>School Policy Templates</li>
                             </ul> 
                         </div>
                     }
@@ -150,22 +147,24 @@ const ModuleSection = () => {
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 5: How to Run Your Consulting Business:</h3>
+                    <h3 className='highlighter'>🔹 Module 5: School Growth & Sustainability</h3>
                    {modulecollapse !== 5 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 5 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Developing Strategies for Your Client</p>
-                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
+                            <p className='mb-4'>Accelerate enrollment, revenue and scale school impact.</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
-                                <li>Principles and situation variables</li>
-                                <li>Integrating the principles</li>
-                                <li>Apply the principles scientifically</li>
-                                <li>Getting organised and getting the job done</li>
-                                <li>Importance of ethics in consulting</li>
-                                <li>Typical problems pertaining to ethics in consulting</li>
+                                <li>Risk Management</li>
+                                <li>Fee Structure & Discount Policies</li>
+                                <li>Revenue Diversification</li>
+                                <li>Strategic Planning</li>
+                                <li>Performance Evaluation</li>
+                                <li>Marketing Calendar</li>
+                                <li>School Growth Plan Template</li>
+                                <li>Competitor Analysis Tools</li>
                             </ul> 
                         </div>
                     }
@@ -181,21 +180,22 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 6: Consultant’s Toolkit & Training for Capability Development</h3>
+                    <h3 className='highlighter'>🔹 Module 6: How to Run Your Consulting Business:</h3>
                    {modulecollapse !== 6 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 6 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Deliver powerful training and consulting solutions with confidence.</p>
+                            <p className='mb-4'>Developing Strategies for Your Client</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn:</p>
                             <ul className="pl-5">
-                                <li>Leadership Transition</li>
-                                <li>School Turnaround Projects</li>
-                                <li>Using training as a tool for client acquisition and retention</li>
-                                <li>Ready-to-edit proposals and client intake forms</li>
-                                <li>Recommended tools (Trello, Google Workspace, etc.)</li>
+                                <li>Principles and situation variables</li>
+                                <li>Integrating the principles</li>
+                                <li>Apply the principles scientifically</li>
+                                <li>Getting organised and getting the job done</li>
+                                <li>Importance of ethics in consulting</li>
+                                <li>Typical problems pertaining to ethics in consulting</li>
                             </ul> 
                         </div>
                     }
@@ -209,119 +209,46 @@ const ModuleSection = () => {
                         </button>
                     }
                 </div>
-
-                {/* <div className='module-info'>
-                <h3 className='text-center'><span className='highlighter'>Module 3:</span> <b>Choose One Elective Course</b></h3>
-
-                        {modulecollapse !== 3 && 
-                        <p className="three-dot">...</p>
-                        }
-
-                        {modulecollapse === 3 &&
-                            <ul className="long-text pl-5">
-                                <li style={{listStyleType: 'decimal'}}>
-                                    <span className='highlighter'>Business Start-Up & Entrepreneurship</span> - Learn essential skills to successfully launch and grow a business - <span className='highlighter'>(Elective)</span>.
-                                    <ul className='ml-3 mt-1'>
-                                        <li>Idea Generation and Product Idea Testing.</li>
-                                        <li>Market Research, Competitors Analysis, and Opportunity Identification,</li>
-                                        <li>Target Audience Selection and Business Model Design.</li>
-                                        <li>Financial Literacy, Budgeting, and Essential Accounting Practices.</li>
-                                        <li>Fundraising and Pitching to Investors.</li>
-                                        <li>Business Management and Leadership Skills.</li>
-                                    </ul>
-                                </li>
-
-                                <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                    <span className='highlighter'>Private School Growth Mentorship & Training</span> – Learn how to provide expert mentorship and training services to help private schools expand and thrive - <span className='highlighter'>(Elective)</span>.
-                                    <ul className='ml-3 mt-1'>
-                                        <li>Training & Coaching System.</li>
-                                        <li>Strategies for Enhancing School Enrolment, Revenue and Profitability.</li>
-                                        <li>School Branding Ideas and Team Development.</li>
-                                        <li>School Marketing System.</li>
-                                        <li>Private School Growth Mentorship Services.</li>
-                                        <li>School Systemization System.</li>
-                                    </ul>
-                                </li>
-
-                                <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                    <span className='highlighter'>Profitable Moringa Farming & Processing</span> - Explore strategies for establishing a successful Moringa-based agribusiness - <span className='highlighter'>(Elective)</span>.
-                                    <ul className='ml-3 mt-1'>
-                                        <li>Market Research & Legal Requirements.</li>
-                                        <li>Business Model - Decide whether to focus on selling fresh leaves, dried powder, seeds, oil, or value-added products.</li>
-                                        <li>Land Preparation, Cultivation and Planting Methods.</li>
-                                        <li>Harvesting & Post-Harvest Processing - Leaf Harvesting, Seed Harvesting, Drying, and Powder Processing.</li>
-                                        <li>Product Development, Branding & Marketing.</li>
-                                        <li>Scaling & Profitability Methodologies.</li>
-                                    </ul>
-                                </li>
-
-                                {subModuleCollapse !== 3 && 
-                                    <p className="three-dot mt-3 text-center">...</p>
-                                }
-
-                                {subModuleCollapse === 3 && 
-                                <>
-                                    <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                        <span className='highlighter'>Virtual Assistant Success & High-Paying Job Strategies</span> - Master core skills to build a rewarding virtual assistant career - <span className='highlighter'>(Elective)</span>.
-                                        <ul className='ml-3 mt-1'>
-                                            <li>Core Skills for a Successful Virtual Assistant Career.</li>
-                                            <li>Key Responsibilities and Workload Management.</li>
-                                            <li>How to Search for and Secure a Virtual Assistant Job.</li>
-                                            <li>Service Processes and Reliability.</li>
-                                            <li>Type of Jobs in High Demand.</li>
-                                        </ul>
-                                    </li>
-
-                                    <li style={{listStyleType: 'decimal'}} className='mt-3'>
-                                        <span className='highlighter'>AI & Creative Economy: Prompt Engineering & Money-Making Ideas –</span> Discover innovative ways to leverage AI for financial success - <span className='highlighter'>(Elective)</span>.
-                                        <ul className='ml-3 mt-1'>
-                                            <li>Prompt Engineering Explained.</li>
-                                            <li>Advanced Prompt Engineering & Fine Tuning.</li>
-                                            <li>Prompt Framework & Custom Instructions.</li>
-                                            <li>Teach Me, Write Like Me, Ask for Advice & Laddering.</li>
-                                            <li>Be a Freelance Ad Creative.</li>
-                                            <li>Offer Freelance Event Planning Services.</li>
-                                            <li>Be a Freelance Ad Creative.</li>
-                                            <li>ChatGPT – Powered App Development.</li>
-                                        </ul>
-                                    </li>
-                                </>}
-
-
-                                {subModuleCollapse !== 3 &&
-                                    <button className='read-more-btn mb-3' onClick={() => setSubModuleCollapse(3)}>
-                                        Continue
-                                    </button>
-                                }
-
-                            </ul>
-                        }
-
-                        {modulecollapse === 3 ? 
-                            <button 
-                            className='read-more-btn mx-auto' 
-                            onClick={() => setModuleCollapse(0)}
-                            >
-                                Read Less
-                            </button> :
-                            <button 
-                            className='read-more-btn mx-auto' 
-                            onClick={() => setModuleCollapse(3)}
-                            >
-                                Read More
-                            </button>
-                        }
-                </div> */}
             </div>
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 7: Practicum & Mentorship</h3>
+                    <h3 className='highlighter'>🔹 Module 7: Consultant’s Toolkit & Training for Capability Development</h3>
                    {modulecollapse !== 7 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 7 &&
+                        <div className='long-text'>
+                            <p className='mb-4'>Deliver powerful training and consulting solutions with confidence.</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
+                            <ul className="pl-5">
+                                <li>Leadership Transition</li>
+                                <li>School Turnaround Projects</li>
+                                <li>Using training as a tool for client acquisition and retention</li>
+                                <li>Ready-to-edit proposals and client intake forms</li>
+                                <li>Recommended tools (Trello, Google Workspace, etc.)</li>
+                            </ul> 
+                        </div>
+                    }
+
+                    {modulecollapse === 7 ? 
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
+                            Read Less
+                        </button> :
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(7)}>
+                            Read More
+                        </button>
+                    }
+                </div>
+
+                <div className='module-info'>
+                    <h3 className='highlighter'>🔹 Module 8: Practicum & Mentorship</h3>
+                   {modulecollapse !== 8 && 
+                    <p className="three-dot">...</p>
+                    }
+
+                    {modulecollapse === 8 &&
                         <div className='long-text'>
                             <p className='mb-4'>Apply your skills through a real-world or simulated project.</p>
                             <p className='mb-2 font-semibold'>Resources Included:</p>
@@ -333,11 +260,11 @@ const ModuleSection = () => {
                         </div>
                     }
 
-                    {modulecollapse === 7 ? 
+                    {modulecollapse === 8 ? 
                         <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
                             Read Less
                         </button> :
-                        <button className='read-more-btn' onClick={() => setModuleCollapse(7)}>
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(8)}>
                             Read More
                         </button>
                     }
