@@ -138,7 +138,7 @@ const CareerHeroSection3 = () => {
 
                         <li>
                             <b>Additional Benefits: </b>
-                            Earn additional <span className='highlighter-big'><b>17.5%</b></span> commission on monthly sales revenue exceeding <span className='highlighter-big'><b>₦1,250,000</b></span> per month.
+                            Earn an extra <span className='highlighter-big'><b>17.5%</b></span> commission on any monthly sales revenue that exceeds <span className='highlighter-big'><b>₦1,450,000</b></span>.
                         </li>
                     </ul>
                 </div>
@@ -149,7 +149,7 @@ const CareerHeroSection3 = () => {
             <div className='career-other-hero-section-container'>
                 <span className='highlighter'><b>Probationary Period Terms:</b></span>
                 <div>
-                    This position includes a <span className='font-semibold'>six-month</span> probationary period. During this period, if your monthly sales revenue is below <span className='highlighter-big font-semibold'>₦1,250,000</span>, your base salary will be temporarily suspended. Instead, you will earn <span className='font-semibold'>15.5% of your total sales revenue</span> for that month.
+                    This role includes a <span className='font-semibold'>three-month</span> probationary period. During this time, if your monthly sales revenue falls below <span className='highlighter-big font-semibold'>₦1,450,000</span>, the base salary will be temporarily withheld. Instead, you will receive a <span className='font-semibold'>12.5%</span> commission on your total sales revenue for that month.
                 </div> 
             </div>
 

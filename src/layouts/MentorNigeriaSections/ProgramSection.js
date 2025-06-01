@@ -16,15 +16,16 @@ const programSection = () => {
             <ul className='module-text-box__list-box'>
 
                 <li className='my-3'>
-                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 1:</span> Direct Payment</h2>
+                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>🎯 Option 1:</span> Direct Payment</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
-                        <li>Learn at your own pace by enrolling in individual modules — only <span className='font-semibold'>₦139,999</span> per module.</li>
-                        <li><span className='font-semibold'>Ready to go all in?</span> Make a one-time payment to unlock <span className='font-semibold'>Modules 1–4</span> — and get exclusive <span className='font-semibold'>FREE</span> access to <span className='font-semibold'>Modules 5 to 8</span>, where it all comes together for lasting impact!</li>
+                        <li>Proceed at your own pace by enrolling in individual modules at a rate of <span className='font-semibold'>₦139,999 per module</span>.</li>
+                        <li><span className='font-semibold'>Special Offer:</span> Make a one-time payment for <span className='font-semibold'>two modules</span> and receive <span className='font-semibold'>a third module at no additional cost</span>.</li>
+                        <li><span className='font-semibold'>Comprehensive Access Package:</span> Opt for a one-time payment to unlock <span className='font-semibold'>Modules 1 through 4</span>, and gain <span className='font-semibold'>complimentary access to Modules 5 through 8</span> — a complete and structured path designed for long-term success.</li>
                     </ul>
                 </li>
 
                 <li className='my-3'>
-                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>Option 2:</span> Earn While You Learn</h2>
+                    <h2 className='font-semibold'><span style={{color: '#ff0000'}}>🎯 Option 2:</span> Earn While You Learn</h2>
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li className='font-semibold'>Begin with a one-time, non-refundable registration fee of <span className='font-semibold'>₦100,000</span>.</li>
                         <li>Introduce LearnNova products to private elementary and secondary school owners—and earn <span className='font-semibold'>15.85%</span> commission on each successful sale.</li>
