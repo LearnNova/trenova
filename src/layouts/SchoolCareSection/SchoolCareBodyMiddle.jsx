@@ -83,7 +83,7 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦42,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦214,995 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦43,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦219,995 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -200,7 +200,7 @@ const SchoolCareBodyMiddle = () => {
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">Partners Registration:</p>
-          <p>Take the first step toward impact and income—become a LearnNova Network Partner today for as low as <span className="font-semibold">₦214,995!</span> With our <span className="font-semibold">Bronze Package</span>, you’ll gain access to <span className="font-semibold">5 high-impact courses</span> for one full term. Join a partnership built to fuel growth, empower learners, and elevate your success!</p>
+          <p>Take the first step toward impact and income—become a LearnNova Network Partner today for as low as <span className="font-semibold">₦219,995!</span> With our <span className="font-semibold">Bronze Package</span>, you’ll gain access to <span className="font-semibold">5 high-impact courses</span> for one full term. Join a partnership built to fuel growth, empower learners, and elevate your success!</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
