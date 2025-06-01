@@ -25,13 +25,7 @@ const SchoolCareBodyMiddle = () => {
                 <span className="font-semibold">Continuous Sales & Business Growth Training Sessions</span> to keep you ahead in the education support industry with cutting-edge insights.
               </li>
               <li>
-                <span className="font-semibold">Exclusive Private School Growth Mentorship & Training Program</span> – Gain the expertise to mentor and train private schools for sustained success. <span className="font-semibold">(Attendance upon Invitation)</span>
-              </li>
-              {/* <li>
-                <span className="font-semibold">Entrepreneurial Skills Development for Business Start-Up</span> – Gain essential knowledge to successfully launch and scale a business. <span className="font-semibold">(Free upon reaching 75 customers.)</span>
-              </li> */}
-              <li>
-                Critical Skills and Proven Strategies for Building and Running a Successful Business Consulting Practice. <span className="font-semibold">(Attendance upon Invitation)</span>
+                <span className="font-semibold">Executive Training Program in Private School Consulting & Mentorship</span> – Acquire Strategic Insights, Operational Expertise, and Proven Frameworks to Establish and Scale a High-Impact School Consulting Practice.<span className="font-semibold">(Attendance upon Invitation)</span>
               </li>
             </ul>
           </li>
@@ -85,11 +79,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">6 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">5 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦43,332.50</span> per subject, per term <span className="block font-semibold">Partner Price: ₦259,995 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦42,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦214,995 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -101,11 +95,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">10 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students</span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦399,999 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦1,000</span> per learner, per term <span className="block font-semibold">Partner Price: ₦399,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -117,11 +111,18 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students</span>
+                        <span>Access to <span className="font-semibold">10 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦1,250</span> per child, per term <span className="block font-semibold">Partner Price: ₦499,999 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
+                      </li>
+                      <li>
+                        Access to <span className="font-semibold">100 Home Learning Apps</span> for pupils/students
+                      </li>
+
+                      <li>
+                        Discounted Rate: <span className="font-semibold">₦999</span> per child, per term <span className="block font-semibold">Partner Price: ₦499,890 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -133,7 +134,7 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">12 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">15 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
@@ -141,11 +142,11 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        Access to <span className="font-semibold">220 Home Learning Apps</span>
+                        Access to <span className="font-semibold">100 Home Learning Apps</span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦699,768 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦699,885 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -157,19 +158,19 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        Access to <span className="font-semibold">18 School Learning Support Subjects</span>
+                        Access to <span className="font-semibold">20 School Learning Support Subjects</span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
+                        Discounted Rate: <span className="font-semibold">₦39,950</span> per subject, per term
                       </li>
 
                       <li>
-                        Access to <span className="font-semibold">350 Home Learning Apps</span>
+                        Access to <span className="font-semibold">225 Home Learning Apps</span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦799</span> per child, per term <span className="block font-semibold">Partner Price: ₦999,600 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦890</span> per child, per term <span className="block font-semibold">Partner Price: ₦999,250 per term</span>
                       </li>
                     </ul>
                   </li>

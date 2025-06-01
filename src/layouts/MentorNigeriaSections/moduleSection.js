@@ -282,6 +282,7 @@ const ModuleSection = () => {
                     <li>🎁 <span className='font-semibold'>Access</span> to our Consultant Resource Library</li>
                     <li className='font-semibold'>🎁 Live Questions & Answers Sessions</li>
                     <li>🎁 <span className='font-semibold'>Peer Support Forum</span> and Professional Community</li>
+                    <li>🎁<span className='font-semibold'>Graduation Bonus:</span> Actionable Strategies to Kickstart Your Income Immediately After Graduation</li>
                     <li>🎁 <span className='font-semibold'>Certification Badge</span> for LinkedIn and your resume</li>
                 </ul>
             </div>
