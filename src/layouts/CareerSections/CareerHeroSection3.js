@@ -61,25 +61,25 @@ const CareerHeroSection3 = () => {
 
                     <p className='mt-2'>In this role, you will be responsible for generating leads, closing sales, and expanding our network of sales partners through strategic digital marketing initiatives.</p>
 
-                    <br /><br />
+                    <br />
 
                     <p className='highlighter'>Core Products Available to Promote and Generate Sales Revenue:</p>
                     <ul style={{listStyleType: 'decimal'}} className='list-decimal career-what-you-learn-info-list-container-inner-list-container'>
-                        <li className='font-semibold'>
-                            <span>LearnNova Learning Support Applications</span>
-                            <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
+                        <li>
+                            <span className='font-semibold block'>LearnNova Learning Support Applications</span>
+                            <a className='hover:text-orange-500' href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
                         </li>
-                        <li className='font-semibold'>
-                            <span>School Consultants & Mentors Training</span>
-                            <a href='https://www.learnnova.ng/MentorNigeria/trenova'>👉 [View Program]</a>
+                        <li>
+                            <span className='font-semibold block'>School Consultants & Mentors Training</span>
+                            <a className='hover:text-orange-500' href='https://www.learnnova.ng/MentorNigeria/trenova'>👉 [View Program]</a>
                         </li>
-                        <li className='font-semibold'>
-                            <span>School Support Sales Partner Recruitment</span>
-                            <a href='https://www.learnnova.ng/schoolsupportpartner/trenova'>👉 [Learn More]</a>
+                        <li>
+                            <span className='font-semibold block'>School Support Sales Partner Recruitment</span>
+                            <a className='hover:text-orange-500' href='https://www.learnnova.ng/schoolsupportpartner/trenova'>👉 [Learn More]</a>
                         </li> 
                     </ul>
 
-                    <br /><br />
+                    <br />
 
                     <p className='highlighter'>Key Responsibilities:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
@@ -198,11 +198,11 @@ const CareerHeroSection3 = () => {
                 Kindly Submit your Details below if Interested.
             </div>
 
-            <div className='career-other-hero-section-container' style={{alignSelf: 'center'}}>
+            {/* <div className='career-other-hero-section-container' style={{alignSelf: 'center'}}>
                 <div>
                     <i>Join us in shaping the future of education—one learner at a time!</i>
                 </div> 
-            </div>
+            </div> */}
 
         </div>
         
