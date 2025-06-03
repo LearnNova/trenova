@@ -51,10 +51,37 @@ const CareerHeroSection3 = () => {
             <div>
                 <span className='highlighter'>About the Role</span>
                 <br/>
-                <span>
-                    We are seeking a results-oriented Digital Marketer to lead the promotion and digital sales of our key offerings, including:
-                    <br /><br /> 
-                    <span className='highlighter'>Key Responsibilities:</span>
+                <div>
+                    <p>We are seeking a results-oriented <span className='font-semibold'>Digital Marketer</span> to lead the promotion and digital sales of our key offerings, including:</p>
+                    <ul className='career-what-you-learn-info-list-container-inner-list-container mt-2'>
+                        <li>E-learning applications</li>
+                        <li>School growth consulting and mentorship training</li>
+                        <li>Recruitment of sales partners</li>
+                    </ul>
+
+                    <p className='mt-2'>In this role, you will be responsible for generating leads, closing sales, and expanding our network of sales partners through strategic digital marketing initiatives.</p>
+
+                    <br /><br />
+
+                    <p className='highlighter'>Core Products Available to Promote and Generate Sales Revenue:</p>
+                    <ul style={{listStyleType: 'decimal'}} className='list-decimal career-what-you-learn-info-list-container-inner-list-container'>
+                        <li className='font-semibold'>
+                            <span>LearnNova Learning Support Applications</span>
+                            <a href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
+                        </li>
+                        <li className='font-semibold'>
+                            <span>School Consultants & Mentors Training</span>
+                            <a href='https://www.learnnova.ng/MentorNigeria/trenova'>👉 [View Program]</a>
+                        </li>
+                        <li className='font-semibold'>
+                            <span>School Support Sales Partner Recruitment</span>
+                            <a href='https://www.learnnova.ng/schoolsupportpartner/trenova'>👉 [Learn More]</a>
+                        </li> 
+                    </ul>
+
+                    <br /><br />
+
+                    <p className='highlighter'>Key Responsibilities:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li>Design and execute high-converting digital campaigns to promote LearnNova products</li>
                         <li>Drive lead generation, manage sales funnels, and exceed monthly revenue targets</li>
@@ -63,7 +90,7 @@ const CareerHeroSection3 = () => {
                         <li>Monitor and optimize campaign performance using data and analytics</li>
                         <li>Stay current with industry trends, platforms, and marketing tools</li>
                     </ul>
-                </span>
+                </div>
             </div>
 
             <div className='line-breaker'></div>
