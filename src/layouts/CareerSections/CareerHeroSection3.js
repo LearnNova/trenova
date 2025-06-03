@@ -66,11 +66,11 @@ const CareerHeroSection3 = () => {
                     <p className='highlighter'>Core Products Available to Promote and Generate Sales Revenue:</p>
                     <ul style={{listStyleType: 'decimal'}} className='list-decimal career-what-you-learn-info-list-container-inner-list-container'>
                         <li>
-                            <span className='font-semibold block'>Professional Training for Aspiring School Consultants and Mentors</span>
+                            <span className='font-semibold block'>LearnNova Learning Support Applications</span>
                             <a className='hover:text-orange-500' href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
                         </li>
                         <li>
-                            <span className='font-semibold block'>School Consultants & Mentors Training</span>
+                            <span className='font-semibold block'>Professional Training for Aspiring School Consultants and Mentors</span>
                             <a className='hover:text-orange-500' href='https://www.learnnova.ng/MentorNigeria/trenova'>👉 [View Program]</a>
                         </li>
                         <li>
