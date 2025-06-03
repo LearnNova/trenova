@@ -66,7 +66,7 @@ const CareerHeroSection3 = () => {
                     <p className='highlighter'>Core Products Available to Promote and Generate Sales Revenue:</p>
                     <ul style={{listStyleType: 'decimal'}} className='list-decimal career-what-you-learn-info-list-container-inner-list-container'>
                         <li>
-                            <span className='font-semibold block'>LearnNova Learning Support Applications</span>
+                            <span className='font-semibold block'>Professional Training for Aspiring School Consultants and Mentors</span>
                             <a className='hover:text-orange-500' href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
                         </li>
                         <li>
@@ -83,7 +83,7 @@ const CareerHeroSection3 = () => {
 
                     <p className='highlighter'>Key Responsibilities:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Design and execute high-converting digital campaigns to promote LearnNova products</li>
+                        <li>Design and execute high-converting digital campaigns to promote and sell LearnNova products</li>
                         <li>Drive lead generation, manage sales funnels, and exceed monthly revenue targets</li>
                         <li>Craft compelling content and visuals to highlight the value of our offerings</li>
                         <li>Recruit and manage a network of independent sales partners</li>
