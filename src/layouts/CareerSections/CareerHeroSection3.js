@@ -11,7 +11,7 @@ const CareerHeroSection3 = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span className='highlighter'>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Digital Marketer (E-Learning Products)</span>
+                <span style={{marginLeft: '.3em'}}> Digital Marketer</span>
 
                 {/* <div className='line-breaker'></div>
 
@@ -23,12 +23,12 @@ const CareerHeroSection3 = () => {
 
             <div>
                 <span className='highlighter' style={{ textDecoration:'underline' }}>Location:</span>
-                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}> Remote/Flexible</span>
+                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}> Remote / Flexible</span>
 
                 <br /><br />
 
                 <span className='highlighter' style={{ textDecoration:'underline' }}>Job Type:</span>
-                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}> Part-Time/Contract/Full Time</span>
+                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}> Contract-to-Full-Time</span>
                 {/* <br /><br />
                 <div><b>Available Cities:</b></div>
                 <span className='highlighter'> Oshogbo</span>,<span className='highlighter'> Akure</span>, 
@@ -40,27 +40,28 @@ const CareerHeroSection3 = () => {
             </div>
 
             <div>
-                <span>Company Overview:</span>
+                <span>Company Overview</span>
                 <br/>
-                <span>
-                Are you a digital marketing professional passionate about education and technology? Join our dynamic team as a Digital Marketer and help us revolutionize learning through powerful digital campaigns and strategic sales growth! LearnNova Learning Support Centre, a unit of TreNova Group is a leading provider of innovative e-learning solutions, dedicated to transforming education through technology. We specialize in delivering engaging and effective digital learning experiences to private elementary and secondary schools across Nigeria. Our mission is to empower learners and educators by providing accessible, high-quality e-learning products.</span>
+                {/* <span>Are you a digital marketing expert with a passion for education and technology? Join the LearnNova Learning Support Centre, a division of the TreNova Group, where we are revolutionizing private education through cutting-edge digital learning and school growth solutions.</span> */}
+                <p>Are you a digital marketing expert with a passion for education and technology? Join the <span className='font-semibold'>LearnNova Learning Support Centre</span>, a division of the <span className='font-semibold'>TreNova Group</span>, where we are revolutionizing private education through cutting-edge digital learning and school growth solutions.</p>
+                <br/>
+                <p>At LearnNova, we specialize in delivering impactful e-learning products to private elementary and secondary schools, while also developing skilled school growth consultants and business mentors across Nigeria. Our mission is to empower educators, learners, and school leaders with accessible, high-quality digital tools and training.</p>
             </div>
 
             <div>
-                <span className='highlighter'>About the Role:</span>
+                <span className='highlighter'>About the Role</span>
                 <br/>
                 <span>
-                    We’re seeking a goal-driven Digital Marketer to promote and sell our digital learning products. In this role, you’ll not only develop and execute marketing campaigns across digital channels, but you’ll also play a key part in driving sales and recruiting sales partners to expand our reach.
+                    We are seeking a results-oriented Digital Marketer to lead the promotion and digital sales of our key offerings, including:
                     <br /><br /> 
                     <span className='highlighter'>Key Responsibilities:</span>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Develop and implement digital marketing strategies to promote our e-learning products.</li>
-                        <li>Manage campaigns across social media, email, SEO/SEM, and content platforms.</li>
-                        <li>Drive online traffic, lead generation, and conversions through paid and organic efforts.</li>
-                        <li>Create compelling content that communicates the value of our e-learning solutions.</li>
-                        <li>Recruit, onboard, and support a network of sales partners.</li>
-                        <li>Analyze campaign performance and optimize based on data insights.</li>
-                        <li>Stay up to date on digital marketing trends, tools, and best practices.</li>
+                        <li>Design and execute high-converting digital campaigns to promote LearnNova products</li>
+                        <li>Drive lead generation, manage sales funnels, and exceed monthly revenue targets</li>
+                        <li>Craft compelling content and visuals to highlight the value of our offerings</li>
+                        <li>Recruit and manage a network of independent sales partners</li>
+                        <li>Monitor and optimize campaign performance using data and analytics</li>
+                        <li>Stay current with industry trends, platforms, and marketing tools</li>
                     </ul>
                 </span>
             </div>
@@ -72,13 +73,12 @@ const CareerHeroSection3 = () => {
 
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Minimum of 2 years of experience in digital marketing, preferably in the edtech or e-learning space.</li>
-                        <li>Proven experience in product marketing and sales generation.</li>
-                        <li>Strong skills in social media marketing, email campaigns, SEO/SEM, and content creation.</li>
-                        <li>Ability to recruit and manage a group of sales partners.</li>
-                        <li>Familiarity with tools like Google Analytics, Facebook Ads Manager, and email marketing platforms.</li>
-                        <li>Excellent communication, analytical, and organizational skills.</li>
-                        <li>Degree or certification in Marketing, Communications, or a related field is an advantage.</li>
+                        <li>Minimum of 2 years’ experience in digital sales, ideally within the <span className='font-semibold'>edtech</span> or <span className='font-semibold'>e-learning</span> industry</li>
+                        <li>Proven ability to generate leads and drive product sales online</li>
+                        <li>Experience in recruiting a distributed sales team or partners</li>
+                        <li>Proficiency with tools such as <span className='font-semibold'>Google Analytics</span>, <span className='font-semibold'>Facebook Ads Manager</span>, and <span className='font-semibold'>email marketing platforms</span></li>
+                        <li>Strong communication, analytical, and organizational skills</li>
+                        <li>Degree or certification in <span className='font-semibold'>Marketing</span>, <span className='font-semibold'>Digital Communications</span>, or a related field is an advantage</li>
                     </ul>
                 </div> 
             </div>
@@ -123,22 +123,22 @@ const CareerHeroSection3 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-what-you-learn-title'>
-                 <span className='paragraph-title'>Compensation Details:</span>
+                 <span className='paragraph-title'>Compensation Package</span>
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li>
-                            <b>Base Remuneration: </b>
-                            <span className='highlighter-big'><b>₦200,000</b></span> per month.
+                            <b>Base Salary: </b>
+                            <span className='highlighter-big'><b>₦200,000</b></span> per month
                         </li>
 
                         <li>
                             <b>Marketing Reimbursement: </b>
-                            Up to <span className='highlighter-big'><b>₦60,000</b></span> per month, subject to achieving a minimum of <span className='highlighter-big'><b>₦375,000</b></span> in monthly sales revenue.
+                            Up to <span className='highlighter-big'><b>₦50,000</b></span>/month (upon achieving ₦375,000 in monthly sales revenue)
                         </li>
 
                         <li>
-                            <b>Additional Benefits: </b>
-                            Earn an extra <span className='highlighter-big'><b>17.5%</b></span> commission on any monthly sales revenue that exceeds <span className='highlighter-big'><b>₦1,450,000</b></span>.
+                            <b>Performance Bonus: </b>
+                            <span className='highlighter-big'><b>17.5%</b></span> commission on all sales revenue exceeding <span className='highlighter-big'><b>₦1,450,000</b></span> monthly.
                         </li>
                     </ul>
                 </div>
@@ -147,19 +147,23 @@ const CareerHeroSection3 = () => {
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='highlighter'><b>Probationary Period Terms:</b></span>
+                <span className='highlighter'><b>Probationary Terms (First 3 Months)</b></span>
                 <div>
-                    This role includes a <span className='font-semibold'>three-month</span> probationary period. During this time, if your monthly sales revenue falls below <span className='highlighter-big font-semibold'>₦1,450,000</span>, the base salary will be temporarily withheld. Instead, you will receive a <span className='font-semibold'>12.5%</span> commission on your total sales revenue for that month.
+                    <p>During the probation period:</p>
+                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
+                        <li>If monthly sales revenue falls below <span className='font-semibold'>₦1,450,000</span>, the base salary will be temporarily withheld</li>
+                        <li>You will instead earn <span className='font-semibold'>12.5% commission</span> on your total monthly sales revenue</li>
+                    </ul>
                 </div> 
             </div>
 
             <div className='line-breaker'></div>
 
             <div className='career-other-hero-section-container'>
-                <span className='highlighter'><b>How to Apply:</b></span>
+                <span className='highlighter'><b>How to Apply</b></span>
                 <div>
-                    If you’re excited to make a difference and grow with us, submit your application below.
-                </div> 
+                    Are you ready to help shape the future of digital learning in Nigeria? Submit your application below and join a mission-driven team committed to educational transformation.
+                </div>
             </div>
 
             
