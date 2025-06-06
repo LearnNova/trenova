@@ -28,7 +28,7 @@ const programSection = () => {
                     <ul className='space-y-2 module-text-box__list-box-inner-box'>
                         <li className='font-semibold'>Begin with a one-time, non-refundable registration fee of <span className='font-semibold'>₦100,000</span>.</li>
                         <li>Introduce LearnNova products to private elementary and secondary school owners—and earn <span className='font-semibold'>15.84%</span> commission on each successful sale.</li>
-                        <li>Once your referral sales commission reaches <span className='font-semibold'>₦95,000</span>, you'll automatically gain access to <span className='font-semibold'>four (4)</span> training module.</li>
+                        <li>Once your referral sales commission reaches <span className='font-semibold'>₦95,000</span>, you'll automatically gain access to <span className='font-semibold'>four (4)</span> training modules.</li>
                         <li>Unlock access to <span className='font-semibold'>Modules 1-4 within 3 months</span>, and you’ll receive <span className='font-semibold'>Modules 5-8 absolutely FREE!</span></li>
                     </ul>
 
