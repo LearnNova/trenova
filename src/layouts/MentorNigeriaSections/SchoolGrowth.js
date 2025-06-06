@@ -19,9 +19,9 @@ const SchoolGrowth = () => {
                     <div className='text-body'>
                         <ul className='space-y-4'>
                             <li>
-                                <p className='font-bold'>Install LearnNova’s Desktop Learning Support Studio</p>
+                                <p className='font-bold'>Install LearnNova’s Laptop and Desktop Computer Learning Support Studio</p>
 
-                                <p>Equip your school computers with a powerful desktop solution designed to:</p>
+                                <p>Equip your school computers with a powerful desktop and laptop solution designed to:</p>
                                 <ul className='mx-3 space-y-2 list-none' style={{ fontSize: '1em' }}>
                                     <li><span className='mr-1'>✔</span> Boost academic performance</li>
                                     <li><span className='mr-1'>✔</span> Improve revenue</li>
@@ -53,7 +53,7 @@ const SchoolGrowth = () => {
 
                             <li>
                                 <p className='font-bold'>Home Learning Access for 25–500 Pupils/Students</p>
-                                <p>Enroll your learners on the LearnNova Home Learning App—available on <span className='font-semibold'>Android, laptops, and desktops</span>.</p>
+                                <p>Enroll your learners on the LearnNova Home Learning App—available on <span className='font-semibold'>Android and iOS Smartphones, Laptop and Desktop Computers</span>.</p>
                                 <p>Perfect for extending learning beyond the classroom with engaging, curriculum-based content.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦5,000 – ₦15,000 per learner per term)</p>
                             </li>

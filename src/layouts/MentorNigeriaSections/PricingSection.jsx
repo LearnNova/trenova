@@ -48,7 +48,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>✔️ Includes full access to the LearnNova Home Learning App, available on Android smartphones, laptop and desktop</>,
+      <>✔️ Includes full access to the LearnNova Home Learning App, available on Android and iOS Smartphones, Laptop and Desktop Computers</>,
     ],
     bestFor: <>Extend learning to the home with flexible Home Learning Licenses</>,
     featuresTitle: 'Extra Benefits',
@@ -65,7 +65,7 @@ const pricingPlans = [
     priceInfo: null,
     includes: [
       <><span style={{color: '#000000'}}>▪ School Learning Support Studio License</span><span className="block">Get interactive, multimedia-rich lessons in any <span className="font-semibold">3</span> of the following subjects: <span className="font-semibold">Senior Secondary Mathematics, Elementary Diction & Phonetics, an extensive E-Library for ages 3–17, and Creative & Vocational Studies for all class levels</span>—all designed to keep learners engaged and inspired.</span></>,
-      <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses</span><span className="block">Give your pupils and students access to the <span className="font-semibold">LearnNova Home Learning App</span> on Android smartphones, laptops, and desktops—for continued learning beyond the classroom.</span></>,
+      <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses</span><span className="block">Give your pupils and students access to the <span className="font-semibold">LearnNova Home Learning App</span> on Android and iOS Smartphones, Laptop and Desktop Computers —for continued learning beyond the classroom.</span></>,
     ],
     bestFor: <>Perfect for schools looking to boost learning outcomes, increase revenue, and grow sustainably.</>,
     featuresTitle: 'Exclusive Extras:',
@@ -197,7 +197,7 @@ const PricingSection = () => {
             <p className="mb-5 font-bold">Transform Learning with the LearnNova Learning Support System</p>
             <p className="mb-5 italic">Give your school the tools it needs to succeed in today’s digital-first environment.</p>
             <p className="mb-5">The <span className="font-semibold">School Essential Plan</span> features the powerful <span className="font-semibold">LearnNova School Learning Support Studio</span>—a complete platform designed to enhance classroom instruction, boost learner performance, and support school revenue growth.</p>
-            <p className="mb-5">Ready to expand learning beyond the school walls? The <span className="font-semibold">Growth Connect Plan</span> include the <span className="font-semibold">LearnNova Home Learning Licenses</span>, allowing pupils/students to continue learning at their convenience—after school, on weekends, or during holidays—using our easy-to-use app available on desktops, laptops, and Android devices.</p>
+            <p className="mb-5">Ready to expand learning beyond the school walls? The <span className="font-semibold">Growth Connect Plan</span> include the <span className="font-semibold">LearnNova Home Learning Licenses</span>, allowing pupils/students to continue learning at their convenience—after school, on weekends, or during holidays—using our easy-to-use app available on Android and iOS Smartphones, Laptop and Desktop Computers.</p>
           </div>
 
         </div>

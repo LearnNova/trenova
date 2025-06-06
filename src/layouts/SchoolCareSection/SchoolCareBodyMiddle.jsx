@@ -54,7 +54,7 @@ const SchoolCareBodyMiddle = () => {
 
           <li>
             Get Industry-Leading Educational and Private School Growth Solutions:
-            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Accessible as a <span className="font-semibold">desktop application</span> for schools and a mobile app for home learning—compatible with <span className="font-semibold">Android</span>, <span className="font-semibold">iOS</span>, and <span className="font-semibold">desktop</span> devices.</p>
+            <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Available as a <span className="font-semibold">desktop and laptop application</span> for schools and a mobile app for home use — fully compatible with <span className="font-semibold">Android and iOS</span> Smartphones, <span className="font-semibold">Laptop and Desktop</span> computers.</p>
 
             <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
