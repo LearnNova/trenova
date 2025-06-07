@@ -11,7 +11,7 @@ const CareerHeroSection3 = () => {
         <div className='career-hero-sec-info'>
             <div>
                 <span className='highlighter'>Job Title:</span>
-                <span style={{marginLeft: '.3em'}}> Digital Marketer</span>
+                <span style={{marginLeft: '.3em'}}> Sales & Digital Marketing Specialist</span>
 
                 {/* <div className='line-breaker'></div>
 
@@ -27,8 +27,8 @@ const CareerHeroSection3 = () => {
 
                 <br /><br />
 
-                <span className='highlighter' style={{ textDecoration:'underline' }}>Job Type:</span>
-                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}> Contract-to-Full-Time</span>
+                <span className='highlighter' style={{ textDecoration:'underline' }}>Position Type:</span>
+                <span style={{ fontWeight: 600, marginLeft: '.6rem' }}> Final Evaluation Phase Prior to Permanent Appointment</span>
                 {/* <br /><br />
                 <div><b>Available Cities:</b></div>
                 <span className='highlighter'> Oshogbo</span>,<span className='highlighter'> Akure</span>, 
@@ -40,30 +40,22 @@ const CareerHeroSection3 = () => {
             </div>
 
             <div>
-                <span>Company Overview</span>
-                <br/>
-                {/* <span>Are you a digital marketing expert with a passion for education and technology? Join the LearnNova Learning Support Centre, a division of the TreNova Group, where we are revolutionizing private education through cutting-edge digital learning and school growth solutions.</span> */}
-                <p>Are you a digital marketing expert with a passion for education and technology? Join the <span className='font-semibold'>LearnNova Learning Support Centre</span>, a division of the <span className='font-semibold'>TreNova Group</span>, where we are revolutionizing private education through cutting-edge digital learning and school growth solutions.</p>
-                <br/>
-                <p>At LearnNova, we specialize in delivering impactful e-learning products to private elementary and secondary schools, while also developing skilled school growth consultants and business mentors across Nigeria. Our mission is to empower educators, learners, and school leaders with accessible, high-quality digital tools and training.</p>
-            </div>
-
-            <div>
                 <span className='highlighter'>About the Role</span>
                 <br/>
                 <div>
-                    <p>We are seeking a results-oriented <span className='font-semibold'>Digital Marketer</span> to lead the promotion and digital sales of our key offerings, including:</p>
+                    <p>Are you a sales and digital marketing professional with a strong interest in education and technology? Join the <span className='font-semibold'>LearnNova Learning Support Centre</span>, a division of the <span className='font-semibold'>TreNova Group</span>, where we’re transforming private education through innovative digital learning solutions and strategic school growth programs.</p>
+                    <p className='mt-2'>We’re looking for a results-driven <span className='font-semibold'>Sales and Digital Marketing Specialist</span> to spearhead the promotion and online sales of our core offerings:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container mt-2'>
-                        <li>E-learning applications</li>
-                        <li>School growth consulting and mentorship training</li>
-                        <li>Recruitment of sales partners</li>
+                        <li>E-learning applications for school</li>
+                        <li>School growth consulting and mentorship program</li>
+                        <li>Sales partner recruitment and engagement</li>
                     </ul>
 
-                    <p className='mt-2'>In this role, you will be responsible for generating leads, closing sales, and expanding our network of sales partners through strategic digital marketing initiatives.</p>
+                    <p className='mt-2'>In this role, you’ll play a key part in generating qualified leads, driving conversions, and expanding our sales partner network through targeted, data-driven digital marketing strategies.</p>
 
                     <br />
 
-                    <p className='highlighter'>Core Products Available to Promote and Generate Sales Revenue:</p>
+                    <p className='highlighter'>Key Offerings for Promotion and Revenue Generation</p>
                     <ul style={{listStyleType: 'decimal'}} className='list-decimal career-what-you-learn-info-list-container-inner-list-container'>
                         <li>
                             <span className='font-semibold block'>LearnNova Learning Support Applications</span>
@@ -81,16 +73,23 @@ const CareerHeroSection3 = () => {
 
                     <br />
 
-                    <p className='highlighter'>Key Responsibilities:</p>
+                    <p className='highlighter'>Role Responsibilities:</p>
+                    <p className='mb-2'>In this role, your key responsibilities will include:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Design and execute high-converting digital campaigns to promote and sell LearnNova products</li>
-                        <li>Drive lead generation, manage sales funnels, and exceed monthly revenue targets</li>
-                        <li>Craft compelling content and visuals to highlight the value of our offerings</li>
-                        <li>Recruit and manage a network of independent sales partners</li>
-                        <li>Monitor and optimize campaign performance using data and analytics</li>
-                        <li>Stay current with industry trends, platforms, and marketing tools</li>
+                        <li>Generating leads, closing sales, and expanding our network of sales partners through strategic digital marketing initiatives</li>
+                        <li>Designing and executing high-converting digital campaigns to promote and sell LearnNova products</li>
+                        <li>Driving lead generation, managing sales funnels, and exceeding monthly revenue targets</li>
+                        <li>Crafting compelling content and visuals to communicate the value of our offerings</li>
+                        <li>Recruiting and managing a network of independent sales partners</li>
+                        <li>Monitoring and optimizing campaign performance using data and analytics</li>
+                        <li>Staying current with industry trends, digital platforms, and marketing tools to ensure innovative strategies are applied</li>
                     </ul>
                 </div>
+            </div>
+
+            <div className='space-y-2'>
+                <span>Company Overview</span>
+                <p>At <span className='font-semibold'>LearnNova Learning Support Centre</span>, a unit of TreNova Group, we’re committed to reshaping the future of private education in Nigeria. We provide high-impact e-learning solutions for elementary and secondary schools, and we train a new generation of school growth consultants and business mentors. Our mission is to equip educators, learners, and school leaders with affordable, accessible, and high-quality digital tools and professional development opportunities.</p>
             </div>
 
             <div className='line-breaker'></div>
@@ -101,7 +100,7 @@ const CareerHeroSection3 = () => {
                 <div>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                         <li>Minimum of 2 years’ experience in digital sales, ideally within the <span className='font-semibold'>edtech</span> or <span className='font-semibold'>e-learning</span> industry</li>
-                        <li>Proven ability to generate leads and drive product sales online</li>
+                        <li>Proven ability to generate leads and drive product sales</li>
                         <li>Experience in recruiting a distributed sales team or partners</li>
                         <li>Proficiency with tools such as <span className='font-semibold'>Google Analytics</span>, <span className='font-semibold'>Facebook Ads Manager</span>, and <span className='font-semibold'>email marketing platforms</span></li>
                         <li>Strong communication, analytical, and organizational skills</li>
@@ -110,78 +109,28 @@ const CareerHeroSection3 = () => {
                 </div> 
             </div>
 
-            {/* <div className='line-breaker'></div> */}
-
-            {/* <div className='career-what-you-learn-title'>
-                 <span className='paragraph-title'>What we Offer:</span>
-
-                <div>
-                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Competitive remuneration package.</li>
-                        <li>Flexible working hours in a remote-friendly environment.</li>
-                        <li>Opportunities to work with a supportive and innovative team.</li>
-                        <li>Professional growth in a thriving niche industry.</li>
-                    </ul>
-                    <div>
-                        <span className='paragraph-title'>Important Note:</span>
-                        <p>
-                            In the event that your monthly sales fall below <span className='highlighter-big'><b>9 unit</b></span> or <span className='highlighter-big'><b>₦890,000</b></span>, the 
-                            base salary will be temporarily suspended. In this case, total compensation will be 
-                            limited at <span className='highlighter-big'><b>15.5%</b></span> of the monthly 
-                            sales revenue.
-                        </p>
-                    </div>
-                </div>
-                <ol id='career-what-you-learn-title-list'>
-                    <li><b>Basic Salary: </b><span className='highlighter-big'><b>₦160,000.00</b></span>/month (based on meeting key performance targets).</li>
-                    <li><b>Marketing Allowance: </b><span className='highlighter-big'><b>₦40,000.00</b></span>/month.</li>
-                    <li><b>Performance Bonus: </b>Up to <span className='highlighter-big'><b>₦200,000.00</b></span>/month, based on the following sales volume:</li>
-
-                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li><span className='highlighter-big'><b>₦50,000.00</b></span> bonus for achieving <span className='highlighter'>700</span> App Units or its equivalent in sales revenue.</li>
-                        <li>Additional <span className='highlighter-big'><b>₦70,000.00</b></span> bonus for <span className='highlighter'>950</span> App Units or its equivalent in sales revenue.</li>
-                        <li>Final bonus of <span className='highlighter-big'><b>₦80,000.00</b></span> for <span className='highlighter'>1,250</span> App Units or its equivalent in sales revenue.</li>
-                    </ul>
-
-                    <li><b>Sales Commission: </b><span className='highlighter'><b>7.5%</b></span> commission on any sales exceeding <span className='highlighter'>1,250</span> App Units or its equivalent in sales revenue.</li>
-                </ol>
-            </div> */}
-
             <div className='line-breaker'></div>
 
-            <div className='career-what-you-learn-title'>
-                 <span className='paragraph-title'>Compensation Package</span>
-                <div>
-                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>
-                            <b>Base Salary: </b>
-                            <span className='highlighter-big'><b>₦200,000</b></span> per month
-                        </li>
-
-                        <li>
-                            <b>Marketing Reimbursement: </b>
-                            Up to <span className='highlighter-big'><b>₦50,000</b></span>/month (upon achieving ₦375,000 in monthly sales revenue)
-                        </li>
-
-                        <li>
-                            <b>Performance Bonus: </b>
-                            <span className='highlighter-big'><b>17.5%</b></span> commission on all sales revenue exceeding <span className='highlighter-big'><b>₦1,450,000</b></span> monthly.
-                        </li>
-                    </ul>
-                </div>
+            <div className='career-what-you-learn-title space-y-2'>
+                 <p className='paragraph-title'>Compensation and Terms During Evaluation Period (First 3 Months)</p>
+                 <p>As part of your onboarding, you will undergo a three-month evaluation period. During this probationary phase, your compensation will be based on performance, with the following terms:</p>
+                 <ul className='career-what-you-learn-info-list-container-inner-list-container'>
+                    <li><span className='font-semibold'>Monthly Remuneration:</span> You will earn a commission of <span className='highlighter-big'>14.85%</span> on your monthly sales revenue.</li>
+                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big'>₦50,000 per month</span> as reimbursement for approved marketing expenses, provided your monthly sales revenue reaches at least <span className='highlighter-big'>₦350,000</span></li>
+                 </ul>
             </div>
 
             <div className='line-breaker'></div>
 
-            <div className='career-other-hero-section-container'>
-                <span className='highlighter'><b>Probationary Terms (First 3 Months)</b></span>
-                <div>
-                    <p>During the probation period:</p>
-                    <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>If monthly sales revenue falls below <span className='font-semibold'>₦1,450,000</span>, the base salary will be temporarily withheld</li>
-                        <li>You will instead earn <span className='font-semibold'>12.5% commission</span> on your total monthly sales revenue</li>
-                    </ul>
-                </div> 
+            <div className='career-other-hero-section-container space-y-2'>
+                 <p className='highlighter font-semibold'>Compensation Package Upon Confirmation</p>
+                 <p>Upon successful completion of the evaluation period and confirmation into a substantive position, your compensation package will transition to the following structure:</p>
+                 <ul className='career-what-you-learn-info-list-container-inner-list-container'>
+                    <li><span className='font-semibold'>Base Salary:</span><span className='highlighter-big'> ₦200,000 per month</span> (paid monthly, subject to standard deductions)</li>
+                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big'>₦50,000 per month</span> for approved marketing-related expenses</li>
+                    <li><span className='font-semibold'>Performance Bonus:</span> You will receive <span className='highlighter-big'>17.5% commission</span> on all sales revenue exceeding <span className='highlighter-big'>₦1,350,000</span> per month</li>
+                 </ul> 
+                 <p>Please note that all compensation and reimbursement terms are subject to the company’s policies and may be reviewed periodically.</p>
             </div>
 
             <div className='line-breaker'></div>

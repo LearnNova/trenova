@@ -38,7 +38,7 @@ const navigation = [
         href: '/career/elearning_sales_executive',
       },
       career2: {
-        name: 'Digital Marketer',
+        name: 'Sales & Digital Marketing Specialist',
         href: '/career/digital_marketer',
       },
       career3: {
