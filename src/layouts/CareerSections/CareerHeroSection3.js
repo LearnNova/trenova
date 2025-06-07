@@ -47,20 +47,20 @@ const CareerHeroSection3 = () => {
                     <p className='mt-2'>We’re looking for a results-driven <span className='font-semibold'>Sales and Digital Marketing Specialist</span> to spearhead the promotion and sales of our core offerings:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container mt-2'>
                         <li>
-                            <p>E-learning applications for school</p>
-                            <a className='text-orange-500 hover:text-white hover:underline' href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
+                            <p className='font-semibold'>E-learning applications for school</p>
+                            <a className='text-orange-500 hover:text-white font-medium' href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>👉 [View Product]</a>
                         </li>
                         <li>
-                            <p>School growth consulting and mentorship program</p>
-                            <a className='text-orange-500 hover:text-white hover:underline' href='https://www.learnnova.ng/MentorNigeria/trenova'>👉 [View Program]</a>
+                            <p className='font-semibold'>School growth consulting and mentorship program</p>
+                            <a className='text-orange-500 hover:text-white font-medium' href='https://www.learnnova.ng/MentorNigeria/trenova'>👉 [View Program]</a>
                         </li>
                         <li>
-                            <p>Sales partner recruitment and engagement</p>
-                            <a className='text-orange-500 hover:text-white hover:underline' href='https://www.learnnova.ng/schoolsupportpartner/trenova'>👉 [Learn More]</a>
+                            <p className='font-semibold'>Sales partner recruitment and engagement</p>
+                            <a className='text-orange-500 hover:text-white font-medium' href='https://www.learnnova.ng/schoolsupportpartner/trenova'>👉 [Learn More]</a>
                         </li>
                     </ul>
 
-                    <p className='mt-2'>In this role, you’ll play a key part in generating qualified leads, driving conversions, and expanding our sales partner network through targeted, data-driven digital marketing strategies.</p>
+                    <p className='mt-2'>In this role, you’ll play a key part in generating qualified leads, driving conversions, and expanding our sales partner network through targeted, data-driven sales & digital marketing strategies.</p>
 
                     {/* <br />
 
@@ -85,7 +85,7 @@ const CareerHeroSection3 = () => {
                     <p className='highlighter'>Role Responsibilities:</p>
                     <p className='mb-2'>In this role, your key responsibilities will include:</p>
                     <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                        <li>Generating leads, closing sales, and expanding our network of sales partners through strategic digital marketing initiatives</li>
+                        <li>Generating leads, closing sales, and expanding our network of sales partners through strategic sales & digital marketing initiatives</li>
                         <li>Designing and executing high-converting digital campaigns to promote and sell LearnNova products</li>
                         <li>Driving lead generation, managing sales funnels, and exceeding monthly revenue targets</li>
                         <li>Crafting compelling content and visuals to communicate the value of our offerings</li>
@@ -124,8 +124,8 @@ const CareerHeroSection3 = () => {
                  <p className='paragraph-title'>Compensation and Terms During Evaluation Period (First 3 Months)</p>
                  <p>As part of your onboarding, you will undergo a three-month evaluation period. During this probationary phase, your compensation will be based on performance, with the following terms:</p>
                  <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                    <li><span className='font-semibold'>Monthly Remuneration:</span> You will earn a commission of <span className='highlighter-big font-semibold'>14.85%</span> on your monthly sales revenue.</li>
-                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-semibold'>₦50,000</span> per month as reimbursement for approved marketing expenses, provided your monthly sales revenue reaches at least <span className='highlighter-big font-semibold'>₦350,000</span></li>
+                    <li><span className='font-semibold'>Monthly Remuneration:</span> You will earn a commission of <span className='highlighter-big font-bold'>14.85%</span> on your monthly sales revenue.</li>
+                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-bold'>₦50,000</span> per month as reimbursement for approved marketing expenses, provided your monthly sales revenue reaches at least <span className='highlighter-big font-bold'>₦350,000</span></li>
                  </ul>
             </div>
 
@@ -135,9 +135,9 @@ const CareerHeroSection3 = () => {
                  <p className='highlighter font-semibold'>Compensation Package Upon Confirmation</p>
                  <p>Upon successful completion of the evaluation period and confirmation into a substantive position, your compensation package will transition to the following structure:</p>
                  <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                    <li><span className='font-semibold'>Base Salary:</span><span className='highlighter-big font-semibold'> ₦200,000</span> per month (paid monthly, subject to statutory deductions)</li>
-                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-semibold'>₦50,000</span> per month for approved marketing-related expenses</li>
-                    <li><span className='font-semibold'>Performance Bonus:</span> You will receive <span className='highlighter-big font-semibold'>17.5%</span> commission on all sales revenue exceeding <span className='highlighter-big font-semibold'>₦1,350,000</span> per month</li>
+                    <li><span className='font-semibold'>Base Salary:</span><span className='highlighter-big font-bold'> ₦200,000</span> per month (paid monthly, subject to statutory deductions)</li>
+                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-bold'>₦50,000</span> per month for approved marketing-related expenses</li>
+                    <li><span className='font-semibold'>Performance Bonus:</span> You will receive <span className='highlighter-big font-bold'>17.5%</span> commission on all sales revenue exceeding <span className='highlighter-big font-bold'>₦1,350,000</span> per month</li>
                  </ul> 
                  <p>Please note that all compensation and reimbursement terms are subject to the company’s policies and may be reviewed periodically.</p>
             </div>
