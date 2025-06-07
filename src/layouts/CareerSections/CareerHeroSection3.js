@@ -125,7 +125,7 @@ const CareerHeroSection3 = () => {
                  <p>As part of your onboarding, you will undergo a three-month evaluation period. During this probationary phase, your compensation will be based on performance, with the following terms:</p>
                  <ul className='career-what-you-learn-info-list-container-inner-list-container'>
                     <li><span className='font-semibold'>Monthly Remuneration:</span> You will earn a commission of <span className='highlighter-big font-semibold'>14.85%</span> on your monthly sales revenue.</li>
-                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-semibold'>₦50,000 per month</span> as reimbursement for approved marketing expenses, provided your monthly sales revenue reaches at least <span className='highlighter-big font-semibold'>₦350,000</span></li>
+                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-semibold'>₦50,000</span> per month as reimbursement for approved marketing expenses, provided your monthly sales revenue reaches at least <span className='highlighter-big font-semibold'>₦350,000</span></li>
                  </ul>
             </div>
 
@@ -135,9 +135,9 @@ const CareerHeroSection3 = () => {
                  <p className='highlighter font-semibold'>Compensation Package Upon Confirmation</p>
                  <p>Upon successful completion of the evaluation period and confirmation into a substantive position, your compensation package will transition to the following structure:</p>
                  <ul className='career-what-you-learn-info-list-container-inner-list-container'>
-                    <li><span className='font-semibold'>Base Salary:</span><span className='highlighter-big font-semibold'> ₦200,000 per month</span> (paid monthly, subject to statutory deductions)</li>
-                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-semibold'>₦50,000 per month</span> for approved marketing-related expenses</li>
-                    <li><span className='font-semibold'>Performance Bonus:</span> You will receive <span className='highlighter-big font-semibold'>17.5% commission</span> on all sales revenue exceeding <span className='highlighter-big font-semibold'>₦1,350,000</span> per month</li>
+                    <li><span className='font-semibold'>Base Salary:</span><span className='highlighter-big font-semibold'> ₦200,000</span> per month (paid monthly, subject to statutory deductions)</li>
+                    <li><span className='font-semibold'>Marketing Reimbursement:</span> Up to <span className='highlighter-big font-semibold'>₦50,000</span> per month for approved marketing-related expenses</li>
+                    <li><span className='font-semibold'>Performance Bonus:</span> You will receive <span className='highlighter-big font-semibold'>17.5%</span> commission on all sales revenue exceeding <span className='highlighter-big font-semibold'>₦1,350,000</span> per month</li>
                  </ul> 
                  <p>Please note that all compensation and reimbursement terms are subject to the company’s policies and may be reviewed periodically.</p>
             </div>
