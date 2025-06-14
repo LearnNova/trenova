@@ -8,10 +8,10 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
-        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
-        <><span className="font-semibold">Diction & Phonics for Elementary – ₦49,999 per term</span><span className="block ml-2">540 interactive lessons with 500 practice exercises</span></>,
-        <><span className="font-semibold">E-Library (Ages 3–17) – ₦49,999 per term</span><span className="block ml-2">Access to 850+ carefully curated reading books from KG1 to SSS3</span></>,
-        <><span className="font-semibold">Creative & Vocational Subjects – ₦49,999 per term</span><span className="block ml-2">Hands-on, practical topics designed for learners aged 3–17</span></>,
+        <><span className="font-semibold">E-Library (For Elementary and Secondary Schools) – ₦49,999 per term:</span><span className="block ml-2">Access to more than 750 carefully curated reading books for KG1 to SSS3</span></>,
+        <><span className="font-semibold">Creative Life Skills Lessons & Activities – ₦49,999 per Term:</span><span className="block ml-2">Over 50 hands-on, creative, and vocational topics tailored for learners from KG 1 to JSS 3. Fun, practical, and skill-building!</span></>,
+        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term:</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
+        <><span className="font-semibold">Diction & Phonics for Elementary – ₦49,999 per term:</span><span className="block ml-2">540 interactive lessons with 500 practice exercises</span></>,
       ]
     },
     includes: [
@@ -20,8 +20,8 @@ const pricingPlans = [
     bestFor: <>Ideal for schools beginning their digital learning journey.</>,
     featuresTitle: 'Extra Features & Exclusive Benefits',
     features: [
-      <>Enroll in any 2 courses and get a <span className="font-semibold">FREE</span> invitation to TreNova Academy's School Growth Virtual Training!</>,
-      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
+      <>Enjoy offline access after the initial setup</>,
+      <>Enroll in any 2 courses and get a <span className="font-semibold">FREE</span> annual invitation to TreNova Academy's School Growth Virtual Training</>,
       <>Designed with a <span className="font-semibold">simple, user-friendly interface</span> for both teachers and learners</>,
       <>Includes <span className="font-semibold">free onboarding and installation support</span></>,
     ],
@@ -32,19 +32,21 @@ const pricingPlans = [
     priceInfoPri: {
       title: '✅ Subjects Included:',
       lists: [
-        <>Senior Secondary Mathematics - (2,400+ comprehensive video lessons plus 8,000 questions & answers)</>,
-        <>Diction & Phonetics for Elementary School pupils - (540 interactive lessons with 500 practice exercises)</>,
-        <>E-Library of reading books for Elementary and Secondary School - (850+ carefully curated reading books for ages 3 to 17)</>,
+        <><span className="font-semibold">E-Library of reading books for Elementary and Secondary School - </span><span className="block ml-2">(750+ carefully curated reading books for KG 1 to SSS 3)</span></>,
+        <><span className="font-semibold">Creative Life Skills (KG 1 to JSS 3) - </span><span className="block ml-2">Explore over 50 hands-on, creative, and vocational topics designed to build practical skills, foster creativity, and inspire future income-generating abilities.</span></>,
+        <><span className="font-semibold">Senior Secondary School Mathematics - </span><span className="block ml-2">(2,400+ comprehensive video lessons plus 8,000 questions & answers)</span></>,
+        <><span className="font-semibold">Diction & Phonetics for Elementary School pupils - </span><span className="block ml-2">(540 interactive lessons with 500 practice exercises)</span></>,
       ]
     },
     priceInfoSec: {
       title: 'Per-Term Pricing:',
       lists: [
-        '30 Learners – ₦50,000',
-        '60 Learners – ₦90,000',
+        'One (1) Learner - ₦1,850',
+        '30 Learners -  ₦50,000',
+        '50 Learners – ₦75,000',
         '100 Learners – ₦125,000',
         '200 Learners – ₦199,999',
-        '400 Learners – ₦300,000',
+        '300 Learners – ₦255,000',
       ]
     },
     includes: [
@@ -53,10 +55,9 @@ const pricingPlans = [
     bestFor: <>Extend learning to the home with flexible Home Learning Licenses</>,
     featuresTitle: 'Extra Benefits',
     features: [
-      <>Priority tech support</>,
-      <>Access to School Growth forms + printable guides</>,
       <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
-      <>Includes <span className="font-semibold">free onboarding and installation support</span></>,
+      <>Access to School Growth forms + printable guides</>,
+      <>Priority tech support - Includes free onboarding and installation support</>,
     ],
   },
   {
@@ -64,22 +65,29 @@ const pricingPlans = [
     price: "₦149,999 per Term",
     priceInfo: null,
     includes: [
-      <><span style={{color: '#000000'}}>▪ School Learning Support Studio License</span><span className="block">Get interactive, multimedia-rich lessons in any <span className="font-semibold">3</span> of the following subjects: <span className="font-semibold">Senior Secondary Mathematics, Elementary Diction & Phonetics, an extensive E-Library for ages 3–17, and Creative & Vocational Studies for all class levels</span>—all designed to keep learners engaged and inspired.</span></>,
-      <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses</span><span className="block">Give your pupils and students access to the <span className="font-semibold">LearnNova Home Learning App</span> on Android and iOS Smartphones, Laptop and Desktop Computers —for continued learning beyond the classroom.</span></>,
+      <>
+        <span style={{color: '#000000'}}>▪ School Learning Support Studio License - </span>
+        <span className="mb-3">Get interactive, multimedia-rich lessons in any 3 of the following subjects:</span>
+        <span className="block">1. Extensive E-Library of Reading Books for KG 1 to SSS 3 - (750+ carefully curated reading books for KG 1 to SSS3)</span>
+        <span className="block">2. Creative Life Skills Studies - Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</span>
+        <span className="block">3. Senior Secondary Mathematics - (2,400+ comprehensive video lessons plus 8,000 questions & answers)</span>
+        <span className="block">4. Elementary School Diction & Phonics - (540 interactive lessons with 500 practice exercises)</span>
+      </>,
+      <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses - </span><span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</span></>,
     ],
     bestFor: <>Perfect for schools looking to boost learning outcomes, increase revenue, and grow sustainably.</>,
-    featuresTitle: 'Exclusive Extras:',
+    featuresTitle: 'Extra Benefits:',
     features: [
-      <>Priority access to technical support</>,
-      <><span className="font-semibold">FREE</span> invitation to TreNova Academy's School Growth Virtual Training!</>,
-      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
-      <>Ready-to-use <span className="font-semibold">School Growth forms</span> and <span className="font-semibold">printable planning guides</span></>,
-      <>Includes free onboarding and installation support</>,
-      <><span className="font-semibold">Referral Reward:</span> Refer another school to LearnNova and receive <span className="font-semibold">20 bonus learner licenses</span> per successful referral.</>,
+      <>Enjoy offline access after the initial setup</>,
+      <><span className="font-semibold">FREE</span> annual invitation to TreNova Academy's School Growth Virtual Training!</>,
+      <><span className="font-semibold">FREE</span> access to TreNova Academy Online Training Portal</>,
+      <>Ready-to-use School Growth forms and printable planning guides</>,
+      <><span className="font-semibold">Priority access to technical support - </span>Includes free onboarding and installation support</>,
+      <><span className="font-semibold">Referral Reward:</span> Refer another school to LearnNova and receive 20 bonus learner licenses per successful referral.</>,
     ],
   },
   {
-    title: "📕 Plan 4: Premium Impact",
+    title: "📕 Plan 4: Lifetime Access - ₦499,999 One-Time Payment per subject",
     price: "₦474,999 per Term",
     priceInfo: null,
     includes: [
@@ -102,11 +110,28 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📙 Plan 5: Lifetime Access",
-    price: "₦499,990 One-Time Payment per subject",
+    title: "📙 Plan 4: Lifetime Access",
+    price: "₦499,999 One-Time Payment per subject",
     priceInfoPri: {
-      title: '✅ Choose the Subject(s) That Best Fit Your School’s Needs',
+      title: '✅ Choose the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
+        <>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Comprehensive E-Library of Age-Appropriate Reading Books (KG 1 to SSS 3)</span>
+          <span className="block mt-1 font-medium">What's Included:</span>
+          <ul className="list-disc ml-4 space-y-1 mb-2">
+            <li>750+ age-appropriate, curated reading books</li>
+            <li>Covers KG1 to SSS3</li>
+          </ul>
+        </>,
+        <>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Creative Life Skills Lessons and Activities</span>
+          <span className="block mt-1 font-medium">What's Included:</span>
+          <ul className="list-disc ml-4 space-y-1 mb-2">
+            <li>Practical, hands-on lessons tailored for KG 1 to JSS 3 learners</li>
+            <li>Covers diverse creative and technical areas</li>
+            <li>50+ creative and vocational skills in video lessons, reading notes and activity guides</li>
+          </ul>
+        </>,
         <>
           <span style={{color: '#000000'}} className="block mt-2 font-semibold">Senior Secondary Mathematics</span>
           <span className="block mt-1 font-medium">What's Included:</span>
@@ -116,27 +141,11 @@ const pricingPlans = [
           </ul>
         </>,
         <>
-          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Diction & Phonics (Elementary Level)</span>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Diction & Phonics Elementary School</span>
           <span className="block mt-1 font-medium">What's Included:</span>
           <ul className="list-disc ml-4 space-y-1 mb-2">
             <li>540 engaging lessons</li>
             <li>500 practice exercises with answers</li>
-          </ul>
-        </>,
-        <>
-          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Comprehensive E-Library of Age-Appropriate Reading Books (Ages 3–17)</span>
-          <span className="block mt-1 font-medium">What's Included:</span>
-          <ul className="list-disc ml-4 space-y-1 mb-2">
-            <li>850+ age-appropriate, curated reading books</li>
-            <li>Covers KG1 to SSS3</li>
-          </ul>
-        </>,
-        <>
-          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Creative & Vocational Subjects</span>
-          <span className="block mt-1 font-medium">What's Included:</span>
-          <ul className="list-disc ml-4 space-y-1 mb-2">
-            <li>Practical, hands-on lessons tailored for learners aged 3–17</li>
-            <li>Covers diverse creative and technical areas</li>
           </ul>
         </>,
       ]
@@ -155,10 +164,9 @@ const pricingPlans = [
       <>✔️ Get Lifetime License to the School Learning Support Studio, with engaging multimedia lessons in any of the subjects listed below:</>,
     ],
     bestFor: <>Perfect for schools that prefer a one-time payment for unlimited, lifelong use.</>,
-    featuresTitle: 'Extra Features & Exclusive Benefits',
+    featuresTitle: 'Extra Features & Exclusive Benefits:',
     features: [
-      <><span className="font-semibold">Special Offer:</span> Enroll in Lifetime Access to any 2 subjects and get additional subjects FREE!</>,
-      <><span className="font-semibold">BONUS:</span> Free access to <span className="font-semibold">TreNova Academy’s School Growth Virtual Training</span> when you purchase 2 courses</>,
+      <><span className="font-semibold">Free</span> access to TreNova Academy Online Training Portal</>,
       <>Offline access available after setup</>,
       <>Simple, intuitive interface for teachers and students</>,
       <>Free onboarding and installation support included</>,
@@ -191,13 +199,14 @@ const PricingSection = () => {
 
           <p>🎯 Choose the Right Plan for Your School</p>
           <p>✓ Easy per-term pricing</p>
+          <p>✓ Life-Access Purchase</p>
           <p className="mb-5">✓ All-inclusive, value-packed solutions</p>
 
           <div className="max-w-6xl">
             <p className="mb-5 font-bold">Transform Learning with the LearnNova Learning Support System</p>
             <p className="mb-5 italic">Give your school the tools it needs to succeed in today’s digital-first environment.</p>
-            <p className="mb-5">The <span className="font-semibold">School Essential Plan</span> features the powerful <span className="font-semibold">LearnNova School Learning Support Studio</span>—a complete platform designed to enhance classroom instruction, boost learner performance, and support school revenue growth.</p>
-            <p className="mb-5">Ready to expand learning beyond the school walls? The <span className="font-semibold">Growth Connect Plan</span> include the <span className="font-semibold">LearnNova Home Learning Licenses</span>, allowing pupils/students to continue learning at their convenience—after school, on weekends, or during holidays—using our easy-to-use app available on Android and iOS Smartphones, Laptop and Desktop Computers.</p>
+            <p className="mb-5">The <span className="font-semibold">School Essential Plan</span> features the powerful <span className="font-semibold">LearnNova School Learning Support Studio</span>—a complete platform designed to enhance classroom instruction, boost learner performance, and support school revenue and profitability growth.</p>
+            <p className="mb-5">Ready to expand learning beyond the school walls? <span className="font-semibold">The Growth Connect Plan</span> include the <span className="font-semibold">LearnNova Home Learning Licenses</span>, allowing pupils/students to continue learning at their convenience—after school hours, on weekends, or during holidays—using our easy-to-use app available on Android and iOS Smartphones, Laptop and Desktop Computers.</p>
           </div>
 
         </div>
