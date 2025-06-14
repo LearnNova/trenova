@@ -22,10 +22,10 @@ const SchoolGrowth = () => {
                                 <p className='font-bold'>Install LearnNova’s Classroom Learning Support Studio on School Desktop or Laptop Computer</p>
 
                                 <p>This will equip your school with a powerful learning support solution designed to:</p>
-                                <ul className='mx-3 space-y-2 list-none' style={{ fontSize: '1em' }}>
-                                    <li><span className='mr-1'>✔</span> Boost academic performance</li>
-                                    <li><span className='mr-1'>✔</span> Improve revenue and profitability</li>
-                                    <li><span className='mr-1'>✔</span> Drive long-term school growth</li>
+                                <ul className='mx-3 space-y-2 list-none' style={{ fontSize: '1em', listStyleType: 'none' }}>
+                                    <li style={{ listStyleType: 'none'}}><span className='mr-1'>✔</span> Boost academic performance</li>
+                                    <li style={{ listStyleType: 'none'}}><span className='mr-1'>✔</span> Improve revenue and profitability</li>
+                                    <li style={{ listStyleType: 'none'}}><span className='mr-1'>✔</span> Drive long-term school growth</li>
                                 </ul>
 
                                 <p className='font-semibold my-4'>What’s included:</p>
@@ -43,7 +43,7 @@ const SchoolGrowth = () => {
                                         <p>2,400 comprehensive lessons + 8,000 Q&A practice questions</p>
                                     </li>
                                     <li>
-                                        <p className='font-semibold'>Diction & Phonetics for Elementary Schools (KG 1 to Basic 6) - </p>
+                                        <p className='font-semibold'>Diction & Phonics for Elementary Schools (KG 1 to Basic 6) - </p>
                                         <p>540 interactive lessons + 500 practice exercises</p>
                                     </li>
                                 </ul>
@@ -60,7 +60,7 @@ const SchoolGrowth = () => {
 
                             <li>
                                 <p className='font-bold'>Free Virtual Mentorship & Coaching - </p>
-                                <p>Gain access to expert-led sessions from TreNova, designed to support school leadership, growth, and performance.</p>
+                                <p>Gain access to expert-led sessions from TreNova Academy, designed to support school leadership, growth, and performance.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦150,000 per term)</p>
                             </li>
 
