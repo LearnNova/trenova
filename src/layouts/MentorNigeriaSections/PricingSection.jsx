@@ -61,7 +61,7 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📘 Plan 3: School + Home Learning Support Combo",
+    title: "📕 Plan 3: School + Home Learning Support Combo",
     price: "₦149,999 per Term",
     priceInfo: null,
     includes: [
@@ -84,29 +84,6 @@ const pricingPlans = [
       <>Ready-to-use School Growth forms and printable planning guides</>,
       <><span className="font-semibold">Priority access to technical support - </span>Includes free onboarding and installation support</>,
       <><span className="font-semibold">Referral Reward:</span> Refer another school to LearnNova and receive 20 bonus learner licenses per successful referral.</>,
-    ],
-  },
-  {
-    title: "📕 Plan 4: Lifetime Access - ₦499,999 One-Time Payment per subject",
-    price: "₦474,999 per Term",
-    priceInfo: null,
-    includes: [
-      <span style={{color: '#000000'}}>▪ 3 School Learning Studio License with access to:</span>,
-      <>✔️ Senior Secondary Mathematics,</>,
-      <>✔️ Diction & Phonetics for Elementary School</>,
-      <>✔️ E-Library (ages 3–17), and</>,
-      <>✔️ Creative & Vocational Subjects (ages 3–17)</>,
-      <span style={{color: '#000000'}}>▪ 300 Home Learning App Licenses for pupils and students</span>,
-    ],
-    bestFor: <>Ideal for large or multi-campus schools seeking full digital learning integration</>,
-    featuresTitle: 'Exclusive Bonuses',
-    features: [
-      <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
-      <>Free access to <span className="font-semibold">TreNova Academy Online Training</span></>,
-      <>Invitation to <span className="font-semibold">Virtual Mentorship & School Growth Coaching Sessions</span></>,
-      <>Dedicated support manager for your school</>,
-      <><span className="font-semibold">Referral Incentive:</span> Introduce another school to LearnNova and earn <span className="font-semibold">20 additional</span> pupils/student Home Learning Licenses at no cost.</>,
-      <><span className="font-semibold">VIP Access:</span> Got ideas? Suggest new creative or vocational skills you'd love to see added to LearnNova!</>,
     ],
   },
   {
