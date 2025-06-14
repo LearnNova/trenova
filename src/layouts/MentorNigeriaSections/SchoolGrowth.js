@@ -19,32 +19,32 @@ const SchoolGrowth = () => {
                     <div className='text-body'>
                         <ul className='space-y-4'>
                             <li>
-                                <p className='font-bold'>Install LearnNova’s Laptop and Desktop Computer Learning Support Studio</p>
+                                <p className='font-bold'>Install LearnNova’s Classroom Learning Support Studio on School Desktop or Laptop Computer</p>
 
-                                <p>Equip your school computers with a powerful desktop and laptop solution designed to:</p>
+                                <p>This will equip your school with a powerful learning support solution designed to:</p>
                                 <ul className='mx-3 space-y-2 list-none' style={{ fontSize: '1em' }}>
                                     <li><span className='mr-1'>✔</span> Boost academic performance</li>
-                                    <li><span className='mr-1'>✔</span> Improve revenue</li>
+                                    <li><span className='mr-1'>✔</span> Improve revenue and profitability</li>
                                     <li><span className='mr-1'>✔</span> Drive long-term school growth</li>
                                 </ul>
 
                                 <p className='font-semibold my-4'>What’s included:</p>
                                 <ul className='mx-3 space-y-2' style={{fontSize: '1em', listStyleType: 'disc'}}>
                                     <li>
-                                        <p className='font-semibold'>Diction & Phonetics for Elementary Schools</p>
-                                        <p>540 interactive lessons + 500 practice exercises</p>
+                                        <p className='font-semibold'>Comprehensive E-Library of Age-Appropriate Reading Books (KG 1 to SSS 3) - </p>
+                                        <p>Access more than 750+ curated books to build a strong reading culture and improve literacy across all levels</p>
                                     </li>
                                     <li>
-                                        <p className='font-semibold'>Senior Secondary Mathematics</p>
+                                        <p className='font-semibold'>Creative Life Skills Courses (For Ages 3–15) - </p>
+                                        <p>Provides more than 50 hands-on, skills-based content to nurture creativity and vocational life skills—while boosting your school’s revenue and profitability</p>
+                                    </li>
+                                    <li>
+                                        <p className='font-semibold'>Senior Secondary School Mathematics - </p>
                                         <p>2,400 comprehensive lessons + 8,000 Q&A practice questions</p>
                                     </li>
                                     <li>
-                                        <p className='font-semibold'>Digital E-Library (Primary & Secondary)</p>
-                                        <p>Access 850+ curated books to build a strong reading culture and improve literacy across all levels</p>
-                                    </li>
-                                    <li>
-                                        <p className='font-semibold'>Creative & Vocational Courses (Ages 3–17)</p>
-                                        <p>Hands-on, skills-based content to nurture creativity and life skills—while boosting your school’s revenue</p>
+                                        <p className='font-semibold'>Diction & Phonetics for Elementary Schools (KG 1 to Basic 6) - </p>
+                                        <p>540 interactive lessons + 500 practice exercises</p>
                                     </li>
                                 </ul>
                                 {/* <p className='mt-3'>Provide your pupils/students with structured, engaging content that promotes success - while increasing your school’s revenue and profitability.</p> */}
@@ -52,33 +52,33 @@ const SchoolGrowth = () => {
                             </li>
 
                             <li>
-                                <p className='font-bold'>Home Learning Access for 25–500 Pupils/Students</p>
-                                <p>Enroll your learners on the LearnNova Home Learning App—available on <span className='font-semibold'>Android and iOS Smartphones, Laptop and Desktop Computers</span>.</p>
-                                <p>Perfect for extending learning beyond the classroom with engaging, curriculum-based content.</p>
+                                <p className='font-bold'>Home Learning Access for All Categories of Pupils/Students - </p>
+                                <p>Enroll your learners on the LearnNova Home Learning Application containing the Creative  Life Skills, E-Library of Curated Reading Books, Senior Secondary School Mathematics and Diction/Phonics for Elementary School —available on Android and iOS Smartphones, Laptop and Desktop Computers.</p>
+                                <p>- Perfect for extending learning beyond the classroom with engaging, curriculum-based content.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦5,000 – ₦15,000 per learner per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>Free Virtual Mentorship & Coaching</p>
+                                <p className='font-bold'>Free Virtual Mentorship & Coaching - </p>
                                 <p>Gain access to expert-led sessions from TreNova, designed to support school leadership, growth, and performance.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦150,000 per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>Access to TreNova Academy Online Training</p>
+                                <p className='font-bold'>Access to TreNova Academy Online Training - </p>
                                 <p>Enjoy complimentary entry to a rich library of educator-focused courses, tools, and professional resources.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦100,000 per term)</p>
                             </li>
 
                             <li>
-                                <p className='font-bold'>Referral Reward Program</p>
+                                <p className='font-bold'>Referral Reward Program - </p>
                                 <p>Refer another school to LearnNova and get free enrollment for 20 additional pupils/students on the Home Learning App.</p>
                                 <p className='red-text font-semibold small-text'>(Valued at ₦100,000)</p>
                             </li>
 
                             <li>
                                 <p className='font-bold'>Influence the Future of LearnNova</p>
-                                <p>Join our partner network and propose new creative or vocational skills you'd love to see added—tailored to your school's needs.</p>
+                                <p>Join our partner network and propose new creative or vocational skills you'd love to see added — tailored to your school's needs.</p>
                                 {/* <p className='red-text font-semibold small-text'>(Valued at ₦100,000)</p> */}
                             </li>
 

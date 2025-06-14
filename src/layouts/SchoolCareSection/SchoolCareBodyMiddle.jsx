@@ -56,7 +56,7 @@ const SchoolCareBodyMiddle = () => {
             Get Industry-Leading Educational and Private School Growth Solutions:
             <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Available as a <span className="font-semibold">desktop and laptop application</span> for schools and a mobile app for home use — fully compatible with <span className="font-semibold">Android and iOS</span> Smartphones, <span className="font-semibold">Laptop and Desktop</span> computers.</p>
 
-            <ol className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
+            <ol className="mx-6 text-lg md:text-xl lg:text-3xl text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
                 Key Features:
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
@@ -79,11 +79,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">5 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">4 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦43,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦219,995 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦44,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦179,995 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -95,11 +95,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students</span>
+                        <span>Access to <span className="font-semibold">300 Home Learning Apps</span> for pupils/students</span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦399,600 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦1,000</span> per learner, per term <span className="block font-semibold">Partner Price: ₦299,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -111,70 +111,37 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">10 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">8 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
                         Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
                       </li>
                       <li>
-                        Access to <span className="font-semibold">100 Home Learning Apps</span> for pupils/students
+                        Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦999</span> per child, per term <span className="block font-semibold">Partner Price: ₦499,890 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦850</span> per child, per term <span className="block font-semibold">Partner Price: ₦659,990 per term</span>
                       </li>
                     </ul>
                   </li>
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Platinum Package:</span>
+                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Lifetime Access Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">15 School Learning Support Subjects</span></span>
+                        <span>Lifetime Access to <span className="font-semibold">3 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
-                      </li>
-
-                      <li>
-                        Access to <span className="font-semibold">100 Home Learning Apps</span>
-                      </li>
-
-                      <li>
-                        Discounted Rate: <span className="font-semibold">₦999</span> per learner, per term <span className="block font-semibold">Partner Price: ₦699,885 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦300,000</span> one-off payment per subject <span className="block font-semibold">Partner Price: ₦900,000 one-off payment</span>
                       </li>
                     </ul>
-                  </li>
-
-                  <li>
-                    <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Diamond Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
-                    </div>
-                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
-                      <li>
-                        Access to <span className="font-semibold">20 School Learning Support Subjects</span>
-                      </li>
-
-                      <li>
-                        Discounted Rate: <span className="font-semibold">₦39,950</span> per subject, per term
-                      </li>
-
-                      <li>
-                        Access to <span className="font-semibold">225 Home Learning Apps</span>
-                      </li>
-
-                      <li>
-                        Discounted Rate: <span className="font-semibold">₦890</span> per child, per term <span className="block font-semibold">Partner Price: ₦999,250 per term</span>
-                      </li>
-                    </ul>
-                  </li>
-                  
+                  </li>               
                 </ul>
               </li>
 
@@ -192,7 +159,7 @@ const SchoolCareBodyMiddle = () => {
             Brand & Ongoing Support:
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
-                Leverage LearnNova’s 15+ years of industry leadership, plus marketing and networking support to connect with private school associations.
+                Leverage LearnNova’s 15+ years of industry leadership, plus marketing and networking support to connect with private school associations.
               </li>
             </ul>
           </li>
@@ -200,7 +167,7 @@ const SchoolCareBodyMiddle = () => {
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">Partners Registration:</p>
-          <p>Take the first step toward impact and income—become a LearnNova Network Partner today for as low as <span className="font-semibold">₦219,995!</span> With our <span className="font-semibold">Bronze Package</span>, you’ll gain access to <span className="font-semibold">5 high-impact courses</span> for one full term. Join a partnership built to fuel growth, empower learners, and elevate your success!</p>
+          <p>Take the first step toward impact and income—become a LearnNova Network Partner today for as low as <span className="font-semibold">₦179,995!</span> With our Bronze Package, you’ll gain access to 4 high-impact courses for one full term. Join a partnership built to fuel growth, empower learners, and elevate your success!</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
