@@ -83,7 +83,7 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦44,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦179,995 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦54,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦219,995 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -95,11 +95,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">300 Home Learning Apps</span> for pupils/students</span>
+                        <span>Access to <span className="font-semibold">350 Home Learning Apps</span> for pupils/students</span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦1,000</span> per learner, per term <span className="block font-semibold">Partner Price: ₦299,999 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦800</span> per learner, per term <span className="block font-semibold">Partner Price: ₦289,999 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -115,14 +115,14 @@ const SchoolCareBodyMiddle = () => {
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦39,999</span> per subject, per term
+                        Discounted Rate: <span className="font-semibold">₦54,999</span> per subject, per term
                       </li>
                       <li>
-                        Access to <span className="font-semibold">400 Home Learning Apps</span> for pupils/students
+                        Access to <span className="font-semibold">300 Home Learning Apps</span> for pupils/students
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦850</span> per child, per term <span className="block font-semibold">Partner Price: ₦659,990 per term</span>
+                        Discounted Rate: <span className="font-semibold">₦800</span> per child, per term <span className="block font-semibold">Partner Price: ₦679,990 per term</span>
                       </li>
                     </ul>
                   </li>
@@ -134,11 +134,11 @@ const SchoolCareBodyMiddle = () => {
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Lifetime Access to <span className="font-semibold">3 School Learning Support Subjects</span></span>
+                        <span>Lifetime Access to <span className="font-semibold">2 School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦300,000</span> one-off payment per subject <span className="block font-semibold">Partner Price: ₦900,000 one-off payment</span>
+                        Discounted Rate: <span className="font-semibold">₦599,999</span> one-off payment per subject <span className="block font-semibold">Partner Price: ₦1,199,998 one-off payment</span>
                       </li>
                     </ul>
                   </li>               
