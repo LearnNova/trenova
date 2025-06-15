@@ -8,10 +8,10 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
-        <><span className="font-semibold">E-Library (For Elementary and Secondary Schools) – ₦49,999 per term:</span><span className="block ml-2">Access to more than 750 carefully curated reading books for KG1 to SSS3</span></>,
-        <><span className="font-semibold">Creative Life Skills Lessons & Activities – ₦49,999 per Term:</span><span className="block ml-2">Over 50 hands-on, creative, and vocational topics tailored for learners from KG 1 to JSS 3. Fun, practical, and skill-building!</span></>,
-        <><span className="font-semibold">Senior Secondary Mathematics – ₦49,999 per term:</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
-        <><span className="font-semibold">Diction & Phonics for Elementary – ₦49,999 per term:</span><span className="block ml-2">540 interactive lessons with 500 practice exercises</span></>,
+        <><span className="font-semibold">E-Library (For Elementary and Secondary Schools) – ₦74,999 per term:</span><span className="block ml-2">Access to more than 750 carefully curated reading books for KG1 to SSS3</span></>,
+        <><span className="font-semibold">Creative Life Skills Lessons & Activities – ₦74,999 per Term:</span><span className="block ml-2">Over 50 hands-on, creative, and vocational topics tailored for learners from KG 1 to JSS 3. Fun, practical, and skill-building!</span></>,
+        <><span className="font-semibold">Senior Secondary Mathematics – ₦74,999 per term:</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
+        <><span className="font-semibold">Diction & Phonics for Elementary – ₦74,999 per term:</span><span className="block ml-2">540 interactive lessons with 500 practice exercises</span></>,
       ]
     },
     includes: [
@@ -41,12 +41,12 @@ const pricingPlans = [
     priceInfoSec: {
       title: 'Per-Term Pricing:',
       lists: [
-        'One (1) Learner - ₦1,850',
-        '30 Learners -  ₦50,000',
-        '50 Learners – ₦75,000',
-        '100 Learners – ₦125,000',
-        '200 Learners – ₦199,999',
-        '300 Learners – ₦255,000',
+        'One (1) Learner - ₦1,999',
+        '30 Learners -  ₦54,999',
+        '50 Learners – ₦79,999',
+        '100 Learners – ₦149,999',
+        '200 Learners – ₦249,999',
+        '300 Learners – ₦299,999',
       ]
     },
     includes: [
@@ -67,7 +67,7 @@ const pricingPlans = [
     includes: [
       <>
         <span style={{color: '#000000'}}>▪ School Learning Support Studio License - </span>
-        <span className="mb-3">Get interactive, multimedia-rich lessons in any 3 of the following subjects:</span>
+        <span className="mb-3">Get interactive, multimedia-rich lessons in any 2 of the following subjects:</span>
         <span className="block">1. Extensive E-Library of Reading Books for KG 1 to SSS 3 - (750+ carefully curated reading books for KG 1 to SSS3)</span>
         <span className="block">2. Creative Life Skills Studies - Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</span>
         <span className="block">3. Senior Secondary Mathematics - (2,400+ comprehensive video lessons plus 8,000 questions & answers)</span>
@@ -88,7 +88,7 @@ const pricingPlans = [
   },
   {
     title: "📙 Plan 4: Lifetime Access",
-    price: "₦499,999 One-Time Payment per subject",
+    price: "₦749,999 One-Time Payment per subject",
     priceInfoPri: {
       title: '✅ Choose the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
