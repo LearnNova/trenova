@@ -15,7 +15,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>✔️ Includes the School Learning Support Studio License with engaging, multimedia lessons across core subjects.</>,
+      <span className="font-semibold">✔️ Includes the School Learning Support Studio License with engaging, multimedia lessons across core subjects.</span>,
     ],
     bestFor: <>Ideal for schools beginning their digital learning journey.</>,
     featuresTitle: 'Extra Features & Exclusive Benefits',
@@ -50,7 +50,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>✔️ Includes full access to the LearnNova Home Learning App, available on Android and iOS Smartphones, Laptop and Desktop Computers</>,
+      <span className="font-semibold">✔️ Includes full access to the LearnNova Home Learning App, available on Android and iOS Smartphones, Laptop and Desktop Computers</span>,
     ],
     bestFor: <>Extend learning to the home with flexible Home Learning Licenses</>,
     featuresTitle: 'Extra Benefits',
@@ -68,10 +68,10 @@ const pricingPlans = [
       <>
         <span style={{color: '#000000'}}>▪ School Learning Support Studio License - </span>
         <span className="mb-3">Get interactive, multimedia-rich lessons in any 2 of the following subjects:</span>
-        <span className="block">1. Extensive E-Library of Reading Books for KG 1 to SSS 3 - (750+ carefully curated reading books for KG 1 to SSS3)</span>
-        <span className="block">2. Creative Life Skills Studies - Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</span>
-        <span className="block">3. Senior Secondary Mathematics - (2,400+ comprehensive video lessons plus 8,000 questions & answers)</span>
-        <span className="block">4. Elementary School Diction & Phonics - (540 interactive lessons with 500 practice exercises)</span>
+        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>1. Extensive E-Library of Reading Books for KG 1 to SSS 3 -</span> (750+ carefully curated reading books for KG 1 to SSS3)</span>
+        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>2. Creative Life Skills Studies -</span> Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</span>
+        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>3. Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</span>
+        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>4. Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</span>
       </>,
       <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses - </span><span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</span></>,
     ],
@@ -138,7 +138,7 @@ const pricingPlans = [
     //   ]
     // },
     includes: [
-      <>✔️ Get Lifetime License to the School Learning Support Studio, with engaging multimedia lessons in any of the subjects listed below:</>,
+      <span className="font-semibold">✔️ Get Lifetime License to the School Learning Support Studio, with engaging multimedia lessons in any of the subjects listed below:</span>,
     ],
     bestFor: <>Perfect for schools that prefer a one-time payment for unlimited, lifelong use.</>,
     featuresTitle: 'Extra Features & Exclusive Benefits:',
@@ -216,7 +216,7 @@ const PricingSection = () => {
                     <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mt-8 mb-2">
                       ✅ What You Get:
                     </h4>
-                    <ul className="text-lg md:text-xl lg:text-3xl text-left mb-8 red-text font-semibold space-y-2">
+                    <ul className="text-lg md:text-xl lg:text-3xl text-left mb-8 red-text space-y-2">
                       {plan.includes.map((item, i) => (
                         <li key={i}>{item}</li>
                       ))}
