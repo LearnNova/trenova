@@ -66,14 +66,14 @@ const pricingPlans = [
     priceInfo: null,
     includes: [
       <>
-        <span style={{color: '#000000'}}>▪ School Learning Support Studio License - </span>
-        <span className="mb-3">Get interactive, multimedia-rich lessons in any 2 of the following subjects:</span>
-        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>1. Extensive E-Library of Reading Books for KG 1 to SSS 3 -</span> (750+ carefully curated reading books for KG 1 to SSS3)</span>
-        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>2. Creative Life Skills Studies -</span> Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</span>
-        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>3. Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</span>
-        <span className="block font-normal"><span className="font-semibold" style={{color: '#000000'}}>4. Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</span>
+        <span className="font-semibold" style={{color: '#000000'}}>▪ School Learning Support Studio License - </span>
+        <span className="mb-3 font-semibold">Get interactive, multimedia-rich lessons in any 2 of the following subjects:</span>
+        <span className="block font-normal"><span className="font-medium" style={{color: '#000000'}}>1. Extensive E-Library of Reading Books for KG 1 to SSS 3 -</span> (750+ carefully curated reading books for KG 1 to SSS3)</span>
+        <span className="block font-normal"><span className="font-medium" style={{color: '#000000'}}>2. Creative Life Skills Studies -</span> Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</span>
+        <span className="block font-normal"><span className="font-medium" style={{color: '#000000'}}>3. Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</span>
+        <span className="block font-normal"><span className="font-medium" style={{color: '#000000'}}>4. Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</span>
       </>,
-      <><span style={{color: '#000000'}}>▪ 35 Home Learning App Licenses - </span><span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</span></>,
+      <><span className="font-semibold" style={{color: '#000000'}}>▪ 35 Home Learning App Licenses - </span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</>,
     ],
     bestFor: <>Perfect for schools looking to boost learning outcomes, increase revenue, and grow sustainably.</>,
     featuresTitle: 'Extra Benefits:',
