@@ -69,10 +69,10 @@ const pricingPlans = [
       lists: [
         <>
           <p className="font-semibold mb-3"><span style={{color: '#000000'}}>School Learning Support Studio License -</span> Get interactive, multimedia-rich lessons in any 2 of the following subjects:</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>1. Extensive E-Library of Reading Books for KG 1 to SSS 3 -</span> (750+ carefully curated reading books for KG 1 to SSS3)</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>2. Creative Life Skills Studies -</span> Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>3. Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>4. Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</p>
+          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Extensive E-Library of Reading Books for KG 1 to SSS 3 -</span> (750+ carefully curated reading books for KG 1 to SSS3)</p>
+          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Creative Life Skills Studies -</span> Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</p>
+          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</p>
+          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</p>
         </>,
         <><span className="font-semibold" style={{color: '#000000'}}>35 Home Learning App Licenses - </span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</>,
       ]
@@ -98,9 +98,9 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Limited Offer Price:',
       lists: [
-        '* 1 Subject – ₦749,999 (One-time payment)',
-        '* 2 Subjects – ₦1,249,999 (One-time payment)',
-        '3 Subjects – ₦1,499,999 (One-time payment)',
+        <>1 Subject – <span className="font-semibold">₦749,999</span> (One-time payment)</>,
+        <>2 Subjects – <span className="font-semibold">₦1,249,999</span> (One-time payment)</>,
+        <>3 Subjects – <span className="font-semibold">₦1,499,999</span> (One-time payment)</>,
       ]
     },
     priceInfoSec: { 
