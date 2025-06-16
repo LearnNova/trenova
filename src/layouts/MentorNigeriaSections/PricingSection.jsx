@@ -8,10 +8,10 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
-        <><span className="font-semibold">E-Library (For Elementary and Secondary Schools) – ₦74,999 per term:</span><span className="block ml-2">Access to more than 750 carefully curated reading books for KG1 to SSS3</span></>,
-        <><span className="font-semibold">Creative Life Skills Lessons & Activities – ₦74,999 per Term:</span><span className="block ml-2">Over 50 hands-on, creative, and vocational topics tailored for learners from KG 1 to JSS 3. Fun, practical, and skill-building!</span></>,
-        <><span className="font-semibold">Senior Secondary Mathematics – ₦74,999 per term:</span><span className="block ml-2">2,400+ comprehensive video lessons plus 8,000 questions & answers</span></>,
-        <><span className="font-semibold">Diction & Phonics for Elementary – ₦74,999 per term:</span><span className="block ml-2">540 interactive lessons with 500 practice exercises</span></>,
+        <span className="font-semibold">E-Library of Reading Books (For KG 1 to Basic 6, JSS 1 to 3, OR SSS 1 to 3) – ₦89,999 per term</span>,
+        <span className="font-semibold">Creative Life Skills Lessons & Activities for KG 1 to Basic 6 OR JSS 1 to 3 – ₦89,999 per Term</span>,
+        <span className="font-semibold">Senior Secondary Mathematics – ₦89,999 per term</span>,
+        <span className="font-semibold">Diction & Phonics for KG 1 to Basic 5 – ₦89,999 per term</span>,
       ]
     },
     includes: [
@@ -42,11 +42,12 @@ const pricingPlans = [
       title: 'Per-Term Pricing:',
       lists: [
         'One (1) Learner - ₦1,999',
-        '30 Learners -  ₦54,999',
-        '50 Learners – ₦79,999',
-        '100 Learners – ₦149,999',
-        '200 Learners – ₦249,999',
-        '300 Learners – ₦299,999',
+        '35 Learners - ₦69,999',
+        '50 Learners – ₦94,999',
+        '100 Learners – ₦179,999',
+        '200 Learners – ₦339,999',
+        '300 Learners – ₦449,999',
+        '400 Learners -  ₦519,999',
       ]
     },
     includes: [
@@ -61,8 +62,12 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📕 Plan 3: School + Home Learning Support Combo",
-    price: "₦149,999 per Term",
+    title: "📕 Plan 3: School + Home Learning Support Combo - ₦169,999 per term",
+    price: <>
+      <p className="mb-1 font-semibold">Includes:</p>
+      <p>* Access to <span className="font-semibold">2 School Learning Support Studio Subjects</span>, PLUS</p>
+      <p>* Access for <span className="font-semibold">35 Learners on the Home Learning App</span></p>
+    </>,
     priceInfo: null,
     includes: [
       <>
