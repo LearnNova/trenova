@@ -19,7 +19,7 @@ const SchoolCareBodyMiddle = () => {
             Seamless Onboarding Program & Continuous Learning Initiative
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
               <li>
-                <span className="font-semibold">20 hour Intensive Virtual Training</span> to equip you with the skills and strategies needed to get started quickly.
+                <span className="font-semibold">Intensive Virtual Training</span> to equip you with the skills and strategies needed to get started quickly.
               </li>
               <li>
                 <span className="font-semibold">Continuous Sales & Business Growth Training Sessions</span> to keep you ahead in the education support industry with cutting-edge insights.
@@ -70,75 +70,72 @@ const SchoolCareBodyMiddle = () => {
               </li>
 
               <li>
-                Partner Distributorship Packages & Pricing
+                Distributorship Packages & Pricing
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-4">
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Bronze Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
+                      <span className="mr-1">🔹✅</span><span className="font-semibold text-orange-500">Bronze Package</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mt-2 mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Access to <span className="font-semibold">4 School Learning Support Subjects</span></span>
+                        <span>Access to <span className="font-semibold">School Learning Support Subjects</span></span>
                       </li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦54,999</span> per subject, per term <span className="block font-semibold">Partner Price: ₦219,995 per term</span>
+                        <p className="font-semibold">Partner Price:</p>
+                        <p>* <span className="font-semibold">1 Subject</span> – ₦74,999 per term</p>
+                        <p>* <span className="font-semibold">2 Subjects</span> – ₦129,999 per term</p>
+                        <p>* <span className="font-semibold">3 Subjects</span> – ₦169,999 per term</p>
                       </li>
                     </ul>
                   </li>
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
+                      <span className="mr-1">🔸✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mt-2 mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
-                      <li>
-                        <span>Access to <span className="font-semibold">350 Home Learning Apps</span> for pupils/students</span>
-                      </li>
+                      <li>Access to <span className="font-semibold">LearnNova Home Learning App</span></li>
 
                       <li>
-                        Discounted Rate: <span className="font-semibold">₦800</span> per learner, per term <span className="block font-semibold">Partner Price: ₦279,999 per term</span>
+                        <p className="font-semibold">Per-Term Pricing</p>
+                        <p>* 35 Learners – ₦59,999</p>
+                        <p>* 50 Learners – ₦79,999</p>
+                        <p>* 100 Learners – ₦149,999</p>
+                        <p>* 200 Learners – ₦259,999</p>
+                        <p>* 300 Learners – ₦359,999</p>
+                        <p>* 400 Learners - ₦399,999</p>
                       </li>
                     </ul>
                   </li>
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
+                      <span className="mr-1">🟡✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mt-2 mb-3 font-semibold'>Includes:</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
-                      <li>
-                        <span>Access to <span className="font-semibold">8 School Learning Support Subjects</span></span>
-                      </li>
+                      <li>Access to <span className="font-semibold">2 School Learning Support Studio Subjects</span>, PLUS</li>
 
-                      <li>
-                        Discounted Rate: <span className="font-semibold">₦54,999</span> per subject, per term
-                      </li>
-                      <li>
-                        Access to <span className="font-semibold">300 Home Learning Apps</span> for pupils/students
-                      </li>
+                      <li>Access for <span className="font-semibold">35</span> Learners on the <span className="font-semibold">Home Learning App</span></li>
 
-                      <li>
-                        Discounted Rate: <span className="font-semibold">₦800</span> per child, per term <span className="block font-semibold">Partner Price: ₦679,990 per term</span>
-                      </li>
+                      <li style={{listStyleType: 'none'}}><span className="font-semibold">Special Partner Price:</span> Just <span className="font-semibold">₦139,999</span> per term</li>
                     </ul>
                   </li>
 
                   <li>
                     <div>
-                      <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Lifetime Access Package:</span>
-                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>Includes:</p>
+                      <span className="mr-1">💎✅</span><span className="font-semibold text-orange-500">Lifetime Access Package:</span>
+                      <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>One-Time Payment for Lifetime Access to the School Learning Support Studio</p>
                     </div>
                     <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
-                        <span>Lifetime Access to <span className="font-semibold">2 School Learning Support Subjects</span></span>
-                      </li>
-
-                      <li>
-                        Discounted Rate: <span className="font-semibold">₦599,999</span> one-off payment per subject <span className="block font-semibold">Partner Price: ₦1,199,998 one-off payment</span>
+                        <p className="font-semibold">Limited Offer Price:</p>
+                        <p>* 1 Subject – ₦599,999</p>
+                        <p>* 2 Subjects – ₦999,999</p>
+                        <p>* 3 Subjects – ₦1,199,999</p>
                       </li>
                     </ul>
                   </li>               
@@ -153,7 +150,17 @@ const SchoolCareBodyMiddle = () => {
             </ol>
 
             {/* <p className="text-lg md:text-xl lg:text-3xl mt-3 text-white font-normal">Give schools access to <span className="font-semibold">quality learning resources</span> and <span className="font-semibold">transform the educational experience</span> in your community today!</p> */}
-          </li>    
+          </li> 
+             
+          <li>
+            🌟✅Extra Partner Privileges
+            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'none'}}>
+              <li>✔ Leverage over 15 years of LearnNova’s leadership in education technology</li>
+              <li>✔ Enjoy branding, marketing, and capability development support</li>
+              <li>✔ Connect with private school associations</li>
+              <li>✔ Build long-term impact and income</li>
+            </ul>
+          </li>
 
           <li>
             Brand & Ongoing Support:
@@ -166,13 +173,14 @@ const SchoolCareBodyMiddle = () => {
         </ul>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
-          <p className="font-semibold text-orange-500">Partners Registration:</p>
-          <p>Take the first step toward impact and income—become a LearnNova Network Partner today for as low as <span className="font-semibold">₦219,995!</span> With our Bronze Package, you’ll gain access to 4 high-impact courses for one full term. Join a partnership built to fuel growth, empower learners, and elevate your success!</p>
+          <p className="font-semibold text-orange-500">✅Partners Registration:</p>
+          <p>Start your journey as a <span className="font-semibold">LearnNova Network Partner</span> with a minimum of <span className="font-semibold">₦74,999</span> (for 1 subject under the Bronze Package).</p>
+          <p>Gain full access to a high-impact LearnNova course for one term and unlock the opportunity to grow with us.</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">Invest in Your Success</p>
-          <p>Start your journey as a <span className="font-semibold">LearnNova School Support Partner</span> and unlock all these benefits instantly.</p>
+          <p className="font-semibold italic">Start your journey as a LearnNova School Support Partner and unlock all these benefits instantly.</p>
         </div>
       </div>
 
