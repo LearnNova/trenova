@@ -14,7 +14,7 @@ const SchoolCareBodyMiddle = () => {
           As a <span className='font-semibold text-orange-500'>LearnNova School Support Business Owner</span>, you gain access to industry-leading tools, training, and resources designed to help you build a thriving and profitable business. Here’s what’s included:
         </p> */}
 
-        <ul className="list-decimal mx-7 text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-5">
+        <ul className="list-decimal text-lg md:text-xl lg:text-3xl font-bold text-orange-500 space-y-5">
           <li>
             Seamless Onboarding Program & Continuous Learning Initiative
             <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
@@ -33,7 +33,7 @@ const SchoolCareBodyMiddle = () => {
           <li>
             Expert Training & Mentorship Opportunities:
             {/* <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">A <span className="font-semibold">multi-platform learning app</span> (Android, iOS, and desktop) for students to learn at home during weekends, holidays, and after school:</p> */}
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
+            <ul className="text-lg md:text-xl lg:text-3xl font-normal text-white space-y-3" style={{listStyleType: 'circle'}}>
               <li>
                 Leverage our <span className="font-semibold">School Growth Training Platform</span> to host paid training sessions for school owners and educators. Set your own pricing and retain 100% of the revenue.
               </li>
@@ -56,7 +56,7 @@ const SchoolCareBodyMiddle = () => {
             Get Industry-Leading Educational and Private School Growth Solutions:
             <p className="text-lg md:text-xl lg:text-3xl mb-3 text-white font-normal">Enhance learning with our <span className="font-semibold">versatile, multi-platform educational system</span>, designed for both classroom and home learning. Our system provides <span className="font-semibold">comprehensive learning content</span>, engaging exercises, and structured assessments to support learners success. Available as a <span className="font-semibold">desktop and laptop application</span> for schools and a mobile app for home use — fully compatible with <span className="font-semibold">Android and iOS</span> Smartphones, <span className="font-semibold">Laptop and Desktop</span> computers.</p>
 
-            <ol className="mx-6 text-lg md:text-xl lg:text-3xl text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
+            <ol className="text-lg md:text-xl lg:text-3xl text-white font-semibold space-y-3" style={{listStyleType: 'upper-alpha'}}>
               <li>
                 Key Features:
                 <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-2">
@@ -71,13 +71,13 @@ const SchoolCareBodyMiddle = () => {
 
               <li>
                 Distributorship Packages & Pricing
-                <ul className="list-none mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white space-y-4">
+                <ul className="list-none text-lg md:text-xl lg:text-3xl font-normal text-white space-y-4">
                   <li>
                     <div>
-                      <span className="mr-1">🔹✅</span><span className="font-semibold text-orange-500">Bronze Package</span>
+                      <span>🔹✅</span><span className="font-semibold text-orange-500">Bronze Package</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mt-2 mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
                         <span>Access to <span className="font-semibold">School Learning Support Subjects</span></span>
                       </li>
@@ -96,7 +96,7 @@ const SchoolCareBodyMiddle = () => {
                       <span className="mr-1">🔸✅</span><span className="font-semibold text-orange-500">Silver Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mt-2 mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>Access to <span className="font-semibold">LearnNova Home Learning App</span></li>
 
                       <li>
@@ -113,10 +113,10 @@ const SchoolCareBodyMiddle = () => {
 
                   <li>
                     <div>
-                      <span className="mr-1">🟡✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
+                      <span>🟡✅</span><span className="font-semibold text-orange-500">Gold Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mt-2 mb-3 font-semibold'>Includes:</p>
                     </div>
-                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>Access to <span className="font-semibold">2 School Learning Support Studio Subjects</span>, PLUS</li>
 
                       <li>Access for <span className="font-semibold">35</span> Learners on the <span className="font-semibold">Home Learning App</span></li>
@@ -127,10 +127,10 @@ const SchoolCareBodyMiddle = () => {
 
                   <li>
                     <div>
-                      <span className="mr-1">💎✅</span><span className="font-semibold text-orange-500">Lifetime Access Package:</span>
+                      <span>💎✅</span><span className="font-semibold text-orange-500">Lifetime Access Package:</span>
                       <p className='text-lg md:text-xl lg:text-3xl text-white mb-3 font-semibold'>One-Time Payment for Lifetime Access to the School Learning Support Studio</p>
                     </div>
-                    <ul className="list-disc ml-4 text-lg md:text-xl lg:text-3xl text-white space-y-2">
+                    <ul className="list-disc text-lg md:text-xl lg:text-3xl text-white space-y-2">
                       <li>
                         <p className="font-semibold">Limited Offer Price:</p>
                         <p>* 1 Subject – ₦599,999</p>
@@ -154,7 +154,7 @@ const SchoolCareBodyMiddle = () => {
              
           <li>
             🌟✅Extra Partner Privileges
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'none'}}>
+            <ul className="text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'none'}}>
               <li>✔ Leverage over 15 years of LearnNova’s leadership in education technology</li>
               <li>✔ Enjoy branding, marketing, and capability development support</li>
               <li>✔ Connect with private school associations</li>
@@ -164,7 +164,7 @@ const SchoolCareBodyMiddle = () => {
 
           <li>
             Brand & Ongoing Support:
-            <ul className="mx-6 text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
+            <ul className="text-lg md:text-xl lg:text-3xl font-normal text-white" style={{listStyleType: 'circle'}}>
               <li>
                 Leverage LearnNova’s 15+ years of industry leadership, plus marketing and networking support to connect with private school associations.
               </li>
