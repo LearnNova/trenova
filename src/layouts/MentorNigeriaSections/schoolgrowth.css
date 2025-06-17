@@ -77,7 +77,6 @@ html, body {
 }
 
 .title-container {
-  background-color: var(--marker-clr-sec);
   font-size: 1em;
   display: flex;
   justify-content: space-between;
@@ -87,7 +86,6 @@ html, body {
 
 .title-container h1 {
   font-size: 2em;
-  color: var(--pri-clr);
   padding: 0.8em 2%;
 }
 

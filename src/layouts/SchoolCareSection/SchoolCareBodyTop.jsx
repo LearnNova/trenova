@@ -4,7 +4,7 @@ const SchoolCareBodyTop = () => {
 
   return (
     <section className="py-2">
-        <div className='mx-2 mb-7 p-2 border rounded-md border-gray-600 flex flex-col' style={{background: '#25242a'}}>
+        <div className='mx-2 mb-7 p-2 border rounded-md border-gray-600 flex flex-col bg-gray-400 text-white'>
             <h1 className='mb-3 text-7xl md:text-9xl lg:text-13xl font-extrabold' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>
                 Why Partner with <span className="text-orange-500">LearnNova</span>?
             </h1>
@@ -18,20 +18,8 @@ const SchoolCareBodyTop = () => {
             </p>
 
             <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Full Resale Rights</span> – Buy at LearnNova's discounted price and resell to unlimited schools at any rate you choose.
+              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Enjoy Full Resale Rights</span> – Buy at a discounted partner rate and earn more by selling to schools at your own price.
             </p>
-
-            {/* <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-semibold text-orange-500">Embrace Growth Opportunities</span> – Work with the School Support Network team to identify and seize expansion opportunities in your market.
-            </p>
-
-            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Market Your Business</span> – Use our marketing support to promote your services and attract customers.
-            </p>
-
-            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
-              <span className="mr-1">✅</span><span className="font-bold text-orange-500">Follow the System</span> – Success is built on consistency. Our <span className="font-bold">15+ year proven system</span> ensures you don’t have to start from scratch.
-            </p> */}
         </div>
         {/* <div className="mx-2 p-2 border rounded-md border-gray-600 flex flex-col items-center text-center" style={{background: '#25242a'}}>
             <h1 className='text-7xl md:text-9xl lg:text-13xl font-extrabold uppercase' style={{fontFamily: 'Big Shoulders Display, sans-serif'}}>

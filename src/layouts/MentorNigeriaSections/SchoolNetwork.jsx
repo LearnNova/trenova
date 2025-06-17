@@ -5,19 +5,31 @@ import InterestForm from './InterestForm';
 import { useParams } from 'react-router-dom';
 import PricingSection from './PricingSection';
 
+const SchoolNetwork = () => {
+    const { name } = useParams();
 
-const SchoolGrowth = () => {
-  const { name } = useParams();
   return (
     <section className='school-growth-main-container'>
         <div className='school-growth-section'>
             <div className='main-section'>
-                <div className='title-container' style={{backgroundColor: '#4151E5'}}>
-                    <div><h1 className='bold' style={{color: '#ffffff'}}>Subscribe to the LearnNova Learning Support System and Unlock These Exclusive <span className='bold yellow-text'>Benefits:</span></h1></div>
+                <div className='title-container bg-black'>
+                    <div>
+                        <h1 className='bold text-white inline-block'>Join LearnNova Partners Network: Transform Education & Build a Profitable Future.</h1>
+                        <a 
+                            className='text-lg md:text-xl lg:text-3xl font-semibold bg-orange-500 rounded-md text-white hover:bg-gray-800 shadow-md py-2 px-3 mt-3 cursor-pointer' 
+                            style={{display: 'inline-block'}}
+                            href='#getintouch3'
+                        >
+                            Enrol Now
+                        </a>
+                    </div>
                 </div>
+
                 <div className='text-body-container'>
-                    <p></p>
                     <div className='text-body'>
+                        <p className='mb-4 text-3xl md:text-5xl lg:text-7xl italic'>
+                            Join a powerful network dedicated to enhancing education and empowering schools across Nigeria while unlocking new revenue opportunities for yourself.
+                        </p>
                         <ul className='space-y-4'>
                             <li>
                                 <p className='font-bold'>Install LearnNova’s Classroom Learning Support Studio on School Desktop or Laptop Computer</p>
@@ -158,11 +170,8 @@ const SchoolGrowth = () => {
             </div>
 
         </div>
-
-        
     </section>
-    
   )
 }
 
-export default SchoolGrowth
+export default SchoolNetwork

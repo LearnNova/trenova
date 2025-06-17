@@ -12,6 +12,7 @@ const pricingPlans = [
         <>Creative Life Skills Lessons & Activities for KG 1 to Basic 6 OR JSS 1 to 3 – <span className="font-semibold">₦89,999</span> per Term</>,
         <>Senior Secondary Mathematics – <span className="font-semibold">₦89,999</span> per term</>,
         <>Diction & Phonics for KG 1 to Basic 5 – <span className="font-semibold">₦89,999</span> per term</>,
+        <span className="font-semibold mt-3 red-text">Special Rate for Any Two Subjects: ₦129,999 per term</span>,
       ]
     },
     includes: [
@@ -62,8 +63,8 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📕 Plan 3: School + Home Learning Support Combo - ₦169,999 per term",
-    price: null,
+    title: "📕 Plan 3: School + Home Learning Support Combo",
+    price: '₦169,999 per term',
     priceInfoPri: {
       title: 'Includes:',
       lists: [
@@ -78,7 +79,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>✔️ Access to <span className="font-semibold">2 School Learning Support Studio Subjects</span>, PLUS</>,
+      <>✔️ Access to <span className="font-semibold">3 School Learning Support Studio Subjects</span>, PLUS</>,
       <>✔️ Access for <span className="font-semibold">35 Learners on the Home Learning App</span></>,
     ],
     bestFor: <>Perfect for schools looking to boost learning outcomes, increase revenue, and grow sustainably.</>,
@@ -209,7 +210,7 @@ const PricingSection = () => {
                   {plan.title}
                 </h3>
                 {plan.price && (
-                  <p className="text-xl md:text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
+                  <p className="text-xl md:text-3xl lg:text-5xl font-bold red-text mb-4">
                     {plan.price}
                   </p>
                 )}

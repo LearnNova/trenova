@@ -1,9 +1,7 @@
-import SchoolCareNavbar from 'layouts/SchoolCareSection/SchoolCareNavbar';
+// import SchoolCareNavbar from 'layouts/SchoolCareSection/SchoolCareNavbar';
 import SchoolCareHeroSection from 'layouts/SchoolCareSection/SchoolCareHeroSection';
 import SchoolCareBodyTop from 'layouts/SchoolCareSection/SchoolCareBodyTop';
 import SchoolCareBodyMiddle from 'layouts/SchoolCareSection/SchoolCareBodyMiddle';
-// import SchoolCareBodyBottom from 'layouts/SchoolCareSection/SchoolCareBodyBottom';
-// import SchoolCareQuiz from 'layouts/SchoolCareSection/SchoolCareQuiz';
 import SchoolCareApplicationForm from 'layouts/SchoolCareSection/SchoolCareApplicationForm';
 import FooterSection from 'layouts/MentorNigeriaSections/footerSection';
 import { useParams } from 'react-router-dom';
@@ -12,19 +10,11 @@ const SchoolCarePage = () => {
   const { name } = useParams();
 
   return (
-    <div style={{background: '#1C1C1C', color: '#ffffff', fontFamily: 'Poppins, sans-serif'}}>
-        <SchoolCareNavbar />
+    <div style={{background: '#fdfdfd', color: '#1C1C1C', fontFamily: 'Poppins, sans-serif'}}>
+        {/* <SchoolCareNavbar /> */}
         <SchoolCareHeroSection />
         <SchoolCareBodyTop />
-        {/* <SchoolCareApplicationForm 
-          id='getintouch1'
-        /> */}
-        {/* <SchoolCareQuiz /> */}
         <SchoolCareBodyMiddle />
-        {/* <SchoolCareApplicationForm 
-          id='getintouch2'
-        /> */}
-      {/* <SchoolCareBodyBottom /> */}
       <SchoolCareApplicationForm 
           id='getintouch3'
           agentName={name}
@@ -37,6 +27,7 @@ const SchoolCarePage = () => {
       </div>
       <FooterSection firstText={'School Support Partner'} account={false} link={'https://www.learnnova.ng/schoolsupportpartner/trenova'} />
     </div>
+    // style={{ background: "#F0FBF9" }}
   )
 }
 
