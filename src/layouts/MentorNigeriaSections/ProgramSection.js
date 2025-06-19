@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './mentornigeria.css';
 
-const programSection = () => {
+const ProgramSection = () => {
     const [showOption2, setShowOption2] = useState(false);
   return (
     <div className='module-section-wrapper'>
@@ -71,4 +71,4 @@ const programSection = () => {
   )
 }
 
-export default programSection
+export default ProgramSection
