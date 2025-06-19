@@ -38,8 +38,8 @@ const ProgramSection = () => {
                 </li>
 
                 <li className='my-3'>
-                    <h2 className='font-semibold' style={{color: '#ff0000'}}>🎯 Option 2: <span onClick={()=>setShowOption2(prev => !prev)}>👉 Click Here</span></h2>
-                    {showOption2 || (<p className='font-semibold'>....</p>)}
+                    <h2 className='font-semibold' style={{color: '#ff0000'}}>🎯 Option 2: <span className='cursor-pointer text-white hover:text-orange-500' onClick={()=>setShowOption2(prev => !prev)}>👉 Click Here</span></h2>
+                    {showOption2 || (<h2 className='font-semibold'>....</h2>)}
                     {showOption2 && (
                         <>
                             <h2 className='font-semibold'>Direct Payment</h2>

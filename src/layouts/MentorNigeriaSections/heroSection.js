@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div> */}
 
             <div className='section-4'>
-                <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant – Master the Strategy, Systems, and Tools to Build a Thriving Practice.</div>
+                <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant – Master the Strategy, Systems, and Tools to Build a Thriving Practice</div>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
                 <p className='font-semibold'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
