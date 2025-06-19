@@ -6,7 +6,10 @@ const HeroSection = () => {
   return (
     <div>
         <div className='hero-sec-wrapper'>
-        <div className='hero-sec-text-1'>MentorNigeria Business Consulting Academy</div>
+            <div className='hero-sec-text-1'>
+                <h1 style={{fontSize: '1em'}}>MentorNigeria Academy</h1>
+                <p style={{fontSize: '0.65em'}} className='italic'>...Your Launchpad for School Consulting, Mentorship, and Sustainable Impact...</p>
+            </div>
         </div>
         <div className='hero-sec-info'>
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a></div>
@@ -24,7 +27,7 @@ const HeroSection = () => {
             </div> */}
 
             <div className='section-4'>
-                <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Certified Private School Business Consultant</div>
+                <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant – Master the Strategy, Systems, and Tools to Build a Thriving Practice.</div>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
                 <p className='font-semibold'><a href='#application-form-section'>👉 [Enroll Now]</a></p>

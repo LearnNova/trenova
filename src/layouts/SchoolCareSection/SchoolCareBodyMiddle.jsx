@@ -72,13 +72,13 @@ const SchoolCareBodyMiddle = () => {
             🌟✅Extra Partner Privileges
             <ul className="text-lg md:text-xl lg:text-3xl font-normal text-black" style={{listStyleType: 'none'}}>
               <li>✔ Leverage over 15 years of LearnNova’s leadership in education technology</li>
-              <li>✔ Enjoy branding, marketing, and capability development support</li>
+              <li>✔ Enjoy branding and capability development training support</li>
               <li>✔ Connect with private school associations</li>
               <li>✔ Build long-term impact and income</li>
             </ul>
           </li>
 
-          <li>
+          <li style={{listStyleType: 'none'}}>
              📌 Brand & Ongoing Support:
             <p className="text-lg md:text-xl lg:text-3xl font-normal text-black">Leverage LearnNova’s 15+ years of industry leadership, plus marketing and networking support to connect with private school associations.</p>
           </li>
@@ -87,7 +87,6 @@ const SchoolCareBodyMiddle = () => {
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">✅Partners Registration:</p>
           <p>🔹 Start your journey as a <span className="font-semibold">LearnNova Network Partner</span> with a minimum of <span className="font-semibold">₦74,999</span> (for 1 subject under the Bronze Package).</p>
-          <p>🔹 Get full access to a high-impact LearnNova course for one term—and explore opportunities to grow with us.</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
