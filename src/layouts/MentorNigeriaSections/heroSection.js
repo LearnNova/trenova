@@ -82,7 +82,7 @@ const HeroSection = () => {
                 </span> */}
                 <span className='what-you-learn-info-list-container'>
                     <ul className='font-semibold'>
-                        <li style={{listStyle: 'none'}}>✅ 6 Expert Training Modules</li>
+                        <li style={{listStyle: 'none'}}>✅ 8 Expert Training Modules</li>
                         <li style={{listStyle: 'none'}}>✅ 20+ Done-for-You Manuals, Templates & Checklists</li>
                         <li style={{listStyle: 'none'}}>✅ Virtual Live Training and Mentorship Sessions</li>
                         <li style={{listStyle: 'none'}}>✅ Access to TreNova Academy Resources</li>
