@@ -19,7 +19,7 @@ const SchoolCarePackages = () => {
                     <div className="w-full">
                         <p className="font-semibold">🎯 Partner Price:</p>
                         <p>🔹 <span className="font-semibold">1 Subject</span> – ₦69,999 per term</p>
-                        <p>🔹 <span className="font-semibold">2 Subjects</span> – ₦99,999 per term</p>
+                        <p>🔹 <span className="font-semibold">2 Subjects</span> – ₦74,999 per term</p>
                     </div>
                 </div>
             )}
