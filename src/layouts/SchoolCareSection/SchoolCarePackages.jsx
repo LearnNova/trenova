@@ -80,8 +80,7 @@ const SchoolCarePackages = () => {
                         <p className='font-semibold'>✔️ Includes:</p>
                         <p>Access to <span className="font-semibold">3 School Learning Support Studio Subjects</span></p>
                         <p>Access for <span className="font-semibold">50</span> learners on the <span className="font-semibold">Home Learning App</span></p>
-                        <p>Access to Virtual School Growth Mentorship Masterclasses and Strategic Growth Toolkits, specifically designed for School Owners and Administrators</p>
-                        <p>Add additional learners to the Home Learning App for just <span className='font-semibold'>₦850</span> per learner each term or <span className='font-semibold'>₦1,699</span> per learner annually (3 terms)</p>
+                        <p>Empower your teachers with access to virtual Continuous Professional Development (CPD) training and an innovation hub for modern classroom strategies</p>
                         <p>Gain full access to TreNova Academy’s online training and learning portal</p>
                     </div>
                     <div className="w-full">
