@@ -86,7 +86,7 @@ const SchoolCareBodyMiddle = () => {
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
           <p className="font-semibold text-orange-500">✅Partners Registration:</p>
-          <p>🔹 Start your journey as a <span className="font-semibold">LearnNova Network Partner</span> with a minimum of <span className="font-semibold">₦74,999</span> (for 1 subject under the Bronze Package).</p>
+          <p>🔹 Start your journey as a <span className="font-semibold">LearnNova Network Partner</span> with a minimum of <span className="font-semibold">₦74,999</span> (for 2 subjects under the Bronze Package).</p>
         </div>
 
         <div className='my-4 text-lg md:text-xl lg:text-3xl'>
