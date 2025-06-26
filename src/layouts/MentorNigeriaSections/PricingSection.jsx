@@ -64,7 +64,7 @@ const pricingPlans = [
   },
   {
     title: "📕 Plan 3: School + Home Learning Support Combo",
-    price: '₦169,999 per term',
+    price: <><span className="block">- Termly Fee: ₦199,999 per term</span><span className="bold mt-2">- Annual Fee: ₦499,999 (3 Terms)</span></>,
     priceInfoPri: {
       title: 'Includes:',
       lists: [
@@ -79,10 +79,14 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>✔️ Access to <span className="font-semibold">3 School Learning Support Studio Subjects</span>, PLUS</>,
-      <>✔️ Access for <span className="font-semibold">35 Learners on the Home Learning App</span></>,
+      <>✔️ Access to 3 School Learning Support Studio Subjects</>,
+      <>✔️ Access for 50 Learners on the Home Learning App</>,
+      <>✔️ Empower your teachers with access to virtual Continuous Professional Development (CPD) training and an innovation hub for modern classroom strategies</>,
+      <>✔️ Access to Virtual School Growth Mentorship Masterclasses and Strategic Growth Toolkits, specifically designed for School Owners and Administrators.</>,
+      <>✔️ Add additional learners to the Home Learning App for just ₦999 per learner each term or ₦1,999 per learner annually (3 terms)</>,
+      <>✔️ Gain full access to TreNova Academy’s online training and learning portal</>,
     ],
-    bestFor: <>Perfect for schools looking to boost learning outcomes, increase revenue, and grow sustainably.</>,
+    bestFor: <>Ideal for schools aiming to improve learning outcomes, increase revenue, and achieve sustainable growth.</>,
     featuresTitle: 'Extra Benefits:',
     features: [
       <>Enjoy offline access after the initial setup</>,
