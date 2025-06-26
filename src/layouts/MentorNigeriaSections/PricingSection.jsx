@@ -43,7 +43,6 @@ const pricingPlans = [
       title: 'Per-Term Pricing:',
       lists: [
         'One (1) Learner - ₦1,999',
-        '35 Learners - ₦69,999',
         '50 Learners – ₦94,999',
         '100 Learners – ₦179,999',
         '200 Learners – ₦339,999',
@@ -75,24 +74,21 @@ const pricingPlans = [
           <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</p>
           <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</p>
         </>,
-        <><span className="font-semibold" style={{color: '#000000'}}>35 Home Learning App Licenses - </span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</>,
+        <><span className="font-semibold mt-3" style={{color: '#000000'}}>50 Home Learning App Licenses - </span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</>,
       ]
     },
     includes: [
       <>✔️ Access to 3 School Learning Support Studio Subjects</>,
-      <>✔️ Access for 50 Learners on the Home Learning App</>,
+      <>✔️ Access for <span className="font-semibold">50 Learners</span> on the Home Learning App</>,
       <>✔️ Empower your teachers with access to virtual Continuous Professional Development (CPD) training and an innovation hub for modern classroom strategies</>,
       <>✔️ Access to Virtual School Growth Mentorship Masterclasses and Strategic Growth Toolkits, specifically designed for School Owners and Administrators.</>,
-      <>✔️ Add additional learners to the Home Learning App for just ₦999 per learner each term or ₦1,999 per learner annually (3 terms)</>,
+      <>✔️ Add additional learners to the Home Learning App for just <span className="font-semibold">₦999</span> per learner each term or <span className="font-semibold">₦1,999</span> per learner annually (3 terms)</>,
       <>✔️ Gain full access to TreNova Academy’s online training and learning portal</>,
     ],
     bestFor: <>Ideal for schools aiming to improve learning outcomes, increase revenue, and achieve sustainable growth.</>,
     featuresTitle: 'Extra Benefits:',
     features: [
       <>Enjoy offline access after the initial setup</>,
-      <><span className="font-semibold">FREE</span> annual invitation to TreNova Academy's School Growth Virtual Training!</>,
-      <><span className="font-semibold">FREE</span> access to TreNova Academy Online Training Portal</>,
-      <>Ready-to-use School Growth forms and printable planning guides</>,
       <><span className="font-semibold">Priority access to technical support - </span>Includes free onboarding and installation support</>,
       <><span className="font-semibold">Referral Reward:</span> Refer another school to LearnNova and receive 20 bonus learner licenses per successful referral.</>,
     ],
@@ -103,9 +99,9 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Limited Offer Price:',
       lists: [
-        <>1 Subject – <span className="font-semibold">₦749,999</span> (One-time payment)</>,
-        <>2 Subjects – <span className="font-semibold">₦1,249,999</span> (One-time payment)</>,
-        <>3 Subjects – <span className="font-semibold">₦1,499,999</span> (One-time payment)</>,
+        <>One (1) Subject – <span className="font-semibold">₦749,999</span> (One-time payment)</>,
+        <>Two (2) Subjects – <span className="font-semibold">₦1,249,999</span> (One-time payment)</>,
+        <>Three (3) Subjects – <span className="font-semibold">₦1,499,999</span> (One-time payment)</>,
       ]
     },
     priceInfoSec: { 
