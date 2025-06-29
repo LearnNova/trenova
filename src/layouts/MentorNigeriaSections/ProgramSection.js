@@ -21,20 +21,20 @@ const ProgramSection = () => {
                     <ul className='space-y-3 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                         <li>Kick-start your consulting journey with a <span className='font-semibold'>one-time, non-refundable registration fee of ₦100,000</span>. This unlocks immediate access to <span className='font-semibold'>Modules 1 and 2</span> of our premium training program.</li>
                         <li>
-                            <p className='font-semibold'>💼 Start Earning Immediately:</p>
-                            <p>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>18.5% commission</span> on every successful referral.</p>
+                            <p className='font-semibold' style={{fontSize: '1em'}}>💼 Start Earning Immediately:</p>
+                            <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>18.5% commission</span> on every successful referral.</p>
                         </li>
                         <li className='font-semibold'>🔓 How to Unlock the Full Training Program (Without Extra Cost):</li>
                         <li>
-                            <p>✅ Earn <span className='font-semibold'>₦49,999 in referral commissions</span> (approx. 3–4 sales) to unlock <span className='font-semibold'>Modules 3 to 5</span></p>
-                            <p>✅ Earn another <span className='font-semibold'>₦49,999</span> in commissions to unlock <span className='font-semibold'>Modules 6 to 8</span></p>
-                            <p>🎁 <span className='font-semibold'>Bonus:</span> Unlock <span className='font-semibold'>Module 9 completely free</span> if all previous modules are accessed within <span className='font-semibold'>4 months</span> of your initial registration</p>
+                            <p style={{fontSize: '1em'}}>✅ Earn <span className='font-semibold'>₦49,999 in referral commissions</span> (approx. 3–4 sales) to unlock <span className='font-semibold'>Modules 3 to 5</span></p>
+                            <p style={{fontSize: '1em'}}>✅ Earn another <span className='font-semibold'>₦49,999</span> in commissions to unlock <span className='font-semibold'>Modules 6 to 8</span></p>
+                            <p style={{fontSize: '1em'}}>🎁 <span className='font-semibold'>Bonus:</span> Unlock <span className='font-semibold'>Module 9 completely free</span> if all previous modules are accessed within <span className='font-semibold'>4 months</span> of your initial registration</p>
                         </li>
                         <li className='font-semibold'>📊 Potential Rewards:</li>
                         <li>
-                            <p>* Earn over <span className='font-semibold'>₦160,000 in commissions</span> by referring just 6–7 schools</p>
-                            <p>* Unlock the entire training without additional payments</p>
-                            <p>* Build a <span className='font-semibold'>sustainable consulting income stream</span> while learning</p>
+                            <p style={{fontSize: '1em'}}>* Earn over <span className='font-semibold'>₦160,000 in commissions</span> by referring just 6–7 schools</p>
+                            <p style={{fontSize: '1em'}}>* Unlock the entire training without additional payments</p>
+                            <p style={{fontSize: '1em'}}>* Build a <span className='font-semibold'>sustainable consulting income stream</span> while learning</p>
                         </li>
                     </ul>
 
@@ -63,14 +63,14 @@ const ProgramSection = () => {
                             <ul className='space-y-3 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li>Prefer a more flexible approach? You can advance at your own pace by enrolling in each training module for just <span className='font-semibold'>₦59,999 per module</span>.</li>
                                 <li>
-                                    <p className='font-semibold'>💼 Best Value: All-Access Career Package</p>
-                                    <p>Make a smart investment in your future with a <span className='font-semibold'>one-time payment of ₦399,999</span> — and unlock:</p>
+                                    <p className='font-semibold' style={{fontSize: '1em'}}>💼 Best Value: All-Access Career Package</p>
+                                    <p style={{fontSize: '1em'}}>Make a smart investment in your future with a <span className='font-semibold'>one-time payment of ₦399,999</span> — and unlock:</p>
                                 </li>
                                 <li>
-                                    <p>✅ <span className='font-semibold'>Full access to Modules 1–8</span> (Save ₦79,993 compared to paying per module)</p>
-                                    <p className='font-semibold'>✅ Complimentary access to Module 9</p>
-                                    <p>✅ <span className='font-semibold'>Exclusive bonus resources</span> — including customizable consulting templates, live expert Q\&A sessions, and certificate of completion</p>
-                                    <p className='font-semibold'>✅ Priority support and alumni access</p>
+                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Full access to Modules 1–8</span> (Save ₦79,993 compared to paying per module)</p>
+                                    <p className='font-semibold' style={{fontSize: '1em'}}>✅ Complimentary access to Module 9</p>
+                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Exclusive bonus resources</span> — including customizable consulting templates, live expert Q\&A sessions, and certificate of completion</p>
+                                    <p className='font-semibold' style={{fontSize: '1em'}}>✅ Priority support and alumni access</p>
                                 </li>
                             </ul>
 
@@ -92,19 +92,6 @@ const ProgramSection = () => {
             </ul>
         </div>
 
-        <div className='line-breaker'></div>  
-
-        <div className='module-text-box'>
-            <h1 className='highlighter'>Program Snapshot</h1>
-            <ul className='list-disc ml-3 module-text-box__list-box'>
-                <li><span className='font-semibold'>Duration:</span> 12 to 16 Weeks</li>
-                <li><span className='font-semibold'>Format:</span> Self-paced detailed lesson notes with videos</li>
-                <li><span className='font-semibold'>Live Training:</span> Virtual sessions with expert coaching, mentorship, and project evaluations.</li>
-                <li><span className='font-semibold'>Certification:</span> Trusted School Business Consultant (upon full completion)</li>
-            </ul>
-        </div>
-
-        {/* <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a> </div> */}
         <div className='line-breaker'></div>
     </div>
   )
