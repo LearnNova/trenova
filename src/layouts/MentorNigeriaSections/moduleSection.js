@@ -13,7 +13,26 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-        <div className='module-title'>Curriculum Overview</div>
+            <div className='module-title'>Curriculum Outline for a School Consulting Training & Mentorship Program</div>
+
+            <div className='module-text-box space-y-3'>
+                <p className='italic'>— Focused on equipping consultants to help new or struggling private schools grow enrollment, improve revenue, and strengthen operations.</p>
+                <p>🎓School Consulting & Mentorship Accelerator Program</p>
+                <div>
+                    <p><span className='font-semibold'>Program Duration:</span> 10–12 weeks</p>
+                    <p><span className='font-semibold'>Format:</span> Blended learning (online modules + live sessions + mentorship + project work)</p>
+                    <p>Ideal Participants:</p>
+                </div>
+                {/* <p><span className='highlighter'>3 - 4 Months</span> (Flexible schedule with 1 - 2 sessions per week).</p> */}
+                <ul className='list-none module-text-box__list-box'>
+                    <li>🎁 <span className='font-semibold'>Access</span> to our Consultant Resource Library</li>
+                    <li className='font-semibold'>🎁 Live Questions & Answers Sessions</li>
+                    <li>🎁 <span className='font-semibold'>Peer Support Forum</span> and Professional Community</li>
+                    <li>🎁<span className='font-semibold'>Graduation Bonus:</span> Actionable Strategies to Kickstart Your Income Immediately After Graduation</li>
+                    <li>🎁 <span className='font-semibold'>Certification Badge</span> for LinkedIn and your resume</li>
+                </ul>
+            </div>
+
             <div className='module-row'>
                 <div className='module-info'>
                     <h3 className='highlighter'>🔹 Module 1: Foundations of Private School Consulting</h3>
