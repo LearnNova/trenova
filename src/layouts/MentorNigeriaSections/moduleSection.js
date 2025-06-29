@@ -17,7 +17,7 @@ const ModuleSection = () => {
 
             <div className='module-text-box space-y-4'>
                 <p className='italic'>— Focused on equipping consultants to help new or struggling private schools grow enrollment, improve revenue, and strengthen operations.</p>
-                <h2 className='font-semibold' style={{fontSize: '1.2em'}}>🎓School Consulting & Mentorship Accelerator Program</h2>
+                <h2 className='font-semibold' style={{fontSize: '1em'}}>🎓School Consulting & Mentorship Accelerator Program</h2>
                 <div>
                     <p><span className='font-semibold'>Program Duration:</span> 10–12 weeks</p>
                     <p><span className='font-semibold'>Format:</span> Blended learning (online modules + live sessions + mentorship + project work)</p>
@@ -71,7 +71,7 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 2: School  Makeover and Decoration Advisory Service</h3>
+                    <h3 className='highlighter'>🔶 Module 2: School Makeover and Decoration Advisory Service</h3>
                     {modulecollapse !== 2 && 
                         <p className="three-dot">...</p>
                     }
@@ -105,7 +105,7 @@ const ModuleSection = () => {
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 3: Starting a Private School</h3>
+                    <h3 className='highlighter'>🔶 Module 3: Starting or Rescuing a School — The Consultant’s Role</h3>
                    {modulecollapse !== 3 && 
                     <p className="three-dot">...</p>
                     }
@@ -115,13 +115,21 @@ const ModuleSection = () => {
                             <p className='mb-4'>Master the fundamentals of launching a new school.</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
+                                <li>Startup school advisory: Market feasibility, business model, and startup planning</li>
+                                <li>Helping struggling schools: Identifying failing points</li>
+                                <li>Designing school launch or turnaround strategies</li>
                                 <li>Curriculum Design</li>
                                 <li>Assessment Systems</li>
                                 <li>Teacher Recruitment & Training</li>
                                 <li>Business Plan Template</li>
                                 <li>Curriculum Mapping Tool</li>
                                 <li>Staffing & Facilities Checklist</li>
-                            </ul> 
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>Startup Advisory Toolkit</li>
+                                <li>Turnaround Strategy Template</li>
+                            </ul>
                         </div>
                     }
 
@@ -136,25 +144,32 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 4: Effective School Management</h3>
+                    <h3 className='highlighter'>🔶 Module 4: Enrollment Growth Strategy & Sustainability</h3>
                    {modulecollapse !== 4 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 4 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Establish efficient systems and operations for success.</p>
+                            <p className='mb-4'>Accelerate enrollment and scale school impact.</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
-                                <li>Brand Positioning</li>
+                                <li>Diagnosing enrollment gaps</li>
+                                <li>Branding and brand positioning</li>
+                                <li>Messaging and parent trust-building</li>
+                                <li>Community outreach and lead generation systems</li>
+                                <li>Admissions funnel design and conversion strategies</li>
+                                <li>Risk Management</li>
+                                <li>Marketing Calendar</li>
+                                <li>Competitor Analysis Tools</li>
                                 <li>Enrollment Campaigns</li>
                                 <li>Parent Engagement</li>
-                                <li>Policy Development</li>
-                                <li>School Management Systems</li>
-                                <li>Financial Planning Toolkit</li>
-                                <li>Academic Calendar Generator</li>
-                                <li>School Policy Templates</li>
-                            </ul> 
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>Enrollment Growth Campaign Plan</li>
+                                <li>Parent Engagement Scripts</li>
+                            </ul>
                         </div>
                     }
 
@@ -170,26 +185,31 @@ const ModuleSection = () => {
             </div>
 
             <div className='module-row'>
+
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 5: School Growth & Sustainability</h3>
+                    <h3 className='highlighter'>🔶 Module 5: School Revenue and Profitability Optimization</h3>
                    {modulecollapse !== 5 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 5 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Accelerate enrollment, revenue and scale school impact.</p>
+                            <p className='mb-4'>Accelerate revenue and improve profitability.</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
-                                <li>Risk Management</li>
+                                <li>Identifying revenue leaks and pricing problems</li>
+                                <li>School fee modeling and income projection</li>
+                                <li>Monetizing non-tuition revenue sources (e.g., clubs, services, afterschool programs)</li>
+                                <li>Running lean and scaling profitably</li>
                                 <li>Fee Structure & Discount Policies</li>
                                 <li>Revenue Diversification</li>
-                                <li>Strategic Planning</li>
-                                <li>Performance Evaluation</li>
-                                <li>Marketing Calendar</li>
                                 <li>School Growth Plan Template</li>
-                                <li>Competitor Analysis Tools</li>
-                            </ul> 
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>Revenue Optimization Report</li>
+                                <li>Fee Restructuring Guide</li>
+                            </ul>
                         </div>
                     }
 
@@ -204,23 +224,32 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 6: How to Run Your Consulting Business:</h3>
+                    <h3 className='highlighter'>🔶 Module 6: Effective School Management, Operational Systems & School Structure</h3>
                    {modulecollapse !== 6 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 6 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Developing Strategies for Your Client</p>
-                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
+                            <p className='mb-4'>Establish efficient systems and operations for success.</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
                             <ul className="pl-5">
-                                <li>Principles and situation variables</li>
-                                <li>Integrating the principles</li>
-                                <li>Apply the principles scientifically</li>
-                                <li>Getting organised and getting the job done</li>
-                                <li>Importance of ethics in consulting</li>
-                                <li>Typical problems pertaining to ethics in consulting</li>
-                            </ul> 
+                                <li>Designing effective school organizational structures</li>
+                                <li>Policy creation, SOPs, and staff role clarity</li>
+                                <li>Staff recruitment, retention, and evaluation frameworks</li>
+                                <li>Time-table and calendar alignment with strategic priorities</li>
+                                <li>Policy Development</li>
+                                <li>School Management Systems</li>
+                                <li>School Policy Templates</li>
+                                <li>Strategic Planning</li>
+                                <li>Performance Evaluation</li>
+                                <li>Academic Calendar Generator</li>
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>SOP Templates Pack</li>
+                                <li>School Staff Management Guide</li>
+                            </ul>
                         </div>
                     }
 
@@ -233,26 +262,31 @@ const ModuleSection = () => {
                         </button>
                     }
                 </div>
+  
             </div>
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 7: Consultant’s Toolkit & Training for Capability Development</h3>
+                    <h3 className='highlighter'>🔶 Module 7: Financial Management for School Owners</h3>
                    {modulecollapse !== 7 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 7 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Deliver powerful training and consulting solutions with confidence.</p>
+                            <p className='mb-4'>Developing Strategies for Money Management.</p>
                             <p className='mb-2 font-semibold'>What You’ll Learn:</p>
                             <ul className="pl-5">
-                                <li>Leadership Transition</li>
-                                <li>School Turnaround Projects</li>
-                                <li>Using training as a tool for client acquisition and retention</li>
-                                <li>Ready-to-edit proposals and client intake forms</li>
-                                <li>Recommended tools (Trello, Google Workspace, etc.)</li>
-                            </ul> 
+                                <li>Budgeting, forecasting, and cashflow strategies</li>
+                                <li>Helping owners understand profit margins and sustainability</li>
+                                <li>Tools for financial diagnostics and reporting</li>
+                                <li>Financial Planning Toolkit</li>
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>School Finance Toolkit</li>
+                                <li>Budgeting Spreadsheet Templates</li>
+                            </ul>
                         </div>
                     }
 
@@ -267,20 +301,31 @@ const ModuleSection = () => {
                 </div>
 
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔹 Module 8: Practicum & Mentorship</h3>
+                    <h3 className='highlighter'>🔶 Module 8: Digital Integration, E-Learning Strategy and How to Run Your Consulting Business:</h3>
                    {modulecollapse !== 8 && 
                     <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 8 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Apply your skills through a real-world or simulated project.</p>
-                            <p className='mb-2 font-semibold'>Resources Included:</p>
+                            <p className='mb-4'>Developing Strategies for Your Client</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
                             <ul className="pl-5">
-                                <li>Practicum Workbook</li>
-                                <li>Evaluation Rubrics</li>
-                                <li>Final Report Templates</li>
-                            </ul> 
+                                <li>Recommending affordable edtech tools</li>
+                                <li>Creating hybrid learning models</li>
+                                <li>Supporting schools to use digital tools to increase value and differentiation</li>
+                                <li>Principles and situation variables</li>
+                                <li>Integrating the principles</li>
+                                <li>Apply the principles scientifically</li>
+                                <li>Getting organised and getting the job done</li>
+                                <li>Importance of ethics in consulting</li>
+                                <li>Typical problems pertaining to ethics in consulting</li>
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>Digital Audit Tool</li>
+                                <li>School Tech Integration Guide</li>
+                            </ul>
                         </div>
                     }
 
@@ -295,19 +340,95 @@ const ModuleSection = () => {
                 </div>
             </div>
 
+            <div className='module-row'>
+                <div className='module-info'>
+                    <h3 className='highlighter'>🔶 Module 9: Consulting Sales, Execution, Client Success, Consultant’s Toolkit & Training for Capability Development</h3>
+                   {modulecollapse !== 9 && 
+                    <p className="three-dot">...</p>
+                    }
+
+                    {modulecollapse === 9 &&
+                        <div className='long-text'>
+                            <p className='mb-4'>Deliver powerful sales training and consulting solutions with confidence.</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
+                            <ul className="pl-5">
+                                <li>How to find and close school clients</li>
+                                <li>Pricing school consulting packages</li>
+                                <li>Conducting discovery meetings and diagnostic audits</li>
+                                <li>Delivering value and managing projects</li>
+                                <li>Client retention and follow-up</li>
+                                <li>Leadership Transition</li>
+                                <li>School Turnaround Projects</li>
+                                <li>Using training as a tool for client acquisition and retention</li>
+                                <li>Ready-to-edit proposals and client intake forms</li>
+                                <li>Recommended tools (Trello, Google Workspace, etc.)</li>
+                            </ul>
+                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <ul className="pl-5">
+                                <li>Proposal and Pricing Templates</li>
+                                <li>Consulting Delivery Checklist</li>
+                            </ul>
+                        </div>
+                    }
+
+                    {modulecollapse === 9 ? 
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
+                            Read Less
+                        </button> :
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(9)}>
+                            Read More
+                        </button>
+                    }
+                </div>
+
+                <div className='module-info'>
+                    <h3 className='highlighter'>🔶 Capstone: Real-World School Growth Consulting Project, Practicum & Mentorship</h3>
+                   {modulecollapse !== 10 && 
+                    <p className="three-dot">...</p>
+                    }
+
+                    {modulecollapse === 10 &&
+                        <div className='long-text'>
+                            <p className='mb-4'>Apply your skills through a real-world or simulated project.</p>
+                            <p className='mb-2 font-semibold'>Essential Extras for Your Success</p>
+                            <ul className="pl-5 mb-1">
+                                <li>Participants must:</li>
+                            </ul>
+                            <div className='pl-6'>
+                                <p>1. Consult for a real school (startup or existing)</p>
+                                <p>2. Submit a comprehensive growth proposal and strategy plan</p>
+                                <p>3. Present results and get feedback from mentors</p>
+                                <p>4. Submit Capstone Report & Deliver Presentation</p>
+                                <p>5. Make Consultant Portfolio Entry</p>
+                            </div>
+                        </div>
+                    }
+
+                    {modulecollapse === 10 ? 
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(0)}>
+                            Read Less
+                        </button> :
+                        <button className='read-more-btn' onClick={() => setModuleCollapse(10)}>
+                            Read More
+                        </button>
+                    }
+                </div>
+            </div>
+
             <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>👉 Apply Now</span> to Get Started!</a> </div>
 
             <div className='line-breaker'></div>
 
             <div className='module-text-box'>
-                <h1 className='highlighter'>Bonus Features</h1>
-                {/* <p><span className='highlighter'>3 - 4 Months</span> (Flexible schedule with 1 - 2 sessions per week).</p> */}
+                <h1 className='highlighter'>Bonus Features & Program Support Elements</h1>
                 <ul className='list-none module-text-box__list-box'>
                     <li>🎁 <span className='font-semibold'>Access</span> to our Consultant Resource Library</li>
-                    <li className='font-semibold'>🎁 Live Questions & Answers Sessions</li>
+                    <li className='font-semibold'>🎁 Weekly live mentoring Q&A sessions</li>
                     <li>🎁 <span className='font-semibold'>Peer Support Forum</span> and Professional Community</li>
+                    <li>🎁 Access to partner tool and digital products</li>
+                    <li>🎁 Dedicated community platform (WhatsApp)</li>
                     <li>🎁<span className='font-semibold'>Graduation Bonus:</span> Actionable Strategies to Kickstart Your Income Immediately After Graduation</li>
-                    <li>🎁 <span className='font-semibold'>Certification Badge</span> for LinkedIn and your resume</li>
+                    <li>🎁 Certification and listing in School Consultant Directory</li>
                 </ul>
             </div>
 
