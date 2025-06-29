@@ -18,7 +18,7 @@ const ProgramSection = () => {
 
                 <li className='my-3'>
                     <h2 className='font-semibold mb-3'><span style={{color: '#ff0000'}}>🎯 Option 1:</span> Earn While You Learn – Build Skills While Making Money</h2>
-                    <ul className='space-y-4 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
+                    <ul className='space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                         <li>Kick-start your consulting journey with a <span className='font-semibold'>one-time, non-refundable registration fee of ₦100,000</span>. This unlocks immediate access to <span className='font-semibold'>Modules 1 and 2</span> of our premium training program.</li>
                         <li>
                             <p className='font-semibold' style={{fontSize: '1em'}}>💼 Start Earning Immediately:</p>
@@ -60,7 +60,7 @@ const ProgramSection = () => {
                     {showOption2 && (
                         <>
                             <h2 className='font-semibold mb-3'>Direct Payment Plan – Pay Your Way to the Top</h2>
-                            <ul className='space-y-4 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
+                            <ul className='space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li>Prefer a more flexible approach? You can advance at your own pace by enrolling in each training module for just <span className='font-semibold'>₦59,999 per module</span>.</li>
                                 <li>
                                     <p className='font-semibold' style={{fontSize: '1em'}}>💼 Best Value: All-Access Career Package</p>

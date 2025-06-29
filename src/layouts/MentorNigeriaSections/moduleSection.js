@@ -17,7 +17,7 @@ const ModuleSection = () => {
 
             <div className='module-text-box space-y-4'>
                 <p className='italic'>— Focused on equipping consultants to help new or struggling private schools grow enrollment, improve revenue, and strengthen operations.</p>
-                <h2 className='font-semibold' style={{fontSize: '1em'}}>🎓School Consulting & Mentorship Accelerator Program</h2>
+                <p className='font-semibold'>🎓School Consulting & Mentorship Accelerator Program</p>
                 <div>
                     <p><span className='font-semibold'>Program Duration:</span> 10–12 weeks</p>
                     <p><span className='font-semibold'>Format:</span> Blended learning (online modules + live sessions + mentorship + project work)</p>

@@ -1,4 +1,4 @@
-import { list } from "postcss";
+// import { list } from "postcss";
 import React, { useState } from "react";
 
 const pricingPlans = [
@@ -8,11 +8,18 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
-        <>E-Library of Reading Books (For KG 1 to Basic 6, JSS 1 to 3, OR SSS 1 to 3) – <span className="font-semibold">₦89,999</span> per term</>,
-        <>Creative Life Skills Lessons & Activities for KG 1 to Basic 6 OR JSS 1 to 3 – <span className="font-semibold">₦89,999</span> per Term</>,
-        <>Senior Secondary Mathematics – <span className="font-semibold">₦89,999</span> per term</>,
-        <>Diction & Phonics for KG 1 to Basic 5 – <span className="font-semibold">₦89,999</span> per term</>,
-        <span className="font-semibold mt-3 red-text">Special Rate for Any Two Subjects: ₦129,999 per term</span>,
+        <>E-Library of Reading Books (For KG 1 to Basic 6, JSS 1 to 3, OR SSS 1 to 3)</>,
+        <>Creative Life Skills Lessons & Activities for KG 1 to Basic 6 OR JSS 1 to 3</>,
+        <>Senior Secondary Mathematics</>,
+        <>Diction & Phonics for KG 1 to Basic 5</>,
+      ]
+    },
+    priceInfoSec: {
+      title: 'Per-Term Plans:',
+      lists: [
+        'One (1) Subject - ₦79,999',
+        'Two (2) Subjects – ₦129,999',
+        'Three (3) Subjects – ₦149,999',
       ]
     },
     includes: [
@@ -40,7 +47,7 @@ const pricingPlans = [
       ]
     },
     priceInfoSec: {
-      title: 'Per-Term Pricing:',
+      title: 'Per-Term Plans:',
       lists: [
         'One (1) Learner - ₦1,999',
         '50 Learners – ₦94,999',
