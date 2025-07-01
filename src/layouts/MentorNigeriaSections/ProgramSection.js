@@ -17,22 +17,22 @@ const ProgramSection = () => {
             <ul className='module-text-box__list-box'>
 
                 <li className='my-3'>
-                    <h2 className='font-semibold mb-3'><span style={{color: '#ff0000'}}>🎯 Option 1:</span> Earn While You Learn – Build Skills While Making Money</h2>
+                    <h2 className='font-semibold mb-3'><span style={{color: '#ff0000'}}>🎯 Option 1:</span> Earn While You Learn – <span className='font-normal'>Build Skills While Making Money</span></h2>
                     <ul className='space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
-                        <li>Kick-start your consulting journey with a <span className='font-semibold'>one-time, non-refundable registration fee of ₦100,000</span>. This unlocks immediate access to <span className='font-semibold'>Modules 1 and 2</span> of our premium training program.</li>
+                        <li>Kick-start your consulting journey with a one-time, non-refundable registration fee of <span className='font-semibold'>₦100,000</span>. This unlocks immediate access to <span className='font-semibold'>Modules 1 and 2</span> of our premium training program.</li>
                         <li>
                             <p className='font-semibold' style={{fontSize: '1em'}}>💼 Start Earning Immediately:</p>
-                            <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>18.5% commission</span> on every successful referral.</p>
+                            <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>18.75%</span> commission on every successful referral.</p>
                         </li>
                         <li className='font-semibold'>🔓 How to Unlock the Full Training Program (Without Extra Cost):</li>
-                        <li>
-                            <p style={{fontSize: '1em'}}>✅ Earn <span className='font-semibold'>₦49,999 in referral commissions</span> (approx. 3–4 sales) to unlock <span className='font-semibold'>Modules 3 to 5</span></p>
-                            <p style={{fontSize: '1em'}}>✅ Earn another <span className='font-semibold'>₦49,999</span> in commissions to unlock <span className='font-semibold'>Modules 6 to 8</span></p>
-                            <p style={{fontSize: '1em'}}>🎁 <span className='font-semibold'>Bonus:</span> Unlock <span className='font-semibold'>Module 9 completely free</span> if all previous modules are accessed within <span className='font-semibold'>4 months</span> of your initial registration</p>
+                        <li className='space-y-3'>
+                            <p style={{fontSize: '1em'}}>✅ Earn <span className='font-semibold'>₦59,999</span> in referral commissions (approx. 3–4 sales) to unlock Modules 3 to 5</p>
+                            <p style={{fontSize: '1em'}}>✅ Earn another <span className='font-semibold'>₦59,999</span> in commissions to unlock Modules 6 to 8</p>
+                            <p style={{fontSize: '1em'}}>🎁 <span className='font-semibold'>Bonus:</span> Unlock Module 9 completely free if all previous modules are accessed <span className='font-semibold'>within 4 months</span> of your initial registration</p>
                         </li>
                         <li className='font-semibold'>📊 Potential Rewards:</li>
-                        <li>
-                            <p style={{fontSize: '1em'}}>* Earn over <span className='font-semibold'>₦160,000 in commissions</span> by referring just 6–7 schools</p>
+                        <li className='space-y-3'>
+                            <p style={{fontSize: '1em'}}>* Earn over <span className='font-semibold'>₦160,000</span> in commissions by referring just 6–8 schools to the LearnNova E-learning solutions</p>
                             <p style={{fontSize: '1em'}}>* Unlock the entire training without additional payments</p>
                             <p style={{fontSize: '1em'}}>* Build a <span className='font-semibold'>sustainable consulting income stream</span> while learning</p>
                         </li>
@@ -61,21 +61,20 @@ const ProgramSection = () => {
                         <>
                             <h2 className='font-semibold mb-3'>Direct Payment Plan – Pay Your Way to the Top</h2>
                             <ul className='space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
-                                <li>Prefer a more flexible approach? You can advance at your own pace by enrolling in each training module for just <span className='font-semibold'>₦59,999 per module</span>.</li>
+                                <li>Prefer a more flexible approach? You can advance at your own pace by enrolling in each training module for just <span className='font-semibold'>₦64,999 per module</span>.</li>
                                 <li>
                                     <p className='font-semibold' style={{fontSize: '1em'}}>💼 Best Value: All-Access Career Package</p>
-                                    <p style={{fontSize: '1em'}}>Make a smart investment in your future with a <span className='font-semibold'>one-time payment of ₦399,999</span> — and unlock:</p>
+                                    <p style={{fontSize: '1em'}}>Make a smart investment in your future with a one-time payment of <span className='font-semibold'>₦399,999</span> — and unlock:</p>
                                 </li>
-                                <li>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Full access to Modules 1–8</span> (Save ₦79,993 compared to paying per module)</p>
-                                    <p className='font-semibold' style={{fontSize: '1em'}}>✅ Complimentary access to Module 9</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Exclusive bonus resources</span> — including customizable consulting templates, live expert Q\&A sessions, and certificate of completion</p>
-                                    <p className='font-semibold' style={{fontSize: '1em'}}>✅ Priority support and alumni access</p>
+                                <li className='space-y-3'>
+                                    <p style={{fontSize: '1em'}}>✅ Full access to <span className='font-semibold'>Modules 1–8</span> (Save <span className='font-semibold'>₦184,990</span> compared to paying per module)</p>
+                                    <p style={{fontSize: '1em'}}>✅ Complimentary access to <span className='font-semibold'>Module 9</span></p>
+                                    <p style={{fontSize: '1em'}}>✅ Priority support and alumni access</p>
                                 </li>
                             </ul>
 
                             <div className='mt-3'>
-                                <p style={{fontSize: '1em'}}>💡 This premium bundle is ideal for ambitious professionals who want to <span className='font-semibold'>accelerate their consulting career</span> without waiting or missing out on powerful tools and insights.</p>  
+                                <p style={{fontSize: '1em'}}>💡 This premium bundle is ideal for ambitious professionals who want to accelerate their consulting career without waiting or missing out on powerful tools and insights.</p>  
                             </div>
 
                             <div className='mt-3'>
