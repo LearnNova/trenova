@@ -13,49 +13,32 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='module-title'>Curriculum Outline for a School Consulting Training & Mentorship Program</div>
-
-            <div className='module-text-box space-y-4'>
-                <p className='italic'>— Focused on equipping consultants to help new or struggling private schools grow enrollment, improve revenue, and strengthen operations.</p>
-                <p className='font-semibold'>🎓School Consulting & Mentorship Accelerator Program</p>
-                <div>
-                    <p><span className='font-semibold'>Program Duration:</span> 10–12 weeks</p>
-                    <p><span className='font-semibold'>Format:</span> Blended learning (online modules + live sessions + mentorship + project work)</p>
-                </div>
-                <div>
-                    <p className='mb-2 font-semibold'>Ideal Participants:</p>
-                    <p>* Aspiring school growth consultants</p>
-                    <p>* Education entrepreneurs</p>
-                    <p>* School improvement advisors</p>
-                    <p>* Business consultants seeking to enter the education space</p>
-                </div>
-            </div>
+            <div className='module-title'>📘 Program Curriculum</div>
 
             <div className='module-row'>
                 <div className='module-info'>
-                    <h3 className='highlighter'>🔶 Module 1: Foundations of School Growth Consulting</h3>
+                    <h3 className='highlighter'>🔹 Module 1: Foundations of School Growth Consulting</h3>
                     {modulecollapse !== 1 && 
                         <p className="three-dot">...</p>
                     }
 
                     {modulecollapse === 1 &&
                         <div className='long-text'>
-                            <p className='mb-4'>Understand the consulting landscape and TreNova’s growth framework.</p>
-                            <p className='mb-2 font-semibold'>What You’ll Learn & Tools Included:</p>
-                            <ul className="pl-5">
-                                <li>The business of private education in Nigeria</li>
-                                <li>Types of school owners and their typical challenges</li>
-                                <li>Mindset and ethics of a school growth consultant</li>
-                                <li>Program overview, pathways, and earning opportunities</li>
-                                <li>Regulatory Guidance</li>
-                                <li>School Audit Checklist</li>
-                                <li>School System Comparison Tool</li>
-                                <li>Code of Conduct Template</li>
+                            <p className='mb-4 italic'>Build your foundation as a trusted education consultant.</p>
+                            <p className='mb-2 font-semibold'>What You’ll Learn:</p>
+                            <ul className="pl-2" style={{listStyleType: 'none'}}>
+                                <li>✔ Understand the private school business landscape in Nigeria</li>
+                                <li>✔ Learn the roles and ethics of a school growth consultant</li>
+                                <li>✔ Master MentorNigeria’s consulting methodology</li>
+                                <li>✔ Identify common challenges school owners face</li>
+                                <li>✔ Get clarity on the consultant's mindset and opportunities</li>
                             </ul>
-                            <p className='mt-4 mb-2 font-semibold'>Deliverables:</p>
+                            <p className='mt-4 mb-2 font-semibold'>Included Tools:</p>
                             <ul className="pl-5">
                                 <li>Consultant Identity Blueprint</li>
                                 <li>School Growth Diagnostic Checklist</li>
+                                <li>Ethics & Conduct Template</li>
+                                <li>School System Comparison Guide</li>
                             </ul>
                         </div>
                     }
