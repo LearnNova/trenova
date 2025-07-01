@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div>
         <div className='hero-sec-wrapper'>
             <div className='hero-sec-text-1'>
-                <h1 style={{fontSize: '1em'}}>MentorNigeria Academy</h1>
+                <h1 style={{fontSize: '1em'}}>🏫 MentorNigeria School Consulting Training & Mentorship Program</h1>
                 <p style={{fontSize: '0.65em'}} className='italic'>...Your Launchpad for School Consulting, Mentorship, and Sustainable Impact...</p>
             </div>
         </div>
@@ -29,6 +29,13 @@ const HeroSection = () => {
             <div className='section-4'>
                 <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant – Master the Strategy, Systems, and Tools to Build a Thriving Practice</div>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
+                <div className='w-full my-3'>
+                    <p className='font-semibold mb-2'>🎓 Program Snapshot</p>
+                    <p><span className='font-semibold'>Duration:</span> 10–12 Weeks</p>
+                    <p><span className='font-semibold'>Format:</span> Blended Learning</p>
+                    <p className='font-semibold'>(Self-paced video modules, live coaching sessions, hands-on mentorship, and real-world practicum)</p>
+                </div>
+                <p>Whether you're guiding a new school launch, turning around a struggling institution, or helping a thriving school achieve even greater results, this intensive training and mentorship program equips you with practical frameworks, ready-to-use toolkits, and proven strategies to deliver impactful and lasting consulting solutions.</p>
                 <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
                 <p className='font-semibold'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
                 
@@ -58,17 +65,17 @@ const HeroSection = () => {
 
 
             <div className='line-breaker'></div>
-            <div className='what-you-learn-title font-bold'>Who is this program for?</div>
+            <div className='what-you-learn-title font-bold'>👥 Who This Program is For</div>
             <div className='what-you-learn-info'>
                 <p className='mb-3'>
                     This program is ideal for purpose-driven individuals who want to build a career around educational impact:
                 </p>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
-                        <li>Educators ready to transition into consulting</li>
+                        <li>Aspiring school growth consultants</li>
                         <li>School owners and edu-preneurs seeking new income streams</li>
-                        <li>Independent consultants expanding into the education sector</li>
-                        <li>Retired professionals looking to make a lasting difference</li>
+                        <li>Business consultants transitioning into the education sector</li>
+                        <li>Professionals passionate about transforming school performance and profitability</li>
                         <li>Ambitious young adults seeking a career with impact</li>
                     </ul>
                 </span> 
