@@ -1,7 +1,9 @@
-import React, {useState, useRef, useEffect} from 'react'
+import React, {useState, useRef, useEffect} from 'react';
+import { useNavigate } from 'react-router-dom';
 import './mentornigeria.css'
 
 const ApplicationFormSection = ({ name }) => {
+    const navigate = useNavigate();
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -73,8 +75,9 @@ const ApplicationFormSection = ({ name }) => {
     
                     else {
                     infoCate.current.textContent = ''
-                    alert (`Congratulations 🎉🎉 on Booking a Seat ${firstName}, we would contact you shortly with all the neccessary information needed.`);
+                    // alert (`Congratulations 🎉🎉 on Booking a Seat ${firstName}, click ok to be redirected to to the next page.`);
                     resetInput();
+                    navigate('congratulations');
                     }
     
                 } catch (error) {

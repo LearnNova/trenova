@@ -6,20 +6,19 @@ const pricingPlans = [
     title: "📘 Plan 1: School Learning Essentials",
     price: null,
     priceInfoPri: {
-      title: 'Select the Subject(s) That Best Fit Your School’s Needs:',
+      title: 'Select the Subjects That Best Fit Your School’s Needs:',
       lists: [
-        <>E-Library of Reading Books (For KG 1 to Basic 6, JSS 1 to 3, OR SSS 1 to 3)</>,
+        <>E-Library of Reading Books (For KG 1 to Basic 6 and JSS 1 to SSS 3)</>,
         <>Creative Life Skills Lessons & Activities for KG 1 to Basic 6 OR JSS 1 to 3</>,
         <>Senior Secondary Mathematics</>,
         <>Diction & Phonics for KG 1 to Basic 5</>,
       ]
     },
     priceInfoSec: {
-      title: 'Per-Term Plans:',
+      title: 'Price Per School:',
       lists: [
-        'One (1) Subject - ₦79,999',
-        'Two (2) Subjects – ₦129,999',
-        'Three (3) Subjects – ₦149,999',
+        'Termly Fee - ₦99,999 per term',
+        'Annual Fee – ₦249,999 (3 terms)',
       ]
     },
     includes: [
@@ -29,9 +28,8 @@ const pricingPlans = [
     featuresTitle: 'Extra Features & Exclusive Benefits',
     features: [
       <>Enjoy offline access after the initial setup</>,
-      <>Enroll in any 2 courses and get a <span className="font-semibold">FREE</span> annual invitation to TreNova Academy's School Growth Virtual Training</>,
-      <>Designed with a <span className="font-semibold">simple, user-friendly interface</span> for both teachers and learners</>,
-      <>Includes <span className="font-semibold">free onboarding and installation support</span></>,
+      <>Designed with a simple, user-friendly interface for both teachers and learners</>,
+      <>Includes free onboarding and installation support</>,
     ],
   },
   {
@@ -70,7 +68,7 @@ const pricingPlans = [
   },
   {
     title: "📕 Plan 3: School + Home Learning Support Combo",
-    price: <><span className="block">- Termly Fee: ₦199,999 per term</span><span className="bold mt-2">- Annual Fee: ₦499,999 (3 Terms)</span></>,
+    price: <><span className="block">- Termly Fee: ₦149,999 per term</span><span className="bold mt-2">- Annual Fee: ₦374,999 (3 terms)</span></>,
     priceInfoPri: {
       title: 'Includes:',
       lists: [
@@ -85,7 +83,7 @@ const pricingPlans = [
       ]
     },
     includes: [
-      <>✔️ Access to 3 School Learning Support Studio Subjects</>,
+      <>✔️ Access to School Learning Support Studio Subjects</>,
       <>✔️ Access for <span className="font-semibold">50 Learners</span> on the Home Learning App</>,
       <>✔️ Empower your teachers with access to virtual Continuous Professional Development (CPD) training and an innovation hub for modern classroom strategies</>,
       <>✔️ Access to Virtual School Growth Mentorship Masterclasses and Strategic Growth Toolkits, specifically designed for School Owners and Administrators.</>,
@@ -103,15 +101,13 @@ const pricingPlans = [
   {
     title: "📙 Plan 4: Lifetime Access – One-Time Payment",
     price: null,
-    priceInfoPri: {
-      title: 'Limited Offer Price:',
+    priceInfoSec: {
+      title: 'Limited Time Price Offer!',
       lists: [
-        <>One (1) Subject – <span className="font-semibold">₦749,999</span> (One-time payment)</>,
-        <>Two (2) Subjects – <span className="font-semibold">₦1,249,999</span> (One-time payment)</>,
-        <>Three (3) Subjects – <span className="font-semibold">₦1,499,999</span> (One-time payment)</>,
+        <>Price Per School – <span className="font-semibold">₦749,999 (One-time payment)</span></>,
       ]
     },
-    priceInfoSec: { 
+    priceInfoPri: { 
       title: '✅ Choose the Subject(s) That Best Fit Your School’s Needs:',
       lists: [
         <>
@@ -155,7 +151,7 @@ const pricingPlans = [
     bestFor: <>No Renewals. No Recurring Fees. Just Lifetime Value.</>,
     featuresTitle: 'Extra Features & Exclusive Benefits',
     features: [
-      <><span className="font-semibold">Free</span> access to TreNova Academy Online Training Portal</>,
+      <>Pay Once. Own it for life. Promo ends soon!</>,
       <>Offline access available after setup</>,
       <>Simple, intuitive interface for teachers and students</>,
       <>Free onboarding and installation support included</>,

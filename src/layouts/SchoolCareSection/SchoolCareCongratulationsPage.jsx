@@ -6,8 +6,8 @@ const SchoolCareCongratulationsPage = () => {
             <h1 className='text-9xl md:text-13xl lg:text-17xl font-extrabold uppercase text-gray-800'>
                 Congratulations!!
             </h1>
-            <p className='mb-4 text-lg md:text-xl lg:text-3xl'>
-                Below is the account details to send the registration fee of <span style={{color: "rgb(233, 0, 0)", fontWeight: 600}}>₦100,000</span> to, 
+            <p className='mb-2 text-lg md:text-xl lg:text-3xl'>
+                Below is the account details to send the registration fee of <span style={{color: "rgb(233, 0, 0)", fontWeight: 600}}>₦100,000 or the exact amount to be payed</span> to, 
                 after sending the money, send a message on <span style={{color: "rgb(0, 194, 10)", fontWeight: 600}}>whatsapp</span> to 
                 any of the following <span className="font-semibold">whatsapp numbers</span>:
                 <a href="tel:08023781682" style={{color: "rgb(0, 194, 10)", fontWeight: 600}} className="hover:underline"> 0802 378 1682</a>, 
@@ -17,6 +17,7 @@ const SchoolCareCongratulationsPage = () => {
                 your <span style={{color: "rgb(233, 0, 0)", fontWeight: 600}}>fullname and email address</span>, and 
                 the word <span style={{color: "rgb(233, 0, 0)", fontWeight: 600}}>"REGISTRATION FEE"</span>.
             </p>
+            <p className="mb-4 font-semibold text-lg md:text-xl lg:text-3xl"><span style={{color: "rgb(233, 0, 0)"}}></span>Note: Please screenshot this screen for future references!</p>
         </div>
 
         <div className="bg-white border-2 rounded-md px-4 py-3">
