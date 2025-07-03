@@ -22,19 +22,18 @@ const ProgramSection = () => {
                         <li>Kick-start your consulting journey with a one-time, non-refundable registration fee of <span className='font-semibold'>₦100,000</span>. This unlocks immediate access to <span className='font-semibold'>Modules 1 and 2</span> of our premium training program.</li>
                         <li>
                             <p className='font-semibold' style={{fontSize: '1em'}}>💼 Start Earning Immediately:</p>
-                            <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>18.75%</span> commission on every successful referral.</p>
+                            <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>17.85%</span> commission on every successful referral.</p>
                         </li>
                         <li className='font-semibold'>🔓 How to Unlock the Full Training Program (Without Extra Cost):</li>
                         <li className='space-y-3'>
-                            <p style={{fontSize: '1em'}}>✅ Earn <span className='font-semibold'>₦59,999</span> in referral commissions (approx. 3–4 sales) to unlock Modules 3 to 5</p>
-                            <p style={{fontSize: '1em'}}>✅ Earn another <span className='font-semibold'>₦59,999</span> in commissions to unlock Modules 6 to 8</p>
-                            <p style={{fontSize: '1em'}}>🎁 <span className='font-semibold'>Bonus:</span> Unlock Module 9 completely free if all previous modules are accessed <span className='font-semibold'>within 4 months</span> of your initial registration</p>
+                            <p style={{fontSize: '1em'}}>✅ Earn up to <span className='font-semibold'>₦200,000</span> in referral commissions (approx. <span className='font-semibold'>3–8</span> sales) to unlock <span className='font-semibold'>Modules 3 to 8</span></p>
+                            <p style={{fontSize: '1em'}}>🎁 <span className='font-semibold'>Bonus:</span> Unlock Module <span className='font-semibold'>9</span> completely <span className='font-semibold'>free</span> if all previous modules are accessed within <span className='font-semibold'>4 months</span> of your initial registration</p>
                         </li>
-                        <li className='font-semibold'>📊 Potential Rewards:</li>
+                        <li className='font-semibold'>📊 Refer & Earn Big!:</li>
                         <li className='space-y-3'>
-                            <p style={{fontSize: '1em'}}>* Earn over <span className='font-semibold'>₦160,000</span> in commissions by referring just 6–8 schools to the LearnNova E-learning solutions</p>
-                            <p style={{fontSize: '1em'}}>* Unlock the entire training without additional payments</p>
-                            <p style={{fontSize: '1em'}}>* Build a <span className='font-semibold'>sustainable consulting income stream</span> while learning</p>
+                            <p style={{fontSize: '1em'}}>Introduce just 3 to 8 schools to LearnNova E-learning Solutions and get full training access <span className='font-semibold'>absolutely FREE!</span></p>
+                            <p style={{fontSize: '1em'}}>🎉 Plus, enjoy up to <span className='font-semibold'>₦200,000</span> in referral commissions as a bonus reward!</p>
+                            <p className='font-semibold italic' style={{fontSize: '1em'}}>Build a sustainable referral income stream while learning</p>
                         </li>
                     </ul>
 
