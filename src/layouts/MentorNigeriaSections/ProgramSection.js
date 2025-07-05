@@ -12,13 +12,13 @@ const ProgramSection = () => {
             <p>The Mentor Nigeria "Earn While You Learn" Empowerment Program is designed to equip Nigerian youths with essential life skills, industry-relevant training, mentorship, coaching, financial literacy and financial support to transition into successful professionals and entrepreneurs. The program focuses on practical, hands-on learning with opportunities to gain full-time employment or access grants for business takeoff.</p>
         </div> */}
         {/* <div className='line-breaker'></div> */}
-        <div className='module-text-box mb-5 space-y-3'>
+        <div className='module-text-box -mt-4 mb-2 space-y-3'>
             <p className='font-semibold'>✅Real Stories. Real Impact - What Participants Are Saying</p>
             <p>Hear directly from those who have taken part in our training and mentorship programs:</p>
             <p><a href='https://t.me/trenovagrouptestimonials' className='hover:text-orange-500 hover:underline transition duration-200'>👉[View Testimonials]</a></p>
         </div>
 
-        <div className='line-breaker'></div>
+        <div className='line-breaker mb-5'></div>
 
         <div className='module-text-box'>
             <h1 className='highlighter'>Flexible Enrollment Options</h1>
