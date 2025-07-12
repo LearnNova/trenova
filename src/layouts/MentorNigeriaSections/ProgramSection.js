@@ -66,7 +66,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 1 || (
-                            <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(2)}>
+                            <h2 style={{fontSize: '1.2em'}} className='text-orange-500 font-semibold hover:underline mt-2' onClick={()=>setShowOption(1)}>
                                 👉 Click Here
                             </h2>
                         )
@@ -110,7 +110,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 2 || (
-                            <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(2)}>
+                            <h2 style={{fontSize: '1.2em'}} className='text-orange-500 font-semibold hover:underline mt-2' onClick={()=>setShowOption(2)}>
                                 👉 Click Here
                             </h2>
                         )
