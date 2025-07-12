@@ -50,7 +50,7 @@ html {
 
 .hero-sec-wrapper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img/mentornigeria/hero-section.webp");
-  height: 27vw;
+  height: 30vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@ html {
 .hero-sec-text {
   text-align: center;
   position: absolute;
-  top: 60%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--pri-clr);
@@ -573,7 +573,7 @@ html {
 
 @media (max-width: 796px) {
   .hero-sec-wrapper {
-    height: 35vw;
+    height: 39vw;
     font-size: 4em;
   }
 
@@ -612,7 +612,7 @@ html {
 
 @media (max-width: 579px) {
   .hero-sec-wrapper {
-    height: 52vw;
+    height: 56vw;
     font-size: 2.5em;
   }
 
