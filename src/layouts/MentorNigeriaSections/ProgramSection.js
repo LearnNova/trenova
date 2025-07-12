@@ -64,13 +64,13 @@ const ProgramSection = () => {
                             </div>
                         </>
                     )}
-                    <p style={{fontSize: '1em'}} className='text-orange-500 font-semibold hover:underline' onClick={()=>setShowOption(1)}>
+                    <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(1)}>
                         👉 Click Here
-                    </p>
+                    </h2>
                     {showOption === 1 || (<h2 className='font-semibold'>....</h2>)}
                 </li>
 
-                <li className='mt-5 mb-3'>
+                <li className='mt-7 mb-3'>
                     <h2 className='font-semibold'>🎯 <span style={{color: '#ff0000'}}>Option 2:</span> Direct Payment Plan</h2>
                     {showOption === 2 && (
                         <>
@@ -105,9 +105,9 @@ const ProgramSection = () => {
                             </div>
                         </>
                     )}
-                    <p style={{fontSize: '1em'}} className='text-orange-500 font-semibold hover:underline' onClick={()=>setShowOption(2)}>
+                    <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(2)}>
                         👉 Click Here
-                    </p>
+                    </h2>
                     {showOption === 2 || (<h2 className='font-semibold'>....</h2>)}
                 </li>
             </ul>
