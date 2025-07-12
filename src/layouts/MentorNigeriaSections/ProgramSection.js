@@ -13,9 +13,9 @@ const ProgramSection = () => {
         </div> */}
         {/* <div className='line-breaker'></div> */}
         <div className='module-text-box -mt-4 mb-2 space-y-3'>
-            <p className='font-semibold'>✅Real Stories. Real Impact - What Participants Are Saying</p>
+            <p className='font-semibold'>📌Real Stories. Real Impact - What Participants Are Saying</p>
             <p>Hear directly from those who have taken part in our training and mentorship programs:</p>
-            <p><a href='https://t.me/trenovagrouptestimonials' className='highlighter hover:underline transition duration-200'>👉[View Testimonials]</a></p>
+            <p><a href='https://t.me/trenovagrouptestimonials' className='highlighter transition duration-200'>👉[View Testimonials]</a></p>
         </div>
 
         <div className='line-breaker mb-5'></div>
@@ -51,7 +51,7 @@ const ProgramSection = () => {
 
                             <div className='mt-4 space-y-4'>
                                 <p className='font-semibold' style={{fontSize: '1em'}}>🚀 What Will You Be Promoting?</p>
-                                <p style={{fontSize: '1em'}}><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter hover:underline'>👉 [Explore LearnNova's School Solutions Here]</a></p>
+                                <p style={{fontSize: '1em'}}><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter'>👉 [Explore LearnNova's School Solutions Here]</a></p>
                             </div>
 
                             <div className='mt-4 space-y-4'>
@@ -66,7 +66,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 1 || (
-                            <h2 style={{fontSize: '1.2em'}} className='text-orange-500 font-semibold hover:underline mt-2' onClick={()=>setShowOption(1)}>
+                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2' onClick={()=>setShowOption(1)}>
                                 👉 Click Here
                             </h2>
                         )
@@ -110,7 +110,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 2 || (
-                            <h2 style={{fontSize: '1.2em'}} className='text-orange-500 font-semibold hover:underline mt-2' onClick={()=>setShowOption(2)}>
+                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2' onClick={()=>setShowOption(2)}>
                                 👉 Click Here
                             </h2>
                         )

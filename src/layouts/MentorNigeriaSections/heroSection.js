@@ -12,7 +12,7 @@ const HeroSection = () => {
             </div>
         </div>
         <div className='hero-sec-info'>
-            <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>Apply Now</span> to Get Started!</a></div>
+            <a href='#application-form-section' className='apply-now-get-started'> <span className='highlighter'>Apply Now</span> to Get Started!</a>
             <div className='line-breaker'></div>
             {/* <div className='section-3'>
                 <span>“…</span>
@@ -30,7 +30,7 @@ const HeroSection = () => {
                 <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant – Master the Strategy, Systems, and Tools to Build a Thriving Practice</div>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <div className='w-full my-6'>
-                    <p className='font-semibold mb-2' style={{fontSize: '1.2em'}}>🎓 Program Snapshot</p>
+                    <p className='highlighter mb-2' style={{fontSize: '1.2em'}}>🎓 Program Snapshot</p>
                     <p><span className='font-semibold'>Duration:</span> 10–12 Weeks</p>
                     <p><span className='font-semibold'>Format:</span> Blended Learning</p>
                     <p className='font-semibold'>(Self-paced video modules, live coaching sessions, hands-on mentorship, and real-world practicum)</p>
