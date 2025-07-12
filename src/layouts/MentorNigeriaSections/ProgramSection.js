@@ -42,7 +42,7 @@ const ProgramSection = () => {
                                 <li>🎁 <span className='font-semibold'>Bonus:</span> Access <span className='font-semibold'>Module 9 at no cost</span> if you complete the first 8 modules within <span className='font-semibold'>4 months</span> of your enrollment.</li>
                                 <li className='font-semibold'>💼 Refer & Earn More While You Learn</li>
                                 <li>Bring 3 to 8 schools on board and:</li>
-                                <li className='space-y-3'>
+                                <li className='space-y-2'>
                                     <p style={{fontSize: '1em'}}>✔ Unlock full training access (Modules 3–9)</p>
                                     <p style={{fontSize: '1em'}}>✔ Earn up to <span className='font-semibold'>₦200,000 in commissions</span></p>
                                     <p style={{fontSize: '1em'}}>✔ Build your confidence and income as you learn</p>
@@ -64,10 +64,13 @@ const ProgramSection = () => {
                             </div>
                         </>
                     )}
-                    <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(1)}>
-                        👉 Click Here
-                    </h2>
-                    {showOption === 1 || (<h2 className='font-semibold'>....</h2>)}
+                    {
+                        showOption === 1 || (
+                            <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(2)}>
+                                👉 Click Here
+                            </h2>
+                        )
+                    }
                 </li>
 
                 <li className='mt-7 mb-3'>
@@ -87,7 +90,7 @@ const ProgramSection = () => {
                                 </li>
                                 <li className='font-semibold'>💡 Why Choose This Option?</li>
                                 <li>This premium package is built for driven individuals who want to:</li>
-                                <li className='space-y-3'>
+                                <li className='space-y-2'>
                                     <p style={{fontSize: '1em'}}>✔ Skip delays</p>
                                     <p style={{fontSize: '1em'}}>✔ Maximize their learning</p>
                                     <p style={{fontSize: '1em'}}>✔ Access every strategic insight from the start</p>
@@ -105,10 +108,13 @@ const ProgramSection = () => {
                             </div>
                         </>
                     )}
-                    <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(2)}>
-                        👉 Click Here
-                    </h2>
-                    {showOption === 2 || (<h2 className='font-semibold'>....</h2>)}
+                    {
+                        showOption === 2 || (
+                            <h2 className='text-orange-500 font-semibold hover:underline mt-3' onClick={()=>setShowOption(2)}>
+                                👉 Click Here
+                            </h2>
+                        )
+                    }
                 </li>
             </ul>
         </div>
