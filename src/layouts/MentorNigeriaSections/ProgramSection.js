@@ -123,10 +123,10 @@ const ProgramSection = () => {
                                 </li>
                             </ul>
 
-                            <div className='mt-4 space-y-4'>
+                            {/* <div className='mt-4 space-y-4'>
                                 <p className='font-semibold' style={{fontSize: '1em'}}>📈 Accelerate Your Growth. Own Your Success.</p>
                                 <p style={{fontSize: '1em'}}>Whether you pay per module or go all-in, this path puts you in control of your learning and earning potential — with the tools, guidance, and network to rise fast in the world of school consulting, growth mentorship and coaching.</p>
-                            </div>
+                            </div> */}
 
                             <div className='mt-4'>
                                 <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>👉 Ready to take charge of your future?</span> Enrol now and begin your journey to school consulting, growth mentorship and coaching mastery.</a></p>
