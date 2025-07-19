@@ -7,8 +7,8 @@ const HeroSection = () => {
     <div>
         <div className='hero-sec-wrapper'>
             <div className='hero-sec-text-1'>
-                <h1 style={{fontSize: '1em'}}>🏫 MentorNigeria School Consulting Training & Mentorship Program</h1>
-                <p style={{fontSize: '0.65em'}} className='italic'>...Your Launchpad for School Consulting, Mentorship, and Sustainable Impact...</p>
+                <h1 style={{fontSize: '1em'}}>🏫 MentorNigeria School Consulting, Mentorship & Coaching for Growth</h1>
+                <p style={{fontSize: '0.65em'}} className='italic'>…Your Pathway to Purpose—Empowering You to Elevate Schools and Shape Futures…</p>
             </div>
         </div>
         <div className='hero-sec-info'>
@@ -90,9 +90,9 @@ const HeroSection = () => {
                 <span className='what-you-learn-info-list-container'>
                     <ul className='font-semibold'>
                         <li style={{listStyle: 'none'}}>✅ 8 Expert Training Modules</li>
-                        <li style={{listStyle: 'none'}}>✅ 20+ Done-for-You Manuals, Templates & Checklists</li>
+                        <li style={{listStyle: 'none'}}>✅ 10+ Done-for-You Manuals, Templates & Checklists</li>
                         <li style={{listStyle: 'none'}}>✅ Virtual Live Training and Mentorship Sessions</li>
-                        <li style={{listStyle: 'none'}}>✅ Access to TreNova Academy Resources</li>
+                        <li style={{listStyle: 'none'}}>✅ Access to MentorNigeria Academy Resources</li>
                         <li style={{listStyle: 'none'}}>✅ Ongoing Professional Development + Opportunity to Serve as a TreNova School Support Consultant + Usage of TreNova School Consulting Brand Logo + Verified Listing in the TreNova School Consultant Directory</li>
                     </ul>
                 </span> 
