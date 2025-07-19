@@ -396,7 +396,7 @@ const ModuleSection = () => {
                 <p className='font-semibold'>🔐 Learn. Get Mentored. Earn.</p>
             </div>
 
-            <div className='apply-now-get-started'><a href='#application-form-section'>📩 [ENROLL NOW]</a></div>
+            <div className='apply-now-get-started'><a href='#application-form-section'>📩 [ENROLL NOW] </a></div>
         </div>
     </div>
   )
