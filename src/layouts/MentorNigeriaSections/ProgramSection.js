@@ -66,7 +66,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 1 || (
-                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2' onClick={()=>setShowOption(1)}>
+                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2 cursor-pointer' onClick={()=>setShowOption(1)}>
                                 👉 Click Here
                             </h2>
                         )
@@ -74,23 +74,23 @@ const ProgramSection = () => {
                 </li>
 
                 <li>
-                    <h2 className='font-semibold'>🎯 <span style={{color: '#ff0000'}}>Option 2:</span> Referral Plan – <span style={{fontSize: '0.9em'}}>The ideal choice for School Owners</span></h2>
+                    <h2 className='font-semibold'>🎯 <span style={{color: '#ff0000'}}>Option 2:</span> Referral Plan</h2>
                     {showOption === 2 && (
                         <>
                             <ul className='mt-3 space-y-4 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
-                                <li className='italic font-semibold'>...Your gateway to the LearnNova Learning Support Studio, the MentorNigeria School Growth Mentorship and Coaching Program, and long-term sustainable impact...</li>
+                                <li className='italic font-semibold'>...Access LearnNova expert mentorship, and lasting school growth...</li>
                                 <li>
                                     <p style={{fontSize: '1em'}} className='font-semibold'>🔹 Registration Fee: ₦99,999</p>
                                     <p style={{fontSize: '1em'}} className='italic'>Gain access to <span className='font-semibold'>Module 1</span> of the <span className='font-semibold'>School Growth Mentorship & Coaching Program</span>, along with a <span className='font-semibold'>one-term license</span> to the <span className='font-semibold'>LearnNova Learning Support Studio</span> for your school.</p>
                                     <p style={{fontSize: '1em'}} className='mt-2 font-semibold'>🔹 Refer two schools <span className='font-normal'>to unlock access to</span> Modules 2–5</p>
                                     <p style={{fontSize: '1em'}} className='font-semibold'>🔹 Refer two more schools <span className='font-normal'>to gain access to</span> Modules 6–9</p>
                                 </li>
-                                <li className='font-semibold text-[#C00000]'>🎓 What You’ll Gain</li>
+                                <li className='font-semibold text-[#ff0000]'>🎓 What You’ll Gain</li>
                                 <li className='space-y-2'>
                                     <p style={{fontSize: '1em'}} className='font-semibold'>1. Expert-Led Mentorship & Coaching Sessions</p>
                                     <p style={{fontSize: '1em'}}>Learn how to become a certified School Growth Mentor and Coach through a practical, results-driven curriculum:</p>
                                 </li>
-                                <li className='font-semibold text-[#C00000] mt-5'>Program Curriculum:</li>
+                                <li className='font-semibold text-[#ff0000] mt-5'>Program Curriculum:</li>
                                 <li className='space-y-1.5 ml-2.5'>
                                     <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 1 & 2:</span> Foundations of School Growth Consulting & Starting or Rescuing a School</p>
                                     <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 3 & 4:</span> School Makeover & Enrolment Growth Strategies</p>
@@ -135,7 +135,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 2 || (
-                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2' onClick={()=>setShowOption(2)}>
+                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2 cursor-pointer' onClick={()=>setShowOption(2)}>
                                 👉 Click Here
                             </h2>
                         )
@@ -179,7 +179,7 @@ const ProgramSection = () => {
                     )}
                     {
                         showOption === 3 || (
-                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2' onClick={()=>setShowOption(3)}>
+                            <h2 style={{fontSize: '1.2em'}} className='font-semibold mt-2 cursor-pointer' onClick={()=>setShowOption(3)}>
                                 👉 Click Here
                             </h2>
                         )
