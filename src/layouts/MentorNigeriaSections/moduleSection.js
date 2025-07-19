@@ -380,9 +380,9 @@ const ModuleSection = () => {
             <div className='module-text-box'>
                 <h1 className='highlighter'>🎁 Bonus Features & Post-Training Support</h1>
                 <ul className='list-none module-text-box__list-box'>
-                    <li>✅ “Services School Consultants Get Paid For” Masterclass</li>
-                    <li>✅ Consultant Resource Library</li>
-                    <li>✅ Weekly Live Q\&A & Mentoring Sessions</li>
+                    <li>✅ “Services School Consultants and Mentors Get Paid For” Masterclass</li>
+                    <li>✅ Consultant and Mentors Resource Library</li>
+                    <li>✅ Weekly Live Q\A & Mentoring Sessions</li>
                     <li>✅ Private WhatsApp Support Group</li>
                     <li>✅ Immediate Income Kickstart Blueprint</li>
                     <li>✅ Certificate of Completion</li>
@@ -392,7 +392,7 @@ const ModuleSection = () => {
 
             <div className='module-text-box'>
                 <p className='my-5'>✅ Ready to Start or Scale Your Consulting Career?</p>
-                <p className='font-semibold italic mb-5'>Join the MentorNigeria School Consulting Program today and become part of a movement empowering schools across Nigeria and Africa.</p>
+                <p className='font-semibold italic mb-5'>Join the MentorNigeria School Consulting and Mentorship Program today and become part of a movement empowering schools across Nigeria and Africa.</p>
                 <p className='font-semibold'>🔐 Learn. Get Mentored. Earn.</p>
             </div>
 

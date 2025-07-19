@@ -27,11 +27,11 @@ const HeroSection = () => {
             </div> */}
 
             <div className='section-4'>
-                <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant – Master the Strategy, Systems, and Tools to Build a Thriving Practice</div>
+                <div className='what-you-learn-title font-bold mb-2' style={{fontSize: '1.5em'}}>Become a Trusted School Consultant & Growth Mentor – Master the Strategy, Systems, and Tools to Build a Thriving Practice</div>
                 <p>Gain expert training, hands-on mentorship, and the tools you need to guide schools toward success—positioning yourself as a trusted voice in the education sector.</p>
                 <div className='w-full my-6'>
                     <p className='highlighter mb-2' style={{fontSize: '1.2em'}}>🎓 Program Snapshot</p>
-                    <p><span className='font-semibold'>Duration:</span> 10–12 Weeks</p>
+                    <p><span className='font-semibold'>Duration:</span> 9–12 Weeks</p>
                     <p><span className='font-semibold'>Format:</span> Blended Learning</p>
                     <p className='font-semibold'>(Self-paced video modules, live coaching sessions, hands-on mentorship, and real-world practicum)</p>
                 </div>
@@ -72,8 +72,8 @@ const HeroSection = () => {
                 </p>
                 <span className='what-you-learn-info-list-container'>
                     <ul>
-                        <li>Aspiring school growth consultants</li>
                         <li>School owners and edu-preneurs seeking new income streams</li>
+                        <li>Aspiring school growth consultants</li>
                         <li>Business consultants transitioning into the education sector</li>
                         <li>Professionals passionate about transforming school performance and profitability</li>
                         <li>Ambitious young adults seeking a career with impact</li>
@@ -93,7 +93,7 @@ const HeroSection = () => {
                         <li style={{listStyle: 'none'}}>✅ 10+ Done-for-You Manuals, Templates & Checklists</li>
                         <li style={{listStyle: 'none'}}>✅ Virtual Live Training and Mentorship Sessions</li>
                         <li style={{listStyle: 'none'}}>✅ Access to MentorNigeria Academy Resources</li>
-                        <li style={{listStyle: 'none'}}>✅ Ongoing Professional Development + Opportunity to Serve as a TreNova School Support Consultant + Usage of TreNova School Consulting Brand Logo + Verified Listing in the TreNova School Consultant Directory</li>
+                        <li style={{listStyle: 'none'}}>✅ Ongoing Professional Development + Opportunity to Serve as a MentorNigeria School Support Consultant + Usage of MentorNigeria School Consulting Brand Logo + Verified Listing in the MentorNigeria School Consultant Directory</li>
                     </ul>
                 </span> 
             </div>
