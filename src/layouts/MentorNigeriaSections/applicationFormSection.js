@@ -203,7 +203,7 @@ const ApplicationFormSection = ({ name }) => {
 
                     <div className='form-row-main'>
                         <div className='form-row'>
-                            <label htmlFor='hear' className='input-labels'>Pick your Preferred Payment Option</label>
+                            <label htmlFor='hear' className='input-labels'>Pick your Preferred Enrolment Option</label>
                             <select
                                 name="hear"
                                 value={hear}
@@ -211,7 +211,7 @@ const ApplicationFormSection = ({ name }) => {
                                 className="form-control"
                                 required
                             >
-                                <option value='' disabled>Select a School Pricing Plan</option>
+                                <option value='' disabled>Select a Preferred Enrolment Option</option>
                                 <option value='Option 1'>Option 1</option>
                                 <option value='Option 2'>Option 2</option>
                                 <option value='Option 3'>Option 3</option>
