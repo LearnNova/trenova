@@ -381,7 +381,7 @@ const ModuleSection = () => {
                 <h1 className='highlighter'>🎁 Bonus Features & Post-Training Support</h1>
                 <ul className='list-none module-text-box__list-box'>
                     <li>✅ “Services School Consultants and Mentors Get Paid For” Masterclass</li>
-                    <li>✅ Consultant and Mentors Resource Library</li>
+                    <li>✅ Consultant and Mentor Resource Library</li>
                     <li>✅ Weekly Live Q\A & Mentoring Sessions</li>
                     <li>✅ Private WhatsApp Support Group</li>
                     <li>✅ Immediate Income Kickstart Blueprint</li>
