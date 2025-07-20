@@ -37,7 +37,7 @@ const HeroSection = () => {
                 </div>
                 <p>Whether you're guiding a new school launch, turning around a struggling institution, or helping a thriving school achieve even greater results, this intensive training and mentorship program equips you with practical frameworks, ready-to-use toolkits, and proven strategies to deliver impactful and lasting consulting solutions.</p>
                 <p className='highlighter mt-3'>Is This the Moment You Start Empowering Schools—and Yourself?</p>
-                <p className='font-semibold'><a href='#application-form-section'>👉 [Enroll Now]</a></p>
+                <a href='#application-form-section font-semibold'>👉 [Enroll Now]</a>
                 
                 {/* <span className='hero-sec-info-list-container'>
                     <ul>
