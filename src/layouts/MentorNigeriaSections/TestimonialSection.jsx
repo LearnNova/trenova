@@ -5,7 +5,27 @@ const testimonialsList = [
     {
         testimonial: <>“It is quality assurance and marketing eye opener.”</>,
         author: <>Mr. Somorin Mathew Adekunle, Proprietor, Teresa Basic & High School.</>,
-    }
+    },
+    {
+        testimonial: <>“Great, creative mind blowing and really a great program. The program has given us insight into areas that we have not taken cognizance off before now.”</>,
+        author: <>Olayemi Abosede Oluwatosin, Proprietress, Yemi Int’l School.</>,
+    },
+    {
+        testimonial: <>“The training was awesome and practical in nature”</>,
+        author: <>Bolanle Ogunnusi, Micmary School, Ketu, Lagos.</>,
+    },
+    {
+        testimonial: <>“Excellent – for me it is time and money well spent”</>,
+        author: <>Olabisi Ogunbayode, Early Beginners Private School, Ifako, Lagos.</>,
+    },
+    {
+        testimonial: <>“It is an interesting programme, the training and the learning support system are fascinating and money spinning”</>,
+        author: <>Ogunsina, Durable Schools, Ijegun, Ikotun – Lagos.</>,
+    },
+    {
+        testimonial: <>“The programme is a very good programme, it opens my eye to some things and the step to take to make my business grow”</>,
+        author: <>Mrs. Odumo Comfort, God’s Heritage Int’l School, Mowe, Ogun State.</>,
+    },
 ];
 
 const TestimonialSection = () => {
@@ -24,8 +44,8 @@ const TestimonialSection = () => {
                 </div> 
                 ))} 
             </div>
-            <div className='flex items-center justify-center text-3xl md:text-5xl lg:text-7xl'>
-                <a className='text-orange-500 font-semibold cursor-pointer hover:underline transition-all duration-200' href='https://t.me/trenovagrouptestimonials'>👉 See All Testimonials</a>
+            <div className='flex items-center justify-start text-[20px] md:text-3xl'>
+                <a className='font-semibold cursor-pointer hover:underline transition-all duration-200' href='https://t.me/trenovagrouptestimonials'>👉 See All Testimonials</a>
             </div>
         </div>
     </section>
