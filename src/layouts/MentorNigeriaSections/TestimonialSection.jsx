@@ -32,7 +32,7 @@ const TestimonialSection = () => {
     const [showTestimonial, setShowTestimonial] = useState(null);
   return (
     <div className='font-poppins text-white px-2 md:px-4 mb-10' id='testimonials'>
-        <div className='line-breaker mt-7' />
+        <div className='line-breaker mt-7' id='linetestimonial'></div>
         <div className='mt-2 space-y-4'>
             <h1 className='text-orange-500 font-bold text-center text-5xl md:text-9xl lg:text-11xl'>⭐️⭐️<span className='underline'>TESTIMONIALS</span>⭐️⭐️</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5 items-start text-left text-[16.2px] md:text-[20.2px]'>

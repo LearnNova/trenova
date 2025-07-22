@@ -15,7 +15,7 @@ const ProgramSection = () => {
         <div className='module-text-box -mt-4 mb-2 space-y-3'>
             <p className='font-semibold'>📌Real Stories. Real Impact - What Participants Are Saying</p>
             <p>Hear directly from those who have taken part in our training and mentorship programs:</p>
-            <p><a href='#line' className='highlighter transition duration-200'>👉[View Testimonials]</a></p>
+            <p><a href='#linetestimonial' className='highlighter transition duration-200'>👉[View Testimonials]</a></p>
         </div>
 
         <div className='line-breaker mb-5'></div>
