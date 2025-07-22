@@ -16,7 +16,8 @@ const ProgramSection = () => {
             <p className='font-semibold'>📌Real Stories. Real Impact - What Participants Are Saying</p>
             <p>Hear directly from those who have taken part in our training and mentorship programs:</p>
             {/* <p><a href='#testimonials' className='highlighter transition duration-200'>👉[View Testimonials]</a></p> */}
-            <p><a onClick={() => document.getElementById("testimonials")?.scrollIntoView({ behavior: 'smooth' })} className='highlighter transition duration-200'>👉[View Testimonials]</a></p>
+            <p className='highlighter transition duration-200' onClick={()=> {document.getElementById('testimonials').scrollIntoView({behavior: 'smooth'})}}>👉[View Testimonials]</p>
+            {/* <p><a onClick={() => document.getElementById("testimonials")?.scrollIntoView({ behavior: 'smooth' })} className='highlighter transition duration-200'>👉[View Testimonials]</a></p> */}
         </div>
 
         <div className='line-breaker mb-5'></div>
@@ -31,7 +32,7 @@ const ProgramSection = () => {
                         <>
                             <ul className='mt-3 space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li className='italic font-semibold'>...Build Skills, Make Money, and Launch Your Consulting Career...</li>
-                                <li>Start your journey into school consulting with a <span className='font-semibold'>one-time, non-refundable registration fee of ₦99,999.</span> This gives you <span className='font-semibold'>instant access to Modules 1 & 2</span> of our expert-led training and mentorship program.</li>
+                                <li>Start your journey into school consulting with a <span className='font-semibold'>one-time, non-refundable registration fee of ₦99,999.</span> This gives you <span className='font-semibold'>instant access to Module 1</span> of our expert-led training and mentorship program.</li>
                                 {/* <li>
                                     <p className='font-semibold' style={{fontSize: '1em'}}>💼 Start Earning Immediately:</p>
                                     <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>17.85%</span> commission on every successful referral.</p>
@@ -39,12 +40,12 @@ const ProgramSection = () => {
                                 <li className='font-semibold'>🔥 Start Earning from Day One</li>
                                 <li>Once enrolled, you’ll be equipped to promote LearnNova’s high-impact e-learning solutions to private school owners — and <span className='font-semibold'>earn a 17.85% commission</span> on every successful referral.</li>
                                 <li className='font-semibold'>🔓 How to Unlock Full Access — Without Paying More</li>
-                                <li>✅ Earn up to <span className='font-semibold'>₦200,000 in referral commissions</span> (from just 3–8 successful school signups) and get <span className='font-semibold'>FREE access to Modules 3 through 8</span> — no extra payment required.</li>
+                                <li>✅ Earn up to <span className='font-semibold'>₦200,000 in referral commissions</span> (from just 5–8 successful school signups) and get <span className='font-semibold'>FREE access to Modules 2 through 8</span> — no extra payment required.</li>
                                 <li>🎁 <span className='font-semibold'>Bonus:</span> Access <span className='font-semibold'>Module 9 at no cost</span> if you complete the first 8 modules within <span className='font-semibold'>4 months</span> of your enrolment.</li>
                                 <li className='font-semibold'>💼 Refer & Earn More While You Learn</li>
-                                <li>Bring 3 to 8 schools on board and:</li>
+                                <li>Bring 5 to 8 schools on board and:</li>
                                 <li className='space-y-2'>
-                                    <p style={{fontSize: '1em'}}>✔ Unlock full training access (Modules 3–9)</p>
+                                    <p style={{fontSize: '1em'}}>✔ Unlock full training access (Modules 2–9)</p>
                                     <p style={{fontSize: '1em'}}>✔ Earn up to <span className='font-semibold'>₦200,000 in commissions</span></p>
                                     <p style={{fontSize: '1em'}}>✔ Build your confidence and income as you learn</p>
                                 </li>
@@ -79,7 +80,7 @@ const ProgramSection = () => {
                     {showOption === 2 && (
                         <>
                             <ul className='mt-3 space-y-4 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
-                                <li className='italic font-semibold'>...Access LearnNova expert mentorship, and lasting school growth...</li>
+                                <li className='italic font-semibold'>...Guiding schools to sustainable growth through mentorship and coaching...</li>
                                 <li>
                                     <p style={{fontSize: '1em'}} className='font-semibold'>🔹 Registration Fee: ₦99,999</p>
                                     <p style={{fontSize: '1em'}} className='italic'>Gain access to <span className='font-semibold'>Module 1</span> of the <span className='font-semibold'>School Growth Mentorship & Coaching Program</span>, along with a <span className='font-semibold'>one-term license</span> to the <span className='font-semibold'>LearnNova Learning Support Studio</span> for your school.</p>
