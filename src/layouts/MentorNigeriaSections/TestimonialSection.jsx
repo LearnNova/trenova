@@ -31,7 +31,7 @@ const testimonialsList = [
 const TestimonialSection = () => {
     const [showTestimonial, setShowTestimonial] = useState(null);
   return (
-    <section className='font-poppins text-white px-2 md:px-4 mb-10' id='testimonials'>
+    <div className='font-poppins text-white px-2 md:px-4 mb-10' id='testimonials'>
         <div className='line-breaker mt-7' />
         <div className='mt-2 space-y-4'>
             <h1 className='text-orange-500 font-bold text-center text-5xl md:text-9xl lg:text-11xl'>⭐️⭐️<span className='underline'>TESTIMONIALS</span>⭐️⭐️</h1>
@@ -48,7 +48,7 @@ const TestimonialSection = () => {
                 <a className='font-semibold cursor-pointer hover:underline transition-all duration-200' href='https://t.me/trenovagrouptestimonials'>👉 See All Testimonials</a>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

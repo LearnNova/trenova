@@ -98,163 +98,161 @@ const ApplicationFormSection = ({ name }) => {
     }
     
   return (
-    <div>
-        <div id='application-form-section'>
+    <div id='application-form-section'>
         <div className='application-form-title'>Complete the Application Form Below:</div>
-            <div>
-                <form id='application-form' onSubmit={handleSubmit}>
-                    <div className='form-row-main'>
-                        <div className='form-row'>
-                            <label htmlFor='firstName' className='input-labels'>First Name:</label>
-                            <input 
-                                type='text'
-                                id='firstName'
-                                name='firstName'
-                                placeholder='Mark'
-                                className='form-control'
-                                value={firstName}
-                                onChange={(e) => {setFirstName(e.target.value)}}
-                            />
-                        </div>
-                        
-                        <div className='form-row'>
-                            <label htmlFor='lastName' className='input-labels'>Last Name:</label>
-                            <input 
-                                type='text'
-                                id='lastName'
-                                name='lasttName'
-                                placeholder='Joe'
-                                className='form-control'
-                                value={lastName}
-                                onChange={(e) => {setLastName(e.target.value)}}
-                            />
+        <div>
+            <form id='application-form' onSubmit={handleSubmit}>
+                <div className='form-row-main'>
+                    <div className='form-row'>
+                        <label htmlFor='firstName' className='input-labels'>First Name:</label>
+                        <input 
+                            type='text'
+                            id='firstName'
+                            name='firstName'
+                            placeholder='Mark'
+                            className='form-control'
+                            value={firstName}
+                            onChange={(e) => {setFirstName(e.target.value)}}
+                        />
+                    </div>
+                    
+                    <div className='form-row'>
+                        <label htmlFor='lastName' className='input-labels'>Last Name:</label>
+                        <input 
+                            type='text'
+                            id='lastName'
+                            name='lasttName'
+                            placeholder='Joe'
+                            className='form-control'
+                            value={lastName}
+                            onChange={(e) => {setLastName(e.target.value)}}
+                        />
+                    </div>
+                </div>
+
+                <div className='form-row-main'>
+                    <div className='form-row'>
+                        <label htmlFor='whatsappNumber' className='input-labels'>Whatsapp Number:</label>
+                        <input 
+                            type='text'
+                            id='whatsappNumber'
+                            name='whatsappNumber'
+                            placeholder='09137819540'
+                            className='form-control'
+                            value={whatsapp}
+                            onChange={(e) => {setWhatsapp(e.target.value)}}
+                        />
+                    </div>
+                    
+                    <div className='form-row'>
+                        <label htmlFor='phoneNumber' className='input-labels'>Phone Number:</label>
+                        <input 
+                            type='text'
+                            id='phoneNumber'
+                            name='phoneNumber'
+                            placeholder='09137819540'
+                            className='form-control'
+                            value={phone}
+                            onChange={(e) => {setPhone(e.target.value)}}
+                        />
+                    </div>
+                </div>
+
+                <div className='form-row-main'>
+                    <div className='form-row'>
+                        <label htmlFor='emailAddress' className='input-labels'>Email Address:</label>
+                        <input 
+                            type='text'
+                            id='emailAddress'
+                            name='emailAddress'
+                            placeholder='markjoe@gmail.com'
+                            className='form-control'
+                            value={email}
+                            onChange={(e) => {setEmail(e.target.value)}}
+                        />
+                    </div>
+                    
+                    <div className='form-row'>
+                        <label htmlFor='location' className='input-labels'>Location:</label>
+                        <input 
+                            type='text'
+                            id='location'
+                            name='location'
+                            placeholder='Alimosho, Lagos'
+                            className='form-control'
+                            value={location}
+                            onChange={(e) => {setLocation(e.target.value)}}
+                        />
+                    </div>
+                </div>
+
+                {/* <div className='form-row-main'>
+                    <div className='form-row'>
+                    <label htmlFor='hear' className='input-labels-textarea'>Type in your Preferred Payment Option</label>
+                        <textarea 
+                            className='form-control-textarea'
+                            id='hear'
+                            name='hear'
+                            placeholder='Type either Option 1 or 2'
+                            value={hear}
+                            onChange={(e) => {setHear(e.target.value)}}
+                        ></textarea>
+                    </div>
+                </div> */}
+
+                <div className='form-row-main'>
+                    <div className='form-row'>
+                        <label htmlFor='hear' className='input-labels'>Pick your Preferred Enrolment Option</label>
+                        <select
+                            name="hear"
+                            value={hear}
+                            onChange={(e) => {setHear(e.target.value)}}
+                            className="form-control"
+                            required
+                        >
+                            <option value='' disabled>Select a Preferred Enrolment Option</option>
+                            <option value='Option 1'>Option 1</option>
+                            <option value='Option 2'>Option 2</option>
+                            <option value='Option 3'>Option 3</option>
+                        </select>
+                    </div>
+
+                    <div className='form-row'>
+                        <label htmlFor='agentName' className='input-labels'>Name of Agent/Officer:</label>
+                        <input 
+                            type='text'
+                            id='phoneNumber'
+                            name='agentName'
+                            className='form-control'
+                            value={agentName}
+                            onChange={(e) => {setAgentName(e.target.value)}}
+                            disabled
+                            required
+                        />
                         </div>
                     </div>
 
-                    <div className='form-row-main'>
-                        <div className='form-row'>
-                            <label htmlFor='whatsappNumber' className='input-labels'>Whatsapp Number:</label>
-                            <input 
-                                type='text'
-                                id='whatsappNumber'
-                                name='whatsappNumber'
-                                placeholder='09137819540'
-                                className='form-control'
-                                value={whatsapp}
-                                onChange={(e) => {setWhatsapp(e.target.value)}}
-                            />
-                        </div>
-                        
-                        <div className='form-row'>
-                            <label htmlFor='phoneNumber' className='input-labels'>Phone Number:</label>
-                            <input 
-                                type='text'
-                                id='phoneNumber'
-                                name='phoneNumber'
-                                placeholder='09137819540'
-                                className='form-control'
-                                value={phone}
-                                onChange={(e) => {setPhone(e.target.value)}}
-                            />
+                <div className='form-row-main'>
+                    <div className='form-row-consent'>
+                        <input 
+                            type='checkbox'
+                            value={consent}
+                            onClick={(e) => {setConsent(e.target.checked)}}
+                        />
+                        <div className='consent-text'>I consent to receive communications from MentorNigeria Academy about personal growth
+                            oppotunities, company and industry news, and other related content.
                         </div>
                     </div>
+        
+                </div>
+                <div className='form-info-box' ref={infoCate}>
+                    
+                </div>
+                <div>
+                    <button type='submit' className='submit-btn'>Apply Now</button>
+                </div>
 
-                    <div className='form-row-main'>
-                        <div className='form-row'>
-                            <label htmlFor='emailAddress' className='input-labels'>Email Address:</label>
-                            <input 
-                                type='text'
-                                id='emailAddress'
-                                name='emailAddress'
-                                placeholder='markjoe@gmail.com'
-                                className='form-control'
-                                value={email}
-                                onChange={(e) => {setEmail(e.target.value)}}
-                            />
-                        </div>
-                        
-                        <div className='form-row'>
-                            <label htmlFor='location' className='input-labels'>Location:</label>
-                            <input 
-                                type='text'
-                                id='location'
-                                name='location'
-                                placeholder='Alimosho, Lagos'
-                                className='form-control'
-                                value={location}
-                                onChange={(e) => {setLocation(e.target.value)}}
-                            />
-                        </div>
-                    </div>
-
-                    {/* <div className='form-row-main'>
-                        <div className='form-row'>
-                        <label htmlFor='hear' className='input-labels-textarea'>Type in your Preferred Payment Option</label>
-                            <textarea 
-                                className='form-control-textarea'
-                                id='hear'
-                                name='hear'
-                                placeholder='Type either Option 1 or 2'
-                                value={hear}
-                                onChange={(e) => {setHear(e.target.value)}}
-                            ></textarea>
-                        </div>
-                    </div> */}
-
-                    <div className='form-row-main'>
-                        <div className='form-row'>
-                            <label htmlFor='hear' className='input-labels'>Pick your Preferred Enrolment Option</label>
-                            <select
-                                name="hear"
-                                value={hear}
-                                onChange={(e) => {setHear(e.target.value)}}
-                                className="form-control"
-                                required
-                            >
-                                <option value='' disabled>Select a Preferred Enrolment Option</option>
-                                <option value='Option 1'>Option 1</option>
-                                <option value='Option 2'>Option 2</option>
-                                <option value='Option 3'>Option 3</option>
-                            </select>
-                        </div>
-
-                        <div className='form-row'>
-                            <label htmlFor='agentName' className='input-labels'>Name of Agent/Officer:</label>
-                            <input 
-                                type='text'
-                                id='phoneNumber'
-                                name='agentName'
-                                className='form-control'
-                                value={agentName}
-                                onChange={(e) => {setAgentName(e.target.value)}}
-                                disabled
-                                required
-                            />
-                          </div>
-                      </div>
-
-                    <div className='form-row-main'>
-                        <div className='form-row-consent'>
-                            <input 
-                                type='checkbox'
-                                value={consent}
-                                onClick={(e) => {setConsent(e.target.checked)}}
-                            />
-                            <div className='consent-text'>I consent to receive communications from MentorNigeria Academy about personal growth
-                                oppotunities, company and industry news, and other related content.
-                            </div>
-                        </div>
-            
-                    </div>
-                    <div className='form-info-box' ref={infoCate}>
-                       
-                    </div>
-                    <div>
-                        <button type='submit' className='submit-btn'>Apply Now</button>
-                    </div>
-
-                </form>
-            </div>
+            </form>
         </div>
     </div>
   )
