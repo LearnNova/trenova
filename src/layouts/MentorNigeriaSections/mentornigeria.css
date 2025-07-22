@@ -285,6 +285,7 @@ html {
   font-family: var(--font-family-sec);
   padding: .3em 0;
   z-index: 1000;
+  scroll-margin-top: 100px;
   
 }
 
