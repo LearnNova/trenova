@@ -148,13 +148,13 @@ const ProgramSection = () => {
                         <>
                             <ul className='mt-3 space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li className='italic font-semibold'>...Invest in Mastery, Advance on Your Terms...</li>
-                                <li>Prefer a pay-as-you-go approach? With our <span className='font-semibold'>Direct Payment Plan</span>, you can progress through the program at your own pace by enrolling in individual modules for just <span className='font-semibold'>₦74,999 per module</span>.</li>
+                                <li><span className='font-semibold'>Prefer a pay-as-you-go approach?</span> With our Direct Payment Plan, you can progress through the program at your own pace by enrolling in individual modules for just <span className='font-semibold'>₦79,999 per module</span>.</li>
                                 <li className='font-semibold'>💼 Best Value:  Unlock the Full Program for ₦499,999 (One-Time Payment)</li>
                                 <li>Take the smarter route with our all-inclusive bundle — perfect for professionals who are ready to go all in.</li>
                                 <li className='font-semibold'>With this one-time investment, you’ll unlock:</li>
                                 <li className='space-y-3'>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Full access to Modules 1–8</span> (Save <span className='font-semibold'>₦174,992</span> compared to paying per module)</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Free access to Module 9</span> (Advanced consulting tools & strategies)</p>
+                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Full access to Modules 1–9</span> (Save <span className='font-semibold'>₦219,990</span> compared to paying per module)</p>
+                                    <p style={{fontSize: '1em'}}>✅ Full Access to Advanced consulting tools, operational strategies, bonus features and post-training support</p>
                                     <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Priority support</span> plus <span className='font-semibold'>exclusive alumni benefits</span></p>
                                 </li>
                                 <li className='font-semibold'>💡 Why Choose This Option?</li>
