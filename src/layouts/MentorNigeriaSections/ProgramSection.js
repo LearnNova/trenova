@@ -155,7 +155,7 @@ const ProgramSection = () => {
                                 <li className='space-y-3'>
                                     <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Full access to Modules 1–9</span> (Save <span className='font-semibold'>₦219,990</span> compared to paying per module)</p>
                                     <p style={{fontSize: '1em'}}>✅ Full Access to Advanced consulting tools, operational strategies, bonus features and post-training support</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Priority support</span> plus <span className='font-semibold'>exclusive alumni benefits</span></p>
+                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Includes Priority assistance and a suite of exclusive alumni benefits</span></p>
                                 </li>
                                 <li className='font-semibold'>💡 Why Choose This Option?</li>
                                 <li>This premium package is built for driven individuals who want to:</li>
