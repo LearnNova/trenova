@@ -92,6 +92,15 @@ const ProgramSection = () => {
                                                             <li>✅ Sustainable school growth strategies</li>
                                                         </ul>
                                                     </div>
+                                                    <div className='text-inherit'>
+                                                        <p className='font-semibold'>Included Learning Resources:</p>
+                                                        <ul className='list-none'>
+                                                            <li><span className='font-semibold'>✔ Digital Reading Library (KG1 – SSS3):</span> 750+ carefully curated books to build a strong reading culture</li>
+                                                            <li><span className='font-semibold'>✔ Creative Life Skills Courses (Ages 3–15):</span> 50+ engaging, hands-on modules</li>
+                                                            <li><span className='font-semibold'>✔ Senior Secondary Math Suite:</span> 2,400+ video lessons and 8,000+ practice questions</li>
+                                                            <li><span className='font-semibold'>✔ Diction & Phonics (KG1 – Basic 6):</span> 540 interactive lessons and 500+ exercises</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                                 
                                             </div>

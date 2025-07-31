@@ -34,10 +34,6 @@ a {
   color: inherit;
 }
 
-p {
-  font-size: 1em;
-}
-
 html {
    scroll-behavior: smooth;
 }
@@ -460,6 +456,10 @@ html {
   font-size: 1em;
   padding-left: .7em;
   margin-bottom: .5em;
+}
+
+.module-text-box__list-box-inner-box li p {
+  font-size: 1em;
 }
 
 .module-row {
