@@ -274,8 +274,7 @@ html {
   width: 100%;
 }
 
-
-#application-form-section {
+#application-form-container {
   position: relative;
   text-align: center;
   font-size: 4em;
@@ -285,7 +284,6 @@ html {
   font-family: var(--font-family-sec);
   padding: .3em 0;
   z-index: 1000;
-  
 }
 
 .application-form-title {
