@@ -8,23 +8,17 @@ const pricingPlans = [
     priceInfoPri: {
       title: 'Select the Subjects That Best Fit Your School’s Needs:',
       lists: [
-        <>E-Library of Reading Books (For KG 1 to Basic 6 and JSS 1 to SSS 3)</>,
-        <>Creative Life Skills Lessons & Activities for KG 1 to Basic 6 OR JSS 1 to 3</>,
-        <>Senior Secondary Mathematics</>,
-        <>Diction & Phonics for KG 1 to Basic 5</>,
-      ]
-    },
-    priceInfoSec: {
-      title: 'Price Per School:',
-      lists: [
-        'Termly Fee - ₦99,999 per term',
-        'Annual Fee – ₦249,999 (3 terms)',
+        <><span className="font-semibold">E-Library of reading books for Elementary and Secondary School - </span><span className="block ml-2">(750+ carefully curated reading books for KG 1 to SSS 3)</span></>,
+        <><span className="font-semibold">Creative Life Skills (KG 1 to JSS 3) - </span><span className="block ml-2">Explore over 50 hands-on, creative, and vocational topics designed to build practical skills, foster creativity, and inspire future income-generating abilities.</span></>,
+        <><span className="font-semibold">Senior Secondary School Mathematics - </span><span className="block ml-2">(2,400+ comprehensive video lessons plus 8,000 questions & answers)</span></>,
+        <><span className="font-semibold">Diction & Phonics for Elementary School pupils - </span><span className="block ml-2">(540 interactive lessons with 500 practice exercises)</span></>,
       ]
     },
     includes: [
-      <span className="font-semibold">✔️ Includes the School Learning Support Studio License with engaging, multimedia lessons across core subjects.</span>,
+      <>✔️ <span className='font-semibold'>Learning Support Studio:</span> ₦99,999 per term (per school)</>,
+      <>✔️ <span className='font-semibold'>Home Learning Connect App:</span> ₦1,450 per child per term</>,
     ],
-    bestFor: <>Ideal for schools beginning their digital learning journey.</>,
+    bestFor: <>...Ideal for individual schools seeking to enrich academic performance with smart digital learning support...</>,
     featuresTitle: 'Extra Features & Exclusive Benefits',
     features: [
       <>Enjoy offline access after the initial setup</>,
@@ -33,7 +27,7 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📗 Plan 2: Home Learning Connect",
+    title: "📗 Plan 2: SchoolConnect Reseller Plan",
     price: null,
     priceInfoPri: {
       title: '✅ Subjects Included:',
@@ -44,21 +38,11 @@ const pricingPlans = [
         <><span className="font-semibold">Diction & Phonics for Elementary School pupils - </span><span className="block ml-2">(540 interactive lessons with 500 practice exercises)</span></>,
       ]
     },
-    priceInfoSec: {
-      title: 'Per-Term Plans:',
-      lists: [
-        'One (1) Learner - ₦1,999',
-        '50 Learners – ₦94,999',
-        '100 Learners – ₦179,999',
-        '200 Learners – ₦339,999',
-        '300 Learners – ₦449,999',
-        '400 Learners -  ₦519,999',
-      ]
-    },
     includes: [
-      <span className="font-semibold">✔️ Includes full access to the LearnNova Home Learning App, available on Android and iOS Smartphones, Laptop and Desktop Computers</span>,
+      <>✔️ <span className='font-semibold'>10 Learning Support Studios:</span> ₦599,999 per term</>,
+      <>✔️ <span className='font-semibold'>Home Learning Connect App:</span> ₦950 per child per term</>,
     ],
-    bestFor: <>Extend learning to the home with flexible Home Learning Licenses</>,
+    bestFor: <>...Perfect for School Consultants, Association Leaders, and Schools with Multiple Campuses...</>,
     featuresTitle: 'Extra Benefits',
     features: [
       <>Enjoy <span className="font-semibold">offline access</span> after initial setup</>,
@@ -67,48 +51,18 @@ const pricingPlans = [
     ],
   },
   {
-    title: "📕 Plan 3: School + Home Learning Support Combo",
-    price: <><span className="block">- Termly Fee: ₦149,999 per term</span><span className="bold mt-2">- Annual Fee: ₦374,999 (3 terms)</span></>,
-    priceInfoPri: {
-      title: 'Includes:',
-      lists: [
-        <>
-          <p className="font-semibold mb-3"><span style={{color: '#000000'}}>School Learning Support Studio License -</span> Get interactive, multimedia-rich lessons in any 2 of the following subjects:</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Extensive E-Library of Reading Books for KG 1 to SSS 3 -</span> (750+ carefully curated reading books for KG 1 to SSS3)</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Creative Life Skills Studies -</span> Over 50 engaging vocational and practical skill topics for learners from KG 1 to JSS 3—carefully designed to inspire, empower, and prepare them for real-life success.</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Senior Secondary Mathematics -</span> (2,400+ comprehensive video lessons plus 8,000 questions & answers)</p>
-          <p className="font-normal"><span className="font-medium" style={{color: '#000000'}}>✔️ Elementary School Diction & Phonics -</span> (540 interactive lessons with 500 practice exercises)</p>
-        </>,
-        <><span className="font-semibold mt-3" style={{color: '#000000'}}>50 Home Learning App Licenses - </span>Give your pupils and students access to the LearnNova Home Learning App on Android or iOS Smartphones, Laptop or Desktop Computers —for continued learning beyond the classroom.</>,
-      ]
-    },
-    includes: [
-      <>✔️ Access to School Learning Support Studio Subjects</>,
-      <>✔️ Access for <span className="font-semibold">50 Learners</span> on the Home Learning App</>,
-      <>✔️ Empower your teachers with access to virtual Continuous Professional Development (CPD) training and an innovation hub for modern classroom strategies</>,
-      <>✔️ Access to Virtual School Growth Mentorship Masterclasses and Strategic Growth Toolkits, specifically designed for School Owners and Administrators.</>,
-      <>✔️ Add additional learners to the Home Learning App for just <span className="font-semibold">₦999</span> per learner each term or <span className="font-semibold">₦1,999</span> per learner annually (3 terms)</>,
-      <>✔️ Gain full access to TreNova Academy’s online training and learning portal</>,
-    ],
-    bestFor: <>Ideal for schools aiming to improve learning outcomes, increase revenue, and achieve sustainable growth.</>,
-    featuresTitle: 'Extra Benefits:',
-    features: [
-      <>Enjoy offline access after the initial setup</>,
-      <><span className="font-semibold">Priority access to technical support - </span>Includes free onboarding and installation support</>,
-      <><span className="font-semibold">Referral Reward:</span> Refer another school to LearnNova and receive 20 bonus learner licenses per successful referral.</>,
-    ],
-  },
-  {
-    title: "📙 Plan 4: Lifetime Access – One-Time Payment",
+    title: "📙 Plan 3: Lifetime Access – One-Time Payment",
     price: null,
     priceInfoSec: {
       title: 'Limited Time Price Offer!',
       lists: [
-        <>Price Per School – <span className="font-semibold">₦749,999 (One-time payment)</span></>,
+        <>SSS Mathematics & E-library – <span className="font-semibold">₦649,999 (One-time payment)</span></>,
+        <>Diction & Phonics for Elementary School & E-library – <span className="font-semibold">₦649,999 (One-time payment)</span></>,
+        <>Creative Life Skills Lessons and Activities – <span className="font-semibold">₦499,999 (One-time payment)</span></>,
       ]
     },
     priceInfoPri: { 
-      title: '✅ Choose the Subject(s) That Best Fit Your School’s Needs:',
+      title: '✅ Available Subject(s):',
       lists: [
         <>
           <span style={{color: '#000000'}} className="block mt-3 font-semibold">Comprehensive E-Library of Age-Appropriate Reading Books (KG 1 to SSS 3)</span>
@@ -136,7 +90,7 @@ const pricingPlans = [
           </ul>
         </>,
         <>
-          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Diction & Phonics Elementary School</span>
+          <span style={{color: '#000000'}} className="block mt-3 font-semibold">Diction & Phonics for Elementary School</span>
           <span className="block mt-1 font-medium">What's Included:</span>
           <ul className="list-disc ml-4 space-y-1 mb-2">
             <li>540 engaging lessons</li>
@@ -224,7 +178,7 @@ const PricingSection = () => {
                     <h4 className="text-lg md:text-xl lg:text-3xl text-left font-semibold deep-purple mt-8 mb-2">
                       ✅ What You Get:
                     </h4>
-                    <ul className="text-lg md:text-xl lg:text-3xl text-left mb-8 red-text space-y-2">
+                    <ul className="text-lg md:text-xl lg:text-3xl text-left mb-8 space-y-2">
                       {plan.includes.map((item, i) => (
                         <li key={i}>{item}</li>
                       ))}
