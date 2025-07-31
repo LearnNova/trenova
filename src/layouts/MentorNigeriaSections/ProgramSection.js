@@ -77,11 +77,11 @@ const ProgramSection = () => {
                                 </li>
                                 <li className='font-semibold'>🎓 What You’ll Receive</li>
                                 <li>
-                                    <ol className='list-decimal space-y-4 pl-1.5' style={{fontSize: '1em', listStyleType: 'decimal'}}>
+                                    <ol className='list-decimal space-y-5 pl-4' style={{fontSize: '1em', listStyleType: 'decimal'}}>
                                         <li className='text-inherit'>
                                             <div className='text-inherit'>
                                                 <p className='font-semibold'>LearnNova School Learning Support Studio <span className='italic'>(Installed on your school computer or laptop)</span></p>
-                                                <div className='text-inherit my-3 space-y-3'>
+                                                <div className='text-inherit my-3 space-y-4'>
                                                     <p>An all-in-one multimedia solution designed to support teachers, engage students, and increase school profitability.</p>
                                                     <div className='text-inherit'>
                                                         <p className='font-semibold'>Key Benefits:</p>
@@ -109,54 +109,38 @@ const ProgramSection = () => {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                
                                             </div>
                                         </li>
 
+                                        <li className='text-inherit'>
+                                            <div className='text-inherit'>
+                                                <p className='font-semibold'>MentorNigeria Mentorship & Coaching Program</p>
+                                                <div className='text-inherit my-3 space-y-4'>
+                                                    <p>Become a certified <span className='font-semibold'>School Growth Mentor and Coach</span> through our expert-led, practical curriculum designed for real-world results.</p>
+                                                    <div className='text-inherit'>
+                                                        <p className='font-semibold'>Training Modules Include:</p>
+                                                        <ul className='list-none space-y-1'>
+                                                            <li><span className='font-semibold'>✅ Modules 1–2:</span> Foundations of School Growth & Starting/Reviving a School</li>
+                                                            <li><span className='font-semibold'>✅ Modules 3–4:</span> School Makeover Techniques & Enrolment Growth Strategies</li>
+                                                            <li><span className='font-semibold'>✅ Modules 5–6:</span> Revenue Growth, Profitability Increase, and Operational Excellence</li>
+                                                            <li><span className='font-semibold'>✅ Modules 7–8:</span> Effective School Management, Digital Integration & E-Learning Integration</li>
+                                                            <li><span className='font-semibold'>✅ Module 9 + Practicum:</span> Consulting Practice Management, Business Scaling & Capstone Project</li>
+                                                        </ul>
+                                                    </div>
+                                                    <p>This comprehensive program is crafted to equip you with the skills and tools to transform your own school—and guide other schools to do the same.</p>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ol>
-                                    <p style={{fontSize: '1em'}} className='font-semibold'>1. Expert-Led Mentorship & Coaching Sessions</p>
-                                    <p style={{fontSize: '1em'}}>Learn how to become a certified School Growth Mentor and Coach through a practical, results-driven curriculum:</p>
-                                </li>
-                                <li className='font-semibold text-[#ff0000] mt-5'>Program Curriculum:</li>
-                                <li className='space-y-1.5 ml-2.5'>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 1 & 2:</span> Foundations of School Growth Consulting & Starting or Rescuing a School</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 3 & 4:</span> School Makeover & Enrolment Growth Strategies</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 5 & 6:</span> Revenue Growth & Profitability Improvement Strategies, and Effective Management & Operations</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 7 & 8:</span> Effective School Management & Digital Integration & E-Learning Strategy</p>
-                                    <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Module 9 & Practicum:</span> Consulting Execution, Business Growth, Capstone Project & Mentorship Practicum </p>
-                                </li>
-                                <li className='italic'>This program is built to empower you to drive transformation in your own school—and support others in doing the same.</li>
-                                <li className='mt-7 space-y-2'>
-                                    <p style={{fontSize: '1em'}} className='font-semibold'>2.📘 LearnNova Classroom Learning Support Studio (Installation on your school’s desktop or laptop)</p>
-                                    <p style={{fontSize: '1em'}} className='italic'>An all-in-one multimedia solution designed to support teaching and boost student engagement. It offers:</p>
-                                </li>
-                                <li className='space-y-2'>
-                                    <p style={{fontSize: '1em'}}>✅ Improved Academic Performance</p>
-                                    <p style={{fontSize: '1em'}}>✅ Increased School Revenue</p>
-                                    <p style={{fontSize: '1em'}}>✅ Sustainable School Growth</p>
-                                </li>
-                                <li className='font-semibold'>Included Resources:</li>
-                                <li className='ml-2.5 space-y-1.5'>
-                                    <p style={{fontSize: '1em'}}>✔ <span className='font-semibold'>Digital Reading Library (KG 1 – SSS 3):</span> 750+ curated books to enhance literacy and reading culture.</p>
-                                    <p style={{fontSize: '1em'}}>✔ <span className='font-semibold'>Creative Life Skills Courses (Ages 3–15):</span> 50+ engaging, vocational skill-building modules.</p>
-                                    <p style={{fontSize: '1em'}}>✔ <span className='font-semibold'>Senior Secondary Mathematics Suite:</span> 2,400+ lessons & 8,000 practice questions.</p>
-                                    <p style={{fontSize: '1em'}}>✔ <span className='font-semibold'>Diction & Phonics (KG 1 – Basic 6):</span> 540 interactive lessons with 500 practice exercises.</p>
-                                </li>
-                                <li className='font-semibold'>Bonus Features:</li>
-                                <li className='ml-2.5 space-y-1.5'>
-                                    <p style={{fontSize: '1em'}}>Full offline access after initial setup</p>
-                                    <p style={{fontSize: '1em'}}>User-friendly interface for teachers and learners</p>
-                                    <p style={{fontSize: '1em'}}>Free onboarding & installation support</p>
                                 </li>
                             </ul>
 
-                            {/* <div className='mt-4 space-y-4'>
-                                <p className='font-semibold' style={{fontSize: '1em'}}>📈 Accelerate Your Growth. Own Your Success.</p>
-                                <p style={{fontSize: '1em'}}>Whether you pay per module or go all-in, this path puts you in control of your learning and earning potential — with the tools, guidance, and network to rise fast in the world of school consulting, growth mentorship and coaching.</p>
-                            </div> */}
+                            <div className='mt-4'>
+                                <p style={{fontSize: '1em'}} className='font-semibold'>👉 Are you ready to lead school transformation in your community?</p>
+                            </div>
 
                             <div className='mt-4'>
-                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>👉 Ready to take charge of your future?</span> Enrol now and begin your journey to school consulting, growth mentorship and coaching mastery.</a></p>
+                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>Enrol today</span> and begin your journey to becoming a certified <span className='font-semibold'>School Consultant, Mentor, and Growth Strategist</span>.</a></p>
                             </div>
                         </>
                     )}
