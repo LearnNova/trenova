@@ -9,7 +9,7 @@ const pricingPlans = [
       title: 'Select the Subjects That Best Fit Your School’s Needs:',
       lists: [
         <><span className="font-semibold">E-Library of reading books for Elementary and Secondary School - </span><span className="block ml-2">(750+ carefully curated reading books for KG 1 to SSS 3)</span></>,
-        <><span className="font-semibold">Creative Life Skills (KG 1 to JSS 3) - </span><span className="block ml-2">Explore over 50 hands-on, creative, and vocational topics designed to build practical skills, foster creativity, and inspire future income-generating abilities.</span></>,
+        <><span className="font-semibold">Creative Life Skills (KG 1 to JSS 3)- </span><span className="block ml-2">Explore over 50 hands-on, creative, and vocational topics designed to build practical skills, foster creativity, and inspire future income-generating abilities.</span></>,
         <><span className="font-semibold">Senior Secondary School Mathematics - </span><span className="block ml-2">(2,400+ comprehensive video lessons plus 8,000 questions & answers)</span></>,
         <><span className="font-semibold">Diction & Phonics for Elementary School pupils - </span><span className="block ml-2">(540 interactive lessons with 500 practice exercises)</span></>,
       ]
@@ -33,7 +33,7 @@ const pricingPlans = [
       title: '✅ Subjects Included:',
       lists: [
         <><span className="font-semibold">E-Library of reading books for Elementary and Secondary School - </span><span className="block ml-2">(750+ carefully curated reading books for KG 1 to SSS 3)</span></>,
-        <><span className="font-semibold">Creative Life Skills (KG 1 to JSS 3) - </span><span className="block ml-2">Explore over 50 hands-on, creative, and vocational topics designed to build practical skills, foster creativity, and inspire future income-generating abilities.</span></>,
+        <><span className="font-semibold">Creative Life Skills (KG 1 to JSS 3)- </span><span className="block ml-2">Explore over 50 hands-on, creative, and vocational topics designed to build practical skills, foster creativity, and inspire future income-generating abilities.</span></>,
         <><span className="font-semibold">Senior Secondary School Mathematics - </span><span className="block ml-2">(2,400+ comprehensive video lessons plus 8,000 questions & answers)</span></>,
         <><span className="font-semibold">Diction & Phonics for Elementary School pupils - </span><span className="block ml-2">(540 interactive lessons with 500 practice exercises)</span></>,
       ]

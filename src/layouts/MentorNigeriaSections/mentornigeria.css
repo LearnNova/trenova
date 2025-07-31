@@ -34,6 +34,10 @@ a {
   color: inherit;
 }
 
+p {
+  font-size: 1em;
+}
+
 html {
    scroll-behavior: smooth;
 }
