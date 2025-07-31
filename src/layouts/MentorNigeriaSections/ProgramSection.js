@@ -72,21 +72,20 @@ const ProgramSection = () => {
                                 <li>Begin your transformation journey with the <span className='font-semibold'>installation of the LearnNova School Learning Support Studio</span> on your school’s desktop or laptop, including a <span className='font-semibold'>one-term usage license</span>, plus full access to <span className='font-semibold'>Module 1</span> of the <span className='font-semibold'>MentorNigeria School Consulting Training & Mentorship Program</span>.</li>
                                 <li className='font-semibold'>🔄 What’s Next:</li>
                                 <li>
-                                    <p style={{fontSize: '1em'}}>🔹 <span className='font-semibold'>Refer 2 schools</span> to unlock <span className='font-semibold'>Modules 2–5</span> of the school consulting training and mentorship program.</p>
+                                    <p style={{fontSize: '1em'}}>🔹 <span className='font-semibold'>Refer 2 schools</span> to LearnNova Learning Support Program to unlock <span className='font-semibold'>Modules 2–5</span> of the school consulting training and mentorship program.</p>
                                     <p style={{fontSize: '1em'}}>🔹 <span className='font-semibold'> Refer 2 additional schools</span> to unlock <span className='font-semibold'>Modules 6–9</span> and complete your journey.</p>
                                 </li>
                                 <li className='font-semibold'>🎓 What You’ll Receive</li>
                                 <li>
-                                    <ol className='list-decimal space-y-3' style={{fontSize: '1em', listStyleType: 'decimal'}}>
+                                    <ol className='list-decimal space-y-4 pl-1.5' style={{fontSize: '1em', listStyleType: 'decimal'}}>
                                         <li className='text-inherit'>
                                             <div className='text-inherit'>
-                                                <p className='font-semibold'>LearnNova School Learning Support Studio</p>
-                                                <p className='italic'>(Installed on your school computer or laptop)</p>
-                                                <div className='text-inherit my-3 space-y-2'>
+                                                <p className='font-semibold'>LearnNova School Learning Support Studio <span className='italic'>(Installed on your school computer or laptop)</span></p>
+                                                <div className='text-inherit my-3 space-y-3'>
                                                     <p>An all-in-one multimedia solution designed to support teachers, engage students, and increase school profitability.</p>
                                                     <div className='text-inherit'>
                                                         <p className='font-semibold'>Key Benefits:</p>
-                                                        <ul className='list-none'>
+                                                        <ul className='list-none space-y-1'>
                                                             <li>✅ Improved academic outcomes</li>
                                                             <li>✅ Boost in enrolment and revenue</li>
                                                             <li>✅ Sustainable school growth strategies</li>
@@ -94,11 +93,19 @@ const ProgramSection = () => {
                                                     </div>
                                                     <div className='text-inherit'>
                                                         <p className='font-semibold'>Included Learning Resources:</p>
-                                                        <ul className='list-none'>
+                                                        <ul className='list-none space-y-1'>
                                                             <li><span className='font-semibold'>✔ Digital Reading Library (KG1 – SSS3):</span> 750+ carefully curated books to build a strong reading culture</li>
                                                             <li><span className='font-semibold'>✔ Creative Life Skills Courses (Ages 3–15):</span> 50+ engaging, hands-on modules</li>
                                                             <li><span className='font-semibold'>✔ Senior Secondary Math Suite:</span> 2,400+ video lessons and 8,000+ practice questions</li>
                                                             <li><span className='font-semibold'>✔ Diction & Phonics (KG1 – Basic 6):</span> 540 interactive lessons and 500+ exercises</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className='text-inherit'>
+                                                        <p className='font-semibold'>Bonus Features:</p>
+                                                        <ul className='list-disc' style={{listStyleType: 'disc'}}>
+                                                            <li>Full offline access post-installation</li>
+                                                            <li>Easy-to-use interface for teachers and students</li>
+                                                            <li>Free installation and onboarding support</li>
                                                         </ul>
                                                     </div>
                                                 </div>
