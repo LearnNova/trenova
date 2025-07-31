@@ -9,10 +9,19 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div className='module-title'>📘 Program Curriculum</div>
+            <div style={{fontSize: '0.3em'}}>
+                <p className='text-inherit font-semibold'>Training Venue:</p>
+                <address className='text-inherit'>
+                    <span className='block'>Attend the training live at TreNova Training Centre,</span>
+                    <span className='block'>7B Ogunsiji Close, Off Ogunmodede Street, Behind GTBank, Allen, Ikeja</span>
+                    <span className='block font-semibold'>— OR Join Virtually from Anywhere.</span>
+                </address>
+            </div>
             {
                 showProgramCurriculum && (
                     <>
+                        <div className='module-title'>📘 Program Curriculum</div>
+
                         <div className='module-row'>
                             <div className='module-info'>
                                 <h3 className='highlighter'>🔹 Module 1: Foundations of School Growth Consulting</h3>
@@ -396,11 +405,11 @@ const ModuleSection = () => {
                 )
             }
             <div 
-                className='text-center text-white hover:text-orange-500 mb-3 underline'
-                style={{fontSize: '0.35em'}}
+                className='inline-block mx-auto text-center text-white hover:text-orange-500 mt-3 mb-6 underline cursor-pointer font-medium'
+                style={{fontSize: '0.3em'}}
                 onClick={()=>setShowProgramCurriculum(prev => !prev)}
             >
-                {showProgramCurriculum ? 'Click Here to Hide Program Curriculum' : 'Click Here to Show Program Curriculum'}
+                👉 {showProgramCurriculum ? 'Click Here to Hide Program Curriculum' : 'Click Here to Show Program Curriculum'}
             </div>
 
             <div className='apply-now-get-started'><a href='#application-form-section'>📩 [ENROLL NOW]</a></div>

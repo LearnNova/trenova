@@ -160,35 +160,38 @@ const ProgramSection = () => {
                             <ul className='mt-3 space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li className='italic font-semibold'>...Build real skills. Earn real income. Launch your school consulting career with confidence...</li>
                                 <li>Kick-start your journey with a <span className='font-semibold'>one-time, non-refundable fee of ₦99,999</span> and gain <span className='font-semibold'>immediate access to Module 1</span> of our expert-led training and mentorship program.</li>
-                                <li className='font-semibold'>
+                                <li>
                                     <p className='font-semibold' style={{fontSize: '1em'}}>🔥 Start Earning From Day One</p>
-                                    <p></p>
+                                    <p style={{fontSize: '1em'}}>As soon as you enrol, you’ll be equipped to promote LearnNova’s impactful e-learning solutions to private school owners — and earn a <span className='font-semibold'>17.85% commission</span> on every successful referral.</p>
                                 </li>
-                                <li>As soon as you enrol, you’ll be equipped to promote LearnNova’s impactful e-learning solutions to private school owners — and earn a <span className='font-semibold'>17.85% commission</span> on every successful referral.</li>
-                                <li className='font-semibold'>🔓 How to Unlock Full Access — Without Paying More</li>
-                                <li>✅ Earn up to <span className='font-semibold'>₦200,000 in referral commissions</span> (from just 5–8 successful school signups) and get <span className='font-semibold'>FREE access to Modules 2 through 8</span> — no extra payment required.</li>
-                                <li>🎁 <span className='font-semibold'>Bonus:</span> Access <span className='font-semibold'>Module 9 at no cost</span> if you complete the first 8 modules within <span className='font-semibold'>4 months</span> of your enrolment.</li>
-                                <li className='font-semibold'>💼 Refer & Earn More While You Learn</li>
-                                <li>Bring 5 to 8 schools on board and:</li>
-                                <li className='space-y-2'>
-                                    <p style={{fontSize: '1em'}}>✔ Unlock full training access (Modules 2–9)</p>
-                                    <p style={{fontSize: '1em'}}>✔ Earn up to <span className='font-semibold'>₦200,000 in commissions</span></p>
-                                    <p style={{fontSize: '1em'}}>✔ Build your confidence and income as you learn</p>
+                                <li>✔ Hit <span className='font-semibold'>₦50,000</span> in referral commissions and <span className='font-semibold'>unlock free access to 2</span> impactful school consulting training and mentorship modules - <span className='font-semibold'>absolutely free!</span></li>
+                                <li>
+                                    <p className='font-semibold'>🔓 Unlock Full Training & Mentorship Access — Just by Earning ₦200,000</p>
+                                    <p>No extra payment required.</p>
+                                </li>
+                                <li className='space-y-1'>
+                                    <p style={{fontSize: '1em'}}>✔ Keep Learning as You Refer Schools</p>
+                                    <p style={{fontSize: '1em'}}>✔ Earn up to <span className='font-semibold'>₦200,000</span> by referring just <span className='font-semibold'>5–10</span> successful school signups</p>
+                                    <p style={{fontSize: '1em'}}>✔ Get Instant <span className='font-semibold'>FREE</span> Access to Modules <span className='font-semibold'>2–8</span> when your referrals are confirmed</p>
+                                </li>
+                                <li>
+                                    <p className='font-semibold' style={{fontSize: '1rem'}}>🎁 Bonus Opportunity:</p>
+                                    <p style={{fontSize: '1rem'}}>Unlock <span className='font-semibold'>free</span> access to the practicum, exclusive bonus features, and post-training support when you earn access to all <span className='font-semibold'>9 modules within 3 months</span>.</p>
                                 </li>
                             </ul>
 
                             <div className='mt-4 space-y-4'>
                                 <p className='font-semibold' style={{fontSize: '1em'}}>🚀 What Will You Be Promoting?</p>
-                                <p style={{fontSize: '1em'}}><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter'>👉 [Explore LearnNova's School Solutions Here]</a></p>
+                                <p style={{fontSize: '1em'}}><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova' className='highlighter'>👉 [Explore LearnNova’s E-Learning Solutions]</a></p>
                             </div>
 
                             <div className='mt-4 space-y-4'>
                                 <p style={{fontSize: '1em'}} className='font-semibold'>💡 Learn. Earn. Rise.</p>
-                                <p style={{fontSize: '1em'}}>Join LearnNova’s Earn While You Learn program and take your first step into a consulting and mentorship career that pays — with <span className='font-semibold'>practical skills, hands-on experience</span>, and <span className='font-semibold'>real income potential</span>.</p>
+                                <p style={{fontSize: '1em'}}>Join the <span className='font-semibold'>Earn While You Learn</span> program and take your first step toward a profitable, purpose-driven career in school consulting and mentorship — equipped with practical training, real opportunities, and sustainable growth.</p>
                             </div>
 
                             <div className='mt-4'>
-                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>👉 Ready to take charge of your future?</span> Enrol now and begin your journey to consulting and mentorship mastery.</a></p>
+                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>👉 Ready to get started?</span> Enrol today and start building your future in school consulting.</a></p>
                             </div>
                         </>
                     )}
