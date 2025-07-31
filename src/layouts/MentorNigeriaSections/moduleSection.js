@@ -385,11 +385,11 @@ const ModuleSection = () => {
             }
 
             <div 
-                className='inline-block mx-auto mt-3 mb-6 underline cursor-pointer font-medium text-[#FA8806]'
-                style={{fontSize: '0.35em'}}
+                className='inline-block mx-auto text-center my-3 underline cursor-pointer font-semibold text-[#FA8806]'
+                style={{fontSize: '0.34em'}}
                 onClick={()=>setShowProgramCurriculum(prev => !prev)}
             >
-                👉 {showProgramCurriculum ? 'Click Here to Hide Program Curriculum' : 'Click Here to Show Program Curriculum'}
+                👉 {showProgramCurriculum ? 'Hide Program Curriculum' : 'View Program Curiculum'}
             </div>
 
             <div className='line-breaker'></div>
