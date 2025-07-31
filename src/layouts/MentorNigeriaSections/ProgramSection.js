@@ -158,14 +158,13 @@ const ProgramSection = () => {
                     {showOption === 3 && (
                         <>
                             <ul className='mt-3 space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
-                                <li className='italic font-semibold'>...Build Skills, Make Money, and Launch Your Consulting Career...</li>
-                                <li>Start your journey into school consulting with a <span className='font-semibold'>one-time, non-refundable registration fee of ₦99,999.</span> This gives you <span className='font-semibold'>instant access to Module 1</span> of our expert-led training and mentorship program.</li>
-                                {/* <li>
-                                    <p className='font-semibold' style={{fontSize: '1em'}}>💼 Start Earning Immediately:</p>
-                                    <p style={{fontSize: '1em'}}>As a registered trainee, you’ll be empowered to promote LearnNova’s proven e-learning solutions to private school owners — and earn a generous <span className='font-semibold'>17.85%</span> commission on every successful referral.</p>
-                                </li> */}
-                                <li className='font-semibold'>🔥 Start Earning from Day One</li>
-                                <li>Once enrolled, you’ll be equipped to promote LearnNova’s high-impact e-learning solutions to private school owners — and <span className='font-semibold'>earn a 17.85% commission</span> on every successful referral.</li>
+                                <li className='italic font-semibold'>...Build real skills. Earn real income. Launch your school consulting career with confidence...</li>
+                                <li>Kick-start your journey with a <span className='font-semibold'>one-time, non-refundable fee of ₦99,999</span> and gain <span className='font-semibold'>immediate access to Module 1</span> of our expert-led training and mentorship program.</li>
+                                <li className='font-semibold'>
+                                    <p className='font-semibold' style={{fontSize: '1em'}}>🔥 Start Earning From Day One</p>
+                                    <p></p>
+                                </li>
+                                <li>As soon as you enrol, you’ll be equipped to promote LearnNova’s impactful e-learning solutions to private school owners — and earn a <span className='font-semibold'>17.85% commission</span> on every successful referral.</li>
                                 <li className='font-semibold'>🔓 How to Unlock Full Access — Without Paying More</li>
                                 <li>✅ Earn up to <span className='font-semibold'>₦200,000 in referral commissions</span> (from just 5–8 successful school signups) and get <span className='font-semibold'>FREE access to Modules 2 through 8</span> — no extra payment required.</li>
                                 <li>🎁 <span className='font-semibold'>Bonus:</span> Access <span className='font-semibold'>Module 9 at no cost</span> if you complete the first 8 modules within <span className='font-semibold'>4 months</span> of your enrolment.</li>
