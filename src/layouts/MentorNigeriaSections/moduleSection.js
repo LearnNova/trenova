@@ -380,34 +380,37 @@ const ModuleSection = () => {
                         <div className='apply-now-get-started'><a href='#application-form-section'> <span className='highlighter'>👉 Apply Now</span> to Get Started!</a> </div>
 
                         <div className='line-breaker'></div>
-
-                        <div className='module-text-box'>
-                            <h1 className='highlighter'>🎁 Bonus Features & Post-Training Support</h1>
-                            <ul className='list-none module-text-box__list-box'>
-                                <li>✅ “Services School Consultants and Mentors Get Paid For” Masterclass</li>
-                                <li>✅ Consultant and Mentor Resource Library</li>
-                                <li>✅ Weekly Live Q\A & Mentoring Sessions</li>
-                                <li>✅ Private WhatsApp Support Group</li>
-                                <li>✅ Immediate Income Kickstart Blueprint</li>
-                                <li>✅ Certificate of Completion</li>
-                                <li>✅ Featured Listing in the MentorNigeria School Consultant Directory</li>
-                            </ul>
-                        </div>
-
-                        <div className='module-text-box'>
-                            <p className='my-5'>✅ Ready to Start or Scale Your Consulting Career?</p>
-                            <p className='font-semibold italic mb-5'>Join the MentorNigeria School Consulting and Mentorship Program today and become part of a movement empowering schools across Nigeria and Africa.</p>
-                            <p className='font-semibold'>🔐 Learn. Get Mentored. Earn.</p>
-                        </div>
                     </>
                 )
             }
+
             <div 
-                className='inline-block mx-auto text-center mt-3 mb-6 underline cursor-pointer font-medium text-[#FA8806]'
+                className='inline-block mx-auto mt-3 mb-6 underline cursor-pointer font-medium text-[#FA8806]'
                 style={{fontSize: '0.35em'}}
                 onClick={()=>setShowProgramCurriculum(prev => !prev)}
             >
                 👉 {showProgramCurriculum ? 'Click Here to Hide Program Curriculum' : 'Click Here to Show Program Curriculum'}
+            </div>
+
+            <div className='line-breaker'></div>
+
+            <div className='module-text-box'>
+                <h1 className='highlighter'>🎁 Bonus Features & Post-Training Support</h1>
+                <ul className='list-none module-text-box__list-box'>
+                    <li>✅ “Services School Consultants and Mentors Get Paid For” Masterclass</li>
+                    <li>✅ Consultant and Mentor Resource Library</li>
+                    <li>✅ Weekly Live Q\A & Mentoring Sessions</li>
+                    <li>✅ Private WhatsApp Support Group</li>
+                    <li>✅ Immediate Income Kickstart Blueprint</li>
+                    <li>✅ Certificate of Completion</li>
+                    <li>✅ Featured Listing in the MentorNigeria School Consultant Directory</li>
+                </ul>
+            </div>
+
+            <div className='module-text-box'>
+                <p className='my-5'>✅ Ready to Start or Scale Your Consulting Career?</p>
+                <p className='font-semibold italic mb-5'>Join the MentorNigeria School Consulting and Mentorship Program today and become part of a movement empowering schools across Nigeria and Africa.</p>
+                <p className='font-semibold'>🔐 Learn. Get Mentored. Earn.</p>
             </div>
 
             <div className='apply-now-get-started'><a href='#application-form-section'>📩 [ENROLL NOW]</a></div>
