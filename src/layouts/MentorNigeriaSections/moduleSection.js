@@ -9,19 +9,16 @@ const ModuleSection = () => {
   return (
     <div>
         <div className='module-section-wrapper'>
-            <div style={{fontSize: '0.4em'}} className='text-left'>
-                <p className='font-semibold' style={{fontSize: '0.45em'}}>Training Venue:</p>
-                <div className='text-inherit'>
-                    <span className='block'>Attend the training live at TreNova Training Centre,</span>
-                    <span className='block'>7B Ogunsiji Close, Off Ogunmodede Street, Behind GTBank, Allen, Ikeja</span>
-                    <span className='block font-semibold'>— OR Join Virtually from Anywhere.</span>
-                </div>
+            <div style={{fontSize: '0.35em'}} className='text-left'>
+                <p className='text-inherit font-semibold text-[#FA8806]'>Training Venue:</p>
+                <p className='text-inherit'>Attend the training live at TreNova Training Centre, 7B Ogunsiji Close, Off Ogunmodede Street, Behind GTBank, Allen, Ikeja</p>
+                <p className='font-semibold text-inherit'>— OR Join Virtually from Anywhere.</p>
             </div>
             <div className='line-breaker'></div>
             {
                 showProgramCurriculum && (
                     <>
-                        <div className='module-title'>📘 Program Curriculum</div>
+                        <div className='module-title mt-3'>📘 Program Curriculum</div>
 
                         <div className='module-row'>
                             <div className='module-info'>
@@ -407,7 +404,7 @@ const ModuleSection = () => {
             }
             <div 
                 className='inline-block mx-auto text-center mt-3 mb-6 underline cursor-pointer font-medium text-[#FA8806]'
-                style={{fontSize: '0.4em'}}
+                style={{fontSize: '0.35em'}}
                 onClick={()=>setShowProgramCurriculum(prev => !prev)}
             >
                 👉 {showProgramCurriculum ? 'Click Here to Hide Program Curriculum' : 'Click Here to Show Program Curriculum'}
