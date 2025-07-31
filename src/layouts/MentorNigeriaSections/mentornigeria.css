@@ -274,7 +274,7 @@ html {
   width: 100%;
 }
 
-#application-form-container {
+.application-form-container {
   position: relative;
   text-align: center;
   font-size: 4em;

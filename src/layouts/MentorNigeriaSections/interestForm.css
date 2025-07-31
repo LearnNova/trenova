@@ -1,15 +1,14 @@
-#application-form-section {
-    position: relative;
-    text-align: center;
-    font-size: 4em;
-    background-color: var(--pri-clr);
-    color: var(--secondary-clr);
-    border: 1px solid var(--pri-clr);
-    font-family: var(--font-family-pri);
-    padding: .3em 0;
-    z-index: 1000;
-    
-  }
+.application-form-container {
+  position: relative;
+  text-align: center;
+  font-size: 4em;
+  background-color: var(--pri-clr);
+  color: var(--secondary-clr);
+  border: 1px solid var(--pri-clr);
+  font-family: var(--font-family-sec);
+  padding: .3em 0;
+  z-index: 1000;
+}
   
   .interest-application-form-title {
     font-size: .4em;
