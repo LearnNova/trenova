@@ -25,15 +25,15 @@ const ProgramSection = () => {
                             <ul className='mt-3 space-y-5 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li className='italic font-semibold'>Invest in Mastery. Advance at Your Own Pace.</li>
                                 <li>Prefer a flexible, pay-as-you-go model? With the Direct Payment Plan, you can enroll in individual modules for just <span className='font-semibold'>₦79,999</span> each and move through the program on your schedule.</li>
-                                <li className='font-semibold'>💼 Best Value: Get the Full Program for ₦499,999 (One-Time Payment)</li>
+                                <li className='font-semibold'>💼 <span className='text-[#FA8806]'>Best Value:</span> Get the Full Program for ₦499,999 (One-Time Payment)</li>
                                 <li>Go all in with our full-access bundle — ideal for professionals ready to commit and accelerate.</li>
-                                <li className='font-semibold'>With this single investment, you’ll unlock:</li>
+                                <li className='font-semibold text-[#FA8806]'>With this single investment, you’ll unlock:</li>
                                 <li className='space-y-3'>
                                     <p style={{fontSize: '1em'}}>✅ Full access to <span className='font-semibold'>Modules 1–9</span> (Save <span className='font-semibold'>₦219,990</span> vs. paying per module)</p>
                                     <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>BONUS:</span> Free access to advanced consulting tools, growth strategies, and post-training support</p>
                                     <p style={{fontSize: '1em'}}>✅ <span className='font-semibold'>Priority support</span> and exclusive <span className='font-semibold'>alumni benefits</span></p>
                                 </li>
-                                <li className='font-semibold'>💡 Who Is This For?</li>
+                                <li className='font-semibold text-[#FA8806]'>💡 Who Is This For?</li>
                                 <li>This premium package is perfect for action-takers who want to:</li>
                                 <li className='space-y-2'>
                                     <p style={{fontSize: '1em'}}>✔ Fast-track their learning journey</p>
@@ -44,12 +44,12 @@ const ProgramSection = () => {
                             </ul>
 
                             <div className='mt-4 space-y-4'>
-                                <p className='font-semibold' style={{fontSize: '1em'}}>📈 Accelerate Your Growth. Own Your Success.</p>
+                                <p className='font-semibold text-[#FA8806]' style={{fontSize: '1em'}}>📈 Accelerate Your Growth. Own Your Success.</p>
                                 <p style={{fontSize: '1em'}}>Whether you prefer to pace yourself or go all-in from the start, this plan gives you full control over your learning and earning journey — backed by expert mentorship, proven tools, and a powerful network.</p>
                             </div>
 
                             <div className='mt-4'>
-                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>👉 Ready to take the leap?</span> Enrol now and begin your journey to mastery in school consulting, growth mentorship, and coaching.</a></p>
+                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold text-[#FA8806]'>👉 Ready to take the leap?</span> Enrol now and begin your journey to mastery in school consulting, growth mentorship, and coaching.</a></p>
                             </div>
                         </>
                     )}
@@ -68,14 +68,14 @@ const ProgramSection = () => {
                         <>
                             <ul className='mt-3 space-y-4 module-text-box__list-box-inner-box' style={{listStyleType: 'none'}}>
                                 <li className='italic font-semibold'>Ideal for Education Leaders Ready to Scale Their Schools and Expand Their Influence Through Consulting and Mentorship</li>
-                                <li>🔹 <span className='font-semibold'>Registration Fee:</span> ₦99,999</li>
+                                <li>🔹 <span className='font-semibold text-[#FA8806]'>Registration Fee:</span> ₦99,999</li>
                                 <li>Begin your transformation journey with the <span className='font-semibold'>installation of the LearnNova School Learning Support Studio</span> on your school’s desktop or laptop, including a <span className='font-semibold'>one-term usage license</span>, plus full access to <span className='font-semibold'>Module 1</span> of the <span className='font-semibold'>MentorNigeria School Consulting Training & Mentorship Program</span>.</li>
-                                <li className='font-semibold'>🔄 What’s Next:</li>
+                                <li className='font-semibold text-[#FA8806]'>🔄 What’s Next:</li>
                                 <li>
                                     <p style={{fontSize: '1em'}}>🔹 <span className='font-semibold'>Refer 2 schools</span> to LearnNova Learning Support Program to unlock <span className='font-semibold'>Modules 2–5</span> of the school consulting training and mentorship program.</p>
                                     <p style={{fontSize: '1em'}}>🔹 <span className='font-semibold'> Refer 2 additional schools</span> to unlock <span className='font-semibold'>Modules 6–9</span> and complete your journey.</p>
                                 </li>
-                                <li className='font-semibold'>🎓 What You’ll Receive</li>
+                                <li className='font-semibold text-[#FA8806]'>🎓 What You’ll Receive</li>
                                 <li>
                                     <ol className='list-decimal space-y-5 pl-4' style={{fontSize: '1em', listStyleType: 'decimal'}}>
                                         <li className='text-inherit'>
@@ -84,7 +84,7 @@ const ProgramSection = () => {
                                                 <div className='text-inherit my-3 space-y-4'>
                                                     <p>An all-in-one multimedia solution designed to support teachers, engage students, and increase school profitability.</p>
                                                     <div className='text-inherit'>
-                                                        <p className='font-semibold'>Key Benefits:</p>
+                                                        <p className='font-semibold text-[#FA8806]'>Key Benefits:</p>
                                                         <ul className='list-none space-y-1'>
                                                             <li>✅ Improved academic outcomes</li>
                                                             <li>✅ Boost in enrolment and revenue</li>
@@ -92,7 +92,7 @@ const ProgramSection = () => {
                                                         </ul>
                                                     </div>
                                                     <div className='text-inherit'>
-                                                        <p className='font-semibold'>Included Learning Resources:</p>
+                                                        <p className='font-semibold text-[#FA8806]'>Included Learning Resources:</p>
                                                         <ul className='list-none space-y-1'>
                                                             <li><span className='font-semibold'>✔ Digital Reading Library (KG1 – SSS3):</span> 750+ carefully curated books to build a strong reading culture</li>
                                                             <li><span className='font-semibold'>✔ Creative Life Skills Courses (Ages 3–15):</span> 50+ engaging, hands-on modules</li>
@@ -101,7 +101,7 @@ const ProgramSection = () => {
                                                         </ul>
                                                     </div>
                                                     <div className='text-inherit'>
-                                                        <p className='font-semibold'>Bonus Features:</p>
+                                                        <p className='font-semibold text-[#FA8806]'>Bonus Features:</p>
                                                         <ul className='list-disc' style={{listStyleType: 'disc'}}>
                                                             <li>Full offline access post-installation</li>
                                                             <li>Easy-to-use interface for teachers and students</li>
@@ -118,7 +118,7 @@ const ProgramSection = () => {
                                                 <div className='text-inherit my-3 space-y-4'>
                                                     <p>Become a certified <span className='font-semibold'>School Growth Mentor and Coach</span> through our expert-led, practical curriculum designed for real-world results.</p>
                                                     <div className='text-inherit'>
-                                                        <p className='font-semibold'>Training Modules Include:</p>
+                                                        <p className='font-semibold text-[#FA8806]'>Training Modules Include:</p>
                                                         <ul className='list-none space-y-1'>
                                                             <li><span className='font-semibold'>✅ Modules 1–2:</span> Foundations of School Growth & Starting/Reviving a School</li>
                                                             <li><span className='font-semibold'>✅ Modules 3–4:</span> School Makeover Techniques & Enrolment Growth Strategies</li>
@@ -136,7 +136,7 @@ const ProgramSection = () => {
                             </ul>
 
                             <div className='mt-4'>
-                                <p style={{fontSize: '1em'}} className='font-semibold'>👉 Are you ready to lead school transformation in your community?</p>
+                                <p style={{fontSize: '1em'}} className='font-semibold text-[#FA8806]'>👉 Are you ready to lead school transformation in your community?</p>
                             </div>
 
                             <div className='mt-4'>
@@ -161,12 +161,12 @@ const ProgramSection = () => {
                                 <li className='italic font-semibold'>...Build real skills. Earn real income. Launch your school consulting career with confidence...</li>
                                 <li>Kick-start your journey with a <span className='font-semibold'>one-time, non-refundable fee of ₦99,999</span> and gain <span className='font-semibold'>immediate access to Module 1</span> of our expert-led training and mentorship program.</li>
                                 <li>
-                                    <p className='font-semibold' style={{fontSize: '1em'}}>🔥 Start Earning From Day One</p>
+                                    <p className='font-semibold text-[#FA8806]' style={{fontSize: '1em'}}>🔥 Start Earning From Day One</p>
                                     <p style={{fontSize: '1em'}}>As soon as you enrol, you’ll be equipped to promote LearnNova’s impactful e-learning solutions to private school owners — and earn a <span className='font-semibold'>17.85% commission</span> on every successful referral.</p>
                                 </li>
                                 <li>✔ Hit <span className='font-semibold'>₦50,000</span> in referral commissions and <span className='font-semibold'>unlock free access to 2</span> impactful school consulting training and mentorship modules - <span className='font-semibold'>absolutely free!</span></li>
                                 <li>
-                                    <p className='font-semibold'>🔓 Unlock Full Training & Mentorship Access — Just by Earning ₦200,000</p>
+                                    <p className='font-semibold'>🔓 <span className='text-[#FA8806]'>Unlock Full Training & Mentorship Access</span> — Just by Earning ₦200,000</p>
                                     <p>No extra payment required.</p>
                                 </li>
                                 <li className='space-y-1'>
@@ -175,7 +175,7 @@ const ProgramSection = () => {
                                     <p style={{fontSize: '1em'}}>✔ Get Instant <span className='font-semibold'>FREE</span> Access to Modules <span className='font-semibold'>2–8</span> when your referrals are confirmed</p>
                                 </li>
                                 <li>
-                                    <p className='font-semibold' style={{fontSize: '1rem'}}>🎁 Bonus Opportunity:</p>
+                                    <p className='font-semibold text-[#FA8806]' style={{fontSize: '1rem'}}>🎁 Bonus Opportunity:</p>
                                     <p style={{fontSize: '1rem'}}>Unlock <span className='font-semibold'>free</span> access to the practicum, exclusive bonus features, and post-training support when you earn access to all <span className='font-semibold'>9 modules within 3 months</span>.</p>
                                 </li>
                             </ul>
@@ -191,7 +191,7 @@ const ProgramSection = () => {
                             </div>
 
                             <div className='mt-4'>
-                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold'>👉 Ready to get started?</span> Enrol today and start building your future in school consulting.</a></p>
+                                <p style={{fontSize: '1em'}}><a href='#application-form-section'><span className='font-semibold text-[#FA8806]'>👉 Ready to get started?</span> Enrol today and start building your future in school consulting.</a></p>
                             </div>
                         </>
                     )}
