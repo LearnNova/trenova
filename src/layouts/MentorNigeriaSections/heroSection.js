@@ -12,7 +12,7 @@ const HeroSection = () => {
             </div>
         </div>
         <div className='hero-sec-info'>
-            <a href='#application-form-section' className='apply-now-get-started'><span className='highlighter'>Apply Now</span> to Get Started!</a>
+            <a href='#application-form-section' className='apply-now-get-started'>👉 <span className='highlighter'>Apply Now</span> to Get Started!</a>
             <div className='line-breaker'></div>
             {/* <div className='section-3'>
                 <span>“…</span>
