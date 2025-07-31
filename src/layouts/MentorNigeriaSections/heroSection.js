@@ -101,6 +101,26 @@ const HeroSection = () => {
             <div className='apply-now-get-started'><a href='#application-form-section'>👉 <span className='highlighter'>Apply Now</span> to Get Started!</a> </div>
             
             <div className='line-breaker'></div>
+            <div className='what-you-learn-title font-bold'>Testimonials</div>
+            <div className='what-you-learn-info'>
+                <p className='mb-3 font-semibold'>
+                    📌Real Stories. Real Impact - What Participants Are Saying
+                </p>
+                <p>Hear directly from those who have taken part in our training and mentorship programs:</p>
+                <p><a href='#linetestimonial' className='highlighter transition duration-200'>👉[View Testimonials]</a></p>
+                {/* <span className='what-you-learn-info-list-container'>
+                    <ul>
+                        <li>School owners and edu-preneurs seeking new income streams</li>
+                        <li>Aspiring school growth consultants</li>
+                        <li>Business consultants transitioning into the education sector</li>
+                        <li>Professionals passionate about transforming school performance and profitability</li>
+                        <li>Ambitious young adults seeking a career with impact</li>
+                    </ul>
+                </span>  */}
+            </div>
+
+            {/* <div className='line-breaker'></div> */}
+
         </div>
         
         <div className='whatsapp-btn-container'>
