@@ -100,8 +100,7 @@ const InterestForm = ({ name }) => {
       }
       
     return (
-      <div>
-          <div id='application-form-container'>
+      <div className='application-form-container'>
               <div className='interest-application-form-title' id='application-form-section'>Complete the Interest Form Below:</div>
               <div>
                   <form id='interest-form' onSubmit={handleSubmit}>
@@ -213,7 +212,6 @@ const InterestForm = ({ name }) => {
                   </form>
               </div>
           </div>
-      </div>
     )
   }
 
