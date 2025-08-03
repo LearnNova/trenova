@@ -101,8 +101,8 @@ const InterestForm = ({ name }) => {
       
     return (
       <div>
-          <div id='application-form-section'>
-              <div className='interest-application-form-title'>Complete the Interest Form Below:</div>
+          <div id='application-form-container'>
+              <div className='interest-application-form-title' id='application-form-section'>Complete the Interest Form Below:</div>
               <div>
                   <form id='interest-form' onSubmit={handleSubmit}>
                       <div className='form-row-main'>
