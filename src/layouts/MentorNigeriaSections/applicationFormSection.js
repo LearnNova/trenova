@@ -110,7 +110,7 @@ const ApplicationFormSection = ({ name }) => {
                             id='firstName'
                             name='firstName'
                             placeholder='Mark'
-                            className='form-control border border-gray-800'
+                            className='form-control'
                             value={firstName}
                             onChange={(e) => {setFirstName(e.target.value)}}
                         />
@@ -123,7 +123,7 @@ const ApplicationFormSection = ({ name }) => {
                             id='lastName'
                             name='lasttName'
                             placeholder='Joe'
-                            className='form-control border border-gray-800'
+                            className='form-control'
                             value={lastName}
                             onChange={(e) => {setLastName(e.target.value)}}
                         />
