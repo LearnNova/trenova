@@ -292,7 +292,7 @@ html {
   margin-bottom: .5em;
 }
 
-#  {
+#application-form  {
   display: flex;
   flex-direction: column;
   align-items: center;
