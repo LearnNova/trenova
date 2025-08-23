@@ -32,6 +32,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+.poppins-family {
+  font-family: var(--font-family-pri);
+}
+
 .yellow-text {
   color: var(--marker-clr-second);
 }

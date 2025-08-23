@@ -13,10 +13,11 @@ const SchoolGrowth = () => {
         <div className='school-growth-section'>
             <div className='main-section'>
                 <div className='title-container' style={{backgroundColor: '#4151E5'}}>
-                    <div><h1 className='bold' style={{color: '#ffffff'}}>Subscribe to the LearnNova Learning Support System and Unlock These Exclusive <span className='bold yellow-text'>Benefits:</span></h1></div>
+                    <div><h1 className='bold' style={{color: '#ffffff'}}>🚀 Transform Your School with the LearnNova Learning Support System</h1></div>
+                    <div><h1 className='bold' style={{color: '#ffffff'}}>Subscribe today and access powerful tools, premium learning content, and expert mentorship—designed to improve academic results, increase revenue, and drive long-term growth for your school.</h1></div>
                 </div>
                 <div className='text-body-container'>
-                    <p></p>
+                    
                     <div className='text-body'>
                         <ul className='space-y-4'>
                             <li>
@@ -135,20 +136,11 @@ const SchoolGrowth = () => {
 
         <InterestForm name={name} />
 
-        {/* <h1 className='mx-auto deep-purple font-bold mb-3'>📞 Contact Us to Get Started Today</h1> */}
-
         <div className='contact-section'>
             <div className='contact-body'>
                 <h3 className='font-semibold'>Phone/WhatsApp:</h3>
                 <p className='font-normal'><a href='tel:08023781682'>0802 378 1682</a><a href='tel:07044086794'>0704 408 6794</a><a href='tel:09137819540'>0913 781 9540</a></p>
             </div>
-
-            {/* <div className='contact-body'>
-                <h3 className='font-semibold'>📧 Email:</h3>
-                <p className='mb-3'><a href='mailto:info@learnnova.ng'>info@learnnova.ng</a></p>
-                <h3 className='font-semibold'>🌐 Website:</h3>
-                <p><a href='https://www.learnnova.ng/schoolgrowthsystem/trenova'>www.learnnova.ng/schoolgrowthsystem/trenova</a></p>
-            </div> */}
 
             <div className='contact-body' id='account-details'>
                 <h3 className='font-semibold'>Account Details:</h3>
@@ -157,11 +149,8 @@ const SchoolGrowth = () => {
                 <p>Bank Name: <span className='font-semibold'>Zenith Bank</span></p>
             </div>
 
-        </div>
-
-        
+        </div>  
     </section>
-    
   )
 }
 

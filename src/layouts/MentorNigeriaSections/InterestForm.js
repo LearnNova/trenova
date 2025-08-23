@@ -3,26 +3,17 @@ import './interestForm.css';
 
 const pricingPlans = [
     {
-        name: 'Plan 1',
-        value: 'Plan 1',
+        name: 'Basic',
+        value: 'basicPlan',
     },
     {
-        name: 'Plan 2',
-        value: 'Plan 2',
+        name: 'Premium',
+        value: 'premiumPlan',
     },
     {
-        name: 'Plan 3',
-        value: 'Plan 3',
+        name: 'Lifetime',
+        value: 'lifetimeAccess',
     },
-    {
-        name: 'Plan 4',
-        value: 'Plan 4',
-    },
-    {
-        name: 'Plan 5',
-        value: 'Plan 5',
-    },
-
 ]
 
 const InterestForm = ({ name }) => {
@@ -176,7 +167,7 @@ const InterestForm = ({ name }) => {
                                 className="form-control"
                                 required
                             >
-                                <option value='' disabled>Select a School Pricing Plan</option>
+                                <option value='' disabled>Select a Pricing Plan</option>
                                 {pricingPlans.map((plan) => (
                                 <option key={plan.value} value={plan.name}>
                                     {plan.name}

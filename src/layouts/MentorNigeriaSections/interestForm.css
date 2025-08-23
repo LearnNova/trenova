@@ -1,8 +1,8 @@
 .application-form-container {
-  position: relative;
+  /* position: relative; */
   text-align: center;
   font-size: 4em;
-  background-color: var(--pri-clr);
+  /* background-color: var(--pri-clr); */
   color: var(--secondary-clr);
   border: 1px solid var(--pri-clr);
   font-family: var(--font-family-sec);
