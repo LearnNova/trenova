@@ -22,7 +22,7 @@ const SchoolGrowth = () => {
         {/* Hero */}
         <section class="w-full px-2 sm:px-4 py-6" style={{backgroundColor: '#4151E5'}}>
             <h1 class="text-base-8 sm:text-xl font-bold leading-tight italic" style={{color: '#f6fa06'}}>🚀 Transform Your School with the LearnNova Learning Support System</h1>
-            <p class="mt-2 text-3xl sm:text-5xl md:text-13xl text-white font-bold">
+            <p class="mt-2 text-3xl sm:text-5xl md:text-13xl text-white font-semibold">
                 Subscribe today and access powerful tools, premium learning content, and expert mentorship - designed to improve academic results, increase revenue, and drive long-term growth for your school.
             </p>
         </section>
@@ -119,7 +119,7 @@ const SchoolGrowth = () => {
                                                 <td class="p-2 border border-gray-200">₦79,999 / term</td>
                                                 <td class="p-2 border border-gray-200">
                                                     <ul className='list-disc pl-6 space-y-1'>
-                                                        <li>Access for 50 pupils/students on the Home Learning App</li>
+                                                        <li>Access for 35 pupils/students on the Home Learning App</li>
                                                         <li>Receive a one-time 15% commission on each successful referral</li>
                                                     </ul>
                                                 </td>
@@ -133,7 +133,7 @@ const SchoolGrowth = () => {
                                                 <td class="p-2 border border-gray-200">₦149,999 / term</td>
                                                 <td class="p-2 border border-gray-200">
                                                     <ul className='list-disc pl-6 space-y-1'>
-                                                        <li>Access for 100 pupils/students on the Home Learning App</li>
+                                                        <li>Access for 70 pupils/students on the Home Learning App</li>
                                                         <li>Access to Virtual School Growth Mentorship & Coaching Class</li>
                                                         <li>Receive a one-time 20% commission on each successful referral</li>
                                                     </ul>
@@ -200,7 +200,7 @@ const SchoolGrowth = () => {
             <InterestForm name={name} />
         )}
 
-        <section className={`${showForm ? 'pt-6' : 'pt-2'} w-full px-4 pb-6 text-white bg-gray-800 flex flex-col sm:flex-row items-start justify-between gap-y-6`}>
+        <section className="w-full px-4 py-6 text-white bg-gray-800 flex flex-col sm:flex-row items-start justify-between gap-y-6">
             <div>
                 <h1 className='text-xl font-semibold mb-2 underline'>Contact Info:</h1>
                 <ul className='list-none list-inside space-y-1.5'>
