@@ -20,7 +20,7 @@ const SchoolGrowth = () => {
   return (
     <section className='bg-gray-50 text-gray-900 poppins-family text-lg relative'>
         {/* Hero */}
-        <section class="w-full px-2 sm:px-4 py-6" style={{backgroundColor: '#4151E5'}}>
+        <section class="w-full px-2 sm:px-4 py-6 text-center" style={{backgroundColor: '#4151E5'}}>
             <p class="text-base-8 sm:text-xl font-bold leading-tight italic" style={{color: '#f6fa06'}}>🚀 Transform Your School with the LearnNova Learning Support System</p>
             <h1 class="mt-2 text-11xl md:text-13xl text-white font-bold" style={{lineHeight: '45px'}}>
                 Subscribe today and access powerful tools, premium learning content, and expert mentorship - designed to improve academic results, increase revenue, and drive long-term growth for your school.
