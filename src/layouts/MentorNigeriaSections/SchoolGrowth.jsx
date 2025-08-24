@@ -157,7 +157,7 @@ const SchoolGrowth = () => {
                                             </tr>
                                             <tr>
                                                 <td class="p-2 border border-gray-200">Lifetime Unlimited Access to 1 Subject on the Platform</td>
-                                                <td class="p-2 border border-gray-200">A one-time investment of ₦450,000 is required. From the 5th term onward, a recurring fee of ₦25,000 per term applies for server operations, system upkeep, and continued support services</td>
+                                                <td class="p-2 border border-gray-200">A one-time investment of ₦500,000 is required. From the 5th term onward, a recurring fee of ₦25,000 per term applies for server operations, system upkeep, and continued support services</td>
                                             </tr>
                                         </tbody>
                                     </table>
