@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-// import './schoolgrowth.css';
+import React, { useRef, useState } from 'react';
+import './schoolgrowthmain.css';
 // import trenova_logo from '../../assets/img/mentornigeria/trenova-logo.png';
 import InterestForm from './InterestForm';
 import { useParams } from 'react-router-dom';
@@ -9,6 +9,14 @@ import { useParams } from 'react-router-dom';
 const SchoolGrowth = () => {
   const { name } = useParams();
   const [ showForm, setShowForm ] = useState(false);
+  const accountInfo = useRef();
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(accountInfo.current.innerText)
+        .then(() => alert('Account information copied to clipboard!'))
+        .catch(() => alert('Failed to copy'));
+    };
+
   return (
     <section className='bg-gray-50 text-gray-900 poppins-family text-lg relative'>
         {/* Hero */}
@@ -132,13 +140,13 @@ const SchoolGrowth = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-2 border border-gray-200">
+                                                <td class="p-2 border border-gray-200" rowSpan={2}>
                                                     <p className='font-semibold'>Lifetime 🏆</p>
                                                     <p className='italic'>Best Value</p>
                                                 </td>
                                                 <td class="p-2 border border-gray-200">Lifetime Unlimited Access to All Subjects on the Platform</td>
                                                 <td class="p-2 border border-gray-200">A one-time investment of ₦1,000,000 is required. From the 5th term onward, a recurring fee of ₦25,000 per term applies for server operations, system upkeep, and continued support services</td>
-                                                <td class="p-2 border border-gray-200">
+                                                <td class="p-2 border border-gray-200" rowSpan={2}>
                                                     <ul className='list-disc pl-6 space-y-1'>
                                                         <li>Access for 200 pupils/students on the Home Learning App</li>
                                                         <li>Access to Virtual School Growth Mentorship & Coaching Class</li>
@@ -146,6 +154,10 @@ const SchoolGrowth = () => {
                                                         <li>Suggest a new subject for LearnNova to develop</li>
                                                     </ul>
                                                 </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-2 border border-gray-200">Lifetime Unlimited Access to 1 Subject on the Platform</td>
+                                                <td class="p-2 border border-gray-200">A one-time investment of ₦450,000 is required. From the 5th term onward, a recurring fee of ₦25,000 per term applies for server operations, system upkeep, and continued support services</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -158,10 +170,10 @@ const SchoolGrowth = () => {
         </section>
 
         {/* Extras */}
-        <section class="max-w-6xl mx-auto px-1 sm:px-4 py-6">
-            <div class="bg-white border border-gray-800 rounded-xl px-2 sm:px-6 py-6 shadow-md">
-                <h3 class="text-xl font-semibold">✅ Extra Benefits</h3>
-                <ul class="mt-4 list-disc pl-6 text-black space-y-1">
+        <section className="max-w-6xl mx-auto px-1 sm:px-4 py-6">
+            <div className="bg-white border border-gray-800 rounded-xl px-2 sm:px-6 py-6 shadow-md">
+                <h3 className="text-xl font-semibold">✅ Extra Benefits</h3>
+                <ul className="mt-4 list-disc pl-6 text-black space-y-1">
                     <li><span className='font-semibold'>Offline Access</span> – works without data after initial setup</li>
                     <li><span className='font-semibold'>Growth Tools</span> – school growth forms & printable guides included</li>
                     <li><span className='font-semibold'>User-Friendly</span> – simple, intuitive platform for teachers and students</li>
@@ -171,12 +183,12 @@ const SchoolGrowth = () => {
         </section>
 
         {/* CTA */}
-        <section class="w-full px-2 sm:px-4 mt-6 py-6 text-center bg-gray-800">
-            <h3 class="text-xl font-bold text-white">🚀 Ready to Scale Learning, Boost Revenue & Make a Lasting Impact?</h3>
-            <p class="mt-2 italic font-medium underline" style={{color: '#f6fa06'}}>👉 Are you interested, Pick a Plan and Click the Button below to See and Fill the Form Below</p>
-            <div class="mt-6 flex flex-col sm:flex-row justify-center gap-3">
+        <section className={`${showForm && 'pb-6'} w-full px-2 sm:px-4 mt-6 pt-6 text-center bg-gray-800`}>
+            <h3 className="text-xl font-bold text-white">🚀 Ready to Scale Learning, Boost Revenue & Make a Lasting Impact?</h3>
+            <p className="mt-2 italic font-medium underline" style={{color: '#f6fa06'}}>👉 Are you interested, Pick a Plan and Click the Button below to See and Fill the Form Below</p>
+            <div className="mt-6 flex flex-col sm:flex-row justify-center gap-3">
                 <button 
-                    class="px-6 py-3 bg-gray-900 text-white border border-white rounded-xl shadow hover:bg-white hover:text-gray-900"
+                    className="px-6 py-3 bg-gray-900 text-white border border-white rounded-xl shadow hover:bg-white hover:text-gray-900"
                     onClick={()=>setShowForm(prev => !prev)}
                 >
                     {showForm ? 'Hide Form Below' : 'Show Form Below'}
@@ -188,15 +200,32 @@ const SchoolGrowth = () => {
             <InterestForm name={name} />
         )}
 
-        {/* <section class="w-full px-2 sm:px-4 py-6 text-white bg-gray-800 flex items-center justify-between">
+        <section className={`${showForm ? 'pt-6' : 'pt-2'} w-full px-4 pb-6 text-white bg-gray-800 flex flex-col sm:flex-row items-start justify-between gap-y-6`}>
             <div>
-                <h1>Contact Info:</h1>
-                <ul className=''>
-
+                <h1 className='text-xl font-semibold mb-2 underline'>Contact Info:</h1>
+                <ul className='list-none list-inside space-y-1.5'>
+                    <li><a href="tel:07044086794" class="hover:font-semibold hover:text-[#f6fa06] transition duration-200"><span class="font-semibold">📞 Corporate:</span> 0704 408 6794</a></li>
+                    <li><a href="tel:07030148694" class="hover:font-semibold hover:text-[#f6fa06] transition duration-200"><span class="font-semibold">📞 Brenda:</span> 0703 014 8694</a></li>
+                    <li><a href="tel:07019298464" class="hover:font-semibold hover:text-[#f6fa06] transition duration-200"><span class="font-semibold">📞 Abiola:</span> 0701 929 8464</a></li>
+                    
                 </ul>
             </div>
-            <div></div>
-        </section> */}
+
+            <div>
+                <h1 className='text-xl font-semibold mb-2 underline'>Account Info:</h1>
+                <ul className='list-none list-inside space-y-1.5' ref={accountInfo}>
+                    <li>Account Name: <strong>Trenova Ltd</strong></li>
+                    <li>Account Number: <strong>1015524196</strong></li>
+                    <li>Bank Name: <strong>Zenith Bank</strong></li>
+                </ul>
+                <button 
+                    className="mt-2 text-base-8 px-4 py-2 bg-gray-900 text-white border border-white rounded-xl shadow hover:bg-white hover:text-gray-900"
+                    onClick={copyToClipboard}
+                >
+                    Copy to Clipboard
+                </button>
+            </div>
+        </section>
     </section>
   )
 }
