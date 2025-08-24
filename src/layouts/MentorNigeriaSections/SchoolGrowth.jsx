@@ -191,7 +191,7 @@ const SchoolGrowth = () => {
                     className="px-6 py-3 bg-gray-900 text-white border border-white rounded-xl shadow hover:bg-white hover:text-gray-900"
                     onClick={()=>setShowForm(prev => !prev)}
                 >
-                    {showForm ? 'Hide Form Below' : 'Show Form Below'}
+                    {showForm ? 'Hide Form' : 'Enrol Now'}
                 </button>
             </div>
         </section>
