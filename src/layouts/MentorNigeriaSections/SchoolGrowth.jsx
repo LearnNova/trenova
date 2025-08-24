@@ -21,10 +21,10 @@ const SchoolGrowth = () => {
     <section className='bg-gray-50 text-gray-900 poppins-family text-lg relative'>
         {/* Hero */}
         <section class="w-full px-2 sm:px-4 py-6" style={{backgroundColor: '#4151E5'}}>
-            <h1 class="text-base-8 sm:text-xl font-bold leading-tight italic" style={{color: '#f6fa06'}}>🚀 Transform Your School with the LearnNova Learning Support System</h1>
-            <p class="mt-2 text-3xl sm:text-5xl md:text-13xl text-white font-semibold">
+            <p class="text-base-8 sm:text-xl font-bold leading-tight italic" style={{color: '#f6fa06'}}>🚀 Transform Your School with the LearnNova Learning Support System</p>
+            <h1 class="mt-2 text-11xl md:text-13xl text-white font-bold" style={{lineHeight: '45px'}}>
                 Subscribe today and access powerful tools, premium learning content, and expert mentorship - designed to improve academic results, increase revenue, and drive long-term growth for your school.
-            </p>
+            </h1>
         </section>
         
         {/* Features  */}
@@ -36,7 +36,7 @@ const SchoolGrowth = () => {
 
                         {/* Feature 1  */}
                         <div>
-                            <h3 class="text-xl font-semibold">1. Classroom Learning Support Studio (School Computer Installation)</h3>
+                            <h3 class="text-xl font-semibold">1. Classroom Learning Support Studio (School Computer Installation). Easily accessible on the school's desktop computer or laptop, with the option to project onto a TV screen via HDMI connection</h3>
                             <p class="mt-2 text-black font-medium">A complete digital studio that empowers your school to:</p>
                             <ul class="list-disc pl-6 mt-2 space-y-1 text-black">
                                 <li>Boost student performance</li>
