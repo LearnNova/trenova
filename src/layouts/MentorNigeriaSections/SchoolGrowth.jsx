@@ -140,24 +140,27 @@ const SchoolGrowth = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-2 border border-gray-200" rowSpan={2}>
+                                                <td class="p-2 border border-gray-200">
                                                     <p className='font-semibold'>Lifetime 🏆</p>
                                                     <p className='italic'>Best Value</p>
                                                 </td>
                                                 <td class="p-2 border border-gray-200">Lifetime Unlimited Access to All Subjects on the Platform</td>
-                                                <td class="p-2 border border-gray-200">A one-time investment of ₦1,000,000 is required. From the 5th term onward, a recurring fee of ₦25,000 per term applies for server operations, system upkeep, and continued support services</td>
-                                                <td class="p-2 border border-gray-200" rowSpan={2}>
+                                                <td class="p-2 border border-gray-200 space-y-1">
+                                                  <p>A one-time investment of ₦750,000 is required.</p>
+                                                  <p><span className='font-semibold'>🔹Note:</span> From the <span className='font-semibold'>7th term</span>, a small fee of ₦25,000/term covers platform maintenance, server upkeep, and customer support.</>
+                                                <td class="p-2 border border-gray-200">
                                                     <ul className='list-disc pl-6 space-y-1'>
-                                                        <li>Access for 200 pupils/students on the Home Learning App</li>
-                                                        <li>Access to Virtual School Growth Mentorship & Coaching Class</li>
-                                                        <li>40% referral income every term</li>
-                                                        <li>Suggest a new subject for LearnNova to develop</li>
+                                                        <li>Own It for Life</li>
+                                                        <li>Permanent LearnNova installation on your school’s computer with the opportunity to link the video to your school TV</li>
+                                                        <li>Lifetime access to <span className='font-semibold'>4 subjects</span> for <span className='font-semibold'>200 pupils/ students</span> on the Home Learning App (Android, iOS, desktop / laptop)</li>
+                                                        <li><span className='font-semibold'>Earn Without Limits</span>Set your <span className='font-semibold'>school’s learner fees</span> each term and keep <span className='font-semibold'>100%</span> of the income</li>
+                                                        <li>Earn <span className='font-semibold'>up to 40% referral income</span> every term from schools you introduce</li>
+                                                        <li>Upload your own subjects, set your price (for up to 200 allocated learners), and keep <span className='font-semibold'>100% of the earnings</span></li>
+                                                        <li>Collect <span className='font-semibold'>35% royalties</span> whenever other schools use your content.</li>
+                                                        <li><span className='font-semibold'>Potential ROI Example:</span> ₦2,500 school fee + ₦2,500 home fee = ₦5,000 per learner, per term → ₦1m from 200 learners</li>
+                                                      <li>No recurring content costs</li>
                                                     </ul>
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="p-2 border border-gray-200">Lifetime Unlimited Access to 1 Subject on the Platform</td>
-                                                <td class="p-2 border border-gray-200">A one-time investment of ₦500,000 is required. From the 5th term onward, a recurring fee of ₦25,000 per term applies for server operations, system upkeep, and continued support services</td>
                                             </tr>
                                         </tbody>
                                     </table>
