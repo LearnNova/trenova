@@ -147,7 +147,7 @@ const SchoolGrowth = () => {
                                                 <td class="p-2 border border-gray-200">Lifetime Unlimited Access to All Subjects on the Platform</td>
                                                 <td class="p-2 border border-gray-200 space-y-1">
                                                   <p>A one-time investment of ₦750,000 is required.</p>
-                                                  <p><span className='font-semibold'>🔹Note:</span> From the <span className='font-semibold'>7th term</span>, a small fee of ₦25,000/term covers platform maintenance, server upkeep, and customer support.</>
+                                                  <p><span className='font-semibold'>🔹Note:</span> From the <span className='font-semibold'>7th term</span>, a small fee of ₦25,000/term covers platform maintenance, server upkeep, and customer support.</p>
                                                 <td class="p-2 border border-gray-200">
                                                     <ul className='list-disc pl-6 space-y-1'>
                                                         <li>Own It for Life</li>
