@@ -20,9 +20,9 @@ const SchoolGrowth = () => {
   return (
     <section className='bg-gray-50 text-gray-900 poppins-family text-lg relative'>
         {/* Hero */}
-        <section class="w-full px-2 sm:px-4 py-6 text-center" style={{backgroundColor: '#4151E5'}}>
-            <p class="text-base-8 sm:text-xl font-bold leading-tight italic" style={{color: '#f6fa06'}}>🚀 Transform Your School with the LearnNova Learning Support System</p>
-            <h1 class="mt-2 text-11xl md:text-13xl text-white font-bold" style={{lineHeight: '45px'}}>
+        <section className="w-full px-2 sm:px-4 py-6 text-center" style={{backgroundColor: '#4151E5'}}>
+            <p className="text-base-8 sm:text-xl font-bold leading-tight italic" style={{color: '#f6fa06'}}>🚀 Transform Your School with the LearnNova Learning Support System</p>
+            <h1 className="mt-2 text-11xl md:text-13xl text-white font-bold" style={{lineHeight: '45px'}}>
                 Subscribe today and access powerful tools, premium learning content, and expert mentorship - designed to improve academic results, increase revenue, and drive long-term growth for your school.
             </h1>
         </section>
@@ -30,9 +30,9 @@ const SchoolGrowth = () => {
         {/* Features  */}
         <section className='max-w-6xl mx-auto px-1 sm:px-4 py-8 space-y-10'>
             <div className='bg-white shadow-md rounded-xl px-2 sm:px-6 py-6'>
-                    <h2 class="text-3xl font-semibold">✅ What’s Included</h2>
+                    <h2 className="text-3xl font-semibold">✅ What’s Included</h2>
 
-                    <div class="mt-6 space-y-10">
+                    <div className="mt-6 space-y-10">
 
                         {/* Feature 1  */}
                         <div>
@@ -148,6 +148,7 @@ const SchoolGrowth = () => {
                                                 <td class="p-2 border border-gray-200 space-y-1">
                                                   <p>A one-time investment of ₦750,000 is required.</p>
                                                   <p><span className='font-semibold'>🔹Note:</span> From the <span className='font-semibold'>7th term</span>, a small fee of ₦25,000/term covers platform maintenance, server upkeep, and customer support.</p>
+                                                </td>
                                                 <td class="p-2 border border-gray-200">
                                                     <ul className='list-disc pl-6 space-y-1'>
                                                         <li>Own It for Life</li>
